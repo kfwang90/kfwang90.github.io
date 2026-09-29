@@ -1,0 +1,46 @@
+<main class="article-main">
+  <div class="container">
+
+    <nav class="crumbs" aria-label="位置">
+      <a href="{{ url_for('/') }}">首页</a>
+      {% if page.categories %}
+      {% for cat in page.categories.toArray() %}
+      <span class="sep">/</span>
+      <a href="{{ url_for(cat.path) }}">{{ cat.name }}</a>
+      {% endfor %}
+      {% endif %}
+      <span class="sep">/</span>
+      <span class="cur">{{ page.title }}</span>
+    </nav>
+
+    <article class="post-detail">
+      <div class="post-meta">
+        <span>{{ date(page.date, 'YYYY-MM-DD') }}</span>
+        {% if page.categories %}
+        {% for cat in page.categories.toArray() %}
+        <span><a href="{{ url_for(cat.path) }}">{{ cat.name }}</a></span>
+        {% endfor %}
+        {% endif %}
+        {% if page.minutes %}
+        <span>{{ page.minutes }} min</span>
+        {% endif %}
+      </div>
+
+      <h1>{{ page.title }}</h1>
+
+      {{ page.content | safe }}
+
+      {% if page.tags and page.tags.length %}
+      <div class="post-tags">
+        {% for tag in page.tags.toArray() %}
+        <a class="tag-item" href="{{ url_for(tag.path) }}"># {{ tag.name }}</a>
+        {% endfor %}
+      </div>
+      {% endif %}
+    </article>
+
+    <div class="article-foot">
+      <a class="btn btn-ghost" href="{{ url_for('/') }}#posts">← 返回文章目录</a>
+    </div>
+  </div>
+</main>

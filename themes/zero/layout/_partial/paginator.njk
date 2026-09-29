@@ -1,0 +1,11 @@
+{% if page.total > 1 %}
+<nav class="pager">
+  {% if page.prev %}
+  <a class="pager-link" href="{{ url_for(page.prev_link) }}">← 上一页</a>
+  {% endif %}
+  <span class="pager-cur">{{ page.current }} / {{ page.total }}</span>
+  {% if page.next %}
+  <a class="pager-link" href="{{ url_for(page.next_link) }}">下一页 →</a>
+  {% endif %}
+</nav>
+{% endif %}

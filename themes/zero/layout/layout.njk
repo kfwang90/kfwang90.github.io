@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="{{ page.description or config.description }}">
+<meta name="generator" content="Hexo {{ env.version }}">
+<title>{% if page.title %}{{ page.title }} · 零度の栈{% else %}{{ config.title }}{% endif %}</title>
+<link rel="stylesheet" href="{{ url_for('/css/site.css') }}">
+<link rel="stylesheet" href="{{ url_for('/css/article.css') }}">
+</head>
+<body>
+
+<nav>
+  <div class="container">
+    <a class="logo" href="{{ url_for('/') }}">dev<span class="cursor"></span></a>
+    <button class="menu-toggle" id="menuToggle" aria-label="菜单">☰</button>
+    <div class="nav-links" id="navLinks">
+      {% for item in theme.menu %}
+      <a href="{{ url_for(item.url) }}">{{ item.name }}</a>
+      {% endfor %}
+      <a href="mailto:{{ theme.email }}">联系</a>
+    </div>
+  </div>
+</nav>
+
+{{ body | safe }}
+
+<footer>
+  <div class="container">
+    <div class="social">
+      {% for item in theme.social %}
+      <a href="{{ url_for(item.url) }}">{{ item.name }}</a>
+      {% endfor %}
+    </div>
+    <p>© {{ date(site.time, 'YYYY') }} {{ config.author }} · 由 Hexo {{ env.version }} 驱动 · 素色极简主题</p>
+  </div>
+</footer>
+
+<script src="{{ url_for('/js/site.js') }}" defer></script>
+{% if not is_home() %}
+<button class="to-top" id="toTop" type="button" aria-label="返回顶部">↑</button>
+<script src="{{ url_for('/js/article.js') }}" defer></script>
+{% endif %}
+
+</body>
+</html>

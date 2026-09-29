@@ -144,6 +144,34 @@ nav .container {
 /* ===== 区块通用 ===== */
 section { padding: 72px 0; }
 
+/* 浅色背景区块（标签云等） */
+.section-alt {
+  background: var(--bg-card);
+  border-top: 1px solid var(--border);
+  border-bottom: 1px solid var(--border);
+}
+
+/* ===== 分页 ===== */
+.pager {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 18px;
+  margin-top: 32px;
+  font-family: var(--mono);
+  font-size: 13px;
+}
+.pager-link {
+  color: var(--fg-muted);
+  border: 1px solid var(--border);
+  background: var(--bg-card);
+  border-radius: 6px;
+  padding: 7px 16px;
+  transition: all .2s;
+}
+.pager-link:hover { color: #000; border-color: #c9ced4; }
+.pager-cur { color: var(--fg-muted); }
+
 .sec-head {
   display: flex;
   align-items: baseline;

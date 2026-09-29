@@ -1,0 +1,31 @@
+<main class="archive-main">
+  <div class="container">
+
+    <nav class="crumbs" aria-label="位置">
+      <a href="{{ url_for('/') }}">首页</a>
+      <span class="sep">/</span>
+      {% if page.tag %}
+      <span class="cur">标签 · {{ page.tag }}</span>
+      {% elif page.category %}
+      <span class="cur">分类 · {{ page.category }}</span>
+      {% elif page.year %}
+      <span class="cur">归档 · {{ page.year }}{% if page.month %}-{{ page.month }}{% endif %}</span>
+      {% else %}
+      <span class="cur">文章归档</span>
+      {% endif %}
+    </nav>
+
+    <div class="sec-head">
+      <h2><span class="hash">//</span>{% if page.tag %}标签「{{ page.tag }}」{% elif page.category %}分类「{{ page.category }}」{% elif page.year %}{{ page.year }}{% if page.month %}-{{ page.month }}{% endif %} 归档{% else %}文章归档{% endif %}</h2>
+      <span class="more">共 {{ page.posts.length }} 篇</span>
+    </div>
+
+    <div class="post-list">
+      {% for post in page.posts.toArray() %}
+      {{ partial('_partial/post-card', { post: post }) | safe }}
+      {% endfor %}
+    </div>
+
+    {{ partial('_partial/paginator') | safe }}
+  </div>
+</main>
