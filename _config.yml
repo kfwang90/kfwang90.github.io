@@ -1,0 +1,99 @@
+# ---------------------------------------------------------------
+# 零度の栈 · Hexo 站点配置
+# ---------------------------------------------------------------
+
+# Site
+title: 零度の栈 · IT 博客
+subtitle: '~ /dev/blog $'
+description: 零度的技术博客 - IT 经验、工具、架构与随笔
+keywords:
+  - Linux
+  - Docker
+  - Kubernetes
+  - Ansible
+  - DevOps
+author: Nero
+language: zh-CN
+timezone: Asia/Shanghai
+
+# URL
+url: https://kfwang90.github.io
+root: /
+permalink: posts/:category/:year-:month-:day-:title/
+permalink_defaults:
+  category: uncategorized
+
+# Directory
+source_dir: source
+public_dir: public
+tag_dir: tags
+archive_dir: archives
+category_dir: categories
+code_dir: downloads/code
+i18n_dir: :lang
+skip_render:
+
+# Writing
+new_post_name: :year-:month-:day-:title.md
+default_layout: post
+titlecase: false
+external_link:
+  enable: true
+  field: site
+filename_case: 1
+render_drafts: false
+post_asset_folder: false
+relative_link: false
+future: true
+# 关闭代码高亮，保持原静态站「纯 <pre><code>」的素色排版
+syntax_highlighter: false
+
+# Category & Tag
+default_category: uncategorized
+category_map:
+tag_map:
+
+# Metadata elements
+meta_generator: true
+
+# Date / Time format
+date_format: YYYY-MM-DD
+time_format: HH:mm:ss
+updated_option: mtime
+
+# Pagination
+per_page: 10
+pagination_dir: page
+
+# Plugins
+# (插件见 package.json dependencies)
+
+# Deployment（由 .github/workflows/static.yml 在 CI 中执行 hexo generate）
+deploy:
+
+# Theme
+theme: zero
+
+# RSS 订阅（hexo-generator-feed）
+feed:
+  path: atom.xml
+  limit: 20
+  order_by: -date
+
+# 分类 / 标签 / 归档 生成器
+index_generator:
+  path: ''
+  per_page: 10
+  order_by: -date
+
+archive_generator:
+  per_page: 20
+  yearly: true
+  monthly: true
+  daily: false
+
+category_generator:
+  per_page: 10
+
+tag_generator:
+  per_page: 10

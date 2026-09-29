@@ -1,0 +1,55 @@
+# ---------------------------------------------------------------
+# 主题 zero：素色极简主题（由原纯静态站点样式迁移而来）
+# ---------------------------------------------------------------
+
+# 导航（顺序即显示顺序）
+menu:
+  - name: 首页
+    url: /
+  - name: 文章目录
+    url: /#posts
+  - name: 标签
+    url: /#tags
+  - name: 关于
+    url: /#about
+
+# 联系方式
+email: dev@example.com
+
+# Hero 区（仅首页）
+hero:
+  tag: "~ /dev/blog $"
+  name: Nero
+  title: 一名热爱折腾的 IT 工程师
+  desc: 这里是文章总目录，首页只保留索引信息；每篇文章由 Markdown 源文件生成，点击卡片即可进入正文页面阅读。
+
+# 关于区（仅首页）
+about:
+  avatar: N
+  name: Nero
+  role: 全栈工程师
+  lines:
+    - 8 年一线研发经验，关注云原生、自动化运维与工程效率。
+    - 白天写业务，晚上写博客，偶尔维护一些开源小项目。
+
+# 统计数字（仅首页）
+stats:
+  - num: "129"
+    label: 文章
+  - num: "38"
+    label: 开源项目
+  - num: "5"
+    label: 年写作
+  - num: "∞"
+    label: 好奇心
+
+# 页脚社交链接
+social:
+  - name: GitHub
+    url: "#"
+  - name: 掘金
+    url: "#"
+  - name: CSDN
+    url: "#"
+  - name: RSS
+    url: /atom.xml

@@ -1,10 +1,11 @@
 /* ==========================================================================
-   文章页专用样式：正文排版、代码块与复制按钮、返回顶部
-   依赖：assets/css/site.css（主题变量、导航、页脚）
+   文章页 / 归档页样式：正文排版、代码块与复制按钮、标签、返回顶部
+   依赖：/css/site.css（主题变量、导航、卡片、页脚）
    ========================================================================== */
 
 /* ===== 正文容器 ===== */
-.article-main { padding: 36px 0 72px; }
+.article-main,
+.archive-main { padding: 36px 0 72px; }
 
 /* ===== 面包屑（覆盖全局 nav 的吸顶样式） ===== */
 nav.crumbs {
@@ -96,8 +97,9 @@ nav.crumbs .cur { color: var(--fg); }
 .code-copy-btn:hover { color: #000; border-color: #c9ced4; }
 .code-copy-btn.done { opacity: 1; color: #1a7f37; border-color: #1a7f37; }
 
-/* ===== 提示条 ===== */
-.post-note {
+/* ===== 提示条（Markdown 引用块） ===== */
+.post-note,
+.post-detail blockquote {
   font-size: 13.5px;
   color: var(--fg-muted);
   background: var(--bg);
@@ -106,7 +108,11 @@ nav.crumbs .cur { color: var(--fg); }
   border-radius: 0 6px 6px 0;
   margin-bottom: 18px;
 }
-.post-note code { background: var(--bg-card); }
+.post-note code,
+.post-detail blockquote code { background: var(--bg-card); }
+
+/* ===== 文末标签 ===== */
+.post-tags { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 26px; }
 
 /* ===== 底部返回 ===== */
 .article-foot { margin-top: 26px; }
@@ -134,7 +140,8 @@ nav.crumbs .cur { color: var(--fg); }
 
 /* ===== 响应式 ===== */
 @media (max-width: 720px) {
-  .article-main { padding: 24px 0 56px; }
+  .article-main,
+  .archive-main { padding: 24px 0 56px; }
   .post-detail { padding: 22px 16px 26px; }
   .post-detail h1 { font-size: 21px; }
   .code-copy-btn { opacity: 1; }

@@ -1,0 +1,71 @@
+<header class="hero">
+  <div class="container">
+    <span class="tag">{{ theme.hero.tag }}</span>
+    <h1>你好，我是 <span class="accent">{{ theme.hero.name }}</span><br>{{ theme.hero.title }}</h1>
+    <p class="sub">{{ theme.hero.desc }}</p>
+    <div class="hero-actions">
+      <a class="btn" href="#posts">浏览目录</a>
+      <a class="btn btn-ghost" href="#about">关于我</a>
+    </div>
+  </div>
+</header>
+
+<main>
+  <!-- 文章目录 -->
+  <section id="posts">
+    <div class="container">
+      <div class="sec-head">
+        <h2><span class="hash">//</span>文章目录</h2>
+        <span class="more">共 {{ site.posts.length }} 篇 · 已迁移 {{ migrated_count() }} 篇</span>
+      </div>
+
+      <div class="post-list">
+        {% for post in page.posts.toArray() %}
+        {{ partial('_partial/post-card', { post: post }) | safe }}
+        {% endfor %}
+      </div>
+
+      {{ partial('_partial/paginator') | safe }}
+    </div>
+  </section>
+
+  <!-- 标签云 -->
+  <section id="tags" class="section-alt">
+    <div class="container">
+      <div class="sec-head">
+        <h2><span class="hash">//</span>热门标签</h2>
+        <span class="more">{{ site.tags.length }} 个标签</span>
+      </div>
+      <div class="tag-cloud">
+        {% for tag in tag_cloud() %}
+        <a class="tag-item" href="{{ url_for(tag.path) }}">{{ tag.name }} <span class="count">{{ tag.length }}</span></a>
+        {% endfor %}
+      </div>
+    </div>
+  </section>
+
+  <!-- 关于 -->
+  <section id="about">
+    <div class="container">
+      <div class="sec-head">
+        <h2><span class="hash">//</span>关于我</h2>
+      </div>
+      <div class="about-box">
+        <div class="avatar">{{ theme.about.avatar }}</div>
+        <div class="about-text">
+          <p class="title">{{ theme.about.name }} · {{ theme.about.role }}</p>
+          {% for line in theme.about.lines %}
+          <p>{{ line }}</p>
+          {% endfor %}
+          <p>邮箱：<a href="mailto:{{ theme.email }}" style="text-decoration:underline;">{{ theme.email }}</a></p>
+        </div>
+      </div>
+
+      <div class="stats">
+        {% for stat in theme.stats %}
+        <div class="stat"><div class="num">{{ stat.num }}</div><div class="label">{{ stat.label }}</div></div>
+        {% endfor %}
+      </div>
+    </div>
+  </section>
+</main>

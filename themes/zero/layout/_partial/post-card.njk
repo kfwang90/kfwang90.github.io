@@ -1,0 +1,20 @@
+<article class="post-card">
+  <div class="post-meta">
+    <span>{{ date(post.date, 'YYYY-MM-DD') }}</span>
+    {% if post.categories %}
+    {% for cat in post.categories.toArray() %}
+    <span>{{ cat.name }}</span>
+    {% endfor %}
+    {% endif %}
+    {% if post.minutes %}
+    <span>{{ post.minutes }} min</span>
+    {% endif %}
+    {% if post.stub %}
+    <span class="badge-soon">待迁移</span>
+    {% endif %}
+  </div>
+  <h3>{% if post.stub %}<span>{{ post.title }}</span>{% else %}<a href="{{ url_for(post.path) }}">{{ post.title }}</a>{% endif %}</h3>
+  {% if post.description %}
+  <p>{{ post.description }}</p>
+  {% endif %}
+</article>
