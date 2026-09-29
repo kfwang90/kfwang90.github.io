@@ -1,8 +1,6 @@
 ---
 title: Ansible 实战：常用命令速查与 ssh_trust.sh 主机互信脚本分享
 date: 2026-09-29 09:30:00
-categories:
-  - Ansible
 tags:
   - Ansible
   - Linux

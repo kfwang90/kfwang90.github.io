@@ -50,7 +50,12 @@ syntax_highlighter: false
 
 # Category & Tag
 default_category: uncategorized
+# 中文分类名 → URL 片段（分类来自 source/_posts/ 下的一级目录名）
 category_map:
+  开发: dev
+  运维: ops
+  AI: ai
+  软件: soft
 tag_map:
 
 # Metadata elements
