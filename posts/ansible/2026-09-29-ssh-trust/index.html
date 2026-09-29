@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Ansible 常用命令速查，以及基于 expect 的 ssh_trust.sh 主机 SSH 免密互信脚本分享">
+<title>Ansible 实战：常用命令速查与 ssh_trust.sh 主机互信脚本分享 · 零度の栈</title>
+<link rel="stylesheet" href="../../../assets/css/site.css">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<nav>
+  <div class="container">
+    <a class="logo" href="../../../index.html">dev<span class="cursor"></span></a>
+    <button class="menu-toggle" id="menuToggle" aria-label="菜单">☰</button>
+    <div class="nav-links" id="navLinks">
+      <a href="../../../index.html">首页</a>
+      <a href="../../../index.html#posts">文章目录</a>
+      <a href="../../../index.html#tags">标签</a>
+      <a href="../../../index.html#about">关于</a>
+      <a href="mailto:dev@example.com">联系</a>
+    </div>
+  </div>
+</nav>
+
+<main class="article-main">
+  <div class="container">
+
+    <nav class="crumbs" aria-label="位置">
+      <a href="../../../index.html">首页</a>
+      <span class="sep">/</span>
+      <a href="../../../index.html#posts">Ansible</a>
+      <span class="sep">/</span>
+      <span class="cur">ssh_trust.sh 主机互信</span>
+    </nav>
+
+    <article class="post-detail">
+      <div class="post-meta">
+        <span>2026-09-29</span>
+        <span>Ansible</span>
+        <span>8 min</span>
+      </div>
+
+      <h1>Ansible 实战：常用命令速查与 ssh_trust.sh 主机互信脚本分享</h1>
+      <p>这篇笔记汇总日常批量运维中最常用的 Ansible 临时命令（ad-hoc），并分享一个基于 <code>expect</code> 的 SSH 互信脚本 <code>ssh_trust.sh</code>，用来在两台主机之间快速建立免密登录。</p>
+
+      <h2>一、Ansible 常用命令</h2>
+      <p>命令说明：<code>-i</code> 指定 inventory 文件，<code>db</code> / <code>db2</code> 为 inventory 中的主机组，<code>-m</code> 指定模块，<code>-a</code> 传入模块参数，<code>-u</code> 指定远端执行用户。</p>
+      <pre><code>#ansible命令使用
+#批量拷贝
+ansible -i node_accountdb db -m copy -a "src=./.bash_profile dest=/home/postgresql group=postgresql owner=postgresql mode=744"
+
+#批量安装
+ansible -i /root/scripts/node_accountdb db -m shell -u root -a "yum install -y pcs"
+ansible -i /root/scripts/node_accountdb db -m shell -a "yum install -y expect"
+ansible -i /root/scripts/node_accountdb db -m shell -a "systemctl enable pcsd.service"
+ansible -i /root/scripts/node_accountdb db -m shell -a "systemctl start pcsd.service"
+ansible -i /root/scripts/node_accountdb db -m shell -a "echo hacluster | passwd hacluster --stdin"
+
+#批量分发配置文件
+ansible -i node_accountdb db -m copy -a "src=./.bash_profile dest=/root"
+ansible -i node_accountdb db -m shell -a "source /root/.bash_profile"
+ansible -i node_accountdb db -m shell -a "mkdir -p /dbbak/pgsql/archive"
+
+#批量写入 hosts
+ansible -i node_accountdb db2 -m shell -a "echo -e '192.168.137.100 accountdb8m\n192.168.137.101 accountdb8s\n192.168.137.102 accountdb8a' &gt;&gt; /etc/hosts"
+
+#批量执行远端脚本
+ansible -i node db -m shell -a "sh segments.sh"</code></pre>
+      <div class="post-note">常用模块：<code>copy</code> 负责文件分发（<code>src</code> / <code>dest</code> / <code>owner</code> / <code>group</code> / <code>mode</code>）；<code>shell</code> 在远端执行命令，适合安装软件包、启停服务、批量改写配置等场景。</div>
+
+      <h2>二、ssh_trust.sh 主机互信脚本</h2>
+      <p>脚本用 <code>expect</code> 自动应答密码提示，共三步：在远程主机 1 上生成密钥对、把主机 1 的公钥取回本地、再把公钥追加到远程主机 2 的 <code>authorized_keys</code>。</p>
+      <pre><code>#!/bin/bash
+
+if [ "$#" -ne 6 ]
+then 
+echo "useAge: ./$0 host1 user1 passwd1 host2 user2 passwd2"
+exit
+fi
+
+src_host=$1
+src_username=$2
+src_passwd=$3
+
+dst_host=$4
+dst_username=$5
+dst_passwd=$6
+
+#在远程主机1上生成公私钥对
+Keygen()
+{
+expect &lt;&lt; EOF
+
+spawn ssh $src_username@$src_host ssh-keygen -t rsa
+while 1 {
+
+        expect {
+                        "password:" {
+                                        send "$src_passwd\n"
+                        }
+                        "yes/no*" {
+                                        send "yes\n"
+                        }
+                        "Enter file in which to save the key*" {
+                                        send "\n"
+                        }
+                        "Enter passphrase*" {
+                                        send "\n"
+                        }
+                        "Enter same passphrase again:" {
+                                        send "\n"
+                                        }
+
+                        "Overwrite (y/n)" {
+                                        send "n\n"
+                        }
+                        eof {
+                                   exit
+                        }
+
+        }
+}
+EOF
+}
+
+#从远程主机1获取公钥保存到本地
+Get_pub()
+{
+expect &lt;&lt; EOF
+
+spawn scp $src_username@$src_host:~/.ssh/id_rsa.pub /tmp
+expect {
+             "password:" {
+                            send "$src_passwd\n";exp_continue
+                }
+                "yes/no*" {
+                            send "yes\n";exp_continue
+                }
+                eof {
+                                exit
+                }
+}
+EOF
+}
+
+#将公钥的内容附加到远程主机2的authorized_keys
+Put_pub()
+{
+src_pub="$(cat /tmp/id_rsa.pub)"
+expect &lt;&lt; EOF
+spawn ssh $dst_username@$dst_host "chmod 700 ~/.ssh;echo $src_pub &gt;&gt; ~/.ssh/authorized_keys;chmod 600 ~/.ssh/authorized_keys"
+expect {
+            "password:" {
+                        send "$dst_passwd\n";exp_continue
+             }
+            "yes/no*" {
+                        send "yes\n";exp_continue
+             }
+            eof {
+                        exit
+             }
+}
+EOF
+}
+Keygen
+Get_pub
+Put_pub</code></pre>
+      <div class="post-note">用法：<code>./ssh_trust.sh host1 user1 passwd1 host2 user2 passwd2</code>。执行完成后即可从主机 1 免密登录主机 2；脚本依赖远端已安装 <code>expect</code> 与 <code>ssh-keygen</code>。</div>
+
+      <h2>三、小结</h2>
+      <p>批量操作优先交给 Ansible 的 <code>copy</code> 与 <code>shell</code> 模块，跨主机免密则用 <code>ssh_trust.sh</code> 一步搞定，日常运维里能省下大量重复劳动。</p>
+    </article>
+
+    <div class="article-foot">
+      <a class="btn btn-ghost" href="../../../index.html#posts">← 返回文章目录</a>
+    </div>
+  </div>
+</main>
+
+<footer>
+  <div class="container">
+    <div class="social">
+      <a href="#">GitHub</a>
+      <a href="#">掘金</a>
+      <a href="#">CSDN</a>
+      <a href="#">RSS</a>
+    </div>
+    <p>© 2024 Nero · 由纯静态 HTML 驱动 · 素色极简主题</p>
+  </div>
+</footer>
+
+<button class="to-top" id="toTop" type="button" aria-label="返回顶部">↑</button>
+
+<script src="../../../assets/js/site.js" defer></script>
+<script src="js/main.js" defer></script>
+
+</body>
+</html>
