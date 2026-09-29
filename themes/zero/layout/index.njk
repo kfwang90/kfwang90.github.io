@@ -1,8 +1,12 @@
+{% set year_now = date(site.time, 'YYYY') | int %}
+{% set about_years = year_now - theme.about.years_from %}
 <header class="hero">
   <div class="container">
     <span class="tag">{{ theme.hero.tag }}</span>
     <h1>你好，我是 <span class="accent">{{ theme.hero.name }}</span><br>{{ theme.hero.title }}</h1>
+    {% if theme.hero.desc %}
     <p class="sub">{{ theme.hero.desc }}</p>
+    {% endif %}
     <div class="hero-actions">
       <a class="btn" href="#posts">浏览目录</a>
       <a class="btn btn-ghost" href="#about">关于我</a>
@@ -16,7 +20,7 @@
     <div class="container">
       <div class="sec-head">
         <h2><span class="hash">//</span>文章目录</h2>
-        <span class="more">共 {{ site.posts.length }} 篇 · 已迁移 {{ migrated_count() }} 篇</span>
+        <span class="more">共 {{ site.posts.length }} 篇</span>
       </div>
 
       <div class="post-list">
@@ -55,15 +59,26 @@
         <div class="about-text">
           <p class="title">{{ theme.about.name }} · {{ theme.about.role }}</p>
           {% for line in theme.about.lines %}
-          <p>{{ line }}</p>
+          <p>{{ line.replace('{years}', about_years) }}</p>
           {% endfor %}
-          <p>邮箱：<a href="mailto:{{ theme.email }}" style="text-decoration:underline;">{{ theme.email }}</a></p>
         </div>
       </div>
 
+      <!-- 数量与主题配置 stats 一一对应 -->
       <div class="stats">
         {% for stat in theme.stats %}
-        <div class="stat"><div class="num">{{ stat.num }}</div><div class="label">{{ stat.label }}</div></div>
+        <div class="stat">
+          <div class="num">
+            {%- if stat.value == 'posts' -%}
+            {{ site.posts.length }}
+            {%- elif stat.value == 'years' -%}
+            {{ year_now - stat.from + 1 }}
+            {%- else -%}
+            {{ stat.value }}
+            {%- endif -%}
+          </div>
+          <div class="label">{{ stat.label }}</div>
+        </div>
         {% endfor %}
       </div>
     </div>

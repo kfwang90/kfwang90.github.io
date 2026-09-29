@@ -4,5 +4,4 @@ date: {{ date }}
 categories:
 tags:
 description:
-minutes: 5
 ---
