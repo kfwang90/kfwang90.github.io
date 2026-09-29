@@ -6,14 +6,8 @@
     <span>{{ cat.name }}</span>
     {% endfor %}
     {% endif %}
-    {% if post.minutes %}
-    <span>{{ post.minutes }} min</span>
-    {% endif %}
-    {% if post.stub %}
-    <span class="badge-soon">待迁移</span>
-    {% endif %}
   </div>
-  <h3>{% if post.stub %}<span>{{ post.title }}</span>{% else %}<a href="{{ url_for(post.path) }}">{{ post.title }}</a>{% endif %}</h3>
+  <h3><a href="{{ url_for(post.path) }}">{{ post.title }}</a></h3>
   {% if post.description %}
   <p>{{ post.description }}</p>
   {% endif %}

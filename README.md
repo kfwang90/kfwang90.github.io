@@ -26,7 +26,7 @@
 │       ├── js/site.js              # 移动端导航展开 / 收起
 │       └── js/article.js           # 代码块一键复制、返回顶部
 ├── scaffolds/post.md               # `hexo new post` 使用的新文章模板
-├── scripts/helpers.js              # 自定义 helper：tag_cloud()、migrated_count()
+├── scripts/helpers.js              # 自定义 helper：tag_cloud()
 └── .github/workflows/static.yml    # CI：npm ci → hexo generate → 部署到 Pages
 ```
 
@@ -55,12 +55,11 @@ npm run new post "文章标题"   # 新建一篇文章
      - Ansible
      - Linux
    description: 列表页与 meta description 中显示的摘要
-   minutes: 8             # 阅读时长，显示在卡片与文章头部
    ---
    ```
 
 3. 正文用标准 Markdown（围栏代码块、引用块 `>`、二级标题 `##`）
-4. 文章写完后**删除 `stub: true`**（占位文章才有该字段），首页「已迁移 N 篇」会自动统计
+4. `npm run build` 本地预览确认无误，提交推送到 `main` 即由 Actions 发布
 
 > 主题模板由 Nunjucks 渲染，`{{ }}` 默认做 HTML 转义：只有输出 HTML 片段时才需要
 > 写 `| safe`（如 `{{ body | safe }}`、`{{ page.content | safe }}`、`{{ partial(...) | safe }}`），
@@ -80,11 +79,6 @@ filename_case: 1                                       # 分类 / 标签 slug �
 标签页为 `tags/<标签>/`，分类页为 `categories/<分类>/`，归档页为 `archives/`，RSS 为 `/atom.xml`。
 
 站内链接一律写成根路径（`/xxx/`），模板中用 `url_for()` 输出，不要写成 `xxx/index.html`。
-
-## 待迁移
-
-首页标记「待迁移」的 6 篇仍是占位文章（`source/_posts/` 中 `stub: true`，标题不可点击）。
-按上文流程补全正文、去掉 `stub: true` 即可上线；新文章的分类 / 标签会自动进入标签云。
 
 ## 本地预览
 
