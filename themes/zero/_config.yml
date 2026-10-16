@@ -6,6 +6,8 @@
 menu:
   - name: 首页
     url: /
+  - name: 每日速递
+    url: /horizon/
   - name: 文章目录
     url: /#posts
   - name: 标签
