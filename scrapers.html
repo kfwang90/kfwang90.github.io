@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+
+<!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Source Scrapers | Horizon Daily</title>
+<meta name="generator" content="Jekyll v3.10.0" />
+<meta property="og:title" content="Source Scrapers" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="AI-curated daily digest of tech and research news" />
+<meta property="og:description" content="AI-curated daily digest of tech and research news" />
+<link rel="canonical" href="https://kfwang90.github.io/horizon/scrapers.html" />
+<meta property="og:url" content="https://kfwang90.github.io/horizon/scrapers.html" />
+<meta property="og:site_name" content="Horizon Daily" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Source Scrapers" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebPage","description":"AI-curated daily digest of tech and research news","headline":"Source Scrapers","url":"https://kfwang90.github.io/horizon/scrapers.html"}</script>
+<!-- End Jekyll SEO tag -->
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preload" href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap" as="style" type="text/css" crossorigin>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#157878">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <link rel="stylesheet" href="/horizon/assets/css/style.css?v=01f2705173aaa4fd442bdc136365023243bde0c7">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🌅</text></svg>">
+<link rel="apple-touch-icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🌅</text></svg>">
+<link rel="shortcut icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🌅</text></svg>">
+<link rel="alternate" type="application/rss+xml" title="Horizon Daily RSS (All)" href="/horizon/feed.xml">
+<link rel="alternate" type="application/atom+xml" title="Horizon Daily RSS (ZH)" href="/horizon/feed-zh.xml">
+<link rel="alternate" type="application/atom+xml" title="Horizon Daily RSS (EN)" href="/horizon/feed-en.xml">
+<link rel="stylesheet" href="/horizon/assets/css/horizon.css">
+<style>
+.rss-icon{opacity:.6;color:inherit;margin-left:12px;vertical-align:middle;text-decoration:none;transition:all .2s}
+.rss-icon:hover{opacity:1;color:#f26522}
+.rss-icon svg{width:0.9em;height:0.9em;display:inline-block}
+@media(prefers-color-scheme:dark){body{background:#1a1726!important;color:#e8e4f0!important}}
+</style>
+<script src="/horizon/assets/js/horizon.js" defer></script>
+
+  </head>
+  <body>
+    <a id="skip-to-content" href="#content">Skip to the content.</a>
+
+    <header class="page-header" role="banner">
+      <h1 class="project-name">Source Scrapers</h1>
+      <h2 class="project-tagline">AI-curated daily digest of tech and research news</h2>
+      
+        <a href="https://github.com/kfwang90/horizon" class="btn">View on GitHub</a>
+      
+      
+    </header>
+
+    <main id="content" class="main-content" role="main">
+      <h1 id="source-scrapers">Source Scrapers</h1>
+
+<p>Horizon fetches content from multiple source types. All scrapers inherit from <code class="language-plaintext highlighter-rouge">BaseScraper</code>, share an async HTTP client, and implement a <code class="language-plaintext highlighter-rouge">fetch(since)</code> method that returns a list of <code class="language-plaintext highlighter-rouge">ContentItem</code> objects. Sources are fetched concurrently via <code class="language-plaintext highlighter-rouge">asyncio.gather</code>.</p>
+
+<h2 id="hacker-news">Hacker News</h2>
+
+<p><strong>File</strong>: <code class="language-plaintext highlighter-rouge">src/scrapers/hackernews.py</code></p>
+
+<p>Uses the <a href="https://hacker-news.firebaseio.com/v0">Firebase HN API</a>:</p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">GET /topstories.json</code> — fetches top story IDs</li>
+  <li><code class="language-plaintext highlighter-rouge">GET /item/{id}.json</code> — fetches story/comment details</li>
+</ul>
+
+<p>Stories and their comments are fetched concurrently. For each story, the top 5 comments are included (deleted/dead comments excluded, HTML stripped, truncated at 500 chars).</p>
+
+<p><strong>Config</strong> (<code class="language-plaintext highlighter-rouge">sources.hackernews</code>):</p>
+
+<div class="language-json highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">{</span><span class="w">
+  </span><span class="nl">"enabled"</span><span class="p">:</span><span class="w"> </span><span class="kc">true</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"fetch_top_stories"</span><span class="p">:</span><span class="w"> </span><span class="mi">30</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"min_score"</span><span class="p">:</span><span class="w"> </span><span class="mi">100</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"category"</span><span class="p">:</span><span class="w"> </span><span class="s2">"tech"</span><span class="w">
+</span><span class="p">}</span><span class="w">
+</span></code></pre></div></div>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">fetch_top_stories</code> — number of top story IDs to fetch</li>
+  <li><code class="language-plaintext highlighter-rouge">min_score</code> — minimum HN points to include a story</li>
+  <li><code class="language-plaintext highlighter-rouge">category</code> — optional tag for balanced digest grouping</li>
+</ul>
+
+<p><strong>Extracted data</strong>: title, URL (falls back to HN discussion URL), author, score, comment count, top comment text, and category.</p>
+
+<h2 id="github">GitHub</h2>
+
+<p><strong>File</strong>: <code class="language-plaintext highlighter-rouge">src/scrapers/github.py</code></p>
+
+<p>Uses the <a href="https://api.github.com">GitHub REST API</a>:</p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">GET /users/{username}/events/public</code> — user activity events</li>
+  <li><code class="language-plaintext highlighter-rouge">GET /repos/{owner}/{repo}/releases</code> — repository releases</li>
+</ul>
+
+<p>Two source types are supported:</p>
+
+<ul>
+  <li><strong><code class="language-plaintext highlighter-rouge">user_events</code></strong> — tracks push, create, release, public, and watch events for a user</li>
+  <li><strong><code class="language-plaintext highlighter-rouge">repo_releases</code></strong> — tracks new releases for a specific repository</li>
+</ul>
+
+<p><strong>Config</strong> (<code class="language-plaintext highlighter-rouge">sources.github</code>, list of entries):</p>
+
+<div class="language-json highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">{</span><span class="w">
+  </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"user_events"</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"username"</span><span class="p">:</span><span class="w"> </span><span class="s2">"torvalds"</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"enabled"</span><span class="p">:</span><span class="w"> </span><span class="kc">true</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"category"</span><span class="p">:</span><span class="w"> </span><span class="s2">"oss"</span><span class="w">
+</span><span class="p">}</span><span class="w">
+</span></code></pre></div></div>
+
+<div class="language-json highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">{</span><span class="w">
+  </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"repo_releases"</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"owner"</span><span class="p">:</span><span class="w"> </span><span class="s2">"golang"</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"repo"</span><span class="p">:</span><span class="w"> </span><span class="s2">"go"</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"enabled"</span><span class="p">:</span><span class="w"> </span><span class="kc">true</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"category"</span><span class="p">:</span><span class="w"> </span><span class="s2">"oss"</span><span class="w">
+</span><span class="p">}</span><span class="w">
+</span></code></pre></div></div>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">category</code> — optional tag for balanced digest grouping; set per source entry</li>
+</ul>
+
+<p><strong>Authentication</strong>: Set <code class="language-plaintext highlighter-rouge">GITHUB_TOKEN</code> in your environment for higher rate limits (5000 req/hr vs 60 without).</p>
+
+<h2 id="rss">RSS</h2>
+
+<p><strong>File</strong>: <code class="language-plaintext highlighter-rouge">src/scrapers/rss.py</code></p>
+
+<p>Fetches any Atom/RSS feed using the <code class="language-plaintext highlighter-rouge">feedparser</code> library. Tries multiple date fields (<code class="language-plaintext highlighter-rouge">published</code>, <code class="language-plaintext highlighter-rouge">updated</code>, <code class="language-plaintext highlighter-rouge">created</code>) with fallback parsing.</p>
+
+<p><strong>Config</strong> (<code class="language-plaintext highlighter-rouge">sources.rss</code>, list of entries):</p>
+
+<div class="language-json highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">{</span><span class="w">
+  </span><span class="nl">"name"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Simon Willison"</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"url"</span><span class="p">:</span><span class="w"> </span><span class="s2">"https://simonwillison.net/atom/everything/"</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"enabled"</span><span class="p">:</span><span class="w"> </span><span class="kc">true</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"category"</span><span class="p">:</span><span class="w"> </span><span class="s2">"ai-tools"</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"content_extractor"</span><span class="p">:</span><span class="w"> </span><span class="s2">"trafilatura"</span><span class="w">
+</span><span class="p">}</span><span class="w">
+</span></code></pre></div></div>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">category</code> — optional tag for grouping (e.g., <code class="language-plaintext highlighter-rouge">"programming"</code>, <code class="language-plaintext highlighter-rouge">"microblog"</code>)</li>
+  <li><code class="language-plaintext highlighter-rouge">content_extractor</code> — optional name of an extractor defined in <code class="language-plaintext highlighter-rouge">extractors</code> config; when set, the full article text replaces the feed-provided excerpt (see <a href="/horizon/extractors.html">Extractors</a>)</li>
+</ul>
+
+<p><strong>Extracted data</strong>: title, URL, author, content (from <code class="language-plaintext highlighter-rouge">summary</code>/<code class="language-plaintext highlighter-rouge">description</code>/<code class="language-plaintext highlighter-rouge">content</code> fields, or full article text if an extractor is configured), feed name, category, and entry tags.</p>
+
+<h2 id="reddit">Reddit</h2>
+
+<p><strong>File</strong>: <code class="language-plaintext highlighter-rouge">src/scrapers/reddit.py</code></p>
+
+<p>Uses public, no-key Reddit endpoints. Subreddit listings and comments prefer <code class="language-plaintext highlighter-rouge">old.reddit.com</code> HTML because Reddit’s unauthenticated JSON and RSS endpoints can intermittently block or fail:</p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">GET https://old.reddit.com/r/{subreddit}/{sort}/</code> — subreddit posts</li>
+  <li><code class="language-plaintext highlighter-rouge">GET https://old.reddit.com/r/{subreddit}/comments/{post_id}/</code> — post comments</li>
+  <li><code class="language-plaintext highlighter-rouge">GET /r/{subreddit}/{sort}.json</code> — subreddit posts fallback</li>
+  <li><code class="language-plaintext highlighter-rouge">GET /user/{username}/submitted.json</code> — user submissions</li>
+  <li><code class="language-plaintext highlighter-rouge">GET /r/{subreddit}/comments/{post_id}.json</code> — post comments fallback</li>
+  <li><code class="language-plaintext highlighter-rouge">GET /r/{subreddit}/{sort}/.rss</code> — subreddit posts fallback when JSON is blocked</li>
+</ul>
+
+<p>Subreddits and users are fetched concurrently. Comments are sorted by score, limited to the configured count, and exclude moderator-distinguished comments. Self-text is truncated at 1500 chars, comments at 500 chars.</p>
+
+<p><strong>Config</strong> (<code class="language-plaintext highlighter-rouge">sources.reddit</code>):</p>
+
+<div class="language-json highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">{</span><span class="w">
+  </span><span class="nl">"enabled"</span><span class="p">:</span><span class="w"> </span><span class="kc">true</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"fetch_comments"</span><span class="p">:</span><span class="w"> </span><span class="mi">5</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"subreddits"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="w">
+    </span><span class="p">{</span><span class="w">
+      </span><span class="nl">"subreddit"</span><span class="p">:</span><span class="w"> </span><span class="s2">"MachineLearning"</span><span class="p">,</span><span class="w">
+      </span><span class="nl">"sort"</span><span class="p">:</span><span class="w"> </span><span class="s2">"hot"</span><span class="p">,</span><span class="w">
+      </span><span class="nl">"fetch_limit"</span><span class="p">:</span><span class="w"> </span><span class="mi">25</span><span class="p">,</span><span class="w">
+      </span><span class="nl">"min_score"</span><span class="p">:</span><span class="w"> </span><span class="mi">10</span><span class="p">,</span><span class="w">
+      </span><span class="nl">"category"</span><span class="p">:</span><span class="w"> </span><span class="s2">"ai-ml"</span><span class="w">
+    </span><span class="p">}</span><span class="w">
+  </span><span class="p">],</span><span class="w">
+  </span><span class="nl">"users"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="w">
+    </span><span class="p">{</span><span class="w">
+      </span><span class="nl">"username"</span><span class="p">:</span><span class="w"> </span><span class="s2">"spez"</span><span class="p">,</span><span class="w">
+      </span><span class="nl">"sort"</span><span class="p">:</span><span class="w"> </span><span class="s2">"new"</span><span class="p">,</span><span class="w">
+      </span><span class="nl">"fetch_limit"</span><span class="p">:</span><span class="w"> </span><span class="mi">10</span><span class="p">,</span><span class="w">
+      </span><span class="nl">"category"</span><span class="p">:</span><span class="w"> </span><span class="s2">"social"</span><span class="w">
+    </span><span class="p">}</span><span class="w">
+  </span><span class="p">]</span><span class="w">
+</span><span class="p">}</span><span class="w">
+</span></code></pre></div></div>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">sort</code> — <code class="language-plaintext highlighter-rouge">hot</code>, <code class="language-plaintext highlighter-rouge">new</code>, <code class="language-plaintext highlighter-rouge">top</code>, or <code class="language-plaintext highlighter-rouge">rising</code> (subreddits); <code class="language-plaintext highlighter-rouge">hot</code> or <code class="language-plaintext highlighter-rouge">new</code> (users)</li>
+  <li><code class="language-plaintext highlighter-rouge">time_filter</code> — for <code class="language-plaintext highlighter-rouge">top</code>/<code class="language-plaintext highlighter-rouge">rising</code> sorts: <code class="language-plaintext highlighter-rouge">hour</code>, <code class="language-plaintext highlighter-rouge">day</code>, <code class="language-plaintext highlighter-rouge">week</code>, <code class="language-plaintext highlighter-rouge">month</code>, <code class="language-plaintext highlighter-rouge">year</code>, <code class="language-plaintext highlighter-rouge">all</code></li>
+  <li><code class="language-plaintext highlighter-rouge">min_score</code> — minimum post score (subreddits only)</li>
+  <li><code class="language-plaintext highlighter-rouge">category</code> — optional tag for balanced digest grouping; set per subreddit or per user entry</li>
+</ul>
+
+<p><strong>Rate limiting</strong>: Detects HTTP 429 responses on JSON requests, reads the <code class="language-plaintext highlighter-rouge">Retry-After</code> header, waits, and retries once. Uses browser-like request headers for no-key public access.</p>
+
+<p><strong>Extracted data</strong>: title, URL, author, score, upvote ratio, comment count, subreddit, flair, self-text, top comments, and category.</p>
+
+<h2 id="openbb">OpenBB</h2>
+
+<p><strong>File</strong>: <code class="language-plaintext highlighter-rouge">src/scrapers/openbb.py</code></p>
+
+<p>Uses the <a href="https://www.openbb.co/platform">OpenBB Platform</a> Python SDK via <code class="language-plaintext highlighter-rouge">obb.news.company()</code> to fetch company news for one or more ticker watchlists.</p>
+
+<p>The scraper imports <code class="language-plaintext highlighter-rouge">openbb</code> lazily. If the optional dependency is not installed, Horizon logs a warning and skips the source instead of failing the whole run.</p>
+
+<p><strong>Config</strong> (<code class="language-plaintext highlighter-rouge">sources.openbb</code>):</p>
+
+<div class="language-json highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">{</span><span class="w">
+  </span><span class="nl">"enabled"</span><span class="p">:</span><span class="w"> </span><span class="kc">true</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"watchlists"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="w">
+    </span><span class="p">{</span><span class="w">
+      </span><span class="nl">"name"</span><span class="p">:</span><span class="w"> </span><span class="s2">"megacaps"</span><span class="p">,</span><span class="w">
+      </span><span class="nl">"symbols"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="s2">"AAPL"</span><span class="p">,</span><span class="w"> </span><span class="s2">"MSFT"</span><span class="p">,</span><span class="w"> </span><span class="s2">"NVDA"</span><span class="p">],</span><span class="w">
+      </span><span class="nl">"enabled"</span><span class="p">:</span><span class="w"> </span><span class="kc">true</span><span class="p">,</span><span class="w">
+      </span><span class="nl">"provider"</span><span class="p">:</span><span class="w"> </span><span class="s2">"yfinance"</span><span class="p">,</span><span class="w">
+      </span><span class="nl">"fetch_limit"</span><span class="p">:</span><span class="w"> </span><span class="mi">20</span><span class="p">,</span><span class="w">
+      </span><span class="nl">"category"</span><span class="p">:</span><span class="w"> </span><span class="s2">"equities"</span><span class="w">
+    </span><span class="p">}</span><span class="w">
+  </span><span class="p">]</span><span class="w">
+</span><span class="p">}</span><span class="w">
+</span></code></pre></div></div>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">watchlists</code> — each enabled watchlist triggers one <code class="language-plaintext highlighter-rouge">news.company()</code> call per run</li>
+  <li><code class="language-plaintext highlighter-rouge">provider</code> — OpenBB provider name for that watchlist</li>
+  <li><code class="language-plaintext highlighter-rouge">symbols</code> — tickers fetched together for the same provider</li>
+  <li><code class="language-plaintext highlighter-rouge">fetch_limit</code> — maximum rows requested from the provider</li>
+  <li><code class="language-plaintext highlighter-rouge">category</code> — optional metadata tag stored on each item</li>
+</ul>
+
+<p>Behavior:</p>
+
+<ul>
+  <li>Wraps the synchronous OpenBB SDK in <code class="language-plaintext highlighter-rouge">asyncio.to_thread</code> so the event loop stays responsive</li>
+  <li>Deduplicates duplicate news across watchlists by article URL</li>
+  <li>Skips malformed rows, rows without URL/title/date, and items older than the current time window</li>
+  <li>Keeps fetching other watchlists if one provider call fails</li>
+</ul>
+
+<p><strong>Credentials</strong>: provider-specific secrets are resolved by the OpenBB SDK from its own environment variables or settings file. Horizon does not pass those values directly.</p>
+
+<p><strong>Extracted data</strong>: title, URL, author, published time, article body/excerpt, watchlist name, provider, category, and symbol list.</p>
+
+<h2 id="twitter">Twitter</h2>
+
+<p><strong>File</strong>: <code class="language-plaintext highlighter-rouge">src/scrapers/twitter.py</code></p>
+
+<p>Uses the <a href="https://apify.com">Apify</a> platform to bypass Twitter’s anti-scraping measures. The actor <code class="language-plaintext highlighter-rouge">altimis~scweet</code> is called via the Apify REST API.</p>
+
+<p>Flow:</p>
+<ol>
+  <li>POST to <code class="language-plaintext highlighter-rouge">/v2/acts/{actor_id}/runs</code> to trigger a run</li>
+  <li>Poll <code class="language-plaintext highlighter-rouge">/v2/actor-runs/{run_id}</code> until status is <code class="language-plaintext highlighter-rouge">SUCCEEDED</code> or a terminal failure</li>
+  <li>GET <code class="language-plaintext highlighter-rouge">/v2/datasets/{dataset_id}/items</code> to retrieve results</li>
+</ol>
+
+<p>Profile timelines use <code class="language-plaintext highlighter-rouge">source_mode: "profiles"</code>. Keyword discovery and reply expansion reuse <code class="language-plaintext highlighter-rouge">source_mode: "search"</code> with <code class="language-plaintext highlighter-rouge">search_query</code>.</p>
+
+<p>When users are configured, a single profile run fetches their timelines together. Each non-empty keyword query starts a separate search run, independently of the configured users. Either path can be used on its own. Results are filtered to the current time window and merged with deduplication by tweet ID across all runs.</p>
+
+<p><strong>Config</strong> (<code class="language-plaintext highlighter-rouge">sources.twitter</code>):</p>
+
+<div class="language-json highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">{</span><span class="w">
+  </span><span class="nl">"enabled"</span><span class="p">:</span><span class="w"> </span><span class="kc">true</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"users"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="s2">"karpathy"</span><span class="p">,</span><span class="w"> </span><span class="s2">"ylecun"</span><span class="p">],</span><span class="w">
+  </span><span class="nl">"keywords"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="s2">"LLM"</span><span class="p">,</span><span class="w"> </span><span class="s2">"open source"</span><span class="p">],</span><span class="w">
+  </span><span class="nl">"fetch_limit"</span><span class="p">:</span><span class="w"> </span><span class="mi">10</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"fetch_reply_text"</span><span class="p">:</span><span class="w"> </span><span class="kc">false</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"max_replies_per_tweet"</span><span class="p">:</span><span class="w"> </span><span class="mi">3</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"max_tweets_to_expand"</span><span class="p">:</span><span class="w"> </span><span class="mi">10</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"reply_min_likes"</span><span class="p">:</span><span class="w"> </span><span class="mi">5</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"actor_id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"altimis~scweet"</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"apify_token_env"</span><span class="p">:</span><span class="w"> </span><span class="s2">"APIFY_TOKEN"</span><span class="w">
+</span><span class="p">}</span><span class="w">
+</span></code></pre></div></div>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">users</code> — Twitter screen names to monitor, without the <code class="language-plaintext highlighter-rouge">@</code> prefix</li>
+  <li><code class="language-plaintext highlighter-rouge">keywords</code> — independent Apify search queries (<code class="language-plaintext highlighter-rouge">source_mode: "search"</code>), not filters on the configured users’ timelines. Not supported in Playwright mode.</li>
+  <li><code class="language-plaintext highlighter-rouge">fetch_limit</code> — in Apify mode, each profile or keyword-search actor run requests up to <code class="language-plaintext highlighter-rouge">max(100, fetch_limit)</code> tweets. This is not a combined limit: the example above starts three discovery runs with a limit of 100 tweets each, before time filtering and deduplication. Each keyword adds an actor run and associated Apify usage.</li>
+  <li><code class="language-plaintext highlighter-rouge">category</code> — optional tag for balanced digest grouping (applies to all tweets from this source)</li>
+  <li><code class="language-plaintext highlighter-rouge">fetch_reply_text</code> — when <code class="language-plaintext highlighter-rouge">true</code>, a second Apify run fetches reply bodies for each important tweet and appends them under <code class="language-plaintext highlighter-rouge">--- Top Comments ---</code> for AI analysis</li>
+  <li><code class="language-plaintext highlighter-rouge">max_replies_per_tweet</code> — maximum reply lines per tweet (sorted by engagement score)</li>
+  <li><code class="language-plaintext highlighter-rouge">max_tweets_to_expand</code> — cap on reply expansion runs per pipeline cycle, to control Apify credit usage</li>
+  <li><code class="language-plaintext highlighter-rouge">reply_min_likes</code> — minimum likes required for a reply to be included</li>
+  <li><code class="language-plaintext highlighter-rouge">actor_id</code> — Apify actor ID (default: <code class="language-plaintext highlighter-rouge">altimis~scweet</code>)</li>
+  <li><code class="language-plaintext highlighter-rouge">apify_token_env</code> — environment variable name containing the Apify API token</li>
+</ul>
+
+<p><strong>Authentication</strong>: Set <code class="language-plaintext highlighter-rouge">APIFY_TOKEN</code> in your <code class="language-plaintext highlighter-rouge">.env</code>. Get a token at <a href="https://console.apify.com/account/integrations">console.apify.com</a>.</p>
+
+<p><strong>Extracted data</strong>: tweet text, URL, author, publish time, likes, retweets, replies, views, category, and (optionally) reply-thread text appended under <code class="language-plaintext highlighter-rouge">--- Top Comments ---</code>.</p>
+
+
+      <footer class="site-footer">
+        
+          <span class="site-footer-owner"><a href="https://github.com/kfwang90/horizon">horizon</a> is maintained by <a href="https://github.com/kfwang90">kfwang90</a>.</span>
+        
+        <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a>.</span>
+      </footer>
+    </main>
+  </body>
+</html>

@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+
+<!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Scoring System | Horizon Daily</title>
+<meta name="generator" content="Jekyll v3.10.0" />
+<meta property="og:title" content="Scoring System" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="AI-curated daily digest of tech and research news" />
+<meta property="og:description" content="AI-curated daily digest of tech and research news" />
+<link rel="canonical" href="https://kfwang90.github.io/horizon/scoring.html" />
+<meta property="og:url" content="https://kfwang90.github.io/horizon/scoring.html" />
+<meta property="og:site_name" content="Horizon Daily" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Scoring System" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebPage","description":"AI-curated daily digest of tech and research news","headline":"Scoring System","url":"https://kfwang90.github.io/horizon/scoring.html"}</script>
+<!-- End Jekyll SEO tag -->
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preload" href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap" as="style" type="text/css" crossorigin>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#157878">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <link rel="stylesheet" href="/horizon/assets/css/style.css?v=01f2705173aaa4fd442bdc136365023243bde0c7">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🌅</text></svg>">
+<link rel="apple-touch-icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🌅</text></svg>">
+<link rel="shortcut icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🌅</text></svg>">
+<link rel="alternate" type="application/rss+xml" title="Horizon Daily RSS (All)" href="/horizon/feed.xml">
+<link rel="alternate" type="application/atom+xml" title="Horizon Daily RSS (ZH)" href="/horizon/feed-zh.xml">
+<link rel="alternate" type="application/atom+xml" title="Horizon Daily RSS (EN)" href="/horizon/feed-en.xml">
+<link rel="stylesheet" href="/horizon/assets/css/horizon.css">
+<style>
+.rss-icon{opacity:.6;color:inherit;margin-left:12px;vertical-align:middle;text-decoration:none;transition:all .2s}
+.rss-icon:hover{opacity:1;color:#f26522}
+.rss-icon svg{width:0.9em;height:0.9em;display:inline-block}
+@media(prefers-color-scheme:dark){body{background:#1a1726!important;color:#e8e4f0!important}}
+</style>
+<script src="/horizon/assets/js/horizon.js" defer></script>
+
+  </head>
+  <body>
+    <a id="skip-to-content" href="#content">Skip to the content.</a>
+
+    <header class="page-header" role="banner">
+      <h1 class="project-name">Scoring System</h1>
+      <h2 class="project-tagline">AI-curated daily digest of tech and research news</h2>
+      
+        <a href="https://github.com/kfwang90/horizon" class="btn">View on GitHub</a>
+      
+      
+    </header>
+
+    <main id="content" class="main-content" role="main">
+      <h1 id="scoring-system">Scoring System</h1>
+
+<p>A release announcement and an engineering deep dive earn their place for
+different reasons. Horizon routes each item to one profile and scores it from
+0 to 10 using that profile’s rubric. You choose the threshold for each profile
+in the runtime configuration.</p>
+
+<h2 id="pipeline">Pipeline</h2>
+
+<ol>
+  <li><strong>Profile resolution</strong> — An explicit source profile is used directly. A
+missing profile or <code class="language-plaintext highlighter-rouge">"auto"</code> is matched by AI using all loaded <code class="language-plaintext highlighter-rouge">match.md</code>
+prompts; a candidate array limits that choice to the listed profiles.</li>
+  <li><strong>Content preparation</strong> — The profile’s <code class="language-plaintext highlighter-rouge">content.analysis_max_chars</code> and
+<code class="language-plaintext highlighter-rouge">content.sampling</code> control how much article text reaches the model. Sampling
+keeps either the opening or excerpts from the beginning, middle, and end.
+Available comments and engagement metadata are added separately.</li>
+  <li><strong>Profile analysis</strong> — The selected profile’s <code class="language-plaintext highlighter-rouge">analysis.md</code> prompt evaluates
+the item and returns a score, reason, one-sentence summary, and tags.</li>
+  <li><strong>Validation and retry</strong> — Responses are parsed as JSON. Failed AI calls are
+retried with exponential backoff. An invalid analysis response gets one repair
+attempt; if it still fails validation, the analysis is stored with a null score.</li>
+  <li><strong>Profile filtering</strong> — If a runtime threshold is configured for the resolved
+profile, only items meeting it continue. Without a threshold, analyzed items
+continue without score filtering.</li>
+  <li><strong>Digest selection</strong> — Topic deduplication runs within each profile. Optional
+category quotas and a final item cap select the items to enrich.</li>
+</ol>
+
+<p>Analysis and enrichment concurrency are configured through
+<code class="language-plaintext highlighter-rouge">ai.analysis_concurrency</code> and <code class="language-plaintext highlighter-rouge">ai.enrichment_concurrency</code>. Result order is
+preserved during analysis.</p>
+
+<h2 id="profile-rubrics">Profile Rubrics</h2>
+
+<p>Each profile defines its own rubric in <code class="language-plaintext highlighter-rouge">analysis.md</code>. The built-in <code class="language-plaintext highlighter-rouge">tech-news</code>
+profile uses this scale:</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Score</th>
+      <th>Tier</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>9-10</td>
+      <td>Groundbreaking</td>
+      <td>Major breakthroughs, paradigm shifts, major versions, significant research, or industry-changing announcements</td>
+    </tr>
+    <tr>
+      <td>7-8</td>
+      <td>High value</td>
+      <td>Important developments, technical deep-dives, novel approaches, insightful analysis, or valuable tools</td>
+    </tr>
+    <tr>
+      <td>5-6</td>
+      <td>Interesting</td>
+      <td>Incremental improvements, useful tutorials, moderate community interest, or useful but non-urgent developments</td>
+    </tr>
+    <tr>
+      <td>3-4</td>
+      <td>Low priority</td>
+      <td>Routine updates, common knowledge, shallow treatment, or promotion-dominated content</td>
+    </tr>
+    <tr>
+      <td>0-2</td>
+      <td>Noise</td>
+      <td>Spam, off-topic material, trivial updates, or purely promotional content</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Its prompt considers technical depth, novelty, likely impact, source quality,
+relevance, concrete evidence, and substantive community discussion. Other
+profiles can define different criteria for different content forms.</p>
+
+<h2 id="filtering">Filtering</h2>
+
+<p>Thresholds belong to the runtime configuration and are keyed by profile ID:</p>
+
+<div class="language-json highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">{</span><span class="w">
+  </span><span class="nl">"processing"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+    </span><span class="nl">"profile_settings"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+      </span><span class="nl">"tech-news"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+        </span><span class="nl">"threshold"</span><span class="p">:</span><span class="w"> </span><span class="mf">8.0</span><span class="w">
+      </span><span class="p">}</span><span class="w">
+    </span><span class="p">}</span><span class="w">
+  </span><span class="p">}</span><span class="w">
+</span><span class="p">}</span><span class="w">
+</span></code></pre></div></div>
+
+<p><code class="language-plaintext highlighter-rouge">threshold</code> accepts values from 0 to 10. Items at or above the threshold
+continue. To analyze content without dropping it by score, use <code class="language-plaintext highlighter-rouge">null</code> or omit
+the profile’s settings:</p>
+
+<div class="language-json highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">{</span><span class="w">
+  </span><span class="nl">"processing"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+    </span><span class="nl">"profile_settings"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+      </span><span class="nl">"tech-news"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+        </span><span class="nl">"threshold"</span><span class="p">:</span><span class="w"> </span><span class="kc">null</span><span class="w">
+      </span><span class="p">}</span><span class="w">
+    </span><span class="p">}</span><span class="w">
+  </span><span class="p">}</span><span class="w">
+</span><span class="p">}</span><span class="w">
+</span></code></pre></div></div>
+
+<p>A threshold passed to an MCP operation overrides all configured profile
+thresholds for that operation. Analysis still produces scores when filtering is
+disabled; only score-based filtering is bypassed. Topic deduplication and digest
+limits still apply when configured.</p>
+
+<p>Collection and balanced digest settings remain in the runtime configuration:</p>
+
+<div class="language-json highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">{</span><span class="w">
+  </span><span class="nl">"collection"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+    </span><span class="nl">"time_window_hours"</span><span class="p">:</span><span class="w"> </span><span class="mi">24</span><span class="w">
+  </span><span class="p">},</span><span class="w">
+  </span><span class="nl">"digest"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+    </span><span class="nl">"max_items"</span><span class="p">:</span><span class="w"> </span><span class="mi">20</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"category_groups"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+      </span><span class="nl">"ai"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+        </span><span class="nl">"limit"</span><span class="p">:</span><span class="w"> </span><span class="mi">5</span><span class="p">,</span><span class="w">
+        </span><span class="nl">"categories"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="s2">"ai-news"</span><span class="p">,</span><span class="w"> </span><span class="s2">"ai-tools"</span><span class="p">,</span><span class="w"> </span><span class="s2">"machine-learning"</span><span class="p">]</span><span class="w">
+      </span><span class="p">}</span><span class="w">
+    </span><span class="p">},</span><span class="w">
+    </span><span class="nl">"default_group"</span><span class="p">:</span><span class="w"> </span><span class="s2">"other"</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"default_group_limit"</span><span class="p">:</span><span class="w"> </span><span class="mi">3</span><span class="w">
+  </span><span class="p">}</span><span class="w">
+</span><span class="p">}</span><span class="w">
+</span></code></pre></div></div>
+
+<p><code class="language-plaintext highlighter-rouge">collection.time_window_hours</code> controls the fetch window. <code class="language-plaintext highlighter-rouge">category_groups</code>
+limits each configured category group independently, and <code class="language-plaintext highlighter-rouge">max_items</code> caps the
+merged result. These digest limits run after per-profile filtering and topic
+deduplication, but before enrichment.</p>
+
+<h2 id="enrichment-and-output">Enrichment And Output</h2>
+
+<p>Selected items are enriched according to the profile’s <code class="language-plaintext highlighter-rouge">enrichment.md</code> prompt
+and block contract. A block can call a tool only when that tool is declared in
+the block’s <code class="language-plaintext highlighter-rouge">tools</code> list. The only built-in tool is <code class="language-plaintext highlighter-rouge">web_search</code>.</p>
+
+<p>For every configured language, Horizon produces a localized title, section
+blocks, and references when tool sources are cited. The renderer groups these
+artifacts by profile and builds the Markdown briefing without a final AI call.
+See <a href="/horizon/profiles.html">Processing Profiles</a> for the complete schema and output behavior.</p>
+
+
+      <footer class="site-footer">
+        
+          <span class="site-footer-owner"><a href="https://github.com/kfwang90/horizon">horizon</a> is maintained by <a href="https://github.com/kfwang90">kfwang90</a>.</span>
+        
+        <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a>.</span>
+      </footer>
+    </main>
+  </body>
+</html>

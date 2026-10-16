@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+
+<!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Content Extractors | Horizon Daily</title>
+<meta name="generator" content="Jekyll v3.10.0" />
+<meta property="og:title" content="Content Extractors" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="AI-curated daily digest of tech and research news" />
+<meta property="og:description" content="AI-curated daily digest of tech and research news" />
+<link rel="canonical" href="https://kfwang90.github.io/horizon/extractors.html" />
+<meta property="og:url" content="https://kfwang90.github.io/horizon/extractors.html" />
+<meta property="og:site_name" content="Horizon Daily" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Content Extractors" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebPage","description":"AI-curated daily digest of tech and research news","headline":"Content Extractors","url":"https://kfwang90.github.io/horizon/extractors.html"}</script>
+<!-- End Jekyll SEO tag -->
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preload" href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap" as="style" type="text/css" crossorigin>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#157878">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <link rel="stylesheet" href="/horizon/assets/css/style.css?v=01f2705173aaa4fd442bdc136365023243bde0c7">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🌅</text></svg>">
+<link rel="apple-touch-icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🌅</text></svg>">
+<link rel="shortcut icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🌅</text></svg>">
+<link rel="alternate" type="application/rss+xml" title="Horizon Daily RSS (All)" href="/horizon/feed.xml">
+<link rel="alternate" type="application/atom+xml" title="Horizon Daily RSS (ZH)" href="/horizon/feed-zh.xml">
+<link rel="alternate" type="application/atom+xml" title="Horizon Daily RSS (EN)" href="/horizon/feed-en.xml">
+<link rel="stylesheet" href="/horizon/assets/css/horizon.css">
+<style>
+.rss-icon{opacity:.6;color:inherit;margin-left:12px;vertical-align:middle;text-decoration:none;transition:all .2s}
+.rss-icon:hover{opacity:1;color:#f26522}
+.rss-icon svg{width:0.9em;height:0.9em;display:inline-block}
+@media(prefers-color-scheme:dark){body{background:#1a1726!important;color:#e8e4f0!important}}
+</style>
+<script src="/horizon/assets/js/horizon.js" defer></script>
+
+  </head>
+  <body>
+    <a id="skip-to-content" href="#content">Skip to the content.</a>
+
+    <header class="page-header" role="banner">
+      <h1 class="project-name">Content Extractors</h1>
+      <h2 class="project-tagline">AI-curated daily digest of tech and research news</h2>
+      
+        <a href="https://github.com/kfwang90/horizon" class="btn">View on GitHub</a>
+      
+      
+    </header>
+
+    <main id="content" class="main-content" role="main">
+      <h1 id="content-extractors">Content Extractors</h1>
+
+<p>Extractors fetch and parse the full text of a linked article, replacing the brief excerpt a feed normally provides. They are opt-in per RSS source via the <code class="language-plaintext highlighter-rouge">content_extractor</code> field.</p>
+
+<h2 id="how-it-works">How it works</h2>
+
+<ol>
+  <li>The RSS scraper parses the feed as usual.</li>
+  <li>For each entry whose source has <code class="language-plaintext highlighter-rouge">content_extractor</code> set, the scraper calls the named extractor with the entry’s link URL.</li>
+  <li>If the extractor returns text, it replaces the feed-provided content. If extraction fails for any reason, the feed content is used as a fallback.</li>
+</ol>
+
+<p>Extractors are defined under the top-level <code class="language-plaintext highlighter-rouge">extractors</code> section of <code class="language-plaintext highlighter-rouge">config.json</code> and referenced by name from individual RSS sources.</p>
+
+<h2 id="configuration">Configuration</h2>
+
+<div class="language-json highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">{</span><span class="w">
+  </span><span class="nl">"extractors"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+    </span><span class="nl">"full-text"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+      </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"trafilatura"</span><span class="p">,</span><span class="w">
+      </span><span class="nl">"favor_precision"</span><span class="p">:</span><span class="w"> </span><span class="kc">true</span><span class="w">
+    </span><span class="p">}</span><span class="w">
+  </span><span class="p">},</span><span class="w">
+  </span><span class="nl">"sources"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+    </span><span class="nl">"rss"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="w">
+      </span><span class="p">{</span><span class="w">
+        </span><span class="nl">"name"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Simon Willison"</span><span class="p">,</span><span class="w">
+        </span><span class="nl">"url"</span><span class="p">:</span><span class="w"> </span><span class="s2">"https://simonwillison.net/atom/everything/"</span><span class="p">,</span><span class="w">
+        </span><span class="nl">"content_extractor"</span><span class="p">:</span><span class="w"> </span><span class="s2">"full-text"</span><span class="w">
+      </span><span class="p">}</span><span class="w">
+    </span><span class="p">]</span><span class="w">
+  </span><span class="p">}</span><span class="w">
+</span><span class="p">}</span><span class="w">
+</span></code></pre></div></div>
+
+<p>Each entry under <code class="language-plaintext highlighter-rouge">extractors</code> is a named extractor configuration. The <code class="language-plaintext highlighter-rouge">type</code> field determines the implementation. An RSS source references an extractor by its name via <code class="language-plaintext highlighter-rouge">content_extractor</code>.</p>
+
+<p>Using a type name directly (e.g. <code class="language-plaintext highlighter-rouge">"content_extractor": "trafilatura"</code>) also works — each type is pre-registered as a default extractor with default settings, so no explicit entry in <code class="language-plaintext highlighter-rouge">extractors</code> is required for the basic case.</p>
+
+<h2 id="extractor-types">Extractor types</h2>
+
+<h3 id="trafilatura"><code class="language-plaintext highlighter-rouge">trafilatura</code></h3>
+
+<p><strong>File</strong>: <code class="language-plaintext highlighter-rouge">src/extractors/trafilatura.py</code></p>
+
+<p>Uses the <a href="https://trafilatura.readthedocs.io/">trafilatura</a> library to extract main article text from HTML. It is included in the base install for both local and Docker deployments. Enable it per RSS source with <code class="language-plaintext highlighter-rouge">content_extractor</code>; no extra dependency is needed.</p>
+
+<p><strong>Config fields</strong>:</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Field</th>
+      <th>Type</th>
+      <th>Default</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">type</code></td>
+      <td>string</td>
+      <td><code class="language-plaintext highlighter-rouge">"trafilatura"</code></td>
+      <td>Extractor type identifier</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">favor_precision</code></td>
+      <td>bool</td>
+      <td><code class="language-plaintext highlighter-rouge">false</code></td>
+      <td>Prefer fewer but more relevant results</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">favor_recall</code></td>
+      <td>bool</td>
+      <td><code class="language-plaintext highlighter-rouge">false</code></td>
+      <td>Prefer more results, accepting some noise</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><code class="language-plaintext highlighter-rouge">favor_precision</code> and <code class="language-plaintext highlighter-rouge">favor_recall</code> are mutually exclusive. Setting both has undefined behavior (trafilatura’s own default applies).</p>
+
+<p><strong>Timeout and retry</strong>: the extractor reuses the shared <code class="language-plaintext highlighter-rouge">httpx.AsyncClient</code> and inherits whatever timeout and connection settings are configured on it.</p>
+
+<h2 id="adding-a-new-extractor-type">Adding a new extractor type</h2>
+
+<ol>
+  <li>Add an entry to <code class="language-plaintext highlighter-rouge">ExtractorType</code> in <code class="language-plaintext highlighter-rouge">src/models.py</code>.</li>
+  <li>Add a config class (e.g. <code class="language-plaintext highlighter-rouge">MyExtractorConfig</code>) with <code class="language-plaintext highlighter-rouge">type: Literal[ExtractorType.MY_TYPE]</code>.</li>
+  <li>Add the new config to the <code class="language-plaintext highlighter-rouge">ExtractorConfig</code> union in <code class="language-plaintext highlighter-rouge">src/models.py</code>.</li>
+  <li>Implement the class in <code class="language-plaintext highlighter-rouge">src/extractors/my_extractor.py</code>, subclassing <code class="language-plaintext highlighter-rouge">BaseExtractor</code>.</li>
+  <li>Export it from <code class="language-plaintext highlighter-rouge">src/extractors/__init__.py</code>.</li>
+  <li>Add a <code class="language-plaintext highlighter-rouge">case MyExtractorConfig()</code> branch in <code class="language-plaintext highlighter-rouge">_build()</code> in <code class="language-plaintext highlighter-rouge">src/extractors/registry.py</code>.</li>
+  <li>Add a default entry to <code class="language-plaintext highlighter-rouge">_DEFAULTS</code> in <code class="language-plaintext highlighter-rouge">src/extractors/registry.py</code>.</li>
+</ol>
+
+
+      <footer class="site-footer">
+        
+          <span class="site-footer-owner"><a href="https://github.com/kfwang90/horizon">horizon</a> is maintained by <a href="https://github.com/kfwang90">kfwang90</a>.</span>
+        
+        <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a>.</span>
+      </footer>
+    </main>
+  </body>
+</html>

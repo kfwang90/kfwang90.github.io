@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+
+<!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Processing Profiles | Horizon Daily</title>
+<meta name="generator" content="Jekyll v3.10.0" />
+<meta property="og:title" content="Processing Profiles" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="AI-curated daily digest of tech and research news" />
+<meta property="og:description" content="AI-curated daily digest of tech and research news" />
+<link rel="canonical" href="https://kfwang90.github.io/horizon/profiles.html" />
+<meta property="og:url" content="https://kfwang90.github.io/horizon/profiles.html" />
+<meta property="og:site_name" content="Horizon Daily" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Processing Profiles" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebPage","description":"AI-curated daily digest of tech and research news","headline":"Processing Profiles","url":"https://kfwang90.github.io/horizon/profiles.html"}</script>
+<!-- End Jekyll SEO tag -->
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preload" href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap" as="style" type="text/css" crossorigin>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#157878">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <link rel="stylesheet" href="/horizon/assets/css/style.css?v=01f2705173aaa4fd442bdc136365023243bde0c7">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🌅</text></svg>">
+<link rel="apple-touch-icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🌅</text></svg>">
+<link rel="shortcut icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🌅</text></svg>">
+<link rel="alternate" type="application/rss+xml" title="Horizon Daily RSS (All)" href="/horizon/feed.xml">
+<link rel="alternate" type="application/atom+xml" title="Horizon Daily RSS (ZH)" href="/horizon/feed-zh.xml">
+<link rel="alternate" type="application/atom+xml" title="Horizon Daily RSS (EN)" href="/horizon/feed-en.xml">
+<link rel="stylesheet" href="/horizon/assets/css/horizon.css">
+<style>
+.rss-icon{opacity:.6;color:inherit;margin-left:12px;vertical-align:middle;text-decoration:none;transition:all .2s}
+.rss-icon:hover{opacity:1;color:#f26522}
+.rss-icon svg{width:0.9em;height:0.9em;display:inline-block}
+@media(prefers-color-scheme:dark){body{background:#1a1726!important;color:#e8e4f0!important}}
+</style>
+<script src="/horizon/assets/js/horizon.js" defer></script>
+
+  </head>
+  <body>
+    <a id="skip-to-content" href="#content">Skip to the content.</a>
+
+    <header class="page-header" role="banner">
+      <h1 class="project-name">Processing Profiles</h1>
+      <h2 class="project-tagline">AI-curated daily digest of tech and research news</h2>
+      
+        <a href="https://github.com/kfwang90/horizon" class="btn">View on GitHub</a>
+      
+      
+    </header>
+
+    <main id="content" class="main-content" role="main">
+      <h1 id="processing-profiles">Processing Profiles</h1>
+
+<p>News needs context. An engineering deep dive needs an explanation of the solution.
+A profile tells Horizon what to look for, how to judge it, and what to write—using
+Markdown prompts and a JSON block definition.</p>
+
+<p>Profiles define reusable editorial rules. Your sources, AI model, score thresholds,
+digest limits, languages, and delivery channels stay in the runtime configuration.
+Each item is routed to one profile; a candidate list lets AI choose among several,
+rather than process the item with all of them.</p>
+
+<h2 id="built-in-profiles">Built-in Profiles</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Profile</th>
+      <th>What it looks for</th>
+      <th>What it produces</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">tech-news</code></td>
+      <td>Releases, incidents, research results, and technology-industry developments</td>
+      <td>Concrete changes and necessary background, with relevant past coverage, impact, and community discussion when useful</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">tech-blog</code></td>
+      <td>Engineering deep dives, tutorials, investigations, and retrospectives</td>
+      <td>Background, solution, and takeaways</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">finance-news</code></td>
+      <td>Markets, macroeconomics, company finance, and economically material policy</td>
+      <td>Summary and background; direct impact when useful</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">ai-creator</code></td>
+      <td>AI developments with potential for content creation</td>
+      <td>Summary; timely hooks, content angles, and community discussion when useful</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Start with a built-in profile, then adjust its prompts or blocks to match your reading needs.</p>
+
+<h2 id="directory-layout">Directory Layout</h2>
+
+<p>Each profile lives under <code class="language-plaintext highlighter-rouge">profiles/&lt;id&gt;/</code> with the same four-file layout:</p>
+
+<div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code>profiles/tech-blog/
+|-- profile.json
+|-- match.md
+|-- analysis.md
+`-- enrichment.md
+</code></pre></div></div>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">profile.json</code> defines the profile contract.</li>
+  <li><code class="language-plaintext highlighter-rouge">match.md</code> tells automatic routing what content belongs to the profile.</li>
+  <li><code class="language-plaintext highlighter-rouge">analysis.md</code> defines the first-pass analysis and scoring rubric.</li>
+  <li><code class="language-plaintext highlighter-rouge">enrichment.md</code> defines how to write the localized output blocks.</li>
+</ul>
+
+<h2 id="try-a-different-reading-style">Try a Different Reading Style</h2>
+
+<p>For an engineering feed, use <code class="language-plaintext highlighter-rouge">tech-blog</code> to extract the problem, solution, and
+lessons. Add an entry like this to <code class="language-plaintext highlighter-rouge">sources.rss</code>:</p>
+
+<div class="language-json highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">{</span><span class="w">
+  </span><span class="nl">"name"</span><span class="p">:</span><span class="w"> </span><span class="s2">"NVIDIA CUDA Technical Blog"</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"url"</span><span class="p">:</span><span class="w"> </span><span class="s2">"https://developer.nvidia.com/blog/tag/cuda/feed/"</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"profile"</span><span class="p">:</span><span class="w"> </span><span class="s2">"tech-blog"</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"content_extractor"</span><span class="p">:</span><span class="w"> </span><span class="s2">"trafilatura"</span><span class="w">
+</span><span class="p">}</span><span class="w">
+</span></code></pre></div></div>
+
+<p><code class="language-plaintext highlighter-rouge">trafilatura</code> is included in the base install. It fetches the article body;
+extraction failures fall back to the feed excerpt. The blog profile uses larger
+input budgets and head-middle-tail sampling for long articles.</p>
+
+<p>To create your own profile:</p>
+
+<ol>
+  <li>Copy a profile directory and give its <code class="language-plaintext highlighter-rouge">profile.json</code> a unique <code class="language-plaintext highlighter-rouge">id</code> and name.</li>
+  <li>Edit <code class="language-plaintext highlighter-rouge">match.md</code> and <code class="language-plaintext highlighter-rouge">analysis.md</code> to describe the content and evaluation criteria.</li>
+  <li>Set the output blocks in <code class="language-plaintext highlighter-rouge">profile.json</code> and their writing instructions in <code class="language-plaintext highlighter-rouge">enrichment.md</code>.</li>
+  <li>Set a source’s <code class="language-plaintext highlighter-rouge">profile</code> to your new ID, then tune its threshold under <code class="language-plaintext highlighter-rouge">processing.profile_settings</code>.</li>
+</ol>
+
+<p>No Python changes are needed when using the existing block type and tools. Each
+new profile also joins the candidates for unrestricted automatic routing.</p>
+
+<h2 id="contributing-a-profile">Contributing a Profile</h2>
+
+<p>A profile is a reusable editorial policy for a content domain, not a user
+account, source list, or collection of personal interests. It tells Horizon:</p>
+
+<ol>
+  <li>which items belong to the domain (<code class="language-plaintext highlighter-rouge">match.md</code>),</li>
+  <li>how to evaluate and score them (<code class="language-plaintext highlighter-rouge">analysis.md</code>), and</li>
+  <li>which content blocks to produce and how to write them (<code class="language-plaintext highlighter-rouge">profile.json</code> and
+<code class="language-plaintext highlighter-rouge">enrichment.md</code>).</li>
+</ol>
+
+<p>To contribute a built-in profile, add <code class="language-plaintext highlighter-rouge">profiles/&lt;id&gt;/</code> with those four files and
+open a focused pull request. No Python changes are normally required.</p>
+
+<p>Before submitting, check that the profile:</p>
+
+<ul>
+  <li>covers a clear content domain that is useful to more than one source list or
+individual user,</li>
+  <li>has a meaningful routing, evaluation, or output difference from existing
+profiles,</li>
+  <li>states both what belongs and what does not belong in <code class="language-plaintext highlighter-rouge">match.md</code>,</li>
+  <li>defines a concrete 0-10 rubric in <code class="language-plaintext highlighter-rouge">analysis.md</code>,</li>
+  <li>keeps generated blocks specific, non-overlapping, and grounded in supplied
+content or declared tools,</li>
+  <li>contains no credentials, private sources, or user-specific thresholds, and</li>
+  <li>passes <code class="language-plaintext highlighter-rouge">uv run pytest tests/test_profiles.py tests/test_prompting.py -q</code>.</li>
+</ul>
+
+<p>Built-in profiles are loaded as automatic-routing candidates, so maintainers may
+ask contributors to narrow ambiguous matching rules or clarify overlap before a
+profile is merged.</p>
+
+<p>Configure discovery in <code class="language-plaintext highlighter-rouge">data/config.json</code>:</p>
+
+<div class="language-json highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">{</span><span class="w">
+  </span><span class="nl">"processing"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+    </span><span class="nl">"profiles_dir"</span><span class="p">:</span><span class="w"> </span><span class="s2">"profiles"</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"default_profile"</span><span class="p">:</span><span class="w"> </span><span class="s2">"tech-news"</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"profile_settings"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+      </span><span class="nl">"tech-news"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+        </span><span class="nl">"threshold"</span><span class="p">:</span><span class="w"> </span><span class="mf">7.0</span><span class="p">,</span><span class="w">
+        </span><span class="nl">"topic_dedup"</span><span class="p">:</span><span class="w"> </span><span class="kc">true</span><span class="w">
+      </span><span class="p">},</span><span class="w">
+      </span><span class="nl">"tech-blog"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+        </span><span class="nl">"threshold"</span><span class="p">:</span><span class="w"> </span><span class="mf">4.0</span><span class="p">,</span><span class="w">
+        </span><span class="nl">"topic_dedup"</span><span class="p">:</span><span class="w"> </span><span class="kc">false</span><span class="w">
+      </span><span class="p">}</span><span class="w">
+    </span><span class="p">}</span><span class="w">
+  </span><span class="p">}</span><span class="w">
+</span><span class="p">}</span><span class="w">
+</span></code></pre></div></div>
+
+<p><code class="language-plaintext highlighter-rouge">default_profile</code> must name a loaded profile. Horizon fails to start if no
+profiles are found or the default does not exist.</p>
+
+<h2 id="profile-schema">Profile Schema</h2>
+
+<div class="language-json highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">{</span><span class="w">
+  </span><span class="nl">"id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"tech-news"</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"name"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Technology News"</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"display_names"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+    </span><span class="nl">"zh"</span><span class="p">:</span><span class="w"> </span><span class="s2">"科技新闻"</span><span class="w">
+  </span><span class="p">},</span><span class="w">
+  </span><span class="nl">"match"</span><span class="p">:</span><span class="w"> </span><span class="s2">"match.md"</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"analysis"</span><span class="p">:</span><span class="w"> </span><span class="s2">"analysis.md"</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"content"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+    </span><span class="nl">"analysis_max_chars"</span><span class="p">:</span><span class="w"> </span><span class="mi">1000</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"enrichment_max_chars"</span><span class="p">:</span><span class="w"> </span><span class="mi">8000</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"sampling"</span><span class="p">:</span><span class="w"> </span><span class="s2">"prefix"</span><span class="w">
+  </span><span class="p">},</span><span class="w">
+  </span><span class="nl">"enrichment"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+    </span><span class="nl">"prompt"</span><span class="p">:</span><span class="w"> </span><span class="s2">"enrichment.md"</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"blocks"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="w">
+      </span><span class="p">{</span><span class="w">
+        </span><span class="nl">"id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"summary"</span><span class="p">,</span><span class="w">
+        </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"section"</span><span class="p">,</span><span class="w">
+        </span><span class="nl">"tools"</span><span class="p">:</span><span class="w"> </span><span class="p">[],</span><span class="w">
+        </span><span class="nl">"primary"</span><span class="p">:</span><span class="w"> </span><span class="kc">true</span><span class="w">
+      </span><span class="p">},</span><span class="w">
+      </span><span class="p">{</span><span class="w">
+        </span><span class="nl">"id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"background"</span><span class="p">,</span><span class="w">
+        </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"section"</span><span class="p">,</span><span class="w">
+        </span><span class="nl">"tools"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="s2">"history_search"</span><span class="p">,</span><span class="w"> </span><span class="s2">"web_search"</span><span class="p">]</span><span class="w">
+      </span><span class="p">},</span><span class="w">
+      </span><span class="p">{</span><span class="w">
+        </span><span class="nl">"id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"community_discussion"</span><span class="p">,</span><span class="w">
+        </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"section"</span><span class="p">,</span><span class="w">
+        </span><span class="nl">"tools"</span><span class="p">:</span><span class="w"> </span><span class="p">[],</span><span class="w">
+        </span><span class="nl">"optional"</span><span class="p">:</span><span class="w"> </span><span class="kc">true</span><span class="w">
+      </span><span class="p">}</span><span class="w">
+    </span><span class="p">]</span><span class="w">
+  </span><span class="p">}</span><span class="w">
+</span><span class="p">}</span><span class="w">
+</span></code></pre></div></div>
+
+<table>
+  <thead>
+    <tr>
+      <th>Field</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">id</code></td>
+      <td>Unique profile ID. It starts with a lowercase letter and may contain lowercase letters, digits, <code class="language-plaintext highlighter-rouge">_</code>, and <code class="language-plaintext highlighter-rouge">-</code>.</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">name</code></td>
+      <td>Human-readable name used in the matching catalog.</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">display_names</code></td>
+      <td>Optional language-keyed names used as digest section headings.</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">match</code></td>
+      <td>Profile-relative path to the matching prompt.</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">analysis</code></td>
+      <td>Profile-relative path to the analysis prompt.</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">content</code></td>
+      <td>Input budgets and long-content sampling strategy for AI stages.</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">enrichment.prompt</code></td>
+      <td>Profile-relative path to the enrichment prompt.</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">enrichment.blocks</code></td>
+      <td>Contract for localized output blocks. At least one block is required.</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Block IDs use the same format as profile IDs and must be unique within a
+profile. The only supported block <code class="language-plaintext highlighter-rouge">type</code> is <code class="language-plaintext highlighter-rouge">"section"</code>. Blocks are required by
+default; set <code class="language-plaintext highlighter-rouge">optional</code> to <code class="language-plaintext highlighter-rouge">true</code> when they may be omitted.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Block field</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">id</code></td>
+      <td>Unique block ID within the profile.</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">type</code></td>
+      <td>Must be <code class="language-plaintext highlighter-rouge">"section"</code>.</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">tools</code></td>
+      <td>Tools allowed for this block. Declare it on every block; use <code class="language-plaintext highlighter-rouge">[]</code> when none are allowed.</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">optional</code></td>
+      <td>Whether output may omit the block. Defaults to <code class="language-plaintext highlighter-rouge">false</code>.</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">primary</code></td>
+      <td>Render this required block directly below the item title without a block heading. At most one block may be primary. Defaults to <code class="language-plaintext highlighter-rouge">false</code>.</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Prompt paths cannot escape their profile directory. Unknown fields are rejected
+in profile JSON.</p>
+
+<h2 id="source-routing">Source Routing</h2>
+
+<p>Set <code class="language-plaintext highlighter-rouge">profile</code> on a source entry to route its items directly:</p>
+
+<div class="language-json highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">{</span><span class="w">
+  </span><span class="nl">"sources"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+    </span><span class="nl">"rss"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="w">
+      </span><span class="p">{</span><span class="w">
+        </span><span class="nl">"name"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Example"</span><span class="p">,</span><span class="w">
+        </span><span class="nl">"url"</span><span class="p">:</span><span class="w"> </span><span class="s2">"https://example.com/feed.xml"</span><span class="p">,</span><span class="w">
+        </span><span class="nl">"profile"</span><span class="p">:</span><span class="w"> </span><span class="s2">"tech-news"</span><span class="w">
+      </span><span class="p">}</span><span class="w">
+    </span><span class="p">]</span><span class="w">
+  </span><span class="p">}</span><span class="w">
+</span><span class="p">}</span><span class="w">
+</span></code></pre></div></div>
+
+<p>Set <code class="language-plaintext highlighter-rouge">profile</code> to an array to restrict automatic matching to a candidate subset:</p>
+
+<div class="language-json highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">{</span><span class="w">
+  </span><span class="nl">"channel"</span><span class="p">:</span><span class="w"> </span><span class="s2">"zaihuapd"</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"profile"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="s2">"tech-news"</span><span class="p">,</span><span class="w"> </span><span class="s2">"finance-news"</span><span class="p">]</span><span class="w">
+</span><span class="p">}</span><span class="w">
+</span></code></pre></div></div>
+
+<p>Routing follows these rules:</p>
+
+<ol>
+  <li>An explicit profile ID uses that profile and skips AI matching.</li>
+  <li>A missing <code class="language-plaintext highlighter-rouge">profile</code> or <code class="language-plaintext highlighter-rouge">"auto"</code> invokes AI matching against every loaded
+profile’s <code class="language-plaintext highlighter-rouge">match.md</code>.</li>
+  <li>A non-empty profile array invokes AI matching only against those candidates.</li>
+  <li>Unknown, duplicate, blank, or <code class="language-plaintext highlighter-rouge">"auto"</code> entries in a candidate array are errors.</li>
+  <li>If candidate matching fails, Horizon uses <code class="language-plaintext highlighter-rouge">processing.default_profile</code> when
+it is a candidate, otherwise the first candidate. Unrestricted matching falls
+back to <code class="language-plaintext highlighter-rouge">processing.default_profile</code>.</li>
+</ol>
+
+<p>All source types support profile routing. For sources with nested entries, put
+<code class="language-plaintext highlighter-rouge">profile</code> on the item-producing configuration, such as a GitHub entry, RSS feed,
+Reddit subreddit or user, or OpenBB watchlist. Top-level single configurations,
+such as Hacker News, Twitter, OSS Insight, GDELT, and Google News, carry the
+field directly.</p>
+
+<h2 id="analysis">Analysis</h2>
+
+<p>After routing, Horizon sends the item to the selected profile’s <code class="language-plaintext highlighter-rouge">analysis.md</code>
+prompt. A successful analysis contains a 0-10 score, a reason, a one-sentence
+summary, and tags. A failed analysis may be stored with a null score. The profile
+owns the rubric, so profiles can evaluate different content forms by different
+standards.</p>
+
+<h2 id="filtering">Filtering</h2>
+
+<p>Filtering is a user preference configured by profile ID under
+<code class="language-plaintext highlighter-rouge">processing.profile_settings</code>:</p>
+
+<div class="language-json highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">{</span><span class="w">
+  </span><span class="nl">"processing"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+    </span><span class="nl">"profile_settings"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+      </span><span class="nl">"tech-news"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+        </span><span class="nl">"threshold"</span><span class="p">:</span><span class="w"> </span><span class="mf">8.0</span><span class="w">
+      </span><span class="p">}</span><span class="w">
+    </span><span class="p">}</span><span class="w">
+  </span><span class="p">}</span><span class="w">
+</span><span class="p">}</span><span class="w">
+</span></code></pre></div></div>
+
+<p><code class="language-plaintext highlighter-rouge">threshold</code> must be between 0 and 10. Horizon keeps items whose analysis score
+is greater than or equal to that threshold. Set it to <code class="language-plaintext highlighter-rouge">null</code> or omit settings for
+a profile to bypass score filtering. An MCP threshold supplied for a single
+operation takes precedence over these configured values.</p>
+
+<p>The top-level <code class="language-plaintext highlighter-rouge">collection</code> configuration controls <code class="language-plaintext highlighter-rouge">time_window_hours</code>. Optional
+balanced digest limits such as <code class="language-plaintext highlighter-rouge">category_groups</code> and <code class="language-plaintext highlighter-rouge">max_items</code> belong to the
+top-level <code class="language-plaintext highlighter-rouge">digest</code> configuration and run after profile filtering and topic
+deduplication.</p>
+
+<h2 id="enrichment-blocks-and-tools">Enrichment Blocks And Tools</h2>
+
+<p><code class="language-plaintext highlighter-rouge">enrichment.blocks</code> defines the exact block IDs available to output.
+Required blocks must be present; optional blocks can be omitted when they add no
+useful content. Generated output cannot contain unknown or duplicate blocks.</p>
+
+<p>Tools are allowed per block through its <code class="language-plaintext highlighter-rouge">tools</code> array. The built-in tools are
+<code class="language-plaintext highlighter-rouge">web_search</code> (external web results) and <code class="language-plaintext highlighter-rouge">history_search</code> (past Horizon digests).
+A block may use a tool only when it explicitly declares it. Use an empty array
+for blocks that need no tools. Unknown tools are rejected when the enricher is
+initialized.</p>
+
+<p>Tool planning receives each block’s required or optional status. For required
+blocks with tools, the prompt asks the model to use a tool unless the source
+already provides enough evidence. A search is not guaranteed; tool failures do
+not make a required block optional.</p>
+
+<p>Search-backed statements cite tool results through source references. Horizon
+rejects references that were not returned by a tool call.</p>
+
+<h3 id="historical-news-search">Historical news search</h3>
+
+<p><code class="language-plaintext highlighter-rouge">history_search</code> reads the existing <code class="language-plaintext highlighter-rouge">horizon-YYYY-MM-DD*.md</code> files under your
+data directory’s <code class="language-plaintext highlighter-rouge">summaries/</code> folder. It uses local BM25 ranking over individual
+news titles, main summaries, and tags, with extra weight for titles. The index is
+loaded lazily once per enrichment batch; it needs no additional dependency,
+database, embedding service, or AI relevance-scoring call.</p>
+
+<p>Tool arguments:</p>
+
+<div class="language-json highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">{</span><span class="nl">"query"</span><span class="p">:</span><span class="w"> </span><span class="s2">"vLLM batch inference"</span><span class="p">,</span><span class="w"> </span><span class="nl">"days"</span><span class="p">:</span><span class="w"> </span><span class="mi">90</span><span class="p">}</span><span class="w">
+</span></code></pre></div></div>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">query</code> is required. Prefer specific product, project, or event names; include
+useful aliases rather than broad terms such as “AI news”.</li>
+  <li><code class="language-plaintext highlighter-rouge">days</code> is optional, defaults to 90, and accepts 1–365. Only digests before the
+current item’s UTC publication date (and before today) are eligible.</li>
+  <li>Dates come from filenames and identify the <strong>digest</strong>, not necessarily the
+original event date.</li>
+  <li>Each item gets at most one history search, shared across output languages.
+It returns at most three candidates, each with a dated title, original URL,
+archive filename, and up to 500 characters of the main summary.</li>
+  <li>Results exclude the current URL and collapse repeated links, including
+translations and fragment/trailing-slash variants. Earlier background,
+historical callbacks, comments, and reference lists are not indexed as evidence.</li>
+  <li>Tokenization uses Latin words and overlapping two-character Chinese tokens.
+It can match Chinese phrases without an extra segmenter, but does not infer
+synonyms or cross-language equivalence. No matching terms means no results.</li>
+</ul>
+
+<p>The built-in <code class="language-plaintext highlighter-rouge">tech-news</code> profile uses history in its existing <code class="language-plaintext highlighter-rouge">background</code> block.
+Its prompt requires a direct predecessor, follow-up, or concrete change, limits
+historical references to two, and discards candidates connected only by a broad
+topic or company name. Results are candidates, not proof of a relationship.
+Normal block generation decides whether to use them, so their short excerpts
+add some input tokens but no separate AI screening stage.</p>
+
+<p>To try it, keep past Markdown digests in the same data directory used by the
+next run. CLI <code class="language-plaintext highlighter-rouge">--data-dir</code> and the existing Docker data mount are respected. MCP
+uses <code class="language-plaintext highlighter-rouge">summaries/</code> beside its config file; per-run MCP artifacts alone are not
+searched (export a digest with <code class="language-plaintext highlighter-rouge">save_to_horizon_data</code> to include it). An empty or
+missing archive simply returns no results. Scheduled runners need to restore
+past digest files before running; publishing old Pages posts alone does not
+make them available in a fresh checkout.</p>
+
+<h2 id="content-selection">Content Selection</h2>
+
+<p>Profiles can control how much source content each AI stage receives:</p>
+
+<div class="language-json highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">{</span><span class="w">
+  </span><span class="nl">"content"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+    </span><span class="nl">"analysis_max_chars"</span><span class="p">:</span><span class="w"> </span><span class="mi">16000</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"enrichment_max_chars"</span><span class="p">:</span><span class="w"> </span><span class="mi">24000</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"sampling"</span><span class="p">:</span><span class="w"> </span><span class="s2">"head-middle-tail"</span><span class="w">
+  </span><span class="p">}</span><span class="w">
+</span><span class="p">}</span><span class="w">
+</span></code></pre></div></div>
+
+<p><code class="language-plaintext highlighter-rouge">sampling</code> accepts <code class="language-plaintext highlighter-rouge">"prefix"</code> or <code class="language-plaintext highlighter-rouge">"head-middle-tail"</code>. Prefix sampling preserves
+the compact behavior used by news profiles. Head-middle-tail sampling keeps the
+opening, a middle excerpt, and the conclusion of long-form content. Both limits
+must be between 500 and 100000 characters.</p>
+
+<h2 id="topic-deduplication">Topic Deduplication</h2>
+
+<p>AI topic deduplication is also a runtime preference. Disable it for profiles
+where different treatments of the same subject should remain separate:</p>
+
+<div class="language-json highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">{</span><span class="w">
+  </span><span class="nl">"processing"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+    </span><span class="nl">"profile_settings"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+      </span><span class="nl">"tech-blog"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+        </span><span class="nl">"topic_dedup"</span><span class="p">:</span><span class="w"> </span><span class="kc">false</span><span class="w">
+      </span><span class="p">}</span><span class="w">
+    </span><span class="p">}</span><span class="w">
+  </span><span class="p">}</span><span class="w">
+</span><span class="p">}</span><span class="w">
+</span></code></pre></div></div>
+
+<p><code class="language-plaintext highlighter-rouge">topic_dedup</code> defaults to <code class="language-plaintext highlighter-rouge">true</code> when it or the profile’s settings are omitted.</p>
+
+<p>Topic deduplication runs within each resolved profile. Disabling it does not
+disable the orchestrator’s earlier URL deduplication: items with the same
+normalized URL and requested profile or candidate list are still merged before
+analysis. Different requested routes stay separate at that stage; individual
+scrapers may also deduplicate their results before routing.</p>
+
+<h2 id="localized-output">Localized Output</h2>
+
+<p>For each language in <code class="language-plaintext highlighter-rouge">ai.languages</code>, enrichment produces a localized artifact
+with:</p>
+
+<ul>
+  <li>a title;</li>
+  <li>the profile’s required and applicable optional section blocks; and</li>
+  <li>cited external sources referenced by those blocks.</li>
+</ul>
+
+<p>Artifacts generated for <code class="language-plaintext highlighter-rouge">zh</code> are normalized to Simplified Chinese before they
+are stored and rendered, including older artifacts read during rendering.</p>
+
+<p>The Markdown briefing renders a block marked <code class="language-plaintext highlighter-rouge">primary</code> directly below the item
+title and before the source line, without a redundant block heading. Profiles
+without a primary block show the source first and then render every block under
+its bold localized title on the same line as its content. External references
+follow the blocks when used. Items
+are grouped by Profile: the briefing title is H1, localized Profile names are H2
+sections, and items are H3 headings. Set <code class="language-plaintext highlighter-rouge">digest.profile_order</code> to control the H2
+section priority. When this list is non-empty, loaded Profiles omitted from it
+are appended in discovery order; unknown or duplicate IDs are rejected. With an
+empty or omitted list, sections follow the order in which profiles first appear
+in the selected items. The final Markdown is rendered by code, without another
+AI summarization call.</p>
+
+
+      <footer class="site-footer">
+        
+          <span class="site-footer-owner"><a href="https://github.com/kfwang90/horizon">horizon</a> is maintained by <a href="https://github.com/kfwang90">kfwang90</a>.</span>
+        
+        <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a>.</span>
+      </footer>
+    </main>
+  </body>
+</html>

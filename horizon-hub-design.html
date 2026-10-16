@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+
+<!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>HorizonHub Product Design Document | Horizon Daily</title>
+<meta name="generator" content="Jekyll v3.10.0" />
+<meta property="og:title" content="HorizonHub Product Design Document" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="AI-curated daily digest of tech and research news" />
+<meta property="og:description" content="AI-curated daily digest of tech and research news" />
+<link rel="canonical" href="https://kfwang90.github.io/horizon/horizon-hub-design.html" />
+<meta property="og:url" content="https://kfwang90.github.io/horizon/horizon-hub-design.html" />
+<meta property="og:site_name" content="Horizon Daily" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="HorizonHub Product Design Document" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebPage","description":"AI-curated daily digest of tech and research news","headline":"HorizonHub Product Design Document","url":"https://kfwang90.github.io/horizon/horizon-hub-design.html"}</script>
+<!-- End Jekyll SEO tag -->
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preload" href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap" as="style" type="text/css" crossorigin>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#157878">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <link rel="stylesheet" href="/horizon/assets/css/style.css?v=01f2705173aaa4fd442bdc136365023243bde0c7">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🌅</text></svg>">
+<link rel="apple-touch-icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🌅</text></svg>">
+<link rel="shortcut icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🌅</text></svg>">
+<link rel="alternate" type="application/rss+xml" title="Horizon Daily RSS (All)" href="/horizon/feed.xml">
+<link rel="alternate" type="application/atom+xml" title="Horizon Daily RSS (ZH)" href="/horizon/feed-zh.xml">
+<link rel="alternate" type="application/atom+xml" title="Horizon Daily RSS (EN)" href="/horizon/feed-en.xml">
+<link rel="stylesheet" href="/horizon/assets/css/horizon.css">
+<style>
+.rss-icon{opacity:.6;color:inherit;margin-left:12px;vertical-align:middle;text-decoration:none;transition:all .2s}
+.rss-icon:hover{opacity:1;color:#f26522}
+.rss-icon svg{width:0.9em;height:0.9em;display:inline-block}
+@media(prefers-color-scheme:dark){body{background:#1a1726!important;color:#e8e4f0!important}}
+</style>
+<script src="/horizon/assets/js/horizon.js" defer></script>
+
+  </head>
+  <body>
+    <a id="skip-to-content" href="#content">Skip to the content.</a>
+
+    <header class="page-header" role="banner">
+      <h1 class="project-name">HorizonHub Product Design Document</h1>
+      <h2 class="project-tagline">AI-curated daily digest of tech and research news</h2>
+      
+        <a href="https://github.com/kfwang90/horizon" class="btn">View on GitHub</a>
+      
+      
+    </header>
+
+    <main id="content" class="main-content" role="main">
+      <h1 id="horizonhub-product-design-document">HorizonHub Product Design Document</h1>
+
+<h2 id="positioning">Positioning</h2>
+
+<p><strong>One-sentence positioning</strong>: The information source marketplace for the Horizon ecosystem—driven by real community usage data for discovery, recommendation, and quality assessment.</p>
+
+<p><strong>Difference from Competitors</strong>:</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Product</th>
+      <th>What it does</th>
+      <th>What it doesn’t do</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>RSSHub</td>
+      <td>Turns websites without RSS into RSS (Pipe)</td>
+      <td>No quality assessment, no recommendations</td>
+    </tr>
+    <tr>
+      <td>Feedly</td>
+      <td>RSS Reader with discovery features</td>
+      <td>No AI filtering, no personalized recommendations</td>
+    </tr>
+    <tr>
+      <td>HN / Reddit</td>
+      <td>Community-driven content aggregation</td>
+      <td>Fixed sources, user cannot customize</td>
+    </tr>
+    <tr>
+      <td><strong>HorizonHub</strong></td>
+      <td><strong>Data-driven source recommendation &amp; quality assessment</strong></td>
+      <td><strong>No content hosting, not a reader</strong></td>
+    </tr>
+  </tbody>
+</table>
+
+<p><strong>Core Moat</strong>: The daily operation of every Horizon user generates quality data for information sources (AI scores, signal-to-noise ratio, output frequency). When aggregated in the Hub, this data forms a <strong>dynamic quality profile</strong> that no static recommendation list can provide.</p>
+
+<hr />
+
+<h2 id="system-architecture">System Architecture</h2>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>┌──────────────────────────────────────────────────┐
+│                    User Local                    │
+│                                                  │
+│  horizon-wizard (TUI)       Horizon CLI          │
+│  ┌────────────────┐         ┌────────────────┐   │
+│  │ Browse/Search  │         │ Fetch -&gt; AI    │   │
+│  │ Add/Remove     │──Write─▶│ Score -&gt;       │   │
+│  │ Recommend      │         │ Gen Summary    │   │
+│  └───────┬────────┘         └───────┬────────┘   │
+│          │                          │            │
+└──────────┼──────────────────────────┼────────────┘
+           │ Report Ops Events        │ Report Quality Data
+           ▼                          ▼
+┌──────────────────────────────────────────────────┐
+│                 HorizonHub Server                │
+│                                                  │
+│  ┌───────────┐  ┌─────────────┐  ┌────────────┐  │
+│  │ Source DB │  │ Rank Engine │  │ Recommender│  │
+│  └───────────┘  └─────────────┘  └────────────┘  │
+│                        │                         │
+│               ┌────────▼────────┐                │
+│               │   Hub Web UI    │                │
+│               │ (Market / Rank) │                │
+│               └─────────────────┘                │
+└──────────────────────────────────────────────────┘
+</code></pre></div></div>
+
+<p>Two core components:</p>
+<ul>
+  <li><strong>Hub Server</strong>: Data center + Web frontend, receiving reports, storing statistics, providing APIs and web pages.</li>
+  <li><strong>Local Client (horizon-wizard)</strong>: The sole entry point for users to manage information sources; every operation naturally generates data.</li>
+</ul>
+
+<hr />
+
+<h2 id="feature-list">Feature List</h2>
+
+<h3 id="source-market-browse">Source Market (Browse)</h3>
+
+<p>The core interface users see when opening the Hub website.</p>
+
+<p><strong>Page Structure</strong>:</p>
+
+<ul>
+  <li><strong>Top Dashboard</strong>: A row of statistics cards.
+    <ul>
+      <li>
+        <table>
+          <tbody>
+            <tr>
+              <td>Total Sources</td>
+              <td>Field Categories</td>
+              <td>Contributors</td>
+              <td>Active Users</td>
+            </tr>
+          </tbody>
+        </table>
+      </li>
+    </ul>
+  </li>
+  <li><strong>Source Card Waterfall</strong>: Each source has a card.
+    <ul>
+      <li>Source Name + Type Tags (RSS / Reddit / GitHub / Telegram / Twitter)</li>
+      <li>Color-coded Field Tags (AI Purple, Systems Blue, Security Red…)</li>
+      <li>One-sentence Bio (CN/EN)</li>
+      <li>Key Metrics: Users · AI Avg Score · Signal-to-Noise Ratio</li>
+      <li>Contributor Avatars</li>
+      <li>Badges: 🔥 Hot / ✨ New / ⚠️ Quality Dropped</li>
+    </ul>
+  </li>
+  <li><strong>Filtering and Sorting</strong>:
+    <ul>
+      <li>Filter by field / language / type</li>
+      <li>Sort by Popularity (Users) / Quality (AI Avg) / SNR / Latest Added</li>
+      <li>Keyword Search</li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="source-profile">Source Profile</h3>
+
+<p>The detail page for each source, showing a complete data-driven profile.</p>
+
+<p><strong>Included Data</strong>:</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Metric</th>
+      <th>Description</th>
+      <th>Data Source</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Active Users</td>
+      <td>Number of users using this source in the past 30 days</td>
+      <td>Telemetry</td>
+    </tr>
+    <tr>
+      <td>AI Avg Score</td>
+      <td>Average AI score of content produced by this source</td>
+      <td>Telemetry</td>
+    </tr>
+    <tr>
+      <td>SNR</td>
+      <td>Percentage of items passing AI filtering vs. total fetched</td>
+      <td>Telemetry</td>
+    </tr>
+    <tr>
+      <td>Avg Daily Output</td>
+      <td>Average number of items fetched per day</td>
+      <td>Telemetry</td>
+    </tr>
+    <tr>
+      <td>Score Trend</td>
+      <td>Line chart of AI average scores over the last 30 days</td>
+      <td>Telemetry Aggregation</td>
+    </tr>
+    <tr>
+      <td>User Trend</td>
+      <td>Changes in active users over the last 30 days</td>
+      <td>Telemetry Aggregation</td>
+    </tr>
+    <tr>
+      <td>Contributor</td>
+      <td>Who submitted this source</td>
+      <td>User submission records</td>
+    </tr>
+    <tr>
+      <td>Date Added</td>
+      <td>When it was added to the Hub</td>
+      <td>Submission records</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="user-submission-contribute">User Submission (Contribute)</h3>
+
+<p><strong>Submission Process</strong>:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>User (Hub Web or Local Client)
+  → GitHub OAuth Login
+  → Fill info: Name, URL, Type, Category, Language, Bio
+  → Submit
+
+Hub Server
+  → Automatically fetch last 10 items from source
+  → AI quality assessment (Avg score, SNR)
+  → Quality OK → Auto-online, Status: ✅ Online
+  → Quality Poor → Mark pending, notify maintainer for manual review
+</code></pre></div></div>
+
+<p><strong>Channels</strong>:</p>
+<ul>
+  <li>Hub Web Form (most intuitive)</li>
+  <li>Local Client Submission (one-click via <code class="language-plaintext highlighter-rouge">horizon-wizard</code>)</li>
+</ul>
+
+<h3 id="intelligent-recommendation-recommend">Intelligent Recommendation (Recommend)</h3>
+
+<p><strong>Scenarios</strong>:</p>
+
+<ol>
+  <li><strong>New User Cold Start</strong>: Enter interest keywords (“AI”, “Linux Kernel”) to recommend the best source combination.</li>
+  <li><strong>Complementary Recommendation</strong>: Analyze existing config to recommend sources with complementary coverage and flag high-overlap sources.</li>
+  <li><strong>Collaborative Filtering</strong> (post-scale): “Users with similar tastes also read…”</li>
+</ol>
+
+<p><strong>Input for Rec Algorithm</strong>:</p>
+<ul>
+  <li>Source field tags</li>
+  <li>Content overlap between sources (calculated via deduplication data)</li>
+  <li>Usage patterns of user cohorts</li>
+</ul>
+
+<h3 id="one-click-export-export">One-click Export (Export)</h3>
+
+<p>After users select sources on the Hub website:</p>
+
+<ul>
+  <li>Generate <code class="language-plaintext highlighter-rouge">config.json</code> snippet → Copy to clipboard</li>
+  <li>Download full config file</li>
+  <li>Generate <code class="language-plaintext highlighter-rouge">horizon-wizard</code> command → One-click import via terminal</li>
+</ul>
+
+<h3 id="contributor-system-community">Contributor System (Community)</h3>
+
+<p><strong>Contributor Leaderboard</strong>:</p>
+<ul>
+  <li>Ranked by number of sources contributed.</li>
+  <li>Displays GitHub avatar + link + contribution count.</li>
+</ul>
+
+<p><strong>Contributor Homepage</strong>:</p>
+<ul>
+  <li>Sources I submitted.</li>
+  <li>How many people use my sources in total.</li>
+  <li>Average quality score of my sources.</li>
+</ul>
+
+<p><strong>Badge System</strong>:</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Badge</th>
+      <th>Condition</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>🌱 First Contribution</td>
+      <td>Submit the first source</td>
+    </tr>
+    <tr>
+      <td>🌟 Quality Contributor</td>
+      <td>Contributed sources have Avg Score ≥ 7.0</td>
+    </tr>
+    <tr>
+      <td>🔥 Popular Contributor</td>
+      <td>A single source used by ≥ 50 people</td>
+    </tr>
+    <tr>
+      <td>👑 Core Contributor</td>
+      <td>Contributed ≥ 10 sources</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="source-health-monitoring">Source Health Monitoring</h3>
+
+<p><strong>Automatic Decay Detection</strong> (Option A — Passive):</p>
+
+<p>Hub server continuously tracks active user trends for each source. If usage drops continuously (e.g., &gt;30% drop within 30 days), auto-mark with a ⚠️ warning.</p>
+
+<p><strong>User Feedback Collection</strong> (Option B — Active):</p>
+
+<p>When a user deletes or disables a source via <code class="language-plaintext highlighter-rouge">horizon-wizard</code>, a popup asks for optional feedback:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>You removed "QbitAI", can you tell us why? (Optional, Enter to skip)
+1. Quality dropped
+2. Too much overlap with other sources
+3. Low update frequency / defunct
+4. Doesn't match my interests
+&gt;
+</code></pre></div></div>
+
+<p>Reported to the Hub, integrated with decay data for comprehensive judgment.</p>
+
+<hr />
+
+<h2 id="distributed-agent-operating-system">Distributed Agent Operating System</h2>
+
+<h3 id="analogy">Analogy</h3>
+
+<p>If the Horizon ecosystem is viewed as a <strong>Distributed Agent Operating System</strong>.</p>
+
+<p>A single Horizon instance is like a “standalone machine” managing one user’s information flow. HorizonHub acts as the <strong>Control Plane</strong> that coordinates all users’ Agents into a whole, allowing decentralized individual judgments to converge into collective intelligence.</p>
+
+<h3 id="why-emergence">Why “Emergence”?</h3>
+
+<p>Each Agent runs independently and is unaware of others, but:</p>
+<ul>
+  <li><strong>Diversity</strong>: Different users subscribe to sources in different fields, naturally providing diverse perspectives.</li>
+  <li><strong>Independence</strong>: Each Agent’s AI scoring is unaffected by other users.</li>
+  <li><strong>Aggregation</strong>: The Hub aggregates all scores to form a global quality signal more accurate than any single Agent.</li>
+</ul>
+
+<p>This is not designed intelligence, but rather consensus <strong>emerging</strong> from a large number of independent judgments—mathematically aligned with the Condorcet Jury Theorem.</p>
+
+<hr />
+
+
+      <footer class="site-footer">
+        
+          <span class="site-footer-owner"><a href="https://github.com/kfwang90/horizon">horizon</a> is maintained by <a href="https://github.com/kfwang90">kfwang90</a>.</span>
+        
+        <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a>.</span>
+      </footer>
+    </main>
+  </body>
+</html>

@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+
+<!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Twitter / X Cookie 配置指南（Playwright 模式） | Horizon Daily</title>
+<meta name="generator" content="Jekyll v3.10.0" />
+<meta property="og:title" content="Twitter / X Cookie 配置指南（Playwright 模式）" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="AI-curated daily digest of tech and research news" />
+<meta property="og:description" content="AI-curated daily digest of tech and research news" />
+<link rel="canonical" href="https://kfwang90.github.io/horizon/twitter-cookies.html" />
+<meta property="og:url" content="https://kfwang90.github.io/horizon/twitter-cookies.html" />
+<meta property="og:site_name" content="Horizon Daily" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Twitter / X Cookie 配置指南（Playwright 模式）" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebPage","description":"AI-curated daily digest of tech and research news","headline":"Twitter / X Cookie 配置指南（Playwright 模式）","url":"https://kfwang90.github.io/horizon/twitter-cookies.html"}</script>
+<!-- End Jekyll SEO tag -->
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preload" href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap" as="style" type="text/css" crossorigin>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#157878">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <link rel="stylesheet" href="/horizon/assets/css/style.css?v=01f2705173aaa4fd442bdc136365023243bde0c7">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🌅</text></svg>">
+<link rel="apple-touch-icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🌅</text></svg>">
+<link rel="shortcut icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🌅</text></svg>">
+<link rel="alternate" type="application/rss+xml" title="Horizon Daily RSS (All)" href="/horizon/feed.xml">
+<link rel="alternate" type="application/atom+xml" title="Horizon Daily RSS (ZH)" href="/horizon/feed-zh.xml">
+<link rel="alternate" type="application/atom+xml" title="Horizon Daily RSS (EN)" href="/horizon/feed-en.xml">
+<link rel="stylesheet" href="/horizon/assets/css/horizon.css">
+<style>
+.rss-icon{opacity:.6;color:inherit;margin-left:12px;vertical-align:middle;text-decoration:none;transition:all .2s}
+.rss-icon:hover{opacity:1;color:#f26522}
+.rss-icon svg{width:0.9em;height:0.9em;display:inline-block}
+@media(prefers-color-scheme:dark){body{background:#1a1726!important;color:#e8e4f0!important}}
+</style>
+<script src="/horizon/assets/js/horizon.js" defer></script>
+
+  </head>
+  <body>
+    <a id="skip-to-content" href="#content">Skip to the content.</a>
+
+    <header class="page-header" role="banner">
+      <h1 class="project-name">Twitter / X Cookie 配置指南（Playwright 模式）</h1>
+      <h2 class="project-tagline">AI-curated daily digest of tech and research news</h2>
+      
+        <a href="https://github.com/kfwang90/horizon" class="btn">View on GitHub</a>
+      
+      
+    </header>
+
+    <main id="content" class="main-content" role="main">
+      <h1 id="twitter--x-cookie-配置指南playwright-模式">Twitter / X Cookie 配置指南（Playwright 模式）</h1>
+
+<p>Horizon 支持两种 Twitter 抓取方式：</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>方式</th>
+      <th>成本</th>
+      <th>稳定性</th>
+      <th>适用场景</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Apify</strong> (默认)</td>
+      <td>需订阅 ($49/月起)</td>
+      <td>⭐⭐⭐ 高</td>
+      <td>生产环境、大量账号</td>
+    </tr>
+    <tr>
+      <td><strong>Playwright + Cookie</strong> (免费)</td>
+      <td>免费</td>
+      <td>⭐⭐ 中</td>
+      <td>个人使用、少量账号</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>本文档介绍免费方案的配置方法。</p>
+
+<hr />
+
+<h2 id="1-安装依赖">1. 安装依赖</h2>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>uv <span class="nb">sync</span> <span class="nt">--extra</span> twitter
+uv run playwright <span class="nb">install </span>chromium
+</code></pre></div></div>
+
+<hr />
+
+<h2 id="2-获取-cookie">2. 获取 Cookie</h2>
+
+<h3 id="方法一浏览器扩展推荐">方法一：浏览器扩展（推荐）</h3>
+
+<ol>
+  <li>用 Chrome/Edge/Firefox 登录 <a href="https://x.com">x.com</a></li>
+  <li>安装扩展 <strong>“Cookie-Editor”</strong> 或 <strong>“Get cookies.txt LOCALLY”</strong></li>
+  <li>在 x.com 页面打开扩展，导出为 <strong>JSON 格式</strong></li>
+  <li>保存到 <code class="language-plaintext highlighter-rouge">data/x_cookies_1.json</code></li>
+</ol>
+
+<h3 id="方法二开发者工具">方法二：开发者工具</h3>
+
+<ol>
+  <li>登录 x.com 后按 <code class="language-plaintext highlighter-rouge">F12</code> 打开开发者工具</li>
+  <li>切换到 <strong>Application (应用)</strong> → <strong>Cookies</strong> → <code class="language-plaintext highlighter-rouge">https://x.com</code></li>
+  <li>找到以下关键 Cookie（名称可能略有不同）：
+    <ul>
+      <li><code class="language-plaintext highlighter-rouge">auth_token</code></li>
+      <li><code class="language-plaintext highlighter-rouge">ct0</code></li>
+      <li><code class="language-plaintext highlighter-rouge">twid</code></li>
+    </ul>
+  </li>
+  <li>手动构建 JSON 数组：</li>
+</ol>
+
+<div class="language-json highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">[</span><span class="w">
+  </span><span class="p">{</span><span class="w">
+    </span><span class="nl">"name"</span><span class="p">:</span><span class="w"> </span><span class="s2">"auth_token"</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"value"</span><span class="p">:</span><span class="w"> </span><span class="s2">"你的auth_token值"</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"domain"</span><span class="p">:</span><span class="w"> </span><span class="s2">".x.com"</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"path"</span><span class="p">:</span><span class="w"> </span><span class="s2">"/"</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"secure"</span><span class="p">:</span><span class="w"> </span><span class="kc">true</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"httpOnly"</span><span class="p">:</span><span class="w"> </span><span class="kc">true</span><span class="w">
+  </span><span class="p">},</span><span class="w">
+  </span><span class="p">{</span><span class="w">
+    </span><span class="nl">"name"</span><span class="p">:</span><span class="w"> </span><span class="s2">"ct0"</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"value"</span><span class="p">:</span><span class="w"> </span><span class="s2">"你的ct0值"</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"domain"</span><span class="p">:</span><span class="w"> </span><span class="s2">".x.com"</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"path"</span><span class="p">:</span><span class="w"> </span><span class="s2">"/"</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"secure"</span><span class="p">:</span><span class="w"> </span><span class="kc">true</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"httpOnly"</span><span class="p">:</span><span class="w"> </span><span class="kc">false</span><span class="w">
+  </span><span class="p">}</span><span class="w">
+</span><span class="p">]</span><span class="w">
+</span></code></pre></div></div>
+
+<hr />
+
+<h2 id="3-配置文件">3. 配置文件</h2>
+
+<p>编辑 <code class="language-plaintext highlighter-rouge">data/config.json</code>：</p>
+
+<div class="language-json highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">{</span><span class="w">
+  </span><span class="nl">"sources"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+    </span><span class="nl">"twitter"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+      </span><span class="nl">"enabled"</span><span class="p">:</span><span class="w"> </span><span class="kc">true</span><span class="p">,</span><span class="w">
+      </span><span class="nl">"mode"</span><span class="p">:</span><span class="w"> </span><span class="s2">"playwright"</span><span class="p">,</span><span class="w">
+      </span><span class="nl">"users"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="s2">"karpathy"</span><span class="p">,</span><span class="w"> </span><span class="s2">"ylecun"</span><span class="p">],</span><span class="w">
+      </span><span class="nl">"fetch_limit"</span><span class="p">:</span><span class="w"> </span><span class="mi">10</span><span class="p">,</span><span class="w">
+      </span><span class="nl">"cookie_dir"</span><span class="p">:</span><span class="w"> </span><span class="s2">"data"</span><span class="p">,</span><span class="w">
+      </span><span class="nl">"cookie_file_pattern"</span><span class="p">:</span><span class="w"> </span><span class="s2">"x_cookies_*.json"</span><span class="w">
+    </span><span class="p">}</span><span class="w">
+  </span><span class="p">}</span><span class="w">
+</span><span class="p">}</span><span class="w">
+</span></code></pre></div></div>
+
+<p>Keyword search (<code class="language-plaintext highlighter-rouge">sources.twitter.keywords</code>) is Apify-only. Playwright logs a warning and skips those queries.</p>
+
+<hr />
+
+<h2 id="4-多账号轮询防封策略">4. 多账号轮询（防封策略）</h2>
+
+<p>如果你有多个 X 账号，可以为每个账号导出 cookie，命名为：</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>data/x_cookies_1.json   # 账号A
+data/x_cookies_2.json   # 账号B
+data/x_cookies_3.json   # 账号C
+</code></pre></div></div>
+
+<p>Horizon 会自动<strong>轮询使用</strong>这些 cookie，当一个账号触发限流时切换到下一个，大幅提升稳定性。</p>
+
+<hr />
+
+<h2 id="5-代理配置可选">5. 代理配置（可选）</h2>
+
+<p>如果在中国大陆或需要代理：</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">export </span><span class="nv">https_proxy</span><span class="o">=</span>http://127.0.0.1:7890
+</code></pre></div></div>
+
+<p>Playwright 会自动读取 <code class="language-plaintext highlighter-rouge">PROXY</code>、<code class="language-plaintext highlighter-rouge">https_proxy</code>、<code class="language-plaintext highlighter-rouge">http_proxy</code>、<code class="language-plaintext highlighter-rouge">all_proxy</code> 环境变量。</p>
+
+<hr />
+
+<h2 id="6-注意事项">6. 注意事项</h2>
+
+<p>⚠️ <strong>Cookie 有有效期</strong>：通常 1-4 周，过期后需要重新导出<br />
+⚠️ <strong>不要提交 Cookie 文件</strong>：已加入 <code class="language-plaintext highlighter-rouge">.gitignore</code>，请妥善保管<br />
+⚠️ <strong>账号安全</strong>：建议使用<strong>小号/备用号</strong>，避免主账号风险<br />
+⚠️ <strong>抓取频率</strong>：每个账号间隔 5-10 秒，避免触发平台限流</p>
+
+<hr />
+
+<h2 id="7-故障排除">7. 故障排除</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>问题</th>
+      <th>原因</th>
+      <th>解决</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>“No cookie files found”</td>
+      <td>cookie 文件名不匹配</td>
+      <td>检查 <code class="language-plaintext highlighter-rouge">cookie_file_pattern</code> 和实际文件名</td>
+    </tr>
+    <tr>
+      <td>“page shows login gate”</td>
+      <td>cookie 已过期</td>
+      <td>重新登录并导出最新 cookie</td>
+    </tr>
+    <tr>
+      <td>“no GraphQL data intercepted”</td>
+      <td>页面结构变化或被限流</td>
+      <td>等待几分钟后重试，或增加 cookie 数量</td>
+    </tr>
+    <tr>
+      <td>Playwright 未安装</td>
+      <td>依赖缺失</td>
+      <td>运行 <code class="language-plaintext highlighter-rouge">uv sync --extra twitter &amp;&amp; uv run playwright install chromium</code></td>
+    </tr>
+  </tbody>
+</table>
+
+
+      <footer class="site-footer">
+        
+          <span class="site-footer-owner"><a href="https://github.com/kfwang90/horizon">horizon</a> is maintained by <a href="https://github.com/kfwang90">kfwang90</a>.</span>
+        
+        <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a>.</span>
+      </footer>
+    </main>
+  </body>
+</html>
