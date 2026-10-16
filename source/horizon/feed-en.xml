@@ -3,7 +3,7 @@
   <title>Horizon Daily - English Digest</title>
   <link href="https://www.01040610.xyz/horizon/feed-en.xml" rel="self"/>
   <link href="https://www.01040610.xyz/horizon/"/>
-  <updated>2026-10-16T05:33:06+00:00</updated>
+  <updated>2026-10-16T07:04:55+00:00</updated>
   <id>https://www.01040610.xyz/horizon/</id>
   
   
@@ -13,438 +13,421 @@
     <updated>2026-10-16T00:00:00+00:00</updated>
     <id>https://www.01040610.xyz/horizon/2026/10/16/summary-en.html</id>
     <content type="html"><![CDATA[ <blockquote>
-  <p>From 48 items, 17 important content pieces were selected</p>
+  <p>From 105 items, 24 important content pieces were selected</p>
 </blockquote>
 
 <hr />
 
-<p><strong>Technology News</strong></p>
+<p><strong>GitHub Trending</strong></p>
 <ol>
-  <li><a href="#item-tech-news-1">Citizen Lab: Discover Tech weaponized ad infrastructure for zero-click spyware</a> ⭐️ 9.0/10</li>
-  <li><a href="#item-tech-news-2">Libreboot 26.10 adds UEFI support and 233 Chromebooks</a> ⭐️ 8.0/10</li>
-  <li><a href="#item-tech-news-3">Anthropic tells investors quarterly revenue up nearly 50% to $16.8bn ahead of IPO</a> ⭐️ 8.0/10</li>
-  <li><a href="#item-tech-news-4">MIT: Randomly connected units self-organize learning machinery matching backprop performance</a> ⭐️ 8.0/10</li>
-  <li><a href="#item-tech-news-5">Shanghai AI Lab Releases Atria Dawn 744B MoE Agent Model</a> ⭐️ 8.0/10</li>
-  <li><a href="#item-tech-news-6">SemiAnalysis: AMD MI355X beats Nvidia on cost for massive MoE inference</a> ⭐️ 8.0/10</li>
-  <li><a href="#item-tech-news-7">Meta releases Muse Spark Open 816B MoE model for local deployment</a> ⭐️ 7.0/10</li>
-  <li><a href="#item-tech-news-8">Krea 3 launches open beta for fast, low-cost regional image editing</a> ⭐️ 7.0/10</li>
-  <li><a href="#item-tech-news-9">Fortran Turns 70: First High-Level Language Still Powers Scientific Computing</a> ⭐️ 7.0/10</li>
-  <li><a href="#item-tech-news-10">Using AI to Reverse Engineer Hardware Protocols</a> ⭐️ 7.0/10</li>
-  <li><a href="#item-tech-news-11">ASML Reportedly Developing Hybrid Bonding Tool for Advanced Packaging</a> ⭐️ 7.0/10</li>
-  <li><a href="#item-tech-news-12">Google Launches New AI-Powered Android Scam Protections</a> ⭐️ 7.0/10</li>
-  <li><a href="#item-tech-news-13">Tesla Unveils SpaceX Thruster-Equipped Roadster Targeting 2028 Production</a> ⭐️ 7.0/10</li>
-  <li><a href="#item-tech-news-14">Kuaishou&#x27;s Kling 4.0 Video Model Fully Released with UI Overhaul and API Plans</a> ⭐️ 7.0/10</li>
+  <li><a href="#item-gh-trending-1">NationalSecurityAgency/ghidra – NSA&#x27;s open-source reverse engineering framework</a> ⭐️ 9.0/10</li>
+  <li><a href="#item-gh-trending-2">morluto/rea: Agent-driven reverse engineering from app behavior to native binaries</a> ⭐️ 8.0/10</li>
+  <li><a href="#item-gh-trending-3">debpalash/VoiceStudio: Local ElevenLabs alternative for voice cloning and dubbing</a> ⭐️ 8.0/10</li>
+  <li><a href="#item-gh-trending-4">K-Dense-AI/scientific-agent-skills: 177 ready-to-use scientific skills for AI agents</a> ⭐️ 7.0/10</li>
+  <li><a href="#item-gh-trending-5">mksglu/context-mode: Context window optimizer for AI coding agents</a> ⭐️ 7.0/10</li>
+  <li><a href="#item-gh-trending-6">xerj-org/xerj: Rust autoindexer for AI agents, Elasticsearch-compatible</a> ⭐️ 7.0/10</li>
+  <li><a href="#item-gh-trending-7">JuliusBrussee/caveman – Go proxy compresses LLM agent prompts into terse “caveman” style, ~65 % fewer tokens</a> ⭐️ 7.0/10</li>
+  <li><a href="#item-gh-trending-8">anthropics/claude-plugins-official: Official directory of curated Claude Code plugins</a> ⭐️ 7.0/10</li>
 </ol>
 
-<p><strong>Technology Blog</strong></p>
+<p><strong>AI News</strong></p>
 <ol>
-  <li><a href="#item-tech-blog-1">Scaling Kimi K3 on AMD MI355X: Matching NVIDIA B300 Throughput</a> ⭐️ 8.0/10</li>
+  <li><a href="#item-ai-news-1">Anthropic Q3 revenue hits $16.8B, up ~50% QoQ ahead of IPO</a> ⭐️ 9.0/10</li>
+  <li><a href="#item-ai-news-2">Citizen Lab: Israeli ad-tech firm Discover Tech used programmatic ads to deliver zero-click spyware</a> ⭐️ 8.0/10</li>
+  <li><a href="#item-ai-news-3">Anthropic grants METR employee-level access and publication rights for risk assessments</a> ⭐️ 8.0/10</li>
+  <li><a href="#item-ai-news-4">Meta releases Muse Spark Open 816B/42B MoE with commercial license cap</a> ⭐️ 7.0/10</li>
+  <li><a href="#item-ai-news-5">Black Forest Labs releases FLUX 3 Image Klein: 5.6B open-weights model runs on 8 GB VRAM</a> ⭐️ 7.0/10</li>
+  <li><a href="#item-ai-news-6">NVIDIA Releases Nemotron 3.5 Super VL, a 120B Open Multimodal Agent Model</a> ⭐️ 7.0/10</li>
+  <li><a href="#item-ai-news-7">NVIDIA releases 2.8T-token Indic pretraining corpus and open data pipeline</a> ⭐️ 7.0/10</li>
+  <li><a href="#item-ai-news-8">NVIDIA releases Nemotron 3.5 Bolt 74B-A9B 2-bit VLM for 24GB VRAM</a> ⭐️ 7.0/10</li>
 </ol>
 
-<p><strong>Financial News</strong></p>
+<p><strong>X / YouTube Highlights</strong></p>
 <ol>
-  <li><a href="#item-finance-news-1">IMF: Rural Chinese households spend 8.7% of income on healthcare, nearly matching U.S. share despite far lower incomes</a> ⭐️ 7.0/10</li>
-  <li><a href="#item-finance-news-2">China says rare earth exports to EU will continue regardless of U.S. trade deal</a> ⭐️ 7.0/10</li>
+  <li><a href="#item-social-hot-1">Anthropic commits $5M to help mathematicians adopt AI with Simons Foundation</a> ⭐️ 8.0/10</li>
+  <li><a href="#item-social-hot-2">Anthropic grants METR employee-like access for safety evaluations</a> ⭐️ 8.0/10</li>
+  <li><a href="#item-social-hot-3">Anthropic Opens STEM &amp; Conceptual Reasoning Fellowships for Jan 2027</a> ⭐️ 8.0/10</li>
+  <li><a href="#item-social-hot-4">OpenAI Launches Rosalind Academic Plan for U.S. Biology Labs</a> ⭐️ 8.0/10</li>
+  <li><a href="#item-social-hot-5">Opus 5.5: How Close Are We to Automated AI Research?</a> ⭐️ 8.0/10</li>
+  <li><a href="#item-social-hot-6">DeepMind&#x27;s New AI Cracks the Code of Life</a> ⭐️ 8.0/10</li>
+  <li><a href="#item-social-hot-7">Google DeepMind&#x27;s SynthID named TIME Best Invention of 2026</a> ⭐️ 7.0/10</li>
+  <li><a href="#item-social-hot-8">OpenAI launches GPT-Rosalind for scientific research with sponsored academic access</a> ⭐️ 7.0/10</li>
 </ol>
 
 <hr />
 
-<h2 id="technology-news">Technology News</h2>
+<h2 id="github-trending">GitHub Trending</h2>
 
-<p><a id="item-tech-news-1"></a></p>
-<h3 id="citizen-lab-discover-tech-weaponized-ad-infrastructure-for-zero-click-spyware-️-9010"><a href="https://citizenlab.ca/research/how-discover-tech-turned-targeted-ads-into-a-pipeline-for-spyware/">Citizen Lab: Discover Tech weaponized ad infrastructure for zero-click spyware</a> ⭐️ 9.0/10</h3>
+<p><a id="item-gh-trending-1"></a></p>
+<h3 id="nationalsecurityagencyghidra--nsax27s-open-source-reverse-engineering-framework-️-9010"><a href="https://github.com/NationalSecurityAgency/ghidra">NationalSecurityAgency/ghidra – NSA&#x27;s open-source reverse engineering framework</a> ⭐️ 9.0/10</h3>
 
-<p>Citizen Lab research reveals that Israeli firm Discover Tech used targeted advertising infrastructure to create a delivery pipeline for zero-click mercenary spyware. The report demonstrates how ad-tech supply chains can be exploited to install surveillance software without user interaction, representing a new class of exploitation in digital advertising. The Guardian and The Verge have independently reported on the findings.</p>
+<p>Ghidra is a software reverse engineering (SRE) framework developed by the NSA, providing disassembly, decompilation, scripting, and plugin development across many processor architectures. It is implemented in Java and is a mature, production-grade tool widely used for malware analysis, vulnerability research, and binary auditing.</p>
 
-<p>hackernews · jcomp · Oct 15, 10:43 · <a href="https://news.ycombinator.com/item?id=50101813">Discussion</a></p>
+<p>github · NationalSecurityAgency · Oct 16, 06:59</p>
 
-<p><strong>「Background」</strong> Citizen Lab&#x27;s AdFection report details how Discover Tech&#x27;s Controlium ad platform was used to profile targets and deliver zero-click spyware from Candiru and Bindecy to at least 45 Al Jazeera journalists&#x27; devices. The research demonstrates that real-time bidding infrastructure can be weaponized to selectively exploit victims without any user interaction, representing a new supply-chain attack vector in digital advertising.</p>
+<p><strong>「Why recommended」</strong> It fills the gap for a free, fully-featured reverse engineering suite comparable to commercial alternatives, and its active maintenance plus 1,369 stars gained today signal strong ongoing community trust. Security researchers, malware analysts, and binary auditors will find it immediately useful for day-to-day analysis tasks.</p>
 
-<p><strong>「Impact」</strong> The Citizen Lab findings show that ad-tech supply chains can be weaponized to deliver zero-click mercenary spyware, meaning high-value targets can be compromised simply by loading a malicious ad—no click or user interaction required. This expands the threat model for journalists, activists, and officials who previously relied on avoiding suspicious links; standard browser sandboxing and ad-blockers may not stop an exploit delivered through a legitimate ad exchange. Organizations should audit their ad-tech exposure, enforce strict Content Security Policies, and treat ad networks as potential initial-access vectors in threat modeling.</p>
-
-<p><strong>「Community discussion」</strong> Commenters debate the novelty of the "zero-click" claim, with an ad-tech engineer arguing the report is sensationalist and vague on the actual exploit mechanism. Others discuss the concentration of mercenary spyware firms in Israel, referencing the "Download Valley" ecosystem, and question the trustworthiness of Israeli cyber companies given potential state ties.</p>
-
-<details><summary>References</summary>
-<ul>
-<li>Zero-Click Spyware Ads: Citizen Lab&#x27;s AdFection Report - shattered.io</li>
-<li>Online ads weaponised to deliver &#x27;zero-click&#x27; spyware, researchers say - The Guardian</li>
-<li>Unveiling Zero-Click Attacks: Mapping MITRE ATT&amp;CK Framework for Enhanced Cybersecurity - ScienceDirect</li>
-<li>Review of zero-click attacks and zero-trust security model: concepts, architecture, state of the art, and future directions | Discover Networks</li>
-
-</ul>
-</details>
-
-<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#zero-click exploit</code>, <code class="language-plaintext highlighter-rouge">#spyware</code>, <code class="language-plaintext highlighter-rouge">#ad-tech security</code>, <code class="language-plaintext highlighter-rouge">#mercenary surveillance</code>, <code class="language-plaintext highlighter-rouge">#Citizen Lab</code></p>
+<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#reverse-engineering</code>, <code class="language-plaintext highlighter-rouge">#malware-analysis</code>, <code class="language-plaintext highlighter-rouge">#binary-analysis</code>, <code class="language-plaintext highlighter-rouge">#decompiler</code>, <code class="language-plaintext highlighter-rouge">#security-research</code></p>
 
 <hr />
 
-<p><a id="item-tech-news-2"></a></p>
-<h3 id="libreboot-2610-adds-uefi-support-and-233-chromebooks-️-8010"><a href="https://libreboot.org/news/libreboot2610.html">Libreboot 26.10 adds UEFI support and 233 Chromebooks</a> ⭐️ 8.0/10</h3>
+<p><a id="item-gh-trending-2"></a></p>
+<h3 id="morlutorea-agent-driven-reverse-engineering-from-app-behavior-to-native-binaries-️-8010"><a href="https://github.com/morluto/rea">morluto/rea: Agent-driven reverse engineering from app behavior to native binaries</a> ⭐️ 8.0/10</h3>
 
-<p>Libreboot 26.10 "Ominous Olive" introduces UEFI/EDK integration and imports all 233 Chromebooks currently supported by the MrChromebox coreboot distribution, dramatically expanding hardware compatibility. The release is source-only, requiring users to build from source with no pre-built binaries provided. Baytrail (Kip) devices have been tested, while other Chromebooks need community testing.</p>
+<p>rea is an agent-driven framework that aims to reverse-engineer software from high-level application behavior down to native binaries. It is implemented in TypeScript and currently shows massive community interest with over 277k total stars and 32k gained today, though its maturity level (experimental, usable, or production-ready) is not specified in the available metadata.</p>
 
-<p>hackernews · iamnothere · Oct 15, 12:52 · <a href="https://news.ycombinator.com/item?id=50102923">Discussion</a></p>
+<p>github · morluto · Oct 16, 06:59</p>
 
-<p><strong>「Background」</strong> Libreboot is a free and open-source BIOS/UEFI boot firmware distribution based on coreboot. The MrChromebox project provides custom coreboot firmware and utilities for Chromebooks and Chromeboxes, maintaining a distro of coreboot ports for many Chrome OS devices. Libreboot 26.10 imports all 233 currently supported Chromebooks from the MrChromebox coreboot distro and adds UEFI support via EDK 2 integration.</p>
+<p><strong>「Why Recommended」</strong> The project targets a high-value gap—automated, end-to-end reverse engineering from user-visible behavior to binary internals—using an agent-based pipeline that could benefit security researchers, malware analysts, and developers needing to understand opaque binaries. The extraordinary star surge signals strong early interest, but actual usability, documentation completeness, and reliability on real-world targets still need verification before adopting for production work.</p>
 
-<p><strong>「Impact」</strong> The UEFI/EDK integration and Chromebook import significantly increase the number of devices that can run Libreboot and simplify future porting efforts. Users with supported Chromebooks must build the firmware from source, and most devices beyond Baytrail (Kip) remain untested in this release.</p>
-
-<p><strong>「Community discussion」</strong> Commenters highlight the UEFI/EDK integration and Chromebook support as the major technical advance, noting it multiplies supported devices and eases future ports. One contributor relates this to ongoing Heads project work porting ChromeOS devices using MrChromebox code. Others discuss the project&#x27;s new policy restricting LLM-assisted contributions, with mixed views on its merits.</p>
-
-<details><summary>References</summary>
-<ul>
-<li><a href="https://mrchromebox.tech/">MrChromebox .tech</a></li>
-<li><a href="https://libreboot.org/">Libreboot – Free and Open Source BIOS/ UEFI boot firmware</a></li>
-
-</ul>
-</details>
-
-<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#firmware</code>, <code class="language-plaintext highlighter-rouge">#coreboot</code>, <code class="language-plaintext highlighter-rouge">#UEFI</code>, <code class="language-plaintext highlighter-rouge">#Chromebook</code>, <code class="language-plaintext highlighter-rouge">#open-source</code></p>
+<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#reverse-engineering</code>, <code class="language-plaintext highlighter-rouge">#agents</code>, <code class="language-plaintext highlighter-rouge">#binary-analysis</code>, <code class="language-plaintext highlighter-rouge">#typescript</code>, <code class="language-plaintext highlighter-rouge">#automation</code></p>
 
 <hr />
 
-<p><a id="item-tech-news-3"></a></p>
-<h3 id="anthropic-tells-investors-quarterly-revenue-up-nearly-50-to-168bn-ahead-of-ipo-️-8010"><a href="https://simonwillison.net/2026/Oct/15/anthropic-tells-investors/">Anthropic tells investors quarterly revenue up nearly 50% to $16.8bn ahead of IPO</a> ⭐️ 8.0/10</h3>
+<p><a id="item-gh-trending-3"></a></p>
+<h3 id="debpalashvoicestudio-local-elevenlabs-alternative-for-voice-cloning-and-dubbing-️-8010"><a href="https://github.com/debpalash/VoiceStudio">debpalash/VoiceStudio: Local ElevenLabs alternative for voice cloning and dubbing</a> ⭐️ 8.0/10</h3>
 
-<p>Anthropic&#x27;s Q3 revenue reached $16.8 bn (up ~50% QoQ) with $1.70 revenue per $1 of compute spend and 11% adjusted operating margins, while the company tightens controls on model distillation ahead of a potential IPO.</p>
+<p>VoiceStudio is an open-source, fully-local alternative to ElevenLabs that provides voice cloning, voice design, video dubbing, dictation, transcription, and audiobook creation across 646 languages. It is implemented in Python and has accumulated roughly 70k stars with a large single-day gain, indicating strong community interest, though documentation completeness and production readiness are not confirmed by the available metadata.</p>
+
+<p>github · debpalash · Oct 16, 06:59</p>
+
+<p><strong>「Why recommended」</strong> It fills the gap for developers who need offline, privacy-preserving speech tooling with broad multilingual support, offering a single Python codebase for cloning, dubbing, transcription, and audiobook workflows without relying on cloud APIs.</p>
+
+<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#voice-cloning</code>, <code class="language-plaintext highlighter-rouge">#text-to-speech</code>, <code class="language-plaintext highlighter-rouge">#speech-to-text</code>, <code class="language-plaintext highlighter-rouge">#local-ai</code>, <code class="language-plaintext highlighter-rouge">#multilingual</code></p>
+
+<hr />
+
+<p><a id="item-gh-trending-4"></a></p>
+<h3 id="k-dense-aiscientific-agent-skills-177-ready-to-use-scientific-skills-for-ai-agents-️-7010"><a href="https://github.com/K-Dense-AI/scientific-agent-skills">K-Dense-AI/scientific-agent-skills: 177 ready-to-use scientific skills for AI agents</a> ⭐️ 7.0/10</h3>
+
+<p>K-Dense-AI/scientific-agent-skills is a Python library that equips AI coding agents with 177 validated scientific skills and access to over 100 databases spanning biology, chemistry, medicine, and drug discovery. It targets researchers and developers building science-focused agents and claims compatibility with Cursor, Claude Code, Codex, Pi, Antigravity, and the open Agent Skills standard. The project reports 250,000+ users, though independent verification of adoption, code maturity, and documentation quality is not available from the supplied metadata.</p>
+
+<p>github · K-Dense-AI · Oct 16, 06:59</p>
+
+<p><strong>「Why recommended」</strong> The repository fills a practical gap by providing a large, domain-specific skill set that lets AI agents perform real scientific tasks — such as querying bioinformatics databases, running chemistry calculations, or retrieving medical literature — without custom integration work. Its 1,091 stars gained today signal strong community interest, making it worth evaluating for anyone building or experimenting with AI-driven research workflows in life sciences and drug discovery.</p>
+
+<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#AI-agents</code>, <code class="language-plaintext highlighter-rouge">#scientific-computing</code>, <code class="language-plaintext highlighter-rouge">#drug-discovery</code>, <code class="language-plaintext highlighter-rouge">#bioinformatics</code>, <code class="language-plaintext highlighter-rouge">#developer-tools</code></p>
+
+<hr />
+
+<p><a id="item-gh-trending-5"></a></p>
+<h3 id="mksglucontext-mode-context-window-optimizer-for-ai-coding-agents-️-7010"><a href="https://github.com/mksglu/context-mode">mksglu/context-mode: Context window optimizer for AI coding agents</a> ⭐️ 7.0/10</h3>
+
+<p>Context-mode is a TypeScript toolkit that shrinks the context windows of AI coding agents by sandboxing tool output, persisting session memory, and routing requests across 17 platforms through MCP and hooks. The project claims up to 98% reduction in tool-output tokens and has accumulated nearly 30,000 stars, indicating strong early adoption.</p>
+
+<p>github · mksglu · Oct 16, 06:59</p>
+
+<p><strong>「Why recommended」</strong> It tackles a concrete bottleneck — context-window bloat — that slows down and inflates costs for AI-assisted coding workflows, and it does so with a cross-platform MCP layer that works with popular editors and CLI agents. The 904 stars gained today signal active community interest, making it worth evaluating for teams that run heavy agent sessions.</p>
+
+<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#AI-coding-agents</code>, <code class="language-plaintext highlighter-rouge">#context-window-optimization</code>, <code class="language-plaintext highlighter-rouge">#MCP</code>, <code class="language-plaintext highlighter-rouge">#TypeScript</code>, <code class="language-plaintext highlighter-rouge">#developer-tools</code></p>
+
+<hr />
+
+<p><a id="item-gh-trending-6"></a></p>
+<h3 id="xerj-orgxerj-rust-autoindexer-for-ai-agents-elasticsearch-compatible-️-7010"><a href="https://github.com/xerj-org/xerj">xerj-org/xerj: Rust autoindexer for AI agents, Elasticsearch-compatible</a> ⭐️ 7.0/10</h3>
+
+<p>XERJ is a Rust-based, Elasticsearch-compatible autoindexer that lets AI agents search code, documentation, logs, and PDFs while using far fewer tokens than traditional grep/sed approaches. It indexes data with a single command for search, RAG, security audits, and agent memory. The project has 5,980 total stars and gained 715 today, indicating strong recent interest, though its maturity level cannot be verified from the available metadata alone.</p>
+
+<p>github · xerj-org · Oct 16, 06:59</p>
+
+<p><strong>「Why recommended」</strong> XERJ targets a concrete pain point for AI-assisted development: token-efficient indexing of heterogeneous data sources with drop-in Elasticsearch compatibility. It is worth a look for engineers building RAG pipelines, agent memory systems, or security tooling who want to reduce token costs without rewriting existing Elasticsearch clients.</p>
+
+<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#AI-agents</code>, <code class="language-plaintext highlighter-rouge">#RAG</code>, <code class="language-plaintext highlighter-rouge">#data-indexing</code>, <code class="language-plaintext highlighter-rouge">#Rust</code>, <code class="language-plaintext highlighter-rouge">#Elasticsearch-compatible</code></p>
+
+<hr />
+
+<p><a id="item-gh-trending-7"></a></p>
+<h3 id="juliusbrusseecaveman--go-proxy-compresses-llm-agent-prompts-into-terse-caveman-style-65--fewer-tokens-️-7010"><a href="https://github.com/JuliusBrussee/caveman">JuliusBrussee/caveman – Go proxy compresses LLM agent prompts into terse “caveman” style, ~65 % fewer tokens</a> ⭐️ 7.0/10</h3>
+
+<p>caveman is a Go proxy that rewrites prompts sent to LLM coding agents into a compact “caveman” dialect, claiming roughly 65 % token reduction. It sits between the agent and the model API, intercepting and compressing requests on the fly. The project is written in Go and has attracted strong recent attention (433 stars today, 112 k total), though its test coverage, documentation depth, and production readiness cannot be confirmed from the available metadata.</p>
+
+<p>github · JuliusBrussee · Oct 16, 06:59</p>
+
+<p><strong>「Why recommended」</strong> It addresses a concrete cost and context-window pain point for developers running LLM coding agents by cutting token usage without changing the agent code. The proxy approach makes it easy to try with existing workflows, and the strong recent star growth signals active community interest in the technique.</p>
+
+<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#llm-optimization</code>, <code class="language-plaintext highlighter-rouge">#token-compression</code>, <code class="language-plaintext highlighter-rouge">#coding-agents</code>, <code class="language-plaintext highlighter-rouge">#go</code>, <code class="language-plaintext highlighter-rouge">#proxy</code></p>
+
+<hr />
+
+<p><a id="item-gh-trending-8"></a></p>
+<h3 id="anthropicsclaude-plugins-official-official-directory-of-curated-claude-code-plugins-️-7010"><a href="https://github.com/anthropics/claude-plugins-official">anthropics/claude-plugins-official: Official directory of curated Claude Code plugins</a> ⭐️ 7.0/10</h3>
+
+<p>This is the official Anthropic-managed directory that curates high-quality plugins for Claude Code, the company&#x27;s AI-assisted coding agent. It serves as a discovery index rather than a standalone tool, helping developers find extensions that add new capabilities to their Claude Code workflow. The repository is written primarily in Python and has accumulated over 39,000 stars, indicating strong community adoption.</p>
+
+<p>github · anthropics · Oct 16, 06:59</p>
+
+<p><strong>「Why Recommended」</strong> As the single official plugin registry maintained by Anthropic, it fills the critical discovery gap for Claude Code users who would otherwise rely on scattered community lists. The 307 stars gained today reflect active, ongoing interest from developers building AI-assisted coding workflows, making it the authoritative starting point for anyone adopting or extending Claude Code.</p>
+
+<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#AI-assisted-coding</code>, <code class="language-plaintext highlighter-rouge">#Claude-Code</code>, <code class="language-plaintext highlighter-rouge">#plugin-ecosystem</code>, <code class="language-plaintext highlighter-rouge">#developer-tools</code>, <code class="language-plaintext highlighter-rouge">#official-resource</code></p>
+
+<hr />
+
+<h2 id="ai-news">AI News</h2>
+
+<p><a id="item-ai-news-1"></a></p>
+<h3 id="anthropic-q3-revenue-hits-168b-up-50-qoq-ahead-of-ipo-️-9010"><a href="https://simonwillison.net/2026/Oct/15/anthropic-tells-investors/">Anthropic Q3 revenue hits $16.8B, up ~50% QoQ ahead of IPO</a> ⭐️ 9.0/10</h3>
+
+<p>Anthropic disclosed to investors that Q3 revenue reached $16.8 billion, up nearly 50% from Q2&#x27;s $11.5 billion and Q1&#x27;s $4.8 billion, according to an FT report citing people with knowledge of the matter. The company reported $1.70 in revenue per $1 of compute spend and 11% adjusted operating margins (excluding stock-based compensation). Anthropic also said distillation by rival labs accounted for 5–7% of revenue and that it had cut back such usage materially in Q3. The company appears to have stopped emphasizing annualized run-rate revenue in investor communications.</p>
 
 <p>rss · Simon Willison · Oct 15, 13:04</p>
 
-<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#Anthropic</code>, <code class="language-plaintext highlighter-rouge">#AI industry</code>, <code class="language-plaintext highlighter-rouge">#financial metrics</code>, <code class="language-plaintext highlighter-rouge">#model distillation</code>, <code class="language-plaintext highlighter-rouge">#IPO</code></p>
+<p><strong>「Why it matters」</strong> The figures signal a major commercial inflection point for Anthropic ahead of a potential IPO, giving developers, enterprises, and investors concrete unit-economics data to assess the AI market&#x27;s maturation. The crackdown on distillation — previously a half-billion-dollar quarterly revenue stream from rival labs — may reshape how competitors access frontier-model outputs.</p>
+
+<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#Anthropic</code>, <code class="language-plaintext highlighter-rouge">#AI business</code>, <code class="language-plaintext highlighter-rouge">#financials</code>, <code class="language-plaintext highlighter-rouge">#IPO</code>, <code class="language-plaintext highlighter-rouge">#model distillation</code></p>
 
 <hr />
 
-<p><a id="item-tech-news-4"></a></p>
-<h3 id="mit-randomly-connected-units-self-organize-learning-machinery-matching-backprop-performance-️-8010"><a href="https://www.reddit.com/r/MachineLearning/comments/1x6hmyg/how_artificial_neural_networks_build_their_own/">MIT: Randomly connected units self-organize learning machinery matching backprop performance</a> ⭐️ 8.0/10</h3>
+<p><a id="item-ai-news-2"></a></p>
+<h3 id="citizen-lab-israeli-ad-tech-firm-discover-tech-used-programmatic-ads-to-deliver-zero-click-spyware-️-8010"><a href="https://citizenlab.ca/research/how-discover-tech-turned-targeted-ads-into-a-pipeline-for-spyware/">Citizen Lab: Israeli ad-tech firm Discover Tech used programmatic ads to deliver zero-click spyware</a> ⭐️ 8.0/10</h3>
 
-<p>MIT News reports on a PNAS study showing that randomly interconnected neuron-like units governed by shared local plasticity rules can spontaneously self-organize functional learning motifs. These self-assembled circuits achieve pattern recognition and image classification performance comparable to networks trained with backpropagation. The research demonstrates a biologically plausible alternative to explicitly designed learning circuits, though the authors caution that self-organization does not prove the brain uses this mechanism, and stability across initial conditions and task generalization remain open questions.</p>
+<p>Citizen Lab published a technical investigation showing that Israeli ad-tech company Discover Tech weaponized programmatic advertising infrastructure to deliver zero-click mercenary spyware. Malicious ad creatives served through legitimate ad exchanges compromised devices without any user interaction, creating a supply-chain vector for surveillance. The report identifies a concrete exploitation pathway rather than a theoretical risk.</p>
 
-<p>reddit · r/MachineLearning · /u/Dorian182 · Oct 15, 10:01</p>
+<p>hackernews · jcomp · Oct 15, 10:43 · <a href="https://news.ycombinator.com/item?id=50101813">Discussion</a></p>
 
-<p><strong>「Background」</strong> The PNAS paper "How Biological Synapses Self-Assemble Gradient Learning" (9 October 2026) and the accompanying MIT News report (13 October 2026) describe a study from the McGovern Institute showing that randomly interconnected neuron-like units, governed by shared local plasticity rules, can spontaneously self-organize functional learning motifs that achieve pattern-recognition and image-classification performance comparable to networks trained with backpropagation. The work is framed as a step toward biologically plausible learning mechanisms rather than a demonstrated replacement for backpropagation in large-scale models.</p>
+<p><strong>「Why it matters」</strong> Browser vendors, ad platforms, and security teams now have a verified, real-world example of ad exchanges being abused as a zero-click spyware delivery pipeline, which should drive tighter creative scanning, sandboxing, and supply-chain auditing to block this vector.</p>
 
-<p><strong>「Impact」</strong> The findings advance neuromorphic computing and biologically plausible learning research by showing local plasticity rules can replace global error signals for gradient-like learning. This could inform future hardware-efficient learning systems, but practical deployment in large-scale models remains future work.</p>
-
-<details><summary>References</summary>
-<ul>
-<li>How artificial neural networks build their own learning machinery | MIT News</li>
-
-</ul>
-</details>
-
-<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#neuromorphic computing</code>, <code class="language-plaintext highlighter-rouge">#biologically plausible learning</code>, <code class="language-plaintext highlighter-rouge">#self-organizing systems</code>, <code class="language-plaintext highlighter-rouge">#local plasticity rules</code>, <code class="language-plaintext highlighter-rouge">#backpropagation alternatives</code></p>
+<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#spyware</code>, <code class="language-plaintext highlighter-rouge">#zero-click exploit</code>, <code class="language-plaintext highlighter-rouge">#ad-tech</code>, <code class="language-plaintext highlighter-rouge">#Citizen Lab</code>, <code class="language-plaintext highlighter-rouge">#mercenary surveillance</code></p>
 
 <hr />
 
-<p><a id="item-tech-news-5"></a></p>
-<h3 id="shanghai-ai-lab-releases-atria-dawn-744b-moe-agent-model-️-8010"><a href="https://atria-asi.ai/">Shanghai AI Lab Releases Atria Dawn 744B MoE Agent Model</a> ⭐️ 8.0/10</h3>
+<p><a id="item-ai-news-3"></a></p>
+<h3 id="anthropic-grants-metr-employee-level-access-and-publication-rights-for-risk-assessments-️-8010"><a href="https://techcrunch.com/2026/10/15/anthropic-is-letting-metr-researchers-look-under-the-hood-with-employee-level-access/">Anthropic grants METR employee-level access and publication rights for risk assessments</a> ⭐️ 8.0/10</h3>
 
-<p>Shanghai AI Laboratory released Atria Dawn on October 12, a 744-billion-parameter Mixture-of-Experts agent model built on the GLM-5.2 architecture with a 256K-token context window. The model is licensed under MIT, with both code and weights open-sourced, and supports local deployment as well as hosted access. Official demonstrations show capabilities in protein structure prediction, CAD modeling, knowledge visualization, slide-deck creation, and data analysis.</p>
+<p>Anthropic has given METR researchers employee-level access to its systems and committed not to block publication of METR&#x27;s independent risk and incident assessments. METR will publish its own evaluations of Anthropic&#x27;s risks, incidents, and practices without prior approval from the company.</p>
 
-<p>telegram · zaihuapd · Oct 16, 01:32</p>
+<p>rss · TechCrunch AI · Oct 15, 19:14</p>
 
-<p><strong>「Background」</strong> Atria Dawn is built on GLM-5.2, a 744-billion-parameter Mixture-of-Experts model released by Z.ai in June 2026. Shanghai AI Laboratory applied agentic post-training using a Verifiable Experience Pipeline that grounds tasks in real execution environments and verifies outcomes against external signals. The model targets long-horizon scientific and engineering workflows such as protein structure prediction, CAD modeling, and data analysis.</p>
+<p><strong>「Why it matters」</strong> This sets a concrete precedent for independent third-party auditing of frontier AI developers, giving policymakers, enterprises, and the safety community a verifiable model for external oversight that does not rely on self-reporting.</p>
 
-<p><strong>「Impact」</strong> Developers and researchers can now run a 744B-parameter MoE agent model locally or via hosted access under an MIT license, with a 256K context window and demonstrated tool-use for protein structure prediction, CAD modeling, and data analysis. The Hugging Face repository confirms MIT-licensed weights and code, though the LICENSE file link currently returns a 404, so users should verify the exact license text before commercial deployment.</p>
-
-<details><summary>References</summary>
-<ul>
-<li><a href="https://www.oflight.co.jp/en/columns/atria-dawn-preview-744b-moe-requirements-2026">Atria Dawn Preview Requirements: 744 B MoE VRAM... | Oflight Inc.</a></li>
-<li><a href="https://aiweekly.co/alerts/shanghai-ai-lab-ships-atria-dawn-preview-a-744b-agentic-moe">Shanghai AI Lab Ships Atria Dawn Preview, a 744 B Agentic MoE</a></li>
-<li><a href="https://arxiv.org/html/2609.15818v2">Atria Dawn: The Dawn of Agentic SuperintelligenceOn the ...</a></li>
-<li>internlm/Atria-Dawn-Preview - Hugging Face</li>
-<li>Run Atria Dawn Preview Locally - Atomic Chat</li>
-
-</ul>
-</details>
-
-<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#AI agents</code>, <code class="language-plaintext highlighter-rouge">#open source</code>, <code class="language-plaintext highlighter-rouge">#Mixture of Experts</code>, <code class="language-plaintext highlighter-rouge">#scientific computing</code>, <code class="language-plaintext highlighter-rouge">#Shanghai AI Laboratory</code></p>
+<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#AI governance</code>, <code class="language-plaintext highlighter-rouge">#third-party auditing</code>, <code class="language-plaintext highlighter-rouge">#Anthropic</code>, <code class="language-plaintext highlighter-rouge">#METR</code>, <code class="language-plaintext highlighter-rouge">#AI safety</code></p>
 
 <hr />
 
-<p><a id="item-tech-news-6"></a></p>
-<h3 id="semianalysis-amd-mi355x-beats-nvidia-on-cost-for-massive-moe-inference-️-8010"><a href="https://github.com/SemiAnalysisAI/InferenceX">SemiAnalysis: AMD MI355X beats Nvidia on cost for massive MoE inference</a> ⭐️ 8.0/10</h3>
+<p><a id="item-ai-news-4"></a></p>
+<h3 id="meta-releases-muse-spark-open-816b42b-moe-with-commercial-license-cap-️-7010"><a href="https://research.meta.ai/blog/muse-spark-open">Meta releases Muse Spark Open 816B/42B MoE with commercial license cap</a> ⭐️ 7.0/10</h3>
 
-<p>SemiAnalysis published benchmarks using its open-source AgentX dataset — 1M+ token, multi-turn code-generation traces with 95%+ KV-cache hit rates — to test real-world agent workloads. Through 70+ open-source PRs, TileLang fused kernels (including fused MLA and FP8 KV cache), and the custom ATOM runtime, AMD&#x27;s MI355X doubled throughput on frontier models such as DeepSeek-V4-Pro in 26 days. In extreme low-latency (&gt;150 tok/s) and massive dense-model scenarios, Nvidia Blackwell still holds a 2–5× energy and cost advantage via NVLink and FP4. However, for massive MoE models (Kimi K3, GLM-5.3) and medium-latency workloads, the MI355X&#x27;s 288 GB VRAM enables higher batch density, delivering 9–40% lower cost per million tokens — a localized breach of the CUDA moat.</p>
-
-<p>telegram · zaihuapd · Oct 16, 02:30</p>
-
-<p><strong>「Background」</strong> SemiAnalysis developed the AgentX benchmark, a $3M real-world agent trajectory dataset that replays 1M+ token contexts, multi-turn branching, and 95%+ KV cache hit rates for code generation workloads. The MI355X is AMD&#x27;s CDNA 4 architecture GPU with 288GB HBM3E memory and 8TB/s bandwidth, marking AMD&#x27;s first chip with FP4 support. Prior Horizon coverage noted SemiAnalysis reported an 11-fold performance gain for MI355X on AgentX using MiniMax M3 after 19 days of software improvements, highlighting rapid optimization via TileLang fused kernels and the ATOM runtime.</p>
-
-<p><strong>「Procurement Impact」</strong> Organizations deploying massive MoE models such as Kimi K3 or GLM-5.3 at medium latency can achieve 9–40% lower cost per million tokens by using AMD MI355X instead of Nvidia Blackwell, because the 288 GB VRAM enables higher batch density. For ultra-low-latency interactive workloads (&gt;150 tok/s) or very large dense models, Nvidia retains a 2–5× efficiency and cost advantage due to NVLink and FP4 support.</p>
-
-<details><summary>References</summary>
-<ul>
-<li><a href="https://aistockwire.com/blog/semianalysis-amd-mi355x-11x-agentx-minimax-m3-vllm-nvda-september-2026">SemiAnalysis : AMD MI 355 X 11 x faster on agentic test in 19 days</a></li>
-<li><a href="https://www.amd.com/en/products/accelerators/instinct/mi350/mi355x.html">AMD Instinct™ MI355X GPUs</a></li>
-<li><a href="https://llm-stats.com/models/compare/glm-5.3-vs-kimi-k3">GLM-5.3 vs Kimi K3: Benchmarks, Pricing &amp; Which Is Better in 2026</a></li>
-<li><a href="https://1devtool.com/compare/glm-5-3-vs-kimi-k3">GLM-5.3 vs Kimi K3 — Chinese-Lab Model Comparison (2026)</a></li>
-<li><a href="https://llm-stats.com/models/compare/glm-5.3-flash-vs-kimi-k3">GLM-5.3-Flash vs Kimi K3: Benchmarks, Pricing &amp; Which Is ...</a></li>
-
-</ul>
-</details>
-
-<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#AI Hardware</code>, <code class="language-plaintext highlighter-rouge">#LLM Inference</code>, <code class="language-plaintext highlighter-rouge">#AMD vs Nvidia</code>, <code class="language-plaintext highlighter-rouge">#CUDA Ecosystem</code>, <code class="language-plaintext highlighter-rouge">#MoE Architecture</code></p>
-
-<hr />
-
-<p><a id="item-tech-news-7"></a></p>
-<h3 id="meta-releases-muse-spark-open-816b-moe-model-for-local-deployment-️-7010"><a href="https://research.meta.ai/blog/muse-spark-open">Meta releases Muse Spark Open 816B MoE model for local deployment</a> ⭐️ 7.0/10</h3>
-
-<p>Meta has released Muse Spark Open, an 816-billion-parameter mixture-of-experts model with 42 billion active parameters, optimized for local deployment on consumer hardware such as Mac Studio. The model weights are available on Hugging Face and Meta provides deployment guides for runtimes including MLX, Unsloth, and others. The license permits broad use but restricts Model-as-a-Service offerings when the licensee&#x27;s aggregate gross revenue exceeds $20 million. Early benchmarks cited in community discussion indicate the model underperforms some contemporary open models such as Qwen3.8 Flash Next and GLM 5.3 Flash.</p>
+<p>Meta has released Muse Spark Open, an 816B total / 42B active parameter mixture-of-experts model with weights on Hugging Face and deployment support across MLX, Unsloth, vLLM, and other runtimes. The license permits commercial use but caps Model-as-a-Service revenue at $20M aggregate gross revenue for the licensee and affiliates. Early community benchmarks (Artificial Analysis) indicate the model trails Qwen3.8 Flash Next and GLM 5.3 Flash on high-reasoning tasks.</p>
 
 <p>hackernews · bigwheels · Oct 15, 17:47 · <a href="https://news.ycombinator.com/item?id=50107379">Discussion</a></p>
 
-<p><strong>「Background」</strong> Meta previously released the Llama series of open-weight models, most recently Llama 3.1 in July 2024, which established a pattern of large-scale open releases with commercial-use restrictions. Muse Spark Open follows that lineage as a sparse mixture-of-experts model with 816 billion total parameters and 42 billion active parameters, adding multimodal support for text, images, audio, and video, plus a 1-million-token context window. The model is distributed under the Muse Model License, which permits broad use but requires a separate agreement for Model-as-a-Service providers whose aggregate gross revenue exceeds $20 million in any 12-month period.</p>
+<p><strong>「Why it matters」</strong> Developers get a large open-weight MoE model that runs on diverse hardware and runtimes, but the $20M MaaS revenue cap restricts commercial API deployments at scale, and current benchmarks suggest stronger open alternatives exist for high-reasoning workloads.</p>
 
-<p><strong>「Impact」</strong> Developers can deploy Muse Spark Open locally on consumer hardware such as Mac Studio using runtimes including MLX and Unsloth, but the model scores 52 on the Artificial Analysis Intelligence Index v4.0—behind Gemini 3.1 Pro, GPT-5.4, and Claude Opus 4.6—and the license restricts Model-as-a-Service use when the licensee&#x27;s aggregate gross revenue exceeds $20 million.</p>
+<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#Meta</code>, <code class="language-plaintext highlighter-rouge">#open-weight</code>, <code class="language-plaintext highlighter-rouge">#Mixture-of-Experts</code>, <code class="language-plaintext highlighter-rouge">#MLX</code>, <code class="language-plaintext highlighter-rouge">#license</code></p>
 
-<p><strong>「Community discussion」</strong> Commenters note that artificial analysis benchmarks show Muse Spark Open underperforming Qwen3.8 Flash Next and GLM 5.3 Flash, both runnable on a single B300 GPU. The license&#x27;s revenue-based restriction on Model-as-a-Service is debated as limiting openness. Meta&#x27;s broad runtime support (MLX, Unsloth, etc.) is praised for deployment ease. One commenter argues Meta is building a sticky ecosystem around its models as a strategic moat.</p>
+<hr />
+
+<p><a id="item-ai-news-5"></a></p>
+<h3 id="black-forest-labs-releases-flux-3-image-klein-56b-open-weights-model-runs-on-8-gb-vram-️-7010"><a href="https://the-decoder.com/black-forest-labs-open-weights-image-model-flux-3-image-klein-runs-on-consumer-gpus-with-just-8-gb-of-vram/">Black Forest Labs releases FLUX 3 Image Klein: 5.6B open-weights model runs on 8 GB VRAM</a> ⭐️ 7.0/10</h3>
+
+<p>Black Forest Labs has released FLUX 3 Image Klein, a 5.6-billion-parameter open-weights image model that supports native 4K generation, pixel-precise editing, and up to ten reference images. The model uses Qwen3-VL-4B-Instruct as its text encoder and is available on Hugging Face. According to the company&#x27;s internal tests, it outperforms proprietary competitors despite having 38 percent fewer parameters than its predecessor, and it runs on consumer GPUs with just 8 GB of VRAM. Independent benchmarks and licensing details have not yet been confirmed.</p>
+
+<p>rss · The Decoder · Oct 15, 16:57</p>
+
+<p><strong>「Why it matters」</strong> Developers and hobbyists can now run a state-of-the-art open-weights image model with 4K output and multi-reference editing on widely available 8 GB VRAM GPUs, lowering the hardware barrier for high-quality local image generation and editing workflows.</p>
+
+<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#FLUX</code>, <code class="language-plaintext highlighter-rouge">#Black Forest Labs</code>, <code class="language-plaintext highlighter-rouge">#open-weights</code>, <code class="language-plaintext highlighter-rouge">#image generation</code>, <code class="language-plaintext highlighter-rouge">#consumer GPU</code></p>
+
+<hr />
+
+<p><a id="item-ai-news-6"></a></p>
+<h3 id="nvidia-releases-nemotron-35-super-vl-a-120b-open-multimodal-agent-model-️-7010"><a href="https://www.marktechpost.com/2026/10/15/nvidia-nemotron-3-5-super-vl-release/">NVIDIA Releases Nemotron 3.5 Super VL, a 120B Open Multimodal Agent Model</a> ⭐️ 7.0/10</h3>
+
+<p>NVIDIA has released Nemotron 3.5 Super VL, an open 120B-parameter multimodal mixture-of-experts model with 12B active parameters, a 1M-token context window, and NVFP4 quantization. The model is designed to run on a single DGX Spark system, and the release also includes two Bolt edge models for deployment on edge devices. The information comes from a MarkTechPost article summarizing the launch; NVIDIA&#x27;s own announcement has not been independently verified in the provided material.</p>
+
+<p>rss · MarkTechPost · Oct 15, 19:53</p>
+
+<p><strong>「Why It Matters」</strong> Developers and enterprises evaluating multimodal agents now have a large open MoE model that can run on a single DGX Spark, potentially lowering hardware barriers for high-context multimodal workloads. The included Bolt edge models extend deployment options to edge environments, which could accelerate adoption in latency-sensitive or offline scenarios.</p>
+
+<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#NVIDIA</code>, <code class="language-plaintext highlighter-rouge">#Nemotron</code>, <code class="language-plaintext highlighter-rouge">#multimodal</code>, <code class="language-plaintext highlighter-rouge">#MoE</code>, <code class="language-plaintext highlighter-rouge">#open-model</code></p>
+
+<hr />
+
+<p><a id="item-ai-news-7"></a></p>
+<h3 id="nvidia-releases-28t-token-indic-pretraining-corpus-and-open-data-pipeline-️-7010"><a href="https://huggingface.co/blog/nvidia/scaling-indic-pretraining">NVIDIA releases 2.8T-token Indic pretraining corpus and open data pipeline</a> ⭐️ 7.0/10</h3>
+
+<p>NVIDIA and partners have published a 2.8 trillion token pretraining corpus covering 22 Indic languages and released an open, reproducible data generation pipeline. The dataset draws from web crawls, Wikipedia, and other public sources, with the pipeline covering extraction, cleaning, deduplication, and quality filtering steps. All artifacts are made available for researchers to reproduce or extend the work.</p>
+
+<p>rss · Hugging Face Blog · Oct 16, 01:44</p>
+
+<p><strong>「Why it matters」</strong> The release gives developers and researchers a large-scale, open foundation for building and evaluating LLMs in low-resource Indic languages, reducing the data preparation barrier that has limited multilingual model progress in the region.</p>
+
+<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#multilingual LLM</code>, <code class="language-plaintext highlighter-rouge">#Indic languages</code>, <code class="language-plaintext highlighter-rouge">#pretraining data</code>, <code class="language-plaintext highlighter-rouge">#open dataset</code>, <code class="language-plaintext highlighter-rouge">#NVIDIA</code></p>
+
+<hr />
+
+<p><a id="item-ai-news-8"></a></p>
+<h3 id="nvidia-releases-nemotron-35-bolt-74b-a9b-2-bit-vlm-for-24gb-vram-️-7010"><a href="https://www.reddit.com/r/LocalLLaMA/comments/1x6o31q/nvidianvidianemotron35bolt74ba9b24gb_hugging_face/">NVIDIA releases Nemotron 3.5 Bolt 74B-A9B 2-bit VLM for 24GB VRAM</a> ⭐️ 7.0/10</h3>
+
+<p>NVIDIA has released Nemotron 3.5 Bolt 74B-A9B, a hybrid Mamba-2/Transformer MoE vision-language model with 74B total parameters (9B active) natively quantized to 2-bit (IQ2) to fit in 24GB VRAM. The model supports up to 256K context, accepts text, images, and video inputs, and is available on Hugging Face in GGUF and LiLiCorr speculative decoding variants under the permissive OpenMDW-1.1 license for commercial use. It targets local agentic workloads on Ampere, Hopper, or Blackwell GPUs via vLLM, with a post-training data cutoff of May 2026.</p>
+
+<p>reddit · r/LocalLLaMA · /u/jacek2023 · Oct 15, 15:04</p>
+
+<p><strong>「Why It Matters」</strong> Developers and researchers can now run a 74B-parameter VLM with 256K context locally on a single 24GB GPU, enabling private, low-latency agentic applications without cloud dependency. The permissive license and vLLM integration with speculative decoding lower the barrier for commercial deployment of efficient multimodal models.</p>
+
+<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#NVIDIA</code>, <code class="language-plaintext highlighter-rouge">#Nemotron</code>, <code class="language-plaintext highlighter-rouge">#VLM</code>, <code class="language-plaintext highlighter-rouge">#MoE</code>, <code class="language-plaintext highlighter-rouge">#quantization</code></p>
+
+<hr />
+
+<h2 id="x--youtube-highlights">X / YouTube Highlights</h2>
+
+<p><a id="item-social-hot-1"></a></p>
+<h3 id="anthropic-commits-5m-to-help-mathematicians-adopt-ai-with-simons-foundation-️-8010"><a href="https://x.com/AnthropicAI/status/2110846112152105136">Anthropic commits $5M to help mathematicians adopt AI with Simons Foundation</a> ⭐️ 8.0/10</h3>
+
+<p>Anthropic announced a $5 million commitment of funding, compute, and Claude access to help mathematicians adopt AI in their research. The program will be managed by the Simons Foundation through a community-driven approach supporting workshops, conferences, and expert lectures.</p>
+
+<p>twitter · Anthropic · Oct 15, 21:31</p>
+
+<p><strong>「Why this matters」</strong> Anthropic is putting $5 million in funding, compute, and Claude access behind a community-driven program managed by the Simons Foundation to help mathematicians figure out how to use AI in research. The commitment comes directly from the model maker and targets a field where AI adoption is still early, so the workshops and conferences it funds could shape how mathematics research evolves.</p>
+
+<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#AI in mathematics</code>, <code class="language-plaintext highlighter-rouge">#Anthropic</code>, <code class="language-plaintext highlighter-rouge">#Simons Foundation</code>, <code class="language-plaintext highlighter-rouge">#research funding</code>, <code class="language-plaintext highlighter-rouge">#Claude</code></p>
+
+<hr />
+
+<p><a id="item-social-hot-2"></a></p>
+<h3 id="anthropic-grants-metr-employee-like-access-for-safety-evaluations-️-8010"><a href="https://x.com/AnthropicAI/status/2110784662071398807">Anthropic grants METR employee-like access for safety evaluations</a> ⭐️ 8.0/10</h3>
+
+<p>Anthropic announced it has granted a team from METR (Model Evaluation &amp; Threat Research) employee-like access to assess its safety practices, marking a concrete step in its commitment to third-party evaluation. The company is also in discussions with multiple other organizations for similar independent assessments, following its September 2026 pledge and signing of the White House Accord on Super Intelligence. The linked post details Anthropic&#x27;s methodology for working with independent evaluators.</p>
+
+<p>twitter · Anthropic · Oct 15, 17:27</p>
+
+<p><strong>「Why this matters」</strong> Anthropic is giving a third-party evaluator (METR) employee-like access to assess its safety practices, a concrete governance step beyond voluntary commitments. The post links to a detailed methodology for how such evaluations will work, offering a rare look at operationalizing external oversight. The announcement has drawn over 1,000 likes and hundreds of reposts, signaling strong community interest in verifiable AI safety processes.</p>
 
 <details><summary>References</summary>
 <ul>
-<li>Welcome Muse Spark Open: open-weight frontier multimodal mixture-of-experts model from Meta - Hugging Face</li>
-<li>Build with Muse Spark Open - Meta AI</li>
-<li><a href="https://www.okaynews.com/meta-muse-spark-open-release-commercial-licence/">Meta Releases Muse Spark Open With Commercial Licence Conditions</a></li>
-<li><a href="https://fourweekmba.com/ai-meta-opens-816b-muse-spark-but-20m-api-hosts-need-a-deal/">Meta Opens 816B Muse Spark, but $20M+ API Hosts Need a Deal</a></li>
-<li><a href="https://blog.buildfastwithai.com/meta-muse-spark-review-benchmarks-2026">Meta Muse Spark: Benchmarks, Review &amp; Comparison (2026)</a></li>
+<li><a href="https://www.unite.ai/anthropic-onboards-six-metr-evaluators-with-employee-like-access/">Anthropic Onboards Six METR Evaluators With Employee-Like Access</a></li>
+<li><a href="https://www.anthropic.com/news/an-update-on-independent-evaluators">An update on independent evaluators - Anthropic</a></li>
+<li><a href="https://www.cnbc.com/2026/10/15/anthropic-metr-securebio-ai-safety-evaluators.html">Anthropic taps METR and SecureBio to help assess risks and safety</a></li>
 
 </ul>
 </details>
 
-<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#LLM</code>, <code class="language-plaintext highlighter-rouge">#open-weight</code>, <code class="language-plaintext highlighter-rouge">#Meta</code>, <code class="language-plaintext highlighter-rouge">#mixture-of-experts</code>, <code class="language-plaintext highlighter-rouge">#deployment</code></p>
+<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#AI Safety</code>, <code class="language-plaintext highlighter-rouge">#Anthropic</code>, <code class="language-plaintext highlighter-rouge">#Third-Party Evaluation</code>, <code class="language-plaintext highlighter-rouge">#METR</code>, <code class="language-plaintext highlighter-rouge">#AI Governance</code></p>
 
 <hr />
 
-<p><a id="item-tech-news-8"></a></p>
-<h3 id="krea-3-launches-open-beta-for-fast-low-cost-regional-image-editing-️-7010"><a href="https://www.krea.ai/krea-3">Krea 3 launches open beta for fast, low-cost regional image editing</a> ⭐️ 7.0/10</h3>
+<p><a id="item-social-hot-3"></a></p>
+<h3 id="anthropic-opens-stem--conceptual-reasoning-fellowships-for-jan-2027-️-8010"><a href="https://x.com/AnthropicAI/status/2110720940665372825">Anthropic Opens STEM &amp; Conceptual Reasoning Fellowships for Jan 2027</a> ⭐️ 8.0/10</h3>
 
-<p>Krea has opened the beta of Krea 3, a new foundational image model that emphasizes native regional editing, precise edits, and high quality at lower cost and latency than prior models. The announcement comes from Krea founder Diego and references a technical report for the previous Krea 2 release, though no technical details, benchmarks, or open-weight release are available for Krea 3 yet. The model is currently accessible only through Krea&#x27;s hosted service with a limited free trial followed by a monthly subscription.</p>
+<p>Anthropic has opened applications for two new four-month fellowship programs starting January 2027: STEM Fellows for science and engineering researchers, and Conceptual Reasoning Fellows for experts in philosophy, cognitive science, economics, policy, and law. Both fellowships involve working at Anthropic to help improve Claude&#x27;s reasoning capabilities in their respective domains. The application deadline is October 28.</p>
 
-<p>hackernews · dvrp · Oct 15, 16:04 · <a href="https://news.ycombinator.com/item?id=50105648">Discussion</a></p>
+<p>twitter · Anthropic · Oct 15, 13:14</p>
 
-<p><strong>「Background」</strong> Krea previously released Krea 2 with a technical report detailing its architecture and training approach. The company has established a pattern of providing substantive technical disclosures for its foundational image models, and the founder indicated a similar technical update is planned for Krea 3.</p>
-
-<p><strong>「Impact」</strong> Designers and developers can test Krea 3&#x27;s regional editing capabilities for UI and design workflows, but must use Krea&#x27;s hosted platform and accept a subscription model after a two-image trial. Community members have posted direct visual comparisons with GPT-Image-2.5 showing similar quality on landing page and website design tasks, though the closed, hosted nature and lack of open weights limit local deployment and customization options.</p>
-
-<p><strong>「Community discussion」</strong> Commenters are requesting open-weight releases to enable local inference and fine-tuning, with one noting that closed access may limit adoption compared to OpenAI and Google offerings. Several users object to the subscription-only pricing after a two-image trial, preferring credit-based models. The founder indicated an open-weight release is under consideration but not confirmed.</p>
+<p><strong>「Why this matters」</strong> Anthropic&#x27;s official announcement opens applications for two 4-month fellowships starting January 2027 — STEM Fellows for science and engineering researchers, and Conceptual Reasoning Fellows for philosophy, cognitive science, economics, policy, and law scholars — both aimed at improving Claude&#x27;s reasoning on hard domain problems. The post has 6,000+ likes, signaling strong community interest, and the October 28 deadline makes this immediately actionable for qualified researchers.</p>
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://www.krea.ai/krea-3">Krea 3 : an image model built for editing at scale</a></li>
-<li><a href="https://news.ycombinator.com/item?id=50105648">Krea 3 – An image model built for editing at scale | Hacker News</a></li>
+<li><a href="https://job-boards.greenhouse.io/anthropic/jobs/5447080008">Job Application for Conceptual Reasoning Fellow at Anthropic</a></li>
+<li><a href="https://x.com/AnthropicAI/status/2110720940665372825">Anthropic on X: &quot;Applications are now open for two new ...</a></li>
 
 </ul>
 </details>
 
-<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#generative AI</code>, <code class="language-plaintext highlighter-rouge">#image generation</code>, <code class="language-plaintext highlighter-rouge">#foundational models</code>, <code class="language-plaintext highlighter-rouge">#editing tools</code>, <code class="language-plaintext highlighter-rouge">#commercial AI</code></p>
+<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#Anthropic</code>, <code class="language-plaintext highlighter-rouge">#AI Fellowships</code>, <code class="language-plaintext highlighter-rouge">#STEM Research</code>, <code class="language-plaintext highlighter-rouge">#AI Policy</code>, <code class="language-plaintext highlighter-rouge">#Claude</code></p>
 
 <hr />
 
-<p><a id="item-tech-news-9"></a></p>
-<h3 id="fortran-turns-70-first-high-level-language-still-powers-scientific-computing-️-7010"><a href="https://fortran-lang.org/news/2026/09-15-Fortran-birthday/">Fortran Turns 70: First High-Level Language Still Powers Scientific Computing</a> ⭐️ 7.0/10</h3>
+<p><a id="item-social-hot-4"></a></p>
+<h3 id="openai-launches-rosalind-academic-plan-for-us-biology-labs-️-8010"><a href="https://x.com/OpenAI/status/2110841898076418336">OpenAI Launches Rosalind Academic Plan for U.S. Biology Labs</a> ⭐️ 8.0/10</h3>
 
-<p>Fortran, the first high-level programming language, marks its 70th anniversary. Originally developed by John Backus and his team at IBM, Fortran pioneered concepts like compilers and high-level abstractions that shaped modern programming. Today it remains essential in high-performance computing, climate modeling, and scientific simulations, with modern standards (Fortran 2018/2023) adding features like coarrays for parallelism and improved interoperability with C.</p>
+<p>OpenAI announced the Rosalind Academic Plan, which provides sponsored access to GPT-Rosalind for eligible U.S. university labs conducting biology research. The program aims to help scientific labs integrate AI into understanding biology, exploring ideas, and prioritizing experiments. GPT-Rosalind is OpenAI&#x27;s model designed to accelerate drug discovery and support biology-related research.</p>
 
-<p>hackernews · rbanffy · Oct 15, 15:03 · <a href="https://news.ycombinator.com/item?id=50104726">Discussion</a></p>
+<p>twitter · OpenAI · Oct 15, 21:15</p>
 
-<p><strong>「Background」</strong> Fortran (FORmula TRANslation) was developed by an IBM team led by John Backus and first released in 1957 as the first high-level programming language, designed for scientific and engineering computation. The language introduced concepts such as compilers, optimization, and array-oriented syntax that shaped subsequent languages and established the foundation for modern high-performance computing. The Fortran standards committee continues to evolve the language, with Fortran 2023 being the latest major revision adding features like parallel computing constructs and improved interoperability with C.</p>
-
-<p><strong>「Impact」</strong> Decades-old Fortran codebases — some exceeding 700,000 lines — remain in active maintenance and production use, particularly in simulation solvers and numerical libraries. Developers working in scientific computing still choose modern Fortran for linear algebra and numerical workloads due to its performance and native array semantics, which can be more expressive than C for these domains.</p>
-
-<p><strong>「Community Discussion」</strong> Hacker News commenters shared firsthand experiences maintaining legacy Fortran systems, including removing Hollerith string encodings and working with the Dynosour dynamic memory system based on equivalenced arrays. One developer noted writing Fortran in 2018 for simulation solvers and preferring it over C for linear algebra. The Computer History Museum&#x27;s oral history of John Backus was highlighted as a valuable resource for understanding the language&#x27;s origins.</p>
+<p><strong>「Why This Matters」</strong> OpenAI&#x27;s official announcement of the Rosalind Academic Plan provides first-hand details on a new sponsored-access program that gives eligible U.S. university biology labs free use of GPT-Rosalind, a model tailored for scientific reasoning in biology. The post is the primary source for the program&#x27;s existence, eligibility criteria, and research focus, making it essential reading for academic researchers and anyone tracking how frontier AI models are being deployed in life sciences. The announcement garnered 2,117 likes and 205 retweets, signaling strong interest from the research community.</p>
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://fortran-lang.org/news/2026/09-15-Fortran-birthday/">Celebrating 70 years of Fortran — Fortran Programming Language</a></li>
-<li><a href="https://fortran-lang.org/news/2026/">Posted in 2026 — Fortran Programming Language</a></li>
+<li><a href="https://openai.com/index/introducing-the-rosalind-academic-plan/">Bringing GPT - Rosalind to academic research labs | OpenAI</a></li>
+<li><a href="https://pharmaphorum.com/news/openai-introduces-gpt-rosalind-its-drug-discovery-ai">OpenAI introduces GPT - Rosalind , its drug discovery AI | pharmaphorum</a></li>
 
 </ul>
 </details>
 
-<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#Fortran</code>, <code class="language-plaintext highlighter-rouge">#programming languages</code>, <code class="language-plaintext highlighter-rouge">#history of computing</code>, <code class="language-plaintext highlighter-rouge">#high-performance computing</code>, <code class="language-plaintext highlighter-rouge">#compilers</code></p>
+<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#OpenAI</code>, <code class="language-plaintext highlighter-rouge">#GPT-Rosalind</code>, <code class="language-plaintext highlighter-rouge">#academic-research</code>, <code class="language-plaintext highlighter-rouge">#biology-AI</code>, <code class="language-plaintext highlighter-rouge">#research-access</code></p>
 
 <hr />
 
-<p><a id="item-tech-news-10"></a></p>
-<h3 id="using-ai-to-reverse-engineer-hardware-protocols-️-7010"><a href="https://blogs.gnome.org/uraeus/2026/10/15/aiandreverseengineerhardware/">Using AI to Reverse Engineer Hardware Protocols</a> ⭐️ 7.0/10</h3>
+<p><a id="item-social-hot-5"></a></p>
+<h3 id="opus-55-how-close-are-we-to-automated-ai-research-️-8010"><a href="https://www.youtube.com/watch?v=R9momwXV9w4">Opus 5.5: How Close Are We to Automated AI Research?</a> ⭐️ 8.0/10</h3>
 
-<p>A GNOME blog post by ErenayDev demonstrates a practical workflow for using AI tools to reverse engineer hardware protocols through USB traffic analysis and automated driver generation. The guide covers capturing USB traffic, using AI to analyze protocol patterns, and implementing functional drivers, targeting software engineers working with embedded systems, IoT, and device integration.</p>
+<p>AI Explained examines Anthropic&#x27;s newly released Claude Opus 5.5 and evaluates how close current models are to conducting independent AI research and development. The analysis covers the model&#x27;s capabilities, safety considerations for systems that could automate AI research itself, and the potential feedback loop where better models enable more automated research, which in turn accelerates model development. This is inferred from the video title and public announcements about Opus 5.5; the full 33-minute video likely contains deeper benchmark analysis and specific capability demonstrations.</p>
 
-<p>hackernews · ErenayDev · Oct 15, 14:35 · <a href="https://news.ycombinator.com/item?id=50104299">Discussion</a></p>
+<p>youtube · @aiexplained-official · Oct 16, 06:59</p>
 
-<p><strong>「Background」</strong> The author, Christian F.K. Schaller (blogging as uraeus on GNOME Blogs), previously demonstrated AI-assisted hardware tooling in a March 2026 post where he used a USB packet analyzer to capture traffic and applied AI to create tools for legacy hardware. That earlier work established the capture-and-analyze workflow that the current article extends into a broader reverse-engineering methodology.</p>
-
-<p><strong>「Community Discussion」</strong> Commenters shared real-world applications: a pro audio company founder expressed interest in reverse engineering competing hardware, another user built a macOS workaround for KEF speaker volume spikes and considered full protocol reverse engineering, and a practitioner reported routinely reverse engineering USB devices with AI assistance for tasks like creating custom drivers for abandoned hardware. One commenter noted Claude&#x27;s GTK4 coding ability improved dramatically between January and September 2026.</p>
+<p><strong>「Why this matters」</strong> AI Explained delivers a 33-minute deep dive evaluating Opus 5.5&#x27;s ability to conduct independent AI research, a key milestone on the path to automated scientific R&amp;D. The video has attracted 304,000 views, signaling strong community interest in a rigorous, first-hand capability assessment rather than hype.</p>
 
 <details><summary>References</summary>
 <ul>
-<li>Using AI to create some hardware tools and bring back the past | Christian F.K. Schaller</li>
+<li>Introducing Claude Opus 5.5 - Anthropic</li>
+<li>Anthropic Releases Claude Opus 5.5 with Improved Performance | Evolving AI posted on the topic | LinkedIn</li>
 
 </ul>
 </details>
 
-<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#reverse-engineering</code>, <code class="language-plaintext highlighter-rouge">#hardware</code>, <code class="language-plaintext highlighter-rouge">#AI-assisted-development</code>, <code class="language-plaintext highlighter-rouge">#USB</code>, <code class="language-plaintext highlighter-rouge">#embedded-systems</code></p>
+<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#AI Research</code>, <code class="language-plaintext highlighter-rouge">#Automated AI Research</code>, <code class="language-plaintext highlighter-rouge">#Model Evaluation</code>, <code class="language-plaintext highlighter-rouge">#AI Capabilities</code>, <code class="language-plaintext highlighter-rouge">#AI Explained</code></p>
 
 <hr />
 
-<p><a id="item-tech-news-11"></a></p>
-<h3 id="asml-reportedly-developing-hybrid-bonding-tool-for-advanced-packaging-️-7010"><a href="https://newsletter.semianalysis.com/p/asml-is-building-a-hybrid-bonding">ASML Reportedly Developing Hybrid Bonding Tool for Advanced Packaging</a> ⭐️ 7.0/10</h3>
+<p><a id="item-social-hot-6"></a></p>
+<h3 id="deepmindx27s-new-ai-cracks-the-code-of-life-️-8010"><a href="https://www.youtube.com/watch?v=Wkaw03p3BrM">DeepMind&#x27;s New AI Cracks the Code of Life</a> ⭐️ 8.0/10</h3>
 
-<p>ASML appears to be developing a hybrid bonding tool based on patent filings, a news report, and its public roadmap, though the company has not made an official announcement. Hybrid bonding is a critical technology for 3D stacking, chiplet integration, and high-bandwidth memory production. ASML&#x27;s potential entry would expand its portfolio beyond EUV lithography into advanced packaging equipment.</p>
+<p>This Two Minute Papers video covers DeepMind&#x27;s AlphaFold 3, an AI model that predicts the 3D structures of proteins, DNA, RNA, ligands, and their interactions. The video explains how the updated diffusion-based architecture extends structure prediction beyond single proteins to full molecular complexes, a step toward accelerating drug discovery and biological research. This description is inferred from the video title and public information about AlphaFold 3; the video itself was not directly viewed.</p>
 
-<p>rss · Semianalysis · Oct 15, 19:27</p>
+<p>youtube · @TwoMinutePapers · Oct 16, 06:59</p>
 
-<p><strong>「Background」</strong> Hybrid bonding is a wafer-level interconnect technology that enables direct copper-to-copper and dielectric-to-dielectric bonds without solder bumps, allowing sub-micron pitch connections critical for 3D stacking, chiplet integration, and high-bandwidth memory. ASML currently dominates extreme ultraviolet (EUV) lithography for front-end wafer fabrication but has not previously supplied advanced packaging equipment; established players in hybrid bonding include BE Semiconductor Industries (Besi) and EV Group.</p>
-
-<p><strong>「Impact」</strong> ASML&#x27;s potential entry into hybrid bonding equipment would introduce a major new competitor in a market projected to grow from $200 million in 2025 to $931 million by 2033 at a 21.2% CAGR, potentially accelerating tool availability and cost reductions for chipmakers adopting 3D stacking and chiplet architectures.</p>
+<p><strong>「Why It Matters」</strong> This 33-minute Two Minute Papers video breaks down DeepMind&#x27;s latest AI breakthrough in biological structure prediction — likely AlphaFold 3&#x27;s advances in modeling protein interactions and molecular complexes. With 148,000 views on a technical deep-dive, the engagement signals strong interest in substantive scientific progress rather than hype. The channel is known for accurate, peer-reviewed summaries, making this a reliable first-hand look at a major leap in AI-driven biology.</p>
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://thenextweb.com/news/besi-asml-hybrid-bonding-dutch">ASML ’s chip packaging move threatens Besi shares, Bank of America...</a></li>
-<li>Hybrid Bonding – Tomorrow&#x27;s Interconnect - TechInsights</li>
-<li>Hybrid Bonding Market Size, Share | Industry Forecast [2033] - SkyQuest</li>
+<li><a href="https://www.nature.com/articles/s41586-024-07487-w">Accurate structure prediction of biomolecular interactions ...</a></li>
+<li><a href="https://www.isomorphiclabs.com/articles/alphafold-3-predicts-the-structure-and-interactions-of-all-of-lifes-molecules">AlphaFold 3 predicts the structure and interactions of all of ...</a></li>
 
 </ul>
 </details>
 
-<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#ASML</code>, <code class="language-plaintext highlighter-rouge">#semiconductor manufacturing</code>, <code class="language-plaintext highlighter-rouge">#hybrid bonding</code>, <code class="language-plaintext highlighter-rouge">#advanced packaging</code>, <code class="language-plaintext highlighter-rouge">#chiplets</code></p>
+<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#DeepMind</code>, <code class="language-plaintext highlighter-rouge">#AlphaFold</code>, <code class="language-plaintext highlighter-rouge">#protein-folding</code>, <code class="language-plaintext highlighter-rouge">#AI-biology</code>, <code class="language-plaintext highlighter-rouge">#scientific-breakthrough</code></p>
 
 <hr />
 
-<p><a id="item-tech-news-12"></a></p>
-<h3 id="google-launches-new-ai-powered-android-scam-protections-️-7010"><a href="https://blog.google/security/new-android-scam-protections/">Google Launches New AI-Powered Android Scam Protections</a> ⭐️ 7.0/10</h3>
+<p><a id="item-social-hot-7"></a></p>
+<h3 id="google-deepmindx27s-synthid-named-time-best-invention-of-2026-️-7010"><a href="https://x.com/GoogleDeepMind/status/2110715601454784965">Google DeepMind&#x27;s SynthID named TIME Best Invention of 2026</a> ⭐️ 7.0/10</h3>
 
-<p>Google announced new AI-driven Android scam protections rolling out across Messages, Chrome, WebView, and call handling. Google Messages gains an enhanced protection mode that uses cloud-based Gemini for deep scam-intent analysis of unknown conversations and on-device Gemini Nano for real-time link safety checks. Screen-sharing masking for passwords and payment pages now extends to Chrome and WebView components. The system also adds background interception of call forwarding and manual-entry warnings to prevent one-time password theft.</p>
+<p>Google DeepMind announced that its SynthID watermarking technology has been named one of TIME&#x27;s Best Inventions of 2026. SynthID embeds an invisible, durable digital watermark into AI-generated images, audio, video, and text at the moment of creation without altering quality. To date, it has watermarked more than 180 billion images and videos and 240,000 years of audio.</p>
 
-<p>telegram · zaihuapd · Oct 15, 12:39</p>
+<p>twitter · Google DeepMind · Oct 15, 12:53</p>
 
-<p><strong>「Background」</strong> Google has been progressively integrating its Gemini AI models into Android security features. Earlier reporting noted that Chrome and Android WebView would begin hiding login fields and payment interfaces during screen sharing, with a planned October rollout on Android 15 and later devices.</p>
-
-<p><strong>「Impact」</strong> Android users gain stronger, automated defenses against phishing links, social-engineering scams in messaging, and OTP interception via call forwarding, without needing to change behavior. Developers using WebView inherit the screen-sharing masking for sensitive pages automatically.</p>
+<p><strong>「Why this matters」</strong> Google DeepMind announced that its SynthID watermarking technology was selected as one of TIME&#x27;s Best Inventions of 2026, with over 180 billion AI-generated images and videos already watermarked. This recognition from a major publication highlights growing industry focus on AI transparency and content authentication at massive scale.</p>
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://itc.ua/news/gemini-budet-chytat-spam-yz-vashej-perepysky-google-messages-poluchyt-rasshyrennuyu-zashhytu/">Gemini будет читать спам из вашей переписки: Google Messages ...</a></li>
+<li><a href="https://blog.google/innovation-and-ai/models-and-research/google-deepmind/synthid-time-best-inventions/">SynthID named to TIME’s Best Inventions of 2026 list</a></li>
 
 </ul>
 </details>
 
-<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#android</code>, <code class="language-plaintext highlighter-rouge">#security</code>, <code class="language-plaintext highlighter-rouge">#ai</code>, <code class="language-plaintext highlighter-rouge">#scam-protection</code>, <code class="language-plaintext highlighter-rouge">#google</code></p>
+<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#AI watermarking</code>, <code class="language-plaintext highlighter-rouge">#SynthID</code>, <code class="language-plaintext highlighter-rouge">#Google DeepMind</code>, <code class="language-plaintext highlighter-rouge">#AI transparency</code>, <code class="language-plaintext highlighter-rouge">#TIME Best Inventions</code></p>
 
 <hr />
 
-<p><a id="item-tech-news-13"></a></p>
-<h3 id="tesla-unveils-spacex-thruster-equipped-roadster-targeting-2028-production-️-7010"><a href="https://techcrunch.com/2026/10/15/tesla-reveals-spacex-powered-roadster-that-flies-and-falls-with-style/">Tesla Unveils SpaceX Thruster-Equipped Roadster Targeting 2028 Production</a> ⭐️ 7.0/10</h3>
+<p><a id="item-social-hot-8"></a></p>
+<h3 id="openai-launches-gpt-rosalind-for-scientific-research-with-sponsored-academic-access-️-7010"><a href="https://x.com/OpenAI/status/2110841899838046525">OpenAI launches GPT-Rosalind for scientific research with sponsored academic access</a> ⭐️ 7.0/10</h3>
 
-<p>Tesla revealed a second-generation Roadster fitted with SpaceX cold-gas thrusters at an event near Waco, Texas. The prototype demonstrated extreme maneuvers including driving up an inverted ramp, rotating mid-air, and jumping over a Cybercab, Cybertruck, and Model Y, achieving a claimed 0-60 mph time of roughly one second. Elon Musk stated production is targeted for 2028; pricing was not disclosed, though reservations require a $50,000 deposit and a top-tier "Rocket" variant is invitation-only. All three range variants are rated at 300 miles with a top speed exceeding 230 mph.</p>
+<p>OpenAI announced GPT-Rosalind, a dedicated life sciences model designed to help researchers reason across scientific literature and biological data. The Rosalind Academic Plan offers eligible labs up to 12 months of sponsored access with 30 ChatGPT Business Standard seats, and research data shared through the plan is not used to train models by default. Access to GPT-Rosalind itself requires trusted-access approval.</p>
 
-<p>telegram · zaihuapd · Oct 16, 02:02</p>
+<p>twitter · OpenAI · Oct 15, 21:15</p>
 
-<p><strong>「Background」</strong> Tesla first announced the second-generation Roadster in 2017, promising a 1.9-second 0-60 mph time and a SpaceX "cold-gas thruster" option package. The vehicle has faced repeated delays, with production originally targeted for 2021, then 2023, and later 2024. The current 2028 production target and the Waco demonstration represent the first public showing of the thruster system integrated into a prototype vehicle.</p>
-
-<p><strong>「Impact」</strong> The demonstration showcases a novel vehicle control system blending automotive and aerospace engineering, potentially raising performance benchmarks for electric vehicles. However, the 2028 production target and absence of final specifications or pricing mean developers and buyers have no actionable compatibility or purchasing information at this stage.</p>
+<p><strong>「Why this matters」</strong> OpenAI announced GPT-Rosalind, a specialized model designed to help researchers reason across scientific literature and biological data while keeping human expertise central to evidence evaluation. The post outlines the Rosalind Academic Plan, which offers eligible labs up to 12 months of sponsored access to OpenAI tools (subject to trusted-access approval) and states that research data shared through the plan is not used to train models by default. This is a first-party announcement with concrete program details relevant to academic and biotech researchers.</p>
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://autoedgeview.com/ev-reviews/tesla-roadster-flying-car-spacex-package">Tesla Roadster Flying Car: What We Know About the 2026 SpaceX ...</a></li>
-<li><a href="https://autoedgeview.com/ev-reviews/tesla-roadster-spacex-package-review">Tesla Roadster SpaceX Package: 2026 Range, Specs &amp; Reality ...</a></li>
+<li><a href="https://openai.com/index/introducing-the-rosalind-academic-plan/">Bringing GPT-Rosalind to academic research labs | OpenAI</a></li>
+<li><a href="https://openai.com/index/introducing-gpt-rosalind/">Introducing GPT-Rosalind for life sciences research | OpenAI</a></li>
+<li><a href="https://help.openai.com/en/articles/20001602-rosalind-academic-plan">Rosalind Academic Plan - OpenAI Help Center</a></li>
 
 </ul>
 </details>
 
-<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#Tesla</code>, <code class="language-plaintext highlighter-rouge">#SpaceX</code>, <code class="language-plaintext highlighter-rouge">#Electric Vehicles</code>, <code class="language-plaintext highlighter-rouge">#Aerospace Engineering</code>, <code class="language-plaintext highlighter-rouge">#Product Launch</code></p>
-
-<hr />
-
-<p><a id="item-tech-news-14"></a></p>
-<h3 id="kuaishoux27s-kling-40-video-model-fully-released-with-ui-overhaul-and-api-plans-️-7010"><a href="https://mp.weixin.qq.com/s/Dn2jAxV0m6kpt7y4edRvdg">Kuaishou&#x27;s Kling 4.0 Video Model Fully Released with UI Overhaul and API Plans</a> ⭐️ 7.0/10</h3>
-
-<p>Kuaishou&#x27;s Kling 4.0 video generation model is now fully available at klingai.com as of October 15, with a completely upgraded creation interface for more flexible workflows. The company plans to add 4K and 1080p 10-bit HDR output formats, and Kling 4.0 capabilities have been integrated with MCP/CLI. An API service for enterprises and developers is expected to open soon.</p>
-
-<p>telegram · zaihuapd · Oct 16, 04:30</p>
-
-<p><strong>「Background」</strong> Kling is Kuaishou&#x27;s video generation model series. The source announcement states that Kling 4.0 is now fully available on klingai.com with an upgraded creation interface, and that 4K/1080p 10-bit HDR output, MCP/CLI integration, and an enterprise/developer API are planned for upcoming release. Earlier web references indicate a Kling 4.0 Flash variant was in limited early access via the Kling app around October 1, 2026, and that Kling 2.5 API access previously required a $4,200 prepaid commitment.</p>
-
-<p><strong>「Impact」</strong> Developers and enterprises can now integrate Kling 4.0 via MCP/CLI, with API access coming soon, enabling programmatic video generation workflows. However, 4K and 1080p 10-bit HDR output remains "coming soon" per Kling&#x27;s own roadmap, so current production pipelines should plan for standard dynamic range (SDR) output at up to 4K resolution.</p>
-
-<details><summary>References</summary>
-<ul>
-<li>Kling 4.0 Flash API: Fast 720p Video, Release | UnificAlly</li>
-<li>Kling 2.5 API - Wireflow</li>
-<li><a href="https://www.seedance.tv/blog/kling-4-0-4k-hdr">Kling 4.0 4K and 10-Bit HDR Explained - seedance.tv</a></li>
-
-</ul>
-</details>
-
-<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#AI video generation</code>, <code class="language-plaintext highlighter-rouge">#Kling</code>, <code class="language-plaintext highlighter-rouge">#Kuaishou</code>, <code class="language-plaintext highlighter-rouge">#developer API</code>, <code class="language-plaintext highlighter-rouge">#MCP</code></p>
-
-<hr />
-
-<h2 id="technology-blog">Technology Blog</h2>
-
-<p><a id="item-tech-blog-1"></a></p>
-<h3 id="scaling-kimi-k3-on-amd-mi355x-matching-nvidia-b300-throughput-️-8010"><a href="https://vllm.ai/blog/2026-10-16-kimi-k3-mi355x">Scaling Kimi K3 on AMD MI355X: Matching NVIDIA B300 Throughput</a> ⭐️ 8.0/10</h3>
-
-<p>rss · vLLM Blog · Oct 16, 00:00</p>
-
-<p><strong>「Background」</strong> AMD and vLLM collaborators optimized Kimi K3 inference on an eight-GPU AMD Instinct MI355X system to match and exceed NVIDIA HGX B300 throughput per GPU on the AgentX benchmark, which replays real coding-agent session traces with over 96% theoretical prefix reuse. At 50 tokens/s/user P90 interactivity, MI355X delivers 7,567 total tokens/s/GPU versus 6,083 for B300 (24.4% advantage), translating to 87.4% more tokens per dollar under SemiAnalysis&#x27;s modeled TCO ($1.50 vs $2.26 per GPU-hour). Both GPUs share 288 GB HBM3E and 8 TB/s peak bandwidth, though B300 has higher dense matrix peaks (13.5 PFLOP/s FP4 vs 10.1 PFLOP/s MXFP4).</p>
-
-<p><strong>「Solution」</strong> The optimization spans six areas. (1) Decode Context Parallelism (DCP8) splits MLA&#x27;s compressed KV history across GPUs, reducing per-GPU cache from ~1.96 GB to ~245 MB for a 142K-token conversation, while CPU offload preserves reusable state in host DRAM with aligned MLA/KDA resume points. (2) MoE output projection deduplication assigns each GPU only its output coordinates, reusing the existing shared-expert all-reduce to assemble full results without new collectives, yielding 3–5% throughput gains and freeing ~3.85 GiB/GPU for more cached state (28.9% gain at high concurrency where cache hit rate rose from 74.8% to 80.1%). (3) Kernel fusion eliminates redundant copies: KDA single-token decode fused three kernels and two copies into one launch (AttnRes fusion gave 14.2% throughput gain), and the GEMM dispatcher stopped packing inputs for unused fallback paths (removing 69 copies/step, saving 0.339 ms/step). (4) MLA long-context decoding accelerated by padding 12 query heads to 16 to unlock AMD AITER&#x27;s assembly path, halving time per output token from 43.8 ms to 23.6 ms at 32K input length. (5) KDA parallelization uses fused prefill with group summaries to break sequential dependencies, and speculative verification switched to 4-column tiles (384 workgroups vs 48), cutting per-layer verification from 16.2 µs to 5.61 µs (2.89×). (6) Speculative decoding draft depth is tuned by cost budget: four drafts give 12% more committed tokens per cycle but only help if the full cycle takes &lt;12% longer than three drafts; the recipe uses 3–7 drafts with DCP1 and disables speculation at DCP8.</p>
-
-<p><strong>「Takeaway」</strong> Sustained software engineering across the vLLM stack—cache parallelism, MoE deduplication, kernel fusion, attention scheduling, recurrent state parallelization, and speculative decoding tradeoffs—enabled AMD MI355X to match NVIDIA B300 throughput per GPU and exceed it per dollar on a realistic agent workload, demonstrating that inference optimization requires coordinating serving decisions with kernel-level hardware utilization rather than relying on peak FLOPs alone.</p>
-
-<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#inference-optimization</code>, <code class="language-plaintext highlighter-rouge">#vLLM</code>, <code class="language-plaintext highlighter-rouge">#AMD-GPU</code>, <code class="language-plaintext highlighter-rouge">#MoE</code>, <code class="language-plaintext highlighter-rouge">#speculative-decoding</code></p>
-
-<hr />
-
-<h2 id="financial-news">Financial News</h2>
-
-<p><a id="item-finance-news-1"></a></p>
-<h3 id="imf-rural-chinese-households-spend-87-of-income-on-healthcare-nearly-matching-us-share-despite-far-lower-incomes-️-7010"><a href="https://www.cnbc.com/2026/10/15/chinese-spending-nearly-as-much-of-income-as-americans-on-healthcare.html">IMF: Rural Chinese households spend 8.7% of income on healthcare, nearly matching U.S. share despite far lower incomes</a> ⭐️ 7.0/10</h3>
-
-<p>IMF research shows rural Chinese households spend 8.7% of disposable income on healthcare — second only to the U.S. at 9.9% — even though U.S. per capita disposable income ($68,289) is over ten times China&#x27;s ($6,400). The IMF says this burden drives high savings and weak consumption, and recommends higher government health and social spending, especially in rural areas.</p>
-
-<p>rss · CNBC Finance · Oct 15, 23:00</p>
-
-<p><strong>「Background」</strong> The findings come from an IMF book titled "Toward a New Economic Growth Model for China," which outlines structural reforms to shift China&#x27;s economy from investment-led growth toward stronger household consumption.</p>
-
-<p><strong>「Impact」</strong> High out-of-pocket healthcare costs push rural and migrant households to save more and spend less, weighing on China&#x27;s shift to consumption-led growth; the IMF estimates targeted rural health and social spending could meaningfully lower the rural savings rate.</p>
-
-<details><summary>References</summary>
-<ul>
-<li><a href="https://www.elibrary.imf.org/display/book/9798229037143/front-1.xml">Front Matter in: Toward a New Economic Growth Model for China</a></li>
-
-</ul>
-</details>
-
-<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#China</code>, <code class="language-plaintext highlighter-rouge">#healthcare costs</code>, <code class="language-plaintext highlighter-rouge">#household savings</code>, <code class="language-plaintext highlighter-rouge">#IMF</code>, <code class="language-plaintext highlighter-rouge">#consumption</code></p>
-
-<hr />
-
-<p><a id="item-finance-news-2"></a></p>
-<h3 id="china-says-rare-earth-exports-to-eu-will-continue-regardless-of-us-trade-deal-️-7010"><a href="https://www.cnbc.com/2026/10/15/china-rare-earth-exports-europe.html">China says rare earth exports to EU will continue regardless of U.S. trade deal</a> ⭐️ 7.0/10</h3>
-
-<p>China&#x27;s Commerce Ministry said it will keep approving rare earth export licenses to Europe even if the U.S.-China trade truce expires in January, easing supply-chain concerns for EU manufacturers.</p>
-
-<p>rss · CNBC Finance · Oct 15, 09:02</p>
-
-<p><strong>「Background」</strong> China imposed sweeping rare earth export controls in October 2025 after the U.S. expanded its entity list to cover thousands of Chinese firms, but the U.S. and China agreed to a one-year suspension at a summit in Busan that October, later extended by two months to January 2026. EU Trade Commissioner Maroš Šefčovič met Chinese Commerce Minister Wang Wentao in early October 2026, and China offered a "green channel" to keep rare earths flowing to Europe while seeking EU support for Chinese imports in dual-use sectors.</p>
-
-<p><strong>「Impact」</strong> European automotive, electronics, and defense industries that rely on Chinese rare earths gain more supply certainty, reducing the risk of disruption if U.S.-China tensions resume.</p>
-
-<details><summary>References</summary>
-<ul>
-<li><a href="https://en.wikipedia.org/wiki/Busan_Summit">Busan Summit - Wikipedia</a></li>
-<li><a href="https://www.businesskorea.co.kr/news/articleView.html?idxno=255271">Trump, Xi Agree on 10%P Tariff Cut, Postponement of Rare ...</a></li>
-<li><a href="https://www.cnbc.com/2025/10/30/trump-xi-south-korea-rare-earth-tariff-trade-war-nvidia.html">What Trump and Xi agreed to in the U.S.-China trade truce - CNBC</a></li>
-<li><a href="https://ca.news.yahoo.com/brussels-seeks-credible-outcome-eu-152426630.html">Brussels seeks &#x27;credible&#x27; outcome in EU - China ... - Yahoo News Canada</a></li>
-<li><a href="https://www.eenews.net/articles/chinese-minister-to-visit-brussels-amid-rare-earth-row/">Chinese minister to visit Brussels amid rare - earth row</a></li>
-
-</ul>
-</details>
-
-<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#rare earths</code>, <code class="language-plaintext highlighter-rouge">#China-EU trade</code>, <code class="language-plaintext highlighter-rouge">#supply chain</code>, <code class="language-plaintext highlighter-rouge">#trade policy</code>, <code class="language-plaintext highlighter-rouge">#critical minerals</code></p>
+<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#OpenAI</code>, <code class="language-plaintext highlighter-rouge">#GPT-Rosalind</code>, <code class="language-plaintext highlighter-rouge">#scientific research</code>, <code class="language-plaintext highlighter-rouge">#AI for biology</code>, <code class="language-plaintext highlighter-rouge">#academic partnerships</code></p>
 
 <hr />
  ]]></content>
