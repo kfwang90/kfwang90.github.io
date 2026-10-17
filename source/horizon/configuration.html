@@ -766,9 +766,11 @@ loaded profiles not listed here are appended in profile discovery order.
 When empty or omitted, sections follow their first appearance in the selected
 items. Unknown or duplicate IDs are rejected. The example prioritizes the
 three listed profiles in that order.</li>
-  <li><code class="language-plaintext highlighter-rouge">category_groups</code>: Optional map of quota groups. Each group requires a positive
-<code class="language-plaintext highlighter-rouge">limit</code> and a non-empty <code class="language-plaintext highlighter-rouge">categories</code> list. Items within each group are kept by
-analysis score, highest first.</li>
+  <li><code class="language-plaintext highlighter-rouge">category_groups</code>: Optional map of quota groups. Each group needs a non-empty
+<code class="language-plaintext highlighter-rouge">categories</code> list and an optional positive <code class="language-plaintext highlighter-rouge">limit</code>. Items within each group are
+kept by analysis score, highest first. Omitting <code class="language-plaintext highlighter-rouge">limit</code> (or setting it to
+<code class="language-plaintext highlighter-rouge">null</code>) keeps every item in that group — that is how the daily digest shows all
+fetched content instead of a curated top-N.</li>
   <li><code class="language-plaintext highlighter-rouge">category_groups.*.name</code>: Optional display name used in run logs</li>
   <li><code class="language-plaintext highlighter-rouge">default_group</code>: Group key for items whose category does not match any
 configured group. Default is <code class="language-plaintext highlighter-rouge">other</code>.</li>
