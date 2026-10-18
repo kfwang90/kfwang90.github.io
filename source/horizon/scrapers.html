@@ -87,14 +87,19 @@
 <ul>
   <li><code class="language-plaintext highlighter-rouge">GET /users/{username}/events/public</code> — user activity events</li>
   <li><code class="language-plaintext highlighter-rouge">GET /repos/{owner}/{repo}/releases</code> — repository releases</li>
+  <li><code class="language-plaintext highlighter-rouge">GET /search/repositories</code> — repository search</li>
 </ul>
 
-<p>Two source types are supported:</p>
+<p>Four source types are supported:</p>
 
 <ul>
   <li><strong><code class="language-plaintext highlighter-rouge">user_events</code></strong> — tracks push, create, release, public, and watch events for a user</li>
   <li><strong><code class="language-plaintext highlighter-rouge">repo_releases</code></strong> — tracks new releases for a specific repository</li>
+  <li><strong><code class="language-plaintext highlighter-rouge">trending</code></strong> — scrapes the public <code class="language-plaintext highlighter-rouge">github.com/trending</code> leaderboard (no token needed). Uses <code class="language-plaintext highlighter-rouge">since</code> (<code class="language-plaintext highlighter-rouge">daily</code>/<code class="language-plaintext highlighter-rouge">weekly</code>/<code class="language-plaintext highlighter-rouge">monthly</code>) and <code class="language-plaintext highlighter-rouge">languages</code> (GitHub language slugs such as <code class="language-plaintext highlighter-rouge">python</code>; an empty list means all languages).</li>
+  <li><strong><code class="language-plaintext highlighter-rouge">search</code></strong> — queries the repository search API with <code class="language-plaintext highlighter-rouge">query</code>. Use it to track a topic over time, for example AI tools that improve development efficiency or code quality.</li>
 </ul>
+
+<p><strong>Relative dates in <code class="language-plaintext highlighter-rouge">search</code> queries</strong>: <code class="language-plaintext highlighter-rouge">{today}</code>, <code class="language-plaintext highlighter-rouge">{since_date}</code> (the start of the run window) and <code class="language-plaintext highlighter-rouge">{days_N}</code> (N days before now) are expanded at fetch time, so a query such as <code class="language-plaintext highlighter-rouge">topic:mcp-server stars:&gt;200 pushed:&gt;{since_date}</code> keeps working without editing the config. Sort with <code class="language-plaintext highlighter-rouge">stars</code>, <code class="language-plaintext highlighter-rouge">forks</code>, <code class="language-plaintext highlighter-rouge">updated</code>, or <code class="language-plaintext highlighter-rouge">best-match</code>.</p>
 
 <p><strong>Config</strong> (<code class="language-plaintext highlighter-rouge">sources.github</code>, list of entries):</p>
 
@@ -115,11 +120,23 @@
 </span><span class="p">}</span><span class="w">
 </span></code></pre></div></div>
 
+<div class="language-json highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">{</span><span class="w">
+  </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"search"</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"query"</span><span class="p">:</span><span class="w"> </span><span class="s2">"topic:coding-agent stars:&gt;100 pushed:&gt;{since_date}"</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"sort"</span><span class="p">:</span><span class="w"> </span><span class="s2">"stars"</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"max_items"</span><span class="p">:</span><span class="w"> </span><span class="mi">5</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"enabled"</span><span class="p">:</span><span class="w"> </span><span class="kc">true</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"category"</span><span class="p">:</span><span class="w"> </span><span class="s2">"gh-trending"</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"profile"</span><span class="p">:</span><span class="w"> </span><span class="s2">"gh-trending"</span><span class="w">
+</span><span class="p">}</span><span class="w">
+</span></code></pre></div></div>
+
 <ul>
   <li><code class="language-plaintext highlighter-rouge">category</code> — optional tag for balanced digest grouping; set per source entry</li>
+  <li><code class="language-plaintext highlighter-rouge">max_items</code> — cap on items per source entry (<code class="language-plaintext highlighter-rouge">trending</code> and <code class="language-plaintext highlighter-rouge">search</code>)</li>
 </ul>
 
-<p><strong>Authentication</strong>: Set <code class="language-plaintext highlighter-rouge">GITHUB_TOKEN</code> in your environment for higher rate limits (5000 req/hr vs 60 without).</p>
+<p><strong>Authentication</strong>: Set <code class="language-plaintext highlighter-rouge">GITHUB_TOKEN</code> in your environment for higher rate limits (5000 req/hr vs 60 without). Search has a much tighter unauthenticated budget (10 requests/minute), so a token is strongly recommended when configuring several <code class="language-plaintext highlighter-rouge">search</code> entries.</p>
 
 <h2 id="rss">RSS</h2>
 

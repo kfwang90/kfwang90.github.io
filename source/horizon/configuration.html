@@ -503,11 +503,22 @@ for validation and fallback rules.</p>
         </span><span class="nl">"repo"</span><span class="p">:</span><span class="w"> </span><span class="s2">"cpython"</span><span class="p">,</span><span class="w">
         </span><span class="nl">"enabled"</span><span class="p">:</span><span class="w"> </span><span class="kc">true</span><span class="p">,</span><span class="w">
         </span><span class="nl">"category"</span><span class="p">:</span><span class="w"> </span><span class="s2">"oss"</span><span class="w">
+      </span><span class="p">},</span><span class="w">
+      </span><span class="p">{</span><span class="w">
+        </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"search"</span><span class="p">,</span><span class="w">
+        </span><span class="nl">"query"</span><span class="p">:</span><span class="w"> </span><span class="s2">"topic:coding-agent stars:&gt;100 pushed:&gt;{since_date}"</span><span class="p">,</span><span class="w">
+        </span><span class="nl">"sort"</span><span class="p">:</span><span class="w"> </span><span class="s2">"stars"</span><span class="p">,</span><span class="w">
+        </span><span class="nl">"max_items"</span><span class="p">:</span><span class="w"> </span><span class="mi">5</span><span class="p">,</span><span class="w">
+        </span><span class="nl">"enabled"</span><span class="p">:</span><span class="w"> </span><span class="kc">true</span><span class="p">,</span><span class="w">
+        </span><span class="nl">"category"</span><span class="p">:</span><span class="w"> </span><span class="s2">"gh-trending"</span><span class="p">,</span><span class="w">
+        </span><span class="nl">"profile"</span><span class="p">:</span><span class="w"> </span><span class="s2">"gh-trending"</span><span class="w">
       </span><span class="p">}</span><span class="w">
     </span><span class="p">]</span><span class="w">
   </span><span class="p">}</span><span class="w">
 </span><span class="p">}</span><span class="w">
 </span></code></pre></div></div>
+
+<p><code class="language-plaintext highlighter-rouge">search</code> sources accept <code class="language-plaintext highlighter-rouge">query</code> (any GitHub repository search query), <code class="language-plaintext highlighter-rouge">sort</code> (<code class="language-plaintext highlighter-rouge">stars</code>, <code class="language-plaintext highlighter-rouge">forks</code>, <code class="language-plaintext highlighter-rouge">updated</code>, <code class="language-plaintext highlighter-rouge">best-match</code>) and <code class="language-plaintext highlighter-rouge">max_items</code>. The placeholders <code class="language-plaintext highlighter-rouge">{today}</code>, <code class="language-plaintext highlighter-rouge">{since_date}</code> and <code class="language-plaintext highlighter-rouge">{days_N}</code> are expanded at fetch time, so relative windows stay current.</p>
 
 <h3 id="hacker-news">Hacker News</h3>
 
@@ -1236,6 +1247,10 @@ docker compose run <span class="nt">--rm</span> <span class="nt">--entrypoint</s
 <h2 id="static-site">Static Site</h2>
 
 <p>Horizon writes generated summaries to <code class="language-plaintext highlighter-rouge">data/summaries/</code> (or <code class="language-plaintext highlighter-rouge">&lt;data-dir&gt;/summaries/</code> when <code class="language-plaintext highlighter-rouge">--data-dir</code> is set) and copies publishable Markdown into <code class="language-plaintext highlighter-rouge">docs/</code> for the GitHub Pages site. The repository includes a disabled daily workflow template at <a href="../.github/workflows/daily-summary.yml.disabled"><code class="language-plaintext highlighter-rouge">.github/workflows/daily-summary.yml.disabled</code></a>. Configure it for your deployment and rename it to <code class="language-plaintext highlighter-rouge">daily-summary.yml</code> to enable scheduled generation.</p>
+
+<p>Each digest post also carries its own item list as JSON in the front matter (<code class="language-plaintext highlighter-rouge">items:</code>). <code class="language-plaintext highlighter-rouge">docs/index.md</code> uses it to render the 「近期消息」 (recent items) section, which lists the last seven days of entries grouped by day, so the index page never has to re-read every digest page.</p>
+
+<p><code class="language-plaintext highlighter-rouge">docs/_posts/</code> is git-ignored, so a fresh runner only ever holds the current day. The workflow therefore restores previously published digests from the deploy repo’s <code class="language-plaintext highlighter-rouge">.horizon-archive/posts/</code> before building, and refreshes that directory on every publish — without it, older digest pages (and every list on the index page) would vanish on the next run.</p>
 
 <p>To use GitHub Pages, enable Pages for the repository and run the scheduled workflow or trigger it manually. The generated site is built from the <code class="language-plaintext highlighter-rouge">docs/</code> directory.</p>
 
