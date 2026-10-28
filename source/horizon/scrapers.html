@@ -276,7 +276,7 @@
 
 <p>Profile timelines use <code class="language-plaintext highlighter-rouge">source_mode: "profiles"</code>. Keyword discovery and reply expansion reuse <code class="language-plaintext highlighter-rouge">source_mode: "search"</code> with <code class="language-plaintext highlighter-rouge">search_query</code>.</p>
 
-<p>When users are configured, a single profile run fetches their timelines together. Each non-empty keyword query starts a separate search run, independently of the configured users. Either path can be used on its own. Results are filtered to the current time window and merged with deduplication by tweet ID across all runs.</p>
+<p>When users are configured, a single profile run fetches their timelines together. Each non-empty keyword query starts a separate search run. <strong>Keyword runs are started before the profile run</strong>, in the order listed: put the topics you want prioritized first (for example GitHub-related queries such as <code class="language-plaintext highlighter-rouge">"GitHub"</code>). Either path can be used on its own. Results are filtered to the current time window and merged with deduplication by tweet ID across all runs.</p>
 
 <p><strong>Config</strong> (<code class="language-plaintext highlighter-rouge">sources.twitter</code>):</p>
 
@@ -296,7 +296,7 @@
 
 <ul>
   <li><code class="language-plaintext highlighter-rouge">users</code> — Twitter screen names to monitor, without the <code class="language-plaintext highlighter-rouge">@</code> prefix</li>
-  <li><code class="language-plaintext highlighter-rouge">keywords</code> — independent Apify search queries (<code class="language-plaintext highlighter-rouge">source_mode: "search"</code>), not filters on the configured users’ timelines. Not supported in Playwright mode.</li>
+  <li><code class="language-plaintext highlighter-rouge">keywords</code> — independent Apify search queries (<code class="language-plaintext highlighter-rouge">source_mode: "search"</code>), not filters on the configured users’ timelines. Runs before the profile timeline run, in list order, so earlier entries are prioritized (e.g. GitHub topics). Not supported in Playwright mode.</li>
   <li><code class="language-plaintext highlighter-rouge">fetch_limit</code> — in Apify mode, each profile or keyword-search actor run requests up to <code class="language-plaintext highlighter-rouge">max(100, fetch_limit)</code> tweets. This is not a combined limit: the example above starts three discovery runs with a limit of 100 tweets each, before time filtering and deduplication. Each keyword adds an actor run and associated Apify usage.</li>
   <li><code class="language-plaintext highlighter-rouge">category</code> — optional tag for balanced digest grouping (applies to all tweets from this source)</li>
   <li><code class="language-plaintext highlighter-rouge">fetch_reply_text</code> — when <code class="language-plaintext highlighter-rouge">true</code>, a second Apify run fetches reply bodies for each important tweet and appends them under <code class="language-plaintext highlighter-rouge">--- Top Comments ---</code> for AI analysis</li>
@@ -310,6 +310,47 @@
 <p><strong>Authentication</strong>: Set <code class="language-plaintext highlighter-rouge">APIFY_TOKEN</code> in your <code class="language-plaintext highlighter-rouge">.env</code>. Get a token at <a href="https://console.apify.com/account/integrations">console.apify.com</a>.</p>
 
 <p><strong>Extracted data</strong>: tweet text, URL, author, publish time, likes, retweets, replies, views, category, and (optionally) reply-thread text appended under <code class="language-plaintext highlighter-rouge">--- Top Comments ---</code>.</p>
+
+<h2 id="youtube">YouTube</h2>
+
+<p><strong>File</strong>: <code class="language-plaintext highlighter-rouge">src/scrapers/youtube.py</code></p>
+
+<p>Uses yt-dlp’s <em>flat playlist</em> extraction, which needs no API key and no YouTube account. Two discovery modes are combined:</p>
+
+<ol>
+  <li><strong>Channels</strong> — each configured channel’s newest videos are listed (<code class="language-plaintext highlighter-rouge">/videos</code> playlist).</li>
+  <li><strong>Keyword search</strong> — each non-empty <code class="language-plaintext highlighter-rouge">keyword</code> runs one <code class="language-plaintext highlighter-rouge">ytsearch{search_fetch_limit}:{keyword}</code> search, e.g. GitHub-related queries such as <code class="language-plaintext highlighter-rouge">"GitHub"</code>.</li>
+</ol>
+
+<p>Results from all channels and searches are merged with deduplication by video ID, filtered by <code class="language-plaintext highlighter-rouge">min_views</code>, and sorted: <strong>GitHub-related videos (title or description mentioning GitHub) come first, most viewed otherwise</strong>. Finally <code class="language-plaintext highlighter-rouge">max_items</code> keeps the top entries.</p>
+
+<p>Flat extraction carries no upload date, so items are dated at fetch time. Keyword searches use the same flat extraction as channel listings and are likewise framed as one cheap request per keyword.</p>
+
+<p><strong>Config</strong> (<code class="language-plaintext highlighter-rouge">sources.youtube</code>):</p>
+
+<div class="language-json highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">{</span><span class="w">
+  </span><span class="nl">"enabled"</span><span class="p">:</span><span class="w"> </span><span class="kc">true</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"keywords"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="s2">"GitHub"</span><span class="p">],</span><span class="w">
+  </span><span class="nl">"search_fetch_limit"</span><span class="p">:</span><span class="w"> </span><span class="mi">10</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"fetch_limit"</span><span class="p">:</span><span class="w"> </span><span class="mi">3</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"min_views"</span><span class="p">:</span><span class="w"> </span><span class="mi">0</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"max_items"</span><span class="p">:</span><span class="w"> </span><span class="mi">12</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"channels"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="w">
+    </span><span class="p">{</span><span class="nl">"channel"</span><span class="p">:</span><span class="w"> </span><span class="s2">"@TwoMinutePapers"</span><span class="p">,</span><span class="w"> </span><span class="nl">"enabled"</span><span class="p">:</span><span class="w"> </span><span class="kc">true</span><span class="p">}</span><span class="w">
+  </span><span class="p">]</span><span class="w">
+</span><span class="p">}</span><span class="w">
+</span></code></pre></div></div>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">keywords</code> — yt-dlp keyword queries, in priority order (put the topics you want first, e.g. GitHub-related queries); requires the optional <code class="language-plaintext highlighter-rouge">yt-dlp</code> dependency (<code class="language-plaintext highlighter-rouge">uv sync --extra youtube</code>)</li>
+  <li><code class="language-plaintext highlighter-rouge">search_fetch_limit</code> — newest N search results inspected per keyword (default: 10)</li>
+  <li><code class="language-plaintext highlighter-rouge">fetch_limit</code> — default newest N videos listed per channel</li>
+  <li><code class="language-plaintext highlighter-rouge">min_views</code> — drop videos with fewer views than this</li>
+  <li><code class="language-plaintext highlighter-rouge">max_items</code> — cap on the combined channel + search result count</li>
+  <li><code class="language-plaintext highlighter-rouge">channels</code> — list of <code class="language-plaintext highlighter-rouge">@handle</code>, channel-ID or URL entries to monitor</li>
+</ul>
+
+<p><strong>Extracted data</strong>: video title, URL, channel, views, duration, description, category, and the originating <code class="language-plaintext highlighter-rouge">search_query</code> for keyword results.</p>
 
 
     </article>
