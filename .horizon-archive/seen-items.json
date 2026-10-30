@@ -464,6 +464,66 @@
   "twitter:tweet:2115987050381922604": {
    "last_seen": "2026-10-30",
    "title": "@realfxw: 【开源推荐：把完整的 Windows 装进 Docker 容器！GitHub 狂揽 5.4 万星】..."
+  },
+  "twitter:tweet:2115996360944279873": {
+   "last_seen": "2026-10-30",
+   "title": "@neili666888: Google 要关掉自家的编程 Agent Jules，官方给的数据导出办法，是让你打开 Claud..."
+  },
+  "twitter:tweet:2115996612799467845": {
+   "last_seen": "2026-10-30",
+   "title": "@xqliu: 上面说的 Orbi 引擎是我的开源作品，AGPL-3.0 或 Sustainable Use Lic..."
+  },
+  "twitter:tweet:2115996612077982113": {
+   "last_seen": "2026-10-30",
+   "title": "@xqliu: 无人值守软件工厂，真的需要一个复杂的多 Agent 编排系统吗？  最近一篇论文《Instant S..."
+  },
+  "twitter:tweet:2115994850361520271": {
+   "last_seen": "2026-10-30",
+   "title": "@HugoValters: 300 pages between 2 and 6am, all from default Wazu..."
+  },
+  "twitter:tweet:2115994509016502637": {
+   "last_seen": "2026-10-30",
+   "title": "@mileshuang1997: 任务：把我的 Claude 记忆同步备份到 GitHub 私有仓库 zoommbi/claude-m..."
+  },
+  "twitter:tweet:2115993671254639024": {
+   "last_seen": "2026-10-30",
+   "title": "@sinasanm: built an open source PR deck that uses github cli..."
+  },
+  "twitter:tweet:2115996313456366071": {
+   "last_seen": "2026-10-30",
+   "title": "@AkitaOnRails: Chegou minha vez de contribuir com essa onda de re..."
+  },
+  "twitter:tweet:2115994601853198680": {
+   "last_seen": "2026-10-30",
+   "title": "@WEBMARKS2: 【開発者のkajisho5氏が無料で公開】 Claude Codeに、動画編集の道具が42個まとめて..."
+  },
+  "twitter:tweet:2115993114305274208": {
+   "last_seen": "2026-10-30",
+   "title": "@JayQinQT: @TeanJodibo @opencode @TeanJodibo Free pool swings..."
+  },
+  "twitter:tweet:2115993480535355494": {
+   "last_seen": "2026-10-30",
+   "title": "@buoyhuang: 刚做完一个能跑的全栈登录系统：FastAPI + React + MySQL，JWT 双 token..."
+  },
+  "twitter:tweet:2115854759991369840": {
+   "last_seen": "2026-10-30",
+   "title": "@hwchase17: a lot of the challenges in harness engineering are..."
+  },
+  "rss:the-decoder.com_feed_:6982ff94f200009a": {
+   "last_seen": "2026-10-30",
+   "title": "Paris-based Mistral releases \"Le Chonk,\" a strong coding model that still trails China overall"
+  },
+  "rss:www.infoq.cn_feed:dea94ebaab15ff14": {
+   "last_seen": "2026-10-30",
+   "title": "Zod 突然“会编译”了：速度快 9 倍、内存少近 90%，代价是 new Function？"
+  },
+  "github:trending:pbakaus/impeccable": {
+   "last_seen": "2026-10-30",
+   "title": "pbakaus/impeccable"
+  },
+  "github:trending:CopilotKit/OpenBot": {
+   "last_seen": "2026-10-30",
+   "title": "CopilotKit/OpenBot"
   }
  }
 }
