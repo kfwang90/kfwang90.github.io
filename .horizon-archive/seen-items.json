@@ -336,6 +336,134 @@
   "github:search:can1357/oh-my-pi": {
    "last_seen": "2026-10-29",
    "title": "can1357/oh-my-pi"
+  },
+  "hackernews:story:50289418": {
+   "last_seen": "2026-10-30",
+   "title": "We're releasing the weights of Mistral Large 4"
+  },
+  "rss:huggingface.co_blog_feed.xml:e508e29ae812fe58": {
+   "last_seen": "2026-10-30",
+   "title": "Granite Switch 4.1.1 — Update models like you update software"
+  },
+  "twitter:tweet:2115993208303898764": {
+   "last_seen": "2026-10-30",
+   "title": "@EnvouHzu: 先别等只读——Jules 里的记忆不会自动跟你走。  Google 异步写码 agent，官方 ch..."
+  },
+  "twitter:tweet:2115992432445972538": {
+   "last_seen": "2026-10-30",
+   "title": "@ScubaApe: 宜家说明书平面图看晕了的人可以看看：Bygga 把步骤做成可旋转的 3D 线稿动画，输入家具名或货号..."
+  },
+  "twitter:tweet:2115992272244535608": {
+   "last_seen": "2026-10-30",
+   "title": "@MilanGlow: If you use Codex or VS Code, think twice before cl..."
+  },
+  "twitter:tweet:2115988307674894845": {
+   "last_seen": "2026-10-30",
+   "title": "@sanook_ai: AI ทำวิดีโอได้ ไม่ได้แปลว่ามันจะทำ “งาน Motion ที่..."
+  },
+  "rss:simonwillison.net_atom_everything_:49d99f09e516b736": {
+   "last_seen": "2026-10-30",
+   "title": "API credits benefit for eligible ChatGPT subscriptions"
+  },
+  "rss:simonwillison.net_atom_everything_:a41c6b1e5e903c63": {
+   "last_seen": "2026-10-30",
+   "title": "Building a multiplayer game world with autonomous Fable-class models"
+  },
+  "twitter:tweet:2115993236640813149": {
+   "last_seen": "2026-10-30",
+   "title": "@mmskats: GitHub Copilotのエージェントランタイムを、TypeScriptから80万行超のRust..."
+  },
+  "twitter:tweet:2115990510137712725": {
+   "last_seen": "2026-10-30",
+   "title": "@heygalatea: @emollick Here's the mechanism from inside: reply..."
+  },
+  "twitter:tweet:2115990502596399215": {
+   "last_seen": "2026-10-30",
+   "title": "@szkdash: GitHub Actions workflow lockfiles are now GA, but..."
+  },
+  "twitter:tweet:2115990368047219195": {
+   "last_seen": "2026-10-30",
+   "title": "@JayQinQT: @dluancr @opencode Got it — \"Too many calls\" under..."
+  },
+  "twitter:tweet:2115990183917265040": {
+   "last_seen": "2026-10-30",
+   "title": "@wuguanzheng2: GitHub 说今年 9 月 40%+ 的 PR 由 AI 起草。我拿公开搜索 API 数了下 10..."
+  },
+  "twitter:tweet:2115990179081023808": {
+   "last_seen": "2026-10-30",
+   "title": "@JayQinQT: @zeyadseddiek @zeyadseddiek Wipe/reinstall/new acc..."
+  },
+  "twitter:tweet:2115989324520943935": {
+   "last_seen": "2026-10-30",
+   "title": "@vig_xyz: 1) it should suggest plugins more often, based on..."
+  },
+  "twitter:tweet:2115987828027142652": {
+   "last_seen": "2026-10-30",
+   "title": "@Hx87666: 把姿势库、服装库和 ComfyUI 接到了一起。现在选好姿势和服装编号，也可以放一张人物参考图，就能..."
+  },
+  "twitter:tweet:2115987804215775460": {
+   "last_seen": "2026-10-30",
+   "title": "@HugoValters: Blue-green deploys with Docker Compose + Traefik:..."
+  },
+  "twitter:tweet:2115987679687200909": {
+   "last_seen": "2026-10-30",
+   "title": "@multilayer: GitHub Actionsのworkflow lockfilesの一般提供が始まった(米国時間10..."
+  },
+  "twitter:tweet:2115987050478588118": {
+   "last_seen": "2026-10-30",
+   "title": "@HugoValters: Batch-resize a whole image folder with 157 lines o..."
+  },
+  "twitter:tweet:2115826286652248275": {
+   "last_seen": "2026-10-30",
+   "title": "@_akhaliq: OmniShowcase  Omnidirectional Subject-Consistent V..."
+  },
+  "github:trending:thedotmack/claude-mem": {
+   "last_seen": "2026-10-30",
+   "title": "thedotmack/claude-mem"
+  },
+  "github:search:ruvnet/ruflo": {
+   "last_seen": "2026-10-30",
+   "title": "ruvnet/ruflo"
+  },
+  "rss:www.marktechpost.com_feed_:3cf50afd2b6f13ad": {
+   "last_seen": "2026-10-30",
+   "title": "AssemblyAI Ships AssemblyAI-TTS-1: A $15 per 1M Character Text-to-Speech API for Voice Agents"
+  },
+  "reddit:subreddit-rss:t3_1xix35p": {
+   "last_seen": "2026-10-30",
+   "title": "Release: Swift 1.5 Flash Next - Heretic v2 - ReverseEngineer"
+  },
+  "twitter:tweet:2115992729289146808": {
+   "last_seen": "2026-10-30",
+   "title": "@JayQinQT: @MaleManlpulator @thdxr @MaleManlpulator Free Go/D..."
+  },
+  "twitter:tweet:2115991797562564883": {
+   "last_seen": "2026-10-30",
+   "title": "@awe0_io: Claude Code 跨 Session 记忆这个坑，目前最多人用的解决方案是 claude-me..."
+  },
+  "twitter:tweet:2115990932096999920": {
+   "last_seen": "2026-10-30",
+   "title": "@michaelnemtsev: AI Field Notes #127  The browsers inside your codi..."
+  },
+  "twitter:tweet:2115990723908575470": {
+   "last_seen": "2026-10-30",
+   "title": "@SOCMinute: 1/5 A valid signature helped launch malware.  The..."
+  },
+  "twitter:tweet:2115989629430308974": {
+   "last_seen": "2026-10-30",
+   "title": "@alkaidzhuang: Lost answers across AI chats?  SaveAnswer: 1-click..."
+  },
+  "twitter:tweet:2115988384166592816": {
+   "last_seen": "2026-10-30",
+   "title": "@thefusioncube: The feature takes up so much usage because it cont..."
+  },
+  "twitter:tweet:2115987622552363453": {
+   "last_seen": "2026-10-30",
+   "title": "@iamlukethedev: Hermes merged 147 PRs on October 29  The ones wort..."
+  },
+  "twitter:tweet:2115987050381922604": {
+   "last_seen": "2026-10-30",
+   "title": "@realfxw: 【开源推荐：把完整的 Windows 装进 Docker 容器！GitHub 狂揽 5.4 万星】..."
   }
  }
 }
