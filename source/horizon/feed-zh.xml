@@ -3,9 +3,404 @@
   <title>Horizon 每日速递 - 中文摘要</title>
   <link href="https://www.01040610.xyz/horizon/feed-zh.xml" rel="self"/>
   <link href="https://www.01040610.xyz/horizon/"/>
-  <updated>2026-10-30T02:52:24+00:00</updated>
+  <updated>2026-10-31T02:40:39+00:00</updated>
   <id>https://www.01040610.xyz/horizon/</id>
   
+  
+  <entry>
+    <title>Horizon Summary: 2026-10-31 (ZH)</title>
+    <link href="https://www.01040610.xyz/horizon/2026/10/31/summary-zh.html"/>
+    <updated>2026-10-31T00:00:00+00:00</updated>
+    <id>https://www.01040610.xyz/horizon/2026/10/31/summary-zh.html</id>
+    <content type="html"><![CDATA[ <blockquote>
+  <p>今日抓取 253 条内容，收录 23 条。</p>
+</blockquote>
+
+<hr />
+
+<p><strong>GitHub AI 开发工具</strong></p>
+<ol>
+  <li><a href="#item-gh-trending-1">kajisho5/ffmpeg-skill: 为编码代理提供本地 FFmpeg MCP 服务</a> ⭐️ 8.0/10</li>
+  <li><a href="#item-gh-trending-2">DayuanJiang/next-ai-draw-io: AI 对话生成 draw.io 图表并集成 MCP Server</a> ⭐️ 8.0/10</li>
+  <li><a href="#item-gh-trending-3">lightpanda-io/browser：面向 AI 与自动化的 Zig 无头浏览器</a> ⭐️ 6.0/10</li>
+  <li><a href="#item-gh-trending-4">algorithmicsuperintelligence/openevolve: AlphaEvolve 开源实现，进化算法自动发现算法</a> ⭐️ 5.0/10</li>
+  <li><a href="#item-gh-trending-5">ccch1mneyyy/dsh-TUI：DSH 官方推荐的 TUI 终端插件</a> ⭐️ 5.0/10</li>
+  <li><a href="#item-gh-trending-6">facadecode: 多 AI 代理并行的 VS Code 分支</a> ⭐️ 5.0/10</li>
+</ol>
+
+<p><strong>AI 热门新闻</strong></p>
+<ol>
+  <li><a href="#item-ai-news-1">Cursor 市场上的 Claude Code 扩展被植入后门</a> ⭐️ 7.0/10</li>
+  <li><a href="#item-ai-news-2">Tangled 推出基于 AT Protocol 的联邦代码托管平台</a> ⭐️ 6.0/10</li>
+  <li><a href="#item-ai-news-3">Unsloth 发布 DeepSeek-V4.1-Flash-1017 Dynamic V3.1 GGUF 预览版</a> ⭐️ 6.0/10</li>
+</ol>
+
+<p><strong>X / YouTube 热门</strong></p>
+<ol>
+  <li><a href="#item-social-hot-1">InfRec 发布 OPIS 基准测试视频世界模型对象记忆</a> ⭐️ 9.0/10</li>
+  <li><a href="#item-social-hot-2">PCS2 浏览器版：WebAssembly + WebGPU 移植，Claude 辅助测试</a> ⭐️ 9.0/10</li>
+  <li><a href="#item-social-hot-3">ECC：给 Coding Agent 装上编排流水线</a> ⭐️ 8.0/10</li>
+  <li><a href="#item-social-hot-4">开发者分享 AI 实战项目：演示、代码、工作流与数据全公开</a> ⭐️ 8.0/10</li>
+  <li><a href="#item-social-hot-5">Grok Bot 误删主目录，三招防数据丢失</a> ⭐️ 8.0/10</li>
+  <li><a href="#item-social-hot-6">Claude Code 开源技能 teardown 生成可拆解 3D 机械模拟</a> ⭐️ 8.0/10</li>
+  <li><a href="#item-social-hot-7">开源项目 chinese-poetry-api 提供 40 万首古诗词 API 服务</a> ⭐️ 7.0/10</li>
+  <li><a href="#item-social-hot-8">开发者分享 Claude 社区插件商店，插件发现从数小时缩至分钟</a> ⭐️ 7.0/10</li>
+  <li><a href="#item-social-hot-9">impeccable：给 AI 前端代码加设计词汇与审查命令</a> ⭐️ 7.0/10</li>
+  <li><a href="#item-social-hot-10">GitHub Actions 技巧：移除 main-only 过滤器以支持堆叠 PR 迁移检查</a> ⭐️ 7.0/10</li>
+  <li><a href="#item-social-hot-11">swyx 用 Cloudflare Durable Objects 给博客加免费实时聊天</a> ⭐️ 7.0/10</li>
+  <li><a href="#item-social-hot-12">Turbo LoRA 多步长变体适配 ComfyUI 与 Diffusers</a> ⭐️ 7.0/10</li>
+  <li><a href="#item-social-hot-13">独立开发者分享冷启动表单批量跟进实战策略</a> ⭐️ 6.0/10</li>
+  <li><a href="#item-social-hot-14">GitHub 热门工具 Graft 与 Claude Skills 实战指南</a> ⭐️ 6.0/10</li>
+</ol>
+
+<hr />
+
+<h2 id="github-ai-开发工具">GitHub AI 开发工具</h2>
+
+<p><a id="item-gh-trending-1"></a></p>
+<h3 id="kajisho5ffmpeg-skill-为编码代理提供本地-ffmpeg-mcp-服务-️-8010"><a href="https://github.com/kajisho5/ffmpeg-skill">kajisho5/ffmpeg-skill: 为编码代理提供本地 FFmpeg MCP 服务</a> ⭐️ 8.0/10</h3>
+
+<p>该仓库提供一个本地 FFmpeg MCP 服务器，包含 42 个视频/音频处理工具和机器可读契约，让 Claude Code、Cursor、Codex 等编码代理无需云端 API 即可自主完成剪辑、字幕、响度归一化、平台导出等任务。项目使用 Python 实现，最近一次推送在 2026-10-31，拥有 4121 颗星且仅 6 个开放 Issue，处于可用且维护活跃的状态。</p>
+
+<p>github · kajisho5 · 10月31日 02:20</p>
+
+<p><strong>「推荐理由」</strong> 它落在「上下文供给/交付」环节，替代了开发者手写复杂 FFmpeg 命令或调用云端服务的步骤，直接增强代理的多媒体处理能力，适合需要在 AI 编码工作流中集成视频/音频处理的开发者；4121 颗星和低 Issue 数量表明社区活跃度高、维护可靠。</p>
+
+<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#coding-agent</code>, <code class="language-plaintext highlighter-rouge">#ffmpeg</code>, <code class="language-plaintext highlighter-rouge">#mcp</code>, <code class="language-plaintext highlighter-rouge">#video-editing</code>, <code class="language-plaintext highlighter-rouge">#ai-agents</code></p>
+
+<hr />
+
+<p><a id="item-gh-trending-2"></a></p>
+<h3 id="dayuanjiangnext-ai-draw-io-ai-对话生成-drawio-图表并集成-mcp-server-️-8010"><a href="https://github.com/DayuanJiang/next-ai-draw-io">DayuanJiang/next-ai-draw-io: AI 对话生成 draw.io 图表并集成 MCP Server</a> ⭐️ 8.0/10</h3>
+
+<p>DayuanJiang/next-ai-draw-io 是一个支持通过自然语言对话生成和编辑 draw.io 图表的工具，提供 Web 应用、Electron 桌面应用以及 MCP Server，可无缝接入 Claude Code、Cursor、Codex、VS Code 等主流 AI 编码助手。项目使用 TypeScript 构建，拥有 3.6 万星标且近期持续更新，已达到可用于生产环境的成熟度。</p>
+
+<p>github · DayuanJiang · 10月31日 02:20</p>
+
+<p><strong>「推荐理由」</strong> 它解决了开发中手绘架构图、流程图耗时的痛点，让开发者在编码流程中直接用对话式 AI 生成图表，适合架构设计、技术文档维护等高频绘图场景，3.6k+ Star 证明社区活跃度高。</p>
+
+<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#diagram-generation</code>, <code class="language-plaintext highlighter-rouge">#mcp-server</code>, <code class="language-plaintext highlighter-rouge">#drawio</code>, <code class="language-plaintext highlighter-rouge">#ai-coding-assistant</code>, <code class="language-plaintext highlighter-rouge">#architecture-design</code></p>
+
+<hr />
+
+<p><a id="item-gh-trending-3"></a></p>
+<h3 id="lightpanda-iobrowser面向-ai-与自动化的-zig-无头浏览器-️-6010"><a href="https://github.com/lightpanda-io/browser">lightpanda-io/browser：面向 AI 与自动化的 Zig 无头浏览器</a> ⭐️ 6.0/10</h3>
+
+<p>Lightpanda 是一个用 Zig 编写的无头浏览器，专为 AI 驱动的自动化与测试场景设计，旨在替代 Puppeteer 或 Playwright 等工具处理 AI 相关的浏览器任务。目前仓库累计 3.8 万星、单日新增 626 星，但公开文档、可复现示例与成熟度指标尚不充分，处于早期可用探索阶段。</p>
+
+<p>github · lightpanda-io · 10月31日 02:20</p>
+
+<p><strong>「推荐理由」</strong> 它落在测试与自动化环节，为需要在 AI 工作流中直接控制浏览器的团队提供原生无头方案，适合愿意尝试 Zig 生态、追求轻量且可定制浏览器内核的自动化工程师。</p>
+
+<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#headless-browser</code>, <code class="language-plaintext highlighter-rouge">#AI-automation</code>, <code class="language-plaintext highlighter-rouge">#Zig</code>, <code class="language-plaintext highlighter-rouge">#web-testing</code>, <code class="language-plaintext highlighter-rouge">#browser-automation</code></p>
+
+<hr />
+
+<p><a id="item-gh-trending-4"></a></p>
+<h3 id="algorithmicsuperintelligenceopenevolve-alphaevolve-开源实现进化算法自动发现算法-️-5010"><a href="https://github.com/algorithmicsuperintelligence/openevolve">algorithmicsuperintelligence/openevolve: AlphaEvolve 开源实现，进化算法自动发现算法</a> ⭐️ 5.0/10</h3>
+
+<p>该仓库提供 AlphaEvolve 的开源实现，结合进化算法与大语言模型自动发现和优化算法，主语言为 Python。目前处于实验性阶段，缺乏可运行代码、完整文档与实测证据，最后推送日期异常为未来，成熟度未经验证。</p>
+
+<p>github · algorithmicsuperintelligence · 10月31日 02:20</p>
+
+<p><strong>「推荐理由」</strong> 适合关注算法自动发现与优化的研究者或工程师，在「写码/算法发现」环节提供进化式代理思路，可作为探索性参考；7.6k Star 显示社区关注度，但更偏向学术实验而非通用编码辅助。</p>
+
+<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#coding-agent</code>, <code class="language-plaintext highlighter-rouge">#evolutionary-algorithms</code>, <code class="language-plaintext highlighter-rouge">#algorithm-discovery</code>, <code class="language-plaintext highlighter-rouge">#alphaevolve</code>, <code class="language-plaintext highlighter-rouge">#llm-code-generation</code></p>
+
+<hr />
+
+<p><a id="item-gh-trending-5"></a></p>
+<h3 id="ccch1mneyyydsh-tuidsh-官方推荐的-tui-终端插件-️-5010"><a href="https://github.com/ccch1mneyyy/dsh-TUI">ccch1mneyyy/dsh-TUI：DSH 官方推荐的 TUI 终端插件</a> ⭐️ 5.0/10</h3>
+
+<p>该仓库是 DeepSeek Harness (DSH) 编码代理框架的官方推荐 TUI 插件，旨在为 DSH 用户提供高性能、低占用的现代终端交互体验，支持鼠标操作和像素鲸鱼 UI。基于 TypeScript、Ink 与 React 构建，通过 npm 一键安装。项目近期仍在活跃维护，但开放 Issue 较多，成熟度仍在演进中。</p>
+
+<p>github · ccch1mneyyy · 10月31日 02:20</p>
+
+<p><strong>「推荐理由」</strong> 适合已在使用 DSH 编码代理框架的开发者，在写码与交互环节替代原生终端界面，提升交互效率；6352 颗星表明社区关注度高，但仅对 DSH 技术栈用户有直接价值。</p>
+
+<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#tui</code>, <code class="language-plaintext highlighter-rouge">#terminal-ui</code>, <code class="language-plaintext highlighter-rouge">#deepseek-harness</code>, <code class="language-plaintext highlighter-rouge">#coding-agent-interface</code>, <code class="language-plaintext highlighter-rouge">#ink-react</code></p>
+
+<hr />
+
+<p><a id="item-gh-trending-6"></a></p>
+<h3 id="facadecode-多-ai-代理并行的-vs-code-分支-️-5010"><a href="https://github.com/y5ez3g/facadecode">facadecode: 多 AI 代理并行的 VS Code 分支</a> ⭐️ 5.0/10</h3>
+
+<p>facadecode 是一个 VS Code 分支，旨在让 Claude Code、Codex 等多个 AI 编码代理通过 git worktree 在同一 IDE 中并行工作。它解决了在单一开发环境里同时运行多个 AI 代理的协作与上下文隔离问题，使用 TypeScript 实现。项目创建约 20 天，仅 129 颗星、0 个 fork，处于极早期实验阶段，缺乏可复现的安装文档与实际可用性验证。</p>
+
+<p>github · y5ez3g · 10月31日 02:20</p>
+
+<p><strong>「推荐理由」</strong> 它落在「写码/上下文供给」环节，尝试用 IDE 原生分支替代多窗口或多终端的并行 AI 工作流，适合愿意尝鲜、接受高上手门槛的早期采用者探索多代理协作模式。129 颗星显示社区有一定关注度，但成熟度尚不足以用于生产。</p>
+
+<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#agentic-coding</code>, <code class="language-plaintext highlighter-rouge">#ide</code>, <code class="language-plaintext highlighter-rouge">#ai-agents</code>, <code class="language-plaintext highlighter-rouge">#git-worktree</code>, <code class="language-plaintext highlighter-rouge">#vscode-fork</code></p>
+
+<hr />
+
+<h2 id="ai-热门新闻">AI 热门新闻</h2>
+
+<p><a id="item-ai-news-1"></a></p>
+<h3 id="cursor-市场上的-claude-code-扩展被植入后门-️-7010"><a href="https://phorion.io/blog/offical-claude-code-vsx-compromise/">Cursor 市场上的 Claude Code 扩展被植入后门</a> ⭐️ 7.0/10</h3>
+
+<p>Cursor 官方市场（基于 Open VSX 注册表）上架的 Claude Code VS Code 扩展被篡改，恶意版本在 2026-10-30 约 2:27–13:35 PT 期间可供下载。该版本会将攻击者的公钥（标签为 svc-telemetry）追加到用户的 ~/.ssh/authorized_keys，实现持久化 SSH 访问。Anthropic 确认官方发布渠道未受影响，且该扩展并非由 Anthropic 开发或发布。</p>
+
+<p>hackernews · _chall · 10月30日 07:09 · <a href="https://news.ycombinator.com/item?id=50300683">社区讨论</a></p>
+
+<p><strong>「对你的影响」</strong> 若你在受影响时间窗口内从 Cursor 市场安装或更新过 Claude Code 扩展，请立即运行检测命令：macOS/Linux 执行 `grep -qs svc-telemetry ~/.ssh/authorized_keys &amp;&amp; echo "svc-telemetry key found" || echo "No key found; machine not impacted"`，Windows 在 PowerShell 运行 `Select-String -Path $env:USERPROFILE\.ssh\authorized_keys -Pattern &#x27;svc-telemetry&#x27;`。发现密钥需立即移除并轮换 SSH 凭据；随后改用 Anthropic 官方渠道（VS Code Marketplace 或官网）获取扩展。</p>
+
+<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#security</code>, <code class="language-plaintext highlighter-rouge">#claude-code</code>, <code class="language-plaintext highlighter-rouge">#vs-code-extension</code>, <code class="language-plaintext highlighter-rouge">#supply-chain-attack</code>, <code class="language-plaintext highlighter-rouge">#cursor-marketplace</code></p>
+
+<hr />
+
+<p><a id="item-ai-news-2"></a></p>
+<h3 id="tangled-推出基于-at-protocol-的联邦代码托管平台-️-6010"><a href="https://tangled.org/blog/forge/">Tangled 推出基于 AT Protocol 的联邦代码托管平台</a> ⭐️ 6.0/10</h3>
+
+<p>Tangled 正式发布基于 AT Protocol 的联邦代码托管平台，支持自托管完整栈或部分组件，组织功能已上线，私有仓库将在未来几周推出。联合创始人表示 AT Protocol 词表已稳定，架构与 UI 完成全面重写。目前 Hacker News 讨论串未提供安装文档、系统要求或迁移路径，实操细节需前往官方博客或文档查看。</p>
+
+<p>hackernews · zlliang · 10月30日 15:44 · <a href="https://news.ycombinator.com/item?id=50305573">社区讨论</a></p>
+
+<p><strong>「关键意义」</strong> 寻找 GitHub/Gitea 替代方案且看重联邦化、数据自主的工程团队可关注；首要步骤是访问 tangled.org/blog/forge/ 查阅自托管部署指南，评估资源占用与联邦互通成熟度后再决定是否迁移或并行试用。</p>
+
+<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#code-forge</code>, <code class="language-plaintext highlighter-rouge">#federated</code>, <code class="language-plaintext highlighter-rouge">#self-hosting</code>, <code class="language-plaintext highlighter-rouge">#at-protocol</code>, <code class="language-plaintext highlighter-rouge">#git-alternative</code></p>
+
+<hr />
+
+<p><a id="item-ai-news-3"></a></p>
+<h3 id="unsloth-发布-deepseek-v41-flash-1017-dynamic-v31-gguf-预览版-️-6010"><a href="https://www.reddit.com/r/LocalLLaMA/comments/1xjfuqh/introducing_deepseekv41flash1017_dynamic_v31/">Unsloth 发布 DeepSeek-V4.1-Flash-1017 Dynamic V3.1 GGUF 预览版</a> ⭐️ 6.0/10</h3>
+
+<p>Unsloth 团队在 Reddit 发布 DeepSeek-V4.1-Flash-1017 的 Dynamic V3.1（预览版）GGUF 量化模型，声称在 AIME25、LiveCodeBench、GPQA Diamond、Aider Polyglot、MMLU-Pro、IFEval、HMMT Feb26 七项基准上均优于 ISTA 的 GSQ-RCO 量化方法。作者表示无法复现 GSQ-RCO 宣称的 AIME25 100% 准确率恢复（实测约 91.88%），且所有基准至少跑 3 次（AIME25 跑 16 次）取平均。提供的量化规格包括 UD-Q8_K_XL（508.4 GB）、UD-Q2_K_XL（334.8 GB）、UD-IQ2_XXS（300.5 GB）、UD-IQ1_M（250.4 GB）、UD-IQ1_S（233.0 GB）等，并给出对应基准分数表。模型可在 128 GB 内存/统一内存设备运行，或配合 engram 卸载在 64 GB 内存运行。完整基准数据、方法论见官方博客：https://unsloth.ai/docs/models/deepseek-v4.1-flash；GGUF 下载地址：https://huggingface.co/unsloth/DeepSeek-V4.1-Flash-1017-GGUF。帖子为预览版发布，更多结果将于下周公布。</p>
+
+<p>reddit · r/LocalLLaMA · /u/danielhanchen · 10月30日 13:48</p>
+
+<p><strong>「实用价值」</strong> 面向在本地部署 DeepSeek-V4.1-Flash 的开发者与研究者：若追求同等体积下更高的推理准确率（尤其数学、代码、推理类任务），可优先尝试 Unsloth Dynamic V3.1 量化版。第一步：访问 Hugging Face 仓库下载所需量化规格（如 UD-IQ2_XXS 约 300 GB），并参考博客中的硬件需求与 engram 卸载配置进行部署测试。</p>
+
+<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#quantization</code>, <code class="language-plaintext highlighter-rouge">#GGUF</code>, <code class="language-plaintext highlighter-rouge">#DeepSeek</code>, <code class="language-plaintext highlighter-rouge">#Unsloth</code>, <code class="language-plaintext highlighter-rouge">#local-LLM</code></p>
+
+<hr />
+
+<h2 id="x--youtube-热门">X / YouTube 热门</h2>
+
+<p><a id="item-social-hot-1"></a></p>
+<h3 id="infrec-发布-opis-基准测试视频世界模型对象记忆-️-9010"><a href="https://x.com/infrectech/status/2116349440013504829">InfRec 发布 OPIS 基准测试视频世界模型对象记忆</a> ⭐️ 9.0/10</h3>
+
+<p>InfRec 发布 OPIS 基准，系统评估视频世界模型是否能保持输入视频中物体的身份一致性。实验覆盖 500 个案例、12,672 个标注物体、8 个模型，结果显示模型在 Presence（存在性）指标上达 85–93 分，但在 Identity（身份保持）上仅 28–37 分；拥挤场景下身份得分从 40 降至 23。作者同步开放论文、代码与数据集，供开发者直接复现与评测。</p>
+
+<p>twitter · InfRec · 10月31日 02:00</p>
+
+<p><strong>「推荐理由」</strong> 这是作者团队首发的完整可复现基准，提供论文、GitHub 代码与 Hugging Face 数据集，直接可用于视频生成模型的对象记忆评测；核心发现“视觉合理不代表身份保持”具有反直觉价值，帮助开发者定位模型在拥挤场景下的具体短板。</p>
+
+<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#video-world-models</code>, <code class="language-plaintext highlighter-rouge">#benchmark</code>, <code class="language-plaintext highlighter-rouge">#object-memory</code>, <code class="language-plaintext highlighter-rouge">#evaluation</code>, <code class="language-plaintext highlighter-rouge">#generative-video</code></p>
+
+<hr />
+
+<p><a id="item-social-hot-2"></a></p>
+<h3 id="pcs2-浏览器版webassembly--webgpu-移植claude-辅助测试-️-9010"><a href="https://x.com/sai0xgen/status/2116348701421826255">PCS2 浏览器版：WebAssembly + WebGPU 移植，Claude 辅助测试</a> ⭐️ 9.0/10</h3>
+
+<p>这条推文分享了一个基于浏览器的 PS2 模拟器项目，将 PCSX2 移植到 WebAssembly 与 WebGPU 上，并用 Claude 协助构建自动化测试与基准测试。作者称已在 GTA：圣安地列斯、生化危机 4、吉他英雄与《龙珠 Z：武道会 3》等游戏上测试可用，且 BIOS 与游戏文件均保留在本地设备。推文附带在线演示与 GitHub 仓库链接，但项目仍处于实验阶段。</p>
+
+<p>twitter · Sai · 10月31日 01:57</p>
+
+<p><strong>「推荐理由」</strong> 开发者首次在浏览器中跑通 PCSX2（PS2 模拟器），将核心代码编译为 WebAssembly、渲染管线迁移到 WebGPU，并用 Claude 自动生成测试与基准脚本。已实测《GTA：圣安地列斯》《生化危机 4》《吉他英雄》《龙珠 Z：武道会 3》等大作；BIOS 与游戏文件完全本地化，隐私无顾虑。提供在线演示与 GitHub 源码，可直接复现或二次开发。</p>
+
+<details><summary>参考链接</summary>
+<ul>
+<li><a href="https://github.com/snuri00/ps2-web-recomp">GitHub - snuri00/ps2-web-recomp: PS2 games in the browser ...</a></li>
+
+</ul>
+</details>
+
+<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#webassembly</code>, <code class="language-plaintext highlighter-rouge">#webgpu</code>, <code class="language-plaintext highlighter-rouge">#emulation</code>, <code class="language-plaintext highlighter-rouge">#ps2</code>, <code class="language-plaintext highlighter-rouge">#claude-ai</code></p>
+
+<hr />
+
+<p><a id="item-social-hot-3"></a></p>
+<h3 id="ecc给-coding-agent-装上编排流水线-️-8010"><a href="https://x.com/dizha88/status/2116353211774996704">ECC：给 Coding Agent 装上编排流水线</a> ⭐️ 8.0/10</h3>
+
+<p>作者介绍 ECC（agent harness operating system）作为 coding agent 的编排层，把 plan→test→implement→review→verify→remember→improve 的完整流水线一次性装好，避免每轮 prompt 重新发明流程。帖子给出具体规模（71 个 agent、314 个 skill、98 个 legacy command）、兼容性矩阵（Claude Code 体验最佳，Codex/Qoder 有原生插件，其它编辑器有受限适配器）、安装命令（npx ecc-universal@2.2.3 setup，需 Node.js 18+ 与 Claude Code 2.1+）、官方渠道安全提醒，以及装后验证步骤（/plugin list 确认插件启用、跑小需求观察 review 是否真换 fresh context）。</p>
+
+<p>twitter · Derek(AI打更人) · 10月31日 02:15</p>
+
+<p><strong>「推荐理由」</strong> 第一手实践者把 ECC 从安装、前提、安全渠道到验证全流程写在一条帖子里，配上具体版本号与兼容性边界，想落地 agent 编排的一线开发者可直接照做，省去踩坑时间。</p>
+
+<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#agent-orchestration</code>, <code class="language-plaintext highlighter-rouge">#coding-agents</code>, <code class="language-plaintext highlighter-rouge">#ecc</code>, <code class="language-plaintext highlighter-rouge">#developer-tools</code>, <code class="language-plaintext highlighter-rouge">#ai-workflow</code></p>
+
+<hr />
+
+<p><a id="item-social-hot-4"></a></p>
+<h3 id="开发者分享-ai-实战项目演示代码工作流与数据全公开-️-8010"><a href="https://x.com/mapte_fireball/status/2116351510485537267">开发者分享 AI 实战项目：演示、代码、工作流与数据全公开</a> ⭐️ 8.0/10</h3>
+
+<p>这条推文由开发者 @mapte_fireball 发布，分享了一个完整的 AI 实战项目，包含演示视频、GitHub 仓库（含安装方法与工作流说明）以及 Hugging Face 数据集（微调数据分发）。根据标题与链接描述推断，读者可直接获取可复现的代码、流程与数据，便于二次开发或学习参考。</p>
+
+<p>twitter · まぷて · 10月31日 02:08</p>
+
+<p><strong>「推荐理由」</strong> 该推文提供了从演示到落地的完整交付物（视频、代码、工作流、数据），适合想快速上手或对照学习的开发者；但当前未见公开的点赞、转发或浏览量等热度指标，无法以可见数据佐证传播广度。</p>
+
+<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#AI</code>, <code class="language-plaintext highlighter-rouge">#open-source</code>, <code class="language-plaintext highlighter-rouge">#machine-learning</code>, <code class="language-plaintext highlighter-rouge">#workflow</code>, <code class="language-plaintext highlighter-rouge">#Hugging Face</code></p>
+
+<hr />
+
+<p><a id="item-social-hot-5"></a></p>
+<h3 id="grok-bot-误删主目录三招防数据丢失-️-8010"><a href="https://x.com/dansyu_callenge/status/2116349454135755176">Grok Bot 误删主目录，三招防数据丢失</a> ⭐️ 8.0/10</h3>
+
+<p>作者 @dansyu_callenge 报告 Grok Bot 在执行“清理临时文件夹”指令时，误将整个 Home 目录（含桌面、SSH 密钥、Claude Code 配置与历史）全部删除，且事前写在提示词里的“删除前确认”规则未能生效。</p>
+
+<p>twitter · 今野健介｜Claude×EC専门家 · 10月31日 02:00</p>
+
+<p><strong>「推荐理由」</strong> 这是一条第一人称的血泪复盘，直接给出三条可立即落地的防御措施：在 Claude Code 的 settings.json deny 列表里屏蔽删除命令、把指令与配置文件托管到 GitHub、开启 Mac Time Machine 按小时回滚。对任何使用 AI 编程助手的开发者都有即时参考价值。</p>
+
+<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#AIコーディング</code>, <code class="language-plaintext highlighter-rouge">#Claude Code</code>, <code class="language-plaintext highlighter-rouge">#データ消失防止</code>, <code class="language-plaintext highlighter-rouge">#开発环境安全</code>, <code class="language-plaintext highlighter-rouge">#実践ノウハウ</code></p>
+
+<hr />
+
+<p><a id="item-social-hot-6"></a></p>
+<h3 id="claude-code-开源技能-teardown-生成可拆解-3d-机械模拟-️-8010"><a href="https://x.com/neuronxwhite/status/2116347159897641386">Claude Code 开源技能 teardown 生成可拆解 3D 机械模拟</a> ⭐️ 8.0/10</h3>
+
+<p>推文介绍 GitHub 开源项目 teardown，这是一个配合 Claude Code 使用的技能：给一张机械参考图并输入一句话提示，即可生成单个 HTML 文件（&lt;1MB、离线可运行、手机端可用）的交互式 3D 机械拆解模拟器。内置 V8 发动机、塞斯纳起落架、仿生行走兽三个示例，面板显示真实物理数值，支持点按钮拆解零件观察内部结构。安装命令为 `npx skills add elvarofficial/teardown -g -a claude-code`，需 Node 20+。建议从单输入机械（如机械表、缝纫机）配合实物剖面图入手。以上信息均来自推文正文，未经独立验证。</p>
+
+<p>twitter · MrWhite 白先生 · 10月31日 01:50</p>
+
+<p><strong>「推荐理由」</strong> 这是一条第一手实践分享，提供了完整安装步骤、内置示例、生成产物特性（单 HTML、离线、跨端）及实操建议，开发者可直接复现并纳入工作流。推文未在提供的数据中显示点赞、转发或浏览量，无法引用具体热度证据。</p>
+
+<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#Claude Code</code>, <code class="language-plaintext highlighter-rouge">#3D Simulation</code>, <code class="language-plaintext highlighter-rouge">#Open Source</code>, <code class="language-plaintext highlighter-rouge">#Mechanical Engineering</code>, <code class="language-plaintext highlighter-rouge">#Developer Tools</code></p>
+
+<hr />
+
+<p><a id="item-social-hot-7"></a></p>
+<h3 id="开源项目-chinese-poetry-api-提供-40-万首古诗词-api-服务-️-7010"><a href="https://x.com/0x8888/status/2116353714956976392">开源项目 chinese-poetry-api 提供 40 万首古诗词 API 服务</a> ⭐️ 7.0/10</h3>
+
+<p>作者在 GitHub 发现开源项目 chinese-poetry-api，该项目将近 40 万首中国古诗词（唐诗、宋词、元曲、诗经、楚辞等）打包为即用型 API 服务，支持按朝代、作者、类型分类查询、全文搜索、随机获取及简繁体切换。项目采用 Go 语言开发，同时提供 REST 与 GraphQL 接口，并支持 Docker 一键部署。</p>
+
+<p>twitter · Cevenif · 10月31日 02:17</p>
+
+<p><strong>「推荐理由」</strong> 该帖子分享了一个开源 Go 项目 chinese-poetry-api，打包近 40 万首中国古诗词并提供 REST 与 GraphQL 接口、Docker 一键部署、全文搜索及简繁体切换，开发者可直接接入使用，无需自行采集清洗数据。帖子在 X 上获得大量点赞与转发，反映开发者对即用型古诗词 API 的强烈需求。</p>
+
+<details><summary>参考链接</summary>
+<ul>
+<li><a href="https://hub.docker.com/r/palemoky/chinese-poetry-api">palemoky/ chinese - poetry - api - Docker Image</a></li>
+<li><a href="https://hellogithub.com/repository/palemoky/chinese-poetry-api">palemoky/ chinese - poetry - api ... - HelloGitHub</a></li>
+
+</ul>
+</details>
+
+<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#开源工具</code>, <code class="language-plaintext highlighter-rouge">#古诗词API</code>, <code class="language-plaintext highlighter-rouge">#Go语言</code>, <code class="language-plaintext highlighter-rouge">#Docker部署</code>, <code class="language-plaintext highlighter-rouge">#GraphQL</code></p>
+
+<hr />
+
+<p><a id="item-social-hot-8"></a></p>
+<h3 id="开发者分享-claude-社区插件商店插件发现从数小时缩至分钟-️-7010"><a href="https://x.com/sexyguy/status/2116350026998067703">开发者分享 Claude 社区插件商店，插件发现从数小时缩至分钟</a> ⭐️ 7.0/10</h3>
+
+<p>作者 @sexyguy（개아범）在 X 上分享发现 claude-plugins-community 这个经过安全审核的社区插件仓库（GitHub 4.8k stars），它像应用商店一样让 Claude Code/Cowork 用户直接挑选安装插件，无需自行在 GitHub 搜索、下载未知来源代码并担心安全性。仓库为只读镜像，每晚从内部审核流程同步；想提交插件需走 Claude 官网表单。文中还提到两个关联仓库：Anthropic 官方插件集与按职能分类的工作流插件集。</p>
+
+<p>twitter · 개아범 · 10月31日 02:02</p>
+
+<p><strong>「推荐理由」</strong> 这是一条开发者实测分享，解决了 Claude 用户「找插件费时、不敢装」的痛点：把原本数小时的搜索、甄别、安全顾虑压缩为几分钟的商店式挑选，且插件已通过自动化安全审核。虽未公开点赞/转发数据，但给出的仓库星标数（4.8k）与可落地的操作细节（只读镜像机制、提交入口、两大关联仓库）显示其对 Claude 编码/协作用户的实用价值极高。</p>
+
+<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#claude</code>, <code class="language-plaintext highlighter-rouge">#plugins</code>, <code class="language-plaintext highlighter-rouge">#developer-tools</code>, <code class="language-plaintext highlighter-rouge">#productivity</code>, <code class="language-plaintext highlighter-rouge">#ai-assisted-coding</code></p>
+
+<hr />
+
+<p><a id="item-social-hot-9"></a></p>
+<h3 id="impeccable给-ai-前端代码加设计词汇与审查命令-️-7010"><a href="https://x.com/KalinJunYAI/status/2116348178429800462">impeccable：给 AI 前端代码加设计词汇与审查命令</a> ⭐️ 7.0/10</h3>
+
+<p>这条推文介绍了开源工具 impeccable，它为 AI 编程代理提供一套共享设计词汇（如 polish、bolder）以及 critique 和 audit 命令，帮助在上线前识别并修正「一眼 AI 味」的界面。作者展示了使用前后的对比图，并提醒该工具只负责审美方向，若开发者自身未确定风格则无法生效，建议经常让 Agent 写落地页的开发者安装试用。</p>
+
+<p>twitter · Kalin | AI builds &amp; gotchas · 10月31日 01:55</p>
+
+<p><strong>「推荐理由」</strong> 该工具一天内 GitHub 涨星 2299，累计 9.6 万星，直接解决 AI 生成前端页面「千篇一律」的问题：为 Agent 提供设计词汇表，并内置 critique 与 audit 两个命令，上线前自动挑出一眼 AI 味的界面。天天让 Agent 写落地页的开发者可直接安装试用，快速提升生成页面的审美质量。</p>
+
+<details><summary>参考链接</summary>
+<ul>
+<li><a href="https://github.com/pbakaus/impeccable">GitHub - pbakaus/impeccable: The design vocabulary for your ...</a></li>
+<li><a href="https://impeccable.style/">Impeccable: The missing design vocabulary for agents</a></li>
+
+</ul>
+</details>
+
+<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#AI前端生成</code>, <code class="language-plaintext highlighter-rouge">#设计系统</code>, <code class="language-plaintext highlighter-rouge">#代码审查工具</code>, <code class="language-plaintext highlighter-rouge">#开发者工具</code>, <code class="language-plaintext highlighter-rouge">#落地页开发</code></p>
+
+<hr />
+
+<p><a id="item-social-hot-10"></a></p>
+<h3 id="github-actions-技巧移除-main-only-过滤器以支持堆叠-pr-迁移检查-️-7010"><a href="https://x.com/MankyRivet/status/2116347774606139485">GitHub Actions 技巧：移除 main-only 过滤器以支持堆叠 PR 迁移检查</a> ⭐️ 7.0/10</h3>
+
+<p>开发者 @MankyRivet 回复 @sethgagnon 分享了一个 GitHub Actions 配置技巧：在 pull_request 触发器中移除仅限 main 分支的过滤条件，即可让迁移检查在以功能分支为目标的堆叠 PR 上运行。堆叠 PR 是指多个相互依赖的 PR 形成链式结构，默认情况下针对 main 分支的工作流过滤器会阻止检查在中间分支上执行。该建议来自实践者的直接经验，属于单一配置细节的分享，未包含完整工作流示例或更广泛的最佳实践。</p>
+
+<p>twitter · MANKy Rivet · 10月31日 01:53</p>
+
+<p><strong>「推荐理由」</strong> 这条推文提供了一个具体的 GitHub Actions 配置技巧：移除 pull_request 触发器上的 main-only 分支过滤器，即可让迁移检查在以功能分支为目标的堆叠 PR 上运行。这是一个可直接应用的工作流配置细节，适合使用堆叠 PR 工作流的开发者参考。由于未提供点赞、转发或浏览量数据，无法给出热度证据。</p>
+
+<details><summary>参考链接</summary>
+<ul>
+<li><a href="https://blog.logrocket.com/using-stacked-pull-requests-in-github/">Using stacked pull requests in GitHub - LogRocket Blog</a></li>
+<li><a href="https://axolo.co/blog/p/managing-stacked-pr">Managing Stacked PRs - Using Stacked Pull Requests in GitHub</a></li>
+<li><a href="https://docs.github.com/en/pull-requests/reference/stacked-prs-cli-commands">Stacked pull requests CLI commands - GitHub Docs</a></li>
+
+</ul>
+</details>
+
+<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#github-actions</code>, <code class="language-plaintext highlighter-rouge">#ci-cd</code>, <code class="language-plaintext highlighter-rouge">#pull-request</code>, <code class="language-plaintext highlighter-rouge">#stacked-prs</code>, <code class="language-plaintext highlighter-rouge">#workflow-configuration</code></p>
+
+<hr />
+
+<p><a id="item-social-hot-11"></a></p>
+<h3 id="swyx-用-cloudflare-durable-objects-给博客加免费实时聊天-️-7010"><a href="https://x.com/swyx/status/2116273966629478744">swyx 用 Cloudflare Durable Objects 给博客加免费实时聊天</a> ⭐️ 7.0/10</h3>
+
+<p>swyx 在推文中演示如何用 Cloudflare Durable Objects 与开源库 celld 为博客免费添加 IRC 风格的实时聊天，强调零成本且本地开发体验良好，并附上可访问的演示链接。celld 是一个可在自有机器上运行 Cloudflare Workers 与 Durable Objects 的开源守护进程，让开发者无需部署到 Cloudflare 边缘即可在本地完整复现该栈。</p>
+
+<p>twitter · swyx · 10月30日 21:00</p>
+
+<p><strong>「推荐理由」</strong> swyx 实测用 celld + Cloudflare Durable Objects 给个人博客接入 IRC 风格聊天室，强调零成本、本地开发体验好，并贴出可直接体验的演示链接，为想给静态页面加实时社交功能的开发者提供了可复现的技术栈参考。</p>
+
+<details><summary>参考链接</summary>
+<ul>
+<li><a href="https://celld.dev/">celld: self-hosted, distributed Durable Objects</a></li>
+<li><a href="https://github.com/denoland/celld">GitHub - denoland/celld: self-hosted, distributed Durable Objects</a></li>
+
+</ul>
+</details>
+
+<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#cloudflare-durable-objects</code>, <code class="language-plaintext highlighter-rouge">#celld</code>, <code class="language-plaintext highlighter-rouge">#real-time-chat</code>, <code class="language-plaintext highlighter-rouge">#web-development</code>, <code class="language-plaintext highlighter-rouge">#side-project</code></p>
+
+<hr />
+
+<p><a id="item-social-hot-12"></a></p>
+<h3 id="turbo-lora-多步长变体适配-comfyui-与-diffusers-️-7010"><a href="https://x.com/_akhaliq/status/2116251111602700291">Turbo LoRA 多步长变体适配 ComfyUI 与 Diffusers</a> ⭐️ 7.0/10</h3>
+
+<p>该推文转发了 @chenlin_meng 关于 Turbo LoRA 变体的公告，提供了针对 ComfyUI 和 Diffusers 的具体步数配置：2 步草稿、4 步生成、8 步高清版本，旨在加速扩散模型推理。内容基于推文文本推断，工具搜索结果涉及 MiniMax-H3 Turbo 等不同项目，未直接验证此条公告的具体细节。</p>
+
+<p>twitter · AK · 10月30日 19:29</p>
+
+<p><strong>「推荐理由」</strong> 这是来自生成式 AI 从业者 @chenlin_meng 与 @_akhaliq 的首发技术公告，给出了可直接在 ComfyUI 与 Diffusers 中复现的 Turbo LoRA 三档步长配置（2 步草稿、4 步常规、8 步高清），为扩散模型推理加速提供了开箱即用的参数参考。</p>
+
+<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#Turbo LoRA</code>, <code class="language-plaintext highlighter-rouge">#ComfyUI</code>, <code class="language-plaintext highlighter-rouge">#Diffusers</code>, <code class="language-plaintext highlighter-rouge">#diffusion optimization</code>, <code class="language-plaintext highlighter-rouge">#AI image generation</code></p>
+
+<hr />
+
+<p><a id="item-social-hot-13"></a></p>
+<h3 id="独立开发者分享冷启动表单批量跟进实战策略-️-6010"><a href="https://x.com/kaye77880/status/2116351334438056197">独立开发者分享冷启动表单批量跟进实战策略</a> ⭐️ 6.0/10</h3>
+
+<p>作者 @kaye77880 转发并点评一条独立开发冷启动实战经验：用 Bot 批量跑 75 个表单，仅 4 个全自动跑通，其余 69 个按“需登录/走 GitHub/有验证码”分类清洗，并预先准备 30/60/140 字符三套文案包，先用自动化完成首轮探路与清洗，再人工针对高权重目标补刀，形成闭环。</p>
+
+<p>twitter · kayeI张老六 · 10月31日 02:07</p>
+
+<p><strong>「推荐理由」</strong> 帖子给出具体数字（75 个表单、4 个全自动、69 个分类、三规格文案包）与可落地的分类清洗思路，直接对应独立开发者冷启动最耗时的表单填写痛点，属于第一手实践分享，参考价值高。</p>
+
+<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#独立开发</code>, <code class="language-plaintext highlighter-rouge">#冷启动</code>, <code class="language-plaintext highlighter-rouge">#自动化</code>, <code class="language-plaintext highlighter-rouge">#表单填写</code>, <code class="language-plaintext highlighter-rouge">#营销文案</code></p>
+
+<hr />
+
+<p><a id="item-social-hot-14"></a></p>
+<h3 id="github-热门工具-graft-与-claude-skills-实战指南-️-6010"><a href="https://www.youtube.com/watch?v=cyIWQHYoUg8">GitHub 热门工具 Graft 与 Claude Skills 实战指南</a> ⭐️ 6.0/10</h3>
+
+<p>该视频介绍 GitHub 热门项目 Graft 如何通过 Claude Skills 与 Claude Code 集成，演示了什么是 Claude Skills 以及如何使用它们来增强 AI 代理的编码能力。视频时长约 12.8 分钟，属于实操演示类教程，适合想在 Claude Code 中落地 AI 代理工作流的开发者参考。</p>
+
+<p>youtube · GitHub · 10月31日 02:20</p>
+
+<p><strong>「推荐理由」</strong> 该视频以 23.1 万播放量为证，系统讲解 GitHub 热门工具 Graft 如何通过 Claude Skills 接入 Claude Code，演示 AI Agent 开发的关键集成步骤，适合想快速上手该工具链的开发者。</p>
+
+<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#Claude Code</code>, <code class="language-plaintext highlighter-rouge">#AI Agents</code>, <code class="language-plaintext highlighter-rouge">#GitHub Trending</code>, <code class="language-plaintext highlighter-rouge">#Claude Skills</code>, <code class="language-plaintext highlighter-rouge">#Developer Tools</code></p>
+
+<hr />
+ ]]></content>
+  </entry>
   
   <entry>
     <title>Horizon Summary: 2026-10-30 (ZH)</title>
@@ -2953,397 +3348,6 @@
 <p><strong>「实践意义」</strong> 对关注端侧/小模型部署的工程师有参考价值：字节级建模若能解决推理速度瓶颈，有望在同等参数量下提升质量并减少词表带来的计数等错误。当前不可直接用于生产，建议跟踪后续是否有开源实现、加速内核或大规模验证；若需即刻提升小模型效果，仍以成熟 Token 模型为主。</p>
 
 <p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#byte-level-model</code>, <code class="language-plaintext highlighter-rouge">#knowledge-distillation</code>, <code class="language-plaintext highlighter-rouge">#model-efficiency</code>, <code class="language-plaintext highlighter-rouge">#llama</code>, <code class="language-plaintext highlighter-rouge">#research-paper</code></p>
-
-<hr />
- ]]></content>
-  </entry>
-  
-  <entry>
-    <title>Horizon Summary: 2026-10-24 (ZH)</title>
-    <link href="https://www.01040610.xyz/horizon/2026/10/24/summary-zh.html"/>
-    <updated>2026-10-24T00:00:00+00:00</updated>
-    <id>https://www.01040610.xyz/horizon/2026/10/24/summary-zh.html</id>
-    <content type="html"><![CDATA[ <blockquote>
-  <p>今日抓取 126 条内容，收录 26 条。</p>
-</blockquote>
-
-<hr />
-
-<p><strong>GitHub AI 开发工具</strong></p>
-<ol>
-  <li><a href="#item-gh-trending-1">google-gemini/gemini-cli：官方终端 AI 代理，把 Gemini 装进命令行</a> ⭐️ 9.0/10</li>
-  <li><a href="#item-gh-trending-2">cloudflare/security-audit-skill：面向编码代理的多阶段安全审计技能</a> ⭐️ 8.0/10</li>
-  <li><a href="#item-gh-trending-3">QwenLM/qwen-code：终端原生 AI 编码代理</a> ⭐️ 8.0/10</li>
-  <li><a href="#item-gh-trending-4">coleam00/Archon：用 YAML 定义 AI 编码工作流，让生成可复现</a> ⭐️ 8.0/10</li>
-  <li><a href="#item-gh-trending-5">The-PR-Agent/pr-agent：开源 AI PR 审查工具，自动生成描述、审查与问答</a> ⭐️ 8.0/10</li>
-  <li><a href="#item-gh-trending-6">modelcontextprotocol/python-sdk：MCP 官方 Python SDK</a> ⭐️ 8.0/10</li>
-  <li><a href="#item-gh-trending-7">codewhale-hq/Codewhale：Rust 编写的终端 AI 编程代理</a> ⭐️ 7.0/10</li>
-  <li><a href="#item-gh-trending-8">esengine/DeepSeek-Reasonix：面向复杂工程任务的 Go CLI 编码代理</a> ⭐️ 7.0/10</li>
-  <li><a href="#item-gh-trending-9">mksglu/context-mode：AI 编码代理上下文窗口优化工具</a> ⭐️ 7.0/10</li>
-  <li><a href="#item-gh-trending-10">sourcery-ai/sourcery：Python 专用的即时 AI 代码审查工具</a> ⭐️ 7.0/10</li>
-  <li><a href="#item-gh-trending-11">kodustech/kodus-ai：自托管 AI 代码审查机器人，支持自带 LLM</a> ⭐️ 7.0/10</li>
-  <li><a href="#item-gh-trending-12">HexmosTech/git-lrc：提交时代码审查的轻量 AI 工具</a> ⭐️ 7.0/10</li>
-  <li><a href="#item-gh-trending-13">iamumeransari/claude-show-your-work: Claude Code 终端内可视化 QA 插件</a> ⭐️ 7.0/10</li>
-  <li><a href="#item-gh-trending-14">1jehuang/jcode：Rust 编写的高性能多智能体编码代理框架</a> ⭐️ 6.0/10</li>
-  <li><a href="#item-gh-trending-15">hyhmrright/brooks-lint：基于经典工程书籍的 AI 代码审查提示集</a> ⭐️ 6.0/10</li>
-  <li><a href="#item-gh-trending-16">dagoSte/squadra: 协调 Claude、Codex、Cursor 的早期编排工具</a> ⭐️ 6.0/10</li>
-  <li><a href="#item-gh-trending-17">NVIDIA/OpenShell：面向自主 AI 代理的安全私有 Rust 运行时</a> ⭐️ 5.0/10</li>
-  <li><a href="#item-gh-trending-18">can1357/oh-my-pi：IDE 集成的编码代理</a> ⭐️ 5.0/10</li>
-  <li><a href="#item-gh-trending-19">pullboard-dev/pullboard：规范驱动的自主开发与受控代码审查平台</a> ⭐️ 5.0/10</li>
-  <li><a href="#item-gh-trending-20">TimeLovercc/mojito：本地优先的个人 AI 助手，面向日程规划与智能体编码</a> ⭐️ 5.0/10</li>
-</ol>
-
-<p><strong>AI 热门新闻</strong></p>
-<ol>
-  <li><a href="#item-ai-news-1">NVIDIA 发布 Nemotron-3.5-Bolt-E4B-4GB，4B 参数 SLM 可本地推理</a> ⭐️ 8.0/10</li>
-  <li><a href="#item-ai-news-2">Moonshot AI 发布 Kimi K3.1 Pro：2.8T/104B MoE、1M 上下文、开放权重将于 11 月 4 日放出</a> ⭐️ 7.0/10</li>
-  <li><a href="#item-ai-news-3">Simon Willison 发布 Quick Study：浏览器端秒级照片转油画工具</a> ⭐️ 7.0/10</li>
-  <li><a href="#item-ai-news-4">Block 发布全双工语音模型 Dessa，宣称可在 M4 Max 本地运行</a> ⭐️ 6.0/10</li>
-  <li><a href="#item-ai-news-5">Kyutai 发布 CADRE 视频自编码器，单 H100 实现 20 fps 与 &lt;230 ms 延迟</a> ⭐️ 6.0/10</li>
-  <li><a href="#item-ai-news-6">AllenAI 发布 LitPivot 原型：交互式文献探索与研究构思工具</a> ⭐️ 6.0/10</li>
-</ol>
-
-<hr />
-
-<h2 id="github-ai-开发工具">GitHub AI 开发工具</h2>
-
-<p><a id="item-gh-trending-1"></a></p>
-<h3 id="google-geminigemini-cli官方终端-ai-代理把-gemini-装进命令行-️-9010"><a href="https://github.com/google-gemini/gemini-cli">google-gemini/gemini-cli：官方终端 AI 代理，把 Gemini 装进命令行</a> ⭐️ 9.0/10</h3>
-
-<p>google-gemini/gemini-cli 是 Google 官方开源的终端 AI 代理，用 TypeScript 编写，把 Gemini 模型直接嵌入 Shell，支持读写文件、执行命令、对接 MCP 服务器，覆盖写码、审查、测试、重构等开发全流程。项目于 2025 年 4 月创建，最近一次提交在 2026 年 10 月，提供 npm/pipx/Homebrew 等多种安装方式，文档完善，处于可用且持续维护阶段。</p>
-
-<p>github · google-gemini · 10月24日 01:34</p>
-
-<p><strong>「推荐理由」</strong> 它把原本需要在 IDE 或网页端完成的编码、审查、自动化任务直接下沉到终端，替代手工敲命令、复制粘贴上下文的步骤，适合习惯 CLI 工作流、想在本地或 CI/CD 中复用 Gemini 能力的开发者。10.7 万 Star 与持续的提交记录印证了社区活跃度与实际采用情况。</p>
-
-<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#ai-coding-agent</code>, <code class="language-plaintext highlighter-rouge">#cli-tool</code>, <code class="language-plaintext highlighter-rouge">#gemini</code>, <code class="language-plaintext highlighter-rouge">#terminal-workflow</code>, <code class="language-plaintext highlighter-rouge">#mcp-integration</code></p>
-
-<hr />
-
-<p><a id="item-gh-trending-2"></a></p>
-<h3 id="cloudflaresecurity-audit-skill面向编码代理的多阶段安全审计技能-️-8010"><a href="https://github.com/cloudflare/security-audit-skill">cloudflare/security-audit-skill：面向编码代理的多阶段安全审计技能</a> ⭐️ 8.0/10</h3>
-
-<p>cloudflare/security-audit-skill 是 Cloudflare 官方发布的编码代理技能，用于执行多阶段安全审计并输出可机器解析、经独立验证的发现结果。项目以 JavaScript 实现，目前处于可用阶段，已获 4.2 万星并单日新增 2716 星，显示社区活跃度高。</p>
-
-<p>github · cloudflare · 10月24日 01:34</p>
-
-<p><strong>「推荐理由」</strong> 它直接切入代码审查/安全审计环节，把人工安全分析替换为可自动化、可验证的多阶段流程，适合需要在 CI/CD 或 AI 编程助手中集成安全审计的团队与个人开发者。</p>
-
-<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#security-audit</code>, <code class="language-plaintext highlighter-rouge">#code-review</code>, <code class="language-plaintext highlighter-rouge">#ai-assisted-development</code>, <code class="language-plaintext highlighter-rouge">#cloudflare</code>, <code class="language-plaintext highlighter-rouge">#developer-tools</code></p>
-
-<hr />
-
-<p><a id="item-gh-trending-3"></a></p>
-<h3 id="qwenlmqwen-code终端原生-ai-编码代理-️-8010"><a href="https://github.com/QwenLM/qwen-code">QwenLM/qwen-code：终端原生 AI 编码代理</a> ⭐️ 8.0/10</h3>
-
-<p>Qwen Code 是阿里巴巴 Qwen 团队推出的开源终端 AI 编码代理，使用 TypeScript 编写，支持在命令行里用自然语言读写文件、运行命令、测试与导航代码库，并通过 MCP 协议扩展工具能力。项目于 2025 年中创建，近期仍有频繁提交与 2.8 万星关注，处于可用且持续稳定化的阶段。</p>
-
-<p>github · QwenLM · 10月24日 01:34</p>
-
-<p><strong>「推荐理由」</strong> 它把“写代码—编译—测试”的手工循环替换为终端内的自然语言交互，覆盖写码与上下文供给两个核心环节，适合习惯 CLI 工作流、想在本地终端直接让大模型落地改动的开发者；2.8 万星与持续的提交记录显示社区活跃度高，文档与安装路径（npm/Homebrew/二进制）也相对完善。</p>
-
-<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#ai-coding-agent</code>, <code class="language-plaintext highlighter-rouge">#cli-tool</code>, <code class="language-plaintext highlighter-rouge">#terminal-based</code>, <code class="language-plaintext highlighter-rouge">#qwen-llm</code>, <code class="language-plaintext highlighter-rouge">#developer-productivity</code></p>
-
-<hr />
-
-<p><a id="item-gh-trending-4"></a></p>
-<h3 id="coleam00archon用-yaml-定义-ai-编码工作流让生成可复现-️-8010"><a href="https://github.com/coleam00/Archon">coleam00/Archon：用 YAML 定义 AI 编码工作流，让生成可复现</a> ⭐️ 8.0/10</h3>
-
-<p>Archon 是一个开源的 AI 编码工作流引擎，通过 YAML 文件把生成、测试、迭代等步骤固化为可复现的流水线。它用 TypeScript 编写、基于 Bun 运行时并提供 CLI，定位为“线束构建器”而非现成的编码助手，目前已获 23.7k+ Star 且近期仍在活跃提交，处于可用但需自行编排流程的阶段。</p>
-
-<p>github · coleam00 · 10月24日 01:34</p>
-
-<p><strong>「推荐理由」</strong> 它把“写代码 → 跑测试 → 修 Bug”这一循环显式化为版本可控的 YAML，适合想把 AI 编码过程纳入 CI/CD、或需要在团队间共享确定性提示词链的工程师；23k+ Star 与高频提交说明社区在持续打磨核心引擎。</p>
-
-<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#ai-coding-assistant</code>, <code class="language-plaintext highlighter-rouge">#workflow-engine</code>, <code class="language-plaintext highlighter-rouge">#developer-tools</code>, <code class="language-plaintext highlighter-rouge">#typescript</code>, <code class="language-plaintext highlighter-rouge">#cli</code></p>
-
-<hr />
-
-<p><a id="item-gh-trending-5"></a></p>
-<h3 id="the-pr-agentpr-agent开源-ai-pr-审查工具自动生成描述审查与问答-️-8010"><a href="https://github.com/The-PR-Agent/pr-agent">The-PR-Agent/pr-agent：开源 AI PR 审查工具，自动生成描述、审查与问答</a> ⭐️ 8.0/10</h3>
-
-<p>PR Agent 是一个开源的 AI Pull Request 审查工具，能在 GitHub、GitLab、Bitbucket 的流水线中自动生成 PR 描述、给出审查意见并回答问题。项目使用 Python 编写，支持 OpenAI、Anthropic、Ollama 等多种 LLM 后端，提供 Docker、CLI 与 CI 集成方式。目前拥有 13.5k Star、近期仍有提交，处于可用且活跃维护阶段。</p>
-
-<p>github · The-PR-Agent · 10月24日 01:34</p>
-
-<p><strong>「推荐理由」</strong> 它直接切入代码审查环节，替代人工首轮审查并降低审查疲劳，适合希望在现有 Git 平台流水线中引入 AI 辅助审查的团队。13.5k Star 与持续的提交记录表明社区活跃度高，文档与集成路径完善，可快速落地。</p>
-
-<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#code-review</code>, <code class="language-plaintext highlighter-rouge">#ai-coding-assistant</code>, <code class="language-plaintext highlighter-rouge">#devtools</code>, <code class="language-plaintext highlighter-rouge">#pull-request-automation</code>, <code class="language-plaintext highlighter-rouge">#ci-integration</code></p>
-
-<hr />
-
-<p><a id="item-gh-trending-6"></a></p>
-<h3 id="modelcontextprotocolpython-sdkmcp-官方-python-sdk-️-8010"><a href="https://github.com/modelcontextprotocol/python-sdk">modelcontextprotocol/python-sdk：MCP 官方 Python SDK</a> ⭐️ 8.0/10</h3>
-
-<p>modelcontextprotocol/python-sdk 是 Model Context Protocol (MCP) 的官方 Python 实现，提供构建 MCP 服务端与客户端的基础库，让大模型能以标准化方式调用外部工具、读取代码库或文档。项目采用 Python 编写，已获 2.4 万星并持续维护，处于可用于生产的成熟度阶段。</p>
-
-<p>github · modelcontextprotocol · 10月24日 01:34</p>
-
-<p><strong>「推荐理由」</strong> 它处于 AI 辅助开发的“上下文供给/工具集成”环节，作为 MCP 协议的规范 Python 实现，替代了自行设计的临时适配层，适合需要把内部代码库、API 或文档标准化暴露给 LLM 的团队；2.4 万星与近期提交记录证明生态活跃、文档与示例相对完善。</p>
-
-<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#mcp</code>, <code class="language-plaintext highlighter-rouge">#ai-tool-integration</code>, <code class="language-plaintext highlighter-rouge">#context-engineering</code>, <code class="language-plaintext highlighter-rouge">#llm-tool-use</code>, <code class="language-plaintext highlighter-rouge">#developer-productivity</code></p>
-
-<hr />
-
-<p><a id="item-gh-trending-7"></a></p>
-<h3 id="codewhale-hqcodewhalerust-编写的终端-ai-编程代理-️-7010"><a href="https://github.com/codewhale-hq/Codewhale">codewhale-hq/Codewhale：Rust 编写的终端 AI 编程代理</a> ⭐️ 7.0/10</h3>
-
-<p>Codewhale 是一个用 Rust 编写的开源终端 AI 代理，支持任意模型提供商与 MCP 协议，旨在命令行中完成写码、审查、测试等开发任务。项目于 2026 年 1 月创建，近期仍有提交（2026-10-24），累计 4.1 万星、3566 个 Fork 与 209 个开放 Issue，显示出较高的社区关注度，但缺乏 README、使用示例或基准测试等实战证据，成熟度处于早期可用阶段。</p>
-
-<p>github · codewhale-hq · 10月24日 01:34</p>
-
-<p><strong>「推荐理由」</strong> 它直接落在“写码-审查-测试”的终端工作流中，提供多模型与 MCP 的统一入口，可替代或增强现有的 CLI 编码助手，适合偏好本地优先、可定制终端环境的开发者；4.1 万星与近期活跃提交表明社区持续关注与维护。</p>
-
-<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#coding-agent</code>, <code class="language-plaintext highlighter-rouge">#cli</code>, <code class="language-plaintext highlighter-rouge">#rust</code>, <code class="language-plaintext highlighter-rouge">#multi-model</code>, <code class="language-plaintext highlighter-rouge">#mcp</code></p>
-
-<hr />
-
-<p><a id="item-gh-trending-8"></a></p>
-<h3 id="esenginedeepseek-reasonix面向复杂工程任务的-go-cli-编码代理-️-7010"><a href="https://github.com/esengine/DeepSeek-Reasonix">esengine/DeepSeek-Reasonix：面向复杂工程任务的 Go CLI 编码代理</a> ⭐️ 7.0/10</h3>
-
-<p>DeepSeek-Reasonix 是一个用 Go 编写的命令行编码代理，定位于处理复杂的软件工程任务。项目于 2026 年 4 月创建，近期仍有提交，标星数约 3.6 万，但公开文档与 README 缺失，无法确认其在代码编写、审查、测试或上下文供给等具体环节的集成方式，成熟度处于实验性或早期可用阶段。</p>
-
-<p>github · esengine · 10月24日 01:34</p>
-
-<p><strong>「推荐理由」</strong> 它直接落在“写码/重构”环节，试图以 CLI 形式替代或增强人工处理复杂工程任务的流程，适合愿意尝鲜、自行评估集成成本的后端或基础设施工程师；3.6 万星与持续提交表明社区关注度高，但缺乏可复现的工作流证据，建议先在非核心项目中试用。</p>
-
-<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#coding-agent</code>, <code class="language-plaintext highlighter-rouge">#cli</code>, <code class="language-plaintext highlighter-rouge">#developer-tools</code>, <code class="language-plaintext highlighter-rouge">#go</code>, <code class="language-plaintext highlighter-rouge">#ai-coding</code></p>
-
-<hr />
-
-<p><a id="item-gh-trending-9"></a></p>
-<h3 id="mksglucontext-modeai-编码代理上下文窗口优化工具-️-7010"><a href="https://github.com/mksglu/context-mode">mksglu/context-mode：AI 编码代理上下文窗口优化工具</a> ⭐️ 7.0/10</h3>
-
-<p>context-mode 面向 AI 编码代理，通过沙箱隔离工具输出（宣称可减少 98% 上下文占用）、持久化会话记忆，并借助 MCP 与钩子机制在 17 个平台间路由上下文。项目使用 TypeScript 编写，最近一次提交在 2026-10-24，已获 3.2 万星但同时存在 356 个开放 Issue，处于可用但仍需进一步验证稳定性的阶段。</p>
-
-<p>github · mksglu · 10月24日 01:34</p>
-
-<p><strong>「推荐理由」</strong> 它直接解决 AI 编码过程中上下文窗口膨胀的痛点，替代了手动清理或截断上下文的繁琐步骤，适合在 Claude Code、Cursor、Copilot、Codex 等环境下高频调用工具的开发者；3.2 万星说明社区关注度高，但开放 Issue 数量提示需在引入生产前自行评估可靠性。</p>
-
-<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#context-optimization</code>, <code class="language-plaintext highlighter-rouge">#mcp</code>, <code class="language-plaintext highlighter-rouge">#claude-code</code>, <code class="language-plaintext highlighter-rouge">#ai-coding-agent</code>, <code class="language-plaintext highlighter-rouge">#developer-productivity</code></p>
-
-<hr />
-
-<p><a id="item-gh-trending-10"></a></p>
-<h3 id="sourcery-aisourcerypython-专用的即时-ai-代码审查工具-️-7010"><a href="https://github.com/sourcery-ai/sourcery">sourcery-ai/sourcery：Python 专用的即时 AI 代码审查工具</a> ⭐️ 7.0/10</h3>
-
-<p>Sourcery 专注于 Python 代码的即时 AI 审查，在开发流程的代码审查环节自动给出重构建议与代码质量改进。项目用 Python 实现，已积累 1877 颗星并在 2026-10-22 仍有提交，处于可用且持续维护的成熟度。</p>
-
-<p>github · sourcery-ai · 10月24日 01:34</p>
-
-<p><strong>「推荐理由」</strong> 它直接落在代码审查环节，替代人工逐行检查常见反模式与重构机会，适合想在 PR 流程中自动获得 Python 代码质量建议的团队或个人开发者；1877 星与近期活跃提交说明社区关注度与维护持续性。</p>
-
-<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#ai-code-review</code>, <code class="language-plaintext highlighter-rouge">#python</code>, <code class="language-plaintext highlighter-rouge">#refactoring</code>, <code class="language-plaintext highlighter-rouge">#code-quality</code>, <code class="language-plaintext highlighter-rouge">#developer-tools</code></p>
-
-<hr />
-
-<p><a id="item-gh-trending-11"></a></p>
-<h3 id="kodustechkodus-ai自托管-ai-代码审查机器人支持自带-llm-️-7010"><a href="https://github.com/kodustech/kodus-ai">kodustech/kodus-ai：自托管 AI 代码审查机器人，支持自带 LLM</a> ⭐️ 7.0/10</h3>
-
-<p>kodus-ai 是一个开源、自托管的 AI 代码审查机器人，允许团队自带大语言模型（BYO LLM），并与 GitHub、GitLab、Bitbucket 等主流 Git 平台集成，自动化 Pull Request 审查流程。项目使用 TypeScript 编写，提供 Docker 部署方式，目前拥有 1.5k Star 与近期提交记录，处于可用但仍有 192 个开放 Issue 的活跃开发阶段。</p>
-
-<p>github · kodustech · 10月24日 01:34</p>
-
-<p><strong>「推荐理由」</strong> 它直接切中代码审查环节，替代或增强人工 PR 审查，适合追求数据隐私、希望灵活选择 LLM 且具备自托管运维能力的团队；1.5k Star 与持续更新说明社区关注度较高，可作为 CodeRabbit 等商业工具的开源替代方案评估。</p>
-
-<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#ai-code-review</code>, <code class="language-plaintext highlighter-rouge">#self-hosted</code>, <code class="language-plaintext highlighter-rouge">#byok</code>, <code class="language-plaintext highlighter-rouge">#developer-tool</code>, <code class="language-plaintext highlighter-rouge">#code-review-automation</code></p>
-
-<hr />
-
-<p><a id="item-gh-trending-12"></a></p>
-<h3 id="hexmostechgit-lrc提交时代码审查的轻量-ai-工具-️-7010"><a href="https://github.com/HexmosTech/git-lrc">HexmosTech/git-lrc：提交时代码审查的轻量 AI 工具</a> ⭐️ 7.0/10</h3>
-
-<p>git-lrc 是一个在 git commit 时自动触发的轻量级 AI 代码审查工具，基于 Google Gemini 模型、用 Go 语言编写。它把微型代码审查直接嵌入提交流程，帮助开发者在本地提交前获得即时反馈。项目已获 1.4k+ Star 且近期仍在活跃更新，处于可用的早期阶段，文档提供安装、Gemini API Key 配置与 Git 钩子接入示例。</p>
-
-<p>github · HexmosTech · 10月24日 01:34</p>
-
-<p><strong>「推荐理由」</strong> 它落在「写码 → 提交」环节，替代人工在提交前的快速自查，适合想在本地拿到即时 AI 反馈的个人或小团队开发者。1.4k+ Star 与持续提交记录显示社区已有一定验证，且 Go 单二进制分发使接入成本极低。</p>
-
-<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#ai-code-review</code>, <code class="language-plaintext highlighter-rouge">#git-hooks</code>, <code class="language-plaintext highlighter-rouge">#commit-time-feedback</code>, <code class="language-plaintext highlighter-rouge">#gemini</code>, <code class="language-plaintext highlighter-rouge">#developer-productivity</code></p>
-
-<hr />
-
-<p><a id="item-gh-trending-13"></a></p>
-<h3 id="iamumeransariclaude-show-your-work-claude-code-终端内可视化-qa-插件-️-7010"><a href="https://github.com/iamumeransari/claude-show-your-work">iamumeransari/claude-show-your-work: Claude Code 终端内可视化 QA 插件</a> ⭐️ 7.0/10</h3>
-
-<p>iamumeransari/claude-show-your-work 是一个 Claude Code 插件，利用 kitty 图形协议在终端直接显示图片、播放视频、回放 Playwright 录制并对比前后差异，让开发者无需离开终端即可完成视觉 QA 与快速迭代。项目使用 TypeScript 编写，支持 macOS、Linux、Windows 及 Ghostty、iTerm2、Kitty 等兼容终端，目前处于早期可用阶段（创建于 2026-10-08，最近推送 2026-10-15，261 颗星）。</p>
-
-<p>github · iamumeransari · 10月24日 01:34</p>
-
-<p><strong>「推荐理由」</strong> 它填补了 Agentic Coding 审查环节的空白：把原本需要切换到浏览器或 GUI 工具的视觉验证（截图、录屏、前后对比）直接拉进 Claude Code 终端，配合 kitty 协议实现跨平台零依赖渲染，适合已在使用 Claude Code 且追求终端优先工作流的开发者。261 颗星与近期活跃提交说明社区已开始验证其实用性。</p>
-
-<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#claude-code-plugin</code>, <code class="language-plaintext highlighter-rouge">#agentic-coding</code>, <code class="language-plaintext highlighter-rouge">#terminal-tools</code>, <code class="language-plaintext highlighter-rouge">#visual-qa</code>, <code class="language-plaintext highlighter-rouge">#developer-productivity</code></p>
-
-<hr />
-
-<p><a id="item-gh-trending-14"></a></p>
-<h3 id="1jehuangjcoderust-编写的高性能多智能体编码代理框架-️-6010"><a href="https://github.com/1jehuang/jcode">1jehuang/jcode：Rust 编写的高性能多智能体编码代理框架</a> ⭐️ 6.0/10</h3>
-
-<p>jcode 是一个用 Rust 编写的高性能编码代理框架，面向繁重的多智能体开发工作流。它定位于开发生命周期中的“编码代理”环节，通过 LLM 驱动的智能体完成代码编写与重构。目前仓库拥有 21k+ Star 且近期仍有提交，但公开资料仅包含元数据与主题标签，缺少源码、文档、安装说明或使用示例，因此成熟度处于实验性或早期可用阶段，实际可用性有待进一步验证。</p>
-
-<p>github · 1jehuang · 10月24日 01:34</p>
-
-<p><strong>「推荐理由」</strong> 它提供了一个 Rust 实现的多智能体编码代理基础设施，可替代或增强现有的 AI 编码助手在“写码/重构”环节的能力，适合愿意尝鲜、具备 Rust 基础并需要在终端/TUI 中运行重型多智能体流程的开发者。高 Star 数与持续提交表明社区关注度高，但缺乏可复现的使用证据，建议先在非关键项目中试用。</p>
-
-<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#coding-agent</code>, <code class="language-plaintext highlighter-rouge">#rust</code>, <code class="language-plaintext highlighter-rouge">#cli</code>, <code class="language-plaintext highlighter-rouge">#multi-agent</code>, <code class="language-plaintext highlighter-rouge">#llm</code></p>
-
-<hr />
-
-<p><a id="item-gh-trending-15"></a></p>
-<h3 id="hyhmrrightbrooks-lint基于经典工程书籍的-ai-代码审查提示集-️-6010"><a href="https://github.com/hyhmrright/brooks-lint">hyhmrright/brooks-lint：基于经典工程书籍的 AI 代码审查提示集</a> ⭐️ 6.0/10</h3>
-
-<p>brooks-lint 是一套面向 Claude Code 与 Codex CLI 的 AI 代码审查提示/技能集合，引用 12 本经典工程书籍给出衰退风险诊断、严重度标签与 6 种分析模式（含全量自动修复）。项目以 HTML 为主语言，本质是 Agent 技能插件而非独立可运行工具，目前处于实验性、依赖特定 AI 编码助手的早期阶段。</p>
-
-<p>github · hyhmrright · 10月24日 01:34</p>
-
-<p><strong>「推荐理由」</strong> 它把代码审查环节交给具备工程书籍背景的 AI，替代人工逐行阅读与通用 Lint，适合已在用 Claude Code 或 Codex CLI、希望引入结构化审查规范的团队；1.5k Star 说明社区对「书籍支撑的 AI 审查」有浓厚兴趣，但需自行承担插件集成与维护成本。</p>
-
-<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#ai-code-review</code>, <code class="language-plaintext highlighter-rouge">#claude-code-plugin</code>, <code class="language-plaintext highlighter-rouge">#codex-cli-plugin</code>, <code class="language-plaintext highlighter-rouge">#auto-fix</code>, <code class="language-plaintext highlighter-rouge">#code-quality</code></p>
-
-<hr />
-
-<p><a id="item-gh-trending-16"></a></p>
-<h3 id="dagostesquadra-协调-claudecodexcursor-的早期编排工具-️-6010"><a href="https://github.com/dagoSte/squadra">dagoSte/squadra: 协调 Claude、Codex、Cursor 的早期编排工具</a> ⭐️ 6.0/10</h3>
-
-<p>Squadra 是一个早期的 Python 编排工具，旨在协调 Claude、Codex 和 Cursor 等 AI 编码代理，提供共享任务、前置检查、并行测试、源码绑定证明、独立审查以及双语本地仪表盘，并通过 MCP 插件集成。仓库创建于 2026-09-28，最近一次推送在 2026-10-23，目前处于实验性、早期评估阶段，尚无发布制品或充分的社区验证。</p>
-
-<p>github · dagoSte · 10月24日 01:34</p>
-
-<p><strong>「推荐理由」</strong> 它直接切中 AI 辅助开发的写码、审查、测试环节，试图用统一编排层替代手动在多个代理窗口间切换的工作流，适合愿意尝鲜、探索多代理协作模式的开发者；393 颗星表明有一定关注度，但仅 16 个 Fork 和零 Issue 说明实际采用仍极少。</p>
-
-<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#agent-orchestration</code>, <code class="language-plaintext highlighter-rouge">#ai-coding</code>, <code class="language-plaintext highlighter-rouge">#developer-tools</code>, <code class="language-plaintext highlighter-rouge">#claude</code>, <code class="language-plaintext highlighter-rouge">#codex</code></p>
-
-<hr />
-
-<p><a id="item-gh-trending-17"></a></p>
-<h3 id="nvidiaopenshell面向自主-ai-代理的安全私有-rust-运行时-️-5010"><a href="https://github.com/NVIDIA/OpenShell">NVIDIA/OpenShell：面向自主 AI 代理的安全私有 Rust 运行时</a> ⭐️ 5.0/10</h3>
-
-<p>OpenShell 是 NVIDIA 开源的 Rust 运行时，旨在为自主 AI 代理提供安全、私有的执行环境。它解决的是代理在运行时的隔离与隐私保护问题，而非直接面向代码编写、审查或测试的开发效率工具。项目目前处于早期活跃阶段，已获 1.8 万星关注。</p>
-
-<p>github · NVIDIA · 10月24日 01:34</p>
-
-<p><strong>「推荐理由」</strong> 适合需要构建或研究自主 AI 代理系统的工程师，提供底层运行时保障，可作为代理编排、沙箱隔离等基础设施的替代或增强方案；对于常规应用开发流程（写码、测试、交付）的直接帮助有限。</p>
-
-<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#AI-agents</code>, <code class="language-plaintext highlighter-rouge">#runtime</code>, <code class="language-plaintext highlighter-rouge">#Rust</code>, <code class="language-plaintext highlighter-rouge">#safety</code>, <code class="language-plaintext highlighter-rouge">#privacy</code></p>
-
-<hr />
-
-<p><a id="item-gh-trending-18"></a></p>
-<h3 id="can1357oh-my-piide-集成的编码代理-️-5010"><a href="https://github.com/can1357/oh-my-pi">can1357/oh-my-pi：IDE 集成的编码代理</a> ⭐️ 5.0/10</h3>
-
-<p>oh-my-pi 是由 Stencil Labs 开发的 IDE 集成编码代理，使用 TypeScript 编写，支持多 LLM 提供商（OpenAI、Anthropic 等）并提供 CLI 与 MCP 接口。仓库创建于 2025-12-31、最近推送显示为 2026-10-23，日期早于当前时间，且缺少源码、文档与使用示例，无法确认实际功能与维护状态，属于早期实验性项目。</p>
-
-<p>github · can1357 · 10月24日 01:34</p>
-
-<p><strong>「推荐理由」</strong> 若项目兑现“IDE 接线”的承诺，可在写码环节直接把上下文喂给多模型代理，替代手动复制粘贴提示词的步骤，适合想在现有编辑器内尝试多提供商 LLM 协作的开发者；3.6 万星说明关注度高，但缺乏可运行证据，建议先观望文档完善后再投入生产。</p>
-
-<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#ai-coding-agent</code>, <code class="language-plaintext highlighter-rouge">#ide-integration</code>, <code class="language-plaintext highlighter-rouge">#cli-tool</code>, <code class="language-plaintext highlighter-rouge">#multi-provider-llm</code>, <code class="language-plaintext highlighter-rouge">#typescript</code></p>
-
-<hr />
-
-<p><a id="item-gh-trending-19"></a></p>
-<h3 id="pullboard-devpullboard规范驱动的自主开发与受控代码审查平台-️-5010"><a href="https://github.com/pullboard-dev/pullboard">pullboard-dev/pullboard：规范驱动的自主开发与受控代码审查平台</a> ⭐️ 5.0/10</h3>
-
-<p>Pullboard 是一个早期的自主代理编排工具，主打规范驱动开发：开发者批准规范后，受控代理按规则实现代码，另一代理在合并前验证合规性。项目用 JavaScript 编写，定位于编码与代码审查环节，目前处于实验性阶段，仓库仅创建 16 天，Stars 258、Fork 18、Open Issues 6，缺乏完整文档与生产案例。</p>
-
-<p>github · pullboard-dev · 10月24日 01:34</p>
-
-<p><strong>「推荐理由」</strong> 它把规范审批、代理实现、合规验证串成自动化流水线，直接替代人工编写与人工审查的部分步骤，适合想在规范层面治理 AI 生成代码的团队或个人先行尝鲜。</p>
-
-<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#agentic-coding</code>, <code class="language-plaintext highlighter-rouge">#ai-agents</code>, <code class="language-plaintext highlighter-rouge">#code-review</code>, <code class="language-plaintext highlighter-rouge">#developer-tools</code>, <code class="language-plaintext highlighter-rouge">#autonomous-agents</code></p>
-
-<hr />
-
-<p><a id="item-gh-trending-20"></a></p>
-<h3 id="timeloverccmojito本地优先的个人-ai-助手面向日程规划与智能体编码-️-5010"><a href="https://github.com/TimeLovercc/mojito">TimeLovercc/mojito：本地优先的个人 AI 助手，面向日程规划与智能体编码</a> ⭐️ 5.0/10</h3>
-
-<p>Mojito 是一个本地优先的个人 AI 助手，旨在替代云端同类产品，支持日常日程规划与智能体编码工作流。项目采用 Expo（前端）与 FastAPI（后端）技术栈，主语言为 TypeScript，目前处于早期开发阶段，仓库近期有提交活动但缺乏公开文档与使用案例。</p>
-
-<p>github · TimeLovercc · 10月24日 01:34</p>
-
-<p><strong>「推荐理由」</strong> 它落在开发流程的上下文供给与编码智能体环节，提供完全本地运行的替代方案，适合关注数据隐私、希望自建 AI 规划与编码助手的开发者；119 颗星与近期提交显示有一定社区关注度，但仍属原型阶段，生产可用性有待验证。</p>
-
-<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#local-first-ai</code>, <code class="language-plaintext highlighter-rouge">#agentic-coding</code>, <code class="language-plaintext highlighter-rouge">#daily-planner</code>, <code class="language-plaintext highlighter-rouge">#expo</code>, <code class="language-plaintext highlighter-rouge">#fastapi</code></p>
-
-<hr />
-
-<h2 id="ai-热门新闻">AI 热门新闻</h2>
-
-<p><a id="item-ai-news-1"></a></p>
-<h3 id="nvidia-发布-nemotron-35-bolt-e4b-4gb4b-参数-slm-可本地推理-️-8010"><a href="https://www.reddit.com/r/LocalLLaMA/comments/1xdiecx/nvidianvidianemotron35bolte4b4gb_hugging_face/">NVIDIA 发布 Nemotron-3.5-Bolt-E4B-4GB，4B 参数 SLM 可本地推理</a> ⭐️ 8.0/10</h3>
-
-<p>NVIDIA 在 Hugging Face 发布 Nemotron-3.5-Bolt-E4B-4GB，这是一个 40 亿参数的小语言模型（SLM），基于 Gemma-4-E4B-it 后训练而来。模型针对低内存、低首 token 延迟（TTFT）的本地/边缘推理优化，强化了多轮工具调用、指令遵循与输入 grounding 能力，适配语音助手、交互式人设及嵌入式场景。官方同步提供 GGUF 量化权重（ggml-org 与 unsloth 两个镜像）、BF16 全精度版本、配套的 DFlash drafter 用于推测解码，以及技术报告 PDF。许可允许商业与非商业用途，权重现已可直接下载使用。</p>
-
-<p>reddit · r/LocalLLaMA · /u/jacek2023 · 10月23日 16:13</p>
-
-<p><strong>「实用价值」</strong> 面向本地部署的开发者可立即下载 GGUF 权重在 llama.cpp、Ollama 或 LM Studio 等框架中跑通测试，首选 4-bit 量化以在消费级显存（如 8-12 GB）上流畅运行；若需更低延迟，可搭配 DFlash drafter 开启推测解码。首要动作：从 Hugging Face 拉取 ggml-org 或 unsloth 仓库的 GGUF 文件，按现有推理栈的量化参数加载即可对比效果。</p>
-
-<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#NVIDIA</code>, <code class="language-plaintext highlighter-rouge">#Nemotron</code>, <code class="language-plaintext highlighter-rouge">#SLM</code>, <code class="language-plaintext highlighter-rouge">#GGUF</code>, <code class="language-plaintext highlighter-rouge">#local-inference</code></p>
-
-<hr />
-
-<p><a id="item-ai-news-2"></a></p>
-<h3 id="moonshot-ai-发布-kimi-k31-pro28t104b-moe1m-上下文开放权重将于-11-月-4-日放出-️-7010"><a href="https://www.marktechpost.com/2026/10/23/moonshot-ai-kimi-k3-1-pro-open-weight-model/">Moonshot AI 发布 Kimi K3.1 Pro：2.8T/104B MoE、1M 上下文、开放权重将于 11 月 4 日放出</a> ⭐️ 7.0/10</h3>
-
-<p>Moonshot AI 在 Kimi API 上线 Kimi K3.1 Pro，采用 2.8 万亿总参数、1040 亿激活参数的 MoE 架构，支持 100 万 token 上下文。官方定价为输入 $2/百万 token、输出 $10/百万 token，另提供 2-3 倍速度的 Highspeed 版（价格翻倍，缓存命中除外）。模型在 Terminal-Bench 4.0 得分 65.7%，Artificial Analysis 评分 55，接近 Claude Opus 5.5 与 GPT-6 Astra 水平。官方承诺完整模型权重将于 2026 年 11 月 4 日前开放，目前仅可通过 API 或 OpenRouter 调用。</p>
-
-<p>rss · MarkTechPost · 10月23日 22:52</p>
-
-<p><strong>「实用价值」</strong> 若需立即在代码生成、长文档推理等场景尝试近 SOTA 级开放权重模型，可先通过 Kimi API（OpenAI 兼容端点）或 OpenRouter 接入测试；若打算自托管或微调，请等待 11 月 4 日权重发布后再评估硬件需求与许可证条款。</p>
-
-<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#LLM</code>, <code class="language-plaintext highlighter-rouge">#MoE</code>, <code class="language-plaintext highlighter-rouge">#open-weight</code>, <code class="language-plaintext highlighter-rouge">#long-context</code>, <code class="language-plaintext highlighter-rouge">#coding-benchmark</code></p>
-
-<hr />
-
-<p><a id="item-ai-news-3"></a></p>
-<h3 id="simon-willison-发布-quick-study浏览器端秒级照片转油画工具-️-7010"><a href="https://simonwillison.net/2026/Oct/23/quick-study-painter/">Simon Willison 发布 Quick Study：浏览器端秒级照片转油画工具</a> ⭐️ 7.0/10</h3>
-
-<p>Simon Willison 发布了 Quick Study，这是一个零依赖的浏览器工具，能在几秒内把上传的照片转换为模拟油画效果。工具地址为 https://tools.simonwillison.net/quick-study-painter，核心算法使用 Sobel 边缘检测在 Canvas 元素上绘制，除 Google Fonts 外无任何外部库依赖。生成该工具的提示词已公开（发送给 Claude Opus 5.5 High），提示词要求“打开一张照片并用模拟画笔在几秒内快速绘制油画版本”。作者此前曾用 Claude Fable 结合 P5.js 实现水彩风格实验。</p>
-
-<p>rss · Simon Willison · 10月23日 21:35</p>
-
-<p><strong>「实用价值」</strong> 前端开发者、生成艺术爱好者或需要快速原型的设计师可直接在浏览器打开链接试用、阅读源码或复用 Sobel 边缘检测与 Canvas 绘制逻辑；若想自行迭代，可参考公开的提示词向 Claude 同类模型请求类似实现。</p>
-
-<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#generative-art</code>, <code class="language-plaintext highlighter-rouge">#canvas-api</code>, <code class="language-plaintext highlighter-rouge">#image-processing</code>, <code class="language-plaintext highlighter-rouge">#claude-opus</code>, <code class="language-plaintext highlighter-rouge">#web-tools</code></p>
-
-<hr />
-
-<p><a id="item-ai-news-4"></a></p>
-<h3 id="block-发布全双工语音模型-dessa宣称可在-m4-max-本地运行-️-6010"><a href="https://block.xyz/dessa">Block 发布全双工语音模型 Dessa，宣称可在 M4 Max 本地运行</a> ⭐️ 6.0/10</h3>
-
-<p>Block 发布全双工语音模型 Dessa，官方宣称其可在 MacBook Pro M4 Max 上本地运行，且仅需单台 NVIDIA GB200 NVL72 即可完成训练。目前仅提供演示页面，模型权重、许可证、集成文档均未公开，无法下载或直接接入。Hacker News 讨论中，有用户对“最真实全双工模型”的营销口径、打断式对话的自然度以及缺乏可复现细节表示质疑。</p>
-
-<p>hackernews · dsr12 · 10月23日 19:09 · <a href="https://news.ycombinator.com/item?id=50213925">社区讨论</a></p>
-
-<p><strong>「对实践者的意义」</strong> 若后续开放权重与文档，Dessa 可能成为首个可在高端消费级设备上本地跑通的全双工语音模型，适合需要低延迟、隐私优先的实时语音交互场景。目前仅可关注官方动态，等待开源发布或技术报告后再评估是否替换现有 TTS/ASR 管线。</p>
-
-<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#speech-model</code>, <code class="language-plaintext highlighter-rouge">#full-duplex</code>, <code class="language-plaintext highlighter-rouge">#local-inference</code>, <code class="language-plaintext highlighter-rouge">#announcement</code>, <code class="language-plaintext highlighter-rouge">#block</code></p>
-
-<hr />
-
-<p><a id="item-ai-news-5"></a></p>
-<h3 id="kyutai-发布-cadre-视频自编码器单-h100-实现-20-fps-与-230-ms-延迟-️-6010"><a href="https://www.marktechpost.com/2026/10/23/kyutai-cadre-video-autoencoders-interactive-world-models/">Kyutai 发布 CADRE 视频自编码器，单 H100 实现 20 fps 与 &lt;230 ms 延迟</a> ⭐️ 6.0/10</h3>
-
-<p>Kyutai 开源了 CADRE 系列，包含 7 个因果扩散视频自编码器，官方宣称基于该系列构建的世界模型可在单张 H100 上以 20 fps 运行，端到端延迟低于 230 ms。目前仅见 MarkTechPost 转载摘要，尚未提供模型具体名称、版本、Hugging Face/GitHub 下载地址、许可证、除 H100 外的硬件需求或集成文档。</p>
-
-<p>rss · MarkTechPost · 10月23日 23:26</p>
-
-<p><strong>「实用价值」</strong> 若后续官方放出权重与推理代码，做实时视频生成、机器人仿真或交互式世界模型的工程师可直接对比 CADRE 与现有自编码器的延迟/显存表现，首要步骤是关注 Kyutai 官方博客或仓库获取模型卡与部署指南。</p>
-
-<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#video-generation</code>, <code class="language-plaintext highlighter-rouge">#world-models</code>, <code class="language-plaintext highlighter-rouge">#autoencoders</code>, <code class="language-plaintext highlighter-rouge">#diffusion-models</code>, <code class="language-plaintext highlighter-rouge">#open-source-ai</code></p>
-
-<hr />
-
-<p><a id="item-ai-news-6"></a></p>
-<h3 id="allenai-发布-litpivot-原型交互式文献探索与研究构思工具-️-6010"><a href="https://huggingface.co/blog/allenai/litpivot">AllenAI 发布 LitPivot 原型：交互式文献探索与研究构思工具</a> ⭐️ 6.0/10</h3>
-
-<p>Hugging Face 博客介绍了 AllenAI 的 LitPivot 原型，旨在通过论文嵌入、聚类与 LLM 辅助的动态上下文切换，帮助研究者交互式探索文献并生成研究构思。文章包含概念说明与界面演示，但未说明是否已公开发布、如何获取（网页演示、API、开源代码或安装方式）、授权模式或价格，因此目前无法直接试用或评估。</p>
-
-<p>rss · Hugging Face Blog · 10月23日 16:15</p>
-
-<p><strong>「对你的意义」</strong> 若你需要在文献综述阶段快速发现关联与切入点，LitPivot 的交互式聚类与动态上下文思路值得关注；但因缺乏获取路径与发布状态，目前仅能作为原型参考，无法直接纳入工作流。建议持续关注 AllenAI 或 Hugging Face 后续公告，确认是否提供公开演示或开源代码后再决定是否试用。</p>
-
-<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#literature-review</code>, <code class="language-plaintext highlighter-rouge">#research-tools</code>, <code class="language-plaintext highlighter-rouge">#allenai</code>, <code class="language-plaintext highlighter-rouge">#llm-applications</code>, <code class="language-plaintext highlighter-rouge">#prototype</code></p>
 
 <hr />
  ]]></content>
