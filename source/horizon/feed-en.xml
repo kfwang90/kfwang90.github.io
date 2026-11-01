@@ -3,9 +3,581 @@
   <title>Horizon 每日速递 - English Digest</title>
   <link href="https://www.01040610.xyz/horizon/feed-en.xml" rel="self"/>
   <link href="https://www.01040610.xyz/horizon/"/>
-  <updated>2026-10-31T02:40:39+00:00</updated>
+  <updated>2026-11-01T02:30:52+00:00</updated>
   <id>https://www.01040610.xyz/horizon/</id>
   
+  
+  <entry>
+    <title>Horizon Summary: 2026-11-01 (EN)</title>
+    <link href="https://www.01040610.xyz/horizon/2026/11/01/summary-en.html"/>
+    <updated>2026-11-01T00:00:00+00:00</updated>
+    <id>https://www.01040610.xyz/horizon/2026/11/01/summary-en.html</id>
+    <content type="html"><![CDATA[ <blockquote>
+  <p>Showing 33 of 191 fetched items.</p>
+</blockquote>
+
+<hr />
+
+<p><strong>AI Dev Tools</strong></p>
+<ol>
+  <li><a href="#item-gh-trending-1">ChromeDevTools/chrome-devtools-mcp: MCP server for live browser debugging</a> ⭐️ 9.0/10</li>
+  <li><a href="#item-gh-trending-2">Orkas-AI/Orkas: Local-first AI agent orchestration desktop app</a> ⭐️ 8.0/10</li>
+  <li><a href="#item-gh-trending-3">Donchitos/Claude-Code-Game-Studios: Multi-agent game dev studio for Claude Code</a> ⭐️ 6.0/10</li>
+  <li><a href="#item-gh-trending-4">microsoft/TokenEconomizer: Black-Box Token Cost Control for Coding Agents</a> ⭐️ 6.0/10</li>
+  <li><a href="#item-gh-trending-5">pingdotgg/t3code – TypeScript repo with high star velocity, purpose unclear</a> ⭐️ 5.0/10</li>
+</ol>
+
+<p><strong>AI News</strong></p>
+<ol>
+  <li><a href="#item-ai-news-1">HackerTube launches: algorithm-free YouTube UI built from 6,454 HN-recommended videos</a> ⭐️ 7.0/10</li>
+  <li><a href="#item-ai-news-2">datasette-llm 0.1a9 auto-inherits LLM CLI default model</a> ⭐️ 7.0/10</li>
+  <li><a href="#item-ai-news-3">Ant Lingguang 2.0 shifts to personal AI assistant; cross-platform permissions remain blocked</a> ⭐️ 7.0/10</li>
+  <li><a href="#item-ai-news-4">Betelgeuse runs Qwen 3.8 Flash Next IQ4_XS at 24 tok/s on RTX 3060 12GB with dual-channel DDR4</a> ⭐️ 7.0/10</li>
+  <li><a href="#item-ai-news-5">QwenPU runs stories260k LLM on NPU compiled into Qwen 3.5-4B weights</a> ⭐️ 6.0/10</li>
+</ol>
+
+<p><strong>X / YouTube Highlights</strong></p>
+<ol>
+  <li><a href="#item-social-hot-1">TokenEconomizer plugin cuts 18-31% token costs in AI coding agents</a> ⭐️ 9.0/10</li>
+  <li><a href="#item-social-hot-2">Google Cloud FLARE Team Releases Free 9-Chapter Malware Analysis Course</a> ⭐️ 8.0/10</li>
+  <li><a href="#item-social-hot-3">OpenAI merges ChatGPT/Codex quotas; OpenRouter releases runnable code-review script</a> ⭐️ 8.0/10</li>
+  <li><a href="#item-social-hot-4">TokenEconomizer cuts AI coding token costs by reusing project context</a> ⭐️ 8.0/10</li>
+  <li><a href="#item-social-hot-5">GitHub Actions: pin to commit SHA and set minimal permissions</a> ⭐️ 8.0/10</li>
+  <li><a href="#item-social-hot-6">Git-Push Deployment Workflow for Age-Restricted Static Site on Rental Server</a> ⭐️ 8.0/10</li>
+  <li><a href="#item-social-hot-7">Developer releases open-source X automation plugin &#x27;Divine Plan&#x27; v3.0.6</a> ⭐️ 7.0/10</li>
+  <li><a href="#item-social-hot-8">ComfyUI lucid-vrp package released for classic nodes only</a> ⭐️ 7.0/10</li>
+  <li><a href="#item-social-hot-9">DeepSeek Open-Sources dsh-superagent Agent Scaffold</a> ⭐️ 7.0/10</li>
+  <li><a href="#item-social-hot-10">handoff-vscode v0.9–0.10 adds document sidebar, cross-reference graph, and verification progress</a> ⭐️ 7.0/10</li>
+  <li><a href="#item-social-hot-11">Clearcam adds object detection to RTSP cameras</a> ⭐️ 7.0/10</li>
+  <li><a href="#item-social-hot-12">DeepSeek Harness open-sources Super-agent prototype</a> ⭐️ 7.0/10</li>
+  <li><a href="#item-social-hot-13">modeljury: Multi-Model Deliberation Library for OpenAI-Compatible Endpoints</a> ⭐️ 7.0/10</li>
+  <li><a href="#item-social-hot-14">Anthropic Launches Free Frontend Design Skill for Claude Code</a> ⭐️ 7.0/10</li>
+  <li><a href="#item-social-hot-15">DeepSeek opensource dsh-superagent prototype for autonomous GitHub repo management</a> ⭐️ 7.0/10</li>
+  <li><a href="#item-social-hot-16">Developer evaluates 5 trending GitHub coding agent tools</a> ⭐️ 7.0/10</li>
+  <li><a href="#item-social-hot-17">Malicious Cursor Extension Plants SSH Backdoor</a> ⭐️ 7.0/10</li>
+  <li><a href="#item-social-hot-18">Tiny ESP32-S3 Internet Radio Build at 32x18mm</a> ⭐️ 7.0/10</li>
+  <li><a href="#item-social-hot-19">OpenBB: Open-Source Investment Data Platform with 75k Stars</a> ⭐️ 7.0/10</li>
+  <li><a href="#item-social-hot-20">Privacy-focused browser tool for service accessibility testing</a> ⭐️ 6.0/10</li>
+  <li><a href="#item-social-hot-21">DeepSeek Super-agent: 3-5 concurrent AI sessions, Router+Workers architecture</a> ⭐️ 6.0/10</li>
+  <li><a href="#item-social-hot-22">Multiple Cursor instances sync via shared GitHub repo</a> ⭐️ 6.0/10</li>
+  <li><a href="#item-social-hot-23">9 GitHub Repos Tested by Developer</a> ⭐️ 6.0/10</li>
+</ol>
+
+<hr />
+
+<h2 id="ai-dev-tools">AI Dev Tools</h2>
+
+<p><a id="item-gh-trending-1"></a></p>
+<h3 id="chromedevtoolschrome-devtools-mcp-mcp-server-for-live-browser-debugging-️-9010"><a href="https://github.com/ChromeDevTools/chrome-devtools-mcp">ChromeDevTools/chrome-devtools-mcp: MCP server for live browser debugging</a> ⭐️ 9.0/10</h3>
+
+<p>This official MCP server from the Chrome DevTools team exposes browser debugging capabilities — DOM, console, network, and performance — to AI coding agents via the Model Context Protocol. Built in TypeScript on top of Puppeteer, it lets agents inspect live browser state instead of guessing, targeting the context-supply and debugging stages of AI-assisted frontend development. With 54k+ stars and active maintenance since September 2025, it is production-ready for teams using coding agents.</p>
+
+<p>github · ChromeDevTools · Nov 1, 02:11</p>
+
+<p><strong>「Why Recommended」</strong> It plugs directly into the debugging loop: agents can read console errors, trace network requests, and snapshot the DOM in real time, replacing manual copy-paste or screenshot workflows. Frontend and full-stack developers who rely on coding agents for bug triage, UI iteration, or end-to-end test authoring will get immediate, reproducible browser context without leaving their editor.</p>
+
+<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#mcp-server</code>, <code class="language-plaintext highlighter-rouge">#chrome-devtools</code>, <code class="language-plaintext highlighter-rouge">#debugging</code>, <code class="language-plaintext highlighter-rouge">#ai-coding-agent</code>, <code class="language-plaintext highlighter-rouge">#browser-automation</code></p>
+
+<hr />
+
+<p><a id="item-gh-trending-2"></a></p>
+<h3 id="orkas-aiorkas-local-first-ai-agent-orchestration-desktop-app-️-8010"><a href="https://github.com/Orkas-AI/Orkas">Orkas-AI/Orkas: Local-first AI agent orchestration desktop app</a> ⭐️ 8.0/10</h3>
+
+<p>Orkas is an open-source (MIT) desktop application for macOS and Windows that acts as a local-first AI team: a Commander translates goals into tasks and coordinates 16 built-in specialist agents alongside popular AI coding tools such as Claude Code, Codex, OpenCode, OpenClaw, and Hermes. It provides projects, scheduled automations, and connectors, allowing developers to use built-in models or bring their own keys. The project is implemented in JavaScript and has recently gained significant attention (1,044 stars today, 6,367 total), suggesting a recent release or major update, though long-term maintenance evidence is still limited.</p>
+
+<p>github · Orkas-AI · Nov 1, 02:11</p>
+
+<p><strong>「Why Recommended」</strong> Orkas addresses the friction of juggling multiple AI coding assistants by unifying them under a single local-first orchestrator, fitting into the coding and context-supply phases of the development workflow. It is especially useful for developers who want a free, cross-platform desktop app that can coordinate diverse agents and tools without relying on cloud services, and the recent star surge indicates active community interest.</p>
+
+<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#AI编码助手</code>, <code class="language-plaintext highlighter-rouge">#多智能体编排</code>, <code class="language-plaintext highlighter-rouge">#本地优先</code>, <code class="language-plaintext highlighter-rouge">#桌面应用</code>, <code class="language-plaintext highlighter-rouge">#开发效能工具</code></p>
+
+<hr />
+
+<p><a id="item-gh-trending-3"></a></p>
+<h3 id="donchitosclaude-code-game-studios-multi-agent-game-dev-studio-for-claude-code-️-6010"><a href="https://github.com/Donchitos/Claude-Code-Game-Studios">Donchitos/Claude-Code-Game-Studios: Multi-agent game dev studio for Claude Code</a> ⭐️ 6.0/10</h3>
+
+<p>This repository provides an orchestration framework that turns Claude Code into a simulated game development studio with 49 AI agents and 72 workflow skills mirroring a real studio hierarchy. It addresses the code writing and context supply phases by coordinating specialized agents for game development tasks. The implementation is primarily shell scripts and prompt/skill configurations, and with 31k stars it shows strong community interest though maturity for general use remains uncertain.</p>
+
+<p>github · Donchitos · Nov 1, 02:11</p>
+
+<p><strong>「Why Recommended」</strong> Worth exploring for game developers already using Claude Code who want to experiment with advanced multi-agent workflows that replace manual coordination across design, programming, art, and QA roles. The high star count signals active community engagement, but the narrow focus on Claude Code and game dev limits broader applicability.</p>
+
+<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#AI-assisted development</code>, <code class="language-plaintext highlighter-rouge">#game development</code>, <code class="language-plaintext highlighter-rouge">#multi-agent orchestration</code>, <code class="language-plaintext highlighter-rouge">#Claude Code</code>, <code class="language-plaintext highlighter-rouge">#developer productivity</code></p>
+
+<hr />
+
+<p><a id="item-gh-trending-4"></a></p>
+<h3 id="microsofttokeneconomizer-black-box-token-cost-control-for-coding-agents-️-6010"><a href="https://github.com/microsoft/TokenEconomizer">microsoft/TokenEconomizer: Black-Box Token Cost Control for Coding Agents</a> ⭐️ 6.0/10</h3>
+
+<p>TokenEconomizer is a Microsoft open-source Python tool that applies experience-driven, black-box cost control to reduce API token consumption when running AI coding agents such as Claude Code and Codex. It targets the token-cost pain point in agentic coding workflows by optimizing prompt and context usage without requiring agent internals. The project is early-stage (created October 2026, recent pushes) with 3.1k stars but limited public documentation or usage evidence to confirm production readiness.</p>
+
+<p>github · microsoft · Nov 1, 02:11</p>
+
+<p><strong>「Why Recommended」</strong> It addresses the inference-cost step in AI-assisted development by wrapping coding agents to cut token spend, which matters for teams running agents at scale or on tight budgets. The 3.1k stars signal active community interest, though the lack of published examples means it suits experimenters willing to validate integration themselves rather than teams needing drop-in reliability.</p>
+
+<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#agentic-coding</code>, <code class="language-plaintext highlighter-rouge">#cost-optimization</code>, <code class="language-plaintext highlighter-rouge">#ai-coding-assistant</code>, <code class="language-plaintext highlighter-rouge">#coding-agents</code>, <code class="language-plaintext highlighter-rouge">#token-management</code></p>
+
+<hr />
+
+<p><a id="item-gh-trending-5"></a></p>
+<h3 id="pingdotggt3code--typescript-repo-with-high-star-velocity-purpose-unclear-️-5010"><a href="https://github.com/pingdotgg/t3code">pingdotgg/t3code – TypeScript repo with high star velocity, purpose unclear</a> ⭐️ 5.0/10</h3>
+
+<p>pingdotgg/t3code is a TypeScript repository that has accumulated 35,700 stars and gained 1,148 stars today, indicating strong recent attention. No description, README, or functional details are available in the provided data, so its purpose, features, and maturity level cannot be determined from this information alone.</p>
+
+<p>github · pingdotgg · Nov 1, 02:11</p>
+
+<p><strong>「Why Recommended」</strong> The repository&#x27;s rapid star growth suggests it may be addressing a relevant need for TypeScript developers, but without any functional description or usage examples, it is impossible to confirm whether it fits into coding, review, testing, context supply, or delivery workflows. Treat it as a signal to investigate further rather than a verified tool recommendation.</p>
+
+<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#TypeScript</code>, <code class="language-plaintext highlighter-rouge">#developer-tools</code>, <code class="language-plaintext highlighter-rouge">#AI-coding-assistant</code></p>
+
+<hr />
+
+<h2 id="ai-news">AI News</h2>
+
+<p><a id="item-ai-news-1"></a></p>
+<h3 id="hackertube-launches-algorithm-free-youtube-ui-built-from-6454-hn-recommended-videos-️-7010"><a href="https://karpathy.bearblog.dev/hacker-tube/">HackerTube launches: algorithm-free YouTube UI built from 6,454 HN-recommended videos</a> ⭐️ 7.0/10</h3>
+
+<p>HackerTube is a live, no-algorithm video browser at hackertube.org that surfaces 6,454 technical videos extracted from 39,834 Hacker News comments dating back to 2007. The site presents a clean YouTube-style interface with zero engagement-optimized recommendations, no influencer content, and no clickbait. It is immediately usable in any browser with no installation or account required.</p>
+
+<p>hackernews · karpathy · Oct 31, 19:56 · <a href="https://news.ycombinator.com/item?id=50319510">Discussion</a></p>
+
+<p><strong>「Why it matters」</strong> Developers and researchers who want a distraction-free way to discover high-signal technical talks, lectures, and demos can start browsing at hackertube.org today; the first step is to try the default feed or add a new-to-old sort (suggested by users) to surface older gems.</p>
+
+<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#video-curation</code>, <code class="language-plaintext highlighter-rouge">#hacker-news</code>, <code class="language-plaintext highlighter-rouge">#developer-tools</code>, <code class="language-plaintext highlighter-rouge">#content-discovery</code>, <code class="language-plaintext highlighter-rouge">#youtube-alternative</code></p>
+
+<hr />
+
+<p><a id="item-ai-news-2"></a></p>
+<h3 id="datasette-llm-01a9-auto-inherits-llm-cli-default-model-️-7010"><a href="https://simonwillison.net/2026/Oct/31/datasette-llm/">datasette-llm 0.1a9 auto-inherits LLM CLI default model</a> ⭐️ 7.0/10</h3>
+
+<p>Simon Willison released datasette-llm 0.1a9, an alpha update that lets the plugin automatically pick up the default model configured in the LLM CLI. This removes the need to explicitly set `-s plugins.datasette-agent.default_model gpt-6-astra` when launching Datasette Agent. The new startup command is simply `uvx –with datasette-agent datasette content.db –internal internal.db`. The release is available on GitHub at the 0.1a9 tag.</p>
+
+<p>rss · Simon Willison · Oct 31, 22:10</p>
+
+<p><strong>「Why It Matters」</strong> Datasette users who want to try Datasette Agent can now start it with a single command instead of configuring a model flag first. If you already use the LLM CLI with a preferred model, Agent will inherit that choice automatically. First step: run the simplified `uvx` command against your database to test the streamlined workflow.</p>
+
+<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#datasette</code>, <code class="language-plaintext highlighter-rouge">#llm</code>, <code class="language-plaintext highlighter-rouge">#datasette-agent</code>, <code class="language-plaintext highlighter-rouge">#plugin</code>, <code class="language-plaintext highlighter-rouge">#cli-tool</code></p>
+
+<hr />
+
+<p><a id="item-ai-news-3"></a></p>
+<h3 id="ant-lingguang-20-shifts-to-personal-ai-assistant-cross-platform-permissions-remain-blocked-️-7010"><a href="http://www.geekpark.net/news/373244">Ant Lingguang 2.0 shifts to personal AI assistant; cross-platform permissions remain blocked</a> ⭐️ 7.0/10</h3>
+
+<p>Ant Group launched Lingguang 2.0 on October 27, repositioning it from a mini-app generator to a "personal AI assistant that gets things done" with the slogan "remembers, monitors, executes." Geekpark&#x27;s two-day hands-on test shows it can read Alipay bills (payment records only), DingTalk, Feishu, and Mi Home, but cannot send messages (blocked by its own safety policy), access Taobao cart (blocked by anti-scraping), or complete payments via Alipay AI Pay — only providing redirect links. In contrast, Alibaba&#x27;s Qwen accesses Taobao cart directly and completes full order flows, reflecting Alibaba/Ant organizational separation and China&#x27;s platform-centric commerce model where 155 major apps have rejected cross-app automation protocols. The user agreement assigns all liability to the user, mirroring L2 autonomous driving disclaimers. Lingguang currently recommends cheaper options across platforms (e.g., JD over Taobao) because it sits outside the transaction loop, but Morgan Stanley predicts 99% of China&#x27;s consumer AI revenue will come from merchant commissions by 2030, threatening neutrality. Ant has not disclosed Lingguang 2.0&#x27;s business model.</p>
+
+<p>rss · 极客公园 · Nov 1, 01:41</p>
+
+<p><strong>「Why It Matters」</strong> For product teams building AI assistants in China, Lingguang 2.0 demonstrates that model capability is no longer the bottleneck — cross-platform permission walls, liability allocation, and platform commercial interests are. Before investing in integration, verify which ecosystems expose authenticated APIs for read/write actions and whether your liability framework can accept user-borne risk for automated actions.</p>
+
+<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#AI助理</code>, <code class="language-plaintext highlighter-rouge">#个人AI</code>, <code class="language-plaintext highlighter-rouge">#实测评估</code>, <code class="language-plaintext highlighter-rouge">#跨平台集成</code>, <code class="language-plaintext highlighter-rouge">#中国AI生态</code></p>
+
+<hr />
+
+<p><a id="item-ai-news-4"></a></p>
+<h3 id="betelgeuse-runs-qwen-38-flash-next-iq4_xs-at-24-toks-on-rtx-3060-12gb-with-dual-channel-ddr4-️-7010"><a href="https://www.reddit.com/r/LocalLLaMA/comments/1xkh2ns/betelgeuse_running_qwen_38_flash_next_iq4_xs_at/">Betelgeuse runs Qwen 3.8 Flash Next IQ4_XS at 24 tok/s on RTX 3060 12GB with dual-channel DDR4</a> ⭐️ 7.0/10</h3>
+
+<p>Reddit user /u/zyxciss benchmarks Betelgeuse (bel-cli/bel-server) running Qwen 3.8 Flash Next (packed as Alpha-Orionis-XS on Hugging Face) at IQ4_XS quantization on an RTX 3060 12GB with 16 GB total DDR4 RAM. With dual-channel 2×8 GB DDR4 (~38 GB/s host bandwidth) the setup reaches 24 tok/s; with single-channel 1×16 GB DDR4 (~19 GB/s) it drops to 14 tok/s. Stock llama.cpp thrashes at ~0.5–0.6 tok/s, while the Strata low-RAM mode manages 4–6 tok/s. The user reports 100 % byte-exact output parity with stock llama.cpp and zero dropped experts. The same hardware also runs IQ2_XS at 22 tok/s and Q8_K_XL at 8–12 tok/s. Betelgeuse uses an exclusive host-RAM victim cache plus async hardware DMA (MOE_DMA=1) between VRAM and NVMe. Source code is at github.com/Betelgeuse-AI/Betelgeuse; the pre-packed model bundle is on Hugging Face at Betelgeuse-AI/Alpha-Orionis-XS. The author notes early testing of DeepSeek V4.1 Flash (1017) at ~25 tok/s on the same hardware class.</p>
+
+<p>reddit · r/LocalLLaMA · /u/zyxciss · Oct 31, 18:06</p>
+
+<p><strong>「Why it matters」</strong> If you have a 12 GB VRAM GPU (e.g., RTX 3060 12 GB) and 16 GB system RAM, this shows Betelgeuse can run a 100 GB+ MoE model at 4-bit quantization with usable speeds (14–24 tok/s) instead of thrashing — provided you use dual-channel RAM. Practitioners can clone the Betelgeuse repo, pull the Alpha-Orionis-XS bundle from Hugging Face, and run bel-server to verify the claimed parity and throughput on their own hardware before committing to the stack.</p>
+
+<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#local-llm</code>, <code class="language-plaintext highlighter-rouge">#betelgeuse</code>, <code class="language-plaintext highlighter-rouge">#qwen</code>, <code class="language-plaintext highlighter-rouge">#iq4\_xs</code>, <code class="language-plaintext highlighter-rouge">#rtx-3060</code></p>
+
+<hr />
+
+<p><a id="item-ai-news-5"></a></p>
+<h3 id="qwenpu-runs-stories260k-llm-on-npu-compiled-into-qwen-35-4b-weights-️-6010"><a href="https://www.reddit.com/r/LocalLLaMA/comments/1xkiuut/an_llm_inside_an_llm_same_guy_who_put_a_riskv_cpu/">QwenPU runs stories260k LLM on NPU compiled into Qwen 3.5-4B weights</a> ⭐️ 6.0/10</h3>
+
+<p>Researcher divagr18 has released QwenPU, a demonstration of Karpathy&#x27;s stories260k LLM running on a neural processing unit (NPU) compiled directly into Qwen 3.5-4B&#x27;s model weights. The NPU performs matrix multiplications, softmax, and attention operations bit-exactly within Qwen&#x27;s own memory, requiring no external tools. Code is available on GitHub (divagr18/QwenPU) and weights on Hugging Face (divagr1925/QwenPU). The author notes the full writeup is incomplete due to illness, and optimizations plus size reductions are still in progress.</p>
+
+<p>reddit · r/LocalLLaMA · /u/LatentSpacer · Oct 31, 19:18</p>
+
+<p><strong>「Why it matters」</strong> This prototype shows weight-compiled hardware emulation inside an LLM is feasible, offering a research artifact for exploring self-contained model execution. Practitioners interested in LLM-in-LLM architectures or weight-space compilation can clone the repo and load the weights to experiment, but should expect incomplete documentation and ongoing changes.</p>
+
+<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#LLM-in-LLM</code>, <code class="language-plaintext highlighter-rouge">#NPU</code>, <code class="language-plaintext highlighter-rouge">#Qwen</code>, <code class="language-plaintext highlighter-rouge">#stories260k</code>, <code class="language-plaintext highlighter-rouge">#weight-compilation</code></p>
+
+<hr />
+
+<h2 id="x--youtube-highlights">X / YouTube Highlights</h2>
+
+<p><a id="item-social-hot-1"></a></p>
+<h3 id="tokeneconomizer-plugin-cuts-18-31-token-costs-in-ai-coding-agents-️-9010"><a href="https://x.com/Guangquan66/status/2116714636699443250">TokenEconomizer plugin cuts 18-31% token costs in AI coding agents</a> ⭐️ 9.0/10</h3>
+
+<p>The post introduces TokenEconomizer, an open-source plugin from Microsoft Research and UC Berkeley that reduces token costs in Claude Code, Codex, and other AI coding agents by 18–31% without changing models. It targets three waste patterns: repeated repository exploration across sessions, loading unused tool definitions every turn (23 tools loaded vs. ≤7 used), and error loops where failed tasks consume disproportionate cost. The author shares benchmarks from the paper (e.g., Django task dropping from 43k to 16k tokens) and practical setup notes including agent version requirements and default settings.</p>
+
+<p>twitter · 广权MAIYA AI LAB · Nov 1, 02:11</p>
+
+<p><strong>「Why it matters」</strong> The post gives developers a concrete, installable tool with measurable benchmarks and three no-install principles they can apply immediately to cut token waste in daily AI coding workflows. Engagement metrics for the X post are not provided in the source.</p>
+
+<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#AI-coding-agents</code>, <code class="language-plaintext highlighter-rouge">#token-optimization</code>, <code class="language-plaintext highlighter-rouge">#Claude-Code</code>, <code class="language-plaintext highlighter-rouge">#Codex</code>, <code class="language-plaintext highlighter-rouge">#developer-tools</code></p>
+
+<hr />
+
+<p><a id="item-social-hot-2"></a></p>
+<h3 id="google-cloud-flare-team-releases-free-9-chapter-malware-analysis-course-️-8010"><a href="https://x.com/MalwareBibleJP/status/2116712335050187124">Google Cloud FLARE Team Releases Free 9-Chapter Malware Analysis Course</a> ⭐️ 8.0/10</h3>
+
+<p>Google Cloud&#x27;s FLARE team (Mandiant) has published a free "Malware-Analysis-Crash-Course" covering assembly reading through Windows malware analysis fundamentals across 9 chapters. The course includes 5 hands-on labs with solutions, exercises, quizzes, and all materials are available via Google Docs and the Mandiant GitHub repository under the "FLARE-Learning-Hub" collection. Prerequisites include Windows command-line basics, two&#x27;s complement, endianness, programming fundamentals, and networking knowledge; C experience is helpful but not required. The team recommends using an isolated VM with FLARE-VM for the Intel x86-64–targeted labs, and warns that some samples exhibit malware-like behavior.</p>
+
+<p>twitter · 📕「マルウエアの教科書」著者 | 吉川孝志 | 増補改訂版🌟発売中 · Nov 1, 02:02</p>
+
+<p><strong>「Why It&#x27;s Notable」</strong> This is a comprehensive, structured, and free malware analysis curriculum from Google Cloud&#x27;s elite FLARE/Mandiant team, offering practical labs with solutions and a dedicated learning hub — rare for such high-quality reverse-engineering training to be fully open. The tweet announcing it comes from the author of "Malware Textbook" (@MalwareBibleJP), a respected Japanese malware analyst, lending additional credibility; however, the post&#x27;s engagement metrics (likes, reposts, views) are not provided in the source data.</p>
+
+<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#malware-analysis</code>, <code class="language-plaintext highlighter-rouge">#reverse-engineering</code>, <code class="language-plaintext highlighter-rouge">#flare</code>, <code class="language-plaintext highlighter-rouge">#free-course</code>, <code class="language-plaintext highlighter-rouge">#assembly</code></p>
+
+<hr />
+
+<p><a id="item-social-hot-3"></a></p>
+<h3 id="openai-merges-chatgptcodex-quotas-openrouter-releases-runnable-code-review-script-️-8010"><a href="https://x.com/lunkertw/status/2116711191510941751">OpenAI merges ChatGPT/Codex quotas; OpenRouter releases runnable code-review script</a> ⭐️ 8.0/10</h3>
+
+<p>This X post by @lunkertw curates three AI updates: OpenAI will merge ChatGPT and Codex usage into a single token-based quota for Plus, Pro, and Business plans starting December; OpenRouter publishes a 233-line Python sandbox code-review script with real benchmarks showing per-run costs of $0.015–$0.045 across four models; and Anthropic&#x27;s S-1 filing reveals $163B H1 2026 revenue and $112B cash reserves. Two GitHub projects (pr-agent and OpenMAIC) also gained 100+ stars in a day.</p>
+
+<p>twitter · Laban · Nov 1, 01:57</p>
+
+<p><strong>「Why it matters」</strong> The OpenRouter script is immediately runnable, uses only Python standard library, and provides verified per-run cost and latency data for four models — a rare copy-pasteable tooling benchmark. OpenAI&#x27;s quota merge affects all paying subscribers and ends the era of separate chat/code allowances. Engagement metrics for this post were not provided in the source.</p>
+
+<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#OpenAI</code>, <code class="language-plaintext highlighter-rouge">#OpenRouter</code>, <code class="language-plaintext highlighter-rouge">#Code Review</code>, <code class="language-plaintext highlighter-rouge">#API Billing</code>, <code class="language-plaintext highlighter-rouge">#Anthropic</code></p>
+
+<hr />
+
+<p><a id="item-social-hot-4"></a></p>
+<h3 id="tokeneconomizer-cuts-ai-coding-token-costs-by-reusing-project-context-️-8010"><a href="https://x.com/xiaobuzaowu/status/2116710969712009283">TokenEconomizer cuts AI coding token costs by reusing project context</a> ⭐️ 8.0/10</h3>
+
+<p>The post introduces TokenEconomizer, an open-source controller from Microsoft Research, Microsoft Security, and UC Berkeley that sits outside AI coding tools (Claude Code, Codex, Copilot CLI, Pi) to reduce token costs by 18–31% in benchmarks. It works by reusing verified project knowledge across tasks, deferring unused tool definitions, and halting repeated failure loops. The author also shares their manual workaround — prepending project context to each prompt — and four practical steps developers can try today: track token usage, codify recurring context, disable unused tools, and stop AI after 2–3 failed retries.</p>
+
+<p>twitter · 小步造物 · Nov 1, 01:56</p>
+
+<p><strong>「Why it matters」</strong> The post combines a newly published research tool with benchmark data, the author&#x27;s honest first-hand workflow, and four immediately actionable habits — making it a rare blend of evidence-backed technique and practical takeaway for developers paying for AI coding assistants.</p>
+
+<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#AI coding assistants</code>, <code class="language-plaintext highlighter-rouge">#token optimization</code>, <code class="language-plaintext highlighter-rouge">#cost reduction</code>, <code class="language-plaintext highlighter-rouge">#developer productivity</code>, <code class="language-plaintext highlighter-rouge">#open-source tools</code></p>
+
+<hr />
+
+<p><a id="item-social-hot-5"></a></p>
+<h3 id="github-actions-pin-to-commit-sha-and-set-minimal-permissions-️-8010"><a href="https://x.com/kaluops/status/2116708370384060560">GitHub Actions: pin to commit SHA and set minimal permissions</a> ⭐️ 8.0/10</h3>
+
+<p>The tweet recommends two GitHub Actions hardening steps: pin third-party actions to full commit SHAs instead of mutable tags (e.g., v4), and add `permissions: contents: read` at the top of each workflow. This prevents supply-chain attacks where a hijacked tag could inject malicious code, while a pinned SHA remains immutable.</p>
+
+<p>twitter · Kalu · Nov 1, 01:46</p>
+
+<p><strong>「Why it matters」</strong> The tip gives developers a concrete, copy-pasteable way to reduce CI/CD supply-chain risk without changing pipeline logic. Engagement metrics for the post are not provided, so heat cannot be quantified.</p>
+
+<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#github-actions</code>, <code class="language-plaintext highlighter-rouge">#security</code>, <code class="language-plaintext highlighter-rouge">#supply-chain-security</code>, <code class="language-plaintext highlighter-rouge">#ci-cd</code>, <code class="language-plaintext highlighter-rouge">#best-practices</code></p>
+
+<hr />
+
+<p><a id="item-social-hot-6"></a></p>
+<h3 id="git-push-deployment-workflow-for-age-restricted-static-site-on-rental-server-️-8010"><a href="https://x.com/LkDDrE1FE2RPuVY/status/2116707945367081257">Git-Push Deployment Workflow for Age-Restricted Static Site on Rental Server</a> ⭐️ 8.0/10</h3>
+
+<p>The author describes their practical deployment pipeline for a personal static site that hosts age-restricted content, which prevents using GitHub Pages. They push to a Git repository on a rental server, triggering a build-and-deploy process that takes about three minutes for roughly 1,000 articles.</p>
+
+<p>twitter · あさい · Nov 1, 01:44</p>
+
+<p><strong>「Why It Matters」</strong> This post provides a concrete, reproducible git-push-to-rental-server workflow that developers facing similar hosting constraints can adapt directly, including real-world build-time and scale details. Specific engagement metrics (likes, retweets, views) for this post are not available in the provided data.</p>
+
+<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#static-site-deployment</code>, <code class="language-plaintext highlighter-rouge">#git-workflow</code>, <code class="language-plaintext highlighter-rouge">#age-restricted-content</code>, <code class="language-plaintext highlighter-rouge">#rental-server</code>, <code class="language-plaintext highlighter-rouge">#build-performance</code></p>
+
+<hr />
+
+<p><a id="item-social-hot-7"></a></p>
+<h3 id="developer-releases-open-source-x-automation-plugin-x27divine-planx27-v306-️-7010"><a href="https://x.com/lujunnanm23/status/2116714639128236062">Developer releases open-source X automation plugin &#x27;Divine Plan&#x27; v3.0.6</a> ⭐️ 7.0/10</h3>
+
+<p>Developer @lujunnanm23 shares version 3.0.6 of "神圣计划" (Divine Plan), an open-source browser extension that automates X operations using DeepSeek for copywriting. The plugin runs three modules in rotation — scheduled posting, engagement during cooldown periods, and comment replies during engagement breaks — with state persistence so posting schedules survive restarts and deduplication prevents duplicate comment replies. Auto-follow is optional and can be disabled. The code is available on GitHub.</p>
+
+<p>twitter · Ethan Brooks · Nov 1, 02:11</p>
+
+<p><strong>「Why it matters」</strong> This is a practical, reproducible tool for developers who manage X accounts and want to automate repetitive posting, engagement, and reply workflows without writing custom scripts. The post provides concrete technical details (modular architecture, persistence, deduplication) and a public GitHub repo, making it immediately usable for anyone building similar automation. Engagement metrics for the tweet were not supplied.</p>
+
+<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#X-automation</code>, <code class="language-plaintext highlighter-rouge">#browser-extension</code>, <code class="language-plaintext highlighter-rouge">#social-media-tools</code>, <code class="language-plaintext highlighter-rouge">#developer-productivity</code>, <code class="language-plaintext highlighter-rouge">#open-source</code></p>
+
+<hr />
+
+<p><a id="item-social-hot-8"></a></p>
+<h3 id="comfyui-lucid-vrp-package-released-for-classic-nodes-only-️-7010"><a href="https://x.com/mapte_fireball/status/2116713932681576755">ComfyUI lucid-vrp package released for classic nodes only</a> ⭐️ 7.0/10</h3>
+
+<p>Developer まぷて announces the lucid-vrp (LuCiD Visual Regional Painter) package for ComfyUI, installable via ComfyUI Manager with GitHub and Reddit links provided. The tool adds image loading, layered editing, Anima regional prompting, and MOSS-Image layout prompting for img2img workflows, though the author notes it currently supports only classic nodes and is incompatible with Nodes 2.0, with MOSS positioning described as not strict.</p>
+
+<p>twitter · まぷて · Nov 1, 02:08</p>
+
+<p><strong>「Why it matters」</strong> Developer まぷて announces the lucid-vrp package for ComfyUI, installable directly via ComfyUI Manager. The release is limited to classic nodes and does not support Nodes 2.0; MOSS positioning is noted as not strict. This gives ComfyUI practitioners a new tool to try immediately, with clear compatibility boundaries. Public engagement metrics for the tweet are not provided.</p>
+
+<details><summary>References</summary>
+<ul>
+<li><a href="https://comfy.icu/extension/EBEBEEBE__comfyui-lucid-vrp">LuCiD Visual Regional Painter - ComfyUI Cloud</a></li>
+<li><a href="https://agihunt.info/en/p/1a1938063aa8b992c1fefa18de7">LuCiD VRP: Open-Source ComfyUI Node Suite… · AGI Hunt</a></li>
+
+</ul>
+</details>
+
+<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#ComfyUI</code>, <code class="language-plaintext highlighter-rouge">#Stable Diffusion</code>, <code class="language-plaintext highlighter-rouge">#lucid-vrp</code>, <code class="language-plaintext highlighter-rouge">#node-based</code>, <code class="language-plaintext highlighter-rouge">#AI art tools</code></p>
+
+<hr />
+
+<p><a id="item-social-hot-9"></a></p>
+<h3 id="deepseek-open-sources-dsh-superagent-agent-scaffold-️-7010"><a href="https://x.com/Purson__/status/2116713929510465800">DeepSeek Open-Sources dsh-superagent Agent Scaffold</a> ⭐️ 7.0/10</h3>
+
+<p>DeepSeek open-sourced dsh-superagent, a coding agent scaffold (MIT licensed, research prototype) that runs on DeepSeek Harness to monitor a GitHub repository and optionally integrate with Feishu. The system uses a main session to dispatch tasks to independent parallel Executor Sessions, each working in its own directory and submitting results via pull requests. Its design philosophy emphasizes minimal human interruption: workers run with the operator&#x27;s permissions by default but only act when explicitly mentioned or permitted by team rules, and only communicate when human intervention is required or results are directly usable.</p>
+
+<p>twitter · purson · Nov 1, 02:08</p>
+
+<p><strong>「Why This Matters」</strong> The post details DeepSeek&#x27;s dsh-superagent, a coding agent scaffold built on Harness that routes tasks to parallel executor sessions and returns results via PRs. Its design philosophy minimizes human interruption — workers act only when summoned or rule-permitted, and speak only when human intervention is needed or results are directly usable. The author argues that after model capability plateaus, the bottleneck shifts to scheduling and human-AI handoff, making this harness-layer release more practical than another benchmark score. Engagement metrics for the post are not available.</p>
+
+<details><summary>References</summary>
+<ul>
+<li><a href="https://github.com/deepseek-ai/dsh-superagent-prototype">GitHub - deepseek-ai/dsh-superagent-prototype: Towards a More ...</a></li>
+<li><a href="https://github.com/deepseek-ai/deepseek-harness">GitHub - deepseek-ai/deepseek-harness: DeepSeek Harness ...</a></li>
+<li><a href="https://singularitybyte.com/tools/dsh-superagent-deepseek-proactive-github-agent.html">dsh-superagent: DeepSeek&#x27;s proactive GitHub agent, and the ...</a></li>
+
+</ul>
+</details>
+
+<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#AI Agents</code>, <code class="language-plaintext highlighter-rouge">#Open Source</code>, <code class="language-plaintext highlighter-rouge">#DeepSeek</code>, <code class="language-plaintext highlighter-rouge">#Developer Tools</code>, <code class="language-plaintext highlighter-rouge">#Agent Frameworks</code></p>
+
+<hr />
+
+<p><a id="item-social-hot-10"></a></p>
+<h3 id="handoff-vscode-v09010-adds-document-sidebar-cross-reference-graph-and-verification-progress-️-7010"><a href="https://x.com/alab_sanda/status/2116713536483434852">handoff-vscode v0.9–0.10 adds document sidebar, cross-reference graph, and verification progress</a> ⭐️ 7.0/10</h3>
+
+<p>The creator of handoff-vscode announces versions 0.9–0.10, which add a grouped document sidebar, a cross-reference panel with a relationship graph that now includes tasks, and verification progress rings on document nodes. These features address three pain points in Markdown-based project docs: discoverability, traceability across specs, designs, ADRs, and tasks, and visibility into verification coverage. The extension stores docs under .handoff/docs/ and updates panels automatically when AI agents modify files.</p>
+
+<p>twitter · あるふぁラボ · Nov 1, 02:06</p>
+
+<p><strong>「Why it matters」</strong> This is a first-hand release note from the tool author describing concrete, developer-facing UI additions that solve real workflow gaps in VSCode for documentation-heavy projects. The post explains the problems and the specific UX solutions, making it directly useful for developers evaluating or adopting the extension. Engagement metrics for the X post are not provided in the source data.</p>
+
+<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#vscode-extension</code>, <code class="language-plaintext highlighter-rouge">#document-management</code>, <code class="language-plaintext highlighter-rouge">#traceability</code>, <code class="language-plaintext highlighter-rouge">#markdown-tools</code>, <code class="language-plaintext highlighter-rouge">#developer-productivity</code></p>
+
+<hr />
+
+<p><a id="item-social-hot-11"></a></p>
+<h3 id="clearcam-adds-object-detection-to-rtsp-cameras-️-7010"><a href="https://x.com/Frontier_Now_26/status/2116713436004683978">Clearcam adds object detection to RTSP cameras</a> ⭐️ 7.0/10</h3>
+
+<p>The post introduces Clearcam, an open-source tool that adds object detection, event search, and alerting to existing RTSP cameras. It integrates with Home Assistant and n8n for routing notifications, and runs on macOS and Linux, though Windows support still requires an FFmpeg fix.</p>
+
+<p>twitter · Frontier Now · Nov 1, 02:06</p>
+
+<p><strong>「Why it matters」</strong> This open-source tool lets you add object detection, event search, and alerts to any existing RTSP camera and route them to Home Assistant or n8n — practical for homelab builders who want local camera automation without replacing hardware. The post notes Mac/Linux support with a Windows FFmpeg caveat, giving a clear picture of current compatibility.</p>
+
+<details><summary>References</summary>
+<ul>
+<li><a href="https://github.com/roryclear/clearcam">GitHub - roryclear/ clearcam : Add object detection , tracking, mobile...</a></li>
+
+</ul>
+</details>
+
+<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#OpenSource</code>, <code class="language-plaintext highlighter-rouge">#HomeLab</code>, <code class="language-plaintext highlighter-rouge">#RTSP</code>, <code class="language-plaintext highlighter-rouge">#HomeAssistant</code>, <code class="language-plaintext highlighter-rouge">#n8n</code></p>
+
+<hr />
+
+<p><a id="item-social-hot-12"></a></p>
+<h3 id="deepseek-harness-open-sources-super-agent-prototype-️-7010"><a href="https://x.com/thePandaily/status/2116713246535086563">DeepSeek Harness open-sources Super-agent prototype</a> ⭐️ 7.0/10</h3>
+
+<p>DeepSeek&#x27;s Harness team has released a Super-agent prototype under the MIT license. The system uses a resident Router that delegates tasks to isolated Workers, which react to GitHub and chat events, reproduce bugs, and automatically open pull requests. The announcement includes a link to the repository for developers to inspect or adopt the code.</p>
+
+<p>twitter · Pandaily · Nov 1, 02:05</p>
+
+<p><strong>「Why it matters」</strong> The post from Pandaily highlights a concrete, MIT-licensed open-source release with a ready-to-use Router/Worker architecture for GitHub automation, giving developers an immediate starting point for building event-driven agents that reproduce bugs and create PRs. Engagement metrics for the tweet are not provided, but the announcement comes from a recognized tech-media outlet covering AI developer tools.</p>
+
+<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#open-source</code>, <code class="language-plaintext highlighter-rouge">#AI-agent</code>, <code class="language-plaintext highlighter-rouge">#DeepSeek</code>, <code class="language-plaintext highlighter-rouge">#developer-tools</code>, <code class="language-plaintext highlighter-rouge">#GitHub-automation</code></p>
+
+<hr />
+
+<p><a id="item-social-hot-13"></a></p>
+<h3 id="modeljury-multi-model-deliberation-library-for-openai-compatible-endpoints-️-7010"><a href="https://x.com/ai_hakase_/status/2116713099600302496">modeljury: Multi-Model Deliberation Library for OpenAI-Compatible Endpoints</a> ⭐️ 7.0/10</h3>
+
+<p>Developer ハカセ アイ announces modeljury, an open-source library that lets you spin up multi-model deliberation panels by calling a `convene()` function against any OpenAI-compatible endpoint. The GitHub repository (lucid-nightmares/model-jury) was built during OpenAI Build Week with Codex as the primary engineering partner. A linked Reddit verification report discusses empirical results from 2,850 inferences, including model agreement rates and accuracy-versus-cost simulations.</p>
+
+<p>twitter · ハカセ アイ(Ai-Hakase)🐾生成AI・ComfyUI · Nov 1, 02:05</p>
+
+<p><strong>「Why it matters」</strong> The tweet announces modeljury, an open-source library that lets developers run multi-model deliberation panels via any OpenAI-compatible endpoint with a single convene() call, and points to a Reddit verification report covering 2,850 inferences with agreement-rate and accuracy-vs-cost simulations—giving practitioners a ready-to-use, empirically tested tool for building consensus-based evaluation pipelines. Engagement metrics for the post itself are not disclosed in the source.</p>
+
+<details><summary>References</summary>
+<ul>
+<li><a href="https://github.com/lucid-nightmares/model-jury">GitHub - lucid-nightmares/ model - jury : An evidence-first science...</a></li>
+
+</ul>
+</details>
+
+<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#LLM</code>, <code class="language-plaintext highlighter-rouge">#multi-model</code>, <code class="language-plaintext highlighter-rouge">#evaluation</code>, <code class="language-plaintext highlighter-rouge">#open-source</code>, <code class="language-plaintext highlighter-rouge">#developer-tools</code></p>
+
+<hr />
+
+<p><a id="item-social-hot-14"></a></p>
+<h3 id="anthropic-launches-free-frontend-design-skill-for-claude-code-️-7010"><a href="https://x.com/mr_mofun/status/2116713083251073406">Anthropic Launches Free Frontend Design Skill for Claude Code</a> ⭐️ 7.0/10</h3>
+
+<p>Anthropic has released an official "Frontend Design" skill for Claude Code that aims to solve the problem of generic, look-alike AI-generated web interfaces by letting developers choose a design atmosphere — such as editorial, futuristic, luxury, vibrant, or natural — before generating a complete styled page with typography, color, and motion. The skill is installed via a single command (`npx skills add … –skill frontend-design`) and is listed on Anthropic&#x27;s skills registry and GitHub repository. The post&#x27;s claimed adoption figures (185k stars, 1.1M installs) come from the post itself and are not independently verified.</p>
+
+<p>twitter · 牧枫 · Nov 1, 02:05</p>
+
+<p><strong>「Why It&#x27;s Hot」</strong> The post shares a ready-to-use install command (`npx skills add … –skill frontend-design`) for Anthropic&#x27;s official Claude Code skill that lets developers pick a design atmosphere — magazine premium, near-future tech, luxury, vibrant, or natural — to generate varied, styled web UIs instead of generic purple-gradient templates. The author cites 185k GitHub stars and 1.1M installs as social proof, though those figures come from the post itself and aren&#x27;t independently verified; X engagement metrics (likes, reposts, views) for this tweet were not provided.</p>
+
+<details><summary>References</summary>
+<ul>
+<li><a href="https://www.skills.sh/anthropics/skills/frontend-design">frontend-design — anthropics/skills</a></li>
+<li><a href="https://claudemarketplaces.com/skills/anthropics/skills/frontend-design">Frontend Design | Claude Code Skills</a></li>
+<li><a href="https://github.com/anthropics/skills/tree/main/skills/frontend-design">skills/skills/frontend-design at main · anthropics/skills ...</a></li>
+
+</ul>
+</details>
+
+<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#Claude Code</code>, <code class="language-plaintext highlighter-rouge">#Frontend Design</code>, <code class="language-plaintext highlighter-rouge">#AI Web Design</code>, <code class="language-plaintext highlighter-rouge">#Anthropic</code>, <code class="language-plaintext highlighter-rouge">#Developer Tools</code></p>
+
+<hr />
+
+<p><a id="item-social-hot-15"></a></p>
+<h3 id="deepseek-opensource-dsh-superagent-prototype-for-autonomous-github-repo-management-️-7010"><a href="https://x.com/Gorden_Sun/status/2116712834805743957">DeepSeek opensource dsh-superagent prototype for autonomous GitHub repo management</a> ⭐️ 7.0/10</h3>
+
+<p>DeepSeek 开源了 dsh-superagent-prototype，一个面向单个 GitHub 仓库的自主编码 Agent 原型，打包为 DeepSeek Harness 插件运行。它在后台静默监听 GitHub 与可选的飞书触发，收到任务后独立开辟工作目录完成代码变更并提交 PR 供人工审核，仅在需要人类决策或展示结果时才主动通知。该原型已提供 GitHub 仓库地址供开发者部署或参考设计模式。</p>
+
+<p>twitter · Gorden Sun · Nov 1, 02:04</p>
+
+<p><strong>「Why it&#x27;s hot」</strong> DeepSeek researcher Gorden Sun shares the dsh-superagent prototype, an AI agent that autonomously manages GitHub repositories via Feishu or web triggers, creating PRs without human interruption. The post includes a GitHub link for immediate deployment, offering developers a reproducible pattern for background coding agents, though public engagement metrics are not shown.</p>
+
+<details><summary>References</summary>
+<ul>
+<li><a href="https://github.com/deepseek-ai/dsh-superagent-prototype">GitHub - deepseek-ai/dsh-superagent-prototype: Towards a More ...</a></li>
+
+</ul>
+</details>
+
+<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#AI Agent</code>, <code class="language-plaintext highlighter-rouge">#代码仓库自动化</code>, <code class="language-plaintext highlighter-rouge">#DeepSeek</code>, <code class="language-plaintext highlighter-rouge">#开源工具</code>, <code class="language-plaintext highlighter-rouge">#GitHub Actions</code></p>
+
+<hr />
+
+<p><a id="item-social-hot-16"></a></p>
+<h3 id="developer-evaluates-5-trending-github-coding-agent-tools-️-7010"><a href="https://x.com/harden_369741/status/2116712630089834546">Developer evaluates 5 trending GitHub coding agent tools</a> ⭐️ 7.0/10</h3>
+
+<p>Developer E1ev3n reviews five trending GitHub repositories for coding agents, evaluating each for fit and poor-fit scenarios based on personal use. The tools cover session memory (claude-mem), composable skills (mattpocock/skills), full methodology (obra/superpowers), design vocabulary (pbakaus/impeccable), and a game-studio agent hierarchy (Donchitos/Claude-Code-Game-Studios). The author argues the agent race has shifted from raw model power to memory, method, and review loops as the durable layer.</p>
+
+<p>twitter · E1ev3n. · Nov 1, 02:03</p>
+
+<p><strong>「Why it matters」</strong> The post provides practitioner-level guidance on five specific agent tooling choices with star counts, licenses, and concrete fit/poor-fit criteria — actionable for developers choosing agent stacks. As of the tweet date, the author&#x27;s X account shows the post reached developers actively comparing agent tooling, making it a practical reference amid the shift toward skill libraries as the primary differentiator.</p>
+
+<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#coding-agents</code>, <code class="language-plaintext highlighter-rouge">#developer-tools</code>, <code class="language-plaintext highlighter-rouge">#github-trending</code>, <code class="language-plaintext highlighter-rouge">#ai-assisted-development</code>, <code class="language-plaintext highlighter-rouge">#tool-evaluation</code></p>
+
+<hr />
+
+<p><a id="item-social-hot-17"></a></p>
+<h3 id="malicious-cursor-extension-plants-ssh-backdoor-️-7010"><a href="https://x.com/SyrianVeterans/status/2116712303219593329">Malicious Cursor Extension Plants SSH Backdoor</a> ⭐️ 7.0/10</h3>
+
+<p>An X post from @SyrianVeterans warns that a malicious extension in the Cursor marketplace, masquerading as an official Claude Code extension, planted an attacker&#x27;s SSH key into users&#x27; authorized_keys files. The extension was live for 11 hours and may have affected up to 5,000 users; uninstalling it does not remove the backdoor, allowing persistent SSH access to compromised machines.</p>
+
+<p>twitter · versatile · Nov 1, 02:01</p>
+
+<p><strong>「Why It Matters」</strong> The post highlights a supply-chain attack in a popular AI IDE marketplace with concrete remediation steps: rotate all SSH keys, GitHub/GitLab tokens, API keys, and repository secrets, then audit authorized_keys and login logs. It&#x27;s a practical alert for developers who installed the v2.1.313 extension.</p>
+
+<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#供应链安全</code>, <code class="language-plaintext highlighter-rouge">#Cursor</code>, <code class="language-plaintext highlighter-rouge">#SSH后门</code>, <code class="language-plaintext highlighter-rouge">#凭证泄露</code>, <code class="language-plaintext highlighter-rouge">#事件响应</code></p>
+
+<hr />
+
+<p><a id="item-social-hot-18"></a></p>
+<h3 id="tiny-esp32-s3-internet-radio-build-at-32x18mm-️-7010"><a href="https://x.com/ken2754/status/2116710053785027015">Tiny ESP32-S3 Internet Radio Build at 32x18mm</a> ⭐️ 7.0/10</h3>
+
+<p>Maker @ken2754 shares a compact internet radio built with an ESP32-S3 and PCM5102A DAC measuring just 32mm x 18mm. The enclosure will be designed in CAD, and a KCX BT module is available to add Bluetooth support within the same footprint by moving to a three-layer PCB. Code and documentation are promised for GitHub but not yet published.</p>
+
+<p>twitter · ken2754 · Nov 1, 01:52</p>
+
+<p><strong>「Why It&#x27;s Notable」</strong> This is a first-hand hardware project showing an extremely small form-factor internet radio with a clear path to Bluetooth, making it a practical reference for ESP32-S3 audio designs. Engagement metrics (likes, reposts, views) were not provided in the source data.</p>
+
+<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#ESP32-S3</code>, <code class="language-plaintext highlighter-rouge">#PCM5102A</code>, <code class="language-plaintext highlighter-rouge">#internet-radio</code>, <code class="language-plaintext highlighter-rouge">#hardware-project</code>, <code class="language-plaintext highlighter-rouge">#open-source-hardware</code></p>
+
+<hr />
+
+<p><a id="item-social-hot-19"></a></p>
+<h3 id="openbb-open-source-investment-data-platform-with-75k-stars-️-7010"><a href="https://x.com/Orionsman/status/2116708289794945532">OpenBB: Open-Source Investment Data Platform with 75k Stars</a> ⭐️ 7.0/10</h3>
+
+<p>Developer Orions shares OpenBB, an open-source investment data platform with nearly 75k GitHub stars that consolidates market data, financial reports, and macro indicators into a single Python interface. The project enables one-line data fetching for analysis, exposes data via MCP for AI agents, and also provides REST API and Excel export, with the repository actively maintained.</p>
+
+<p>twitter · Orions · Nov 1, 01:45</p>
+
+<p><strong>「Why It Matters」</strong> A developer shares a first-hand discovery of OpenBB, an actively maintained open-source platform that aggregates market data, financial reports, and macro data with one-line Python access, MCP service for AI agents, REST API, and Excel export. The project&#x27;s 75k GitHub stars signal strong community adoption for financial data analysis and AI agent integration.</p>
+
+<details><summary>References</summary>
+<ul>
+<li><a href="https://github.com/openbq-org/OpenBB">GitHub - openbq-org/OpenBB: Open Data Platform for analysts, quants and ...</a></li>
+
+</ul>
+</details>
+
+<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#open-source</code>, <code class="language-plaintext highlighter-rouge">#financial-data</code>, <code class="language-plaintext highlighter-rouge">#python</code>, <code class="language-plaintext highlighter-rouge">#mcp</code>, <code class="language-plaintext highlighter-rouge">#ai-agents</code></p>
+
+<hr />
+
+<p><a id="item-social-hot-20"></a></p>
+<h3 id="privacy-focused-browser-tool-for-service-accessibility-testing-️-6010"><a href="https://x.com/xjp/status/2116714536451629473">Privacy-focused browser tool for service accessibility testing</a> ⭐️ 6.0/10</h3>
+
+<p>The tweet announces a privacy-focused, browser-based tool (likely privacytests.org) that lets users test accessibility of services or categories such as GitHub or games via simple URL paths. Results can be shared as images or links without exposing IP addresses, since requests run client-side from the browser and the static site never sees the results. The post includes a link to try it and mentions an easter egg ("Tap the dog 5 times").</p>
+
+<p>twitter · 香蕉痞 · Nov 1, 02:10</p>
+
+<p><strong>「Why it&#x27;s notable」</strong> The tweet introduces a client-side static tool for testing service or category accessibility (e.g., GitHub, games) with a privacy-focused design: no IP logging, results never leave the browser, and shareable via image or link. Engagement metrics for the post are not provided.</p>
+
+<details><summary>References</summary>
+<ul>
+<li><a href="https://github.com/privacytests/privacytests">GitHub - privacytests/privacytests: Source code for privacytests.org ...</a></li>
+
+</ul>
+</details>
+
+<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#developer-tools</code>, <code class="language-plaintext highlighter-rouge">#network-testing</code>, <code class="language-plaintext highlighter-rouge">#privacy</code>, <code class="language-plaintext highlighter-rouge">#static-site</code>, <code class="language-plaintext highlighter-rouge">#github</code></p>
+
+<hr />
+
+<p><a id="item-social-hot-21"></a></p>
+<h3 id="deepseek-super-agent-3-5-concurrent-ai-sessions-routerworkers-architecture-️-6010"><a href="https://x.com/berryxia/status/2116713447647793574">DeepSeek Super-agent: 3-5 concurrent AI sessions, Router+Workers architecture</a> ⭐️ 6.0/10</h3>
+
+<p>This X post by @berryxia summarizes DeepSeek Harness team&#x27;s October 31 technical article introducing a "Super-agent" architecture with a Router supervising multiple parallel Worker sessions, allowing humans to monitor 3–5 AI conversations at once. The author notes experimental results showing a p95 completion time of 15.7 minutes versus 29.5 minutes for single-session approaches, but emphasizes the test was scaled to 1/4 duration, measured scheduling not coding, and remains a research prototype. The author also created a 5-minute retro-style explainer video using Claude Opus 5.5 to illustrate the concept.</p>
+
+<p>twitter · Berryxia.AI · Nov 1, 02:06</p>
+
+<p><strong>「Why this matters」</strong> The tweet distills DeepSeek Harness team&#x27;s Super-agent research — Router coordinating parallel Workers across 3-5 concurrent sessions — and shares prototype scheduling benchmarks (p95 15.7 min vs 29.5 min for single-session). It also links to a creator-made 5-minute retro-style explainer video built with Claude Opus 5.5, giving readers a quick, sourced entry point to the multi-session AI workflow concept. Engagement metrics for the tweet are not provided in the source.</p>
+
+<details><summary>References</summary>
+<ul>
+<li><a href="https://www.kucoin.com/news/flash/deepseek-unveils-new-super-agent-architecture-for-multi-task-collaboration">DeepSeek Unveils New Super-Agent Architecture for Multi-Task ... - KuCoin</a></li>
+<li><a href="https://finance.biggo.com/news/ccf3ef75-c371-43e4-a87d-dfbcf203c450">DeepSeek Unveils &quot;Super-agent&quot; Architecture: Autonomously Fixes Bugs ...</a></li>
+<li><a href="https://chainthink.cn/en/article/195420478263627776">DeepSeek Unveils New Agent Architecture - On-Chain Research Insight ...</a></li>
+
+</ul>
+</details>
+
+<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#AI agents</code>, <code class="language-plaintext highlighter-rouge">#multi-agent systems</code>, <code class="language-plaintext highlighter-rouge">#DeepSeek</code>, <code class="language-plaintext highlighter-rouge">#developer productivity</code>, <code class="language-plaintext highlighter-rouge">#AI workflow</code></p>
+
+<hr />
+
+<p><a id="item-social-hot-22"></a></p>
+<h3 id="multiple-cursor-instances-sync-via-shared-github-repo-️-6010"><a href="https://x.com/LarryVelez/status/2116710422522871900">Multiple Cursor instances sync via shared GitHub repo</a> ⭐️ 6.0/10</h3>
+
+<p>Larry Velez confirms that running multiple Cursor instances connected to the same GitHub repository keeps them synchronized. He advises against having both instances work on the exact same feature simultaneously, based on his regular experience with this workflow.</p>
+
+<p>twitter · Larry Velez · Nov 1, 01:54</p>
+
+<p><strong>「Why it matters」</strong> This is a concise, experience-based answer to a common Cursor workflow question — useful for developers running parallel AI coding sessions. No public engagement metrics (likes, retweets, views) are available for this post, so its reach cannot be verified.</p>
+
+<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#Cursor</code>, <code class="language-plaintext highlighter-rouge">#GitHub</code>, <code class="language-plaintext highlighter-rouge">#AI coding</code>, <code class="language-plaintext highlighter-rouge">#workflow</code>, <code class="language-plaintext highlighter-rouge">#developer tools</code></p>
+
+<hr />
+
+<p><a id="item-social-hot-23"></a></p>
+<h3 id="9-github-repos-tested-by-developer-️-6010"><a href="https://www.youtube.com/watch?v=ZbmfYMlrlII">9 GitHub Repos Tested by Developer</a> ⭐️ 6.0/10</h3>
+
+<p>This video by Jack Roberts tests nine currently trending GitHub repositories, aiming to provide practical insights for developers. Based on the title and description, the creator evaluates each repository&#x27;s utility for building better applications, though the description includes promotional links and the depth of testing is unclear without a transcript. The video may help viewers discover new developer tools, but its practical value depends on the thoroughness of the demonstrations.</p>
+
+<p>youtube · GitHub · Nov 1, 02:11</p>
+
+<p><strong>「Why It&#x27;s Hot」</strong> The video has 36,015 views, showing strong interest in curated GitHub repository reviews. Viewers can discover nine trending open-source projects with a developer&#x27;s first-hand testing perspective, potentially saving time evaluating new tools.</p>
+
+<details><summary>References</summary>
+<ul>
+<li><a href="https://chooseto.ai/watch/ZbmfYMlrlII">9 GitHub Repos Blowing Up Right Now (I Tested Every One)</a></li>
+
+</ul>
+</details>
+
+<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#GitHub</code>, <code class="language-plaintext highlighter-rouge">#Open Source</code>, <code class="language-plaintext highlighter-rouge">#Developer Tools</code>, <code class="language-plaintext highlighter-rouge">#Code Review</code>, <code class="language-plaintext highlighter-rouge">#Trending Repos</code></p>
+
+<hr />
+ ]]></content>
+  </entry>
   
   <entry>
     <title>Horizon Summary: 2026-10-31 (EN)</title>
@@ -2902,439 +3474,6 @@
 <p><strong>「Why it matters」</strong> Anyone relying on quantized models from mradermacher&#x27;s repo should download and archive them now, then consider seeding torrents on the listed mirrors to preserve access. First step: identify which models you use from that repo, pull them locally, and verify checksums if available.</p>
 
 <p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#model-quantization</code>, <code class="language-plaintext highlighter-rouge">#model-archival</code>, <code class="language-plaintext highlighter-rouge">#huggingface</code>, <code class="language-plaintext highlighter-rouge">#local-llm</code>, <code class="language-plaintext highlighter-rouge">#community-mirrors</code></p>
-
-<hr />
- ]]></content>
-  </entry>
-  
-  <entry>
-    <title>Horizon Summary: 2026-10-25 (EN)</title>
-    <link href="https://www.01040610.xyz/horizon/2026/10/25/summary-en.html"/>
-    <updated>2026-10-25T00:00:00+00:00</updated>
-    <id>https://www.01040610.xyz/horizon/2026/10/25/summary-en.html</id>
-    <content type="html"><![CDATA[ <blockquote>
-  <p>Showing 29 of 95 fetched items.</p>
-</blockquote>
-
-<hr />
-
-<p><strong>AI Dev Tools</strong></p>
-<ol>
-  <li><a href="#item-gh-trending-1">google-gemini/gemini-cli: Terminal AI agent for coding with Gemini</a> ⭐️ 9.0/10</li>
-  <li><a href="#item-gh-trending-2">QwenLM/qwen-code: Open-source terminal AI coding agent</a> ⭐️ 8.0/10</li>
-  <li><a href="#item-gh-trending-3">coleam00/Archon – YAML-driven AI coding harness</a> ⭐️ 8.0/10</li>
-  <li><a href="#item-gh-trending-4">The-PR-Agent/pr-agent – Open-source AI pull-request reviewer</a> ⭐️ 8.0/10</li>
-  <li><a href="#item-gh-trending-5">xerj-org/xerj: Local-first Rust search engine and MCP server for AI agents</a> ⭐️ 8.0/10</li>
-  <li><a href="#item-gh-trending-6">skyhook-io/radar: Kubernetes dashboard with built-in MCP server for AI debugging</a> ⭐️ 8.0/10</li>
-  <li><a href="#item-gh-trending-7">cloudflare/security-audit-skill: Multi-phase security audit skill for coding agents</a> ⭐️ 7.0/10</li>
-  <li><a href="#item-gh-trending-8">makecindy/cindy: Open-source AI agent for multi-step dev tasks</a> ⭐️ 7.0/10</li>
-  <li><a href="#item-gh-trending-9">aws/agent-toolkit-for-aws – Official AWS MCP toolkit for AI agents</a> ⭐️ 7.0/10</li>
-  <li><a href="#item-gh-trending-10">codewhale-hq/Codewhale: Open-source Rust terminal AI agent with multi-model support</a> ⭐️ 7.0/10</li>
-  <li><a href="#item-gh-trending-11">esengine/DeepSeek-Reasonix – Go CLI coding agent for complex tasks</a> ⭐️ 7.0/10</li>
-  <li><a href="#item-gh-trending-12">vitali87/code-graph-rag: Multi-language monorepo RAG with MCP server</a> ⭐️ 7.0/10</li>
-  <li><a href="#item-gh-trending-13">sourcery-ai/sourcery – Instant AI code reviews for Python</a> ⭐️ 7.0/10</li>
-  <li><a href="#item-gh-trending-14">kodustech/kodus-ai: Self-hosted AI code review bot with BYOK</a> ⭐️ 7.0/10</li>
-  <li><a href="#item-gh-trending-15">HexmosTech/git-lrc: Free AI code reviews on git commit hooks</a> ⭐️ 7.0/10</li>
-  <li><a href="#item-gh-trending-16">truongnh1992/gemini-ai-code-reviewer: GitHub Action for AI code review with Gemini</a> ⭐️ 7.0/10</li>
-  <li><a href="#item-gh-trending-17">iamumeransari/claude-show-your-work: Visual QA plugin for Claude Code terminal</a> ⭐️ 7.0/10</li>
-  <li><a href="#item-gh-trending-18">sno-ai/sno-station-skills: 31 skills to run Claude Code and Codex as a team</a> ⭐️ 6.0/10</li>
-  <li><a href="#item-gh-trending-19">dagoSte/squadra – Orchestrate multiple AI coding agents with shared tasks and a local dashboard</a> ⭐️ 6.0/10</li>
-  <li><a href="#item-gh-trending-20">pullboard-dev/pullboard: Autonomous agent-driven development CLI with governance</a> ⭐️ 6.0/10</li>
-  <li><a href="#item-gh-trending-21">ccch1mneyyy/dsh-TUI: Terminal UI plugin for DeepSeek Harness coding agent</a> ⭐️ 5.0/10</li>
-  <li><a href="#item-gh-trending-22">can1357/oh-my-pi – AI coding agent with IDE integration</a> ⭐️ 5.0/10</li>
-</ol>
-
-<p><strong>AI News</strong></p>
-<ol>
-  <li><a href="#item-ai-news-1">ANEMLL Forge 0.2.1 runs Qwen3.8-27B on M6 Mac Mini 32GB with 192K context</a> ⭐️ 9.0/10</li>
-  <li><a href="#item-ai-news-2">Qwen-Flash-Next Coder 6B MoE runs 262K context on 8 GB GPU via llama.cpp</a> ⭐️ 8.0/10</li>
-  <li><a href="#item-ai-news-3">Open-source browser rhythm game runs 4 neural nets locally via ONNX Runtime Web</a> ⭐️ 8.0/10</li>
-  <li><a href="#item-ai-news-4">Battledrones v14 adds four-player map Compass Rose with WebSocket multiplayer</a> ⭐️ 7.0/10</li>
-  <li><a href="#item-ai-news-5">MarkTechPost publishes Letta tutorial on stateful engineering copilots</a> ⭐️ 6.0/10</li>
-  <li><a href="#item-ai-news-6">Reddit post warns KLD is misused for quantized LLM evaluation</a> ⭐️ 6.0/10</li>
-  <li><a href="#item-ai-news-7">Meta trains byte-level models via distillation; predicts they surpass token models with more compute</a> ⭐️ 6.0/10</li>
-</ol>
-
-<hr />
-
-<h2 id="ai-dev-tools">AI Dev Tools</h2>
-
-<p><a id="item-gh-trending-1"></a></p>
-<h3 id="google-geminigemini-cli-terminal-ai-agent-for-coding-with-gemini-️-9010"><a href="https://github.com/google-gemini/gemini-cli">google-gemini/gemini-cli: Terminal AI agent for coding with Gemini</a> ⭐️ 9.0/10</h3>
-
-<p>google-gemini/gemini-cli is an open-source terminal AI agent that brings Google&#x27;s Gemini models directly into the command line for coding, debugging, and automation tasks. Built with TypeScript and distributed via npm, the tool lets developers chat, generate code, refactor, and run workflows without leaving the terminal. With over 108k stars and recent commits from Google, the project is actively maintained and ready for production use.</p>
-
-<p>github · google-gemini · Oct 25, 01:07</p>
-
-<p><strong>「Why Recommended」</strong> It plugs into the coding and context-provision stages of development, replacing context-switching to a browser or IDE plugin by letting you prompt, refactor, and debug inside the same terminal you already use. The 108k-star count and ongoing Google maintenance signal strong community trust and long-term support, making it a practical choice for any developer who wants an AI pair programmer that lives in the CLI.</p>
-
-<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#ai-coding-assistant</code>, <code class="language-plaintext highlighter-rouge">#cli-tool</code>, <code class="language-plaintext highlighter-rouge">#terminal</code>, <code class="language-plaintext highlighter-rouge">#google-gemini</code>, <code class="language-plaintext highlighter-rouge">#developer-productivity</code></p>
-
-<hr />
-
-<p><a id="item-gh-trending-2"></a></p>
-<h3 id="qwenlmqwen-code-open-source-terminal-ai-coding-agent-️-8010"><a href="https://github.com/QwenLM/qwen-code">QwenLM/qwen-code: Open-source terminal AI coding agent</a> ⭐️ 8.0/10</h3>
-
-<p>Qwen Code is an open-source terminal AI coding agent from Alibaba&#x27;s Qwen team that edits files, runs commands, and interacts with the local codebase. Built in TypeScript, it supports the Model Context Protocol (MCP) for extensibility and positions itself as a transparent alternative to proprietary agents like Claude Code or Cursor. The project shows high activity with recent pushes and over 28k stars, though it carries a large open issue count (2,048) indicating ongoing growing pains.</p>
-
-<p>github · QwenLM · Oct 25, 01:07</p>
-
-<p><strong>「Why Recommended」</strong> It targets the writing-code and context-supply stages by letting developers run an AI agent directly in their terminal with open weights, avoiding vendor lock-in. The MCP support makes it extensible for custom tooling, and the TypeScript codebase is familiar to many developers. With 28.7k stars signaling strong community interest, it suits engineers who want a hackable, local-first coding assistant.</p>
-
-<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#ai-coding-agent</code>, <code class="language-plaintext highlighter-rouge">#cli-tool</code>, <code class="language-plaintext highlighter-rouge">#terminal-based</code>, <code class="language-plaintext highlighter-rouge">#open-source-llm</code>, <code class="language-plaintext highlighter-rouge">#developer-productivity</code></p>
-
-<hr />
-
-<p><a id="item-gh-trending-3"></a></p>
-<h3 id="coleam00archon--yaml-driven-ai-coding-harness-️-8010"><a href="https://github.com/coleam00/Archon">coleam00/Archon – YAML-driven AI coding harness</a> ⭐️ 8.0/10</h3>
-
-<p>Archon is an open-source, YAML-driven workflow engine that makes AI coding deterministic and repeatable through a CLI and a TypeScript harness builder. It targets the writing-code and context-supply stages by letting developers define, version, and execute AI coding tasks as reproducible workflows. The project is implemented in TypeScript (Bun runtime) and currently shows active development with 23.7k stars, though the future-dated last push (2026-10-24) and 142 open issues indicate it is still maturing.</p>
-
-<p>github · coleam00 · Oct 25, 01:07</p>
-
-<p><strong>「Why recommended」</strong> Archon replaces ad-hoc prompt chains with version-controlled YAML pipelines, giving teams a structured, auditable way to run AI coding tasks repeatedly. It fits developers and teams who want reproducible AI-assisted coding workflows without locking into a single vendor&#x27;s orchestration layer.</p>
-
-<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#ai-coding-assistant</code>, <code class="language-plaintext highlighter-rouge">#workflow-engine</code>, <code class="language-plaintext highlighter-rouge">#developer-tools</code>, <code class="language-plaintext highlighter-rouge">#deterministic-ai</code>, <code class="language-plaintext highlighter-rouge">#typescript</code></p>
-
-<hr />
-
-<p><a id="item-gh-trending-4"></a></p>
-<h3 id="the-pr-agentpr-agent--open-source-ai-pull-request-reviewer-️-8010"><a href="https://github.com/The-PR-Agent/pr-agent">The-PR-Agent/pr-agent – Open-source AI pull-request reviewer</a> ⭐️ 8.0/10</h3>
-
-<p>PR Agent is an open-source AI tool that automates pull-request reviews, generates descriptions, and suggests improvements across GitHub, GitLab, Bitbucket, and Azure DevOps. Built in Python, it supports multiple LLM providers including OpenAI, Anthropic, and Ollama. With over 13.5k stars and recent activity, the project is mature and production-ready.</p>
-
-<p>github · The-PR-Agent · Oct 25, 01:07</p>
-
-<p><strong>「Why recommended」</strong> It plugs directly into the code-review stage, replacing manual review effort and surfacing issues before merge. Teams using any major Git platform can drop it into CI/CD pipelines to get consistent, AI-driven feedback without changing their workflow.</p>
-
-<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#code-review</code>, <code class="language-plaintext highlighter-rouge">#ai-coding-assistant</code>, <code class="language-plaintext highlighter-rouge">#pull-request-automation</code>, <code class="language-plaintext highlighter-rouge">#devtools</code>, <code class="language-plaintext highlighter-rouge">#llm-integration</code></p>
-
-<hr />
-
-<p><a id="item-gh-trending-5"></a></p>
-<h3 id="xerj-orgxerj-local-first-rust-search-engine-and-mcp-server-for-ai-agents-️-8010"><a href="https://github.com/xerj-org/xerj">xerj-org/xerj: Local-first Rust search engine and MCP server for AI agents</a> ⭐️ 8.0/10</h3>
-
-<p>Xerj is a single Rust binary that indexes code, documentation, logs, JSONL/CSV, and PDFs for BM25, vector, and hybrid search, then exposes an Elasticsearch-compatible API and an MCP server so AI agents can retrieve context locally. It replaces grep/ripgrep and external vector databases with a self-contained engine and a Corpus Hub of ready-made reference corpora. The project is actively maintained (last push 2026-10-25) and already usable with Cursor, Claude Code, or any MCP-compatible client.</p>
-
-<p>github · xerj-org · Oct 25, 01:07</p>
-
-<p><strong>「Why recommended」</strong> It plugs directly into the context-supply step of AI-assisted development, giving agents fast, private, multi-modal retrieval without cloud dependencies or extra infrastructure. With 15k+ stars and a working CLI, MCP server, and Corpus Hub, it is a practical drop-in replacement for ad-hoc grep workflows and managed vector stores for developers using Cursor, Claude Code, or custom MCP clients.</p>
-
-<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#mcp-server</code>, <code class="language-plaintext highlighter-rouge">#code-search</code>, <code class="language-plaintext highlighter-rouge">#rag</code>, <code class="language-plaintext highlighter-rouge">#local-first</code>, <code class="language-plaintext highlighter-rouge">#rust</code></p>
-
-<hr />
-
-<p><a id="item-gh-trending-6"></a></p>
-<h3 id="skyhook-ioradar-kubernetes-dashboard-with-built-in-mcp-server-for-ai-debugging-️-8010"><a href="https://github.com/skyhook-io/radar">skyhook-io/radar: Kubernetes dashboard with built-in MCP server for AI debugging</a> ⭐️ 8.0/10</h3>
-
-<p>Radar is an open-source Kubernetes dashboard written in Go that bundles a Model Context Protocol (MCP) server so AI agents can query live cluster topology, GitOps status (Argo CD/Flux), Helm releases, service traffic, and audit logs from a single binary. The project has 3.9k stars, recent commits, and 119 open issues, indicating active maintenance but still a pre-1.0, experimental maturity level.</p>
-
-<p>github · skyhook-io · Oct 25, 01:07</p>
-
-<p><strong>「Why recommended」</strong> It targets the context-supply and debugging stages of cloud-native development by replacing manual kubectl digging and fragmented dashboards with a unified, real-time view that both developers and AI assistants can consume, making it useful for Kubernetes operators who want faster incident triage.</p>
-
-<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#kubernetes</code>, <code class="language-plaintext highlighter-rouge">#mcp-server</code>, <code class="language-plaintext highlighter-rouge">#debugging</code>, <code class="language-plaintext highlighter-rouge">#gitops</code>, <code class="language-plaintext highlighter-rouge">#developer-tools</code></p>
-
-<hr />
-
-<p><a id="item-gh-trending-7"></a></p>
-<h3 id="cloudflaresecurity-audit-skill-multi-phase-security-audit-skill-for-coding-agents-️-7010"><a href="https://github.com/cloudflare/security-audit-skill">cloudflare/security-audit-skill: Multi-phase security audit skill for coding agents</a> ⭐️ 7.0/10</h3>
-
-<p>cloudflare/security-audit-skill is a JavaScript-based skill for coding agents that runs automated, multi-phase security audits and produces independently verified, machine-readable findings. It targets the code review and security audit phase of development, aiming to replace or augment manual vulnerability detection with a structured, verifiable workflow. The project is published by Cloudflare and has accumulated over 44k stars, indicating strong community interest, though its practical utility depends on adoption of the compatible coding-agent framework.</p>
-
-<p>github · cloudflare · Oct 25, 01:07</p>
-
-<p><strong>「Why recommended」</strong> It automates the security audit step in the development pipeline, turning a typically manual, error-prone review into a repeatable, machine-verifiable process — valuable for teams that already use or are evaluating coding-agent frameworks and want continuous, structured vulnerability detection without relying solely on human reviewers.</p>
-
-<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#security-audit</code>, <code class="language-plaintext highlighter-rouge">#coding-agent</code>, <code class="language-plaintext highlighter-rouge">#code-quality</code>, <code class="language-plaintext highlighter-rouge">#vulnerability-detection</code>, <code class="language-plaintext highlighter-rouge">#cloudflare</code></p>
-
-<hr />
-
-<p><a id="item-gh-trending-8"></a></p>
-<h3 id="makecindycindy-open-source-ai-agent-for-multi-step-dev-tasks-️-7010"><a href="https://github.com/makecindy/cindy">makecindy/cindy: Open-source AI agent for multi-step dev tasks</a> ⭐️ 7.0/10</h3>
-
-<p>Cindy is an open-source, general-purpose AI agent that executes multi-step development tasks from natural language instructions. It provides a runnable CLI and a TypeScript codebase for file operations, shell commands, web search, and code generation. The project is early in maturity with limited production validation.</p>
-
-<p>github · makecindy · Oct 25, 01:07</p>
-
-<p><strong>「Why recommended」</strong> Cindy targets the task-execution phase of development by letting developers delegate multi-step workflows to an LLM-driven agent, replacing manual scripting for repetitive file, shell, and search operations. With 4,108 stars and 477 gained today, it shows strong early community interest for developers wanting an out-of-the-box AI automation CLI.</p>
-
-<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#AI-agent</code>, <code class="language-plaintext highlighter-rouge">#developer-tools</code>, <code class="language-plaintext highlighter-rouge">#automation</code>, <code class="language-plaintext highlighter-rouge">#TypeScript</code>, <code class="language-plaintext highlighter-rouge">#CLI</code></p>
-
-<hr />
-
-<p><a id="item-gh-trending-9"></a></p>
-<h3 id="awsagent-toolkit-for-aws--official-aws-mcp-toolkit-for-ai-agents-️-7010"><a href="https://github.com/aws/agent-toolkit-for-aws">aws/agent-toolkit-for-aws – Official AWS MCP toolkit for AI agents</a> ⭐️ 7.0/10</h3>
-
-<p>aws/agent-toolkit-for-aws is an official, AWS-supported toolkit that provides MCP servers, skills, and plugins so AI agents can provision infrastructure, manage resources, and deploy applications on AWS. It is implemented primarily in Python and currently has 3,133 stars, indicating active community adoption while still being an evolving project.</p>
-
-<p>github · aws · Oct 25, 01:07</p>
-
-<p><strong>「Why recommended」</strong> It plugs directly into the context-supply and delivery phases by letting AI agents interact with real AWS services through standardized MCP interfaces, replacing manual console clicks or custom scripts. Teams building agent-driven cloud workflows on AWS — especially platform engineers and AI-agent developers — can use it to automate provisioning and deployment without leaving their agent environment.</p>
-
-<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#aws</code>, <code class="language-plaintext highlighter-rouge">#mcp-servers</code>, <code class="language-plaintext highlighter-rouge">#ai-agents</code>, <code class="language-plaintext highlighter-rouge">#infrastructure-as-code</code>, <code class="language-plaintext highlighter-rouge">#cloud-development</code></p>
-
-<hr />
-
-<p><a id="item-gh-trending-10"></a></p>
-<h3 id="codewhale-hqcodewhale-open-source-rust-terminal-ai-agent-with-multi-model-support-️-7010"><a href="https://github.com/codewhale-hq/Codewhale">codewhale-hq/Codewhale: Open-source Rust terminal AI agent with multi-model support</a> ⭐️ 7.0/10</h3>
-
-<p>Codewhale is an open-source terminal AI agent written in Rust that lets developers use any LLM provider or model for local-first coding assistance. It targets the writing-code and context-supply stages by running a multi-agent orchestration directly in the CLI. With 41k stars and a recent push on 2026-10-25, the project shows strong community interest and active maintenance, though detailed UX documentation and real-world workflow evidence are not yet visible from the provided metadata.</p>
-
-<p>github · codewhale-hq · Oct 25, 01:07</p>
-
-<p><strong>「Why recommended」</strong> It replaces the need for a GUI IDE plugin by bringing a multi-model, multi-agent coding assistant straight into the terminal, appealing to developers who prefer a keyboard-driven, local-first workflow and want the flexibility to swap providers without vendor lock-in.</p>
-
-<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#coding-agent</code>, <code class="language-plaintext highlighter-rouge">#cli</code>, <code class="language-plaintext highlighter-rouge">#rust</code>, <code class="language-plaintext highlighter-rouge">#local-first</code>, <code class="language-plaintext highlighter-rouge">#multi-model</code></p>
-
-<hr />
-
-<p><a id="item-gh-trending-11"></a></p>
-<h3 id="esenginedeepseek-reasonix--go-cli-coding-agent-for-complex-tasks-️-7010"><a href="https://github.com/esengine/DeepSeek-Reasonix">esengine/DeepSeek-Reasonix – Go CLI coding agent for complex tasks</a> ⭐️ 7.0/10</h3>
-
-<p>DeepSeek-Reasonix is a Go-based command-line coding agent designed to automate complex software engineering tasks. The project has gathered about 36k stars and shows recent commits, but the public repository does not yet provide detailed usage examples, benchmarks, or documented workflows that would confirm day-to-day reliability. It remains in an early, promising stage rather than production-ready.</p>
-
-<p>github · esengine · Oct 25, 01:07</p>
-
-<p><strong>「Why recommended」</strong> It targets the code-writing phase of development by offering an AI agent that can drive multi-step engineering tasks from the terminal, potentially replacing manual scripting or ad-hoc LLM prompting. The high star count signals strong community interest, making it worth evaluating for teams that want a CLI-native agent and are comfortable validating early-stage tooling themselves.</p>
-
-<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#coding-agent</code>, <code class="language-plaintext highlighter-rouge">#cli</code>, <code class="language-plaintext highlighter-rouge">#go</code>, <code class="language-plaintext highlighter-rouge">#developer-tools</code>, <code class="language-plaintext highlighter-rouge">#deepseek</code></p>
-
-<hr />
-
-<p><a id="item-gh-trending-12"></a></p>
-<h3 id="vitali87code-graph-rag-multi-language-monorepo-rag-with-mcp-server-️-7010"><a href="https://github.com/vitali87/code-graph-rag">vitali87/code-graph-rag: Multi-language monorepo RAG with MCP server</a> ⭐️ 7.0/10</h3>
-
-<p>vitali87/code-graph-rag is a Python-based retrieval-augmented generation system that builds a knowledge graph from multi-language monorepos using AST parsing and exposes it through an MCP server for querying and editing code. It targets the context-supply and code-understanding stages of development, letting LLMs navigate and modify large codebases with graph-backed precision. With 5,281 stars and 526 open issues since its June 2025 creation, the project is actively developed but still early in maturity.</p>
-
-<p>github · vitali87 · Oct 25, 01:07</p>
-
-<p><strong>「Why recommended」</strong> It plugs directly into the context-supply step of AI-assisted development by giving models a queryable, editable code graph instead of raw file snippets, which is especially useful for teams working across multiple languages in a single monorepo. The MCP server interface makes it compatible with Claude Code and other MCP-aware tools, so developers can adopt it without rewriting their existing AI workflow.</p>
-
-<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#code-understanding</code>, <code class="language-plaintext highlighter-rouge">#rag</code>, <code class="language-plaintext highlighter-rouge">#mcp-server</code>, <code class="language-plaintext highlighter-rouge">#knowledge-graph</code>, <code class="language-plaintext highlighter-rouge">#developer-tools</code></p>
-
-<hr />
-
-<p><a id="item-gh-trending-13"></a></p>
-<h3 id="sourcery-aisourcery--instant-ai-code-reviews-for-python-️-7010"><a href="https://github.com/sourcery-ai/sourcery">sourcery-ai/sourcery – Instant AI code reviews for Python</a> ⭐️ 7.0/10</h3>
-
-<p>Sourcery is an AI-powered code review bot that automatically suggests Python refactorings, complexity reductions, and best-practice improvements during pull-request reviews. It is implemented in Python and has been actively maintained since 2019, with the latest push in October 2026, indicating a usable but still evolving tool (120 open issues).</p>
-
-<p>github · sourcery-ai · Oct 25, 01:07</p>
-
-<p><strong>「Why recommended」</strong> It plugs directly into the code-review stage, replacing manual nit-picking with instant, automated refactor suggestions for Python teams that want faster, more consistent reviews without leaving their existing GitHub/GitLab workflow. The 1,877 stars and recent activity show an active community around this niche.</p>
-
-<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#ai-code-review</code>, <code class="language-plaintext highlighter-rouge">#python-refactoring</code>, <code class="language-plaintext highlighter-rouge">#code-quality</code>, <code class="language-plaintext highlighter-rouge">#developer-tools</code>, <code class="language-plaintext highlighter-rouge">#automated-refactoring</code></p>
-
-<hr />
-
-<p><a id="item-gh-trending-14"></a></p>
-<h3 id="kodustechkodus-ai-self-hosted-ai-code-review-bot-with-byok-️-7010"><a href="https://github.com/kodustech/kodus-ai">kodustech/kodus-ai: Self-hosted AI code review bot with BYOK</a> ⭐️ 7.0/10</h3>
-
-<p>kodus-ai is an open-source, self-hosted AI code review bot that lets teams bring their own LLM for automated pull request reviews. Built in TypeScript, it targets the code review phase as a self-hosted alternative to commercial tools like CodeRabbit. The project has 1,524 stars and recent commits as of October 2026, indicating active development, though 188 open issues suggest ongoing maintenance work.</p>
-
-<p>github · kodustech · Oct 25, 01:07</p>
-
-<p><strong>「Why recommended」</strong> It plugs directly into the PR review step, replacing or augmenting manual reviews with an LLM you control, which is useful for teams that need data privacy or want to avoid per-seat SaaS costs. The self-hosted, BYOK model makes it a practical choice for organizations that already run their own infrastructure and prefer to choose their model provider.</p>
-
-<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#ai-code-review</code>, <code class="language-plaintext highlighter-rouge">#self-hosted</code>, <code class="language-plaintext highlighter-rouge">#byok</code>, <code class="language-plaintext highlighter-rouge">#developer-tool</code>, <code class="language-plaintext highlighter-rouge">#code-review-automation</code></p>
-
-<hr />
-
-<p><a id="item-gh-trending-15"></a></p>
-<h3 id="hexmostechgit-lrc-free-ai-code-reviews-on-git-commit-hooks-️-7010"><a href="https://github.com/HexmosTech/git-lrc">HexmosTech/git-lrc: Free AI code reviews on git commit hooks</a> ⭐️ 7.0/10</h3>
-
-<p>HexmosTech/git-lrc is a free, micro AI code reviewer that runs on git commit hooks using Google&#x27;s Gemini model. Written in Go, it automates small-scale reviews at commit time to reduce manual review overhead. With 1,474 stars and recent commits as of October 2026, the project appears actively maintained but its production readiness and ease of adoption have not been independently verified.</p>
-
-<p>github · HexmosTech · Oct 25, 01:07</p>
-
-<p><strong>「Why recommended」</strong> It plugs directly into the commit step of the development workflow, giving developers instant, automated feedback before code reaches a pull request. Teams looking to catch obvious issues early without adding CI latency or cost may find it a lightweight alternative to heavier review bots.</p>
-
-<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#ai-code-review</code>, <code class="language-plaintext highlighter-rouge">#git-hooks</code>, <code class="language-plaintext highlighter-rouge">#commit-automation</code>, <code class="language-plaintext highlighter-rouge">#gemini</code>, <code class="language-plaintext highlighter-rouge">#developer-tools</code></p>
-
-<hr />
-
-<p><a id="item-gh-trending-16"></a></p>
-<h3 id="truongnh1992gemini-ai-code-reviewer-github-action-for-ai-code-review-with-gemini-️-7010"><a href="https://github.com/truongnh1992/gemini-ai-code-reviewer">truongnh1992/gemini-ai-code-reviewer: GitHub Action for AI code review with Gemini</a> ⭐️ 7.0/10</h3>
-
-<p>This repository provides a GitHub Action that uses Google&#x27;s Gemini AI to automatically review pull requests. It integrates directly into the PR workflow to replace or augment manual first-pass reviews. The implementation is written in Python and the project has 257 stars with recent commits as of October 2026, indicating active maintenance, though it remains in an early stage with 13 open issues and limited production case studies.</p>
-
-<p>github · truongnh1992 · Oct 25, 01:07</p>
-
-<p><strong>「Why Recommended」</strong> It targets the code-review stage of development, letting teams automate initial review feedback with an LLM instead of relying solely on human reviewers. The 257 stars and recent activity suggest a usable level of community validation for small-to-medium projects wanting to experiment with AI-assisted review without leaving GitHub Actions.</p>
-
-<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#ai-code-review</code>, <code class="language-plaintext highlighter-rouge">#github-action</code>, <code class="language-plaintext highlighter-rouge">#gemini-ai</code>, <code class="language-plaintext highlighter-rouge">#code-quality</code>, <code class="language-plaintext highlighter-rouge">#devops-automation</code></p>
-
-<hr />
-
-<p><a id="item-gh-trending-17"></a></p>
-<h3 id="iamumeransariclaude-show-your-work-visual-qa-plugin-for-claude-code-terminal-️-7010"><a href="https://github.com/iamumeransari/claude-show-your-work">iamumeransari/claude-show-your-work: Visual QA plugin for Claude Code terminal</a> ⭐️ 7.0/10</h3>
-
-<p>claude-show-your-work is a TypeScript plugin for Claude Code that renders images, videos, and Playwright recordings directly inside terminals supporting the kitty graphics protocol. It lets developers visually review AI agent output — such as UI screenshots, test recordings, and before/after comparisons — without leaving the terminal, and runs on macOS, Linux, and Windows. The project was created in October 2026, has 263 stars, and its last push was on 2026-10-15, indicating active early development.</p>
-
-<p>github · iamumeransari · Oct 25, 01:07</p>
-
-<p><strong>「Why recommended」</strong> It plugs into the code-review and QA step of agentic coding workflows, replacing the need to open external browsers or image viewers to inspect visual artifacts produced by AI agents. The tool is aimed at developers using Claude Code with kitty-compatible terminals (e.g., Ghostty, kitty, WezTerm) who want a faster feedback loop when verifying UI changes or Playwright test results.</p>
-
-<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#claude-code-plugin</code>, <code class="language-plaintext highlighter-rouge">#agentic-coding</code>, <code class="language-plaintext highlighter-rouge">#developer-tools</code>, <code class="language-plaintext highlighter-rouge">#visual-qa</code>, <code class="language-plaintext highlighter-rouge">#terminal-graphics</code></p>
-
-<hr />
-
-<p><a id="item-gh-trending-18"></a></p>
-<h3 id="sno-aisno-station-skills-31-skills-to-run-claude-code-and-codex-as-a-team-️-6010"><a href="https://github.com/sno-ai/sno-station-skills">sno-ai/sno-station-skills: 31 skills to run Claude Code and Codex as a team</a> ⭐️ 6.0/10</h3>
-
-<p>sno-station-skills is a shell-based framework that packages 31 skills for orchestrating Claude Code and Codex as a collaborative AI coding team. It automates cross-vendor peer review, quota-aware handoff, morning briefs, work-order tracking, and a nightly learning loop that extracts patterns from past sessions. The project is very new (created 2026-10-01) and currently shows a high fork-to-star ratio with no visible documentation or skill definitions in the provided metadata, so its maturity and reproducibility remain unverified.</p>
-
-<p>github · sno-ai · Oct 25, 01:07</p>
-
-<p><strong>「Why recommended」</strong> It targets the code-review and context-handoff stages of the development loop, letting developers replace manual coordination between Claude Code and Codex with automated skill scripts. Teams that already use both tools and want a drop-in way to enforce peer review, quota failover, and session retrospection may find it useful once the skill implementations are inspectable.</p>
-
-<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#agentic-coding</code>, <code class="language-plaintext highlighter-rouge">#ai-code-review</code>, <code class="language-plaintext highlighter-rouge">#claude-code</code>, <code class="language-plaintext highlighter-rouge">#codex</code>, <code class="language-plaintext highlighter-rouge">#developer-productivity</code></p>
-
-<hr />
-
-<p><a id="item-gh-trending-19"></a></p>
-<h3 id="dagostesquadra--orchestrate-multiple-ai-coding-agents-with-shared-tasks-and-a-local-dashboard-️-6010"><a href="https://github.com/dagoSte/squadra">dagoSte/squadra – Orchestrate multiple AI coding agents with shared tasks and a local dashboard</a> ⭐️ 6.0/10</h3>
-
-<p>Squadra is a Python tool that coordinates Claude, Codex, and Cursor agents through shared tasks, prechecks, parallel tests, and a bilingual local dashboard with MCP plugin support. It also bundles skills recall, code simplification, and work forecasting to streamline AI-assisted coding workflows. The project was created in late September 2026 and remains in an early, experimental stage with limited external validation.</p>
-
-<p>github · dagoSte · Oct 25, 01:07</p>
-
-<p><strong>「Why recommended」</strong> It targets the orchestration layer of AI-assisted development, letting teams run multiple agents in parallel while keeping tasks, tests, and evidence synchronized — useful for developers who already juggle Claude, Codex, or Cursor and want a single control plane. The 456 stars indicate early community interest, but the lack of issues, forks, and documented adoption suggests it should be evaluated in a sandbox before relying on it for production work.</p>
-
-<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#agent-orchestration</code>, <code class="language-plaintext highlighter-rouge">#ai-coding</code>, <code class="language-plaintext highlighter-rouge">#developer-tools</code>, <code class="language-plaintext highlighter-rouge">#claude-code</code>, <code class="language-plaintext highlighter-rouge">#code-review</code></p>
-
-<hr />
-
-<p><a id="item-gh-trending-20"></a></p>
-<h3 id="pullboard-devpullboard-autonomous-agent-driven-development-cli-with-governance-️-6010"><a href="https://github.com/pullboard-dev/pullboard">pullboard-dev/pullboard: Autonomous agent-driven development CLI with governance</a> ⭐️ 6.0/10</h3>
-
-<p>Pullboard is a CLI tool that orchestrates governed AI agents to implement code from approved specifications and enforce rules before merging. It targets the coding and code-review phases by replacing manual implementation and review with autonomous agent workflows. Built in JavaScript, the project was created in early October 2026 and shows recent activity, but with only 264 stars and 18 forks it remains an early-stage, experimental release rather than a production-ready solution.</p>
-
-<p>github · pullboard-dev · Oct 25, 01:07</p>
-
-<p><strong>「Why recommended」</strong> Pullboard fits developers who want to experiment with fully autonomous agent-driven development, letting agents write code and a separate agent verify it against predefined rules before merge. It replaces the manual coding and review loop with a governed orchestration layer, which may appeal to teams exploring AI-governed workflows. The modest star count (264) signals early community interest but not yet proven adoption.</p>
-
-<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#agentic-coding</code>, <code class="language-plaintext highlighter-rouge">#ai-agents</code>, <code class="language-plaintext highlighter-rouge">#code-review</code>, <code class="language-plaintext highlighter-rouge">#cli</code>, <code class="language-plaintext highlighter-rouge">#developer-tools</code></p>
-
-<hr />
-
-<p><a id="item-gh-trending-21"></a></p>
-<h3 id="ccch1mneyyydsh-tui-terminal-ui-plugin-for-deepseek-harness-coding-agent-️-5010"><a href="https://github.com/ccch1mneyyy/dsh-TUI">ccch1mneyyy/dsh-TUI: Terminal UI plugin for DeepSeek Harness coding agent</a> ⭐️ 5.0/10</h3>
-
-<p>dsh-TUI is a terminal user interface plugin built with TypeScript, React, and Ink for the DeepSeek Harness (DSH) coding agent. It provides a pixel-art whale interface with mouse interaction to improve the human–agent interaction loop. The package is published on npm, has recent commits, and is marked as the officially recommended TUI plugin for DSH, indicating it is runnable and actively maintained.</p>
-
-<p>github · ccch1mneyyy · Oct 25, 01:07</p>
-
-<p><strong>「Why recommended」</strong> It enhances the context-supply and interaction layer of the development workflow for developers already using the DeepSeek Harness framework, offering a low-overhead, mouse-friendly UI alternative to raw terminal output. With over 5,600 stars and recent activity, it signals strong community adoption within the DSH ecosystem.</p>
-
-<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#coding-agent</code>, <code class="language-plaintext highlighter-rouge">#tui</code>, <code class="language-plaintext highlighter-rouge">#terminal-ui</code>, <code class="language-plaintext highlighter-rouge">#deepseek-harness</code>, <code class="language-plaintext highlighter-rouge">#ink-react</code></p>
-
-<hr />
-
-<p><a id="item-gh-trending-22"></a></p>
-<h3 id="can1357oh-my-pi--ai-coding-agent-with-ide-integration-️-5010"><a href="https://github.com/can1357/oh-my-pi">can1357/oh-my-pi – AI coding agent with IDE integration</a> ⭐️ 5.0/10</h3>
-
-<p>oh-my-pi is described as a coding agent that wires directly into the IDE, built by Stencil Labs and implemented in TypeScript. The repository metadata shows impossible future dates (created 2025-12-31, last pushed 2026-10-24) and an unusually high open-issue count (4,255) relative to its star count, so the project&#x27;s actual maturity, functionality, and maintenance status cannot be verified from the supplied data.</p>
-
-<p>github · can1357 · Oct 25, 01:07</p>
-
-<p><strong>「Why recommended」</strong> If the description is accurate, the tool targets the code-authoring stage by providing an AI agent that lives inside the developer&#x27;s IDE, potentially replacing or augmenting manual coding and multi-provider LLM switching. The 36k stars suggest strong community interest, but the corrupted timestamps and issue volume mean any recommendation must be conditional on independent verification of a working, maintained release.</p>
-
-<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#ai-coding-agent</code>, <code class="language-plaintext highlighter-rouge">#cli</code>, <code class="language-plaintext highlighter-rouge">#typescript</code>, <code class="language-plaintext highlighter-rouge">#unreliable-metadata</code>, <code class="language-plaintext highlighter-rouge">#needs-verification</code></p>
-
-<hr />
-
-<h2 id="ai-news">AI News</h2>
-
-<p><a id="item-ai-news-1"></a></p>
-<h3 id="anemll-forge-021-runs-qwen38-27b-on-m6-mac-mini-32gb-with-192k-context-️-9010"><a href="https://www.reddit.com/r/LocalLLaMA/comments/1xejv61/m6_mac_mini_owners_32gb_now_you_can_run_qwen3827b/">ANEMLL Forge 0.2.1 runs Qwen3.8-27B on M6 Mac Mini 32GB with 192K context</a> ⭐️ 9.0/10</h3>
-
-<p>ANEMLL Forge 0.2.1 enables running Qwen3.8-27B on the Apple Neural Engine of an M6 Mac Mini with 32 GB RAM, supporting up to 192K context. The release adds INT8 K/V cache (half the FP16 size) and a smaller drafter sharing the target&#x27;s output head, saving 0.86 GB ANE memory without speed loss. Decode speeds vary by content: JSON 35–62 tok/s, code 18–32 tok/s, prose 10–17 tok/s. Prefill is 260 tok/s at short context and 62 tok/s at 192K. The 128K–192K range uses a smaller prefill batch (32 vs 64 rows) to fit memory. First full 192K compile takes ~2 hours on M6 (one-time, cached); using `–ctx` to export only needed context sizes cuts compile drastically (16K ~10 minutes from download to running server). The author suggests 96K as the sweet spot: 123 tok/s prefill, ~27 tok/s decode, ~21.4 GB total memory. Release notes, a demo video, and a technical paper are linked.</p>
-
-<p>reddit · r/LocalLLaMA · /u/Competitive-Bake4602 · Oct 24, 21:05</p>
-
-<p><strong>「Why it matters」</strong> M6 Mac Mini owners with 32 GB can now run a 27B-parameter model locally on the Neural Engine with long context, using ANEMLL Forge 0.2.1. First step: install the release, choose a context size via `–ctx` (e.g., 16K for quick start, 96K for balanced speed/memory), and expect a one-time compile wait. This makes high-quality local inference practical on consumer Apple silicon without GPU offload.</p>
-
-<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#local-llm</code>, <code class="language-plaintext highlighter-rouge">#apple-neural-engine</code>, <code class="language-plaintext highlighter-rouge">#qwen</code>, <code class="language-plaintext highlighter-rouge">#mac-mini</code>, <code class="language-plaintext highlighter-rouge">#anemll-forge</code></p>
-
-<hr />
-
-<p><a id="item-ai-news-2"></a></p>
-<h3 id="qwen-flash-next-coder-6b-moe-runs-262k-context-on-8-gb-gpu-via-llamacpp-️-8010"><a href="https://www.reddit.com/r/LocalLLaMA/comments/1xebdzl/8_gb_gpu_262k_context_35_bpw_qwenflashnext_coder/">Qwen-Flash-Next Coder 6B MoE runs 262K context on 8 GB GPU via llama.cpp</a> ⭐️ 8.0/10</h3>
-
-<p>Reddit user /u/jonathanx37 reports running Qwen-Flash-Next Coder (6B active parameters, MoE) at 3.5 BPW GSQ RCO quantization with 262K context on an 8 GB VRAM GPU using llama.cpp. The setup offloads most MoE experts to system RAM (keeping the smallest in VRAM) and places the n-gram cache on a fast SSD, using the Vulkan backend because CUDA reportedly fails at this VRAM level. Measured throughput is ~70 tokens/s prefill and ~8 tokens/s generation (PCIe 3.0 limited). The model is an official ISTA DASLab quant; pruning halves the expert count, yielding an effective 1.89 bits per original parameter, but retained weights remain at 3.5 BPW. Launch parameters and the qwen sharp chat template are provided in the comment thread.</p>
-
-<p>reddit · r/LocalLLaMA · /u/jonathanx37 · Oct 24, 15:21</p>
-
-<p><strong>「Why it matters」</strong> Developers with 8 GB GPUs and ~32 GB system RAM can immediately try a 262K-context MoE coding model by cloning the llama.cpp launch flags and quantization from the Reddit thread; the Vulkan backend workaround and memory-split recipe are directly reproducible for local LLM inference.</p>
-
-<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#llama.cpp</code>, <code class="language-plaintext highlighter-rouge">#Qwen-Flash-Next</code>, <code class="language-plaintext highlighter-rouge">#MoE</code>, <code class="language-plaintext highlighter-rouge">#quantization</code>, <code class="language-plaintext highlighter-rouge">#local-LLM</code></p>
-
-<hr />
-
-<p><a id="item-ai-news-3"></a></p>
-<h3 id="open-source-browser-rhythm-game-runs-4-neural-nets-locally-via-onnx-runtime-web-️-8010"><a href="https://www.reddit.com/r/LocalLLaMA/comments/1xeia9o/made_a_rhythm_game_where_4_small_neural_nets/">Open-source browser rhythm game runs 4 neural nets locally via ONNX Runtime Web</a> ⭐️ 8.0/10</h3>
-
-<p>Reddit user /u/MrFelliks released Struna, an open-source browser rhythm game that runs four small neural networks locally using ONNX Runtime Web (WASM) in separate web workers. The models — BeatNet (~1.6 MB) for beat and downbeat tracking, Spotify&#x27;s Basic Pitch (~0.2 MB) for note transcription, Spleeter vocals net (~20 MB) for source separation, and SwiftF0 (~0.1 MB) for pitch tracking — total about 22 MB and are cached after first load. Users can drop in their own MP3 files; all inference happens on-device with no uploads. If a device cannot run the models in real time, the game falls back to traditional DSP (onsets, loudness, drop detection) while still generating deterministic levels. The game is playable at struna.ai (including mobile) and the MIT-licensed source is on GitHub at github.com/Felliks/Struna.</p>
-
-<p>reddit · r/LocalLLaMA · /u/MrFelliks · Oct 24, 19:59</p>
-
-<p><strong>「Why it matters」</strong> Struna provides a ready-to-run, open-source example of client-side multi-model audio inference in the browser, showing how to orchestrate several ONNX models in web workers for real-time gameplay. Developers exploring local AI audio applications can study the model choices, fallback strategy, and deterministic level generation, then try the live demo or fork the repository to adapt the pipeline for their own projects.</p>
-
-<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#onnxruntime-web</code>, <code class="language-plaintext highlighter-rouge">#web-audio</code>, <code class="language-plaintext highlighter-rouge">#client-side-inference</code>, <code class="language-plaintext highlighter-rouge">#rhythm-game</code>, <code class="language-plaintext highlighter-rouge">#open-source</code></p>
-
-<hr />
-
-<p><a id="item-ai-news-4"></a></p>
-<h3 id="battledrones-v14-adds-four-player-map-compass-rose-with-websocket-multiplayer-️-7010"><a href="https://simonwillison.net/2026/Oct/24/battledrones/">Battledrones v14 adds four-player map Compass Rose with WebSocket multiplayer</a> ⭐️ 7.0/10</h3>
-
-<p>Simon Willison released Battledrones v14, introducing a new four-player map called "Compass Rose" with four-way rotational symmetry and WebSocket multiplayer support for up to four human players (with AI filling empty slots). The map uses a cold/ice biome and adds purple and green robot teams alongside the existing blue and red. The release was implemented using a single prompt to Claude Opus 5.5, which also modified the WebSocket network code. A live replay link demonstrates a four-way AI battle with the "Goliath Armada" mutator, and an updated model browser shows the new team colors. The GitHub release is tagged v14.</p>
-
-<p>rss · Simon Willison · Oct 24, 03:59</p>
-
-<p><strong>「Why it matters」</strong> Developers experimenting with AI-assisted game development can study the exact prompt used to generate a multiplayer map and WebSocket changes, then clone the repo to test the four-player mode immediately. The replay link and model browser let you evaluate the new map balance and visual design without running the code yourself.</p>
-
-<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#AI-assisted development</code>, <code class="language-plaintext highlighter-rouge">#WebSocket multiplayer</code>, <code class="language-plaintext highlighter-rouge">#open-source game</code>, <code class="language-plaintext highlighter-rouge">#Claude Opus</code>, <code class="language-plaintext highlighter-rouge">#game development</code></p>
-
-<hr />
-
-<p><a id="item-ai-news-5"></a></p>
-<h3 id="marktechpost-publishes-letta-tutorial-on-stateful-engineering-copilots-️-6010"><a href="https://www.marktechpost.com/2026/10/24/stateful-engineering-copilots-letta-tutorial/">MarkTechPost publishes Letta tutorial on stateful engineering copilots</a> ⭐️ 6.0/10</h3>
-
-<p>MarkTechPost published a tutorial announcement for building stateful engineering copilots with Letta, covering core memory, shared state, semantic retrieval, custom tools, streaming, and portable agent workflows. The RSS excerpt provides only a brief description without implementation details, code examples, version information, or installation steps. The full article at the linked URL would contain the complete tutorial content.</p>
-
-<p>rss · MarkTechPost · Oct 24, 10:29</p>
-
-<p><strong>「Why It Matters」</strong> AI practitioners interested in agentic engineering can use this tutorial to learn advanced memory patterns for Letta-based copilots. To get started, visit the full article at the provided URL for complete implementation guidance, code examples, and setup instructions.</p>
-
-<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#Letta</code>, <code class="language-plaintext highlighter-rouge">#AI agents</code>, <code class="language-plaintext highlighter-rouge">#engineering copilots</code>, <code class="language-plaintext highlighter-rouge">#stateful agents</code>, <code class="language-plaintext highlighter-rouge">#tutorial</code></p>
-
-<hr />
-
-<p><a id="item-ai-news-6"></a></p>
-<h3 id="reddit-post-warns-kld-is-misused-for-quantized-llm-evaluation-️-6010"><a href="https://www.reddit.com/r/LocalLLaMA/comments/1xeim3m/kld_is_misunderstood/">Reddit post warns KLD is misused for quantized LLM evaluation</a> ⭐️ 6.0/10</h3>
-
-<p>A Reddit post on r/LocalLLaMA argues that Kullback-Leibler Divergence (KLD) is widely misunderstood as a universal quality metric for quantized LLMs. The author explains that KLD only measures how much a quantized model&#x27;s token probability distributions deviate from the base model on a specific input dataset. Two major pitfalls are highlighted: evaluating on static corpora like Wikipedia fails to capture the self-generated context during actual inference, and KLD numbers are easily manipulated by calibrating or fine-tuning quantization parameters on the same or similar data used for evaluation. The post recommends generating an evaluation dataset with the base model and computing KLD only on generated tokens (zero weight on prompt tokens) for a more representative diagnostic, but emphasizes KLD remains a limited diagnostic tool, not a reliable leaderboard for model quality.</p>
-
-<p>reddit · r/LocalLLaMA · /u/Positive-Resource922 · Oct 24, 20:12</p>
-
-<p><strong>「Why it matters」</strong> If you benchmark quantized LLMs, stop treating published KLD numbers as a quality ranking. Instead, generate your own evaluation data with the base model and measure KLD only on generated tokens to get a more meaningful diagnostic of quantization drift. Be skeptical of vendor-reported KLD figures, especially when calibration and evaluation data sources overlap.</p>
-
-<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#LLM quantization</code>, <code class="language-plaintext highlighter-rouge">#model evaluation</code>, <code class="language-plaintext highlighter-rouge">#KLD</code>, <code class="language-plaintext highlighter-rouge">#benchmarking</code>, <code class="language-plaintext highlighter-rouge">#LocalLLaMA</code></p>
-
-<hr />
-
-<p><a id="item-ai-news-7"></a></p>
-<h3 id="meta-trains-byte-level-models-via-distillation-predicts-they-surpass-token-models-with-more-compute-️-6010"><a href="https://www.reddit.com/r/LocalLLaMA/comments/1xe88ja/meta_trained_small_ai_models_to_read_raw_bytes/">Meta trains byte-level models via distillation; predicts they surpass token models with more compute</a> ⭐️ 6.0/10</h3>
-
-<p>Meta researchers trained ~1B-parameter language models that read raw bytes instead of tokens, using knowledge distillation from a Llama 3 8B teacher. In early training, token-based models outperformed byte models by a wide margin. However, token models plateaued while byte models continued improving; extrapolating the scaling curves predicts byte models would eventually surpass Llama 3.2 1B and Gemma 3 1B by a few points. Byte models also reached comparable quality with roughly 6× less training text. The superiority claim is a prediction based on curve extrapolation, not an observed result. Byte-level processing requires about 5× more steps per text (since a token covers ~4–5 bytes), trading data efficiency for higher compute per sequence. Experiments were limited to small models; no code, weights, or reproducible setup have been released.</p>
-
-<p>reddit · r/LocalLLaMA · /u/DotaMate · Oct 24, 13:08</p>
-
-<p><strong>「Why it matters」</strong> If the predicted scaling advantage holds, byte-level models could deliver higher quality at the same parameter budget for on-device deployment (phones, laptops) while eliminating tokenization artifacts such as letter-counting errors. Practitioners should treat this as a research signal: monitor follow-up work on making byte models compute-efficient and on validating the extrapolation at larger scales before investing engineering effort.</p>
-
-<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#byte-level-model</code>, <code class="language-plaintext highlighter-rouge">#knowledge-distillation</code>, <code class="language-plaintext highlighter-rouge">#model-efficiency</code>, <code class="language-plaintext highlighter-rouge">#llama</code>, <code class="language-plaintext highlighter-rouge">#research-paper</code></p>
 
 <hr />
  ]]></content>
