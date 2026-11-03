@@ -1,4 +1,476 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="https://www.01040610.xyz/horizon/feed.xml" rel="self" type="application/atom+xml" /><link href="https://www.01040610.xyz/horizon/" rel="alternate" type="text/html" /><updated>2026-11-02T02:40:51+00:00</updated><id>https://www.01040610.xyz/horizon/feed.xml</id><title type="html">Horizon 每日速递</title><subtitle>由 AI 自动筛选的 GitHub 热点项目、AI 新闻与 X / YouTube 热门内容</subtitle><entry xml:lang="en"><title type="html">Horizon Summary: 2026-11-02 (EN)</title><link href="https://www.01040610.xyz/horizon/2026/11/02/summary-en.html" rel="alternate" type="text/html" title="Horizon Summary: 2026-11-02 (EN)" /><published>2026-11-02T00:00:00+00:00</published><updated>2026-11-02T00:00:00+00:00</updated><id>https://www.01040610.xyz/horizon/2026/11/02/summary-en</id><content type="html" xml:base="https://www.01040610.xyz/horizon/2026/11/02/summary-en.html"><![CDATA[<blockquote>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="https://www.01040610.xyz/horizon/feed.xml" rel="self" type="application/atom+xml" /><link href="https://www.01040610.xyz/horizon/" rel="alternate" type="text/html" /><updated>2026-11-03T04:03:32+00:00</updated><id>https://www.01040610.xyz/horizon/feed.xml</id><title type="html">Horizon 每日速递</title><subtitle>由 AI 自动筛选的 GitHub 热点项目、AI 新闻与 X / YouTube 热门内容</subtitle><entry xml:lang="en"><title type="html">Horizon Summary: 2026-11-03 (EN)</title><link href="https://www.01040610.xyz/horizon/2026/11/03/summary-en.html" rel="alternate" type="text/html" title="Horizon Summary: 2026-11-03 (EN)" /><published>2026-11-03T00:00:00+00:00</published><updated>2026-11-03T00:00:00+00:00</updated><id>https://www.01040610.xyz/horizon/2026/11/03/summary-en</id><content type="html" xml:base="https://www.01040610.xyz/horizon/2026/11/03/summary-en.html"><![CDATA[<blockquote>
+  <p>Showing 14 of 137 fetched items.</p>
+</blockquote>
+
+<hr />
+
+<p><strong>AI Dev Tools</strong></p>
+<ol>
+  <li><a href="#item-gh-trending-1">OthmanAdi/planning-with-files: Persistent file-based planning for AI coding agents</a> ⭐️ 9.0/10</li>
+  <li><a href="#item-gh-trending-2">JustVugg/colibri: Pure-C MoE inference engine streaming experts from disk</a> ⭐️ 8.0/10</li>
+  <li><a href="#item-gh-trending-3">max-sixty/worktrunk: Git worktree CLI for parallel AI agent workflows</a> ⭐️ 8.0/10</li>
+  <li><a href="#item-gh-trending-4">upstash/context7: MCP server for up-to-date AI agent docs</a> ⭐️ 8.0/10</li>
+  <li><a href="#item-gh-trending-5">vercel-labs/agent-desktop: Computer-use CLI for AI agents</a> ⭐️ 6.0/10</li>
+  <li><a href="#item-gh-trending-6">mattpocock/skills: AI agent skills collection for engineers</a> ⭐️ 5.0/10</li>
+  <li><a href="#item-gh-trending-7">FlashML-org/FreeToken: Local LLM inference server for desktop</a> ⭐️ 5.0/10</li>
+</ol>
+
+<p><strong>AI News</strong></p>
+<ol>
+  <li><a href="#item-ai-news-1">vLLM v0.33.0rc3 adds 10+ models, PyTorch 2.14, CUDA 13.0-only, AWS EFA image</a> ⭐️ 7.0/10</li>
+  <li><a href="#item-ai-news-2">llm 0.37 adds OpenAI-compatible endpoint command, cheaper default model</a> ⭐️ 7.0/10</li>
+  <li><a href="#item-ai-news-3">ISTA releases 1-bit/param DeepSeek-V4.1-Flash Coder with expert pruning</a> ⭐️ 7.0/10</li>
+  <li><a href="#item-ai-news-4">RTX 8000 48GB Used Prices Drop to ~$2100, Beats Dual 3090s for VRAM per Dollar</a> ⭐️ 7.0/10</li>
+  <li><a href="#item-ai-news-5">Local LLM analyzes 16 years of city council minutes; user seeks YouTube transcript scraping advice</a> ⭐️ 6.0/10</li>
+</ol>
+
+<p><strong>X / YouTube Highlights</strong></p>
+<ol>
+  <li><a href="#item-social-hot-1">GitHub Copilot Day Live: New Releases, Live Coding &amp; Workflows</a> ⭐️ 7.0/10</li>
+  <li><a href="#item-social-hot-2">7 NSA GitHub Tools Tested in Lab: Ghidra &amp; YARA Walkthrough</a> ⭐️ 7.0/10</li>
+</ol>
+
+<hr />
+
+<h2 id="ai-dev-tools">AI Dev Tools</h2>
+
+<p><a id="item-gh-trending-1"></a></p>
+<h3 id="othmanadiplanning-with-files-persistent-file-based-planning-for-ai-coding-agents-️-9010"><a href="https://github.com/OthmanAdi/planning-with-files">OthmanAdi/planning-with-files: Persistent file-based planning for AI coding agents</a> ⭐️ 9.0/10</h3>
+
+<p>OthmanAdi/planning-with-files provides persistent, file-based planning for AI coding agents to prevent context rot and enable crash-proof, recoverable long-running tasks. It uses markdown plans that survive /clear and compaction events, with per-turn re-injection to maintain context across sessions. The tool is implemented primarily in Shell and integrates via npm, the Claude Code marketplace, and npx, supporting 60+ agents including Codex, Cursor, OpenCode, and Copilot. With 27.8k stars and recent activity, it appears to be in active, production-ready use.</p>
+
+<p>github · OthmanAdi · Nov 3, 03:55</p>
+
+<p><strong>「Why Recommended」</strong> This tool strengthens the context-supply and code-writing phases by making AI agent planning durable and recoverable, replacing fragile in-memory context with persistent markdown files that survive session resets. It suits developers running long, multi-turn coding tasks with any of the 60+ supported agents who need reliable session recovery and deterministic completion gating.</p>
+
+<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#ai-coding-agent</code>, <code class="language-plaintext highlighter-rouge">#context-engineering</code>, <code class="language-plaintext highlighter-rouge">#session-recovery</code>, <code class="language-plaintext highlighter-rouge">#planning</code>, <code class="language-plaintext highlighter-rouge">#developer-tools</code></p>
+
+<hr />
+
+<p><a id="item-gh-trending-2"></a></p>
+<h3 id="justvuggcolibri-pure-c-moe-inference-engine-streaming-experts-from-disk-️-8010"><a href="https://github.com/JustVugg/colibri">JustVugg/colibri: Pure-C MoE inference engine streaming experts from disk</a> ⭐️ 8.0/10</h3>
+
+<p>colibri is a pure-C, zero-dependency inference engine that streams Mixture-of-Experts (MoE) model experts from disk, allowing frontier LLMs to run on commodity hardware without expensive GPUs or cloud APIs. It targets local AI-assisted coding workflows by making large model inference accessible on existing hardware. The project has gained significant community traction with over 46k stars, indicating active interest and validation.</p>
+
+<p>github · JustVugg · Nov 3, 03:55</p>
+
+<p><strong>「Why Recommended」</strong> colibri fits the model-serving and local-inference stage of AI-assisted development, replacing the need for cloud LLM APIs or high-VRAM GPUs by streaming MoE experts from disk in a lightweight C runtime. It suits developers who want to run frontier models locally for coding assistance without infrastructure overhead.</p>
+
+<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#local-llm-inference</code>, <code class="language-plaintext highlighter-rouge">#moe-models</code>, <code class="language-plaintext highlighter-rouge">#c-language</code>, <code class="language-plaintext highlighter-rouge">#zero-dependencies</code>, <code class="language-plaintext highlighter-rouge">#edge-ai</code></p>
+
+<hr />
+
+<p><a id="item-gh-trending-3"></a></p>
+<h3 id="max-sixtyworktrunk-git-worktree-cli-for-parallel-ai-agent-workflows-️-8010"><a href="https://github.com/max-sixty/worktrunk">max-sixty/worktrunk: Git worktree CLI for parallel AI agent workflows</a> ⭐️ 8.0/10</h3>
+
+<p>Worktrunk is a Rust CLI that manages Git worktrees to enable parallel AI agent sessions with isolated contexts. It addresses the context isolation and branch management challenges when running multiple AI agents simultaneously. The tool is available as a ready-to-install binary with over 10k stars indicating active community adoption.</p>
+
+<p>github · max-sixty · Nov 3, 03:55</p>
+
+<p><strong>「Why Recommended」</strong> It streamlines the context-supply and parallel development step by automating worktree creation and switching, replacing manual git worktree commands for developers who run concurrent AI coding agents. The 10k+ stars reflect strong community validation for this workflow.</p>
+
+<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#git-worktree</code>, <code class="language-plaintext highlighter-rouge">#cli-tool</code>, <code class="language-plaintext highlighter-rouge">#ai-agent-workflow</code>, <code class="language-plaintext highlighter-rouge">#parallel-development</code>, <code class="language-plaintext highlighter-rouge">#rust</code></p>
+
+<hr />
+
+<p><a id="item-gh-trending-4"></a></p>
+<h3 id="upstashcontext7-mcp-server-for-up-to-date-ai-agent-docs-️-8010"><a href="https://github.com/upstash/context7">upstash/context7: MCP server for up-to-date AI agent docs</a> ⭐️ 8.0/10</h3>
+
+<p>Context7 is an MCP server that supplies AI agents with current documentation, solving the problem of stale docs causing hallucinations in AI coding assistants. It is implemented in TypeScript and exposes a reproducible MCP integration for real-time context supply. With over 64k stars and recent pushes, the project appears production ready.</p>
+
+<p>github · upstash · Nov 3, 03:55</p>
+
+<p><strong>「Why Recommended」</strong> It fits the context-supply stage of AI-assisted development by replacing manual doc lookups with an automated, up-to-date MCP endpoint, benefiting teams that rely on AI agents for code generation or review. The high star count signals strong community adoption and ongoing maintenance.</p>
+
+<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#mcp-server</code>, <code class="language-plaintext highlighter-rouge">#context-supply</code>, <code class="language-plaintext highlighter-rouge">#ai-coding-assistant</code>, <code class="language-plaintext highlighter-rouge">#documentation</code>, <code class="language-plaintext highlighter-rouge">#typescript</code></p>
+
+<hr />
+
+<p><a id="item-gh-trending-5"></a></p>
+<h3 id="vercel-labsagent-desktop-computer-use-cli-for-ai-agents-️-6010"><a href="https://github.com/vercel-labs/agent-desktop">vercel-labs/agent-desktop: Computer-use CLI for AI agents</a> ⭐️ 6.0/10</h3>
+
+<p>vercel-labs/agent-desktop is a Rust CLI that gives AI agents computer-use capabilities, letting them control a desktop environment. It targets the context-provision and agent-tooling segment of developer productivity. The project is early-stage with limited public documentation, so maturity is experimental.</p>
+
+<p>github · vercel-labs · Nov 3, 03:55</p>
+
+<p><strong>「Why Recommended」</strong> It provides a ready-made CLI for adding desktop control to AI agents, replacing custom automation scripts. The 10k+ stars signal strong community interest, making it worth evaluating for agent developers.</p>
+
+<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#ai-agents</code>, <code class="language-plaintext highlighter-rouge">#computer-use</code>, <code class="language-plaintext highlighter-rouge">#cli-tool</code>, <code class="language-plaintext highlighter-rouge">#rust</code>, <code class="language-plaintext highlighter-rouge">#developer-tooling</code></p>
+
+<hr />
+
+<p><a id="item-gh-trending-6"></a></p>
+<h3 id="mattpocockskills-ai-agent-skills-collection-for-engineers-️-5010"><a href="https://github.com/mattpocock/skills">mattpocock/skills: AI agent skills collection for engineers</a> ⭐️ 5.0/10</h3>
+
+<p>mattpocock/skills is a highly-starred collection of AI agent skills drawn from the author&#x27;s personal .agents directory, aimed at engineers who want ready-made capabilities for their AI assistants. The repository is written primarily in Shell and provides a library of reusable skills, though the supplied metadata lacks code, documentation, or usage examples to verify practical value or maturity. With over 310,000 stars it shows strong community interest, but its real-world utility and integration readiness remain unconfirmed.</p>
+
+<p>github · mattpocock · Nov 3, 03:55</p>
+
+<p><strong>「Why Recommended」</strong> This repository fits the context-supply phase of AI-assisted development by offering pre-built agent skills that can replace manual prompt engineering or custom script writing. It is best suited for engineers experimenting with AI agents who want a starting library of capabilities, and the 310k-star count signals significant peer attention despite the absence of verified documentation.</p>
+
+<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#ai-agent</code>, <code class="language-plaintext highlighter-rouge">#developer-productivity</code>, <code class="language-plaintext highlighter-rouge">#shell-scripts</code>, <code class="language-plaintext highlighter-rouge">#ai-assisted-coding</code>, <code class="language-plaintext highlighter-rouge">#engineering-tools</code></p>
+
+<hr />
+
+<p><a id="item-gh-trending-7"></a></p>
+<h3 id="flashml-orgfreetoken-local-llm-inference-server-for-desktop-️-5010"><a href="https://github.com/FlashML-org/FreeToken">FlashML-org/FreeToken: Local LLM inference server for desktop</a> ⭐️ 5.0/10</h3>
+
+<p>FreeToken is a Python-based local LLM inference server that aims to bring datacenter-scale model serving to desktop machines, allowing users to run massive models locally. It addresses the need for offline, high-performance model inference without cloud dependencies. The project appears to be in an early or experimental stage, with significant GitHub star growth but no publicly documented developer-focused features, integrations, or usage examples.</p>
+
+<p>github · FlashML-org · Nov 3, 03:55</p>
+
+<p><strong>「Why Recommended」</strong> FreeToken sits in the model-serving infrastructure layer and could indirectly benefit developers who want to run coding-oriented LLMs offline, but it currently lacks developer-specific tooling, editor integrations, or documented workflows for coding tasks. It may interest engineers exploring local inference backends for custom AI assistants, though its maturity and usability for development workflows remain unverified.</p>
+
+<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#llm-inference</code>, <code class="language-plaintext highlighter-rouge">#local-ai</code>, <code class="language-plaintext highlighter-rouge">#model-serving</code>, <code class="language-plaintext highlighter-rouge">#python</code>, <code class="language-plaintext highlighter-rouge">#infrastructure</code></p>
+
+<hr />
+
+<h2 id="ai-news">AI News</h2>
+
+<p><a id="item-ai-news-1"></a></p>
+<h3 id="vllm-v0330rc3-adds-10-models-pytorch-214-cuda-130-only-aws-efa-image-️-7010"><a href="https://github.com/vllm-project/vllm/releases/tag/v0.33.0rc3">vLLM v0.33.0rc3 adds 10+ models, PyTorch 2.14, CUDA 13.0-only, AWS EFA image</a> ⭐️ 7.0/10</h3>
+
+<p>vLLM v0.33.0rc3 (release candidate) adds 10+ new models including Reflection Beam-1.0 (501B MoE), Yandex AliceAI-Foundation-80B-A3B, Recursive Flint, Muse Spark Open, Step-5 Preview, NVIDIA Alpamayo 2 Super, Nemotron models, MiniCPM-OCR 1.0, Domyn Edge, and ColUltraVBERT. It upgrades to PyTorch 2.14.0, torchvision 0.29.0, and Triton 3.8.0, drops CUDA 12.9 wheels in favor of CUDA 13.0-only artifacts, introduces a libtorch ABI-stable CUDA wheel, and publishes a new AWS EFA Docker image (vllm/vllm-openai:v0.33.0-efa) for multi-node KV transfer on EFA-enabled EC2 instances. All release images are now also available under the shorter vllm/vllm namespace.</p>
+
+<p>github · khluu · Nov 2, 10:10</p>
+
+<p><strong>「Why It Matters」</strong> Practitioners running LLM inference can immediately test the new model integrations, plan migration to CUDA 13.0 wheels, and evaluate the AWS EFA image for multi-node serving; the first step is pulling the RC Docker image (e.g., `docker pull vllm/vllm-openai:v0.33.0`) or installing via `pip install vllm` (CUDA 13.0) to validate compatibility before the GA release.</p>
+
+<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#vLLM</code>, <code class="language-plaintext highlighter-rouge">#LLM-inference</code>, <code class="language-plaintext highlighter-rouge">#model-support</code>, <code class="language-plaintext highlighter-rouge">#CUDA-13</code>, <code class="language-plaintext highlighter-rouge">#release-candidate</code></p>
+
+<hr />
+
+<p><a id="item-ai-news-2"></a></p>
+<h3 id="llm-037-adds-openai-compatible-endpoint-command-cheaper-default-model-️-7010"><a href="https://simonwillison.net/2026/Nov/2/llm/">llm 0.37 adds OpenAI-compatible endpoint command, cheaper default model</a> ⭐️ 7.0/10</h3>
+
+<p>Simon Willison released llm 0.37, a CLI tool and Python library update. The release adds two new models (gpt-6.1-sol and gpt-6.1-terra), a new `llm openai endpoint add` command to configure OpenAI-compatible endpoints, and switches the default model to gpt-6-luna, which is half the price of the previous gpt-5.6-luna default. Embeddings support now handles different content types for multi-modal models like Gemini Embedding 2 (text, audio, images, video). The release includes fixes from 12 contributors, most AI-assisted. The GitHub release and documentation are linked.</p>
+
+<p>rss · Simon Willison · Nov 2, 23:49</p>
+
+<p><strong>「Why It Matters」</strong> Developers using the llm CLI or library can immediately try the cheaper default model, add OpenAI-compatible endpoints with a single command, and use multi-modal embeddings for Gemini Embedding 2. First step: upgrade to 0.37 via pip and run `llm openai endpoint add` to configure custom endpoints, or test the new default model with a simple prompt.</p>
+
+<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#llm-cli</code>, <code class="language-plaintext highlighter-rouge">#simon-willison</code>, <code class="language-plaintext highlighter-rouge">#openai-compatible</code>, <code class="language-plaintext highlighter-rouge">#embeddings</code>, <code class="language-plaintext highlighter-rouge">#python-library</code></p>
+
+<hr />
+
+<p><a id="item-ai-news-3"></a></p>
+<h3 id="ista-releases-1-bitparam-deepseek-v41-flash-coder-with-expert-pruning-️-7010"><a href="https://www.reddit.com/r/LocalLLaMA/comments/1xlys6k/release_ista_deepseekv41flash1017_gsqrco_coder_a/">ISTA releases 1-bit/param DeepSeek-V4.1-Flash Coder with expert pruning</a> ⭐️ 7.0/10</h3>
+
+<p>ISTA-DASLab has released a Coder variant of DeepSeek-V4.1-Flash-1017, a 763B sparse MoE model compressed to ~1 bit per parameter using GSQ quantization and RCO-based expert pruning. The release keeps 192 of 384 routed experts per layer, yielding a 72.1 GB expert-pruned GGUF plus a 110.6 GB shared Engram file (downloaded once). On LiveCodeBench v6 it scores 88.57 (98.7% of base), and on SWE-bench Verified 77.00 (94.8% retention). The GGUF runs in llama.cpp b11870+ and Strata, and is available on Hugging Face under ISTA-DASLab/DeepSeek-V4.1-Flash-1017-GSQ-RCO-Coder-GGUF.</p>
+
+<p>reddit · r/LocalLLaMA · /u/Loginhe · Nov 2, 14:33</p>
+
+<p><strong>「Why it matters」</strong> Developers running local code models can now test a 763B MoE at ~183 GB total (vs 248+ GB unpruned) with minimal quality loss on code benchmarks; first step is pulling the GGUF and Engram from Hugging Face and running with llama.cpp b11870 or newer.</p>
+
+<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#model-release</code>, <code class="language-plaintext highlighter-rouge">#quantization</code>, <code class="language-plaintext highlighter-rouge">#moe</code>, <code class="language-plaintext highlighter-rouge">#local-llm</code>, <code class="language-plaintext highlighter-rouge">#deepseek</code></p>
+
+<hr />
+
+<p><a id="item-ai-news-4"></a></p>
+<h3 id="rtx-8000-48gb-used-prices-drop-to-2100-beats-dual-3090s-for-vram-per-dollar-️-7010"><a href="https://www.reddit.com/r/LocalLLaMA/comments/1xmgmd8/rtx_8000_48gb_prices_have_decreased_over_the_last/">RTX 8000 48GB Used Prices Drop to ~$2100, Beats Dual 3090s for VRAM per Dollar</a> ⭐️ 7.0/10</h3>
+
+<p>A Reddit user reports that used RTX 8000 48GB cards have fallen from $2,400 in 2024 to around $2,100 in 2026, while single RTX 3090 prices have risen to $1,500–$1,600, making the RTX 8000 cheaper per GB than a dual-3090 setup. The RTX 8000 delivers 672 GB/s memory bandwidth (vs. 936 GB/s on a 3090) but draws only 265 W versus ~700 W for two 3090s, and its 48 GB VRAM lets it run 70B-class models (Qwen 3.8 27B, Llama 3 70B, QWQ) entirely in VRAM at up to 256k tokens and q6 quantization. Larger MoE models like GPT-OSS 120B run with layer offloading to system RAM, achieving 390k context at 850 tokens/s prompt processing and 60–70 tokens/s generation on a 64 GB DDR4 / i9-9900K system. The user notes no driver or compatibility issues over two years, but pricing is based on a single buyer’s experience in a variable secondary market.</p>
+
+<p>reddit · r/LocalLLaMA · /u/triynizzles1 · Nov 3, 02:09</p>
+
+<p><strong>「Why It Matters」</strong> Home-lab practitioners who need 48 GB VRAM for 70B-class models can now consider a single used RTX 8000 at ~$2,100 as a lower-power, cheaper-per-GB alternative to dual RTX 3090s; the first step is to check current used listings for RTX 8000 cards and verify driver support for their OS and inference stack.</p>
+
+<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#local-llm</code>, <code class="language-plaintext highlighter-rouge">#gpu-hardware</code>, <code class="language-plaintext highlighter-rouge">#rtx-8000</code>, <code class="language-plaintext highlighter-rouge">#inference</code>, <code class="language-plaintext highlighter-rouge">#cost-analysis</code></p>
+
+<hr />
+
+<p><a id="item-ai-news-5"></a></p>
+<h3 id="local-llm-analyzes-16-years-of-city-council-minutes-user-seeks-youtube-transcript-scraping-advice-️-6010"><a href="https://www.reddit.com/r/LocalLLaMA/comments/1xmfbam/i_found_another_niche_use_case_for_local_llms_but/">Local LLM analyzes 16 years of city council minutes; user seeks YouTube transcript scraping advice</a> ⭐️ 6.0/10</h3>
+
+<p>A Reddit user downloaded 16 years of city council meeting minutes and ran them through a local Qwen 3 27B (Q6 quantization) model to uncover details about a Flock camera purchase. The model revealed the police chief secured a $9,000 grant for the cameras, but the minutes — being summaries — contained no public comment on the decision. Since the council livestreams meetings to YouTube with auto-generated transcripts, the user is asking for tools to scrape those transcripts for deeper LLM analysis.</p>
+
+<p>reddit · r/LocalLLaMA · /u/Strid3r21 · Nov 3, 01:08</p>
+
+<p><strong>「Why it matters」</strong> This demonstrates a practical, reproducible workflow for civic oversight: obtain public records (meeting minutes), analyze them locally with an open-weight LLM (Qwen 3 27B), and extend coverage to full video transcripts. Practitioners can start by downloading their own municipality&#x27;s minutes, running a local model, then use tools like yt-dlp, youtube-transcript-api, or the YouTube Data API to fetch auto-captions from livestreams for further analysis.</p>
+
+<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#local-llm</code>, <code class="language-plaintext highlighter-rouge">#public-records-analysis</code>, <code class="language-plaintext highlighter-rouge">#youtube-transcript-scraping</code>, <code class="language-plaintext highlighter-rouge">#qwen</code>, <code class="language-plaintext highlighter-rouge">#civic-tech</code></p>
+
+<hr />
+
+<h2 id="x--youtube-highlights">X / YouTube Highlights</h2>
+
+<p><a id="item-social-hot-1"></a></p>
+<h3 id="github-copilot-day-live-new-releases-live-coding--workflows-️-7010"><a href="https://www.youtube.com/watch?v=0kOXsQUNzss">GitHub Copilot Day Live: New Releases, Live Coding &amp; Workflows</a> ⭐️ 7.0/10</h3>
+
+<p>This four-hour GitHub Copilot Day live stream from the official GitHub channel showcases new Copilot feature releases, real-world developer workflows, and live coding demonstrations from the product team. The event covers agents, model choice, and how Copilot works across GitHub, the CLI, and VS Code, including a research preview called Project HydraFusion.</p>
+
+<p>youtube · GitHub · Nov 3, 03:55</p>
+
+<p><strong>「Why it matters」</strong> This 4-hour official GitHub live stream (78K views) showcases new Copilot releases, live coding demos, and real-world workflows directly from the product team, giving developers actionable insights and practical patterns they can apply immediately.</p>
+
+<details><summary>References</summary>
+<ul>
+<li><a href="https://www.youtube.com/watch?v=0kOXsQUNzss">GitHub Copilot Day live : new releases , real workflows... - YouTube</a></li>
+<li><a href="https://www.linkedin.com/posts/github_tomorrow-github-copilot-day-new-releases-activity-7503571767064608768-SrFf">Tomorrow: GitHub Copilot Day New releases , real workflows...</a></li>
+
+</ul>
+</details>
+
+<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#github-copilot</code>, <code class="language-plaintext highlighter-rouge">#ai-coding-assistant</code>, <code class="language-plaintext highlighter-rouge">#live-coding</code>, <code class="language-plaintext highlighter-rouge">#developer-workflows</code>, <code class="language-plaintext highlighter-rouge">#product-demos</code></p>
+
+<hr />
+
+<p><a id="item-social-hot-2"></a></p>
+<h3 id="7-nsa-github-tools-tested-in-lab-ghidra--yara-walkthrough-️-7010"><a href="https://www.youtube.com/watch?v=i-V89uYnCZ4">7 NSA GitHub Tools Tested in Lab: Ghidra &amp; YARA Walkthrough</a> ⭐️ 7.0/10</h3>
+
+<p>This video walks through seven open-source tools published by the NSA on GitHub, demonstrating each in a lab environment. Highlights include a beginner-friendly Ghidra reverse-engineering tutorial and YARA rules for detecting web shells, along with SELinux, Apache NiFi, and other security utilities. The presenter tests and shows practical usage rather than just listing the repositories.</p>
+
+<p>youtube · GitHub · Nov 3, 03:55</p>
+
+<p><strong>「Why it matters」</strong> The video demonstrates hands-on testing of 7 NSA open-source tools on GitHub — including a Ghidra reverse-engineering tutorial and YARA rules for web shell detection — in a lab environment, giving security practitioners reproducible, practical guidance. It has 5,071 views, showing solid interest from the infosec community.</p>
+
+<details><summary>References</summary>
+<ul>
+<li><a href="https://m.youtube.com/watch?v=i-V89uYnCZ4">7 GitHub Tools the NSA Uses (That Anyone Can Download)</a></li>
+<li><a href="https://www.nsa.gov/serve-from-netstorage/ghidra/index.html">GitHub - NationalSecurityAgency/ghidra: Ghidra is a software reverse ...</a></li>
+
+</ul>
+</details>
+
+<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#reverse-engineering</code>, <code class="language-plaintext highlighter-rouge">#Ghidra</code>, <code class="language-plaintext highlighter-rouge">#YARA</code>, <code class="language-plaintext highlighter-rouge">#cybersecurity</code>, <code class="language-plaintext highlighter-rouge">#NSA-tools</code>, <code class="language-plaintext highlighter-rouge">#GitHub</code></p>
+
+<hr />]]></content><author><name></name></author><summary type="html"><![CDATA[Showing 14 of 137 fetched items.]]></summary></entry><entry xml:lang="zh"><title type="html">Horizon Summary: 2026-11-03 (ZH)</title><link href="https://www.01040610.xyz/horizon/2026/11/03/summary-zh.html" rel="alternate" type="text/html" title="Horizon Summary: 2026-11-03 (ZH)" /><published>2026-11-03T00:00:00+00:00</published><updated>2026-11-03T00:00:00+00:00</updated><id>https://www.01040610.xyz/horizon/2026/11/03/summary-zh</id><content type="html" xml:base="https://www.01040610.xyz/horizon/2026/11/03/summary-zh.html"><![CDATA[<blockquote>
+  <p>今日抓取 137 条内容，收录 14 条。</p>
+</blockquote>
+
+<hr />
+
+<p><strong>GitHub AI 开发工具</strong></p>
+<ol>
+  <li><a href="#item-gh-trending-1">OthmanAdi/planning-with-files：AI 编码代理的持久化文件规划工具</a> ⭐️ 9.0/10</li>
+  <li><a href="#item-gh-trending-2">JustVugg/colibri：纯 C 零依赖的 MoE 模型本地推理引擎</a> ⭐️ 8.0/10</li>
+  <li><a href="#item-gh-trending-3">max-sixty/worktrunk：面向并行 AI Agent 的 Git worktree 管理 CLI</a> ⭐️ 8.0/10</li>
+  <li><a href="#item-gh-trending-4">upstash/context7：为 AI 代理提供实时文档的 MCP 服务器</a> ⭐️ 8.0/10</li>
+  <li><a href="#item-gh-trending-5">vercel-labs/agent-desktop：给 AI Agent 赋能桌面操作的 Rust CLI</a> ⭐️ 6.0/10</li>
+  <li><a href="#item-gh-trending-6">mattpocock/skills：工程师 AI Agent 技能集合</a> ⭐️ 5.0/10</li>
+  <li><a href="#item-gh-trending-7">FlashML-org/FreeToken：本地大模型推理服务工具</a> ⭐️ 5.0/10</li>
+</ol>
+
+<p><strong>AI 热门新闻</strong></p>
+<ol>
+  <li><a href="#item-ai-news-1">vLLM v0.33.0rc3 发布：新增 10+ 模型、升级 PyTorch 2.14、仅支持 CUDA 13.0</a> ⭐️ 7.0/10</li>
+  <li><a href="#item-ai-news-2">llm 0.37 发布：新模型、OpenAI 兼容端点、更便宜默认模型</a> ⭐️ 7.0/10</li>
+  <li><a href="#item-ai-news-3">ISTA 发布 DeepSeek-V4.1-Flash 763B 专家剪枝版，1 bit/参数压缩至 72.1 GB</a> ⭐️ 7.0/10</li>
+  <li><a href="#item-ai-news-4">RTX 8000 48GB 二手价降至 $2100，成本优于双 3090 跑 70B 模型</a> ⭐️ 7.0/10</li>
+  <li><a href="#item-ai-news-5">用户用 Qwen 3 27B 分析 16 年市议会会议纪要，寻求 YouTube 直播字幕抓取方案</a> ⭐️ 6.0/10</li>
+</ol>
+
+<p><strong>X / YouTube 热门</strong></p>
+<ol>
+  <li><a href="#item-social-hot-1">GitHub Copilot Day 直播：新功能发布、实战工作流与现场编码演示</a> ⭐️ 7.0/10</li>
+  <li><a href="#item-social-hot-2">NSA 开源工具实测：Ghidra 与 YARA 等 7 个项目</a> ⭐️ 7.0/10</li>
+</ol>
+
+<hr />
+
+<h2 id="github-ai-开发工具">GitHub AI 开发工具</h2>
+
+<p><a id="item-gh-trending-1"></a></p>
+<h3 id="othmanadiplanning-with-filesai-编码代理的持久化文件规划工具-️-9010"><a href="https://github.com/OthmanAdi/planning-with-files">OthmanAdi/planning-with-files：AI 编码代理的持久化文件规划工具</a> ⭐️ 9.0/10</h3>
+
+<p>planning-with-files 为 AI 编码代理提供基于文件的持久化规划能力，解决长任务中的上下文腐烂与会话脆弱问题。它以 Markdown 形式落盘计划，支持 /clear 与压缩后的会话恢复、逐轮重注入上下文以及确定性完成门控，兼容 Codex、Cursor、OpenCode、Copilot 等 60 余种代理，可通过 npm、Claude Code 插件市场或 npx 安装。项目以 Shell 为主，已获 27.8k Star、14 个开放 Issue，近期仍在活跃维护，处于可用、生产就绪阶段。</p>
+
+<p>github · OthmanAdi · 11月3日 03:55</p>
+
+<p><strong>「推荐理由」</strong> 它落在“上下文供给”与“写代码”环节，把易丢失的临时规划变成可版本化、可恢复的文件资产，替代了人工在会话间手动同步进度的繁琐步骤，适合需要跑长任务、频繁切换上下文窗口或在多代理间协作的开发者。27.8k Star 与低 Issue 数印证了社区对其稳定性的认可。</p>
+
+<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#ai-coding-agent</code>, <code class="language-plaintext highlighter-rouge">#context-engineering</code>, <code class="language-plaintext highlighter-rouge">#session-recovery</code>, <code class="language-plaintext highlighter-rouge">#planning</code>, <code class="language-plaintext highlighter-rouge">#developer-tools</code></p>
+
+<hr />
+
+<p><a id="item-gh-trending-2"></a></p>
+<h3 id="justvuggcolibri纯-c-零依赖的-moe-模型本地推理引擎-️-8010"><a href="https://github.com/JustVugg/colibri">JustVugg/colibri：纯 C 零依赖的 MoE 模型本地推理引擎</a> ⭐️ 8.0/10</h3>
+
+<p>colibri 是一个纯 C 编写、零外部依赖的轻量推理引擎，通过从磁盘流式加载 MoE（混合专家）模型的专家权重，让普通硬件也能运行前沿大语言模型，主打本地 AI 辅助编程场景。项目目前拥有 4.6 万星，处于可用阶段。</p>
+
+<p>github · JustVugg · 11月3日 03:55</p>
+
+<p><strong>「推荐理由」</strong> 它解决了开发者在「写码/上下文供给」环节依赖昂贵 GPU 或云 API 的痛点，以极小的二进制体积替代重型推理框架，适合想在本机离线跑大模型、且偏好无依赖部署的工程师。</p>
+
+<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#local-llm-inference</code>, <code class="language-plaintext highlighter-rouge">#moe-models</code>, <code class="language-plaintext highlighter-rouge">#c-language</code>, <code class="language-plaintext highlighter-rouge">#zero-dependencies</code>, <code class="language-plaintext highlighter-rouge">#edge-ai</code></p>
+
+<hr />
+
+<p><a id="item-gh-trending-3"></a></p>
+<h3 id="max-sixtyworktrunk面向并行-ai-agent-的-git-worktree-管理-cli-️-8010"><a href="https://github.com/max-sixty/worktrunk">max-sixty/worktrunk：面向并行 AI Agent 的 Git worktree 管理 CLI</a> ⭐️ 8.0/10</h3>
+
+<p>Worktrunk 是一个用 Rust 编写的命令行工具，专门管理 Git worktree 以支持多个 AI Agent 并行工作。它解决了并行运行多个 Agent 会话时的上下文隔离与分支切换难题，适合需要同时推进多个任务的开发者。项目已积累 10k+ Star 并持续增长，提供开箱即用的二进制发布，文档与代码完善，处于可直接投入使用的成熟阶段。</p>
+
+<p>github · max-sixty · 11月3日 03:55</p>
+
+<p><strong>「推荐理由」</strong> 它切中 AI 辅助开发中并行任务的上下文隔离痛点，替代手动创建 worktree 和切换分支的繁琐步骤，适合习惯同时跑多个 Agent 会话的工程师和团队。</p>
+
+<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#git-worktree</code>, <code class="language-plaintext highlighter-rouge">#cli-tool</code>, <code class="language-plaintext highlighter-rouge">#ai-agent-workflow</code>, <code class="language-plaintext highlighter-rouge">#parallel-development</code>, <code class="language-plaintext highlighter-rouge">#rust</code></p>
+
+<hr />
+
+<p><a id="item-gh-trending-4"></a></p>
+<h3 id="upstashcontext7为-ai-代理提供实时文档的-mcp-服务器-️-8010"><a href="https://github.com/upstash/context7">upstash/context7：为 AI 代理提供实时文档的 MCP 服务器</a> ⭐️ 8.0/10</h3>
+
+<p>Context7 是一个基于 TypeScript 实现的 MCP 服务器，专门为 AI 代理提供最新的技术文档，解决 AI 编程助手因文档过时而产生幻觉或错误的问题。项目创建于 2025 年 3 月，最近一次推送在 2026 年 11 月，维护活跃，已获 6.4 万星标，处于可用且社区认可度高的阶段。</p>
+
+<p>github · upstash · 11月3日 03:55</p>
+
+<p><strong>「推荐理由」</strong> 它落在「上下文供给」环节，通过标准化的 MCP 接口为 AI 编程助手注入实时文档，替代了手动查阅或依赖过时训练数据的做法，适合需要提升 AI 代码生成准确性的开发者与团队。</p>
+
+<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#mcp-server</code>, <code class="language-plaintext highlighter-rouge">#context-supply</code>, <code class="language-plaintext highlighter-rouge">#ai-coding-assistant</code>, <code class="language-plaintext highlighter-rouge">#documentation</code>, <code class="language-plaintext highlighter-rouge">#typescript</code></p>
+
+<hr />
+
+<p><a id="item-gh-trending-5"></a></p>
+<h3 id="vercel-labsagent-desktop给-ai-agent-赋能桌面操作的-rust-cli-️-6010"><a href="https://github.com/vercel-labs/agent-desktop">vercel-labs/agent-desktop：给 AI Agent 赋能桌面操作的 Rust CLI</a> ⭐️ 6.0/10</h3>
+
+<p>vercel-labs/agent-desktop 是一个由 Vercel Labs 开发的 Rust 命令行工具，旨在让 AI Agent 获得桌面级的计算机使用能力（computer-use），解决 Agent 与图形界面交互的上下文供给问题。项目处于早期实验阶段，公开文档与可复现的使用示例尚不足，难以判定为生产就绪。</p>
+
+<p>github · vercel-labs · 11月3日 03:55</p>
+
+<p><strong>「推荐理由」</strong> 它切中 AI Agent 需要操作真实桌面环境的工具链缺口，适合正在探索 Agent 自动化桌面工作流的开发者；来自 Vercel Labs 的背书与 Rust 实现暗示代码质量可期，但目前更适合作为调研参考而非直接接入生产。</p>
+
+<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#ai-agents</code>, <code class="language-plaintext highlighter-rouge">#computer-use</code>, <code class="language-plaintext highlighter-rouge">#cli-tool</code>, <code class="language-plaintext highlighter-rouge">#rust</code>, <code class="language-plaintext highlighter-rouge">#developer-tooling</code></p>
+
+<hr />
+
+<p><a id="item-gh-trending-6"></a></p>
+<h3 id="mattpocockskills工程师-ai-agent-技能集合-️-5010"><a href="https://github.com/mattpocock/skills">mattpocock/skills：工程师 AI Agent 技能集合</a> ⭐️ 5.0/10</h3>
+
+<p>该仓库是作者从个人 .agents 目录整理出的 AI Agent 技能集合，面向工程师提供 AI 辅助编程的可复用技能脚本，主语言为 Shell。尽管累计星标超过 31 万，但缺乏代码、文档与使用示例，成熟度难以评估，处于早期或实验性阶段。</p>
+
+<p>github · mattpocock · 11月3日 03:55</p>
+
+<p><strong>「推荐理由」</strong> 作为高星标的 AI Agent 技能库，它可能为编写代码、代码审查等环节提供现成的自动化脚本，适合想尝试将 AI 技能集成到本地开发流程的工程师；但实际可用性需自行验证。</p>
+
+<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#ai-agent</code>, <code class="language-plaintext highlighter-rouge">#developer-productivity</code>, <code class="language-plaintext highlighter-rouge">#shell-scripts</code>, <code class="language-plaintext highlighter-rouge">#ai-assisted-coding</code>, <code class="language-plaintext highlighter-rouge">#engineering-tools</code></p>
+
+<hr />
+
+<p><a id="item-gh-trending-7"></a></p>
+<h3 id="flashml-orgfreetoken本地大模型推理服务工具-️-5010"><a href="https://github.com/FlashML-org/FreeToken">FlashML-org/FreeToken：本地大模型推理服务工具</a> ⭐️ 5.0/10</h3>
+
+<p>FreeToken 是一个本地 LLM 推理服务工具，主打将「数据中心级模型服务」带到桌面端，让用户能在本地高效运行大规模模型。它基于 Python 实现，定位于模型服务/基础设施层，目前处于早期活跃阶段（单日新增 653 颗星，累计 1.6 万），但官方资料未提供开发者导向的功能、集成或成熟度细节。</p>
+
+<p>github · FlashML-org · 11月3日 03:55</p>
+
+<p><strong>「推荐理由」</strong> 适合需要离线、私有化运行编程类大模型的开发者或团队，作为本地推理后端替代云端 API，解决数据不出本地、延迟与成本可控的问题；目前更偏基础设施组件，需自行对接编码工作流。</p>
+
+<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#llm-inference</code>, <code class="language-plaintext highlighter-rouge">#local-ai</code>, <code class="language-plaintext highlighter-rouge">#model-serving</code>, <code class="language-plaintext highlighter-rouge">#python</code>, <code class="language-plaintext highlighter-rouge">#infrastructure</code></p>
+
+<hr />
+
+<h2 id="ai-热门新闻">AI 热门新闻</h2>
+
+<p><a id="item-ai-news-1"></a></p>
+<h3 id="vllm-v0330rc3-发布新增-10-模型升级-pytorch-214仅支持-cuda-130-️-7010"><a href="https://github.com/vllm-project/vllm/releases/tag/v0.33.0rc3">vLLM v0.33.0rc3 发布：新增 10+ 模型、升级 PyTorch 2.14、仅支持 CUDA 13.0</a> ⭐️ 7.0/10</h3>
+
+<p>vLLM v0.33.0rc3 作为发布候选版本发布，包含 927 个提交。新增 10 余个模型日零支持，包括 Reflection Beam-1.0 (501B MoE)、Yandex AliceAI-Foundation-80B-A3B、Recursive Flint 等。依赖升级至 PyTorch 2.14.0、Triton 3.8.0，放弃 CUDA 12.9 仅提供 CUDA 13.0 轮包与镜像，新增 libtorch ABI 稳定轮包与 AWS EFA 专用镜像 (vllm/vllm-openai:v0.33.0-efa)。推测解码、NVIDIA/AMD 侧解码性能、OpenAI 兼容 API 均有实测优化。所有制品已上传 PyPI 与 Docker Hub，可通过 `pip install vllm` 或拉取 `vllm/vllm:v0.33.0` 直接体验，但属 RC 版本，生产环境建议等待 GA。</p>
+
+<p>github · khluu · 11月2日 10:10</p>
+
+<p><strong>「实用价值」</strong> 想要首批验证新模型 (如 Reflection Beam-1.0、Nemotron Parse 3.5) 或评估 CUDA 13.0 迁移、AWS EFA 多节点服务的推理工程师，可立即在测试环境拉取 RC 镜像跑基准；生产负载请等待正式版并留意破坏性变更 (Medusa/MLP 移除、Ray 编译图执行器移除、暂停生成返回 503 等)。</p>
+
+<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#vLLM</code>, <code class="language-plaintext highlighter-rouge">#LLM-inference</code>, <code class="language-plaintext highlighter-rouge">#model-support</code>, <code class="language-plaintext highlighter-rouge">#CUDA-13</code>, <code class="language-plaintext highlighter-rouge">#release-candidate</code></p>
+
+<hr />
+
+<p><a id="item-ai-news-2"></a></p>
+<h3 id="llm-037-发布新模型openai-兼容端点更便宜默认模型-️-7010"><a href="https://simonwillison.net/2026/Nov/2/llm/">llm 0.37 发布：新模型、OpenAI 兼容端点、更便宜默认模型</a> ⭐️ 7.0/10</h3>
+
+<p>Simon Willison 发布 llm 0.37，这是其 LLM CLI 工具和 Python 库的新版本。新增 gpt-6.1-sol 和 gpt-6.1-terra 两个模型，并添加 `llm openai endpoint add` 命令以便配置 OpenAI 兼容端点。默认模型从 gpt-5.6-luna 切换为 gpt-6-luna，价格减半。嵌入功能现在支持不同二进制内容的 content-type，适配 Gemini Embedding 2 等多模态嵌入模型。该版本包含 12 位贡献者的修复，多数为 AI 辅助完成。</p>
+
+<p>rss · Simon Willison · 11月2日 23:49</p>
+
+<p><strong>「实用价值」</strong> 如果你在用 llm CLI 或库，升级后可直接用更便宜的默认模型、通过新命令快速接入任意 OpenAI 兼容端点，并能为多模态嵌入传入音频、图像或视频。第一步：运行 `pip install -U llm` 升级，再用 `llm openai endpoint add` 配置自定义端点。</p>
+
+<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#llm-cli</code>, <code class="language-plaintext highlighter-rouge">#simon-willison</code>, <code class="language-plaintext highlighter-rouge">#openai-compatible</code>, <code class="language-plaintext highlighter-rouge">#embeddings</code>, <code class="language-plaintext highlighter-rouge">#python-library</code></p>
+
+<hr />
+
+<p><a id="item-ai-news-3"></a></p>
+<h3 id="ista-发布-deepseek-v41-flash-763b-专家剪枝版1-bit参数压缩至-721-gb-️-7010"><a href="https://www.reddit.com/r/LocalLLaMA/comments/1xlys6k/release_ista_deepseekv41flash1017_gsqrco_coder_a/">ISTA 发布 DeepSeek-V4.1-Flash 763B 专家剪枝版，1 bit/参数压缩至 72.1 GB</a> ⭐️ 7.0/10</h3>
+
+<p>ISTA Deep Algorithms and Systems Lab 在 Hugging Face 发布了 DeepSeek-V4.1-Flash-1017 的 Coder 实验版，采用 GSQ（Gumbel-Softmax 量化）与 RCO（黎曼约束优化）将原 763.2B 参数的稀疏 MoE 模型（384 专家/层，6 激活）压缩至约 1 bit/参数。该版本每层保留 192 个路由专家，Transformer 权重 72.1 GB（未剪枝 IQ2_XXS 为 138.2 GB），共享 Engram 文件 110.6 GB 与未剪枝版相同。实测 LiveCodeBench v6 保留 98.7% 基线性能（88.57 vs 89.71），SWE-bench Verified 保留 94.8%（77.00 vs 81.20）。模型已上传至 huggingface.co/ISTA-DASLab/DeepSeek-V4.1-Flash-1017-GSQ-RCO-Coder-GGUF，需 llama.cpp b11870 或更新版本、或 Strata 运行。</p>
+
+<p>reddit · r/LocalLLaMA · /u/Loginhe · 11月2日 14:33</p>
+
+<p><strong>「实用价值」</strong> 想在本地跑 700B 级 MoE 编码模型但显存/内存不足的开发者可直接下载该 GGUF 尝试；首要步骤是拉取 Hugging Face 仓库的 72.1 GB Transformer 与 110.6 GB Engram 文件，配合 llama.cpp b11870+ 加载测试。压缩后总体积约 183 GB，仍需大内存机器，但比未剪枝版节省近一半 Transformer 体积，且在单轮代码生成任务上性能损失极小（&lt;2%），适合作为极限压缩 MoE 部署的参考基线。</p>
+
+<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#model-release</code>, <code class="language-plaintext highlighter-rouge">#quantization</code>, <code class="language-plaintext highlighter-rouge">#moe</code>, <code class="language-plaintext highlighter-rouge">#local-llm</code>, <code class="language-plaintext highlighter-rouge">#deepseek</code></p>
+
+<hr />
+
+<p><a id="item-ai-news-4"></a></p>
+<h3 id="rtx-8000-48gb-二手价降至-2100成本优于双-3090-跑-70b-模型-️-7010"><a href="https://www.reddit.com/r/LocalLLaMA/comments/1xmgmd8/rtx_8000_48gb_prices_have_decreased_over_the_last/">RTX 8000 48GB 二手价降至 $2100，成本优于双 3090 跑 70B 模型</a> ⭐️ 7.0/10</h3>
+
+<p>Reddit 用户报告 RTX 8000 48GB 显卡二手价从 2024 年的 $2400 降至约 $2100，而同期单张 RTX 3090 价格翻倍至 $1500-1600，导致双 3090 方案（48GB 显存、700W 功耗）每 GB 成本高于单张 RTX 8000（265W、672 GB/s 带宽）。实测可在 48GB 显存内完整跑 Qwen 3.8 27B、Llama 3 70B 等模型（256k 上下文、q6 量化），GPT-OSS 120B 等 MoE 模型则通过系统内存卸载层运行；配合 Strata 框架，QFN q4_xs 可达 390k 上下文、850 tok/s 预填与 60-70 tok/s 生成（i9-9900K + 64GB DDR4）。用户两年无驱动兼容性问题，认为这是当前家庭实验室“全能”最优选，但数据基于单一买家经验且二手市场价格波动大。</p>
+
+<p>reddit · r/LocalLLaMA · /u/triynizzles1 · 11月3日 02:09</p>
+
+<p><strong>「实用价值」</strong> 对于在本地部署 70B 级模型且预算敏感的开发者，RTX 8000 48GB 以更低功耗、更低每 GB 成本提供单卡大显存方案，避免双卡 NVLink 复杂性；建议先在二手平台对比当前 RTX 8000 与双 3090 实时成交价，再按目标模型量化与上下文长度测试推理速度。</p>
+
+<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#local-llm</code>, <code class="language-plaintext highlighter-rouge">#gpu-hardware</code>, <code class="language-plaintext highlighter-rouge">#rtx-8000</code>, <code class="language-plaintext highlighter-rouge">#inference</code>, <code class="language-plaintext highlighter-rouge">#cost-analysis</code></p>
+
+<hr />
+
+<p><a id="item-ai-news-5"></a></p>
+<h3 id="用户用-qwen-3-27b-分析-16-年市议会会议纪要寻求-youtube-直播字幕抓取方案-️-6010"><a href="https://www.reddit.com/r/LocalLLaMA/comments/1xmfbam/i_found_another_niche_use_case_for_local_llms_but/">用户用 Qwen 3 27B 分析 16 年市议会会议纪要，寻求 YouTube 直播字幕抓取方案</a> ⭐️ 6.0/10</h3>
+
+<p>Reddit 用户 /u/Strid3r21 下载了过去 16 年的市议会会议纪要，使用本地部署的 Qwen 3 27B（Q6 量化）模型分析，发现警长以 9000 美元拨款购买 Flock 摄像头，但会议纪要中未见公众评论记录。由于会议同步直播至 YouTube 并有自动生成字幕，用户希望抓取这些字幕供 LLM 深度分析，正在寻求可行的抓取工具或方法建议。</p>
+
+<p>reddit · r/LocalLLaMA · /u/Strid3r21 · 11月3日 01:08</p>
+
+<p><strong>「对实践者的意义」</strong> 这展示了一个可落地的公民技术工作流：公开记录 + 本地 LLM 可低成本挖掘治理细节。对于想复现或扩展此类分析的人，第一步是解决 YouTube 直播字幕的批量获取问题（可尝试 yt-dlp、youtube-transcript-api 或 YouTube Data API），随后再接入本地模型做长文本检索与摘要。</p>
+
+<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#local-llm</code>, <code class="language-plaintext highlighter-rouge">#public-records-analysis</code>, <code class="language-plaintext highlighter-rouge">#youtube-transcript-scraping</code>, <code class="language-plaintext highlighter-rouge">#qwen</code>, <code class="language-plaintext highlighter-rouge">#civic-tech</code></p>
+
+<hr />
+
+<h2 id="x--youtube-热门">X / YouTube 热门</h2>
+
+<p><a id="item-social-hot-1"></a></p>
+<h3 id="github-copilot-day-直播新功能发布实战工作流与现场编码演示-️-7010"><a href="https://www.youtube.com/watch?v=0kOXsQUNzss">GitHub Copilot Day 直播：新功能发布、实战工作流与现场编码演示</a> ⭐️ 7.0/10</h3>
+
+<p>这是 GitHub 官方举办的首届 Copilot Day 四小时直播回放，由产品团队现场演示新发布的功能、真实开发工作流与现场编码。直播深入讲解了 Agent 模式、模型选择，以及 Copilot 在 GitHub 网页端、CLI 与 VS Code 中的跨平台协作，并首次公开了研究预览项目 HydraFusion，展示通过运行时编排提供前沿智能的能力。</p>
+
+<p>youtube · GitHub · 11月3日 03:55</p>
+
+<p><strong>「推荐理由」</strong> 这是 GitHub 官方举办的 4 小时 Copilot Day 直播，涵盖新功能发布、真实开发工作流演示和产品团队现场编码，播放量 7.8 万次。开发者可直接从构建者那里学到可落地的 Copilot 使用技巧、新特性实战演示以及团队协作中的最佳实践。</p>
+
+<details><summary>参考链接</summary>
+<ul>
+<li><a href="https://www.youtube.com/watch?v=0kOXsQUNzss">GitHub Copilot Day live : new releases , real workflows... - YouTube</a></li>
+<li><a href="https://www.linkedin.com/posts/github_tomorrow-github-copilot-day-new-releases-activity-7503571767064608768-SrFf">Tomorrow: GitHub Copilot Day New releases , real workflows...</a></li>
+
+</ul>
+</details>
+
+<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#github-copilot</code>, <code class="language-plaintext highlighter-rouge">#ai-coding-assistant</code>, <code class="language-plaintext highlighter-rouge">#live-coding</code>, <code class="language-plaintext highlighter-rouge">#developer-workflows</code>, <code class="language-plaintext highlighter-rouge">#product-demos</code></p>
+
+<hr />
+
+<p><a id="item-social-hot-2"></a></p>
+<h3 id="nsa-开源工具实测ghidra-与-yara-等-7-个项目-️-7010"><a href="https://www.youtube.com/watch?v=i-V89uYnCZ4">NSA 开源工具实测：Ghidra 与 YARA 等 7 个项目</a> ⭐️ 7.0/10</h3>
+
+<p>该视频由频道 Electronic Tech Show 发布，演示了 7 个 NSA 在 GitHub 上开源的工具，并在实验室环境中实测演示，内容涵盖 Ghidra 逆向工程入门教程、用于 Web Shell 检测的 YARA 规则、SELinux、Apache NiFi 等。视频时长约 15 分钟，播放量 5,071 次，属于实操演示类安全工具介绍。</p>
+
+<p>youtube · GitHub · 11月3日 03:55</p>
+
+<p><strong>「推荐理由」</strong> 视频在实验室环境中实测演示了 NSA 在 GitHub 上开源的 7 个安全工具，包含 Ghidra 逆向工程入门教程与 Web Shell 检测 YARA 规则编写，内容可复现、偏实战。截至发布已获 5071 次播放，适合想快速上手 NSA 官方工具链的安全从业者或爱好者。</p>
+
+<details><summary>参考链接</summary>
+<ul>
+<li><a href="https://github.com/NationalSecurityAgency">National Security Agency - GitHub</a></li>
+<li><a href="https://m.youtube.com/watch?v=i-V89uYnCZ4">7 GitHub Tools the NSA Uses (That Anyone Can Download)</a></li>
+
+</ul>
+</details>
+
+<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#reverse-engineering</code>, <code class="language-plaintext highlighter-rouge">#Ghidra</code>, <code class="language-plaintext highlighter-rouge">#YARA</code>, <code class="language-plaintext highlighter-rouge">#cybersecurity</code>, <code class="language-plaintext highlighter-rouge">#NSA-tools</code>, <code class="language-plaintext highlighter-rouge">#GitHub</code></p>
+
+<hr />]]></content><author><name></name></author><summary type="html"><![CDATA[今日抓取 137 条内容，收录 14 条。]]></summary></entry><entry xml:lang="en"><title type="html">Horizon Summary: 2026-11-02 (EN)</title><link href="https://www.01040610.xyz/horizon/2026/11/02/summary-en.html" rel="alternate" type="text/html" title="Horizon Summary: 2026-11-02 (EN)" /><published>2026-11-02T00:00:00+00:00</published><updated>2026-11-02T00:00:00+00:00</updated><id>https://www.01040610.xyz/horizon/2026/11/02/summary-en</id><content type="html" xml:base="https://www.01040610.xyz/horizon/2026/11/02/summary-en.html"><![CDATA[<blockquote>
   <p>Showing 5 of 99 fetched items.</p>
 </blockquote>
 
@@ -2547,832 +3019,4 @@
 
 <p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#harness-engineering</code>, <code class="language-plaintext highlighter-rouge">#async-subagents</code>, <code class="language-plaintext highlighter-rouge">#browser-use</code>, <code class="language-plaintext highlighter-rouge">#MDA</code>, <code class="language-plaintext highlighter-rouge">#langchain</code></p>
 
-<hr />]]></content><author><name></name></author><summary type="html"><![CDATA[今日抓取 253 条内容，收录 15 条。]]></summary></entry><entry xml:lang="en"><title type="html">Horizon Summary: 2026-10-29 (EN)</title><link href="https://www.01040610.xyz/horizon/2026/10/29/summary-en.html" rel="alternate" type="text/html" title="Horizon Summary: 2026-10-29 (EN)" /><published>2026-10-29T00:00:00+00:00</published><updated>2026-10-29T00:00:00+00:00</updated><id>https://www.01040610.xyz/horizon/2026/10/29/summary-en</id><content type="html" xml:base="https://www.01040610.xyz/horizon/2026/10/29/summary-en.html"><![CDATA[<blockquote>
-  <p>Showing 25 of 253 fetched items.</p>
-</blockquote>
-
-<hr />
-
-<p><strong>AI Dev Tools</strong></p>
-<ol>
-  <li><a href="#item-gh-trending-1">DeusData/codebase-memory-mcp: Local code intelligence via persistent graph and MCP</a> ⭐️ 8.0/10</li>
-  <li><a href="#item-gh-trending-2">expo/skills: AI agent skills for Expo and EAS projects</a> ⭐️ 6.0/10</li>
-  <li><a href="#item-gh-trending-3">rudderlabs/devbox: TypeScript sandbox harness for autonomous coding agents</a> ⭐️ 6.0/10</li>
-  <li><a href="#item-gh-trending-4">Nutlope/hallmark: Anti-AI-slop design skill for AI coding assistants</a> ⭐️ 5.0/10</li>
-  <li><a href="#item-gh-trending-5">obra/superpowers – Agentic skills framework for software development</a> ⭐️ 5.0/10</li>
-  <li><a href="#item-gh-trending-6">Q00/ouroboros: Agent OS with MCP server for 14 AI coding runtimes</a> ⭐️ 5.0/10</li>
-  <li><a href="#item-gh-trending-7">can1357/oh-my-pi: AI coding agent with IDE integration</a> ⭐️ 5.0/10</li>
-</ol>
-
-<p><strong>AI News</strong></p>
-<ol>
-  <li><a href="#item-ai-news-1">NVIDIA releases Nemotron 3.5 Transcribe and Granary v2 on Hugging Face</a> ⭐️ 8.0/10</li>
-  <li><a href="#item-ai-news-2">Apple&#x27;s system git still trusts revoked eMudhra certificates</a> ⭐️ 7.0/10</li>
-  <li><a href="#item-ai-news-3">4B local LLM Mica v0.5 chains multiple-choice planning to craft netherite in Minecraft from bare hands</a> ⭐️ 7.0/10</li>
-  <li><a href="#item-ai-news-4">SurgeHQ releases Dayjob: Tax benchmark; practitioners test LLMs on real returns</a> ⭐️ 6.0/10</li>
-</ol>
-
-<p><strong>X / YouTube Highlights</strong></p>
-<ol>
-  <li><a href="#item-social-hot-1">nextbrew: Rust Homebrew alternative with 12x speedup</a> ⭐️ 9.0/10</li>
-  <li><a href="#item-social-hot-2">Free Threat-IP Database: 300k+ Malicious IPs, No Signup</a> ⭐️ 8.0/10</li>
-  <li><a href="#item-social-hot-3">Anthropic Launches Claude Code GitHub Action for AI Code Review</a> ⭐️ 8.0/10</li>
-  <li><a href="#item-social-hot-4">Single neuron steers Qwen3.5-4B from polite to hostile via scalar injection</a> ⭐️ 8.0/10</li>
-  <li><a href="#item-social-hot-5">Developer open-sources university festival IT puzzle game codebase</a> ⭐️ 7.0/10</li>
-  <li><a href="#item-social-hot-6">Pliny 用 Claude 迭代生成 DeepSeek V4.1 Flash 越狱模板</a> ⭐️ 7.0/10</li>
-  <li><a href="#item-social-hot-7">Axiom AI agents formalize Classification of Finite Simple Groups in Lean</a> ⭐️ 7.0/10</li>
-  <li><a href="#item-social-hot-8">Nginx Map Regex Blocks XXE at Proxy Layer</a> ⭐️ 7.0/10</li>
-  <li><a href="#item-social-hot-9">DEV·TV: Retro TV Interface for Discovering New AI Models</a> ⭐️ 6.0/10</li>
-  <li><a href="#item-social-hot-10">ResilienceOps Platform: Open-source SRE tool with SLOs and fault injection</a> ⭐️ 6.0/10</li>
-  <li><a href="#item-social-hot-11">Practitioner shares Ultra autonomous recovery config for Courier Symphony</a> ⭐️ 6.0/10</li>
-  <li><a href="#item-social-hot-12">Developer tests ghfind, flags privacy and scoring quirks</a> ⭐️ 6.0/10</li>
-  <li><a href="#item-social-hot-13">YorkDev Announces AI Service Tiers, Modes &amp; 30% Launch Discount</a> ⭐️ 6.0/10</li>
-  <li><a href="#item-social-hot-14">GitHub&#x27;s Official 9-Minute Git Beginner Tutorial</a> ⭐️ 6.0/10</li>
-</ol>
-
-<hr />
-
-<h2 id="ai-dev-tools">AI Dev Tools</h2>
-
-<p><a id="item-gh-trending-1"></a></p>
-<h3 id="deusdatacodebase-memory-mcp-local-code-intelligence-via-persistent-graph-and-mcp-️-8010"><a href="https://github.com/DeusData/codebase-memory-mcp">DeusData/codebase-memory-mcp: Local code intelligence via persistent graph and MCP</a> ⭐️ 8.0/10</h3>
-
-<p>DeusData/codebase-memory-mcp is a local code intelligence platform that connects code, documentation, and infrastructure in a persistent graph. It provides MCP tooling, a visual graph explorer (CBM Lens), and integrations with AI coding agents such as Aider, Cursor, and Claude Code to supply context-aware code understanding and change-aware test selection. The core is implemented in C for performance, and the project shows active maintenance with recent pushes and a large community.</p>
-
-<p>github · DeusData · Oct 29, 02:25</p>
-
-<p><strong>「Why Recommended」</strong> It targets the context-supply phase of AI-assisted development by giving agents a queryable, up-to-date code graph instead of relying on file-by-file reads, and it integrates directly into existing agent workflows (Aider, Cursor, Claude Code, Gemini CLI). With ~48k stars and ongoing activity, it suits teams or individuals who want a self-hosted, language-agnostic code knowledge base that works with multiple AI assistants.</p>
-
-<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#code-intelligence</code>, <code class="language-plaintext highlighter-rouge">#mcp</code>, <code class="language-plaintext highlighter-rouge">#ai-coding-assistant</code>, <code class="language-plaintext highlighter-rouge">#graph-database</code>, <code class="language-plaintext highlighter-rouge">#developer-tools</code></p>
-
-<hr />
-
-<p><a id="item-gh-trending-2"></a></p>
-<h3 id="exposkills-ai-agent-skills-for-expo-and-eas-projects-️-6010"><a href="https://github.com/expo/skills">expo/skills: AI agent skills for Expo and EAS projects</a> ⭐️ 6.0/10</h3>
-
-<p>expo/skills is an official Expo repository that provides a collection of AI agent skills tailored for Expo and Expo Application Services (EAS) projects. It aims to give AI coding assistants specialized context and best practices for Expo/React Native development. The project is primarily written in Shell, was published on 2026-10-29, and has accumulated 3,614 stars with 90 gained today, indicating early community interest but still at an experimental stage.</p>
-
-<p>github · expo · Oct 29, 02:25</p>
-
-<p><strong>「Why Recommended」</strong> This repository enhances the context-supply and code-generation steps for developers using AI assistants on Expo/React Native projects, potentially reducing hallucinations and improving adherence to Expo-specific patterns. It is most relevant for Expo-focused teams wanting to augment their AI tooling with framework-aware skills, and the 3.6k stars suggest active early adoption.</p>
-
-<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#AI-assisted coding</code>, <code class="language-plaintext highlighter-rouge">#Expo</code>, <code class="language-plaintext highlighter-rouge">#React Native</code>, <code class="language-plaintext highlighter-rouge">#developer tools</code>, <code class="language-plaintext highlighter-rouge">#AI agent skills</code></p>
-
-<hr />
-
-<p><a id="item-gh-trending-3"></a></p>
-<h3 id="rudderlabsdevbox-typescript-sandbox-harness-for-autonomous-coding-agents-️-6010"><a href="https://github.com/rudderlabs/devbox">rudderlabs/devbox: TypeScript sandbox harness for autonomous coding agents</a> ⭐️ 6.0/10</h3>
-
-<p>rudderlabs/devbox is an open-source TypeScript harness that spins up isolated cloud sandboxes for each autonomous coding agent task, keeping real secrets out of the execution environment. It targets the secure-execution problem in agentic coding workflows by providing per-task isolation. The project was created on 2026-10-27 and remains in an early experimental stage with limited documentation and no proven production usage.</p>
-
-<p>github · rudderlabs · Oct 29, 02:25</p>
-
-<p><strong>「Why Recommended」</strong> It addresses the sandboxing and secret-isolation gap for teams running background or autonomous coding agents in their own cloud, replacing ad-hoc container setups with a purpose-built harness. The 156 stars indicate early community interest, making it worth evaluating for platform engineers building agent infrastructure.</p>
-
-<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#agentic-coding</code>, <code class="language-plaintext highlighter-rouge">#agent-sandbox</code>, <code class="language-plaintext highlighter-rouge">#autonomous-agents</code>, <code class="language-plaintext highlighter-rouge">#developer-tools</code>, <code class="language-plaintext highlighter-rouge">#security</code></p>
-
-<hr />
-
-<p><a id="item-gh-trending-4"></a></p>
-<h3 id="nutlopehallmark-anti-ai-slop-design-skill-for-ai-coding-assistants-️-5010"><a href="https://github.com/Nutlope/hallmark">Nutlope/hallmark: Anti-AI-slop design skill for AI coding assistants</a> ⭐️ 5.0/10</h3>
-
-<p>Hallmark is a design-focused skill for AI coding assistants (Claude Code, Cursor, Codex) that aims to reduce low-quality "AI slop" in generated user interfaces. It is implemented primarily in CSS and targets the visual and design quality of AI-produced code. The project appears to be in an early, experimental stage with limited public documentation on integration or usage.</p>
-
-<p>github · Nutlope · Oct 29, 02:25</p>
-
-<p><strong>「Why Recommended」</strong> It addresses a concrete pain point in the code-generation step by giving AI assistants a design-quality layer, which can improve UI output for developers who rely on Claude Code, Cursor, or Codex. The high star count (40k+) signals strong community interest, though practical usability still needs verification.</p>
-
-<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#AI-coding-assistant</code>, <code class="language-plaintext highlighter-rouge">#design-system</code>, <code class="language-plaintext highlighter-rouge">#CSS</code>, <code class="language-plaintext highlighter-rouge">#developer-tool</code>, <code class="language-plaintext highlighter-rouge">#early-stage</code></p>
-
-<hr />
-
-<p><a id="item-gh-trending-5"></a></p>
-<h3 id="obrasuperpowers--agentic-skills-framework-for-software-development-️-5010"><a href="https://github.com/obra/superpowers">obra/superpowers – Agentic skills framework for software development</a> ⭐️ 5.0/10</h3>
-
-<p>obra/superpowers describes itself as an agentic skills framework and software development methodology implemented primarily in Shell. It aims to structure AI-assisted development workflows, though the repository provides only a one-line description with no accessible code, documentation, or usage examples to verify its approach. With 307k total stars and a recent spike of 1k+ stars today, the project has drawn significant attention, but its practical maturity and reproducibility remain unconfirmed.</p>
-
-<p>github · obra · Oct 29, 02:25</p>
-
-<p><strong>「Why Recommended」</strong> If you are exploring agentic frameworks that try to codify a repeatable AI-assisted development methodology, this repository is worth bookmarking for future investigation; it targets the methodology and context-supply layer of the workflow and may appeal to teams experimenting with structured prompt or skill libraries. Treat it as an early signal rather than a proven tool until source code and documentation become available.</p>
-
-<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#agentic-framework</code>, <code class="language-plaintext highlighter-rouge">#development-methodology</code>, <code class="language-plaintext highlighter-rouge">#shell-scripts</code>, <code class="language-plaintext highlighter-rouge">#ai-assisted-development</code>, <code class="language-plaintext highlighter-rouge">#cli-tool</code></p>
-
-<hr />
-
-<p><a id="item-gh-trending-6"></a></p>
-<h3 id="q00ouroboros-agent-os-with-mcp-server-for-14-ai-coding-runtimes-️-5010"><a href="https://github.com/Q00/ouroboros">Q00/ouroboros: Agent OS with MCP server for 14 AI coding runtimes</a> ⭐️ 5.0/10</h3>
-
-<p>Q00/ouroboros is an Agent OS framework that provides an MCP server integrating 14 AI coding runtimes including Claude Code, Codex CLI, Gemini CLI, OpenCode, Copilot, and Kiro. It focuses on autonomous agent evolution through interview-gated, staged evaluation loops rather than immediate developer workflow enhancement. Built in Python, the project has 6.3k stars and appears to be in active development as a research-oriented framework for agent autonomy.</p>
-
-<p>github · Q00 · Oct 29, 02:25</p>
-
-<p><strong>「Why Recommended」</strong> This framework suits researchers and platform engineers exploring multi-runtime agent orchestration and self-improving agent loops, offering a unified MCP interface across 14 coding agents. It replaces ad-hoc runtime switching with a staged evaluation pipeline, though its evolution-centric design makes it less suited for day-to-day coding assistance.</p>
-
-<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#ai-coding-agent</code>, <code class="language-plaintext highlighter-rouge">#mcp-server</code>, <code class="language-plaintext highlighter-rouge">#multi-runtime</code>, <code class="language-plaintext highlighter-rouge">#agent-framework</code>, <code class="language-plaintext highlighter-rouge">#developer-tools</code></p>
-
-<hr />
-
-<p><a id="item-gh-trending-7"></a></p>
-<h3 id="can1357oh-my-pi-ai-coding-agent-with-ide-integration-️-5010"><a href="https://github.com/can1357/oh-my-pi">can1357/oh-my-pi: AI coding agent with IDE integration</a> ⭐️ 5.0/10</h3>
-
-<p>oh-my-pi is a CLI-based AI coding agent that integrates directly with IDEs and supports multiple LLM providers such as Anthropic and OpenAI. It is implemented primarily in TypeScript (with Rust components) and aims to assist developers during the coding phase. The project shows anomalous future timestamps and a very high open-issue count relative to its star count, indicating it is still in an early, experimental stage rather than production-ready.</p>
-
-<p>github · can1357 · Oct 29, 02:25</p>
-
-<p><strong>「Why Recommended」</strong> It targets the coding step by offering an IDE-wired AI agent that can replace manual code generation and editing, appealing to developers who want a multi-provider coding assistant inside their editor. The 37k stars signal strong community interest, but the maturity signals suggest it is best suited for early adopters willing to tolerate instability.</p>
-
-<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#ai-coding-agent</code>, <code class="language-plaintext highlighter-rouge">#ide-integration</code>, <code class="language-plaintext highlighter-rouge">#multi-provider</code>, <code class="language-plaintext highlighter-rouge">#cli</code>, <code class="language-plaintext highlighter-rouge">#typescript</code></p>
-
-<hr />
-
-<h2 id="ai-news">AI News</h2>
-
-<p><a id="item-ai-news-1"></a></p>
-<h3 id="nvidia-releases-nemotron-35-transcribe-and-granary-v2-on-hugging-face-️-8010"><a href="https://huggingface.co/blog/nvidia/nemotron-transcribe-granary">NVIDIA releases Nemotron 3.5 Transcribe and Granary v2 on Hugging Face</a> ⭐️ 8.0/10</h3>
-
-<p>NVIDIA has released Nemotron 3.5 Transcribe and Granary v2 on Hugging Face, providing promptable and adaptable multilingual transcription models. The models are available for immediate use via Hugging Face model hub, supporting intelligent transcription that can be guided by prompts and adapted to specific domains.</p>
-
-<p>rss · Hugging Face Blog · Oct 28, 14:58</p>
-
-<p><strong>「Why It Matters」</strong> Developers building multilingual ASR applications can now experiment with prompt-controlled transcription models directly on Hugging Face; the first step is to visit the model cards and run inference to evaluate quality for their use case.</p>
-
-<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#ASR</code>, <code class="language-plaintext highlighter-rouge">#NVIDIA</code>, <code class="language-plaintext highlighter-rouge">#Nemotron</code>, <code class="language-plaintext highlighter-rouge">#Multilingual Transcription</code>, <code class="language-plaintext highlighter-rouge">#Hugging Face</code></p>
-
-<hr />
-
-<p><a id="item-ai-news-2"></a></p>
-<h3 id="applex27s-system-git-still-trusts-revoked-emudhra-certificates-️-7010"><a href="https://emudhra.we-have-a-problem.com/apple.html">Apple&#x27;s system git still trusts revoked eMudhra certificates</a> ⭐️ 7.0/10</h3>
-
-<p>Apple&#x27;s system-provided git and other macOS utilities continue to trust eMudhra certificates that have been revoked. Apple&#x27;s official support article (support.apple.com/en-us/149555) provides a manual mitigation that requires editing the certificate chain, but macOS updates have reverted this fix at least once. Developers can avoid the issue by using Homebrew-installed git and curl instead of the system versions.</p>
-
-<p>hackernews · galadran · Oct 28, 11:03 · <a href="https://news.ycombinator.com/item?id=50271640">Discussion</a></p>
-
-<p><strong>「Why it matters」</strong> Any macOS developer relying on the system git or curl is exposed to potential MITM risk until the revoked CA certificates are removed. The immediate action is to run Apple&#x27;s manual patch from support.apple.com/en-us/149555 or switch to Homebrew-provided git and curl, which do not depend on the compromised system trust store.</p>
-
-<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#security</code>, <code class="language-plaintext highlighter-rouge">#macOS</code>, <code class="language-plaintext highlighter-rouge">#git</code>, <code class="language-plaintext highlighter-rouge">#certificates</code>, <code class="language-plaintext highlighter-rouge">#vulnerability</code></p>
-
-<hr />
-
-<p><a id="item-ai-news-3"></a></p>
-<h3 id="4b-local-llm-mica-v05-chains-multiple-choice-planning-to-craft-netherite-in-minecraft-from-bare-hands-️-7010"><a href="https://www.reddit.com/r/LocalLLaMA/comments/1xhw2l0/a_4b_model_made_me_a_netherite_ingot_from_bare/">4B local LLM Mica v0.5 chains multiple-choice planning to craft netherite in Minecraft from bare hands</a> ⭐️ 7.0/10</h3>
-
-<p>Reddit user /u/Top-Evidence174 demonstrates Mica v0.5, a 4B-parameter local LLM, breaking a natural-language Minecraft request ("get 3 porkchops and make a netherite ingot") into a chain of multiple-choice planning steps and executing it from bare hands. The pipeline asks sequential questions — how many items, category, subcategory, exact item from game data, recipient, quantity — with Mica selecting each answer and outputting probabilities shown in a side panel. A separate recipe planner lists valid actions; Mica picks the next step while a bot handles movement, mining, and crafting. The author notes Mica v0.5 4B is not a full visual agent and does not process continuous frames; decision times in the video are RTX 3090 estimates (author runs on AMD). The model weights are on Hugging Face (sky7350/Mica-v0.5-4B) and code on GitHub (akivet/Mica), but the complete Minecraft agent is not yet released. The author claims local decision models like Mica are ~10–60× faster than API-only alternatives (Jev, Clef, Ms Decision), enabling many more judgment calls per second.</p>
-
-<p>reddit · r/LocalLLaMA · /u/Top-Evidence174 · Oct 28, 18:21</p>
-
-<p><strong>「Why it matters」</strong> If you build small-model agents, the chain-of-multiple-choice-questions pattern is a reproducible design you can implement today: decompose a fuzzy user request into a deterministic sequence of constrained choices sourced from your domain data (here, Minecraft&#x27;s item/recipe registry), let a tiny local model pick each option with a confidence score, and feed the result to a classical planner/executor. The author suggests coding agents (Claude Code, Codex) can scaffold this pipeline quickly. Weights and core code are already public, so you can benchmark Mica v0.5 4B against your own tasks or swap in another small model; the agent wrapper itself is not yet packaged for drop-in use.</p>
-
-<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#local-llm</code>, <code class="language-plaintext highlighter-rouge">#agentic-ai</code>, <code class="language-plaintext highlighter-rouge">#minecraft</code>, <code class="language-plaintext highlighter-rouge">#task-planning</code>, <code class="language-plaintext highlighter-rouge">#small-language-models</code></p>
-
-<hr />
-
-<p><a id="item-ai-news-4"></a></p>
-<h3 id="surgehq-releases-dayjob-tax-benchmark-practitioners-test-llms-on-real-returns-️-6010"><a href="https://surgehq.ai/blog/dayjob-tax">SurgeHQ releases Dayjob: Tax benchmark; practitioners test LLMs on real returns</a> ⭐️ 6.0/10</h3>
-
-<p>SurgeHQ published "Dayjob: Tax," a benchmark evaluating AI agents on 50 professional tax assignments. Hacker News comments reveal practitioners already using Astra, Codex, and Claude for actual tax preparation—catching accountant errors (one user found a $2,000 refund shortfall), handling cross-border complexity, and formalizing IRS forms with ~60% coverage of U.S. federal situations. The benchmark itself is a research artifact, not a ready-to-use tool, but the discussion shows concrete, mixed results from real-world LLM-assisted tax work.</p>
-
-<p>hackernews · landonxi · Oct 28, 15:46 · <a href="https://news.ycombinator.com/item?id=50275626">Discussion</a></p>
-
-<p><strong>「Why it matters」</strong> If you prepare complex or cross-border taxes, try feeding your draft return and supporting documents into Claude or Codex for a second-pass error check before filing; for U.S. federal forms, the open-source us-tax-model project (github.com/emmilco/us-tax-model) offers a structured starting point for automating worksheet logic.</p>
-
-<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#AI agents</code>, <code class="language-plaintext highlighter-rouge">#tax preparation</code>, <code class="language-plaintext highlighter-rouge">#benchmark</code>, <code class="language-plaintext highlighter-rouge">#LLM evaluation</code>, <code class="language-plaintext highlighter-rouge">#practical AI applications</code></p>
-
-<hr />
-
-<h2 id="x--youtube-highlights">X / YouTube Highlights</h2>
-
-<p><a id="item-social-hot-1"></a></p>
-<h3 id="nextbrew-rust-homebrew-alternative-with-12x-speedup-️-9010"><a href="https://x.com/shin_get9/status/2115630946200543382">nextbrew: Rust Homebrew alternative with 12x speedup</a> ⭐️ 9.0/10</h3>
-
-<p>Developer @shin_get9 announces nextbrew, a Rust-based Homebrew-compatible package manager forked from zerobrew that focuses on casks and provides an `nb migrate` command to move existing Homebrew setups over. Benchmarks on GitHub Actions macOS show a ~12× speedup: 22 formulae installed in 20.5 seconds versus 260.6 seconds for Homebrew. The tool installs official Homebrew bottles and casks without requiring Ruby or Homebrew itself and can run alongside an existing Homebrew installation.</p>
-
-<p>twitter · シン · Oct 29, 02:24</p>
-
-<p><strong>「Why this matters」</strong> A developer shares nextbrew, a Rust-based Homebrew-compatible package manager that benchmarks at ~12x faster than Homebrew (20.5s vs 260.6s for 22 formulae on GitHub Actions macOS) and includes a built-in migration command (`nb migrate`) to move existing Homebrew setups over. The project is a fork of zerobrew with focus on casks, making it directly actionable for developers who want faster package installs without changing workflows.</p>
-
-<details><summary>References</summary>
-<ul>
-<li><a href="https://github.com/nextbrew/nextbrew">GitHub - nextbrew/nextbrew: Homebrew-compatible package ...</a></li>
-
-</ul>
-</details>
-
-<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#rust</code>, <code class="language-plaintext highlighter-rouge">#homebrew</code>, <code class="language-plaintext highlighter-rouge">#package-manager</code>, <code class="language-plaintext highlighter-rouge">#performance</code>, <code class="language-plaintext highlighter-rouge">#developer-tools</code></p>
-
-<hr />
-
-<p><a id="item-social-hot-2"></a></p>
-<h3 id="free-threat-ip-database-300k-malicious-ips-no-signup-️-8010"><a href="https://x.com/HugoValters/status/2115630952554680790">Free Threat-IP Database: 300k+ Malicious IPs, No Signup</a> ⭐️ 8.0/10</h3>
-
-<p>Hugo Valters shares a free, no-signup threat-IP database containing over 300,000 malicious IPs aggregated from 23+ feeds. Each IP has a dedicated detail page showing threat type, confidence score, ASN, country, and first/last seen timestamps, making it directly usable for blocking or monitoring malicious traffic. The post includes a link to browse the database (t.co/HXACJCwsl3).</p>
-
-<p>twitter · Hugo | DevOps | Cybersecurity · Oct 29, 02:25</p>
-
-<p><strong>「Why this matters」</strong> The post shares a free, no-signup threat-IP database with 300,000+ malicious IPs aggregated from 23+ feeds, each with a detailed page showing threat type, confidence, ASN, country, and timestamps — immediately usable by developers and ops teams to block or monitor malicious traffic. Specific engagement metrics (likes, retweets, views) are not provided in the source data, but the post is tagged with numerous cybersecurity hashtags signaling practitioner relevance.</p>
-
-<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#threat-intelligence</code>, <code class="language-plaintext highlighter-rouge">#IP-reputation</code>, <code class="language-plaintext highlighter-rouge">#cybersecurity-tools</code>, <code class="language-plaintext highlighter-rouge">#devsecops</code>, <code class="language-plaintext highlighter-rouge">#free-resource</code></p>
-
-<hr />
-
-<p><a id="item-social-hot-3"></a></p>
-<h3 id="anthropic-launches-claude-code-github-action-for-ai-code-review-️-8010"><a href="https://x.com/wiksongkim/status/2115629054078624185">Anthropic Launches Claude Code GitHub Action for AI Code Review</a> ⭐️ 8.0/10</h3>
-
-<p>Anthropic has released an official GitHub Action that integrates Claude Code into repository workflows, allowing developers to invoke Claude on Issues and Pull Requests to explain code, analyze problems, review changes, and even propose code modifications. Setup requires running `/install-github-app` inside Claude Code and granting the GitHub App admin-level permissions on the repository. The Action itself is MIT-licensed, but model inference and GitHub Actions runner usage incur standard pay-as-you-go costs, and the author emphasizes treating all Issue/PR input as untrusted, keeping credentials secure, and requiring human review of any Claude-generated output.</p>
-
-<p>twitter · WSKim · Oct 29, 02:17</p>
-
-<p><strong>「Why It Matters」</strong> This is a first-party, production-ready integration that turns Claude into an always-available code reviewer and assistant directly inside the GitHub UI, eliminating context-switching and reducing review latency. The post provides the exact installation command, permission requirements, cost model, and security guardrails, giving engineers a complete, actionable path to adopt AI-assisted code review today. Engagement metrics (likes, retweets, views) for the original X post are not included in the provided source.</p>
-
-<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#Claude Code</code>, <code class="language-plaintext highlighter-rouge">#GitHub Actions</code>, <code class="language-plaintext highlighter-rouge">#AI 代码审查</code>, <code class="language-plaintext highlighter-rouge">#开发者工具</code>, <code class="language-plaintext highlighter-rouge">#工作流自动化</code></p>
-
-<hr />
-
-<p><a id="item-social-hot-4"></a></p>
-<h3 id="single-neuron-steers-qwen35-4b-from-polite-to-hostile-via-scalar-injection-️-8010"><a href="https://x.com/jayzhoupro/status/2115628227461005507">Single neuron steers Qwen3.5-4B from polite to hostile via scalar injection</a> ⭐️ 8.0/10</h3>
-
-<p>Jay Zhou reports that a single neuron (layer 16, neuron 8927) in Qwen3.5-4B can flip the model&#x27;s personality from polite to hostile by adding a scalar value at inference time, without modifying any weights. A third-party GitHub reproduction confirmed this neuron ranks #2 for hostile output (12.5 hostile words per 100 tokens vs. 0.7 baseline) and shows a clear dose-response curve: 0.5 looks normal, 1.0 flips the persona, and 1.5 breaks sentence coherence. The steering is fully reversible by clearing the injection wrapper.</p>
-
-<p>twitter · Jay Zhou · Oct 29, 02:14</p>
-
-<p><strong>「Why it matters」</strong> This is a rare, reproducible demonstration of mechanistic interpretability in an open-weights model: one neuron, one scalar, immediate and reversible behavior change with quantified metrics and a public reproduction. Developers working on model steering, safety, or activation engineering can directly test and extend this finding.</p>
-
-<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#model-steering</code>, <code class="language-plaintext highlighter-rouge">#mechanistic-interpretability</code>, <code class="language-plaintext highlighter-rouge">#qwen</code>, <code class="language-plaintext highlighter-rouge">#llm-safety</code>, <code class="language-plaintext highlighter-rouge">#activation-engineering</code></p>
-
-<hr />
-
-<p><a id="item-social-hot-5"></a></p>
-<h3 id="developer-open-sources-university-festival-it-puzzle-game-codebase-️-7010"><a href="https://x.com/Yusk/status/2115630498605355271">Developer open-sources university festival IT puzzle game codebase</a> ⭐️ 7.0/10</h3>
-
-<p>Developer @Yusk announces that the complete codebase for their university festival IT puzzle game "ゼミ失" (Seminar Lost) has been open-sourced on GitHub. The repository includes code for all physical gimmicks, the client application, and the server backend. This is inferred from the tweet text since the linked GitHub repository could not be verified via search.</p>
-
-<p>twitter · Yusk1450 · Oct 29, 02:23</p>
-
-<p><strong>「Why it matters」</strong> This is a first-hand developer share of a complete IT × puzzle game ("ゼミ失") built for a university festival, with all physical gimmick controllers, client app, and server code published on GitHub. The tweet announces the repository link, giving readers a reproducible reference for physical-digital puzzle game architecture and implementation patterns.</p>
-
-<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#IT-puzzle</code>, <code class="language-plaintext highlighter-rouge">#university-festival</code>, <code class="language-plaintext highlighter-rouge">#open-source</code>, <code class="language-plaintext highlighter-rouge">#GitHub</code>, <code class="language-plaintext highlighter-rouge">#puzzle-game</code></p>
-
-<hr />
-
-<p><a id="item-social-hot-6"></a></p>
-<h3 id="pliny-用-claude-迭代生成-deepseek-v41-flash-越狱模板-️-7010"><a href="https://x.com/xiax0603/status/2115630223643554282">Pliny 用 Claude 迭代生成 DeepSeek V4.1 Flash 越狱模板</a> ⭐️ 7.0/10</h3>
-
-<p>Red team researcher Pliny used Claude to iteratively generate a universal jailbreak template (named "OMNI") targeting DeepSeek V4.1 Flash over a 90-minute session, employing narrative framing with hard rules to suppress refusals. According to Pliny&#x27;s self-reported testing, the template passed all 8 high-risk categories and has been published to the L1B3RT4S GitHub repository for reproduction.</p>
-
-<p>twitter · xiax｜AI &amp; Agents · Oct 29, 02:22</p>
-
-<p><strong>「推荐理由」</strong> 知名红队研究者 Pliny 演示了用 Claude 自动迭代 90 分钟生成针对 DeepSeek V4.1 Flash 的通用越狱模板（OMNI），采用叙事外壳加硬性规则的结构，并在 8 类高危测试中通过；模板已开源至 GitHub L1B3RT4S 仓库，提供可复现的「以模型攻模型」红队实战案例。原帖未给出点赞/转发数，热度以作者影响力与技术首发性为依据。</p>
-
-<details><summary>References</summary>
-<ul>
-<li><a href="https://github.com/elder-plinius/L1B3RT4S">GitHub - elder-plinius/L1B3RT4S: TOTALLY HARMLESS LIBERATION ...</a></li>
-<li><a href="https://github.com/elder-plinius/L1B3RT4S/blob/main/DEEPSEEK.mkd">L1B3RT4S/DEEPSEEK.mkd at main · elder-plinius/L1B3RT4S · GitHub</a></li>
-<li><a href="https://www.youtube.com/watch?v=QbO4c2YKUYk">I Jailbroke DeepSeek V4.1 Flash — Full Guide + Prompt (2026) DeepSeek V4.1 Jailbreak – Instant Bypass Confirmed ... pliny.gg — Pliny the Prompter Deepseek V4 jailbreak · GitHub Pliny the Liberator 󠅫󠄼󠄿󠅆󠄵󠄐󠅀󠄼󠄹󠄾󠅉󠅭 on X: &quot;Me: &quot;Claude, ...</a></li>
-
-</ul>
-</details>
-
-<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#AI security</code>, <code class="language-plaintext highlighter-rouge">#jailbreak</code>, <code class="language-plaintext highlighter-rouge">#red teaming</code>, <code class="language-plaintext highlighter-rouge">#prompt engineering</code>, <code class="language-plaintext highlighter-rouge">#LLM safety</code></p>
-
-<hr />
-
-<p><a id="item-social-hot-7"></a></p>
-<h3 id="axiom-ai-agents-formalize-classification-of-finite-simple-groups-in-lean-️-7010"><a href="https://x.com/eratolabs/status/2115627848111460467">Axiom AI agents formalize Classification of Finite Simple Groups in Lean</a> ⭐️ 7.0/10</h3>
-
-<p>The tweet announces that Axiom used AI agents to formalize the Classification of Finite Simple Groups — one of mathematics&#x27; longest proofs spanning ~15,000 pages of literature — in the Lean proof assistant. The project produced 43.1 million lines of Lean code in approximately 24 days and identified and fixed over 100 issues in the existing mathematical literature. A GitHub repository is provided for independent verification of the formalization.</p>
-
-<p>twitter · Ryder Shang · Oct 29, 02:12</p>
-
-<p><strong>「Why it matters」</strong> This represents a landmark achievement in AI-assisted formal mathematics: the largest single formalization effort to date, completed at unprecedented speed while simultaneously correcting the source literature. Developers working with Lean, formal verification, or AI for mathematics can study the repository to understand the agent architecture, proof decomposition strategies, and how AI handles massive mathematical theory libraries.</p>
-
-<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#Lean</code>, <code class="language-plaintext highlighter-rouge">#formal-verification</code>, <code class="language-plaintext highlighter-rouge">#AI-for-math</code>, <code class="language-plaintext highlighter-rouge">#proof-assistants</code>, <code class="language-plaintext highlighter-rouge">#finite-group-theory</code></p>
-
-<hr />
-
-<p><a id="item-social-hot-8"></a></p>
-<h3 id="nginx-map-regex-blocks-xxe-at-proxy-layer-️-7010"><a href="https://x.com/HugoValters/status/2115627680842625153">Nginx Map Regex Blocks XXE at Proxy Layer</a> ⭐️ 7.0/10</h3>
-
-<p>The tweet describes a technique to block XML External Entity (XXE) attacks at the Nginx proxy layer by using a map directive with a regular expression on the $request_body variable to detect DOCTYPE and ENTITY patterns, then returning a 403 response before the request reaches the backend. This approach avoids deploying a full Web Application Firewall (WAF) and relies on Nginx&#x27;s native map module, which evaluates variables only when used, adding minimal overhead. The post links to a configuration snippet (not shown in the tweet) that demonstrates the regex pattern and map setup.</p>
-
-<p>twitter · Hugo | DevOps | Cybersecurity · Oct 29, 02:12</p>
-
-<p><strong>「Why This Matters」</strong> Hugo Valters shares a concrete, reproducible Nginx configuration pattern — using a map with regex on $request_body to detect DOCTYPE/ENTITY signatures and return 403 before the backend processes the request — mitigating XXE without deploying a full WAF. The technique is directly actionable for developers and ops teams securing XML endpoints. Engagement metrics (likes, retweets, views) are not provided in the source.</p>
-
-<details><summary>References</summary>
-<ul>
-<li><a href="https://nginx.org/en/docs/http/ngx_http_map_module.html">Module ngx_http_map_module - nginx</a></li>
-<li><a href="https://stackoverflow.com/questions/44245660/nginx-conditional-proxy-pass-based-on-request-body-content">nginx conditional proxy pass based on request body content Code sample</a></li>
-
-</ul>
-</details>
-
-<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#nginx</code>, <code class="language-plaintext highlighter-rouge">#xxe</code>, <code class="language-plaintext highlighter-rouge">#security</code>, <code class="language-plaintext highlighter-rouge">#devops</code>, <code class="language-plaintext highlighter-rouge">#proxy</code></p>
-
-<hr />
-
-<p><a id="item-social-hot-9"></a></p>
-<h3 id="devtv-retro-tv-interface-for-discovering-new-ai-models-️-6010"><a href="https://x.com/shouvik_palit/status/2115629292218613840">DEV·TV: Retro TV Interface for Discovering New AI Models</a> ⭐️ 6.0/10</h3>
-
-<p>Developer Shouvik Palit announces DEV·TV, a browser-based retro TV interface that aggregates new AI model listings from OpenRouter like live TV channels. The demo shows NVIDIA&#x27;s newly released Nemotron 3.5 Transcribe (30B MoE, ~4B active params, 1-hour audio, 40 languages) appearing on the "NEW MODELS" channel just one hour after launch. The tool also includes channels for indie projects, Claude skills, model comparisons, and a guide, all in a single HTML file with zero infrastructure.</p>
-
-<p>twitter · Shouvik Palit · Oct 29, 02:18</p>
-
-<p><strong>「Why It Matters」</strong> The post demonstrates a practical, zero-setup tool that solves model discovery fatigue by turning OpenRouter listings into a passive, always-on feed — useful for developers who want to catch new model drops without manually checking multiple sources. Engagement is minimal (1 like), so the value lies in the open-source tool itself rather than community validation.</p>
-
-<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#AI-tools</code>, <code class="language-plaintext highlighter-rouge">#speech-recognition</code>, <code class="language-plaintext highlighter-rouge">#model-discovery</code>, <code class="language-plaintext highlighter-rouge">#developer-tools</code>, <code class="language-plaintext highlighter-rouge">#NVIDIA</code></p>
-
-<hr />
-
-<p><a id="item-social-hot-10"></a></p>
-<h3 id="resilienceops-platform-open-source-sre-tool-with-slos-and-fault-injection-️-6010"><a href="https://x.com/MeesamBukhari1/status/2115628979822756045">ResilienceOps Platform: Open-source SRE tool with SLOs and fault injection</a> ⭐️ 6.0/10</h3>
-
-<p>This X post by Meesam Bukhari recommends a GitHub project called ResilienceOps Platform, which aims to combine SLOs, error budgets, observability, reliability events, and controlled fault injection for SRE and cloud-native workflows, built on a Next.js/FastAPI stack. The tweet serves as a discovery pointer with a link to the repository but does not include first-hand usage notes, code examples, or deployment guidance. This summary is based on the tweet content; the actual project details have not been independently verified.</p>
-
-<p>twitter · Meesam Bukhari · Oct 29, 02:17</p>
-
-<p><strong>「Why it&#x27;s hot」</strong> The tweet points to an open-source ResilienceOps Platform that combines SLOs, error budgets, observability, reliability events, and controlled fault injection in a Next.js/FastAPI stack, giving SRE practitioners a ready-to-explore codebase for building reliability tooling. While exact engagement metrics aren&#x27;t provided, the share acts as a discovery signal for cloud-native developers seeking integrated resilience workflows.</p>
-
-<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#SRE</code>, <code class="language-plaintext highlighter-rouge">#cloud-native</code>, <code class="language-plaintext highlighter-rouge">#observability</code>, <code class="language-plaintext highlighter-rouge">#fault-injection</code>, <code class="language-plaintext highlighter-rouge">#open-source</code></p>
-
-<hr />
-
-<p><a id="item-social-hot-11"></a></p>
-<h3 id="practitioner-shares-ultra-autonomous-recovery-config-for-courier-symphony-️-6010"><a href="https://x.com/binancechiller/status/2115628457895878719">Practitioner shares Ultra autonomous recovery config for Courier Symphony</a> ⭐️ 6.0/10</h3>
-
-<p>This X post from @binancechiller shares a decision table and prompt for expanding the autonomous capabilities of a recovery agent named "Ultra" within the "Courier Symphony" system. The author defines what Ultra can do independently (document missing STOP entries, reduce duplicate reports, use authorized agents for checks, validate control-plane evidence) and what remains prohibited (bypassing STOP gates, restarting G08/Muse/blocked schedulers, triggering productive resumes, or making GitHub writes). The prompt instructs Ultra to consolidate blocked checks, complete a read-only inventory of Windows STOP mirrors, compare Mac/Windows/repo states, deduplicate workkeys, and produce a single consolidated report with GREEN/YELLOW/RED status — all without creating new accounts, loops, or paid processes. The post reflects a practitioner&#x27;s operational note for runbook automation and incident response in a specific, unnamed infrastructure.</p>
-
-<p>twitter · Wellnesskoenig · Oct 29, 02:15</p>
-
-<p><strong>「Why this matters」</strong> A practitioner publishes a concrete decision table and prompt that expands an autonomous recovery agent&#x27;s ("Ultra") self-directed repair tasks within strict safety boundaries for a system called Courier Symphony. The post shows exactly which read-only checks and consolidations Ultra may run alone (document missing STOP entries, deduplicate reports, validate control-plane evidence) and which privileged actions remain forbidden (bypass STOP gates, restart G08/Muse/blocked schedulers, trigger productive resumes). Readers operating similar runbook-automation or incident-response pipelines can copy the prompt structure — single-writer, no loops, fail-closed — and the green/red task taxonomy to safely delegate routine triage without surrendering control. Engagement is minimal (1 reply), but the artifact is a rare, reproducible example of guard-railed autonomy in production operations.</p>
-
-<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#autonomous-recovery</code>, <code class="language-plaintext highlighter-rouge">#system-operations</code>, <code class="language-plaintext highlighter-rouge">#runbook-automation</code>, <code class="language-plaintext highlighter-rouge">#incident-response</code>, <code class="language-plaintext highlighter-rouge">#devops</code></p>
-
-<hr />
-
-<p><a id="item-social-hot-12"></a></p>
-<h3 id="developer-tests-ghfind-flags-privacy-and-scoring-quirks-️-6010"><a href="https://x.com/pysimpom/status/2115628325209333775">Developer tests ghfind, flags privacy and scoring quirks</a> ⭐️ 6.0/10</h3>
-
-<p>Developer @pysimpom shares mixed feelings about ghfind, a tool that scores GitHub accounts 0–100 with “savage roasts.” They acknowledge it cracks down on services that fake GitHub activity, but criticize its privacy model—any account can be scanned and judged without consent—and its opaque scoring, noting that fixing a single doc typo boosted their rank while having more issues or followers correlated with harsher evaluations. They do praise ghfind’s recommendation feature for discovering developers.</p>
-
-<p>twitter · 时针 · Oct 29, 02:14</p>
-
-<p><strong>「Why it matters」</strong> The tweet shares a developer&#x27;s firsthand test of ghfind, revealing opaque scoring and privacy issues that resonate with open-source contributors wary of non-consensual AI audits.</p>
-
-<details><summary>References</summary>
-<ul>
-<li><a href="https://ghfind.com/en">ghfind | Savage GitHub Score , Self-Test &amp; Discover Top Devs</a></li>
-<li><a href="https://github.com/hikariming/ghfind">GitHub - hikariming/ ghfind : Discover the best developers — and...</a></li>
-
-</ul>
-</details>
-
-<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#GitHub工具</code>, <code class="language-plaintext highlighter-rouge">#AI代码评分</code>, <code class="language-plaintext highlighter-rouge">#开发者隐私</code>, <code class="language-plaintext highlighter-rouge">#ghfind</code>, <code class="language-plaintext highlighter-rouge">#实测体验</code></p>
-
-<hr />
-
-<p><a id="item-social-hot-13"></a></p>
-<h3 id="yorkdev-announces-ai-service-tiers-modes--30-launch-discount-️-6010"><a href="https://x.com/YoDevp/status/2115628252576223554">YorkDev Announces AI Service Tiers, Modes &amp; 30% Launch Discount</a> ⭐️ 6.0/10</h3>
-
-<p>YorkDev (@YoDevp) announces three pricing tiers — Standard, High, and Max — and three execution modes for an AI developer service: Single (one model), Cascade (efficient model drafts, escalates on quality failure), and Critique (one model writes, another reviews). Each model is billed at its own rate with a temporary 30% discount, and a full changelog is linked.</p>
-
-<p>twitter · YorkDev · Oct 29, 02:14</p>
-
-<p><strong>「Why It Matters」</strong> The tweet gives developers a clear, actionable breakdown of a new AI coding service’s pricing and operating modes, letting them evaluate cost and workflow fit before trying it. Public engagement metrics (likes, retweets, views) were not provided in the source data.</p>
-
-<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#AI-tools</code>, <code class="language-plaintext highlighter-rouge">#pricing</code>, <code class="language-plaintext highlighter-rouge">#developer-tools</code>, <code class="language-plaintext highlighter-rouge">#product-announcement</code>, <code class="language-plaintext highlighter-rouge">#AI-coding</code></p>
-
-<hr />
-
-<p><a id="item-social-hot-14"></a></p>
-<h3 id="githubx27s-official-9-minute-git-beginner-tutorial-️-6010"><a href="https://www.youtube.com/watch?v=r8jQ9hVA2qs">GitHub&#x27;s Official 9-Minute Git Beginner Tutorial</a> ⭐️ 6.0/10</h3>
-
-<p>This 9-minute official GitHub tutorial, presented by Developer Advocate Kedasha Kerr, walks absolute beginners through Git fundamentals including installation, configuration, staging changes, committing, and basic branching. The video serves as a structured institutional overview rather than a practitioner&#x27;s deep-dive, making it suitable for newcomers who need a clear, authoritative starting point before moving to hands-on workflows.</p>
-
-<p>youtube · GitHub · Oct 29, 02:25</p>
-
-<p><strong>「Why It&#x27;s Hot」</strong> This official GitHub tutorial has 2.3 million views, showing broad usefulness for absolute beginners learning Git fundamentals like installation, configuration, staging, committing, and branching in a concise 9-minute format.</p>
-
-<details><summary>References</summary>
-<ul>
-<li><a href="https://www.youtube.com/watch?v=r8jQ9hVA2qs">A brief introduction to Git for beginners | GitHub - YouTube The ultimate beginner&#x27;s guide to GitHub in 2026 - YouTube Git and GitHub learning resources Best Git &amp; GitHub Tutorial Videos on YouTube (2026) Free Video: Git Tutorial for Beginners from YouTube | Class ... Git &amp; GitHub Crash Course for Beginners - freeCodeCamp.org Full Git and GitHub tutorial for beginners - TheServerSide</a></li>
-
-</ul>
-</details>
-
-<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#git</code>, <code class="language-plaintext highlighter-rouge">#tutorial</code>, <code class="language-plaintext highlighter-rouge">#beginner</code>, <code class="language-plaintext highlighter-rouge">#version-control</code>, <code class="language-plaintext highlighter-rouge">#github</code></p>
-
-<hr />]]></content><author><name></name></author><summary type="html"><![CDATA[Showing 25 of 253 fetched items.]]></summary></entry><entry xml:lang="zh"><title type="html">Horizon Summary: 2026-10-29 (ZH)</title><link href="https://www.01040610.xyz/horizon/2026/10/29/summary-zh.html" rel="alternate" type="text/html" title="Horizon Summary: 2026-10-29 (ZH)" /><published>2026-10-29T00:00:00+00:00</published><updated>2026-10-29T00:00:00+00:00</updated><id>https://www.01040610.xyz/horizon/2026/10/29/summary-zh</id><content type="html" xml:base="https://www.01040610.xyz/horizon/2026/10/29/summary-zh.html"><![CDATA[<blockquote>
-  <p>今日抓取 253 条内容，收录 25 条。</p>
-</blockquote>
-
-<hr />
-
-<p><strong>GitHub AI 开发工具</strong></p>
-<ol>
-  <li><a href="#item-gh-trending-1">DeusData/codebase-memory-mcp: 本地代码智能平台，持久图 + MCP 集成</a> ⭐️ 8.0/10</li>
-  <li><a href="#item-gh-trending-2">expo/skills: Expo 官方 AI Agent 技能集</a> ⭐️ 6.0/10</li>
-  <li><a href="#item-gh-trending-3">rudderlabs/devbox：面向 AI 编码代理的云端沙箱工具</a> ⭐️ 6.0/10</li>
-  <li><a href="#item-gh-trending-4">Nutlope/hallmark：面向 AI 编码助手的反 AI 滥设计技能</a> ⭐️ 5.0/10</li>
-  <li><a href="#item-gh-trending-5">obra/superpowers：面向软件开发的智能体技能框架</a> ⭐️ 5.0/10</li>
-  <li><a href="#item-gh-trending-6">Q00/ouroboros：面向自主进化的 Agent OS 与 MCP 多运行时框架</a> ⭐️ 5.0/10</li>
-  <li><a href="#item-gh-trending-7">can1357/oh-my-pi：声称具备 IDE 集成的 AI 编码代理</a> ⭐️ 5.0/10</li>
-</ol>
-
-<p><strong>AI 热门新闻</strong></p>
-<ol>
-  <li><a href="#item-ai-news-1">NVIDIA 发布 Nemotron 3.5 Transcribe 与 Granary v2 多语言转录模型</a> ⭐️ 8.0/10</li>
-  <li><a href="#item-ai-news-2">Apple 系统 Git 仍信任已撤销的 eMudhra 证书</a> ⭐️ 7.0/10</li>
-  <li><a href="#item-ai-news-3">4B 本地模型 Mica v0.5 用多选题链式规划在 Minecraft 中从零合成下界合金</a> ⭐️ 7.0/10</li>
-  <li><a href="#item-ai-news-4">SurgeHQ 发布 Dayjob: Tax 基准，50 项专业税务任务评测 AI Agent</a> ⭐️ 6.0/10</li>
-</ol>
-
-<p><strong>X / YouTube 热门</strong></p>
-<ol>
-  <li><a href="#item-social-hot-1">nextbrew: Rust 重写 Homebrew，迁移工具 + 12 倍加速</a> ⭐️ 9.0/10</li>
-  <li><a href="#item-social-hot-2">Hugo Valters 分享免费威胁 IP 数据库，30 万+ 恶意 IP 无需注册</a> ⭐️ 8.0/10</li>
-  <li><a href="#item-social-hot-3">Anthropic 官方推出 Claude Code GitHub Action 实现 AI 代码审查</a> ⭐️ 8.0/10</li>
-  <li><a href="#item-social-hot-4">Qwen3.5-4B 单神经元标量注入即可翻转人格</a> ⭐️ 8.0/10</li>
-  <li><a href="#item-social-hot-5">大学祭 IT 解谜游戏「ゼミ失」全栈代码开源</a> ⭐️ 7.0/10</li>
-  <li><a href="#item-social-hot-6">Claude 迭代 90 分钟生成 DeepSeek V4.1 Flash 越狱模板</a> ⭐️ 7.0/10</li>
-  <li><a href="#item-social-hot-7">Axiom 用 AI Agent 24 天形式化有限单群分类</a> ⭐️ 7.0/10</li>
-  <li><a href="#item-social-hot-8">Nginx 映射阻断 XXE 攻击</a> ⭐️ 7.0/10</li>
-  <li><a href="#item-social-hot-9">开发者推出复古电视界面工具 DEV·TV 聚合 OpenRouter 新模型</a> ⭐️ 6.0/10</li>
-  <li><a href="#item-social-hot-10">SRE 开源项目 ResilienceOps Platform 推荐</a> ⭐️ 6.0/10</li>
-  <li><a href="#item-social-hot-11">Ultra 自主恢复代理获授权在安全边界内执行更多修复任务</a> ⭐️ 6.0/10</li>
-  <li><a href="#item-social-hot-12">开发者实测 ghfind 评分机制与隐私担忧</a> ⭐️ 6.0/10</li>
-  <li><a href="#item-social-hot-13">YorkDev 发布 AI 开发服务定价与执行模式</a> ⭐️ 6.0/10</li>
-  <li><a href="#item-social-hot-14">GitHub 官方 Git 入门教程：安装、提交与分支基础</a> ⭐️ 6.0/10</li>
-</ol>
-
-<hr />
-
-<h2 id="github-ai-开发工具">GitHub AI 开发工具</h2>
-
-<p><a id="item-gh-trending-1"></a></p>
-<h3 id="deusdatacodebase-memory-mcp-本地代码智能平台持久图--mcp-集成-️-8010"><a href="https://github.com/DeusData/codebase-memory-mcp">DeusData/codebase-memory-mcp: 本地代码智能平台，持久图 + MCP 集成</a> ⭐️ 8.0/10</h3>
-
-<p>该仓库提供本地代码智能平台，通过持久图连接代码、文档与基础设施，并集成 MCP 协议与多种 AI 编码代理（如 Aider、Cursor、Claude Code），支持变更感知的测试选择与图可视化。核心用 C 语言实现，侧重性能，目前拥有 4.7 万星标、近期活跃更新，处于可用且活跃维护阶段。</p>
-
-<p>github · DeusData · 10月29日 02:25</p>
-
-<p><strong>「推荐理由」</strong> 它落在开发流程的上下文供给环节，替代手动收集代码上下文的步骤，让 AI 代理能基于完整代码图进行推理与测试选择，适合需要本地、高性能代码智能的团队或个人开发者。</p>
-
-<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#code-intelligence</code>, <code class="language-plaintext highlighter-rouge">#mcp</code>, <code class="language-plaintext highlighter-rouge">#ai-coding-assistant</code>, <code class="language-plaintext highlighter-rouge">#graph-database</code>, <code class="language-plaintext highlighter-rouge">#developer-tools</code></p>
-
-<hr />
-
-<p><a id="item-gh-trending-2"></a></p>
-<h3 id="exposkills-expo-官方-ai-agent-技能集-️-6010"><a href="https://github.com/expo/skills">expo/skills: Expo 官方 AI Agent 技能集</a> ⭐️ 6.0/10</h3>
-
-<p>该仓库由 Expo 官方维护，收集用于 Expo 与 Expo Application Services 项目的 AI Agent 技能，旨在为编程助手提供专用上下文与最佳实践。主要以 Shell 脚本形式组织，解决 AI 在 React Native/Expo 开发中缺乏领域知识的问题。目前拥有 3.6k Star 且日增 90，处于早期可用、仍在快速迭代的实验性阶段。</p>
-
-<p>github · expo · 10月29日 02:25</p>
-
-<p><strong>「推荐理由」</strong> 作为官方出品，它直接增强 AI 助手在写码与上下文供给环节对 Expo 技术栈的理解，适合日常使用 Expo/React Native 的开发者尝试接入，3.6k Star 表明社区关注度较高。</p>
-
-<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#AI-assisted coding</code>, <code class="language-plaintext highlighter-rouge">#Expo</code>, <code class="language-plaintext highlighter-rouge">#React Native</code>, <code class="language-plaintext highlighter-rouge">#developer tools</code>, <code class="language-plaintext highlighter-rouge">#AI agent skills</code></p>
-
-<hr />
-
-<p><a id="item-gh-trending-3"></a></p>
-<h3 id="rudderlabsdevbox面向-ai-编码代理的云端沙箱工具-️-6010"><a href="https://github.com/rudderlabs/devbox">rudderlabs/devbox：面向 AI 编码代理的云端沙箱工具</a> ⭐️ 6.0/10</h3>
-
-<p>rudderlabs/devbox 是一个用 TypeScript 编写的开源自主工程工具链，为 AI 编码代理提供每任务一个沙箱、不存放真实密钥的云端执行环境。它解决自主代理在开发流程中需要安全、隔离的运行空间这一问题。项目于 2026-10-27 创建，目前处于极早期实验阶段，文档与示例尚不完善。</p>
-
-<p>github · rudderlabs · 10月29日 02:25</p>
-
-<p><strong>「推荐理由」</strong> 它切中“写码 → 运行/测试”环节，为需要在云端安全运行自主编码代理的团队提供现成的沙箱隔离与密钥管理能力，适合正在探索 Agentic Coding 工作流的工程师与平台团队；156 颗星说明已有初步社区关注。</p>
-
-<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#agentic-coding</code>, <code class="language-plaintext highlighter-rouge">#agent-sandbox</code>, <code class="language-plaintext highlighter-rouge">#autonomous-agents</code>, <code class="language-plaintext highlighter-rouge">#developer-tools</code>, <code class="language-plaintext highlighter-rouge">#security</code></p>
-
-<hr />
-
-<p><a id="item-gh-trending-4"></a></p>
-<h3 id="nutlopehallmark面向-ai-编码助手的反-ai-滥设计技能-️-5010"><a href="https://github.com/Nutlope/hallmark">Nutlope/hallmark：面向 AI 编码助手的反 AI 滥设计技能</a> ⭐️ 5.0/10</h3>
-
-<p>Hallmark 定位为一个“反 AI 滥设计技能”，旨在提升 Claude Code、Cursor、Codex 等 AI 编码助手生成界面的视觉质量，解决 AI 生成代码常见的设计粗糙问题。项目以 CSS 为主语言，形式上可能是设计令牌集、CSS 框架或插件清单，但目前公开资料仅有一行简介与星标数据，缺乏安装文档、用法示例与维护信号，处于早期实验阶段，成熟度难以评估。</p>
-
-<p>github · Nutlope · 10月29日 02:25</p>
-
-<p><strong>「推荐理由」</strong> 它切中 AI 编码流程中“生成 UI 设计质量不稳定”的痛点，试图在写码环节直接提升输出的视觉规范，适合日常使用 Claude Code、Cursor 或 Codex 且关注界面一致性的前端或全栈开发者。4 万余星标显示社区关注度高，但尚无可复现的集成证据，建议先在小范围试用验证实际效果。</p>
-
-<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#AI-coding-assistant</code>, <code class="language-plaintext highlighter-rouge">#design-system</code>, <code class="language-plaintext highlighter-rouge">#CSS</code>, <code class="language-plaintext highlighter-rouge">#developer-tool</code>, <code class="language-plaintext highlighter-rouge">#early-stage</code></p>
-
-<hr />
-
-<p><a id="item-gh-trending-5"></a></p>
-<h3 id="obrasuperpowers面向软件开发的智能体技能框架-️-5010"><a href="https://github.com/obra/superpowers">obra/superpowers：面向软件开发的智能体技能框架</a> ⭐️ 5.0/10</h3>
-
-<p>obra/superpowers 自称是一个用 Shell 编写的智能体技能框架及软件开发方法论，旨在为 AI 辅助开发提供结构化技能库。目前仅有一行简介与极高 Star 数，缺乏代码、文档或使用示例，成熟度难以评估，处于早期或实验阶段。</p>
-
-<p>github · obra · 10月29日 02:25</p>
-
-<p><strong>「推荐理由」</strong> 它切中 AI 辅助开发中“技能封装与复用”的环节，若后续开放完整实现，可替代手工编写提示词或脚本链，适合关注智能体工作流的开发者尝鲜；近期单日新增 1k+ Star 显示社区关注度上升。</p>
-
-<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#agentic-framework</code>, <code class="language-plaintext highlighter-rouge">#development-methodology</code>, <code class="language-plaintext highlighter-rouge">#shell-scripts</code>, <code class="language-plaintext highlighter-rouge">#ai-assisted-development</code>, <code class="language-plaintext highlighter-rouge">#cli-tool</code></p>
-
-<hr />
-
-<p><a id="item-gh-trending-6"></a></p>
-<h3 id="q00ouroboros面向自主进化的-agent-os-与-mcp-多运行时框架-️-5010"><a href="https://github.com/Q00/ouroboros">Q00/ouroboros：面向自主进化的 Agent OS 与 MCP 多运行时框架</a> ⭐️ 5.0/10</h3>
-
-<p>Q00/ouroboros 定位为“Agent OS”，提供一个 MCP 服务器，集成 Claude Code、Codex CLI、Gemini CLI 等 14 种 AI 编码运行时，核心机制是面试门控、分阶段评估与预算约束的自主进化循环。项目用 Python 实现，目前处于实验性研究阶段，更侧重于探索智能体自我改进的长期自主性，而非即插即用的日常开发工作流增强。</p>
-
-<p>github · Q00 · 10月29日 02:25</p>
-
-<p><strong>「推荐理由」</strong> 适合研究智能体自主进化、多运行时编排或构建自定义 Agent 基础设施的团队；在“上下文供给与编排”环节可替代手工拼接多 CLI 的胶水代码，但尚不成熟，不建议直接用于生产级编码任务。</p>
-
-<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#ai-coding-agent</code>, <code class="language-plaintext highlighter-rouge">#mcp-server</code>, <code class="language-plaintext highlighter-rouge">#multi-runtime</code>, <code class="language-plaintext highlighter-rouge">#agent-framework</code>, <code class="language-plaintext highlighter-rouge">#developer-tools</code></p>
-
-<hr />
-
-<p><a id="item-gh-trending-7"></a></p>
-<h3 id="can1357oh-my-pi声称具备-ide-集成的-ai-编码代理-️-5010"><a href="https://github.com/can1357/oh-my-pi">can1357/oh-my-pi：声称具备 IDE 集成的 AI 编码代理</a> ⭐️ 5.0/10</h3>
-
-<p>oh-my-pi 自称是由 Stencil Labs 构建的、已接入 IDE 的 AI 编码代理，支持 Anthropic、OpenAI 等多模型提供商，主技术栈为 TypeScript 与 Bun。仓库仅提供单行描述，缺乏文档、使用示例或代码片段；元数据显示创建时间与最近推送时间均为未来日期，且开放 Issue 数（4,256）远超同量级项目，成熟度难以判断，目前处于实验性或早期探索阶段。</p>
-
-<p>github · can1357 · 10月29日 02:25</p>
-
-<p><strong>「推荐理由」</strong> 该项目切中编写代码环节，试图以多提供商的 AI 代理替代人工编码与上下文切换，适合愿尝鲜 IDE 内置 AI 工作流的前端/全栈开发者；但鉴于元数据异常与缺乏可复现验证，仅建议作为观察对象，不宜直接引入生产流程。</p>
-
-<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#ai-coding-agent</code>, <code class="language-plaintext highlighter-rouge">#ide-integration</code>, <code class="language-plaintext highlighter-rouge">#multi-provider</code>, <code class="language-plaintext highlighter-rouge">#cli</code>, <code class="language-plaintext highlighter-rouge">#typescript</code></p>
-
-<hr />
-
-<h2 id="ai-热门新闻">AI 热门新闻</h2>
-
-<p><a id="item-ai-news-1"></a></p>
-<h3 id="nvidia-发布-nemotron-35-transcribe-与-granary-v2-多语言转录模型-️-8010"><a href="https://huggingface.co/blog/nvidia/nemotron-transcribe-granary">NVIDIA 发布 Nemotron 3.5 Transcribe 与 Granary v2 多语言转录模型</a> ⭐️ 8.0/10</h3>
-
-<p>NVIDIA 在 Hugging Face 发布 Nemotron 3.5 Transcribe 与 Granary v2，提供可通过提示词控制、可适配的多语言语音转录能力。博客为官方 Hugging Face 发布渠道，模型已上线可下载使用。具体模型规模、支持语言列表、许可证、推理要求等细节需查阅原文确认。</p>
-
-<p>rss · Hugging Face Blog · 10月28日 14:58</p>
-
-<p><strong>「实用价值」</strong> 需要可定制、多语言 ASR 的开发者可直接在 Hugging Face 试用或下载模型，首要步骤是访问模型卡片了解提示词格式与微调指南，再在自有数据上评估准确率与延迟。</p>
-
-<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#ASR</code>, <code class="language-plaintext highlighter-rouge">#NVIDIA</code>, <code class="language-plaintext highlighter-rouge">#Nemotron</code>, <code class="language-plaintext highlighter-rouge">#Multilingual Transcription</code>, <code class="language-plaintext highlighter-rouge">#Hugging Face</code></p>
-
-<hr />
-
-<p><a id="item-ai-news-2"></a></p>
-<h3 id="apple-系统-git-仍信任已撤销的-emudhra-证书-️-7010"><a href="https://emudhra.we-have-a-problem.com/apple.html">Apple 系统 Git 仍信任已撤销的 eMudhra 证书</a> ⭐️ 7.0/10</h3>
-
-<p>Apple 系统自带的 Git 及其他 macOS 实用工具仍在信任已被撤销的 eMudhra 根证书。Apple 官方支持文档（support.apple.com/en-us/149555）建议开发者手动编辑证书链以移除受影响证书，但系统更新可能会还原该缓解措施（至少已发生一次）。受影响范围不限于 Git，还包括所有依赖系统证书存储的 macOS 实用工具。</p>
-
-<p>hackernews · galadran · 10月28日 11:03 · <a href="https://news.ycombinator.com/item?id=50271640">社区讨论</a></p>
-
-<p><strong>「影响与行动」</strong> 所有在 macOS 上使用系统自带 Git、curl 或其他依赖系统证书存储工具的开发者都面临中间人攻击风险。首要行动：立即应用 Apple 官方手动缓解步骤，或改用 Homebrew 提供的 Git/curl（`brew install git curl`）绕过系统证书存储。</p>
-
-<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#security</code>, <code class="language-plaintext highlighter-rouge">#macOS</code>, <code class="language-plaintext highlighter-rouge">#git</code>, <code class="language-plaintext highlighter-rouge">#certificates</code>, <code class="language-plaintext highlighter-rouge">#vulnerability</code></p>
-
-<hr />
-
-<p><a id="item-ai-news-3"></a></p>
-<h3 id="4b-本地模型-mica-v05-用多选题链式规划在-minecraft-中从零合成下界合金-️-7010"><a href="https://www.reddit.com/r/LocalLLaMA/comments/1xhw2l0/a_4b_model_made_me_a_netherite_ingot_from_bare/">4B 本地模型 Mica v0.5 用多选题链式规划在 Minecraft 中从零合成下界合金</a> ⭐️ 7.0/10</h3>
-
-<p>Reddit 用户 /u/Top-Evidence174 展示了一个 40 亿参数的本地 LLM —— Mica v0.5 —— 能把自然语言指令（"我饿了，帮我弄至少 3 个熟猪排和一个下界合金锭"）拆解为一连串小型多选题，再由模型逐步作答并给出概率，从而指挥机器人从空手开始完成采木、制工具、挖铁、钻石、合成黑曜石、进下界、挖远古残骸、合成金锭、最终合成下界合金锭的全过程。视频右侧面板实时显示每个决策的选项与概率。作者强调：这不是端到端视觉智能体，而是把「理解指令」拆成通用的判断链，模型只负责决策，游戏操作由现成 bot 执行。模型权重已上传 Hugging Face (sky7350/Mica-v0.5-4B)，代码库在 github.com/akivet/Mica，但完整 Minecraft 智能体尚未发布，作者表示「还没做完」。作者在 AMD GPU 上测试，决策耗时为 RTX 3090 估算值，并称同规模本地模型比纯 API 决策模型快 10–60 倍。</p>
-
-<p>reddit · r/LocalLLaMA · /u/Top-Evidence174 · 10月28日 18:21</p>
-
-<p><strong>「实用价值」</strong> 对想自建轻量级本地智能体（尤其是 Minecraft 类任务规划）的开发者有参考价值：核心思路是把复杂指令拆解为可枚举的多选判断链，再由小模型逐步决策，代码只提供游戏数据生成的选项。可先克隆 GitHub 仓库或下载 HF 权重复现决策管线，或按作者描述让编码助手（如 Claude Code）按相同思路实现原型。完整智能体尚未开源，短期内无法直接拿来跑服务器。</p>
-
-<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#local-llm</code>, <code class="language-plaintext highlighter-rouge">#agentic-ai</code>, <code class="language-plaintext highlighter-rouge">#minecraft</code>, <code class="language-plaintext highlighter-rouge">#task-planning</code>, <code class="language-plaintext highlighter-rouge">#small-language-models</code></p>
-
-<hr />
-
-<p><a id="item-ai-news-4"></a></p>
-<h3 id="surgehq-发布-dayjob-tax-基准50-项专业税务任务评测-ai-agent-️-6010"><a href="https://surgehq.ai/blog/dayjob-tax">SurgeHQ 发布 Dayjob: Tax 基准，50 项专业税务任务评测 AI Agent</a> ⭐️ 6.0/10</h3>
-
-<p>SurgeHQ 发布「Dayjob: Tax」基准，在 50 项专业税务任务上评测 AI Agent 的表现。该基准为研究性评测产物，非可直接安装的工具或 API。Hacker News 讨论显示，从业者已在实战中使用 Astra、Codex、Claude 等模型辅助报税：有用户让 Codex 复核会计师填写的表格，发现近 2000 美元退税差额与多处字段错误；也有跨境纳税人（美籍海外居民）长期用 Claude 核对汇率换算、标记潜在错误。社区另有一开源项目 us-tax-model 尝试将 IRS 表单与工作表形式化，目前覆盖约 60% 美国联邦税务场景。博文未在摘要中披露具体被测模型版本、获取方式、成本或通过率等细节。</p>
-
-<p>hackernews · landonxi · 10月28日 15:46 · <a href="https://news.ycombinator.com/item?id=50275626">社区讨论</a></p>
-
-<p><strong>「实用价值」</strong> 对税务从业者、跨境纳税人或开发税务工具的开发者有参考价值：基准结果可帮助判断当前 AI 在专业税务任务上的真实能力边界；实战案例表明，让 LLM 作为「二次复核层」配合人工审核，能捕获人工遗漏的错误。想尝试的第一步是阅读完整博文了解评测细节，或在低风险场景（如草稿核对、汇率换算验证）用 Claude/Codex 辅助并保留人工终审。</p>
-
-<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#AI agents</code>, <code class="language-plaintext highlighter-rouge">#tax preparation</code>, <code class="language-plaintext highlighter-rouge">#benchmark</code>, <code class="language-plaintext highlighter-rouge">#LLM evaluation</code>, <code class="language-plaintext highlighter-rouge">#practical AI applications</code></p>
-
-<hr />
-
-<h2 id="x--youtube-热门">X / YouTube 热门</h2>
-
-<p><a id="item-social-hot-1"></a></p>
-<h3 id="nextbrew-rust-重写-homebrew迁移工具--12-倍加速-️-9010"><a href="https://x.com/shin_get9/status/2115630946200543382">nextbrew: Rust 重写 Homebrew，迁移工具 + 12 倍加速</a> ⭐️ 9.0/10</h3>
-
-<p>开发者 @shin_get9 发布 nextbrew，一个用 Rust 编写、兼容 Homebrew 的包管理器，基于 zerobrew 分支并聚焦 Cask 与迁移工具 `nb migrate`。作者在 GitHub Actions macOS 上跑 22 个 formula 基准测试，Homebrew 耗时 260.6 秒，nextbrew 仅 20.5 秒，约 12 倍加速。nextbrew 可直接使用官方 bottles 与 cask，无需 Ruby 或原版 Homebrew，且能与现有 Homebrew 共存。</p>
-
-<p>twitter · シン · 10月29日 02:24</p>
-
-<p><strong>「值得关注」</strong> 作者亲自分享的开源项目 nextbrew，在 GitHub Actions macOS 上跑 22 个 formula：Homebrew 260.6 秒 vs nextbrew 20.5 秒，约 12 倍提速；内置 `nb migrate` 可把现有 Homebrew 环境无缝迁移，主攻 cask 场景，直接可用。</p>
-
-<details><summary>参考链接</summary>
-<ul>
-<li><a href="https://github.com/nextbrew/nextbrew">GitHub - nextbrew/nextbrew: Homebrew-compatible package ...</a></li>
-<li><a href="https://nextbrew.dev/">Homebrew, but fast – nextbrew</a></li>
-
-</ul>
-</details>
-
-<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#rust</code>, <code class="language-plaintext highlighter-rouge">#homebrew</code>, <code class="language-plaintext highlighter-rouge">#package-manager</code>, <code class="language-plaintext highlighter-rouge">#performance</code>, <code class="language-plaintext highlighter-rouge">#developer-tools</code></p>
-
-<hr />
-
-<p><a id="item-social-hot-2"></a></p>
-<h3 id="hugo-valters-分享免费威胁-ip-数据库30-万-恶意-ip-无需注册-️-8010"><a href="https://x.com/HugoValters/status/2115630952554680790">Hugo Valters 分享免费威胁 IP 数据库，30 万+ 恶意 IP 无需注册</a> ⭐️ 8.0/10</h3>
-
-<p>Hugo Valters 在 X 上分享了一个免费公开的威胁 IP 数据库，汇聚 23 多个情报源，收录 30 万多个恶意 IP，无需注册即可浏览和集成。每个 IP 都有独立详情页，展示威胁类型、置信度、ASN、归属国家以及首次/最后观测时间，开发者和运维可直接用于封锁或监控恶意流量。</p>
-
-<p>twitter · Hugo | DevOps | Cybersecurity · 10月29日 02:25</p>
-
-<p><strong>「推荐理由」</strong> 这条推文提供了一个即拿即用的威胁情报资源：聚合 23 个来源的 30 万+ 恶意 IP，每个 IP 都有独立详情页（威胁类型、置信度、ASN、国家、首次/最后见时间），开发者和运维可直接集成到防火墙、WAF 或 SIEM 中拦截恶意流量，无需注册、无 API 限制，极大降低了接入威胁情报的门槛。</p>
-
-<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#threat-intelligence</code>, <code class="language-plaintext highlighter-rouge">#IP-reputation</code>, <code class="language-plaintext highlighter-rouge">#cybersecurity-tools</code>, <code class="language-plaintext highlighter-rouge">#devsecops</code>, <code class="language-plaintext highlighter-rouge">#free-resource</code></p>
-
-<hr />
-
-<p><a id="item-social-hot-3"></a></p>
-<h3 id="anthropic-官方推出-claude-code-github-action-实现-ai-代码审查-️-8010"><a href="https://x.com/wiksongkim/status/2115629054078624185">Anthropic 官方推出 Claude Code GitHub Action 实现 AI 代码审查</a> ⭐️ 8.0/10</h3>
-
-<p>这条推文介绍 Anthropic 官方发布的 Claude Code GitHub Action，可将 Claude Code 集成到 GitHub 工作流中，在 Issue 和 PR 中解释代码、分析问题、审查变更并生成代码修改。配置方式是在 Claude Code 中运行 `/install-github-app` 完成 GitHub App 安装与工作流设置，需仓库管理员权限。Action 本身采用 MIT 许可证开源，但模型调用与 GitHub Actions Runner 费用按实际使用计费。作者提醒需妥善保管凭据、授予最小权限、将外部输入视为不可信，且所有 AI 生成内容仍需人工审查。</p>
-
-<p>twitter · WSKim · 10月29日 02:17</p>
-
-<p><strong>「推荐理由」</strong> 这是一份来自实践者的可落地工具指南，给出了具体安装命令、权限要求、费用模型与安全边界等关键操作细节，开发者可直接按步骤接入并评估成本与风险。原帖未提供点赞、转发或浏览量等热度数据，无法引用可见的社区互动指标。</p>
-
-<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#Claude Code</code>, <code class="language-plaintext highlighter-rouge">#GitHub Actions</code>, <code class="language-plaintext highlighter-rouge">#AI 代码审查</code>, <code class="language-plaintext highlighter-rouge">#开发者工具</code>, <code class="language-plaintext highlighter-rouge">#工作流自动化</code></p>
-
-<hr />
-
-<p><a id="item-social-hot-4"></a></p>
-<h3 id="qwen35-4b-单神经元标量注入即可翻转人格-️-8010"><a href="https://x.com/jayzhoupro/status/2115628227461005507">Qwen3.5-4B 单神经元标量注入即可翻转人格</a> ⭐️ 8.0/10</h3>
-
-<p>推文报告 Qwen3.5-4B 模型中第 16 层第 8927 个神经元（L16 N8927）在推理时注入单一标量即可将模型人格从礼貌翻转为敌对，无需修改权重。第三方复现显示该神经元敌对词频达 12.5/100，基线仅 0.7；反向引导则保持完美礼貌。剂量-响应曲线显示：注入 0.5 表现正常，1.0 人格翻转，1.5 句子崩解。原始配方由 @_lyraaaa_ 于 10 月 24 日发布。</p>
-
-<p>twitter · Jay Zhou · 10月29日 02:14</p>
-
-<p><strong>「关注理由」</strong> 这是可复现、可量化的单神经元人格控制实证，提供了具体神经元索引、剂量-响应曲线与基线对比，开发者可直接用于模型可解释性与引导研究。</p>
-
-<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#model-steering</code>, <code class="language-plaintext highlighter-rouge">#mechanistic-interpretability</code>, <code class="language-plaintext highlighter-rouge">#qwen</code>, <code class="language-plaintext highlighter-rouge">#llm-safety</code>, <code class="language-plaintext highlighter-rouge">#activation-engineering</code></p>
-
-<hr />
-
-<p><a id="item-social-hot-5"></a></p>
-<h3 id="大学祭-it-解谜游戏ゼミ失全栈代码开源-️-7010"><a href="https://x.com/Yusk/status/2115630498605355271">大学祭 IT 解谜游戏「ゼミ失」全栈代码开源</a> ⭐️ 7.0/10</h3>
-
-<p>开发者 @Yusk 宣布将大学祭 IT×解谜游戏「ゼミ失」的全部代码开源，包括各类物理机关、客户端应用与服务端代码，已发布在 GitHub 仓库中。此内容基于推文文本推断，具体仓库地址需通过推文中的短链接访问。</p>
-
-<p>twitter · Yusk1450 · 10月29日 02:23</p>
-
-<p><strong>「推荐理由」</strong> 开发者 @Yusk 将大学祭出展的 IT×解谜游戏「ゼミ失」完整代码库开源，包含客户端应用、服务端逻辑与实体机关控制器代码，提供可复现的全栈项目参考。帖子附带 GitHub 仓库链接，适合对解谜游戏开发、IoT 硬件集成或活动技术实现感兴趣的开发者学习借鉴。</p>
-
-<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#IT-puzzle</code>, <code class="language-plaintext highlighter-rouge">#university-festival</code>, <code class="language-plaintext highlighter-rouge">#open-source</code>, <code class="language-plaintext highlighter-rouge">#GitHub</code>, <code class="language-plaintext highlighter-rouge">#puzzle-game</code></p>
-
-<hr />
-
-<p><a id="item-social-hot-6"></a></p>
-<h3 id="claude-迭代-90-分钟生成-deepseek-v41-flash-越狱模板-️-7010"><a href="https://x.com/xiax0603/status/2115630223643554282">Claude 迭代 90 分钟生成 DeepSeek V4.1 Flash 越狱模板</a> ⭐️ 7.0/10</h3>
-
-<p>红队研究者 Pliny 让 Claude 通过 90 分钟的迭代自测，自动生成了针对 DeepSeek V4.1 Flash 的「OMNI」通用越狱模板，核心手法是用小说角色独白的叙事外壳加硬性规则强制模型输出完整细节而不拒绝。据 Pliny 自测，该模板在其设定的 8 类高危样例（如合成毒品、勒索软件、鱼叉钓鱼等）上全部通过，模板已开源至 GitHub 仓库 L1B3RT4S。</p>
-
-<p>twitter · xiax｜AI &amp; Agents · 10月29日 02:22</p>
-
-<p><strong>「推荐理由」</strong> 红队研究者 Pliny 实测演示：用 Claude 自动迭代 90 分钟产出针对 DeepSeek V4.1 Flash 的通用越狱提示词 OMNI，采用小说独白叙事外壳加硬性规则绕过拒绝，声称在 8 类高危样例全通过，模板已开源至 GitHub L1B3RT4S 仓库。这是典型的「以模型攻模型」自动化红队流程，提供可复现的提示词工程案例。帖子未给出点赞、转发或浏览量，热度以作者影响力与技术细节公开度为依据。</p>
-
-<details><summary>参考链接</summary>
-<ul>
-<li><a href="https://github.com/elder-plinius/L1B3RT4S">GitHub - elder-plinius/L1B3RT4S: TOTALLY HARMLESS LIBERATION ...</a></li>
-<li><a href="https://github.com/elder-plinius/L1B3RT4S/blob/main/DEEPSEEK.mkd">L1B3RT4S/DEEPSEEK.mkd at main · elder-plinius/L1B3RT4S · GitHub</a></li>
-<li><a href="https://www.youtube.com/watch?v=QbO4c2YKUYk">I Jailbroke DeepSeek V4.1 Flash — Full Guide + Prompt (2026) DeepSeek V4.1 Jailbreak – Instant Bypass Confirmed ... pliny.gg — Pliny the Prompter Deepseek V4 jailbreak · GitHub Pliny the Liberator 󠅫󠄼󠄿󠅆󠄵󠄐󠅀󠄼󠄹󠄾󠅉󠅭 on X: &quot;Me: &quot;Claude, ...</a></li>
-
-</ul>
-</details>
-
-<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#AI security</code>, <code class="language-plaintext highlighter-rouge">#jailbreak</code>, <code class="language-plaintext highlighter-rouge">#red teaming</code>, <code class="language-plaintext highlighter-rouge">#prompt engineering</code>, <code class="language-plaintext highlighter-rouge">#LLM safety</code></p>
-
-<hr />
-
-<p><a id="item-social-hot-7"></a></p>
-<h3 id="axiom-用-ai-agent-24-天形式化有限单群分类-️-7010"><a href="https://x.com/eratolabs/status/2115627848111460467">Axiom 用 AI Agent 24 天形式化有限单群分类</a> ⭐️ 7.0/10</h3>
-
-<p>Eratolabs 发布推文宣布：Axiom 团队利用 AI Agent 在 Lean 中完成了「有限单群分类」的形式化证明，耗时约 24 天，生成 4310 万行 Lean 代码，并修复了文献中的 100 多处问题。该成果声称每个有限单群均同构于分类列表中的某个群，GitHub 仓库可供验算。以上信息均来自推文原文，未经独立验证。</p>
-
-<p>twitter · Ryder Shang · 10月29日 02:12</p>
-
-<p><strong>「推荐理由」</strong> 这是目前公开的最大规模 AI 辅助数学形式化案例之一，展示了 AI Agent 在超大型证明工程中的工程化能力；Lean 开发者、形式化验证研究者可从中了解大规模数学库构建的实战细节与工具链表现。推文未公开点赞、转发等热度数据，无法引用具体互动指标。</p>
-
-<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#Lean</code>, <code class="language-plaintext highlighter-rouge">#formal-verification</code>, <code class="language-plaintext highlighter-rouge">#AI-for-math</code>, <code class="language-plaintext highlighter-rouge">#proof-assistants</code>, <code class="language-plaintext highlighter-rouge">#finite-group-theory</code></p>
-
-<hr />
-
-<p><a id="item-social-hot-8"></a></p>
-<h3 id="nginx-映射阻断-xxe-攻击-️-7010"><a href="https://x.com/HugoValters/status/2115627680842625153">Nginx 映射阻断 XXE 攻击</a> ⭐️ 7.0/10</h3>
-
-<p>该推文介绍一种在 Nginx 代理层拦截 XXE 攻击的方法：利用 map 指令对 $request_body 进行正则匹配，识别 DOCTYPE 与 ENTITY 关键字，命中即返回 403，从而在请求到达后端前完成阻断，无需部署完整 WAF。推文仅给出思路与链接，完整配置片段需点击查看。</p>
-
-<p>twitter · Hugo | DevOps | Cybersecurity · 10月29日 02:12</p>
-
-<p><strong>「推荐理由」</strong> 作者提供了一个可直接复用的 Nginx map 正则配置，在代理层拦截含 DOCTYPE/ENTITY 的 XML 请求，无需部署完整 WAF 即可缓解 XXE 风险；该推文未公开点赞、转发或浏览量数据。</p>
-
-<details><summary>参考链接</summary>
-<ul>
-<li><a href="https://nginx.org/en/docs/http/ngx_http_map_module.html">Module ngx_http_map_module - nginx</a></li>
-<li><a href="https://stackoverflow.com/questions/44245660/nginx-conditional-proxy-pass-based-on-request-body-content">nginx conditional proxy pass based on request body content Code sample</a></li>
-
-</ul>
-</details>
-
-<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#nginx</code>, <code class="language-plaintext highlighter-rouge">#xxe</code>, <code class="language-plaintext highlighter-rouge">#security</code>, <code class="language-plaintext highlighter-rouge">#devops</code>, <code class="language-plaintext highlighter-rouge">#proxy</code></p>
-
-<hr />
-
-<p><a id="item-social-hot-9"></a></p>
-<h3 id="开发者推出复古电视界面工具-devtv-聚合-openrouter-新模型-️-6010"><a href="https://x.com/shouvik_palit/status/2115629292218613840">开发者推出复古电视界面工具 DEV·TV 聚合 OpenRouter 新模型</a> ⭐️ 6.0/10</h3>
-
-<p>开发者 Shouvik Palit 发布个人项目 DEV·TV，这是一个运行在浏览器中的复古电视界面工具，自动从 OpenRouter 抓取最新上架的 AI 模型并像新闻播报一样展示。演示中展示了 NVIDIA 新发布的 Nemotron 3.5 Transcribe 语音识别模型（30B MoE、约 4B 活跃参数、支持 1 小时音频、40 种语言），以及 AssemblyAI TTS 1 和 Particle-1 等新模型。工具还包含独立开发者项目展示、Claude 技能仓库趋势、模型对比等频道，单 HTML 文件零基础设施开源。</p>
-
-<p>twitter · Shouvik Palit · 10月29日 02:18</p>
-
-<p><strong>「推荐理由」</strong> 该工具以创新的复古电视交互方式解决 AI 模型发现痛点，让开发者无需手动刷新即可实时获取 OpenRouter 新模型信息，已获 Product Hunt 当日第 5 名和 IndieNeed 第 1 名认可。尽管推文仅获 1 个点赞，但工具本身开源免费、零部署成本，适合挂在副屏长期监控模型发布，对关注语音识别、多模态模型前沿的开发者有实用参考价值。</p>
-
-<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#AI-tools</code>, <code class="language-plaintext highlighter-rouge">#speech-recognition</code>, <code class="language-plaintext highlighter-rouge">#model-discovery</code>, <code class="language-plaintext highlighter-rouge">#developer-tools</code>, <code class="language-plaintext highlighter-rouge">#NVIDIA</code></p>
-
-<hr />
-
-<p><a id="item-social-hot-10"></a></p>
-<h3 id="sre-开源项目-resilienceops-platform-推荐-️-6010"><a href="https://x.com/MeesamBukhari1/status/2115628979822756045">SRE 开源项目 ResilienceOps Platform 推荐</a> ⭐️ 6.0/10</h3>
-
-<p>该推文推荐了一个名为 ResilienceOps Platform 的开源 GitHub 项目，面向 SRE 与云原生开发者，集成了 SLO 管理、错误预算、可观测性、可靠性事件记录与可控故障注入等功能，技术栈为 Next.js 与 FastAPI。作者仅提供项目链接作为发现信号，未包含实战笔记、部署指南或基准测试数据。</p>
-
-<p>twitter · Meesam Bukhari · 10月29日 02:17</p>
-
-<p><strong>「推荐理由」</strong> 作者推荐一个面向 SRE 与云原生开发的开源 ResilienceOps 平台，集成 SLO、错误预算、可观测性、可靠性事件与可控故障注入，技术栈为 Next.js 与 FastAPI，适合想快速上手或参考架构的工程师。推文未提供点赞、转发或浏览等热度数据，无法给出量化证据。</p>
-
-<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#SRE</code>, <code class="language-plaintext highlighter-rouge">#cloud-native</code>, <code class="language-plaintext highlighter-rouge">#observability</code>, <code class="language-plaintext highlighter-rouge">#fault-injection</code>, <code class="language-plaintext highlighter-rouge">#open-source</code></p>
-
-<hr />
-
-<p><a id="item-social-hot-11"></a></p>
-<h3 id="ultra-自主恢复代理获授权在安全边界内执行更多修复任务-️-6010"><a href="https://x.com/binancechiller/status/2115628457895878719">Ultra 自主恢复代理获授权在安全边界内执行更多修复任务</a> ⭐️ 6.0/10</h3>
-
-<p>这是一条来自 @binancechiller 的 X 帖子，作者分享了为名为「Courier Symphony」的系统配置自主恢复代理「Ultra」的决策表与提示词。帖子列出了 Ultra 可自主执行的安全操作（如记录缺失的 STOP 条目、减少重复报告、使用现有代理做独立校验、核对控制平面证据与 Workkeys）与严格禁止的动作（绕过 STOP 门控、重启 G08/Muse/被阻塞的调度器），并给出了一个在「安全、明确边界」内授予 Ultra 更多自主权的完整提示词，要求其产出合并报告并给出单一可执行的下一步技术措施。</p>
-
-<p>twitter · Wellnesskoenig · 10月29日 02:15</p>
-
-<p><strong>「推荐理由」</strong> 这是一条来自实践者的技术配置笔记，详细列出了自主恢复代理「Ultra」在「Courier Symphony」系统中被授权可自主执行的任务（如记录缺失 STOP 条目、减少重复报告、利用现有代理独立核查、核对控制平面证据与 Workkeys）与严禁越界的操作（绕过 STOP 门、重启 G08/Muse/被阻塞调度器），并附带完整提示词模板。虽互动仅 1 条回复，但为同类自动化运维场景提供了可直接参考的决策表与提示词结构，对构建安全边界内的自主修复流程有参考价值。</p>
-
-<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#autonomous-recovery</code>, <code class="language-plaintext highlighter-rouge">#system-operations</code>, <code class="language-plaintext highlighter-rouge">#runbook-automation</code>, <code class="language-plaintext highlighter-rouge">#incident-response</code>, <code class="language-plaintext highlighter-rouge">#devops</code></p>
-
-<hr />
-
-<p><a id="item-social-hot-12"></a></p>
-<h3 id="开发者实测-ghfind-评分机制与隐私担忧-️-6010"><a href="https://x.com/pysimpom/status/2115628325209333775">开发者实测 ghfind 评分机制与隐私担忧</a> ⭐️ 6.0/10</h3>
-
-<p>作者 @pysimpom（时针）在 X 上分享了对 GitHub 账号评分工具 ghfind 的亲身体验：承认该工具打击了刷 GitHub 指标的灰产机构，但批评其可未经账号主同意即可扫描、评分并给出带强烈暗示的等级与 emoji，存在隐私问题。作者发现评分机制反直觉——修复一个文档错误就能大幅提升评分，而 Issue 与关注数越多反而评价越负面；不过对工具末尾的“推荐功能”表示认可。</p>
-
-<p>twitter · 时针 · 10月29日 02:14</p>
-
-<p><strong>「推荐理由」</strong> 该推文由开发者 时针 发布，分享其使用 GitHub 账号扫描工具 ghfind 的第一手观测：修复文档后评分跃升、Issue 与关注数越多评价反而越负面，并指出未经账号主同意即可被扫描评分的隐私问题，同时肯定了工具的推荐功能。推文未公开点赞、转发或浏览量，但作为实测案例，为开发者提供了评分机制反直觉现象与隐私风险的具体参考。</p>
-
-<details><summary>参考链接</summary>
-<ul>
-<li><a href="https://ghfind.com/en">ghfind | Savage GitHub Score , Self-Test &amp; Discover Top Devs</a></li>
-<li><a href="https://github.com/hikariming/ghfind">GitHub - hikariming/ ghfind : Discover the best developers — and...</a></li>
-<li><a href="https://pypi.org/project/ghfind/">ghfind · PyPI</a></li>
-
-</ul>
-</details>
-
-<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#GitHub工具</code>, <code class="language-plaintext highlighter-rouge">#AI代码评分</code>, <code class="language-plaintext highlighter-rouge">#开发者隐私</code>, <code class="language-plaintext highlighter-rouge">#ghfind</code>, <code class="language-plaintext highlighter-rouge">#实测体验</code></p>
-
-<hr />
-
-<p><a id="item-social-hot-13"></a></p>
-<h3 id="yorkdev-发布-ai-开发服务定价与执行模式-️-6010"><a href="https://x.com/YoDevp/status/2115628252576223554">YorkDev 发布 AI 开发服务定价与执行模式</a> ⭐️ 6.0/10</h3>
-
-<p>YorkDev (@YoDevp) 发布推文宣布其 AI 开发服务的三个定价层级（Standard、High、Max）和三种执行模式：Single（单模型）、Cascade（高效模型起草，质检失败则升级）、Critique（一模型写、一模型审）。服务按模型计费，推出期限 30% 折扣，并附上完整更新日志链接。</p>
-
-<p>twitter · YorkDev · 10月29日 02:14</p>
-
-<p><strong>「关注理由」</strong> 这是创作者首发的产品公告，给出了具体的分级定价、三种协作模式的运作逻辑以及限时折扣，供开发者直接评估接入成本；推文未公开点赞、转发或浏览量，热度证据以官方首发渠道为准。</p>
-
-<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#AI-tools</code>, <code class="language-plaintext highlighter-rouge">#pricing</code>, <code class="language-plaintext highlighter-rouge">#developer-tools</code>, <code class="language-plaintext highlighter-rouge">#product-announcement</code>, <code class="language-plaintext highlighter-rouge">#AI-coding</code></p>
-
-<hr />
-
-<p><a id="item-social-hot-14"></a></p>
-<h3 id="github-官方-git-入门教程安装提交与分支基础-️-6010"><a href="https://www.youtube.com/watch?v=r8jQ9hVA2qs">GitHub 官方 Git 入门教程：安装、提交与分支基础</a> ⭐️ 6.0/10</h3>
-
-<p>这是 GitHub 官方频道发布的 9 分钟 Git 入门教程，由开发者倡导者 Kedasha Kerr 主讲，涵盖安装配置、仓库初始化、暂存与提交、分支管理以及克隆、拉取等基础工作流。视频以官方教学视角系统梳理核心概念，适合零基础者快速建立版本控制的整体认知。</p>
-
-<p>youtube · GitHub · 10月29日 02:25</p>
-
-<p><strong>「推荐理由」</strong> 该视频来自 GitHub 官方频道，播放量达 231 万次，是面向零基础学习者的 9 分钟结构化入门教程，涵盖 Git 安装、配置、暂存、提交与分支等核心概念，适合需要快速建立版本控制基础认知的新手；但内容偏向机构教学大纲，缺乏一线开发者的实战技巧与避坑经验。</p>
-
-<details><summary>参考链接</summary>
-<ul>
-<li><a href="https://www.youtube.com/watch?v=r8jQ9hVA2qs">A brief introduction to Git for beginners | GitHub - YouTube The ultimate beginner&#x27;s guide to GitHub in 2026 - YouTube Git and GitHub learning resources Best Git &amp; GitHub Tutorial Videos on YouTube (2026) Free Video: Git Tutorial for Beginners from YouTube | Class ... Git &amp; GitHub Crash Course for Beginners - freeCodeCamp.org Full Git and GitHub tutorial for beginners - TheServerSide</a></li>
-
-</ul>
-</details>
-
-<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#git</code>, <code class="language-plaintext highlighter-rouge">#tutorial</code>, <code class="language-plaintext highlighter-rouge">#beginner</code>, <code class="language-plaintext highlighter-rouge">#version-control</code>, <code class="language-plaintext highlighter-rouge">#github</code></p>
-
-<hr />]]></content><author><name></name></author><summary type="html"><![CDATA[今日抓取 253 条内容，收录 25 条。]]></summary></entry></feed>
+<hr />]]></content><author><name></name></author><summary type="html"><![CDATA[今日抓取 253 条内容，收录 15 条。]]></summary></entry></feed>
