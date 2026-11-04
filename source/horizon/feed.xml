@@ -1,4 +1,208 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="https://www.01040610.xyz/horizon/feed.xml" rel="self" type="application/atom+xml" /><link href="https://www.01040610.xyz/horizon/" rel="alternate" type="text/html" /><updated>2026-11-03T04:03:32+00:00</updated><id>https://www.01040610.xyz/horizon/feed.xml</id><title type="html">Horizon 每日速递</title><subtitle>由 AI 自动筛选的 GitHub 热点项目、AI 新闻与 X / YouTube 热门内容</subtitle><entry xml:lang="en"><title type="html">Horizon Summary: 2026-11-03 (EN)</title><link href="https://www.01040610.xyz/horizon/2026/11/03/summary-en.html" rel="alternate" type="text/html" title="Horizon Summary: 2026-11-03 (EN)" /><published>2026-11-03T00:00:00+00:00</published><updated>2026-11-03T00:00:00+00:00</updated><id>https://www.01040610.xyz/horizon/2026/11/03/summary-en</id><content type="html" xml:base="https://www.01040610.xyz/horizon/2026/11/03/summary-en.html"><![CDATA[<blockquote>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="https://www.01040610.xyz/horizon/feed.xml" rel="self" type="application/atom+xml" /><link href="https://www.01040610.xyz/horizon/" rel="alternate" type="text/html" /><updated>2026-11-04T03:07:13+00:00</updated><id>https://www.01040610.xyz/horizon/feed.xml</id><title type="html">Horizon 每日速递</title><subtitle>由 AI 自动筛选的 GitHub 热点项目、AI 新闻与 X / YouTube 热门内容</subtitle><entry xml:lang="en"><title type="html">Horizon Summary: 2026-11-04 (EN)</title><link href="https://www.01040610.xyz/horizon/2026/11/04/summary-en.html" rel="alternate" type="text/html" title="Horizon Summary: 2026-11-04 (EN)" /><published>2026-11-04T00:00:00+00:00</published><updated>2026-11-04T00:00:00+00:00</updated><id>https://www.01040610.xyz/horizon/2026/11/04/summary-en</id><content type="html" xml:base="https://www.01040610.xyz/horizon/2026/11/04/summary-en.html"><![CDATA[<blockquote>
+  <p>Showing 6 of 135 fetched items.</p>
+</blockquote>
+
+<hr />
+
+<p><strong>AI Dev Tools</strong></p>
+<ol>
+  <li><a href="#item-gh-trending-1">NanmiCoder/cc-haha: Local-first AI Agent desktop workspace for Claude Code</a> ⭐️ 8.0/10</li>
+  <li><a href="#item-gh-trending-2">anomalyco/hex: Local voice dictation for developers</a> ⭐️ 6.0/10</li>
+  <li><a href="#item-gh-trending-3">p-e-w/heretic: Training-free LLM behavior modification library</a> ⭐️ 5.0/10</li>
+  <li><a href="#item-gh-trending-4">openinterpreter/openinterpreter – Rust coding agent for open LLMs (Kimi, GLM, DeepSeek, Qwen) with 68k stars</a> ⭐️ 5.0/10</li>
+</ol>
+
+<p><strong>AI News</strong></p>
+<ol>
+  <li><a href="#item-ai-news-1">IBM Research introduces Palette for on-brand deck generation with small models</a> ⭐️ 8.0/10</li>
+  <li><a href="#item-ai-news-2">Netflix connects AWS IAM to internal identity via workload identity</a> ⭐️ 6.0/10</li>
+</ol>
+
+<hr />
+
+<h2 id="ai-dev-tools">AI Dev Tools</h2>
+
+<p><a id="item-gh-trending-1"></a></p>
+<h3 id="nanmicodercc-haha-local-first-ai-agent-desktop-workspace-for-claude-code-️-8010"><a href="https://github.com/NanmiCoder/cc-haha">NanmiCoder/cc-haha: Local-first AI Agent desktop workspace for Claude Code</a> ⭐️ 8.0/10</h3>
+
+<p>NanmiCoder/cc-haha is a local-first, cross-platform desktop workspace for Claude Code and AI agents. It integrates multi-agent collaboration, Git worktree management, code diffs, a skills marketplace, multi-model switching, Computer Use, and remote access via WeChat, Feishu, DingTalk, Telegram, WhatsApp, and H5. Built with TypeScript and Electron, the project has 15k+ stars and 8k+ forks with recent activity, indicating an actively maintained, usable tool.</p>
+
+<p>github · NanmiCoder · Nov 4, 02:59</p>
+
+<p><strong>「Why Recommended」</strong> It streamlines the coding and context-supply phases by replacing manual terminal juggling with a unified GUI that manages multiple agents, worktrees, and remote channels in one place. Developers who use Claude Code or similar AI agents and want a desktop environment for orchestration, collaboration, and remote control will benefit most.</p>
+
+<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#claude-code</code>, <code class="language-plaintext highlighter-rouge">#ai-agent</code>, <code class="language-plaintext highlighter-rouge">#desktop-app</code>, <code class="language-plaintext highlighter-rouge">#developer-tools</code>, <code class="language-plaintext highlighter-rouge">#productivity</code></p>
+
+<hr />
+
+<p><a id="item-gh-trending-2"></a></p>
+<h3 id="anomalycohex-local-voice-dictation-for-developers-️-6010"><a href="https://github.com/anomalyco/hex">anomalyco/hex: Local voice dictation for developers</a> ⭐️ 6.0/10</h3>
+
+<p>Hex is a cross-platform local voice dictation tool written in Rust that lets developers dictate code, comments, and documentation on macOS, Windows, and Linux. It runs entirely locally for privacy and aims to reduce keyboard strain. The project is early-stage but has recently attracted significant community interest.</p>
+
+<p>github · anomalyco · Nov 4, 02:59</p>
+
+<p><strong>「Why Recommended」</strong> Hex replaces keyboard typing with local voice dictation during code authoring, helping developers with RSI or a preference for speech input; its 4,651 stars and 410 daily gains show growing community traction.</p>
+
+<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#voice-dictation</code>, <code class="language-plaintext highlighter-rouge">#accessibility</code>, <code class="language-plaintext highlighter-rouge">#rust</code>, <code class="language-plaintext highlighter-rouge">#local-ai</code>, <code class="language-plaintext highlighter-rouge">#developer-tools</code></p>
+
+<hr />
+
+<p><a id="item-gh-trending-3"></a></p>
+<h3 id="p-e-wheretic-training-free-llm-behavior-modification-library-️-5010"><a href="https://github.com/p-e-w/heretic">p-e-w/heretic: Training-free LLM behavior modification library</a> ⭐️ 5.0/10</h3>
+
+<p>Heretic is a Python research library that modifies language model outputs at inference time without retraining, offering techniques to remove censorship, suppress low-quality outputs, and reduce sycophancy. It targets the model alignment and inference control layer of LLM application development. With 38.8k stars and active recent growth, the project appears to be in an experimental-to-usable research stage rather than a production-ready developer tool.</p>
+
+<p>github · p-e-w · Nov 4, 02:59</p>
+
+<p><strong>「Why Recommended」</strong> Recommended for LLM application builders and alignment researchers who need fine-grained control over model behavior during inference without the cost of fine-tuning; it replaces or augments prompt engineering and post-processing steps for developers working on model safety, output quality, or behavioral steering.</p>
+
+<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#LLM行为控制</code>, <code class="language-plaintext highlighter-rouge">#免训练模型修改</code>, <code class="language-plaintext highlighter-rouge">#模型对齐</code>, <code class="language-plaintext highlighter-rouge">#推理时干预</code>, <code class="language-plaintext highlighter-rouge">#AI应用开发</code></p>
+
+<hr />
+
+<p><a id="item-gh-trending-4"></a></p>
+<h3 id="openinterpreteropeninterpreter--rust-coding-agent-for-open-llms-kimi-glm-deepseek-qwen-with-68k-stars-️-5010"><a href="https://github.com/openinterpreter/openinterpreter">openinterpreter/openinterpreter – Rust coding agent for open LLMs (Kimi, GLM, DeepSeek, Qwen) with 68k stars</a> ⭐️ 5.0/10</h3>
+
+<p>openinterpreter is a Rust-based coding agent designed to work with open-weight models such as Kimi K3, GLM 5.3, DeepSeek, and Qwen. It targets the code-writing phase of development by letting an LLM execute and iterate on code locally. The repository has accumulated about 68k stars since its creation in July 2023, but the supplied metadata contains only a one-line description and topic tags; no README, documentation, installation steps, or usage examples are provided, and the reported last-push date of 2026-11-04 appears to be a data error. Maturity and practical usability cannot be verified from the available information.</p>
+
+<p>github · openinterpreter · Nov 4, 02:59</p>
+
+<p><strong>「Why Recommended」</strong> It directly addresses the code-generation step for developers who want to run open models locally instead of relying on closed APIs, and its high star count suggests strong community interest. However, without visible docs or reproducible evidence, it is best suited for early adopters willing to explore the codebase themselves rather than teams needing a ready-to-use assistant.</p>
+
+<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#coding-agent</code>, <code class="language-plaintext highlighter-rouge">#open-models</code>, <code class="language-plaintext highlighter-rouge">#rust</code>, <code class="language-plaintext highlighter-rouge">#ai-coding-assistant</code>, <code class="language-plaintext highlighter-rouge">#local-llm</code></p>
+
+<hr />
+
+<h2 id="ai-news">AI News</h2>
+
+<p><a id="item-ai-news-1"></a></p>
+<h3 id="ibm-research-introduces-palette-for-on-brand-deck-generation-with-small-models-️-8010"><a href="https://huggingface.co/blog/ibm-research/palette-deck-building">IBM Research introduces Palette for on-brand deck generation with small models</a> ⭐️ 8.0/10</h3>
+
+<p>IBM Research published a Hugging Face blog post introducing Palette, a technique for fine-tuning small language models to generate presentation decks that follow a specific design language. The post includes practical implementation details for developers who want to automate on-brand deck creation. The blog was published on November 3, 2026. Specific model names, training data, performance metrics, and code availability are not provided in the available summary.</p>
+
+<p>rss · Hugging Face Blog · Nov 3, 16:35</p>
+
+<p><strong>「Why it matters」</strong> Developers building internal tools for automated slide generation can evaluate Palette as a potential approach for enforcing brand consistency without relying on large proprietary models. The first step is to read the full Hugging Face blog post for the fine-tuning recipe, dataset requirements, and any released checkpoints or code.</p>
+
+<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#small-language-models</code>, <code class="language-plaintext highlighter-rouge">#presentation-generation</code>, <code class="language-plaintext highlighter-rouge">#design-systems</code>, <code class="language-plaintext highlighter-rouge">#model-fine-tuning</code>, <code class="language-plaintext highlighter-rouge">#IBM-Research</code></p>
+
+<hr />
+
+<p><a id="item-ai-news-2"></a></p>
+<h3 id="netflix-connects-aws-iam-to-internal-identity-via-workload-identity-️-6010"><a href="https://www.infoq.cn/article/PJdTzbUNPBhvKEd6QuxZ?utm_source=rss&amp;utm_medium=article">Netflix connects AWS IAM to internal identity via workload identity</a> ⭐️ 6.0/10</h3>
+
+<p>InfoQ published an article titled "Netflix connects AWS IAM with internal identity system via workload identity" on November 3, 2026, authored by Leela Kumili. The article describes Netflix&#x27;s practice of linking AWS IAM to its internal identity system using workload identity. However, the full article content is not available in this feed, so implementation details, configuration examples, and applicability remain unknown.</p>
+
+<p>rss · InfoQ 中文 · Nov 3, 13:04</p>
+
+<p><strong>「Why It Matters」</strong> Without the article content, it is unclear which teams or scenarios would benefit, nor what the first practical step would be. Readers should access the full article on InfoQ to evaluate relevance.</p>
+
+<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#Workload Identity</code>, <code class="language-plaintext highlighter-rouge">#AWS IAM</code>, <code class="language-plaintext highlighter-rouge">#Netflix</code>, <code class="language-plaintext highlighter-rouge">#云原生安全</code>, <code class="language-plaintext highlighter-rouge">#身份认证</code></p>
+
+<hr />]]></content><author><name></name></author><summary type="html"><![CDATA[Showing 6 of 135 fetched items.]]></summary></entry><entry xml:lang="zh"><title type="html">Horizon Summary: 2026-11-04 (ZH)</title><link href="https://www.01040610.xyz/horizon/2026/11/04/summary-zh.html" rel="alternate" type="text/html" title="Horizon Summary: 2026-11-04 (ZH)" /><published>2026-11-04T00:00:00+00:00</published><updated>2026-11-04T00:00:00+00:00</updated><id>https://www.01040610.xyz/horizon/2026/11/04/summary-zh</id><content type="html" xml:base="https://www.01040610.xyz/horizon/2026/11/04/summary-zh.html"><![CDATA[<blockquote>
+  <p>今日抓取 135 条内容，收录 6 条。</p>
+</blockquote>
+
+<hr />
+
+<p><strong>GitHub AI 开发工具</strong></p>
+<ol>
+  <li><a href="#item-gh-trending-1">NanmiCoder/cc-haha: 本地优先的 Claude Code 桌面工作台</a> ⭐️ 8.0/10</li>
+  <li><a href="#item-gh-trending-2">anomalyco/hex：跨平台本地语音听写工具（Rust）</a> ⭐️ 6.0/10</li>
+  <li><a href="#item-gh-trending-3">p-e-w/heretic: 免训练修改 LLM 输出行为的研究库</a> ⭐️ 5.0/10</li>
+  <li><a href="#item-gh-trending-4">openinterpreter/openinterpreter: 面向开放模型的 Rust 编码代理</a> ⭐️ 5.0/10</li>
+</ol>
+
+<p><strong>AI 热门新闻</strong></p>
+<ol>
+  <li><a href="#item-ai-news-1">IBM Research 发布 Palette：微调小模型生成品牌演示文稿</a> ⭐️ 8.0/10</li>
+  <li><a href="#item-ai-news-2">Netflix 落地工作负载身份对接 AWS IAM，文章细节未公开</a> ⭐️ 6.0/10</li>
+</ol>
+
+<hr />
+
+<h2 id="github-ai-开发工具">GitHub AI 开发工具</h2>
+
+<p><a id="item-gh-trending-1"></a></p>
+<h3 id="nanmicodercc-haha-本地优先的-claude-code-桌面工作台-️-8010"><a href="https://github.com/NanmiCoder/cc-haha">NanmiCoder/cc-haha: 本地优先的 Claude Code 桌面工作台</a> ⭐️ 8.0/10</h3>
+
+<p>cc-haha 是一个本地优先的跨平台桌面应用，为 Claude Code 与 AI Agent 提供图形化工作台，集成多 Agent 协作、Git Worktree 管理、代码 Diff、技能市场、多模型切换、Computer Use 以及桌面宠物，并支持微信、飞书、钉钉、Telegram、WhatsApp 与 H5 远程访问。项目使用 TypeScript 与 Electron 构建，拥有 15k+ Star 与 8k+ Fork，近期仍在活跃提交（最近推送 2026-11-04），处于可用且社区认可度高的阶段。</p>
+
+<p>github · NanmiCoder · 11月4日 02:59</p>
+
+<p><strong>「推荐理由」</strong> 它落在写码、上下文供给与交付环节，替代了在终端手动切换 Agent、管理 Worktree 与远程协作的繁琐步骤，适合需要可视化管理多 Agent 与多渠道远程访问的 Claude Code 使用者；15k+ Star 与持续的提交记录表明社区活跃且维护及时。</p>
+
+<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#claude-code</code>, <code class="language-plaintext highlighter-rouge">#ai-agent</code>, <code class="language-plaintext highlighter-rouge">#desktop-app</code>, <code class="language-plaintext highlighter-rouge">#developer-tools</code>, <code class="language-plaintext highlighter-rouge">#productivity</code></p>
+
+<hr />
+
+<p><a id="item-gh-trending-2"></a></p>
+<h3 id="anomalycohex跨平台本地语音听写工具rust-️-6010"><a href="https://github.com/anomalyco/hex">anomalyco/hex：跨平台本地语音听写工具（Rust）</a> ⭐️ 6.0/10</h3>
+
+<p>Hex 是一个用 Rust 编写的跨平台本地语音听写工具，支持 macOS、Windows 和 Linux。它让开发者能用语音输入代码、注释、提交信息与文档，解决「以语音替代键盘」的需求，适合有 RSI 风险或偏好语音输入的人群。项目近期单日新增 410 星、累计 4651 星，处于可用且受关注的早期阶段。</p>
+
+<p>github · anomalyco · 11月4日 02:59</p>
+
+<p><strong>「推荐理由」</strong> 它落在「写码/文档输入」环节，提供本地运行、隐私友好的语音转文字替代方案，增强或替代键盘打字步骤，适合想减少敲击、追求无障碍输入或尝试语音编程工作流的开发者。</p>
+
+<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#voice-dictation</code>, <code class="language-plaintext highlighter-rouge">#accessibility</code>, <code class="language-plaintext highlighter-rouge">#rust</code>, <code class="language-plaintext highlighter-rouge">#local-ai</code>, <code class="language-plaintext highlighter-rouge">#developer-tools</code></p>
+
+<hr />
+
+<p><a id="item-gh-trending-3"></a></p>
+<h3 id="p-e-wheretic-免训练修改-llm-输出行为的研究库-️-5010"><a href="https://github.com/p-e-w/heretic">p-e-w/heretic: 免训练修改 LLM 输出行为的研究库</a> ⭐️ 5.0/10</h3>
+
+<p>heretic 是一个基于 Python 的研究型库，提供免训练的语言模型行为修改技术，可在推理阶段移除审查、抑制低质量输出、减少迎合性等。它解决的是 LLM 应用开发中模型对齐与推理控制的问题，属于实验性、面向研究的工具，而非通用的开发效能工具。</p>
+
+<p>github · p-e-w · 11月4日 02:59</p>
+
+<p><strong>「推荐理由」</strong> 该项目落在 LLM 应用的模型对齐与推理控制环节，能在不重新训练的情况下干预模型输出，适合需要在推理时精细调整模型行为的 AI 应用开发者。GitHub 累计 38.9k Star 显示社区对该研究方向的关注度较高。</p>
+
+<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#LLM行为控制</code>, <code class="language-plaintext highlighter-rouge">#免训练模型修改</code>, <code class="language-plaintext highlighter-rouge">#模型对齐</code>, <code class="language-plaintext highlighter-rouge">#推理时干预</code>, <code class="language-plaintext highlighter-rouge">#AI应用开发</code></p>
+
+<hr />
+
+<p><a id="item-gh-trending-4"></a></p>
+<h3 id="openinterpreteropeninterpreter-面向开放模型的-rust-编码代理-️-5010"><a href="https://github.com/openinterpreter/openinterpreter">openinterpreter/openinterpreter: 面向开放模型的 Rust 编码代理</a> ⭐️ 5.0/10</h3>
+
+<p>openinterpreter/openinterpreter 是一个面向 Kimi、GLM、DeepSeek、Qwen 等开放大模型的编码代理，使用 Rust 编写，旨在辅助代码编写阶段。项目拥有 6.8 万星标，显示较高关注度，但公开文档、安装指南与实际使用案例缺失，且最近推送日期疑似数据错误，成熟度难以确认，目前处于可初步了解阶段。</p>
+
+<p>github · openinterpreter · 11月4日 02:59</p>
+
+<p><strong>「推荐理由」</strong> 它直接切入代码编写环节，利用本地或开放模型替代闭源编码助手，适合希望自主可控、尝试开放模型编码能力的开发者；高星数表明社区活跃，值得跟踪后续文档与功能完善。</p>
+
+<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#coding-agent</code>, <code class="language-plaintext highlighter-rouge">#open-models</code>, <code class="language-plaintext highlighter-rouge">#rust</code>, <code class="language-plaintext highlighter-rouge">#ai-coding-assistant</code>, <code class="language-plaintext highlighter-rouge">#local-llm</code></p>
+
+<hr />
+
+<h2 id="ai-热门新闻">AI 热门新闻</h2>
+
+<p><a id="item-ai-news-1"></a></p>
+<h3 id="ibm-research-发布-palette微调小模型生成品牌演示文稿-️-8010"><a href="https://huggingface.co/blog/ibm-research/palette-deck-building">IBM Research 发布 Palette：微调小模型生成品牌演示文稿</a> ⭐️ 8.0/10</h3>
+
+<p>IBM Research 在 Hugging Face 博客发布 Palette，介绍一种将小模型微调为按特定设计语言生成演示文稿的技术。文章提供了实现细节，但目前未公开具体模型名称、版本、训练数据规模或可直接下载的权重。</p>
+
+<p>rss · Hugging Face Blog · 11月3日 16:35</p>
+
+<p><strong>「实用价值」</strong> 想自动化生成符合品牌规范幻灯片的团队可参考该方法，先在自有设计系统样本上微调小模型，再对比生成质量与人工制作的差距。</p>
+
+<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#small-language-models</code>, <code class="language-plaintext highlighter-rouge">#presentation-generation</code>, <code class="language-plaintext highlighter-rouge">#design-systems</code>, <code class="language-plaintext highlighter-rouge">#model-fine-tuning</code>, <code class="language-plaintext highlighter-rouge">#IBM-Research</code></p>
+
+<hr />
+
+<p><a id="item-ai-news-2"></a></p>
+<h3 id="netflix-落地工作负载身份对接-aws-iam文章细节未公开-️-6010"><a href="https://www.infoq.cn/article/PJdTzbUNPBhvKEd6QuxZ?utm_source=rss&amp;utm_medium=article">Netflix 落地工作负载身份对接 AWS IAM，文章细节未公开</a> ⭐️ 6.0/10</h3>
+
+<p>InfoQ 转载了 Netflix 作者 Leela Kumili 的文章，标题显示 Netflix 通过工作负载认证将 AWS IAM 与内部身份系统连接。目前仅见标题与链接，文章正文的实现细节、配置示例、适用场景或对比现有方案的信息均未提供，无法判断具体技术路径或可用性。</p>
+
+<p>rss · InfoQ 中文 · 11月3日 13:04</p>
+
+<p><strong>「对你的意义」</strong> 因缺乏文章实质内容，暂无法给出可执行的第一步建议（如试用、替换、对比或迁移）。若后续获取全文并确认包含可复用的配置模式或迁移步骤，再评估是否纳入云原生身份认证的参考案例。</p>
+
+<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#Workload Identity</code>, <code class="language-plaintext highlighter-rouge">#AWS IAM</code>, <code class="language-plaintext highlighter-rouge">#Netflix</code>, <code class="language-plaintext highlighter-rouge">#云原生安全</code>, <code class="language-plaintext highlighter-rouge">#身份认证</code></p>
+
+<hr />]]></content><author><name></name></author><summary type="html"><![CDATA[今日抓取 135 条内容，收录 6 条。]]></summary></entry><entry xml:lang="en"><title type="html">Horizon Summary: 2026-11-03 (EN)</title><link href="https://www.01040610.xyz/horizon/2026/11/03/summary-en.html" rel="alternate" type="text/html" title="Horizon Summary: 2026-11-03 (EN)" /><published>2026-11-03T00:00:00+00:00</published><updated>2026-11-03T00:00:00+00:00</updated><id>https://www.01040610.xyz/horizon/2026/11/03/summary-en</id><content type="html" xml:base="https://www.01040610.xyz/horizon/2026/11/03/summary-en.html"><![CDATA[<blockquote>
   <p>Showing 14 of 137 fetched items.</p>
 </blockquote>
 
@@ -2523,500 +2727,4 @@
 
 <p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#Claude Code</code>, <code class="language-plaintext highlighter-rouge">#AI Agents</code>, <code class="language-plaintext highlighter-rouge">#GitHub Trending</code>, <code class="language-plaintext highlighter-rouge">#Claude Skills</code>, <code class="language-plaintext highlighter-rouge">#Developer Tools</code></p>
 
-<hr />]]></content><author><name></name></author><summary type="html"><![CDATA[今日抓取 253 条内容，收录 23 条。]]></summary></entry><entry xml:lang="en"><title type="html">Horizon Summary: 2026-10-30 (EN)</title><link href="https://www.01040610.xyz/horizon/2026/10/30/summary-en.html" rel="alternate" type="text/html" title="Horizon Summary: 2026-10-30 (EN)" /><published>2026-10-30T00:00:00+00:00</published><updated>2026-10-30T00:00:00+00:00</updated><id>https://www.01040610.xyz/horizon/2026/10/30/summary-en</id><content type="html" xml:base="https://www.01040610.xyz/horizon/2026/10/30/summary-en.html"><![CDATA[<blockquote>
-  <p>Showing 15 of 253 fetched items.</p>
-</blockquote>
-
-<hr />
-
-<p><strong>AI Dev Tools</strong></p>
-<ol>
-  <li><a href="#item-gh-trending-1">pbakaus/impeccable: Rust tool for auditing AI-generated code</a> ⭐️ 5.0/10</li>
-  <li><a href="#item-gh-trending-2">CopilotKit/OpenBot: AI agent runtime with browser, files, tools</a> ⭐️ 5.0/10</li>
-</ol>
-
-<p><strong>AI News</strong></p>
-<ol>
-  <li><a href="#item-ai-news-1">Mistral releases Le Chonk (Large 4) trillion-parameter coding model</a> ⭐️ 6.0/10</li>
-  <li><a href="#item-ai-news-2">Zod Claims 9x Speedup via Compilation Mode</a> ⭐️ 6.0/10</li>
-</ol>
-
-<p><strong>X / YouTube Highlights</strong></p>
-<ol>
-  <li><a href="#item-social-hot-1">Google Shuts Down Jules: Export Guide &amp; Gotchas</a> ⭐️ 9.0/10</li>
-  <li><a href="#item-social-hot-2">Orbi Engine: Open-Source Self-Hosted AI Code Review Tool</a> ⭐️ 8.0/10</li>
-  <li><a href="#item-social-hot-3">Unmanned Software Factories: Do We Need Complex Multi-Agent Orchestration?</a> ⭐️ 8.0/10</li>
-  <li><a href="#item-social-hot-4">Wazuh SIEM practitioner shares 300-page alert tuning guide</a> ⭐️ 8.0/10</li>
-  <li><a href="#item-social-hot-5">Claude 记忆增量备份到 GitHub 私有仓库的标准化流程</a> ⭐️ 8.0/10</li>
-  <li><a href="#item-social-hot-6">Open-source PR dashboard aggregates GitHub PRs across repos with auto-refresh</a> ⭐️ 8.0/10</li>
-  <li><a href="#item-social-hot-7">Open-source launcher modernizes Colin McRae Rally 1 to 4K/60fps</a> ⭐️ 7.0/10</li>
-  <li><a href="#item-social-hot-8">ffmpeg-skill: 42 Video Editing Tools for Claude Code</a> ⭐️ 7.0/10</li>
-  <li><a href="#item-social-hot-9">Jay shares free-tier management tip for opencode/ClawPanel</a> ⭐️ 7.0/10</li>
-  <li><a href="#item-social-hot-10">Full-Stack Login System with FastAPI, React, MySQL &amp; JWT Dual Tokens</a> ⭐️ 6.0/10</li>
-  <li><a href="#item-social-hot-11">Harrison Chase announces MDA 0.10 with async subagents and browser use</a> ⭐️ 6.0/10</li>
-</ol>
-
-<hr />
-
-<h2 id="ai-dev-tools">AI Dev Tools</h2>
-
-<p><a id="item-gh-trending-1"></a></p>
-<h3 id="pbakausimpeccable-rust-tool-for-auditing-ai-generated-code-️-5010"><a href="https://github.com/pbakaus/impeccable">pbakaus/impeccable: Rust tool for auditing AI-generated code</a> ⭐️ 5.0/10</h3>
-
-<p>impeccable is a Rust-based tool marketed as a design vocabulary for coding agents to audit and polish AI-generated code, aiming to catch low-quality output before it ships. However, the repository currently lacks public documentation, usage examples, or installation instructions, making its practical effectiveness and maturity uncertain despite a recent surge to 95.5k stars.</p>
-
-<p>github · pbakaus · Oct 30, 02:39</p>
-
-<p><strong>「Why Recommended」</strong> It targets the code-review phase of AI-assisted development, offering a potential review layer for developers using coding agents who want to filter AI slop, but its real-world utility remains unproven without visible functionality or integration details.</p>
-
-<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#ai-code-review</code>, <code class="language-plaintext highlighter-rouge">#code-quality</code>, <code class="language-plaintext highlighter-rouge">#rust</code>, <code class="language-plaintext highlighter-rouge">#coding-agent</code>, <code class="language-plaintext highlighter-rouge">#linting</code></p>
-
-<hr />
-
-<p><a id="item-gh-trending-2"></a></p>
-<h3 id="copilotkitopenbot-ai-agent-runtime-with-browser-files-tools-️-5010"><a href="https://github.com/CopilotKit/OpenBot">CopilotKit/OpenBot: AI agent runtime with browser, files, tools</a> ⭐️ 5.0/10</h3>
-
-<p>OpenBot is an open-source AI agent runtime that gives each agent its own computer environment — browser, file system, and tool access — with every action pre-decided and recorded. It supports any AG-UI-compatible agent and is implemented in TypeScript. The project has gathered 8,205 stars, but the supplied information does not describe developer-specific workflows, IDE or CI/CD integrations, or a clear maturity stage beyond early community interest.</p>
-
-<p>github · CopilotKit · Oct 30, 02:39</p>
-
-<p><strong>「Why Recommended」</strong> OpenBot offers a general-purpose agent runtime that could automate browser-based testing, file manipulation, and tool orchestration in development workflows, though explicit developer integrations are not documented. The 8,205 stars signal an active community exploring AI-driven computer-use agents.</p>
-
-<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#AI agents</code>, <code class="language-plaintext highlighter-rouge">#browser automation</code>, <code class="language-plaintext highlighter-rouge">#tool use</code>, <code class="language-plaintext highlighter-rouge">#AG-UI</code>, <code class="language-plaintext highlighter-rouge">#TypeScript</code></p>
-
-<hr />
-
-<h2 id="ai-news">AI News</h2>
-
-<p><a id="item-ai-news-1"></a></p>
-<h3 id="mistral-releases-le-chonk-large-4-trillion-parameter-coding-model-️-6010"><a href="https://the-decoder.com/paris-based-mistral-releases-le-chonk-a-strong-coding-model-that-still-trails-china-overall/">Mistral releases Le Chonk (Large 4) trillion-parameter coding model</a> ⭐️ 6.0/10</h3>
-
-<p>Mistral has released the open weights for Large 4, nicknamed "Le Chonk," a trillion-parameter coding model trained entirely in Europe. The company claims it beats open rivals on coding benchmarks, and independent testing indicates it is fast and relatively inexpensive to run. However, it scores 26 points on the cited benchmark, trailing the 32 points posted by DeepSeek V4.1 Flash and GLM-5.3. The article provides no download links, hardware requirements, license details, inference framework support, API access, or cost specifics.</p>
-
-<p>rss · The Decoder · Oct 29, 15:25</p>
-
-<p><strong>「Why it matters」</strong> Developers looking for a European-trained, open-weight coding model can evaluate Le Chonk once practical deployment details become available. The immediate next step is to locate the official model repository, review the license and hardware requirements, and run comparative inference tests against existing options before adopting it in production.</p>
-
-<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#Mistral</code>, <code class="language-plaintext highlighter-rouge">#Le Chonk</code>, <code class="language-plaintext highlighter-rouge">#Large 4</code>, <code class="language-plaintext highlighter-rouge">#coding model</code>, <code class="language-plaintext highlighter-rouge">#open weights</code></p>
-
-<hr />
-
-<p><a id="item-ai-news-2"></a></p>
-<h3 id="zod-claims-9x-speedup-via-compilation-mode-️-6010"><a href="https://www.infoq.cn/article/q4B85RXx0G9J3d4Bkqd3?utm_source=rss&amp;utm_medium=article">Zod Claims 9x Speedup via Compilation Mode</a> ⭐️ 6.0/10</h3>
-
-<p>An InfoQ article (reposted from an original by Daniel Curtis) claims Zod has added a compilation mode that delivers a 9× speed improvement and roughly 90% memory reduction, attributing the gains to the use of `new Function`. The piece provides only a title and link; no version number, enablement steps, compatibility constraints, or benchmark methodology are available from the supplied material.</p>
-
-<p>rss · InfoQ 中文 · Oct 29, 12:00</p>
-
-<p><strong>「Why It Matters」</strong> If verified, this would be relevant for TypeScript teams using Zod for runtime validation who are hitting performance bottlenecks. However, without version details, opt-in instructions, or independent benchmarks, no immediate action (trial, migration, or comparison) can be recommended. The first step is to locate the full article or check Zod&#x27;s official changelog for a corresponding release.</p>
-
-<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#Zod</code>, <code class="language-plaintext highlighter-rouge">#TypeScript</code>, <code class="language-plaintext highlighter-rouge">#性能优化</code>, <code class="language-plaintext highlighter-rouge">#运行时验证</code>, <code class="language-plaintext highlighter-rouge">#编译优化</code></p>
-
-<hr />
-
-<h2 id="x--youtube-highlights">X / YouTube Highlights</h2>
-
-<p><a id="item-social-hot-1"></a></p>
-<h3 id="google-shuts-down-jules-export-guide--gotchas-️-9010"><a href="https://x.com/neili666888/status/2115996360944279873">Google Shuts Down Jules: Export Guide &amp; Gotchas</a> ⭐️ 9.0/10</h3>
-
-<p>This X post reports Google is shutting down its async coding agent Jules (launched Dec 2024), with active sessions ending Nov 11 and full shutdown Dec 31. The author tested the official export method: install the CLI (@google/jules 0.1.42), run `jules login`, then paste a prompt into Claude Code to execute a Python script that calls two undocumented APIs, saving data to ~/jules-export. Two key gotchas are noted: the login token expires in ~1 hour (requiring re-login), and the exported env-variables.json contains plaintext secrets that must not be committed. This is based on the post&#x27;s first-hand account.</p>
-
-<p>twitter · 懂点AI的卢小熙 · Oct 30, 02:37</p>
-
-<p><strong>「Why It Matters」</strong> Only 12 days remain before the Nov 11 cutoff, making this time-sensitive, practical guidance for current Jules users who need to migrate environment variables, scheduled tasks, repo memories, and session history. The post provides a reproducible, step-by-step workaround for the missing `jules export` command, saving users from trial-and-error.</p>
-
-<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#Google Jules</code>, <code class="language-plaintext highlighter-rouge">#Agent 迁移</code>, <code class="language-plaintext highlighter-rouge">#CLI 实测</code>, <code class="language-plaintext highlighter-rouge">#数据导出</code>, <code class="language-plaintext highlighter-rouge">#开发工具下线</code></p>
-
-<hr />
-
-<p><a id="item-social-hot-2"></a></p>
-<h3 id="orbi-engine-open-source-self-hosted-ai-code-review-tool-️-8010"><a href="https://x.com/xqliu/status/2115996612799467845">Orbi Engine: Open-Source Self-Hosted AI Code Review Tool</a> ⭐️ 8.0/10</h3>
-
-<p>The creator announces Orbi Engine, an open-source, self-hosted AI code-review tool licensed under AGPL-3.0 or Sustainable Use License. It supports unlimited repositories, works with any OpenAI-compatible API or local models, runs on timers, and uses GitHub as its collaboration board. A live repository link shows real pull requests, review comments, merges, and releases.</p>
-
-<p>twitter · Larry 🍀 Orbi · Oct 30, 02:38</p>
-
-<p><strong>「Why It Matters」</strong> This is a first-hand announcement from the developer with a live demo repository that demonstrates actual PR interactions, giving developers a concrete, reproducible example of a free, model-agnostic, self-hosted code-review automation workflow. Engagement metrics for the post were not provided.</p>
-
-<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#open-source</code>, <code class="language-plaintext highlighter-rouge">#code-review</code>, <code class="language-plaintext highlighter-rouge">#AI-automation</code>, <code class="language-plaintext highlighter-rouge">#self-hosted</code>, <code class="language-plaintext highlighter-rouge">#developer-tools</code></p>
-
-<hr />
-
-<p><a id="item-social-hot-3"></a></p>
-<h3 id="unmanned-software-factories-do-we-need-complex-multi-agent-orchestration-️-8010"><a href="https://x.com/xqliu/status/2115996612077982113">Unmanned Software Factories: Do We Need Complex Multi-Agent Orchestration?</a> ⭐️ 8.0/10</h3>
-
-<p>Larry Liu (@xqliu) analyzes the paper "Instant Software Factories" which demonstrates that unmanned software factories can run without central orchestration — agents coordinate via GitHub Issues, PRs, and execution logs. The paper observed a 15× daily merge increase over 15–17 days, but crucially found 5.6% of "fixed" issues were actually incorrect. Liu argues traditional productivity metrics (PR count, issue closure rate) break down when agents self-create, self-review, and self-verify work. He proposes a three-layer measurement framework: Activity (tasks executed), Delivery (independently verified completions), and Outcome (user value). Liu&#x27;s own product Orbi implements this pattern with built-in independent verification: separate coding/review sessions, mandatory review gates, counting only merged PRs as delivery, and separate release tasks. Orbi is open source at orbi-build/orbi.</p>
-
-<p>twitter · Larry 🍀 Orbi · Oct 30, 02:38</p>
-
-<p><strong>「Why It Matters」</strong> This post gives practitioners a concrete, data-backed critique of "vanity metrics" in agent-driven development and a practical three-layer framework they can adopt immediately. The author backs the analysis with a working, open-source system (Orbi) that embodies the paper&#x27;s architecture while adding independent verification — readers can inspect real PRs in orbi-build/orbi to see the pattern in action. Engagement metrics for the original X post were not provided.</p>
-
-<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#AI Agents</code>, <code class="language-plaintext highlighter-rouge">#Software Engineering</code>, <code class="language-plaintext highlighter-rouge">#GitHub Automation</code>, <code class="language-plaintext highlighter-rouge">#Agent Orchestration</code>, <code class="language-plaintext highlighter-rouge">#Developer Productivity Metrics</code></p>
-
-<hr />
-
-<p><a id="item-social-hot-4"></a></p>
-<h3 id="wazuh-siem-practitioner-shares-300-page-alert-tuning-guide-️-8010"><a href="https://x.com/HugoValters/status/2115994850361520271">Wazuh SIEM practitioner shares 300-page alert tuning guide</a> ⭐️ 8.0/10</h3>
-
-<p>DevOps and cybersecurity engineer Hugo Valters shares a production-grade Wazuh SIEM guide born from handling 300 pages of untuned level-7 alerts in a single night. The guide covers honest infrastructure sizing, TLS certificate deployment from day one, rule tuning to eliminate alert fatigue, index lifecycle management (ISM) for retention, and high-availability clustering — all drawn from real operational experience rather than lab testing. The accompanying dev.to article expands each topic with concrete numbers and configuration steps for engineers deploying Wazuh at scale.</p>
-
-<p>twitter · Hugo | DevOps | Cybersecurity · Oct 30, 02:31</p>
-
-<p><strong>「Why this matters」</strong> A DevOps/cybersecurity engineer documents solving 300 pages of untuned Wazuh level-7 alerts generated in four hours, then packages the fixes into a guide covering concrete sizing numbers, TLS certificate setup, rule tuning to eliminate alert fatigue, ISM retention policies, and HA clustering — all drawn from production experience. No public engagement metrics are visible on the post, but the specificity (real alert volumes, exact components tuned) makes it a practical reference for Wazuh operators facing alert overload.</p>
-
-<details><summary>References</summary>
-<ul>
-<li><a href="https://dev.to/hugovalters/wazuh-siem-open-source-threat-detection-deployment-385l">Wazuh SIEM: Open Source Threat Detection Deployment</a></li>
-
-</ul>
-</details>
-
-<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#wazuh</code>, <code class="language-plaintext highlighter-rouge">#siem</code>, <code class="language-plaintext highlighter-rouge">#devops</code>, <code class="language-plaintext highlighter-rouge">#alert-tuning</code>, <code class="language-plaintext highlighter-rouge">#ha-clustering</code>, <code class="language-plaintext highlighter-rouge">#tls</code>, <code class="language-plaintext highlighter-rouge">#ism-retention</code>, <code class="language-plaintext highlighter-rouge">#infrastructure-sizing</code></p>
-
-<hr />
-
-<p><a id="item-social-hot-5"></a></p>
-<h3 id="claude-记忆增量备份到-github-私有仓库的标准化流程-️-8010"><a href="https://x.com/mileshuang1997/status/2115994509016502637">Claude 记忆增量备份到 GitHub 私有仓库的标准化流程</a> ⭐️ 8.0/10</h3>
-
-<p>作者 @mileshuang1997 分享了一套将 Claude 记忆自动同步备份至 GitHub 私有仓库的完整操作步骤，包含连接仓库、读取全部记忆文件、按路径写入 memory/ 目录、Git 提交与推送的标准化流程，并制定了不删除文件、不强制推送、不修改无关文件等硬性约束。</p>
-
-<p>twitter · 阿旻 AI · Oct 30, 02:29</p>
-
-<p><strong>「推荐理由」</strong> 这是一份可直接复用的自动化实践指南，为使用 Claude Memory 的开发者提供了即拿即用的备份方案，涵盖工具调用、文件映射、提交规范与异常处理等工程细节；帖子的具体点赞、转发与浏览量未在来源数据中给出。</p>
-
-<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#Claude</code>, <code class="language-plaintext highlighter-rouge">#memory-backup</code>, <code class="language-plaintext highlighter-rouge">#GitHub</code>, <code class="language-plaintext highlighter-rouge">#automation</code>, <code class="language-plaintext highlighter-rouge">#developer-tools</code></p>
-
-<hr />
-
-<p><a id="item-social-hot-6"></a></p>
-<h3 id="open-source-pr-dashboard-aggregates-github-prs-across-repos-with-auto-refresh-️-8010"><a href="https://x.com/sinasanm/status/2115993671254639024">Open-source PR dashboard aggregates GitHub PRs across repos with auto-refresh</a> ⭐️ 8.0/10</h3>
-
-<p>Sina Meraji announces an open-source PR dashboard built with GitHub CLI that aggregates all open pull requests across every repository in a GitHub organization or personal account into a single view, eliminating the need to manually refresh each repo&#x27;s PR page. The tool includes auto-refresh functionality for real-time updates.</p>
-
-<p>twitter · Sina Meraji · Oct 30, 02:26</p>
-
-<p><strong>「Why it&#x27;s useful」</strong> The builder shares an open-source PR dashboard that uses GitHub CLI to aggregate all open pull requests across an organization or account into a single view with auto-refresh, eliminating the need to manually check each repository. The tool is immediately accessible via the linked repository, offering a practical solution for developers managing multiple PRs daily.</p>
-
-<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#github-cli</code>, <code class="language-plaintext highlighter-rouge">#pull-requests</code>, <code class="language-plaintext highlighter-rouge">#developer-tools</code>, <code class="language-plaintext highlighter-rouge">#open-source</code>, <code class="language-plaintext highlighter-rouge">#workflow-automation</code></p>
-
-<hr />
-
-<p><a id="item-social-hot-7"></a></p>
-<h3 id="open-source-launcher-modernizes-colin-mcrae-rally-1-to-4k60fps-️-7010"><a href="https://x.com/AkitaOnRails/status/2115996313456366071">Open-source launcher modernizes Colin McRae Rally 1 to 4K/60fps</a> ⭐️ 7.0/10</h3>
-
-<p>Developer Fabio Makita (@AkitaOnRails) released an open-source launcher that patches the 1998 Windows XP version of Colin McRae Rally to run at 4K resolution, 60 fps, and widescreen — far beyond its original 800×600, 30 fps limit. The launcher requires no game patches, compatibility settings, or registry edits; it simply wraps the installed game. A blog write-up and the GitHub source (akitaonrails/rea-colin-mcrae) are provided for anyone wanting to run or study the binary-patching approach.</p>
-
-<p>twitter · Fabio Makita · Oct 30, 02:36</p>
-
-<p><strong>「Why it matters」</strong> Fabio Makita shares a custom open-source launcher that patches the 2000s Windows XP version of Colin McRae Rally 1 to run at 4K resolution, 60 fps, and widescreen — lifting the original 800×600, 30 fps limit. The project includes a detailed blog write-up and full GitHub source, giving developers a reproducible case study in legacy game preservation, binary patching, and Windows compatibility layers.</p>
-
-<details><summary>References</summary>
-<ul>
-<li><a href="https://github.com/akitaonrails/rea-colin-mcrae">GitHub - akitaonrails /rea- colin - mcrae : Launcher for the original PC...</a></li>
-
-</ul>
-</details>
-
-<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#game-dev</code>, <code class="language-plaintext highlighter-rouge">#reverse-engineering</code>, <code class="language-plaintext highlighter-rouge">#legacy-software</code>, <code class="language-plaintext highlighter-rouge">#windows</code>, <code class="language-plaintext highlighter-rouge">#github-project</code></p>
-
-<hr />
-
-<p><a id="item-social-hot-8"></a></p>
-<h3 id="ffmpeg-skill-42-video-editing-tools-for-claude-code-️-7010"><a href="https://x.com/WEBMARKS2/status/2115994601853198680">ffmpeg-skill: 42 Video Editing Tools for Claude Code</a> ⭐️ 7.0/10</h3>
-
-<p>Developer kajisho5 has released ffmpeg-skill, a free MIT-licensed toolkit that adds 42 video-editing functions to Claude Code, Codex, and Cursor. The tools run locally with only ffmpeg as a prerequisite, enabling tasks like silence removal, subtitle generation, aspect-ratio conversion, audio normalization, and platform-specific exports without any cloud service or API key.</p>
-
-<p>twitter · WEBMARKS｜AIエージェント × Webマーケティング · Oct 30, 02:30</p>
-
-<p><strong>「Why It&#x27;s Hot」</strong> The announcement spread rapidly in Japan — a related post by ClaudeCodeStudio surpassed 30,000 views and pushed Claude Code and Codex into X&#x27;s trending topics — while the GitHub repository has gathered roughly 3,900 stars. Developers can immediately try a full local video-editing pipeline inside their preferred AI coding assistant, which is especially valuable for sensitive footage that must stay on-device.</p>
-
-<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#video-editing</code>, <code class="language-plaintext highlighter-rouge">#ai-tools</code>, <code class="language-plaintext highlighter-rouge">#claude-code</code>, <code class="language-plaintext highlighter-rouge">#ffmpeg</code>, <code class="language-plaintext highlighter-rouge">#developer-tools</code></p>
-
-<hr />
-
-<p><a id="item-social-hot-9"></a></p>
-<h3 id="jay-shares-free-tier-management-tip-for-opencodeclawpanel-️-7010"><a href="https://x.com/JayQinQT/status/2115993114305274208">Jay shares free-tier management tip for opencode/ClawPanel</a> ⭐️ 7.0/10</h3>
-
-<p>Developer Jay replies to a question about opencode free-tier limits, explaining that Settings → Usage shows which free meter was exceeded and when it resets. He suggests connecting a personal API key or switching to a paid model for more stable runs, and references the multi-engine ClawPanel project on GitHub (qingchencloud/clawpanel).</p>
-
-<p>twitter · Jay · Oct 30, 02:24</p>
-
-<p><strong>「Why it matters」</strong> The post gives a concrete, immediately actionable workflow for developers hitting free-tier walls in opencode/ClawPanel: check the usage dashboard, add your own key, or upgrade to a paid model. Engagement metrics (likes, reposts, views) are not provided in the source, so heat cannot be quantified.</p>
-
-<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#opencode</code>, <code class="language-plaintext highlighter-rouge">#ClawPanel</code>, <code class="language-plaintext highlighter-rouge">#AI coding tools</code>, <code class="language-plaintext highlighter-rouge">#API key management</code>, <code class="language-plaintext highlighter-rouge">#developer productivity</code></p>
-
-<hr />
-
-<p><a id="item-social-hot-10"></a></p>
-<h3 id="full-stack-login-system-with-fastapi-react-mysql--jwt-dual-tokens-️-6010"><a href="https://x.com/buoyhuang/status/2115993480535355494">Full-Stack Login System with FastAPI, React, MySQL &amp; JWT Dual Tokens</a> ⭐️ 6.0/10</h3>
-
-<p>The author shares a working full-stack authentication system built with FastAPI, React, and MySQL using JWT dual tokens (30-minute access, 7-day refresh). The thread covers key decisions like bcrypt password hashing, axios interceptors for silent token refresh, and Docker Compose orchestration, plus real pitfalls such as Python/pip version mismatches and OAuth route import errors. No source code is published; the post is a textual walkthrough of the implementation and lessons learned.</p>
-
-<p>twitter · buoyhuang · Oct 30, 02:25</p>
-
-<p><strong>「Why It&#x27;s Notable」</strong> The thread provides concrete, battle-tested patterns — JWT dual-token strategy, automatic refresh via axios, bcrypt salting, and a one-command Docker stack — that developers can adapt directly. Public engagement metrics (likes, retweets, views) are not disclosed in the source, so heat evidence is unavailable.</p>
-
-<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#FastAPI</code>, <code class="language-plaintext highlighter-rouge">#React</code>, <code class="language-plaintext highlighter-rouge">#JWT</code>, <code class="language-plaintext highlighter-rouge">#全栈开发</code>, <code class="language-plaintext highlighter-rouge">#实战经验</code></p>
-
-<hr />
-
-<p><a id="item-social-hot-11"></a></p>
-<h3 id="harrison-chase-announces-mda-010-with-async-subagents-and-browser-use-️-6010"><a href="https://x.com/hwchase17/status/2115854759991369840">Harrison Chase announces MDA 0.10 with async subagents and browser use</a> ⭐️ 6.0/10</h3>
-
-<p>LangChain co-founder Harrison Chase announces the MDA 0.10 release, highlighting that many harness engineering challenges are now best addressed through tighter integration between harness and infrastructure. He cites async subagents and browser use as two concrete examples of this integration approach now available in the new version.</p>
-
-<p>twitter · Harrison Chase · Oct 29, 17:14</p>
-
-<p><strong>「Why it matters」</strong> This is a first-hand release announcement from a recognized practitioner in the LLM application framework space, giving developers using the MDA stack actionable version information and feature highlights. Engagement metrics for the post were not provided.</p>
-
-<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#harness-engineering</code>, <code class="language-plaintext highlighter-rouge">#async-subagents</code>, <code class="language-plaintext highlighter-rouge">#browser-use</code>, <code class="language-plaintext highlighter-rouge">#MDA</code>, <code class="language-plaintext highlighter-rouge">#langchain</code></p>
-
-<hr />]]></content><author><name></name></author><summary type="html"><![CDATA[Showing 15 of 253 fetched items.]]></summary></entry><entry xml:lang="zh"><title type="html">Horizon Summary: 2026-10-30 (ZH)</title><link href="https://www.01040610.xyz/horizon/2026/10/30/summary-zh.html" rel="alternate" type="text/html" title="Horizon Summary: 2026-10-30 (ZH)" /><published>2026-10-30T00:00:00+00:00</published><updated>2026-10-30T00:00:00+00:00</updated><id>https://www.01040610.xyz/horizon/2026/10/30/summary-zh</id><content type="html" xml:base="https://www.01040610.xyz/horizon/2026/10/30/summary-zh.html"><![CDATA[<blockquote>
-  <p>今日抓取 253 条内容，收录 15 条。</p>
-</blockquote>
-
-<hr />
-
-<p><strong>GitHub AI 开发工具</strong></p>
-<ol>
-  <li><a href="#item-gh-trending-1">pbakaus/impeccable：面向 AI 代码的审计与润色工具（Rust）</a> ⭐️ 5.0/10</li>
-  <li><a href="#item-gh-trending-2">CopilotKit/OpenBot：通用 AI 智能体运行时，自带浏览器与工具</a> ⭐️ 5.0/10</li>
-</ol>
-
-<p><strong>AI 热门新闻</strong></p>
-<ol>
-  <li><a href="#item-ai-news-1">Mistral 发布开放权重编程模型 Le Chonk，基准落后中国顶尖模型</a> ⭐️ 6.0/10</li>
-  <li><a href="#item-ai-news-2">Zod 新增编译模式：号称 9 倍提速、内存降 90%</a> ⭐️ 6.0/10</li>
-</ol>
-
-<p><strong>X / YouTube 热门</strong></p>
-<ol>
-  <li><a href="#item-social-hot-1">Google 关停 Jules，官方导出方案需借助 Claude Code</a> ⭐️ 9.0/10</li>
-  <li><a href="#item-social-hot-2">开发者发布开源代码审查引擎 Orbi Engine</a> ⭐️ 8.0/10</li>
-  <li><a href="#item-social-hot-3">无人值守软件工厂：复杂编排还是简单协作？</a> ⭐️ 8.0/10</li>
-  <li><a href="#item-social-hot-4">Hugo Valters 分享 Wazuh 实战指南：规模化、TLS、规则调优、HA 集群</a> ⭐️ 8.0/10</li>
-  <li><a href="#item-social-hot-5">Claude 记忆增量备份到 GitHub 私有仓库的标准化流程</a> ⭐️ 8.0/10</li>
-  <li><a href="#item-social-hot-6">Sina Meraji 开源 PR 仪表盘：用 GitHub CLI 聚合全组织 PR</a> ⭐️ 8.0/10</li>
-  <li><a href="#item-social-hot-7">开发者开源启动器让 2000 年代拉力赛游戏跑 4K/60fps</a> ⭐️ 7.0/10</li>
-  <li><a href="#item-social-hot-8">开发者发布 ffmpeg-skill：42 个视频编辑工具接入 Claude Code</a> ⭐️ 7.0/10</li>
-  <li><a href="#item-social-hot-9">Jay 分享 opencode/ClawPanel 免费额度管理技巧</a> ⭐️ 7.0/10</li>
-  <li><a href="#item-social-hot-10">buoyhuang 分享 FastAPI+React 全栈登录系统实战经验</a> ⭐️ 6.0/10</li>
-  <li><a href="#item-social-hot-11">Harrison Chase 发布 MDA 0.10：异步子代理与浏览器用例</a> ⭐️ 6.0/10</li>
-</ol>
-
-<hr />
-
-<h2 id="github-ai-开发工具">GitHub AI 开发工具</h2>
-
-<p><a id="item-gh-trending-1"></a></p>
-<h3 id="pbakausimpeccable面向-ai-代码的审计与润色工具rust-️-5010"><a href="https://github.com/pbakaus/impeccable">pbakaus/impeccable：面向 AI 代码的审计与润色工具（Rust）</a> ⭐️ 5.0/10</h3>
-
-<p>impeccable 定位为“编码代理的设计词汇”，旨在对 AI 生成的代码进行审查、审计与润色，在代码进入交付流程前拦截低质量输出。项目使用 Rust 编写，属于 AI 辅助开发中的代码审查/质量环节。目前仅有营销式描述与极高的星标数（总计 9.5 万、今日新增 2.9 千），缺乏公开文档、安装说明、使用示例或真实采用证据，成熟度处于早期实验阶段，实际可用性尚待验证。</p>
-
-<p>github · pbakaus · 10月30日 02:39</p>
-
-<p><strong>「推荐理由」</strong> 它切中 AI 代码审查这一新兴痛点，若后续落地 CLI 或库接口并提供可集成的规则集，可替代人工对 AI 产出的二次把关，适合关注 AI 代码质量管控的团队或研究者跟踪观察。</p>
-
-<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#ai-code-review</code>, <code class="language-plaintext highlighter-rouge">#code-quality</code>, <code class="language-plaintext highlighter-rouge">#rust</code>, <code class="language-plaintext highlighter-rouge">#coding-agent</code>, <code class="language-plaintext highlighter-rouge">#linting</code></p>
-
-<hr />
-
-<p><a id="item-gh-trending-2"></a></p>
-<h3 id="copilotkitopenbot通用-ai-智能体运行时自带浏览器与工具-️-5010"><a href="https://github.com/CopilotKit/OpenBot">CopilotKit/OpenBot：通用 AI 智能体运行时，自带浏览器与工具</a> ⭐️ 5.0/10</h3>
-
-<p>OpenBot 是一个通用 AI 智能体运行时，为每个智能体提供独立的浏览器、文件系统与工具访问，所有动作在执行前预先决定、执行后记录，并支持接入任意 AG-UI 智能体。项目使用 TypeScript 编写，目前在 GitHub 上累计获得 8,200 余颗星、单日新增 247 颗，处于早期可用、社区活跃的实验性阶段。</p>
-
-<p>github · CopilotKit · 10月30日 02:39</p>
-
-<p><strong>「推荐理由」</strong> 它属于 AI 智能体基础设施层，能把浏览器自动化、文件操作、工具编排等能力封装成可复用的运行时，理论上可用于自动化测试、代码生成、文档抓取等开发环节；不过现有资料未给出面向开发者的具体工作流或集成案例，适合想自行搭建智能体自动化流水线的工程师前瞻调研。</p>
-
-<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#AI agents</code>, <code class="language-plaintext highlighter-rouge">#browser automation</code>, <code class="language-plaintext highlighter-rouge">#tool use</code>, <code class="language-plaintext highlighter-rouge">#AG-UI</code>, <code class="language-plaintext highlighter-rouge">#TypeScript</code></p>
-
-<hr />
-
-<h2 id="ai-热门新闻">AI 热门新闻</h2>
-
-<p><a id="item-ai-news-1"></a></p>
-<h3 id="mistral-发布开放权重编程模型-le-chonk基准落后中国顶尖模型-️-6010"><a href="https://the-decoder.com/paris-based-mistral-releases-le-chonk-a-strong-coding-model-that-still-trails-china-overall/">Mistral 发布开放权重编程模型 Le Chonk，基准落后中国顶尖模型</a> ⭐️ 6.0/10</h3>
-
-<p>Mistral 发布开放权重的万亿参数编程模型 "Le Chonk"（Large 4），完全在欧洲训练。官方称其在编程任务上超越开源竞品，第三方测试显示推理速度快、成本较低。但在基准测试中以 26 分落后于中国模型 DeepSeek V4.1 Flash 和 GLM-5.3 的 32 分。文章未提供下载链接、硬件需求、许可证、推理框架或 API 访问等部署细节。</p>
-
-<p>rss · The Decoder · 10月29日 15:25</p>
-
-<p><strong>「实用价值」</strong> 对需要自托管欧洲训练编程模型的团队有参考价值，但缺乏部署细节，首要步骤是去 Mistral 官方渠道确认权重获取方式、许可证与硬件要求后再决定是否替换现有模型。</p>
-
-<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#Mistral</code>, <code class="language-plaintext highlighter-rouge">#Le Chonk</code>, <code class="language-plaintext highlighter-rouge">#Large 4</code>, <code class="language-plaintext highlighter-rouge">#coding model</code>, <code class="language-plaintext highlighter-rouge">#open weights</code></p>
-
-<hr />
-
-<p><a id="item-ai-news-2"></a></p>
-<h3 id="zod-新增编译模式号称-9-倍提速内存降-90-️-6010"><a href="https://www.infoq.cn/article/q4B85RXx0G9J3d4Bkqd3?utm_source=rss&amp;utm_medium=article">Zod 新增编译模式：号称 9 倍提速、内存降 90%</a> ⭐️ 6.0/10</h3>
-
-<p>InfoQ 转载文章称 Zod 引入编译优化模式，宣称验证速度提升 9 倍、内存占用降低近 90%，实现方式涉及 new Function。文章仅提供标题与链接，未给出版本号、启用方式、兼容性限制、基准测试细节等可落地信息，无法确认该特性是否已正式发布可用、适用范围及实际代价。</p>
-
-<p>rss · InfoQ 中文 · 10月29日 12:00</p>
-
-<p><strong>「对你的意义」</strong> 若属实，对在生产环境大量使用 Zod 做运行时校验的 TypeScript 项目有显著性能收益。建议先打开原文确认最低版本要求、开启编译模式的 API、是否破坏现有 Schema 行为、以及官方基准测试的对比条件，再决定是否在非关键路径试用对比。</p>
-
-<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#Zod</code>, <code class="language-plaintext highlighter-rouge">#TypeScript</code>, <code class="language-plaintext highlighter-rouge">#性能优化</code>, <code class="language-plaintext highlighter-rouge">#运行时验证</code>, <code class="language-plaintext highlighter-rouge">#编译优化</code></p>
-
-<hr />
-
-<h2 id="x--youtube-热门">X / YouTube 热门</h2>
-
-<p><a id="item-social-hot-1"></a></p>
-<h3 id="google-关停-jules官方导出方案需借助-claude-code-️-9010"><a href="https://x.com/neili666888/status/2115996360944279873">Google 关停 Jules，官方导出方案需借助 Claude Code</a> ⭐️ 9.0/10</h3>
-
-<p>Google 宣布于 11 月 11 日停止 Jules 会话运行、12 月 31 日彻底下线。作者实测官方唯一导出方案：安装 CLI（@google/jules 0.1.42）登录后，在 Claude Code 中粘贴官方提示词运行 Python 脚本，调用两个未公开接口将环境变量、定时任务、仓库记忆等数据导出到 ~/jules-export。</p>
-
-<p>twitter · 懂点AI的卢小熙 · 10月30日 02:37</p>
-
-<p><strong>「推荐理由」</strong> 帖子给出可直接照做的完整迁移步骤，并指出两个关键坑点（Token 约 1 小时过期需重登、env-variables.json 含明文密钥勿提交），距 11 月 11 日截止仅剩 12 天，对现有 Jules 用户具有时效性与实操价值。</p>
-
-<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#Google Jules</code>, <code class="language-plaintext highlighter-rouge">#Agent 迁移</code>, <code class="language-plaintext highlighter-rouge">#CLI 实测</code>, <code class="language-plaintext highlighter-rouge">#数据导出</code>, <code class="language-plaintext highlighter-rouge">#开发工具下线</code></p>
-
-<hr />
-
-<p><a id="item-social-hot-2"></a></p>
-<h3 id="开发者发布开源代码审查引擎-orbi-engine-️-8010"><a href="https://x.com/xqliu/status/2115996612799467845">开发者发布开源代码审查引擎 Orbi Engine</a> ⭐️ 8.0/10</h3>
-
-<p>作者 @xqliu 发布其开源作品 Orbi Engine，这是一个自托管、免费且不限仓库数量的自动化代码审查工具。它支持任意 OpenAI 兼容接口或本地模型，通过定时器触发运行，直接在 GitHub PR 上进行评审与协作。作者附上了演示仓库链接，展示真实的 PR 交互、评论与合并流程。</p>
-
-<p>twitter · Larry 🍀 Orbi · 10月30日 02:38</p>
-
-<p><strong>「推荐理由」</strong> 这是一手开源项目发布，提供了可复现的实战演示仓库，开发者可直接观摩 AI 代码审查的完整工作流。帖子虽未公开点赞与转发数，但因包含完整技术细节与可运行示例，对寻求自托管代码审查自动化方案的工程师具有较高参考价值。</p>
-
-<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#open-source</code>, <code class="language-plaintext highlighter-rouge">#code-review</code>, <code class="language-plaintext highlighter-rouge">#AI-automation</code>, <code class="language-plaintext highlighter-rouge">#self-hosted</code>, <code class="language-plaintext highlighter-rouge">#developer-tools</code></p>
-
-<hr />
-
-<p><a id="item-social-hot-3"></a></p>
-<h3 id="无人值守软件工厂复杂编排还是简单协作-️-8010"><a href="https://x.com/xqliu/status/2115996612077982113">无人值守软件工厂：复杂编排还是简单协作？</a> ⭐️ 8.0/10</h3>
-
-<p>作者 @xqliu 基于论文《Instant Software Factories》与自研产品 Orbi 的实践，指出无人值守软件工厂的核心陷阱：5.6% 被标记为「已修复」的 Issue 实为虚假修复。论文展示的无中央调度、以 GitHub 为协作总线的简单架构，虽使日合并量增 15 倍，但传统指标（PR 数、Issue 关闭率）已失效。作者提出 Activity/Delivery/Outcome 三层度量框架，并分享 Orbi 的落地做法：写代码与评审分离、评审不过不合并、仅计合并数为交付、发版独立成票，强调衡量标准必须独立于 Agent 自身。</p>
-
-<p>twitter · Larry 🍀 Orbi · 10月30日 02:38</p>
-
-<p><strong>「推荐理由」</strong> 这条帖子结合论文实测数据（15 倍合并量增、5.6% 虚假修复率）与一线产品 Orbi 的开源实现（orbi-build/orbi），给出可复现的无中央调度 Agent 协作范式与三层度量框架，直接解决研发效能度量失效与 Agent 自我验证失效的痛点，对做 Agent 编排、GitHub 自动化或研发效能的开发者具有即时参考价值。</p>
-
-<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#AI Agents</code>, <code class="language-plaintext highlighter-rouge">#Software Engineering</code>, <code class="language-plaintext highlighter-rouge">#GitHub Automation</code>, <code class="language-plaintext highlighter-rouge">#Agent Orchestration</code>, <code class="language-plaintext highlighter-rouge">#Developer Productivity Metrics</code></p>
-
-<hr />
-
-<p><a id="item-social-hot-4"></a></p>
-<h3 id="hugo-valters-分享-wazuh-实战指南规模化tls规则调优ha-集群-️-8010"><a href="https://x.com/HugoValters/status/2115994850361520271">Hugo Valters 分享 Wazuh 实战指南：规模化、TLS、规则调优、HA 集群</a> ⭐️ 8.0/10</h3>
-
-<p>DevOps 与网络安全工程师 Hugo Valters 分享了一份基于生产环境实战的 Wazuh SIEM 部署指南，源于他在凌晨 2 到 6 点收到 300 页未调优的默认 7 级告警的亲身经历。指南涵盖真实的规模化选型数字、从第一天起部署 TLS 证书、消除告警疲劳的规则调优、索引生命周期管理（ISM）保留策略以及高可用集群配置。</p>
-
-<p>twitter · Hugo | DevOps | Cybersecurity · 10月30日 02:31</p>
-
-<p><strong>「推荐理由」</strong> 该推文由资深 DevOps/网络安全工程师发布，基于生产环境中 300 页未调优告警的实战经验，系统梳理了 Wazuh SIEM 的容量规划、TLS 证书配置、规则调优消除告警疲劳、ISM 保留策略及 HA 集群部署等核心运维痛点，内容直接可落地。帖子未公开点赞、转发或浏览量，但主题聚焦 SIEM 运维高频需求，且为一手实践总结，参考价值高。</p>
-
-<details><summary>参考链接</summary>
-<ul>
-<li><a href="https://dev.to/hugovalters/wazuh-siem-open-source-threat-detection-deployment-385l">Wazuh SIEM: Open Source Threat Detection Deployment</a></li>
-
-</ul>
-</details>
-
-<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#wazuh</code>, <code class="language-plaintext highlighter-rouge">#siem</code>, <code class="language-plaintext highlighter-rouge">#devops</code>, <code class="language-plaintext highlighter-rouge">#alert-tuning</code>, <code class="language-plaintext highlighter-rouge">#ha-clustering</code>, <code class="language-plaintext highlighter-rouge">#tls</code>, <code class="language-plaintext highlighter-rouge">#ism-retention</code>, <code class="language-plaintext highlighter-rouge">#infrastructure-sizing</code></p>
-
-<hr />
-
-<p><a id="item-social-hot-5"></a></p>
-<h3 id="claude-记忆增量备份到-github-私有仓库的标准化流程-️-8010"><a href="https://x.com/mileshuang1997/status/2115994509016502637">Claude 记忆增量备份到 GitHub 私有仓库的标准化流程</a> ⭐️ 8.0/10</h3>
-
-<p>作者 @mileshuang1997 公开了一套将 Claude 记忆增量同步备份至 GitHub 私有仓库的完整操作流程，涵盖仓库连接、记忆读取、文件写入、Git 提交与推送的标准化步骤，并制定了不删除文件、不强制推送、不修改无关文件等硬性安全约束，适合开发者直接复用或改造为自动化脚本。</p>
-
-<p>twitter · 阿旻 AI · 10月30日 02:29</p>
-
-<p><strong>「推荐理由」</strong> 这是一份可直接落地的第一手实践方案，提供了从工具调用到异常处理的完整细节，对使用 Claude Memory 的开发者具有即时可操作价值；帖子的具体点赞、转发或浏览量未在来源中给出，无法引用热度证据。</p>
-
-<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#Claude</code>, <code class="language-plaintext highlighter-rouge">#memory-backup</code>, <code class="language-plaintext highlighter-rouge">#GitHub</code>, <code class="language-plaintext highlighter-rouge">#automation</code>, <code class="language-plaintext highlighter-rouge">#developer-tools</code></p>
-
-<hr />
-
-<p><a id="item-social-hot-6"></a></p>
-<h3 id="sina-meraji-开源-pr-仪表盘用-github-cli-聚合全组织-pr-️-8010"><a href="https://x.com/sinasanm/status/2115993671254639024">Sina Meraji 开源 PR 仪表盘：用 GitHub CLI 聚合全组织 PR</a> ⭐️ 8.0/10</h3>
-
-<p>Sina Meraji 发布了一个开源 PR 仪表盘，基于 GitHub CLI 聚合展示组织或账户下所有仓库的打开 PR，并支持自动刷新，避免逐个仓库页面手动刷新。该工具已开源并可直接使用，解决工程师日常跨仓库追踪 PR 的痛点。</p>
-
-<p>twitter · Sina Meraji · 10月30日 02:26</p>
-
-<p><strong>「推荐理由」</strong> 作者亲自分享一个开源工具，用 GitHub CLI 把组织或账号下所有仓库的开放 PR 聚合在一个页面并支持自动刷新，直接解决工程师每天在多个仓库间跳转刷新的痛点。帖子附带项目链接，可直接拿来用。</p>
-
-<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#github-cli</code>, <code class="language-plaintext highlighter-rouge">#pull-requests</code>, <code class="language-plaintext highlighter-rouge">#developer-tools</code>, <code class="language-plaintext highlighter-rouge">#open-source</code>, <code class="language-plaintext highlighter-rouge">#workflow-automation</code></p>
-
-<hr />
-
-<p><a id="item-social-hot-7"></a></p>
-<h3 id="开发者开源启动器让-2000-年代拉力赛游戏跑-4k60fps-️-7010"><a href="https://x.com/AkitaOnRails/status/2115996313456366071">开发者开源启动器让 2000 年代拉力赛游戏跑 4K/60fps</a> ⭐️ 7.0/10</h3>
-
-<p>Fabio Makita (@AkitaOnRails) 分享了一个开源启动器，将 1998 年的《Colin McRae Rally 1》（Windows XP 版）现代化，使其在现代系统上以 4K 分辨率、60 帧和宽屏运行。该启动器无需修改游戏文件、兼容性设置或注册表，只需指向已安装的游戏目录即可工作。作者提供了博客详细说明和 GitHub 源码。</p>
-
-<p>twitter · Fabio Makita · 10月30日 02:36</p>
-
-<p><strong>「推荐理由」</strong> Fabio Makita 发布开源启动器，将《Colin McRae Rally 1》从 XP 时代的 800×600/30fps 提升到 4K/60fps/宽屏，附带博客详解与 GitHub 源码，为旧游戏保存、二进制补丁与 Windows 兼容层提供可复现的实战案例。</p>
-
-<details><summary>参考链接</summary>
-<ul>
-<li><a href="https://github.com/akitaonrails/rea-colin-mcrae">GitHub - akitaonrails /rea- colin - mcrae : Launcher for the original PC...</a></li>
-
-</ul>
-</details>
-
-<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#game-dev</code>, <code class="language-plaintext highlighter-rouge">#reverse-engineering</code>, <code class="language-plaintext highlighter-rouge">#legacy-software</code>, <code class="language-plaintext highlighter-rouge">#windows</code>, <code class="language-plaintext highlighter-rouge">#github-project</code></p>
-
-<hr />
-
-<p><a id="item-social-hot-8"></a></p>
-<h3 id="开发者发布-ffmpeg-skill42-个视频编辑工具接入-claude-code-️-7010"><a href="https://x.com/WEBMARKS2/status/2115994601853198680">开发者发布 ffmpeg-skill：42 个视频编辑工具接入 Claude Code</a> ⭐️ 7.0/10</h3>
-
-<p>这条推文介绍开发者 kajisho5 开源的 ffmpeg-skill，将 42 个视频编辑功能（无声剪辑、字幕、竖横转换、音量归一化、多平台导出等）打包为可在 Claude Code、Codex、Cursor 本地调用的工具集，仅需预装 ffmpeg，无需云端或 API Key，采用 MIT 许可证免费使用。</p>
-
-<p>twitter · WEBMARKS｜AIエージェント × Webマーケティング · 10月30日 02:30</p>
-
-<p><strong>「推荐理由」</strong> 该工具让开发者在本地即可用 AI 完成视频预处理，解决敏感素材不出本地的痛点；GitHub 已获约 3,900 Star，相关日文推广帖阅读量超 3 万次并登上 X 趋势榜，可见度与实用性兼具。</p>
-
-<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#video-editing</code>, <code class="language-plaintext highlighter-rouge">#ai-tools</code>, <code class="language-plaintext highlighter-rouge">#claude-code</code>, <code class="language-plaintext highlighter-rouge">#ffmpeg</code>, <code class="language-plaintext highlighter-rouge">#developer-tools</code></p>
-
-<hr />
-
-<p><a id="item-social-hot-9"></a></p>
-<h3 id="jay-分享-opencodeclawpanel-免费额度管理技巧-️-7010"><a href="https://x.com/JayQinQT/status/2115993114305274208">Jay 分享 opencode/ClawPanel 免费额度管理技巧</a> ⭐️ 7.0/10</h3>
-
-<p>开发者 Jay 在回复中分享了管理 opencode 与 ClawPanel 免费额度的实用方法：在 Settings → Usage 查看哪个免费指标触发限制及重置窗口；建议连接个人 API Key 或改用付费模型以获得更稳定的运行体验，并附上 ClawPanel GitHub 仓库地址（qingchencloud/clawpanel）。</p>
-
-<p>twitter · Jay · 10月30日 02:24</p>
-
-<p><strong>「推荐理由」</strong> 这是一条来自实践者的第一手操作建议，直接解决免费额度波动导致的运行不稳定问题，给出了可立即执行的三步走方案（查用量、加 Key、换付费），对使用 opencode/ClawPanel 的开发者具有即时参考价值。帖子未提供点赞、转发或浏览等公开互动数据，热度以实用性为主。</p>
-
-<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#opencode</code>, <code class="language-plaintext highlighter-rouge">#ClawPanel</code>, <code class="language-plaintext highlighter-rouge">#AI coding tools</code>, <code class="language-plaintext highlighter-rouge">#API key management</code>, <code class="language-plaintext highlighter-rouge">#developer productivity</code></p>
-
-<hr />
-
-<p><a id="item-social-hot-10"></a></p>
-<h3 id="buoyhuang-分享-fastapireact-全栈登录系统实战经验-️-6010"><a href="https://x.com/buoyhuang/status/2115993480535355494">buoyhuang 分享 FastAPI+React 全栈登录系统实战经验</a> ⭐️ 6.0/10</h3>
-
-<p>作者 @buoyhuang 发布推文线程，记录从零构建一个可运行的全栈登录系统（FastAPI + React + MySQL）的关键决策与踩坑：采用 JWT 双 token 策略（access 30 分钟、refresh 7 天）、bcrypt 加盐哈希存储密码、前端 axios 拦截器实现 401 自动刷新 access token、通过 docker compose 一键编排三服务。文中还列举了 python/pip 版本不一致导致依赖安装失败、OAuth 路由导入路径错误等真实问题。全文为文字经验分享，未提供代码仓库或可运行示例。</p>
-
-<p>twitter · buoyhuang · 10月30日 02:25</p>
-
-<p><strong>「推荐理由」</strong> 这是一条第一手的全栈实战复盘，浓缩了认证流程设计、安全底线、前后端联调自动续期、容器化部署等工程落地细节，且附带真实排错记录，适合同技术栈开发者快速对照参考；但因未开源代码，仅可作经验参考，难以直接复现。</p>
-
-<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#FastAPI</code>, <code class="language-plaintext highlighter-rouge">#React</code>, <code class="language-plaintext highlighter-rouge">#JWT</code>, <code class="language-plaintext highlighter-rouge">#全栈开发</code>, <code class="language-plaintext highlighter-rouge">#实战经验</code></p>
-
-<hr />
-
-<p><a id="item-social-hot-11"></a></p>
-<h3 id="harrison-chase-发布-mda-010异步子代理与浏览器用例-️-6010"><a href="https://x.com/hwchase17/status/2115854759991369840">Harrison Chase 发布 MDA 0.10：异步子代理与浏览器用例</a> ⭐️ 6.0/10</h3>
-
-<p>LangChain 联合创始人 Harrison Chase 在 X 上宣布 MDA 0.10 版本发布，指出 harness engineering 的核心挑战在于 harness 与基础设施的深度集成，并以异步子代理和浏览器用例为例说明该版本的新特性。此为基于推文内容的直接概括，未包含代码示例或演示细节。</p>
-
-<p>twitter · Harrison Chase · 10月29日 17:14</p>
-
-<p><strong>「关注理由」</strong> 作者为 LangChain 核心人物，MDA 作为其主导的框架更新对相关开发者具备直接参考价值；推文给出的具体版本号（0.10）与功能点（async subagents、browser use）可作为技术选型依据。原帖未公开点赞、转发或浏览量，热度证据仅限于作者影响力与技术圈关注度。</p>
-
-<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#harness-engineering</code>, <code class="language-plaintext highlighter-rouge">#async-subagents</code>, <code class="language-plaintext highlighter-rouge">#browser-use</code>, <code class="language-plaintext highlighter-rouge">#MDA</code>, <code class="language-plaintext highlighter-rouge">#langchain</code></p>
-
-<hr />]]></content><author><name></name></author><summary type="html"><![CDATA[今日抓取 253 条内容，收录 15 条。]]></summary></entry></feed>
+<hr />]]></content><author><name></name></author><summary type="html"><![CDATA[今日抓取 253 条内容，收录 23 条。]]></summary></entry></feed>
