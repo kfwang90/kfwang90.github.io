@@ -3,9 +3,252 @@
   <title>Horizon 每日速递 - English Digest</title>
   <link href="https://www.01040610.xyz/horizon/feed-en.xml" rel="self"/>
   <link href="https://www.01040610.xyz/horizon/"/>
-  <updated>2026-11-05T03:35:04+00:00</updated>
+  <updated>2026-11-06T03:34:46+00:00</updated>
   <id>https://www.01040610.xyz/horizon/</id>
   
+  
+  <entry>
+    <title>Horizon Summary: 2026-11-06 (EN)</title>
+    <link href="https://www.01040610.xyz/horizon/2026/11/06/summary-en.html"/>
+    <updated>2026-11-06T00:00:00+00:00</updated>
+    <id>https://www.01040610.xyz/horizon/2026/11/06/summary-en.html</id>
+    <content type="html"><![CDATA[ <blockquote>
+  <p>Showing 15 of 136 fetched items.</p>
+</blockquote>
+
+<hr />
+
+<p><strong>AI Dev Tools</strong></p>
+<ol>
+  <li><a href="#item-gh-trending-1">vercel-labs/agent-browser: Rust CLI for AI agent browser automation</a> ⭐️ 7.0/10</li>
+  <li><a href="#item-gh-trending-2">can1357/oh-my-pi: Multi-provider AI coding agent with IDE integration</a> ⭐️ 7.0/10</li>
+  <li><a href="#item-gh-trending-3">google/skills: Agent Skills Framework for Google Products</a> ⭐️ 5.0/10</li>
+  <li><a href="#item-gh-trending-4">rudderlabs/devbox: Open-source autonomous engineering harness with per-task sandboxes</a> ⭐️ 5.0/10</li>
+  <li><a href="#item-gh-trending-5">muaaz9329/cheap-ag: MCP server routing Claude Code/Codex through cheaper models with test validation</a> ⭐️ 5.0/10</li>
+</ol>
+
+<p><strong>AI News</strong></p>
+<ol>
+  <li><a href="#item-ai-news-1">NVIDIA Releases Cosmos 3 Open Models for Interactive World Simulation on Hugging Face</a> ⭐️ 9.0/10</li>
+  <li><a href="#item-ai-news-2">Alpine Linux OpenSSH password auth bypass via musl crypt()</a> ⭐️ 8.0/10</li>
+  <li><a href="#item-ai-news-3">CCORE releases GLB-3D-Coder dataset: 3,918 examples for 3D asset generation</a> ⭐️ 8.0/10</li>
+  <li><a href="#item-ai-news-4">RustingStrata beats llama.cpp on large Qwen models exceeding VRAM on RTX 3060 12GB</a> ⭐️ 8.0/10</li>
+  <li><a href="#item-ai-news-5">Kagi opens search to everyone without registration</a> ⭐️ 7.0/10</li>
+  <li><a href="#item-ai-news-6">Gemini Omni 1.2 Flash: 15-second video, 30% price cut</a> ⭐️ 7.0/10</li>
+  <li><a href="#item-ai-news-7">Delta Inference Engine v0.93 runs DeepSeek-V4.1-Flash on single RTX 3090</a> ⭐️ 7.0/10</li>
+  <li><a href="#item-ai-news-8">YouTube video archival with yt-dlp and ytdl-sub commands</a> ⭐️ 6.0/10</li>
+</ol>
+
+<p><strong>X / YouTube Highlights</strong></p>
+<ol>
+  <li><a href="#item-social-hot-1">Complete Git &amp; GitHub Course for Beginners in Spanish</a> ⭐️ 8.0/10</li>
+  <li><a href="#item-social-hot-2">零基础 GitHub 入门教程，面向非程序员</a> ⭐️ 6.0/10</li>
+</ol>
+
+<hr />
+
+<h2 id="ai-dev-tools">AI Dev Tools</h2>
+
+<p><a id="item-gh-trending-1"></a></p>
+<h3 id="vercel-labsagent-browser-rust-cli-for-ai-agent-browser-automation-️-7010"><a href="https://github.com/vercel-labs/agent-browser">vercel-labs/agent-browser: Rust CLI for AI agent browser automation</a> ⭐️ 7.0/10</h3>
+
+<p>vercel-labs/agent-browser is a Rust-based command-line tool from Vercel Labs that provides browser automation capabilities specifically designed for AI agents. It enables programmatic web interaction, allowing AI-driven workflows to navigate, scrape, and manipulate web pages. The project has accumulated 45,981 stars, indicating strong community interest, though its exact maturity level remains unclear from available metadata.</p>
+
+<p>github · vercel-labs · Nov 6, 03:25</p>
+
+<p><strong>「Why Recommended」</strong> This tool fits into the AI agent development workflow by supplying a dedicated browser automation layer, replacing ad-hoc scripting for web interactions. It is suited for developers building AI agents that need reliable, programmatic control over web browsers for tasks such as testing, data extraction, or autonomous navigation.</p>
+
+<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#browser-automation</code>, <code class="language-plaintext highlighter-rouge">#ai-agents</code>, <code class="language-plaintext highlighter-rouge">#cli-tool</code>, <code class="language-plaintext highlighter-rouge">#rust</code>, <code class="language-plaintext highlighter-rouge">#web-automation</code></p>
+
+<hr />
+
+<p><a id="item-gh-trending-2"></a></p>
+<h3 id="can1357oh-my-pi-multi-provider-ai-coding-agent-with-ide-integration-️-7010"><a href="https://github.com/can1357/oh-my-pi">can1357/oh-my-pi: Multi-provider AI coding agent with IDE integration</a> ⭐️ 7.0/10</h3>
+
+<p>oh-my-pi is a multi-provider AI coding agent that integrates directly with IDEs and supports MCP (Model Context Protocol). It is built with TypeScript and Rust by Stencil Labs, allowing developers to use various LLM providers (OpenAI, Anthropic, etc.) within their coding workflow. The project shows high adoption with ~38k stars but has a concerning volume of open issues (~4.6k) and metadata anomalies (future-dated creation and push timestamps), suggesting uncertainty around maintenance health.</p>
+
+<p>github · can1357 · Nov 6, 03:25</p>
+
+<p><strong>「Why Recommended」</strong> It targets the coding phase by embedding an AI agent inside the IDE, replacing manual context-switching between chat UIs and the editor. The multi-provider MCP support suits teams that want flexibility across LLM vendors without vendor lock-in. The high star count signals strong community interest, though the open issue backlog warrants caution for production reliance.</p>
+
+<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#ai-coding-agent</code>, <code class="language-plaintext highlighter-rouge">#ide-integration</code>, <code class="language-plaintext highlighter-rouge">#mcp</code>, <code class="language-plaintext highlighter-rouge">#multi-provider-llm</code>, <code class="language-plaintext highlighter-rouge">#cli-tool</code></p>
+
+<hr />
+
+<p><a id="item-gh-trending-3"></a></p>
+<h3 id="googleskills-agent-skills-framework-for-google-products-️-5010"><a href="https://github.com/google/skills">google/skills: Agent Skills Framework for Google Products</a> ⭐️ 5.0/10</h3>
+
+<p>google/skills provides an agent-skills framework for Google products and technologies, implemented in Python. It aims to enable developers to build and integrate agent capabilities within the Google ecosystem, though public documentation and concrete developer-facing workflows remain limited. The project has accumulated over 22,000 stars, indicating strong community interest, but its practical maturity for general AI development workflows is unclear from available metadata.</p>
+
+<p>github · google · Nov 6, 03:25</p>
+
+<p><strong>「Why Recommended」</strong> This repository targets the automation and agent-building layer of AI development, potentially replacing custom skill implementations for Google services. It suits developers already invested in the Google ecosystem who need a structured way to compose agent abilities, with the high star count signaling active community attention.</p>
+
+<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#ai-agents</code>, <code class="language-plaintext highlighter-rouge">#google-ecosystem</code>, <code class="language-plaintext highlighter-rouge">#python</code>, <code class="language-plaintext highlighter-rouge">#developer-tools</code>, <code class="language-plaintext highlighter-rouge">#automation</code></p>
+
+<hr />
+
+<p><a id="item-gh-trending-4"></a></p>
+<h3 id="rudderlabsdevbox-open-source-autonomous-engineering-harness-with-per-task-sandboxes-️-5010"><a href="https://github.com/rudderlabs/devbox">rudderlabs/devbox: Open-source autonomous engineering harness with per-task sandboxes</a> ⭐️ 5.0/10</h3>
+
+<p>rudderlabs/devbox is an open-source autonomous engineering harness that runs in your cloud, providing one isolated sandbox per coding task without exposing real secrets. Built with TypeScript, it targets the coding phase by enabling secure, isolated execution of AI coding agents. The project is one week old (created 2026-10-27) and remains in an early experimental stage with no public documentation or usage examples yet.</p>
+
+<p>github · rudderlabs · Nov 6, 03:25</p>
+
+<p><strong>「Why Recommended」</strong> It addresses the sandboxing and security needs of agentic coding workflows by offering per-task isolation and secret-free execution, a gap in current AI coding toolchains. With 297 stars in its first week, it signals early community interest for teams building or evaluating autonomous agent infrastructure.</p>
+
+<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#agentic-coding</code>, <code class="language-plaintext highlighter-rouge">#autonomous-agents</code>, <code class="language-plaintext highlighter-rouge">#sandbox</code>, <code class="language-plaintext highlighter-rouge">#security</code>, <code class="language-plaintext highlighter-rouge">#developer-tools</code></p>
+
+<hr />
+
+<p><a id="item-gh-trending-5"></a></p>
+<h3 id="muaaz9329cheap-ag-mcp-server-routing-claude-codecodex-through-cheaper-models-with-test-validation-️-5010"><a href="https://github.com/muaaz9329/cheap-ag">muaaz9329/cheap-ag: MCP server routing Claude Code/Codex through cheaper models with test validation</a> ⭐️ 5.0/10</h3>
+
+<p>cheap-ag is an early-stage MCP server written in TypeScript that intercepts requests from Claude Code and Codex, routes them through lower-cost models, and uses test-based validation to decide what code ships. It targets developers who hit API usage limits on premium plans by substituting expensive model calls with cheaper alternatives while maintaining quality through automated tests. The project is only about a week old with 289 stars, 20 forks, and 4 open issues, placing it in an experimental, pre-production phase.</p>
+
+<p>github · muaaz9329 · Nov 6, 03:25</p>
+
+<p><strong>「Why Recommended」</strong> It plugs directly into the coding-assistant loop (Claude Code/Codex via MCP) and replaces the expensive model-inference step with a cheaper model plus a test gate, which is exactly the cost-optimization lever developers on tight API budgets need. The 289 stars in six days signal strong early interest from the agentic-coding community, making it worth a trial for anyone regularly hitting Claude plan limits.</p>
+
+<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#agentic-coding</code>, <code class="language-plaintext highlighter-rouge">#cost-optimization</code>, <code class="language-plaintext highlighter-rouge">#claude-code</code>, <code class="language-plaintext highlighter-rouge">#mcp-server</code>, <code class="language-plaintext highlighter-rouge">#developer-tools</code></p>
+
+<hr />
+
+<h2 id="ai-news">AI News</h2>
+
+<p><a id="item-ai-news-1"></a></p>
+<h3 id="nvidia-releases-cosmos-3-open-models-for-interactive-world-simulation-on-hugging-face-️-9010"><a href="https://huggingface.co/blog/nvidia/cosmos-interactive-world-simulation">NVIDIA Releases Cosmos 3 Open Models for Interactive World Simulation on Hugging Face</a> ⭐️ 9.0/10</h3>
+
+<p>NVIDIA has released Cosmos 3 open models for interactive world simulation on the Hugging Face Hub. The release provides ready-to-use model weights and tooling for practitioners to download and experiment with immediately. The models are designed for interactive world simulation tasks, likely relevant to robotics and physical AI applications. The announcement was published on the Hugging Face Blog on November 5, 2026.</p>
+
+<p>rss · Hugging Face Blog · Nov 5, 19:35</p>
+
+<p><strong>「Why It Matters」</strong> Robotics and simulation researchers can now directly access NVIDIA&#x27;s latest world simulation models via Hugging Face without waiting for proprietary access. First step: visit the Hugging Face Hub to download weights and try the inference widgets for immediate experimentation in interactive simulation workflows.</p>
+
+<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#world-simulation</code>, <code class="language-plaintext highlighter-rouge">#NVIDIA-Cosmos</code>, <code class="language-plaintext highlighter-rouge">#open-models</code>, <code class="language-plaintext highlighter-rouge">#robotics</code>, <code class="language-plaintext highlighter-rouge">#HuggingFace</code></p>
+
+<hr />
+
+<p><a id="item-ai-news-2"></a></p>
+<h3 id="alpine-linux-openssh-password-auth-bypass-via-musl-crypt-️-8010"><a href="https://alpinelinux.org/posts/2026-11-05-openssh-password-authentication-bypass/">Alpine Linux OpenSSH password auth bypass via musl crypt()</a> ⭐️ 8.0/10</h3>
+
+<p>Alpine Linux issued a security advisory for an OpenSSH-server password authentication bypass caused by musl libc&#x27;s crypt() function. When a password exceeds 256 bytes, musl&#x27;s crypt() returns "*" as an error indicator, which matches the hash field for accounts with no password set, allowing login without credentials. The vulnerability affects systems with at least one local account using $5$ (SHA-256) or $6$ (SHA-512) password hashes. Alpine has released updated OpenSSH packages; the immediate mitigation is to disable password authentication by setting PasswordAuthentication no in sshd_config and restarting sshd.</p>
+
+<p>hackernews · pantalaimon · Nov 5, 14:44 · <a href="https://news.ycombinator.com/item?id=50379704">Discussion</a></p>
+
+<p><strong>「Why It Matters」</strong> Any Alpine Linux server exposing SSH with password authentication enabled is vulnerable to unauthenticated remote login. Administrators should first check if they run Alpine with OpenSSH-server and password auth enabled, then either apply the updated packages immediately or disable password authentication as a stopgap. The root cause is a musl libc design choice that returns a sentinel value identical to a valid hash marker, so other musl-based distributions may need to assess similar exposure.</p>
+
+<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#security</code>, <code class="language-plaintext highlighter-rouge">#vulnerability</code>, <code class="language-plaintext highlighter-rouge">#openssh</code>, <code class="language-plaintext highlighter-rouge">#alpine-linux</code>, <code class="language-plaintext highlighter-rouge">#musl-libc</code></p>
+
+<hr />
+
+<p><a id="item-ai-news-3"></a></p>
+<h3 id="ccore-releases-glb-3d-coder-dataset-3918-examples-for-3d-asset-generation-️-8010"><a href="https://www.reddit.com/r/LocalLLaMA/comments/1xozbe6/ccore_glb3dcoder_dataset_is_here_3918_rendered/">CCORE releases GLB-3D-Coder dataset: 3,918 examples for 3D asset generation</a> ⭐️ 8.0/10</h3>
+
+<p>CCORE has released the GLB-3D-Coder dataset containing 3,918 rendered and validated examples across 40 domains (characters, vehicles, architecture, etc.) for training 3D asset generation via Three.js/GLB code. The MIT-licensed dataset includes complete conversations, reasoning traces, HTML/JavaScript responses, rendered reference images, and both static and animated/interactive examples, split into 3,501 training and 417 validation samples. The author also releases the 4B model weights used for training. All examples were tested, rendered, and GLB-validated before inclusion.</p>
+
+<p>reddit · r/LocalLLaMA · /u/ConfidentDinner6648 · Nov 6, 00:43</p>
+
+<p><strong>「Why it matters」</strong> Developers building code-based 3D generation models can immediately download the dataset and 4B model weights to fine-tune or experiment with Three.js/GLB asset creation, saving the effort of curating and validating a large, diverse 3D code corpus themselves.</p>
+
+<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#3D-generation</code>, <code class="language-plaintext highlighter-rouge">#dataset</code>, <code class="language-plaintext highlighter-rouge">#Three.js</code>, <code class="language-plaintext highlighter-rouge">#fine-tuning</code>, <code class="language-plaintext highlighter-rouge">#GLB</code></p>
+
+<hr />
+
+<p><a id="item-ai-news-4"></a></p>
+<h3 id="rustingstrata-beats-llamacpp-on-large-qwen-models-exceeding-vram-on-rtx-3060-12gb-️-8010"><a href="https://www.reddit.com/r/LocalLLaMA/comments/1xottw2/strata_for_all_qwen_models_from_little_to_big/">RustingStrata beats llama.cpp on large Qwen models exceeding VRAM on RTX 3060 12GB</a> ⭐️ 8.0/10</h3>
+
+<p>Reddit user /u/Serious_Scarcity7818 benchmarked RustingStrata against llama.cpp (build 12119) across all Qwen GGUF models from 2B to 177B on an RTX 3060 12GB with 32GB RAM. Tests ran back-to-back with normal desktop apps open and no tuning. For small dense models that fit in VRAM (2B, 4B), llama.cpp prefilled faster (e.g., Qwen3.5-2B Q8_0: 6080 vs 3859 tok/s prefill). Once models exceeded 12GB VRAM (35B, 80B, 177B), RustingStrata delivered ~1.5x faster prefill and up to ~2x faster decode: Qwen3-Next-80B-A3B-Instruct reached 63.7 tok/s decode vs 33.3, and the 177B Flash-Next model hit 21.3 tok/s vs 18.1. Commands used: strata bench with –gpu –mtp 0 –pp 4096 –tg 128 –reps 2; llama-bench with -p 4096 -n 128 -d 4096 -fa on -ub 2048 -b 2048 -fitt 512. MTP was off; enabling it on the 35B model raised decode to ~160 tok/s. Hand-tuned llama.cpp with -ncmoe 12 on a quiet machine performed better on 35B (~2236 prefill / 68 decode).</p>
+
+<p>reddit · r/LocalLLaMA · /u/Serious_Scarcity7818 · Nov 5, 20:47</p>
+
+<p><strong>「Why it matters」</strong> If you run local LLMs on a 12GB VRAM card, choose llama.cpp for models that fit entirely in VRAM (up to ~11GB quantized) for faster prefill; switch to RustingStrata for larger MoE models (35B+) that must offload to system RAM, where it delivers 1.5-2x throughput gains. First step: identify your model size vs VRAM, then test the corresponding engine with the provided commands to verify on your hardware.</p>
+
+<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#local-llm</code>, <code class="language-plaintext highlighter-rouge">#inference-engine</code>, <code class="language-plaintext highlighter-rouge">#benchmark</code>, <code class="language-plaintext highlighter-rouge">#qwen</code>, <code class="language-plaintext highlighter-rouge">#rustingstrata</code></p>
+
+<hr />
+
+<p><a id="item-ai-news-5"></a></p>
+<h3 id="kagi-opens-search-to-everyone-without-registration-️-7010"><a href="https://kagi.com/changelog#11820">Kagi opens search to everyone without registration</a> ⭐️ 7.0/10</h3>
+
+<p>Kagi has launched "Search for everyone" allowing anyone to use its search engine without creating an account. The update removes the previous registration requirement, letting users immediately access Kagi&#x27;s ad-free, customizable search with site ranking controls. Users can adjust result weights (e.g., downrank Reddit, block AI-generated sites) and enable AI summaries only on demand via question marks. The service remains a paid subscription for full features, but the no-account tier provides a functional trial experience.</p>
+
+<p>hackernews · elashri · Nov 5, 20:03 · <a href="https://news.ycombinator.com/item?id=50383740">Discussion</a></p>
+
+<p><strong>「Why it matters」</strong> Developers and researchers frustrated with Google&#x27;s declining result quality can now test Kagi instantly without signup, comparing its customizable rankings and ad-free results against DuckDuckGo or Bing for technical queries. First step: visit kagi.com and run a few difficult searches to evaluate result relevance and site controls.</p>
+
+<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#search-engine</code>, <code class="language-plaintext highlighter-rouge">#developer-tools</code>, <code class="language-plaintext highlighter-rouge">#productivity</code>, <code class="language-plaintext highlighter-rouge">#privacy</code>, <code class="language-plaintext highlighter-rouge">#kagi</code></p>
+
+<hr />
+
+<p><a id="item-ai-news-6"></a></p>
+<h3 id="gemini-omni-12-flash-15-second-video-30-price-cut-️-7010"><a href="https://the-decoder.com/googles-gemini-omni-1-2-flash-stretches-ai-video-clips-to-15-seconds-and-cuts-pricing-by-30-percent/">Gemini Omni 1.2 Flash: 15-second video, 30% price cut</a> ⭐️ 7.0/10</h3>
+
+<p>Google DeepMind has made Gemini Omni 1.2 Flash generally available, extending video generation to 15-second clips with conversational step-by-step editing. The model costs $0.07 per second at 720p resolution, a 30 percent reduction from its predecessor. Users can further reduce costs by drafting in low resolution and upscaling only the final output.</p>
+
+<p>rss · The Decoder · Nov 5, 19:05</p>
+
+<p><strong>「Why It Matters」</strong> Video creators and developers can now produce longer AI-generated clips at lower cost, with iterative conversational editing; the first step is to access the model via Google&#x27;s Vertex AI or AI Studio to test the 15-second capability and pricing.</p>
+
+<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#video-generation</code>, <code class="language-plaintext highlighter-rouge">#gemini</code>, <code class="language-plaintext highlighter-rouge">#google-deepmind</code>, <code class="language-plaintext highlighter-rouge">#ai-video</code>, <code class="language-plaintext highlighter-rouge">#pricing</code></p>
+
+<hr />
+
+<p><a id="item-ai-news-7"></a></p>
+<h3 id="delta-inference-engine-v093-runs-deepseek-v41-flash-on-single-rtx-3090-️-7010"><a href="https://www.reddit.com/r/LocalLLaMA/comments/1xoq4vq/deepseekv41flash1017_on_one_rtx_3090_big_updates/">Delta Inference Engine v0.93 runs DeepSeek-V4.1-Flash on single RTX 3090</a> ⭐️ 7.0/10</h3>
+
+<p>Delta Inference Engine v0.93 now runs DeepSeek-V4.1-Flash-1017 on a single RTX 3090 (24 GB VRAM) with as little as 64 GB system RAM, delivering 21–41 tok/s across new Unsloth quantizations (UD-IQ2_XXS, UD-IQ1_S, UD-Q2_K_XL, UD-IQ3_XXS). The engine achieves 57/99 on a 99-question benchmark versus 59/99 for the full API model, with first-token latency reduced ~40% (3.8 s → 2.3 s). New features include EXL3 support (2.5 bpw, ~2× faster GPU kernel), basic multi-GPU (7% uplift with RTX 3060+3090), public CI builds via GitHub Actions, and a web UI for model selection. The release is Windows-only, requires an NVMe SSD (233–395 GB for model weights), driver 580+, and AVX2-capable CPU; the author notes results are from a single test machine and need validation on other hardware. The code is MIT-licensed at github.com/musicurgy/delta-inference-engine.</p>
+
+<p>reddit · r/LocalLLaMA · /u/musicurgy · Nov 5, 18:23</p>
+
+<p><strong>「Why it matters」</strong> If you have a 24 GB RTX 3090 and 64–192 GB RAM, you can now run a DeepSeek-V4.1-class model locally at 21–41 tok/s with quality within ~3% of the full API—download the Windows release from the GitHub Actions artifacts, point it at your NVMe, and benchmark your own hardware to confirm speeds.</p>
+
+<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#Delta Inference Engine</code>, <code class="language-plaintext highlighter-rouge">#DeepSeek</code>, <code class="language-plaintext highlighter-rouge">#local LLM</code>, <code class="language-plaintext highlighter-rouge">#quantization</code>, <code class="language-plaintext highlighter-rouge">#RTX 3090</code></p>
+
+<hr />
+
+<p><a id="item-ai-news-8"></a></p>
+<h3 id="youtube-video-archival-with-yt-dlp-and-ytdl-sub-commands-️-6010"><a href="https://criminallyvulgar.dev/you-should-absolutely-download-your-favourite-youtube-videos/">YouTube video archival with yt-dlp and ytdl-sub commands</a> ⭐️ 6.0/10</h3>
+
+<p>A blog post advocates downloading YouTube videos for long-term archival, and the Hacker News discussion surfaces practical command-line tools. Commenters share concrete yt-dlp commands such as `yt-dlp –embed-metadata –parse-metadata "playlist_index:%(track_number)s" "PLAYLIST_URL"` to preserve playlist structure and metadata. The wrapper ytdl-sub is also highlighted as a way to maintain playlist hierarchy during batch downloads. The advice is geared toward data collection and dataset preparation rather than core AI or engineering workflows.</p>
+
+<p>hackernews · surprisetalk · Nov 5, 13:00 · <a href="https://news.ycombinator.com/item?id=50378571">Discussion</a></p>
+
+<p><strong>「Why it matters」</strong> Engineers building training datasets or archiving reference material can immediately use the shared yt-dlp flags or ytdl-sub to download entire playlists with metadata intact. The first step is to test the provided yt-dlp command on a target playlist or install ytdl-sub for automated, structure-preserving downloads.</p>
+
+<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#data-collection</code>, <code class="language-plaintext highlighter-rouge">#yt-dlp</code>, <code class="language-plaintext highlighter-rouge">#archival</code>, <code class="language-plaintext highlighter-rouge">#dataset-preparation</code>, <code class="language-plaintext highlighter-rouge">#cli-tools</code></p>
+
+<hr />
+
+<h2 id="x--youtube-highlights">X / YouTube Highlights</h2>
+
+<p><a id="item-social-hot-1"></a></p>
+<h3 id="complete-git--github-course-for-beginners-in-spanish-️-8010"><a href="https://www.youtube.com/watch?v=3GymExBkKjE">Complete Git &amp; GitHub Course for Beginners in Spanish</a> ⭐️ 8.0/10</h3>
+
+<p>This 5+ hour Spanish-language tutorial from developer Brais Moure teaches Git and GitHub from scratch, covering essential commands, branching strategies, and practical workflows. The description indicates a hands-on approach suitable for absolute beginners. This summary is inferred from the title and channel description since no transcript or detailed chapters are available.</p>
+
+<p>youtube · GitHub · Nov 6, 03:25</p>
+
+<p><strong>「Why It&#x27;s Hot」</strong> With 1.36 million views, this course has strong community validation as a go-to Spanish resource for learning version control. Viewers can walk away with reproducible, end-to-end Git/GitHub practices taught by a working developer.</p>
+
+<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#git</code>, <code class="language-plaintext highlighter-rouge">#github</code>, <code class="language-plaintext highlighter-rouge">#tutorial</code>, <code class="language-plaintext highlighter-rouge">#version-control</code>, <code class="language-plaintext highlighter-rouge">#beginner-friendly</code></p>
+
+<hr />
+
+<p><a id="item-social-hot-2"></a></p>
+<h3 id="零基础-github-入门教程面向非程序员-️-6010"><a href="https://www.youtube.com/watch?v=FopO8IQLX_E">零基础 GitHub 入门教程，面向非程序员</a> ⭐️ 6.0/10</h3>
+
+<p>这条视频标题与简介显示，它是一份面向完全没有编程基础的「小白」的 GitHub 入门教学，预计涵盖注册账号、搜索仓库、一键下载资源等基础操作，帮助非技术人员快速上手全球最大的开源社区。以上内容为根据标题与简介推断，实际章节细节以视频本身为准。</p>
+
+<p>youtube · GitHub · Nov 6, 03:25</p>
+
+<p><strong>「推荐理由」</strong> 视频播放量已达 112 万次，说明在零基础受众中极具参考价值；观众可直接拿走「注册→搜索→下载」的完整最短路径，无需阅读英文文档即可把 GitHub 当作资源宝藏使用。</p>
+
+<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#GitHub</code>, <code class="language-plaintext highlighter-rouge">#tutorial</code>, <code class="language-plaintext highlighter-rouge">#beginner</code>, <code class="language-plaintext highlighter-rouge">#open-source</code>, <code class="language-plaintext highlighter-rouge">#resource-discovery</code></p>
+
+<hr />
+ ]]></content>
+  </entry>
   
   <entry>
     <title>Horizon Summary: 2026-11-05 (EN)</title>
@@ -1794,263 +2037,6 @@
 <p><strong>「Why it&#x27;s hot」</strong> The video has 231K views, showing strong developer interest in Graft — a GitHub-trending tool — and its integration with Claude Code via Claude Skills. Viewers can expect a practical walkthrough of what Claude Skills are and how to use them to connect Graft with Claude Code for AI agent development.</p>
 
 <p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#Claude Code</code>, <code class="language-plaintext highlighter-rouge">#AI Agents</code>, <code class="language-plaintext highlighter-rouge">#GitHub Trending</code>, <code class="language-plaintext highlighter-rouge">#Claude Skills</code>, <code class="language-plaintext highlighter-rouge">#Developer Tools</code></p>
-
-<hr />
- ]]></content>
-  </entry>
-  
-  <entry>
-    <title>Horizon Summary: 2026-10-30 (EN)</title>
-    <link href="https://www.01040610.xyz/horizon/2026/10/30/summary-en.html"/>
-    <updated>2026-10-30T00:00:00+00:00</updated>
-    <id>https://www.01040610.xyz/horizon/2026/10/30/summary-en.html</id>
-    <content type="html"><![CDATA[ <blockquote>
-  <p>Showing 15 of 253 fetched items.</p>
-</blockquote>
-
-<hr />
-
-<p><strong>AI Dev Tools</strong></p>
-<ol>
-  <li><a href="#item-gh-trending-1">pbakaus/impeccable: Rust tool for auditing AI-generated code</a> ⭐️ 5.0/10</li>
-  <li><a href="#item-gh-trending-2">CopilotKit/OpenBot: AI agent runtime with browser, files, tools</a> ⭐️ 5.0/10</li>
-</ol>
-
-<p><strong>AI News</strong></p>
-<ol>
-  <li><a href="#item-ai-news-1">Mistral releases Le Chonk (Large 4) trillion-parameter coding model</a> ⭐️ 6.0/10</li>
-  <li><a href="#item-ai-news-2">Zod Claims 9x Speedup via Compilation Mode</a> ⭐️ 6.0/10</li>
-</ol>
-
-<p><strong>X / YouTube Highlights</strong></p>
-<ol>
-  <li><a href="#item-social-hot-1">Google Shuts Down Jules: Export Guide &amp; Gotchas</a> ⭐️ 9.0/10</li>
-  <li><a href="#item-social-hot-2">Orbi Engine: Open-Source Self-Hosted AI Code Review Tool</a> ⭐️ 8.0/10</li>
-  <li><a href="#item-social-hot-3">Unmanned Software Factories: Do We Need Complex Multi-Agent Orchestration?</a> ⭐️ 8.0/10</li>
-  <li><a href="#item-social-hot-4">Wazuh SIEM practitioner shares 300-page alert tuning guide</a> ⭐️ 8.0/10</li>
-  <li><a href="#item-social-hot-5">Claude 记忆增量备份到 GitHub 私有仓库的标准化流程</a> ⭐️ 8.0/10</li>
-  <li><a href="#item-social-hot-6">Open-source PR dashboard aggregates GitHub PRs across repos with auto-refresh</a> ⭐️ 8.0/10</li>
-  <li><a href="#item-social-hot-7">Open-source launcher modernizes Colin McRae Rally 1 to 4K/60fps</a> ⭐️ 7.0/10</li>
-  <li><a href="#item-social-hot-8">ffmpeg-skill: 42 Video Editing Tools for Claude Code</a> ⭐️ 7.0/10</li>
-  <li><a href="#item-social-hot-9">Jay shares free-tier management tip for opencode/ClawPanel</a> ⭐️ 7.0/10</li>
-  <li><a href="#item-social-hot-10">Full-Stack Login System with FastAPI, React, MySQL &amp; JWT Dual Tokens</a> ⭐️ 6.0/10</li>
-  <li><a href="#item-social-hot-11">Harrison Chase announces MDA 0.10 with async subagents and browser use</a> ⭐️ 6.0/10</li>
-</ol>
-
-<hr />
-
-<h2 id="ai-dev-tools">AI Dev Tools</h2>
-
-<p><a id="item-gh-trending-1"></a></p>
-<h3 id="pbakausimpeccable-rust-tool-for-auditing-ai-generated-code-️-5010"><a href="https://github.com/pbakaus/impeccable">pbakaus/impeccable: Rust tool for auditing AI-generated code</a> ⭐️ 5.0/10</h3>
-
-<p>impeccable is a Rust-based tool marketed as a design vocabulary for coding agents to audit and polish AI-generated code, aiming to catch low-quality output before it ships. However, the repository currently lacks public documentation, usage examples, or installation instructions, making its practical effectiveness and maturity uncertain despite a recent surge to 95.5k stars.</p>
-
-<p>github · pbakaus · Oct 30, 02:39</p>
-
-<p><strong>「Why Recommended」</strong> It targets the code-review phase of AI-assisted development, offering a potential review layer for developers using coding agents who want to filter AI slop, but its real-world utility remains unproven without visible functionality or integration details.</p>
-
-<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#ai-code-review</code>, <code class="language-plaintext highlighter-rouge">#code-quality</code>, <code class="language-plaintext highlighter-rouge">#rust</code>, <code class="language-plaintext highlighter-rouge">#coding-agent</code>, <code class="language-plaintext highlighter-rouge">#linting</code></p>
-
-<hr />
-
-<p><a id="item-gh-trending-2"></a></p>
-<h3 id="copilotkitopenbot-ai-agent-runtime-with-browser-files-tools-️-5010"><a href="https://github.com/CopilotKit/OpenBot">CopilotKit/OpenBot: AI agent runtime with browser, files, tools</a> ⭐️ 5.0/10</h3>
-
-<p>OpenBot is an open-source AI agent runtime that gives each agent its own computer environment — browser, file system, and tool access — with every action pre-decided and recorded. It supports any AG-UI-compatible agent and is implemented in TypeScript. The project has gathered 8,205 stars, but the supplied information does not describe developer-specific workflows, IDE or CI/CD integrations, or a clear maturity stage beyond early community interest.</p>
-
-<p>github · CopilotKit · Oct 30, 02:39</p>
-
-<p><strong>「Why Recommended」</strong> OpenBot offers a general-purpose agent runtime that could automate browser-based testing, file manipulation, and tool orchestration in development workflows, though explicit developer integrations are not documented. The 8,205 stars signal an active community exploring AI-driven computer-use agents.</p>
-
-<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#AI agents</code>, <code class="language-plaintext highlighter-rouge">#browser automation</code>, <code class="language-plaintext highlighter-rouge">#tool use</code>, <code class="language-plaintext highlighter-rouge">#AG-UI</code>, <code class="language-plaintext highlighter-rouge">#TypeScript</code></p>
-
-<hr />
-
-<h2 id="ai-news">AI News</h2>
-
-<p><a id="item-ai-news-1"></a></p>
-<h3 id="mistral-releases-le-chonk-large-4-trillion-parameter-coding-model-️-6010"><a href="https://the-decoder.com/paris-based-mistral-releases-le-chonk-a-strong-coding-model-that-still-trails-china-overall/">Mistral releases Le Chonk (Large 4) trillion-parameter coding model</a> ⭐️ 6.0/10</h3>
-
-<p>Mistral has released the open weights for Large 4, nicknamed "Le Chonk," a trillion-parameter coding model trained entirely in Europe. The company claims it beats open rivals on coding benchmarks, and independent testing indicates it is fast and relatively inexpensive to run. However, it scores 26 points on the cited benchmark, trailing the 32 points posted by DeepSeek V4.1 Flash and GLM-5.3. The article provides no download links, hardware requirements, license details, inference framework support, API access, or cost specifics.</p>
-
-<p>rss · The Decoder · Oct 29, 15:25</p>
-
-<p><strong>「Why it matters」</strong> Developers looking for a European-trained, open-weight coding model can evaluate Le Chonk once practical deployment details become available. The immediate next step is to locate the official model repository, review the license and hardware requirements, and run comparative inference tests against existing options before adopting it in production.</p>
-
-<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#Mistral</code>, <code class="language-plaintext highlighter-rouge">#Le Chonk</code>, <code class="language-plaintext highlighter-rouge">#Large 4</code>, <code class="language-plaintext highlighter-rouge">#coding model</code>, <code class="language-plaintext highlighter-rouge">#open weights</code></p>
-
-<hr />
-
-<p><a id="item-ai-news-2"></a></p>
-<h3 id="zod-claims-9x-speedup-via-compilation-mode-️-6010"><a href="https://www.infoq.cn/article/q4B85RXx0G9J3d4Bkqd3?utm_source=rss&amp;utm_medium=article">Zod Claims 9x Speedup via Compilation Mode</a> ⭐️ 6.0/10</h3>
-
-<p>An InfoQ article (reposted from an original by Daniel Curtis) claims Zod has added a compilation mode that delivers a 9× speed improvement and roughly 90% memory reduction, attributing the gains to the use of `new Function`. The piece provides only a title and link; no version number, enablement steps, compatibility constraints, or benchmark methodology are available from the supplied material.</p>
-
-<p>rss · InfoQ 中文 · Oct 29, 12:00</p>
-
-<p><strong>「Why It Matters」</strong> If verified, this would be relevant for TypeScript teams using Zod for runtime validation who are hitting performance bottlenecks. However, without version details, opt-in instructions, or independent benchmarks, no immediate action (trial, migration, or comparison) can be recommended. The first step is to locate the full article or check Zod&#x27;s official changelog for a corresponding release.</p>
-
-<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#Zod</code>, <code class="language-plaintext highlighter-rouge">#TypeScript</code>, <code class="language-plaintext highlighter-rouge">#性能优化</code>, <code class="language-plaintext highlighter-rouge">#运行时验证</code>, <code class="language-plaintext highlighter-rouge">#编译优化</code></p>
-
-<hr />
-
-<h2 id="x--youtube-highlights">X / YouTube Highlights</h2>
-
-<p><a id="item-social-hot-1"></a></p>
-<h3 id="google-shuts-down-jules-export-guide--gotchas-️-9010"><a href="https://x.com/neili666888/status/2115996360944279873">Google Shuts Down Jules: Export Guide &amp; Gotchas</a> ⭐️ 9.0/10</h3>
-
-<p>This X post reports Google is shutting down its async coding agent Jules (launched Dec 2024), with active sessions ending Nov 11 and full shutdown Dec 31. The author tested the official export method: install the CLI (@google/jules 0.1.42), run `jules login`, then paste a prompt into Claude Code to execute a Python script that calls two undocumented APIs, saving data to ~/jules-export. Two key gotchas are noted: the login token expires in ~1 hour (requiring re-login), and the exported env-variables.json contains plaintext secrets that must not be committed. This is based on the post&#x27;s first-hand account.</p>
-
-<p>twitter · 懂点AI的卢小熙 · Oct 30, 02:37</p>
-
-<p><strong>「Why It Matters」</strong> Only 12 days remain before the Nov 11 cutoff, making this time-sensitive, practical guidance for current Jules users who need to migrate environment variables, scheduled tasks, repo memories, and session history. The post provides a reproducible, step-by-step workaround for the missing `jules export` command, saving users from trial-and-error.</p>
-
-<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#Google Jules</code>, <code class="language-plaintext highlighter-rouge">#Agent 迁移</code>, <code class="language-plaintext highlighter-rouge">#CLI 实测</code>, <code class="language-plaintext highlighter-rouge">#数据导出</code>, <code class="language-plaintext highlighter-rouge">#开发工具下线</code></p>
-
-<hr />
-
-<p><a id="item-social-hot-2"></a></p>
-<h3 id="orbi-engine-open-source-self-hosted-ai-code-review-tool-️-8010"><a href="https://x.com/xqliu/status/2115996612799467845">Orbi Engine: Open-Source Self-Hosted AI Code Review Tool</a> ⭐️ 8.0/10</h3>
-
-<p>The creator announces Orbi Engine, an open-source, self-hosted AI code-review tool licensed under AGPL-3.0 or Sustainable Use License. It supports unlimited repositories, works with any OpenAI-compatible API or local models, runs on timers, and uses GitHub as its collaboration board. A live repository link shows real pull requests, review comments, merges, and releases.</p>
-
-<p>twitter · Larry 🍀 Orbi · Oct 30, 02:38</p>
-
-<p><strong>「Why It Matters」</strong> This is a first-hand announcement from the developer with a live demo repository that demonstrates actual PR interactions, giving developers a concrete, reproducible example of a free, model-agnostic, self-hosted code-review automation workflow. Engagement metrics for the post were not provided.</p>
-
-<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#open-source</code>, <code class="language-plaintext highlighter-rouge">#code-review</code>, <code class="language-plaintext highlighter-rouge">#AI-automation</code>, <code class="language-plaintext highlighter-rouge">#self-hosted</code>, <code class="language-plaintext highlighter-rouge">#developer-tools</code></p>
-
-<hr />
-
-<p><a id="item-social-hot-3"></a></p>
-<h3 id="unmanned-software-factories-do-we-need-complex-multi-agent-orchestration-️-8010"><a href="https://x.com/xqliu/status/2115996612077982113">Unmanned Software Factories: Do We Need Complex Multi-Agent Orchestration?</a> ⭐️ 8.0/10</h3>
-
-<p>Larry Liu (@xqliu) analyzes the paper "Instant Software Factories" which demonstrates that unmanned software factories can run without central orchestration — agents coordinate via GitHub Issues, PRs, and execution logs. The paper observed a 15× daily merge increase over 15–17 days, but crucially found 5.6% of "fixed" issues were actually incorrect. Liu argues traditional productivity metrics (PR count, issue closure rate) break down when agents self-create, self-review, and self-verify work. He proposes a three-layer measurement framework: Activity (tasks executed), Delivery (independently verified completions), and Outcome (user value). Liu&#x27;s own product Orbi implements this pattern with built-in independent verification: separate coding/review sessions, mandatory review gates, counting only merged PRs as delivery, and separate release tasks. Orbi is open source at orbi-build/orbi.</p>
-
-<p>twitter · Larry 🍀 Orbi · Oct 30, 02:38</p>
-
-<p><strong>「Why It Matters」</strong> This post gives practitioners a concrete, data-backed critique of "vanity metrics" in agent-driven development and a practical three-layer framework they can adopt immediately. The author backs the analysis with a working, open-source system (Orbi) that embodies the paper&#x27;s architecture while adding independent verification — readers can inspect real PRs in orbi-build/orbi to see the pattern in action. Engagement metrics for the original X post were not provided.</p>
-
-<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#AI Agents</code>, <code class="language-plaintext highlighter-rouge">#Software Engineering</code>, <code class="language-plaintext highlighter-rouge">#GitHub Automation</code>, <code class="language-plaintext highlighter-rouge">#Agent Orchestration</code>, <code class="language-plaintext highlighter-rouge">#Developer Productivity Metrics</code></p>
-
-<hr />
-
-<p><a id="item-social-hot-4"></a></p>
-<h3 id="wazuh-siem-practitioner-shares-300-page-alert-tuning-guide-️-8010"><a href="https://x.com/HugoValters/status/2115994850361520271">Wazuh SIEM practitioner shares 300-page alert tuning guide</a> ⭐️ 8.0/10</h3>
-
-<p>DevOps and cybersecurity engineer Hugo Valters shares a production-grade Wazuh SIEM guide born from handling 300 pages of untuned level-7 alerts in a single night. The guide covers honest infrastructure sizing, TLS certificate deployment from day one, rule tuning to eliminate alert fatigue, index lifecycle management (ISM) for retention, and high-availability clustering — all drawn from real operational experience rather than lab testing. The accompanying dev.to article expands each topic with concrete numbers and configuration steps for engineers deploying Wazuh at scale.</p>
-
-<p>twitter · Hugo | DevOps | Cybersecurity · Oct 30, 02:31</p>
-
-<p><strong>「Why this matters」</strong> A DevOps/cybersecurity engineer documents solving 300 pages of untuned Wazuh level-7 alerts generated in four hours, then packages the fixes into a guide covering concrete sizing numbers, TLS certificate setup, rule tuning to eliminate alert fatigue, ISM retention policies, and HA clustering — all drawn from production experience. No public engagement metrics are visible on the post, but the specificity (real alert volumes, exact components tuned) makes it a practical reference for Wazuh operators facing alert overload.</p>
-
-<details><summary>References</summary>
-<ul>
-<li><a href="https://dev.to/hugovalters/wazuh-siem-open-source-threat-detection-deployment-385l">Wazuh SIEM: Open Source Threat Detection Deployment</a></li>
-
-</ul>
-</details>
-
-<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#wazuh</code>, <code class="language-plaintext highlighter-rouge">#siem</code>, <code class="language-plaintext highlighter-rouge">#devops</code>, <code class="language-plaintext highlighter-rouge">#alert-tuning</code>, <code class="language-plaintext highlighter-rouge">#ha-clustering</code>, <code class="language-plaintext highlighter-rouge">#tls</code>, <code class="language-plaintext highlighter-rouge">#ism-retention</code>, <code class="language-plaintext highlighter-rouge">#infrastructure-sizing</code></p>
-
-<hr />
-
-<p><a id="item-social-hot-5"></a></p>
-<h3 id="claude-记忆增量备份到-github-私有仓库的标准化流程-️-8010"><a href="https://x.com/mileshuang1997/status/2115994509016502637">Claude 记忆增量备份到 GitHub 私有仓库的标准化流程</a> ⭐️ 8.0/10</h3>
-
-<p>作者 @mileshuang1997 分享了一套将 Claude 记忆自动同步备份至 GitHub 私有仓库的完整操作步骤，包含连接仓库、读取全部记忆文件、按路径写入 memory/ 目录、Git 提交与推送的标准化流程，并制定了不删除文件、不强制推送、不修改无关文件等硬性约束。</p>
-
-<p>twitter · 阿旻 AI · Oct 30, 02:29</p>
-
-<p><strong>「推荐理由」</strong> 这是一份可直接复用的自动化实践指南，为使用 Claude Memory 的开发者提供了即拿即用的备份方案，涵盖工具调用、文件映射、提交规范与异常处理等工程细节；帖子的具体点赞、转发与浏览量未在来源数据中给出。</p>
-
-<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#Claude</code>, <code class="language-plaintext highlighter-rouge">#memory-backup</code>, <code class="language-plaintext highlighter-rouge">#GitHub</code>, <code class="language-plaintext highlighter-rouge">#automation</code>, <code class="language-plaintext highlighter-rouge">#developer-tools</code></p>
-
-<hr />
-
-<p><a id="item-social-hot-6"></a></p>
-<h3 id="open-source-pr-dashboard-aggregates-github-prs-across-repos-with-auto-refresh-️-8010"><a href="https://x.com/sinasanm/status/2115993671254639024">Open-source PR dashboard aggregates GitHub PRs across repos with auto-refresh</a> ⭐️ 8.0/10</h3>
-
-<p>Sina Meraji announces an open-source PR dashboard built with GitHub CLI that aggregates all open pull requests across every repository in a GitHub organization or personal account into a single view, eliminating the need to manually refresh each repo&#x27;s PR page. The tool includes auto-refresh functionality for real-time updates.</p>
-
-<p>twitter · Sina Meraji · Oct 30, 02:26</p>
-
-<p><strong>「Why it&#x27;s useful」</strong> The builder shares an open-source PR dashboard that uses GitHub CLI to aggregate all open pull requests across an organization or account into a single view with auto-refresh, eliminating the need to manually check each repository. The tool is immediately accessible via the linked repository, offering a practical solution for developers managing multiple PRs daily.</p>
-
-<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#github-cli</code>, <code class="language-plaintext highlighter-rouge">#pull-requests</code>, <code class="language-plaintext highlighter-rouge">#developer-tools</code>, <code class="language-plaintext highlighter-rouge">#open-source</code>, <code class="language-plaintext highlighter-rouge">#workflow-automation</code></p>
-
-<hr />
-
-<p><a id="item-social-hot-7"></a></p>
-<h3 id="open-source-launcher-modernizes-colin-mcrae-rally-1-to-4k60fps-️-7010"><a href="https://x.com/AkitaOnRails/status/2115996313456366071">Open-source launcher modernizes Colin McRae Rally 1 to 4K/60fps</a> ⭐️ 7.0/10</h3>
-
-<p>Developer Fabio Makita (@AkitaOnRails) released an open-source launcher that patches the 1998 Windows XP version of Colin McRae Rally to run at 4K resolution, 60 fps, and widescreen — far beyond its original 800×600, 30 fps limit. The launcher requires no game patches, compatibility settings, or registry edits; it simply wraps the installed game. A blog write-up and the GitHub source (akitaonrails/rea-colin-mcrae) are provided for anyone wanting to run or study the binary-patching approach.</p>
-
-<p>twitter · Fabio Makita · Oct 30, 02:36</p>
-
-<p><strong>「Why it matters」</strong> Fabio Makita shares a custom open-source launcher that patches the 2000s Windows XP version of Colin McRae Rally 1 to run at 4K resolution, 60 fps, and widescreen — lifting the original 800×600, 30 fps limit. The project includes a detailed blog write-up and full GitHub source, giving developers a reproducible case study in legacy game preservation, binary patching, and Windows compatibility layers.</p>
-
-<details><summary>References</summary>
-<ul>
-<li><a href="https://github.com/akitaonrails/rea-colin-mcrae">GitHub - akitaonrails /rea- colin - mcrae : Launcher for the original PC...</a></li>
-
-</ul>
-</details>
-
-<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#game-dev</code>, <code class="language-plaintext highlighter-rouge">#reverse-engineering</code>, <code class="language-plaintext highlighter-rouge">#legacy-software</code>, <code class="language-plaintext highlighter-rouge">#windows</code>, <code class="language-plaintext highlighter-rouge">#github-project</code></p>
-
-<hr />
-
-<p><a id="item-social-hot-8"></a></p>
-<h3 id="ffmpeg-skill-42-video-editing-tools-for-claude-code-️-7010"><a href="https://x.com/WEBMARKS2/status/2115994601853198680">ffmpeg-skill: 42 Video Editing Tools for Claude Code</a> ⭐️ 7.0/10</h3>
-
-<p>Developer kajisho5 has released ffmpeg-skill, a free MIT-licensed toolkit that adds 42 video-editing functions to Claude Code, Codex, and Cursor. The tools run locally with only ffmpeg as a prerequisite, enabling tasks like silence removal, subtitle generation, aspect-ratio conversion, audio normalization, and platform-specific exports without any cloud service or API key.</p>
-
-<p>twitter · WEBMARKS｜AIエージェント × Webマーケティング · Oct 30, 02:30</p>
-
-<p><strong>「Why It&#x27;s Hot」</strong> The announcement spread rapidly in Japan — a related post by ClaudeCodeStudio surpassed 30,000 views and pushed Claude Code and Codex into X&#x27;s trending topics — while the GitHub repository has gathered roughly 3,900 stars. Developers can immediately try a full local video-editing pipeline inside their preferred AI coding assistant, which is especially valuable for sensitive footage that must stay on-device.</p>
-
-<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#video-editing</code>, <code class="language-plaintext highlighter-rouge">#ai-tools</code>, <code class="language-plaintext highlighter-rouge">#claude-code</code>, <code class="language-plaintext highlighter-rouge">#ffmpeg</code>, <code class="language-plaintext highlighter-rouge">#developer-tools</code></p>
-
-<hr />
-
-<p><a id="item-social-hot-9"></a></p>
-<h3 id="jay-shares-free-tier-management-tip-for-opencodeclawpanel-️-7010"><a href="https://x.com/JayQinQT/status/2115993114305274208">Jay shares free-tier management tip for opencode/ClawPanel</a> ⭐️ 7.0/10</h3>
-
-<p>Developer Jay replies to a question about opencode free-tier limits, explaining that Settings → Usage shows which free meter was exceeded and when it resets. He suggests connecting a personal API key or switching to a paid model for more stable runs, and references the multi-engine ClawPanel project on GitHub (qingchencloud/clawpanel).</p>
-
-<p>twitter · Jay · Oct 30, 02:24</p>
-
-<p><strong>「Why it matters」</strong> The post gives a concrete, immediately actionable workflow for developers hitting free-tier walls in opencode/ClawPanel: check the usage dashboard, add your own key, or upgrade to a paid model. Engagement metrics (likes, reposts, views) are not provided in the source, so heat cannot be quantified.</p>
-
-<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#opencode</code>, <code class="language-plaintext highlighter-rouge">#ClawPanel</code>, <code class="language-plaintext highlighter-rouge">#AI coding tools</code>, <code class="language-plaintext highlighter-rouge">#API key management</code>, <code class="language-plaintext highlighter-rouge">#developer productivity</code></p>
-
-<hr />
-
-<p><a id="item-social-hot-10"></a></p>
-<h3 id="full-stack-login-system-with-fastapi-react-mysql--jwt-dual-tokens-️-6010"><a href="https://x.com/buoyhuang/status/2115993480535355494">Full-Stack Login System with FastAPI, React, MySQL &amp; JWT Dual Tokens</a> ⭐️ 6.0/10</h3>
-
-<p>The author shares a working full-stack authentication system built with FastAPI, React, and MySQL using JWT dual tokens (30-minute access, 7-day refresh). The thread covers key decisions like bcrypt password hashing, axios interceptors for silent token refresh, and Docker Compose orchestration, plus real pitfalls such as Python/pip version mismatches and OAuth route import errors. No source code is published; the post is a textual walkthrough of the implementation and lessons learned.</p>
-
-<p>twitter · buoyhuang · Oct 30, 02:25</p>
-
-<p><strong>「Why It&#x27;s Notable」</strong> The thread provides concrete, battle-tested patterns — JWT dual-token strategy, automatic refresh via axios, bcrypt salting, and a one-command Docker stack — that developers can adapt directly. Public engagement metrics (likes, retweets, views) are not disclosed in the source, so heat evidence is unavailable.</p>
-
-<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#FastAPI</code>, <code class="language-plaintext highlighter-rouge">#React</code>, <code class="language-plaintext highlighter-rouge">#JWT</code>, <code class="language-plaintext highlighter-rouge">#全栈开发</code>, <code class="language-plaintext highlighter-rouge">#实战经验</code></p>
-
-<hr />
-
-<p><a id="item-social-hot-11"></a></p>
-<h3 id="harrison-chase-announces-mda-010-with-async-subagents-and-browser-use-️-6010"><a href="https://x.com/hwchase17/status/2115854759991369840">Harrison Chase announces MDA 0.10 with async subagents and browser use</a> ⭐️ 6.0/10</h3>
-
-<p>LangChain co-founder Harrison Chase announces the MDA 0.10 release, highlighting that many harness engineering challenges are now best addressed through tighter integration between harness and infrastructure. He cites async subagents and browser use as two concrete examples of this integration approach now available in the new version.</p>
-
-<p>twitter · Harrison Chase · Oct 29, 17:14</p>
-
-<p><strong>「Why it matters」</strong> This is a first-hand release announcement from a recognized practitioner in the LLM application framework space, giving developers using the MDA stack actionable version information and feature highlights. Engagement metrics for the post were not provided.</p>
-
-<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#harness-engineering</code>, <code class="language-plaintext highlighter-rouge">#async-subagents</code>, <code class="language-plaintext highlighter-rouge">#browser-use</code>, <code class="language-plaintext highlighter-rouge">#MDA</code>, <code class="language-plaintext highlighter-rouge">#langchain</code></p>
 
 <hr />
  ]]></content>
