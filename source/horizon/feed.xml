@@ -1,4 +1,410 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="https://www.01040610.xyz/horizon/feed.xml" rel="self" type="application/atom+xml" /><link href="https://www.01040610.xyz/horizon/" rel="alternate" type="text/html" /><updated>2026-11-06T03:34:46+00:00</updated><id>https://www.01040610.xyz/horizon/feed.xml</id><title type="html">Horizon 每日速递</title><subtitle>由 AI 自动筛选的 GitHub 热点项目、AI 新闻与 X / YouTube 热门内容</subtitle><entry xml:lang="en"><title type="html">Horizon Summary: 2026-11-06 (EN)</title><link href="https://www.01040610.xyz/horizon/2026/11/06/summary-en.html" rel="alternate" type="text/html" title="Horizon Summary: 2026-11-06 (EN)" /><published>2026-11-06T00:00:00+00:00</published><updated>2026-11-06T00:00:00+00:00</updated><id>https://www.01040610.xyz/horizon/2026/11/06/summary-en</id><content type="html" xml:base="https://www.01040610.xyz/horizon/2026/11/06/summary-en.html"><![CDATA[<blockquote>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="https://www.01040610.xyz/horizon/feed.xml" rel="self" type="application/atom+xml" /><link href="https://www.01040610.xyz/horizon/" rel="alternate" type="text/html" /><updated>2026-11-07T02:53:11+00:00</updated><id>https://www.01040610.xyz/horizon/feed.xml</id><title type="html">Horizon 每日速递</title><subtitle>由 AI 自动筛选的 GitHub 热点项目、AI 新闻与 X / YouTube 热门内容</subtitle><entry xml:lang="en"><title type="html">Horizon Summary: 2026-11-07 (EN)</title><link href="https://www.01040610.xyz/horizon/2026/11/07/summary-en.html" rel="alternate" type="text/html" title="Horizon Summary: 2026-11-07 (EN)" /><published>2026-11-07T00:00:00+00:00</published><updated>2026-11-07T00:00:00+00:00</updated><id>https://www.01040610.xyz/horizon/2026/11/07/summary-en</id><content type="html" xml:base="https://www.01040610.xyz/horizon/2026/11/07/summary-en.html"><![CDATA[<blockquote>
+  <p>Showing 12 of 117 fetched items.</p>
+</blockquote>
+
+<hr />
+
+<p><strong>AI Dev Tools</strong></p>
+<ol>
+  <li><a href="#item-gh-trending-1">astral-sh/ruff: Fast Python linter and formatter in Rust</a> ⭐️ 10.0/10</li>
+  <li><a href="#item-gh-trending-2">microsoft/vscode: Mature extensible code editor for AI-assisted development</a> ⭐️ 9.0/10</li>
+  <li><a href="#item-gh-trending-3">xerj-org/xerj: Single-binary AI search engine and MCP server for agent memory and code retrieval</a> ⭐️ 9.0/10</li>
+  <li><a href="#item-gh-trending-4">cloudflare/security-audit-skill: Multi-phase security audit skill for coding agents</a> ⭐️ 7.0/10</li>
+  <li><a href="#item-gh-trending-5">zed-industries/zed: High-performance multiplayer code editor in Rust</a> ⭐️ 7.0/10</li>
+  <li><a href="#item-gh-trending-6">0xJacky/nginx-ui: Self-hosted Nginx WebUI with MCP server support</a> ⭐️ 5.0/10</li>
+</ol>
+
+<p><strong>AI News</strong></p>
+<ol>
+  <li><a href="#item-ai-news-1">Jimeng Short Drama Studio (Seedance 2.5) offers 0.15 yuan/sec video generation</a> ⭐️ 8.0/10</li>
+  <li><a href="#item-ai-news-2">Qwen 27B/Flash-Next run on 12GB VRAM via Unsloth Iq2_XS on Strata</a> ⭐️ 7.0/10</li>
+  <li><a href="#item-ai-news-3">Libghostty 1.0 released: terminal emulator library for embedding</a> ⭐️ 6.0/10</li>
+  <li><a href="#item-ai-news-4">AllenAI releases ToyBlocks simulation for robot learning</a> ⭐️ 6.0/10</li>
+</ol>
+
+<p><strong>X / YouTube Highlights</strong></p>
+<ol>
+  <li><a href="#item-social-hot-1">7 Open-Source Privacy Tools Lab-Tested on GitHub</a> ⭐️ 7.0/10</li>
+  <li><a href="#item-social-hot-2">Claude Code Free with 7B Monthly Tokens</a> ⭐️ 7.0/10</li>
+</ol>
+
+<hr />
+
+<h2 id="ai-dev-tools">AI Dev Tools</h2>
+
+<p><a id="item-gh-trending-1"></a></p>
+<h3 id="astral-shruff-fast-python-linter-and-formatter-in-rust-️-10010"><a href="https://github.com/astral-sh/ruff">astral-sh/ruff: Fast Python linter and formatter in Rust</a> ⭐️ 10.0/10</h3>
+
+<p>Ruff is a production-ready Python linter and code formatter written in Rust that consolidates the functionality of tools like flake8, black, and isort into a single, extremely fast binary. It solves the problem of slow, fragmented code-quality checks by delivering near-instant feedback during local development and CI/CD pipelines. The project is mature, actively maintained by Astral, and widely adopted in real-world Python projects.</p>
+
+<p>github · astral-sh · Nov 7, 02:46</p>
+
+<p><strong>「Why Recommended」</strong> Ruff replaces multiple linting and formatting steps in the coding and review workflow, cutting CI and local iteration time dramatically; its 50k+ stars and active maintenance signal strong community trust. It suits any Python team or solo developer who wants a drop-in, zero-config upgrade over flake8, black, isort, and related tooling.</p>
+
+<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#Python</code>, <code class="language-plaintext highlighter-rouge">#Linter</code>, <code class="language-plaintext highlighter-rouge">#Formatter</code>, <code class="language-plaintext highlighter-rouge">#Rust</code>, <code class="language-plaintext highlighter-rouge">#Dev-Tools</code></p>
+
+<hr />
+
+<p><a id="item-gh-trending-2"></a></p>
+<h3 id="microsoftvscode-mature-extensible-code-editor-for-ai-assisted-development-️-9010"><a href="https://github.com/microsoft/vscode">microsoft/vscode: Mature extensible code editor for AI-assisted development</a> ⭐️ 9.0/10</h3>
+
+<p>Visual Studio Code is a mature, extensible code editor built with TypeScript that serves as the primary platform for AI-assisted development. It provides built-in IntelliSense, debugging, and seamless AI integration such as GitHub Copilot to reduce coding, review, and maintenance time. The project is production-ready with massive adoption and active maintenance.</p>
+
+<p>github · microsoft · Nov 7, 02:46</p>
+
+<p><strong>「Why Recommended」</strong> It transforms the daily coding workflow by providing a mature editor platform with native AI integration, replacing standalone editors and enhancing the writing, reviewing, and debugging steps for developers who want an extensible, AI-ready environment. Its 195k stars reflect sustained community adoption.</p>
+
+<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#code-editor</code>, <code class="language-plaintext highlighter-rouge">#IDE</code>, <code class="language-plaintext highlighter-rouge">#AI-assisted-development</code>, <code class="language-plaintext highlighter-rouge">#TypeScript</code>, <code class="language-plaintext highlighter-rouge">#Microsoft</code></p>
+
+<hr />
+
+<p><a id="item-gh-trending-3"></a></p>
+<h3 id="xerj-orgxerj-single-binary-ai-search-engine-and-mcp-server-for-agent-memory-and-code-retrieval-️-9010"><a href="https://github.com/xerj-org/xerj">xerj-org/xerj: Single-binary AI search engine and MCP server for agent memory and code retrieval</a> ⭐️ 9.0/10</h3>
+
+<p>xerj is a single Rust binary that indexes code, documents, logs, and structured data to provide BM25, vector, and hybrid search, agent memory, and RAG capabilities via an Elasticsearch-compatible API and built-in Corpus Hub. It targets the context-supply and code-retrieval steps in AI-assisted development, replacing grep and manual context gathering for tools like Claude Code and Cursor. With 18k+ stars and recent active development, the project appears production-ready for daily AI coding workflows.</p>
+
+<p>github · xerj-org · Nov 7, 02:46</p>
+
+<p><strong>「Why Recommended」</strong> It directly enhances the context-supply stage by giving AI agents fast, persistent memory and code search without managing separate infrastructure, making it ideal for developers using Claude Code, Cursor, or similar assistants who need reliable retrieval at scale. The high star count and ongoing commits signal strong community adoption and maintenance.</p>
+
+<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#code-search</code>, <code class="language-plaintext highlighter-rouge">#agent-memory</code>, <code class="language-plaintext highlighter-rouge">#mcp-server</code>, <code class="language-plaintext highlighter-rouge">#rag</code>, <code class="language-plaintext highlighter-rouge">#rust-cli</code></p>
+
+<hr />
+
+<p><a id="item-gh-trending-4"></a></p>
+<h3 id="cloudflaresecurity-audit-skill-multi-phase-security-audit-skill-for-coding-agents-️-7010"><a href="https://github.com/cloudflare/security-audit-skill">cloudflare/security-audit-skill: Multi-phase security audit skill for coding agents</a> ⭐️ 7.0/10</h3>
+
+<p>This repository provides a coding-agent skill that runs multi-phase security audits and produces independently verified, machine-readable findings. It is implemented in JavaScript and targets the code review and testing phase of development. The project appears to be in an early stage, with limited public documentation on installation or real-world usage.</p>
+
+<p>github · cloudflare · Nov 7, 02:46</p>
+
+<p><strong>「Why Recommended」</strong> It automates security auditing within a coding-agent workflow, replacing manual review steps with structured, verifiable output that can feed directly into CI/CD pipelines. The 64k-star count signals strong community interest, making it worth evaluating for teams that want programmable security checks during code generation or review.</p>
+
+<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#security-audit</code>, <code class="language-plaintext highlighter-rouge">#coding-agent</code>, <code class="language-plaintext highlighter-rouge">#code-quality</code>, <code class="language-plaintext highlighter-rouge">#devsecops</code>, <code class="language-plaintext highlighter-rouge">#automation</code></p>
+
+<hr />
+
+<p><a id="item-gh-trending-5"></a></p>
+<h3 id="zed-industrieszed-high-performance-multiplayer-code-editor-in-rust-️-7010"><a href="https://github.com/zed-industries/zed">zed-industries/zed: High-performance multiplayer code editor in Rust</a> ⭐️ 7.0/10</h3>
+
+<p>Zed is a high-performance, multiplayer code editor built in Rust by the creators of Atom and Tree-sitter. It targets the code-writing phase by delivering a fast, collaborative editing environment with real-time multiplayer support. With over 93k stars and daily activity, the project is actively maintained and considered production-ready for developers seeking a modern, performant editor.</p>
+
+<p>github · zed-industries · Nov 7, 02:46</p>
+
+<p><strong>「Why Recommended」</strong> Zed enhances the writing-code step by replacing traditional editors with a Rust-based, low-latency alternative that adds built-in real-time collaboration. Its 93k stars and 306 stars gained today signal strong community adoption and ongoing development, making it a solid choice for teams or individuals who prioritize speed and pair-programming workflows.</p>
+
+<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#code-editor</code>, <code class="language-plaintext highlighter-rouge">#rust</code>, <code class="language-plaintext highlighter-rouge">#multiplayer</code>, <code class="language-plaintext highlighter-rouge">#development-environment</code>, <code class="language-plaintext highlighter-rouge">#performance</code></p>
+
+<hr />
+
+<p><a id="item-gh-trending-6"></a></p>
+<h3 id="0xjackynginx-ui-self-hosted-nginx-webui-with-mcp-server-support-️-5010"><a href="https://github.com/0xJacky/nginx-ui">0xJacky/nginx-ui: Self-hosted Nginx WebUI with MCP server support</a> ⭐️ 5.0/10</h3>
+
+<p>0xJacky/nginx-ui is a self-hosted WebUI for managing Nginx configurations, written in Go and packaged for Docker. It adds an MCP server topic, suggesting possible Model Context Protocol integration for AI agents, though the description does not confirm AI-driven features for coding, review, or testing. With over 11k stars and active maintenance since 2021, it appears production-ready for infrastructure operators who want a browser-based Nginx control plane.</p>
+
+<p>github · 0xJacky · Nov 7, 02:46</p>
+
+<p><strong>「Why Recommended」</strong> It fits the delivery and operations phase by replacing manual Nginx config edits and SSH workflows with a visual dashboard, and the MCP server tag hints at future AI-agent-driven config changes. DevOps engineers and platform teams who self-host Nginx and want a maintained, Go-based UI with Let&#x27;s Encrypt and cron support will benefit most.</p>
+
+<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#nginx</code>, <code class="language-plaintext highlighter-rouge">#webui</code>, <code class="language-plaintext highlighter-rouge">#devops</code>, <code class="language-plaintext highlighter-rouge">#mcp-server</code>, <code class="language-plaintext highlighter-rouge">#self-hosted</code></p>
+
+<hr />
+
+<h2 id="ai-news">AI News</h2>
+
+<p><a id="item-ai-news-1"></a></p>
+<h3 id="jimeng-short-drama-studio-seedance-25-offers-015-yuansec-video-generation-️-8010"><a href="https://www.qbitai.com/2026/11/507972.html">Jimeng Short Drama Studio (Seedance 2.5) offers 0.15 yuan/sec video generation</a> ⭐️ 8.0/10</h3>
+
+<p>The article reports that Jimeng Short Drama Studio (Seedance 2.5) provides an end-to-end AI short drama production pipeline covering script, storyboard, and previsualization at a claimed price of 0.15 yuan per second. The tool is positioned as a one-stop solution with a long-term partner program for creators. The pricing and feature claims come from the vendor&#x27;s announcement; independent verification of generation quality, controllability, export formats, and API availability is not yet available.</p>
+
+<p>rss · 量子位 · Nov 6, 03:20</p>
+
+<p><strong>「Why It Matters」</strong> Short drama creators evaluating AI video tools can test Jimeng Studio&#x27;s pricing and workflow against existing solutions; the first step is to request access or trial via the partner program to assess output quality and integration fit.</p>
+
+<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#AI视频生成</code>, <code class="language-plaintext highlighter-rouge">#短剧制作</code>, <code class="language-plaintext highlighter-rouge">#Seedance</code>, <code class="language-plaintext highlighter-rouge">#即梦AI</code>, <code class="language-plaintext highlighter-rouge">#实测评测</code></p>
+
+<hr />
+
+<p><a id="item-ai-news-2"></a></p>
+<h3 id="qwen-27bflash-next-run-on-12gb-vram-via-unsloth-iq2_xs-on-strata-️-7010"><a href="https://www.reddit.com/r/LocalLLaMA/comments/1xppbht/we_are_in_the_golden_age_of_local_llm/">Qwen 27B/Flash-Next run on 12GB VRAM via Unsloth Iq2_XS on Strata</a> ⭐️ 7.0/10</h3>
+
+<p>A Reddit practitioner reports testing Unsloth Dynamic v3.1 Iq2_XS quantizations for Qwen 27B and Flash-Next on the Strata engine, achieving 1k prefill, ~50 tokens/sec decode, and 131k context on 12GB VRAM/32GB system RAM. Strata&#x27;s auto-tuner targets 8GB VRAM/32GB RAM with smaller quants. The post mentions an unverified rumor that Qwen 4 releases this week and claims local LLMs are ~24 months behind frontier models. This is a single anecdotal report, not official documentation, and the post appears truncated.</p>
+
+<p>reddit · r/LocalLLaMA · /u/Present_Resource4022 · Nov 6, 21:54</p>
+
+<p><strong>「Why it matters」</strong> Developers wanting near-frontier reasoning on consumer GPUs can try the Unsloth Iq2_XS quants with Strata today; first step is pulling the quantized Qwen 27B/Flash-Next models and Strata engine to test on 12GB+ VRAM hardware.</p>
+
+<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#local-llm</code>, <code class="language-plaintext highlighter-rouge">#quantization</code>, <code class="language-plaintext highlighter-rouge">#qwen</code>, <code class="language-plaintext highlighter-rouge">#unsloth</code>, <code class="language-plaintext highlighter-rouge">#strata-engine</code></p>
+
+<hr />
+
+<p><a id="item-ai-news-3"></a></p>
+<h3 id="libghostty-10-released-terminal-emulator-library-for-embedding-️-6010"><a href="https://mitchellh.com/writing/libghostty-1-0">Libghostty 1.0 released: terminal emulator library for embedding</a> ⭐️ 6.0/10</h3>
+
+<p>Libghostty 1.0, a library version of the Ghostty terminal emulator, has been announced on mitchellh.com. Hacker News comments confirm developers are already using it for Android apps, custom terminal projects, and Emacs integration (Ghostel). The announcement post itself does not include installation instructions, API details, language bindings, licensing, or comparisons to alternatives. The library is written in Rust, but no pricing or licensing information is available from the provided material.</p>
+
+<p>hackernews · mfiguiere · Nov 6, 23:30 · <a href="https://news.ycombinator.com/item?id=50399933">Discussion</a></p>
+
+<p><strong>「Why it matters」</strong> Developers building terminal-based applications or embedding terminal emulation can evaluate Libghostty for cross-platform use; the first step is to read the full announcement at mitchellh.com for API documentation and integration guides.</p>
+
+<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#terminal</code>, <code class="language-plaintext highlighter-rouge">#library</code>, <code class="language-plaintext highlighter-rouge">#ghostty</code>, <code class="language-plaintext highlighter-rouge">#rust</code>, <code class="language-plaintext highlighter-rouge">#developer-tools</code></p>
+
+<hr />
+
+<p><a id="item-ai-news-4"></a></p>
+<h3 id="allenai-releases-toyblocks-simulation-for-robot-learning-️-6010"><a href="https://huggingface.co/blog/allenai/toyblocks">AllenAI releases ToyBlocks simulation for robot learning</a> ⭐️ 6.0/10</h3>
+
+<p>AllenAI announced ToyBlocks, a controlled simulation environment for robot learning and evaluation, via a Hugging Face blog post. The environment is designed as a research benchmark, though the announcement does not confirm whether the code, datasets, or installation instructions are immediately available for practitioners. The post likely accompanies a paper release, but actionable details such as usage examples or readiness for adoption remain unverified from the metadata alone.</p>
+
+<p>rss · Hugging Face Blog · Nov 6, 14:00</p>
+
+<p><strong>「Why it matters」</strong> Robotics researchers and ML engineers working on sim-to-real transfer or benchmarking can monitor the ToyBlocks repository for code releases and documentation to evaluate its suitability for controlled experiments. The first step is to check the Hugging Face blog post and associated GitHub or Hugging Face Hub pages for installation guides and example scripts once they are published.</p>
+
+<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#robot-learning</code>, <code class="language-plaintext highlighter-rouge">#simulation-environment</code>, <code class="language-plaintext highlighter-rouge">#benchmark</code>, <code class="language-plaintext highlighter-rouge">#allenai</code>, <code class="language-plaintext highlighter-rouge">#huggingface</code></p>
+
+<hr />
+
+<h2 id="x--youtube-highlights">X / YouTube Highlights</h2>
+
+<p><a id="item-social-hot-1"></a></p>
+<h3 id="7-open-source-privacy-tools-lab-tested-on-github-️-7010"><a href="https://www.youtube.com/watch?v=4yaj8LpEQoU">7 Open-Source Privacy Tools Lab-Tested on GitHub</a> ⭐️ 7.0/10</h3>
+
+<p>Electronic Tech Show tests seven open-source privacy tools hosted on GitHub — Signal, GrapheneOS, Tor Browser, VeraCrypt, OnionShare, and Mullvad — in a lab setting. The 11-minute video demonstrates practical usage and insights for developers interested in privacy and security tooling. (Inferred from title and description.)</p>
+
+<p>youtube · GitHub · Nov 7, 02:46</p>
+
+<p><strong>「Why It&#x27;s Hot」</strong> The video has 156k views and delivers a hands-on lab evaluation of seven widely used privacy tools — Signal, GrapheneOS, Tor Browser, VeraCrypt, OnionShare, and Mullvad — giving developers practical insights into setup, strengths, and limitations.</p>
+
+<details><summary>References</summary>
+<ul>
+<li><a href="https://www.youtube.com/watch?v=p7y14X-zeXo">10 Websites the FBI Wishes It Could Ban ( 2026 ) - YouTube</a></li>
+
+</ul>
+</details>
+
+<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#privacy-tools</code>, <code class="language-plaintext highlighter-rouge">#open-source</code>, <code class="language-plaintext highlighter-rouge">#github</code>, <code class="language-plaintext highlighter-rouge">#security</code>, <code class="language-plaintext highlighter-rouge">#testing</code></p>
+
+<hr />
+
+<p><a id="item-social-hot-2"></a></p>
+<h3 id="claude-code-free-with-7b-monthly-tokens-️-7010"><a href="https://www.youtube.com/watch?v=exkQTYOm47c">Claude Code Free with 7B Monthly Tokens</a> ⭐️ 7.0/10</h3>
+
+<p>This 15-minute tutorial from Eric Tech demonstrates how to run Anthropic&#x27;s Claude Code CLI coding agent for free with a claimed 7 billion token monthly allowance. The video also covers integrating TestSprite, an open-source verification tool, to validate agent-generated code through automated QA loops. Based on the title and description, viewers can expect step-by-step setup instructions, configuration details for the free tier, and a demonstration of the agent–verifier workflow.</p>
+
+<p>youtube · GitHub · Nov 7, 02:46</p>
+
+<p><strong>「Why It&#x27;s Hot」</strong> This 15-minute tutorial from Eric Tech has drawn 231,617 views by showing a practical way to run Anthropic&#x27;s Claude Code CLI agent for free with a 7-billion-token monthly allowance, plus how to integrate TestSprite for verifying agent loops. Viewers get reproducible setup steps, live tool demonstrations, and real usage examples they can apply immediately to their own AI-assisted coding workflows.</p>
+
+<details><summary>References</summary>
+<ul>
+<li><a href="https://www.youtube.com/watch?v=exkQTYOm47c">Claude Code for Free With 7 Billion Tokens a Month - YouTube</a></li>
+
+</ul>
+</details>
+
+<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#Claude Code</code>, <code class="language-plaintext highlighter-rouge">#AI coding assistant</code>, <code class="language-plaintext highlighter-rouge">#free developer tools</code>, <code class="language-plaintext highlighter-rouge">#agent loop</code>, <code class="language-plaintext highlighter-rouge">#TestSprite</code></p>
+
+<hr />]]></content><author><name></name></author><summary type="html"><![CDATA[Showing 12 of 117 fetched items.]]></summary></entry><entry xml:lang="zh"><title type="html">Horizon Summary: 2026-11-07 (ZH)</title><link href="https://www.01040610.xyz/horizon/2026/11/07/summary-zh.html" rel="alternate" type="text/html" title="Horizon Summary: 2026-11-07 (ZH)" /><published>2026-11-07T00:00:00+00:00</published><updated>2026-11-07T00:00:00+00:00</updated><id>https://www.01040610.xyz/horizon/2026/11/07/summary-zh</id><content type="html" xml:base="https://www.01040610.xyz/horizon/2026/11/07/summary-zh.html"><![CDATA[<blockquote>
+  <p>今日抓取 117 条内容，收录 12 条。</p>
+</blockquote>
+
+<hr />
+
+<p><strong>GitHub AI 开发工具</strong></p>
+<ol>
+  <li><a href="#item-gh-trending-1">astral-sh/ruff：用 Rust 写的极速 Python Linter 与格式化工具</a> ⭐️ 10.0/10</li>
+  <li><a href="#item-gh-trending-2">microsoft/vscode：成熟可扩展的代码编辑器，AI 辅助开发首选平台</a> ⭐️ 9.0/10</li>
+  <li><a href="#item-gh-trending-3">xerj-org/xerj：面向 AI 代理的单二进制搜索与记忆引擎</a> ⭐️ 9.0/10</li>
+  <li><a href="#item-gh-trending-4">cloudflare/security-audit-skill：面向编码代理的多阶段安全审计技能</a> ⭐️ 7.0/10</li>
+  <li><a href="#item-gh-trending-5">zed-industries/zed：高性能多人协作代码编辑器，Rust 编写</a> ⭐️ 7.0/10</li>
+  <li><a href="#item-gh-trending-6">0xJacky/nginx-ui：自托管 Nginx WebUI，含 MCP 支持</a> ⭐️ 5.0/10</li>
+</ol>
+
+<p><strong>AI 热门新闻</strong></p>
+<ol>
+  <li><a href="#item-ai-news-1">即梦短剧工作室 Seedance 2.5 实测：0.15 元/秒覆盖全流程</a> ⭐️ 8.0/10</li>
+  <li><a href="#item-ai-news-2">Qwen 27B/Flash-Next 本地部署新进展：Unsloth v3.1 量化配合 Strata 引擎降低硬件门槛</a> ⭐️ 7.0/10</li>
+  <li><a href="#item-ai-news-3">Libghostty 1.0 发布：Ghostty 终端库正式版</a> ⭐️ 6.0/10</li>
+  <li><a href="#item-ai-news-4">AllenAI 发布 ToyBlocks 机器人仿真环境</a> ⭐️ 6.0/10</li>
+</ol>
+
+<p><strong>X / YouTube 热门</strong></p>
+<ol>
+  <li><a href="#item-social-hot-1">7 个 GitHub 隐私工具实测：Signal、GrapheneOS、Tor 等</a> ⭐️ 7.0/10</li>
+  <li><a href="#item-social-hot-2">Claude Code 免费用法：月享 70 亿 Token 并接入 TestSprite 验证</a> ⭐️ 7.0/10</li>
+</ol>
+
+<hr />
+
+<h2 id="github-ai-开发工具">GitHub AI 开发工具</h2>
+
+<p><a id="item-gh-trending-1"></a></p>
+<h3 id="astral-shruff用-rust-写的极速-python-linter-与格式化工具-️-10010"><a href="https://github.com/astral-sh/ruff">astral-sh/ruff：用 Rust 写的极速 Python Linter 与格式化工具</a> ⭐️ 10.0/10</h3>
+
+<p>Ruff 是一个用 Rust 编写的 Python 代码检查与格式化工具，集成了 flake8、black、isort 等多个工具的功能，能在毫秒级完成大型代码库的静态分析与格式化。它解决了 Python 生态中多工具链配置繁琐、运行缓慢的问题，显著缩短本地开发与 CI/CD 的反馈时间。项目已拥有 5 万星、由 Astral 团队持续维护，处于生产就绪阶段。</p>
+
+<p>github · astral-sh · 11月7日 02:46</p>
+
+<p><strong>「推荐理由」</strong> Ruff 覆盖写码与审查环节，替代传统多工具组合，提供近乎即时的代码质量反馈，适合追求高效 CI 与本地开发体验的 Python 团队与个人开发者。</p>
+
+<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#Python</code>, <code class="language-plaintext highlighter-rouge">#Linter</code>, <code class="language-plaintext highlighter-rouge">#Formatter</code>, <code class="language-plaintext highlighter-rouge">#Rust</code>, <code class="language-plaintext highlighter-rouge">#Dev-Tools</code></p>
+
+<hr />
+
+<p><a id="item-gh-trending-2"></a></p>
+<h3 id="microsoftvscode成熟可扩展的代码编辑器ai-辅助开发首选平台-️-9010"><a href="https://github.com/microsoft/vscode">microsoft/vscode：成熟可扩展的代码编辑器，AI 辅助开发首选平台</a> ⭐️ 9.0/10</h3>
+
+<p>Visual Studio Code 是一款成熟、可扩展的代码编辑器，内置 IntelliSense、调试与 Git 集成，并作为 GitHub Copilot 等 AI 助手的主要运行平台。它用 TypeScript 编写，解决现代代码编写、审查与维护的效率问题，已达到生产就绪成熟度，拥有 19.5 万星的广泛采用与活跃维护。</p>
+
+<p>github · microsoft · 11月7日 02:46</p>
+
+<p><strong>「推荐理由」</strong> 它落在「写码、审查、调试」全流程，替代传统重型 IDE 与零散插件组合，提供统一的 AI 集成入口；适合需要轻量、可定制且原生支持 AI 辅助开发的个人与团队。</p>
+
+<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#code-editor</code>, <code class="language-plaintext highlighter-rouge">#IDE</code>, <code class="language-plaintext highlighter-rouge">#AI-assisted-development</code>, <code class="language-plaintext highlighter-rouge">#TypeScript</code>, <code class="language-plaintext highlighter-rouge">#Microsoft</code></p>
+
+<hr />
+
+<p><a id="item-gh-trending-3"></a></p>
+<h3 id="xerj-orgxerj面向-ai-代理的单二进制搜索与记忆引擎-️-9010"><a href="https://github.com/xerj-org/xerj">xerj-org/xerj：面向 AI 代理的单二进制搜索与记忆引擎</a> ⭐️ 9.0/10</h3>
+
+<p>xerj 是一个用 Rust 编写的单二进制 AI 搜索引擎和 MCP 服务器，支持 BM25 全文、向量及混合检索，能为代码、文档、日志等建立索引并提供 Agent 记忆与 RAG 能力。它兼容 Elasticsearch API 并内置 Corpus Hub，可直接接入 Claude Code、Cursor 等 AI 编码助手，解决开发流程中上下文供给与代码检索的问题。项目已有 1.8 万星且近期持续更新，处于可直接投入生产工作流的成熟度。</p>
+
+<p>github · xerj-org · 11月7日 02:46</p>
+
+<p><strong>「推荐理由」</strong> 它落在「上下文供给」环节，替代 grep 等传统检索工具，为 AI 编码助手提供可靠的长期记忆与混合检索基础设施，适合需要提升 AI 编码上下文质量的开发者和团队。1.8 万星与持续提交证明其社区活跃且已可用。</p>
+
+<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#code-search</code>, <code class="language-plaintext highlighter-rouge">#agent-memory</code>, <code class="language-plaintext highlighter-rouge">#mcp-server</code>, <code class="language-plaintext highlighter-rouge">#rag</code>, <code class="language-plaintext highlighter-rouge">#rust-cli</code></p>
+
+<hr />
+
+<p><a id="item-gh-trending-4"></a></p>
+<h3 id="cloudflaresecurity-audit-skill面向编码代理的多阶段安全审计技能-️-7010"><a href="https://github.com/cloudflare/security-audit-skill">cloudflare/security-audit-skill：面向编码代理的多阶段安全审计技能</a> ⭐️ 7.0/10</h3>
+
+<p>该仓库提供一个编码代理技能，用于执行多阶段自动化安全审计并输出经独立验证的机器可读发现结果。它针对代码审查与测试环节的安全痛点，以 JavaScript 实现，目前处于实验性或早期可用阶段，文档与安装细节尚不完善。</p>
+
+<p>github · cloudflare · 11月7日 02:46</p>
+
+<p><strong>「推荐理由」</strong> 它将安全审计纳入 AI 编码代理的自动化流程，替代人工逐行排查的繁琐步骤，适合希望在开发早期引入可验证安全检查的团队；6.4 万星表明社区关注度高，但缺乏生产级使用证据。</p>
+
+<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#security-audit</code>, <code class="language-plaintext highlighter-rouge">#coding-agent</code>, <code class="language-plaintext highlighter-rouge">#code-quality</code>, <code class="language-plaintext highlighter-rouge">#devsecops</code>, <code class="language-plaintext highlighter-rouge">#automation</code></p>
+
+<hr />
+
+<p><a id="item-gh-trending-5"></a></p>
+<h3 id="zed-industrieszed高性能多人协作代码编辑器rust-编写-️-7010"><a href="https://github.com/zed-industries/zed">zed-industries/zed：高性能多人协作代码编辑器，Rust 编写</a> ⭐️ 7.0/10</h3>
+
+<p>Zed 是由 Atom 和 Tree-sitter 创作者打造的高性能、多人实时协作代码编辑器，采用 Rust 编写，旨在解决编辑器性能瓶颈与协作延迟问题，目前已积累 9.3 万星标，处于可用且活跃维护阶段。</p>
+
+<p>github · zed-industries · 11月7日 02:46</p>
+
+<p><strong>「推荐理由」</strong> 它直接落在「写代码」环节，以极速响应和原生多人编辑替代传统编辑器的卡顿与外挂式协作，适合追求流畅体验、需要实时结对或团队远程协作的开发者；9.3 万星标印证了社区对其性能与协作价值的认可。</p>
+
+<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#code-editor</code>, <code class="language-plaintext highlighter-rouge">#rust</code>, <code class="language-plaintext highlighter-rouge">#multiplayer</code>, <code class="language-plaintext highlighter-rouge">#development-environment</code>, <code class="language-plaintext highlighter-rouge">#performance</code></p>
+
+<hr />
+
+<p><a id="item-gh-trending-6"></a></p>
+<h3 id="0xjackynginx-ui自托管-nginx-webui含-mcp-支持-️-5010"><a href="https://github.com/0xJacky/nginx-ui">0xJacky/nginx-ui：自托管 Nginx WebUI，含 MCP 支持</a> ⭐️ 5.0/10</h3>
+
+<p>0xJacky/nginx-ui 是一个用 Go 编写的自托管 Nginx 管理界面，提供证书申请、配置编辑、定时任务等可视化操作，标记了 mcp-server 与 code-completion 主题，暗示可能对接 AI 代理上下文。项目已积累 1.1 万星并持续更新至 2026 年，处于可用、社区活跃的成熟期。</p>
+
+<p>github · 0xJacky · 11月7日 02:46</p>
+
+<p><strong>「推荐理由」</strong> 适合需要在本地或服务器快速管理 Nginx、并希望把配置上下文暴露给 AI 编码助手的开发/运维人员；它替代了手写 nginx.conf 与手动 Certbot 续期的繁琐步骤，把基础设施配置纳入 AI 增强的开发流程。</p>
+
+<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#nginx</code>, <code class="language-plaintext highlighter-rouge">#webui</code>, <code class="language-plaintext highlighter-rouge">#devops</code>, <code class="language-plaintext highlighter-rouge">#mcp-server</code>, <code class="language-plaintext highlighter-rouge">#self-hosted</code></p>
+
+<hr />
+
+<h2 id="ai-热门新闻">AI 热门新闻</h2>
+
+<p><a id="item-ai-news-1"></a></p>
+<h3 id="即梦短剧工作室-seedance-25-实测015-元秒覆盖全流程-️-8010"><a href="https://www.qbitai.com/2026/11/507972.html">即梦短剧工作室 Seedance 2.5 实测：0.15 元/秒覆盖全流程</a> ⭐️ 8.0/10</h3>
+
+<p>量子位对即梦短剧工作室（基于 Seedance 2.5）进行实测，该工具提供从剧本生成、分镜设计到预演视频的一条龙服务，单秒生成成本低至 0.15 元，并推出长期伙伴计划支持创作者。文章为第三方实测评测，非官方发布公告，实际生成质量、可控性及导出格式等细节需进一步验证。</p>
+
+<p>rss · 量子位 · 11月6日 03:20</p>
+
+<p><strong>「实用价值」</strong> 短剧创作者可直接评估接入成本与流程，首要步骤是申请试用或对比现有 AI 视频工具，确认生成质量是否满足商业化门槛。</p>
+
+<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#AI视频生成</code>, <code class="language-plaintext highlighter-rouge">#短剧制作</code>, <code class="language-plaintext highlighter-rouge">#Seedance</code>, <code class="language-plaintext highlighter-rouge">#即梦AI</code>, <code class="language-plaintext highlighter-rouge">#实测评测</code></p>
+
+<hr />
+
+<p><a id="item-ai-news-2"></a></p>
+<h3 id="qwen-27bflash-next-本地部署新进展unsloth-v31-量化配合-strata-引擎降低硬件门槛-️-7010"><a href="https://www.reddit.com/r/LocalLLaMA/comments/1xppbht/we_are_in_the_golden_age_of_local_llm/">Qwen 27B/Flash-Next 本地部署新进展：Unsloth v3.1 量化配合 Strata 引擎降低硬件门槛</a> ⭐️ 7.0/10</h3>
+
+<p>Reddit 用户 /u/Present_Resource4022 分享实测：使用 Unsloth Dynamic v3.1 量化（Iq2_XS）的 Qwen 27B 与 Flash-Next 模型，在 Strata 引擎自动调优下，可在 12GB VRAM + 32GB 系统内存上跑通 131k 上下文，prefill 约 1k token，decode 平均 50 token/s；最小量化版本甚至瞄准 8GB VRAM + 32GB RAM。帖子同时提到 Qwen 4 传闻将于本周发布，但属未经证实传言。内容为单一用户实测报告，非官方文档，且帖子被截断。</p>
+
+<p>reddit · r/LocalLLaMA · /u/Present_Resource4022 · 11月6日 21:54</p>
+
+<p><strong>「实用价值」</strong> 想在消费级显存（8-12GB VRAM）上跑 27B 级模型的开发者可直接尝试：下载 Unsloth 发布的 QFN 量化版 Qwen-27B/Flash-Next，配合 Strata 引擎的自动调优模式部署。第一步去 Hugging Face 搜索对应量化仓库，按 Strata 文档跑基准测试，确认是否满足自有业务的推理速度与上下文需求。</p>
+
+<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#local-llm</code>, <code class="language-plaintext highlighter-rouge">#quantization</code>, <code class="language-plaintext highlighter-rouge">#qwen</code>, <code class="language-plaintext highlighter-rouge">#unsloth</code>, <code class="language-plaintext highlighter-rouge">#strata-engine</code></p>
+
+<hr />
+
+<p><a id="item-ai-news-3"></a></p>
+<h3 id="libghostty-10-发布ghostty-终端库正式版-️-6010"><a href="https://mitchellh.com/writing/libghostty-1-0">Libghostty 1.0 发布：Ghostty 终端库正式版</a> ⭐️ 6.0/10</h3>
+
+<p>Libghostty 1.0 作为 Ghostty 终端模拟器的库版本正式发布，由 Mitchell Hashimoto 主导开发。Hacker News 讨论显示开发者已在 Android 应用、自定义终端及 Emacs 集成（Ghostel）中实际采用。但当前材料仅包含社区讨论，官方公告（mitchellh.com）中的安装说明、API 细节、语言绑定、许可证等关键技术信息未在本条目中提供。</p>
+
+<p>hackernews · mfiguiere · 11月6日 23:30 · <a href="https://news.ycombinator.com/item?id=50399933">社区讨论</a></p>
+
+<p><strong>「实用价值」</strong> 适合构建终端类应用、自定义终端或需嵌入终端模拟功能的开发者；首要步骤是阅读官方发布公告获取安装与 API 文档，再决定是否接入或对比现有方案。</p>
+
+<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#terminal</code>, <code class="language-plaintext highlighter-rouge">#library</code>, <code class="language-plaintext highlighter-rouge">#ghostty</code>, <code class="language-plaintext highlighter-rouge">#rust</code>, <code class="language-plaintext highlighter-rouge">#developer-tools</code></p>
+
+<hr />
+
+<p><a id="item-ai-news-4"></a></p>
+<h3 id="allenai-发布-toyblocks-机器人仿真环境-️-6010"><a href="https://huggingface.co/blog/allenai/toyblocks">AllenAI 发布 ToyBlocks 机器人仿真环境</a> ⭐️ 6.0/10</h3>
+
+<p>Hugging Face 博客发布 AllenAI 的 ToyBlocks，这是一个面向机器人学习与评估的受控仿真世界。博文宣布了该环境的推出，但未提供完整文章内容，无法确认是否已开源代码、数据集、安装文档或可直接使用的基准任务。</p>
+
+<p>rss · Hugging Face Blog · 11月6日 14:00</p>
+
+<p><strong>「意义」</strong> 关注机器人仿真基准的研究者可留意后续开源进展；若需立即可用的环境，建议先查阅博文全文或 AllenAI 官方仓库确认安装与使用细节。</p>
+
+<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#robot-learning</code>, <code class="language-plaintext highlighter-rouge">#simulation-environment</code>, <code class="language-plaintext highlighter-rouge">#benchmark</code>, <code class="language-plaintext highlighter-rouge">#allenai</code>, <code class="language-plaintext highlighter-rouge">#huggingface</code></p>
+
+<hr />
+
+<h2 id="x--youtube-热门">X / YouTube 热门</h2>
+
+<p><a id="item-social-hot-1"></a></p>
+<h3 id="7-个-github-隐私工具实测signalgrapheneostor-等-️-7010"><a href="https://www.youtube.com/watch?v=4yaj8LpEQoU">7 个 GitHub 隐私工具实测：Signal、GrapheneOS、Tor 等</a> ⭐️ 7.0/10</h3>
+
+<p>该视频由 Electronic Tech Show 发布，标题为《7 GitHub Repos the FBI Wishes It Could Ban (2026)》，时长约 11 分钟，播放量 15.6 万。根据视频描述，作者在实验室环境中测试了 7 个托管于 GitHub 的免费开源隐私工具，分别为 Signal、GrapheneOS、Tor Browser、VeraCrypt、OnionShare 与 Mullvad。标题采用夸张的「FBI 想禁」措辞，实际内容为对上述隐私工具的实测概览，面向关注隐私与安全的开发者。</p>
+
+<p>youtube · GitHub · 11月7日 02:46</p>
+
+<p><strong>「推荐理由」</strong> 视频在实验室环境下实测了 Signal、GrapheneOS、Tor Browser、VeraCrypt、OnionShare、Mullvad 等 7 款 GitHub 托管的开源隐私工具，时长 11 分钟、播放量 15.6 万，开发者可直接获得各工具的安装配置要点、优缺点对比及实战避坑经验。</p>
+
+<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#privacy-tools</code>, <code class="language-plaintext highlighter-rouge">#open-source</code>, <code class="language-plaintext highlighter-rouge">#github</code>, <code class="language-plaintext highlighter-rouge">#security</code>, <code class="language-plaintext highlighter-rouge">#testing</code></p>
+
+<hr />
+
+<p><a id="item-social-hot-2"></a></p>
+<h3 id="claude-code-免费用法月享-70-亿-token-并接入-testsprite-验证-️-7010"><a href="https://www.youtube.com/watch?v=exkQTYOm47c">Claude Code 免费用法：月享 70 亿 Token 并接入 TestSprite 验证</a> ⭐️ 7.0/10</h3>
+
+<p>该视频由 Eric Tech 发布，标题宣称可免费使用 Claude Code 并获得每月 70 亿 Token 额度，简介中推荐使用开源工具 TestSprite 验证 Agent 循环。根据标题与简介推断，视频大概率会演示如何申请或配置免费额度、在本地或云端运行 Claude Code CLI，并结合 TestSprite 做自动化测试与回归验证的完整流程。实际操作步骤、额度获取方式的真实性及可复现性需以视频实演为准。</p>
+
+<p>youtube · GitHub · 11月7日 02:46</p>
+
+<p><strong>「推荐理由」</strong> 该 15 分钟教程播放量达 23.1 万，演示如何零成本运行 Claude Code 并获得每月 70 亿 Token 额度，还完整展示了接入 TestSprite 做 Agent 循环验证的可复现配置步骤，适合想低门槛上手 CLI 编码代理的开发者直接照做。</p>
+
+<details><summary>参考链接</summary>
+<ul>
+<li><a href="https://www.youtube.com/watch?v=exkQTYOm47c">Claude Code for Free With 7 Billion Tokens a Month - YouTube</a></li>
+<li><a href="https://www.testsprite.com/">AI Testing Agent &amp; Automation Platform | TestSprite</a></li>
+
+</ul>
+</details>
+
+<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#Claude Code</code>, <code class="language-plaintext highlighter-rouge">#AI coding assistant</code>, <code class="language-plaintext highlighter-rouge">#free developer tools</code>, <code class="language-plaintext highlighter-rouge">#agent loop</code>, <code class="language-plaintext highlighter-rouge">#TestSprite</code></p>
+
+<hr />]]></content><author><name></name></author><summary type="html"><![CDATA[今日抓取 117 条内容，收录 12 条。]]></summary></entry><entry xml:lang="en"><title type="html">Horizon Summary: 2026-11-06 (EN)</title><link href="https://www.01040610.xyz/horizon/2026/11/06/summary-en.html" rel="alternate" type="text/html" title="Horizon Summary: 2026-11-06 (EN)" /><published>2026-11-06T00:00:00+00:00</published><updated>2026-11-06T00:00:00+00:00</updated><id>https://www.01040610.xyz/horizon/2026/11/06/summary-en</id><content type="html" xml:base="https://www.01040610.xyz/horizon/2026/11/06/summary-en.html"><![CDATA[<blockquote>
   <p>Showing 15 of 136 fetched items.</p>
 </blockquote>
 
@@ -1894,156 +2300,4 @@
 
 <p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#reverse-engineering</code>, <code class="language-plaintext highlighter-rouge">#Ghidra</code>, <code class="language-plaintext highlighter-rouge">#YARA</code>, <code class="language-plaintext highlighter-rouge">#cybersecurity</code>, <code class="language-plaintext highlighter-rouge">#NSA-tools</code>, <code class="language-plaintext highlighter-rouge">#GitHub</code></p>
 
-<hr />]]></content><author><name></name></author><summary type="html"><![CDATA[今日抓取 137 条内容，收录 14 条。]]></summary></entry><entry xml:lang="en"><title type="html">Horizon Summary: 2026-11-02 (EN)</title><link href="https://www.01040610.xyz/horizon/2026/11/02/summary-en.html" rel="alternate" type="text/html" title="Horizon Summary: 2026-11-02 (EN)" /><published>2026-11-02T00:00:00+00:00</published><updated>2026-11-02T00:00:00+00:00</updated><id>https://www.01040610.xyz/horizon/2026/11/02/summary-en</id><content type="html" xml:base="https://www.01040610.xyz/horizon/2026/11/02/summary-en.html"><![CDATA[<blockquote>
-  <p>Showing 5 of 99 fetched items.</p>
-</blockquote>
-
-<hr />
-
-<p><strong>AI News</strong></p>
-<ol>
-  <li><a href="#item-ai-news-1">Getting incredible results with a single RTX 3090ti and 128gb of ram. Deepseek-V4.1-Flash-1017 (35 tok/s decode) and Qwen3.8-Flash-Next (130 tok/s decode)</a> ⭐️ 8.0/10</li>
-  <li><a href="#item-ai-news-2">HackerBooks: AI-built site curates 16.5k HN-mentioned books</a> ⭐️ 7.0/10</li>
-  <li><a href="#item-ai-news-3">个人灵光 2.0 实测：个人 AI 助理的机会和门槛｜AI 上新</a> ⭐️ 7.0/10</li>
-  <li><a href="#item-ai-news-4">[GLB-3D-Coder] A tiny 4B coding model that creates 3D assets for Godot and other game engines</a> ⭐️ 6.0/10</li>
-  <li><a href="#item-ai-news-5">Strata patch claims 20× faster DeepSeek V4.1 agent startup on consumer GPU via KV splice and resident routing</a> ⭐️ 6.0/10</li>
-</ol>
-
-<hr />
-
-<h2 id="ai-news">AI News</h2>
-
-<p><a id="item-ai-news-1"></a></p>
-<h3 id="getting-incredible-results-with-a-single-rtx-3090ti-and-128gb-of-ram-deepseek-v41-flash-1017-35-toks-decode-and-qwen38-flash-next-130-toks-decode-️-8010"><a href="https://www.reddit.com/r/LocalLLaMA/comments/1xlec67/getting_incredible_results_with_a_single_rtx/">Getting incredible results with a single RTX 3090ti and 128gb of ram. Deepseek-V4.1-Flash-1017 (35 tok/s decode) and Qwen3.8-Flash-Next (130 tok/s decode)</a> ⭐️ 8.0/10</h3>
-
-<p>Reddit user demonstrates high-throughput local inference of two large MoE models on a single RTX 3090 Ti + 128GB RAM, sharing model names, quantization, and measured token speeds.</p>
-
-<p>reddit · r/LocalLLaMA · /u/uniVocity · Nov 1, 21:01</p>
-
-<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#local-llm</code>, <code class="language-plaintext highlighter-rouge">#inference-optimization</code>, <code class="language-plaintext highlighter-rouge">#quantization</code>, <code class="language-plaintext highlighter-rouge">#rtx-3090</code>, <code class="language-plaintext highlighter-rouge">#moe-models</code></p>
-
-<hr />
-
-<p><a id="item-ai-news-2"></a></p>
-<h3 id="hackerbooks-ai-built-site-curates-165k-hn-mentioned-books-️-7010"><a href="https://hackerbooks.org/">HackerBooks: AI-built site curates 16.5k HN-mentioned books</a> ⭐️ 7.0/10</h3>
-
-<p>HackerBooks (hackerbooks.org) is a live side project that aggregates roughly 16,500 books mentioned by at least two different Hacker News commenters from 2007 to present. The site was built almost entirely with Claude Opus 5.5, including the data pipeline and frontend, and runs on a fast HTTP/3 + Cloudflare stack. Each book entry links back to the original HN comments, and the full dataset is downloadable from the about page. The author notes the mention-counting method captures both praise and criticism, and some books may be missing or mismatched.</p>
-
-<p>hackernews · roansh · Nov 1, 15:58 · <a href="https://news.ycombinator.com/item?id=50326821">Discussion</a></p>
-
-<p><strong>「Why it matters」</strong> Developers and technical readers can immediately browse a community-vetted reading list with direct links to the HN discussions that surfaced each title, and download the raw data for offline analysis or integration. The project also serves as a concrete example of an AI-assisted, end-to-end side project that shipped fast and handled real traffic. First step: visit hackerbooks.org, search for a topic of interest, and follow the comment links to evaluate relevance.</p>
-
-<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#book-discovery</code>, <code class="language-plaintext highlighter-rouge">#hacker-news</code>, <code class="language-plaintext highlighter-rouge">#ai-assisted-development</code>, <code class="language-plaintext highlighter-rouge">#side-project</code>, <code class="language-plaintext highlighter-rouge">#technical-books</code></p>
-
-<hr />
-
-<p><a id="item-ai-news-3"></a></p>
-<h3 id="个人灵光-20-实测个人-ai-助理的机会和门槛ai-上新-️-7010"><a href="http://www.geekpark.net/news/373249">个人灵光 2.0 实测：个人 AI 助理的机会和门槛｜AI 上新</a> ⭐️ 7.0/10</h3>
-
-<p>极客公园对灵光 2.0 进行两天实测，揭示个人 AI 助理在中国超级 App 生态中面临的权限与商业壁垒。</p>
-
-<p>rss · 极客公园 · Nov 1, 10:03</p>
-
-<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#AI助手</code>, <code class="language-plaintext highlighter-rouge">#个人AI</code>, <code class="language-plaintext highlighter-rouge">#灵光2.0</code>, <code class="language-plaintext highlighter-rouge">#蚂蚁集团</code>, <code class="language-plaintext highlighter-rouge">#跨平台集成</code>, <code class="language-plaintext highlighter-rouge">#实测评测</code></p>
-
-<hr />
-
-<p><a id="item-ai-news-4"></a></p>
-<h3 id="glb-3d-coder-a-tiny-4b-coding-model-that-creates-3d-assets-for-godot-and-other-game-engines-️-6010"><a href="https://www.reddit.com/r/LocalLLaMA/comments/1xlh0zw/glb3dcoder_a_tiny_4b_coding_model_that_creates_3d/">[GLB-3D-Coder] A tiny 4B coding model that creates 3D assets for Godot and other game engines</a> ⭐️ 6.0/10</h3>
-
-<p>A 4B local coding model that outputs GLB 3D assets via Three.js for Godot, shared as an early checkpoint with usage tips but no direct download link in the post.</p>
-
-<p>reddit · r/LocalLLaMA · /u/ConfidentDinner6648 · Nov 1, 22:56</p>
-
-<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#3D-asset-generation</code>, <code class="language-plaintext highlighter-rouge">#Godot</code>, <code class="language-plaintext highlighter-rouge">#local-LLM</code>, <code class="language-plaintext highlighter-rouge">#Three.js</code>, <code class="language-plaintext highlighter-rouge">#GLB-format</code></p>
-
-<hr />
-
-<p><a id="item-ai-news-5"></a></p>
-<h3 id="strata-patch-claims-20-faster-deepseek-v41-agent-startup-on-consumer-gpu-via-kv-splice-and-resident-routing-️-6010"><a href="https://www.reddit.com/r/LocalLLaMA/comments/1xljdnj/sorry_sam_my_quite_terrible_home_dram_is_at_100/">Strata patch claims 20× faster DeepSeek V4.1 agent startup on consumer GPU via KV splice and resident routing</a> ⭐️ 6.0/10</h3>
-
-<p>A Reddit user reports patching the Strata inference engine (branch dsv41-kv-splice) to accelerate DeepSeek V4.1 Flash agent sessions on an RX 9070 XT 16 GB with 64 GB DDR4. Two optimizations are described: a KV splice that aligns new prompts against cached conversations to avoid re-reading the full ~37 K-token system prompt, and resident-only routing that keeps prompt processing on experts already in VRAM/RAM instead of streaming 58 GB from SSD. The author claims a 20× reduction in session startup time (from ~100 s to ~5 s) on HIP (gfx1201) only; CUDA, SYCL, and Metal are untested. The splice is approximate (tokens after a cut were computed with removed text in context) and resident routing slightly changes answers; no formal evaluation is provided. Build instructions and environment flags to disable the features are included. Upstream issues #4921 and #4936 track the changes.</p>
-
-<p>reddit · r/LocalLLaMA · /u/HearMeOut-13 · Nov 2, 00:44</p>
-
-<p><strong>「Why it matters」</strong> Local LLM practitioners running DeepSeek V4.1 on consumer AMD GPUs can try the dsv41-kv-splice branch to potentially cut agent session startup from minutes to seconds, but should treat the 20× claim as anecdotal, test on their own workloads, and report results (especially on CUDA) to the upstream issues to help the patches land in mainline Strata.</p>
-
-<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#local-llm</code>, <code class="language-plaintext highlighter-rouge">#inference-optimization</code>, <code class="language-plaintext highlighter-rouge">#strata</code>, <code class="language-plaintext highlighter-rouge">#deepseek</code>, <code class="language-plaintext highlighter-rouge">#kv-cache</code></p>
-
-<hr />]]></content><author><name></name></author><summary type="html"><![CDATA[Showing 5 of 99 fetched items.]]></summary></entry><entry xml:lang="zh"><title type="html">Horizon Summary: 2026-11-02 (ZH)</title><link href="https://www.01040610.xyz/horizon/2026/11/02/summary-zh.html" rel="alternate" type="text/html" title="Horizon Summary: 2026-11-02 (ZH)" /><published>2026-11-02T00:00:00+00:00</published><updated>2026-11-02T00:00:00+00:00</updated><id>https://www.01040610.xyz/horizon/2026/11/02/summary-zh</id><content type="html" xml:base="https://www.01040610.xyz/horizon/2026/11/02/summary-zh.html"><![CDATA[<blockquote>
-  <p>今日抓取 99 条内容，收录 5 条。</p>
-</blockquote>
-
-<hr />
-
-<p><strong>AI 热门新闻</strong></p>
-<ol>
-  <li><a href="#item-ai-news-1">Getting incredible results with a single RTX 3090ti and 128gb of ram. Deepseek-V4.1-Flash-1017 (35 tok/s decode) and Qwen3.8-Flash-Next (130 tok/s decode)</a> ⭐️ 8.0/10</li>
-  <li><a href="#item-ai-news-2">HackerBooks：汇总 HN 16.5 万+ 书籍提及的 AI 辅助开发工具</a> ⭐️ 7.0/10</li>
-  <li><a href="#item-ai-news-3">个人灵光 2.0 实测：个人 AI 助理的机会和门槛｜AI 上新</a> ⭐️ 7.0/10</li>
-  <li><a href="#item-ai-news-4">[GLB-3D-Coder] A tiny 4B coding model that creates 3D assets for Godot and other game engines</a> ⭐️ 6.0/10</li>
-  <li><a href="#item-ai-news-5">Strata 补丁让 DeepSeek V4.1 在消费级 GPU 上实现 20 倍会话启动加速</a> ⭐️ 6.0/10</li>
-</ol>
-
-<hr />
-
-<h2 id="ai-热门新闻">AI 热门新闻</h2>
-
-<p><a id="item-ai-news-1"></a></p>
-<h3 id="getting-incredible-results-with-a-single-rtx-3090ti-and-128gb-of-ram-deepseek-v41-flash-1017-35-toks-decode-and-qwen38-flash-next-130-toks-decode-️-8010"><a href="https://www.reddit.com/r/LocalLLaMA/comments/1xlec67/getting_incredible_results_with_a_single_rtx/">Getting incredible results with a single RTX 3090ti and 128gb of ram. Deepseek-V4.1-Flash-1017 (35 tok/s decode) and Qwen3.8-Flash-Next (130 tok/s decode)</a> ⭐️ 8.0/10</h3>
-
-<p>Reddit user demonstrates high-throughput local inference of two large MoE models on a single RTX 3090 Ti + 128GB RAM, sharing model names, quantization, and measured token speeds.</p>
-
-<p>reddit · r/LocalLLaMA · /u/uniVocity · 11月1日 21:01</p>
-
-<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#local-llm</code>, <code class="language-plaintext highlighter-rouge">#inference-optimization</code>, <code class="language-plaintext highlighter-rouge">#quantization</code>, <code class="language-plaintext highlighter-rouge">#rtx-3090</code>, <code class="language-plaintext highlighter-rouge">#moe-models</code></p>
-
-<hr />
-
-<p><a id="item-ai-news-2"></a></p>
-<h3 id="hackerbooks汇总-hn-165-万-书籍提及的-ai-辅助开发工具-️-7010"><a href="https://hackerbooks.org/">HackerBooks：汇总 HN 16.5 万+ 书籍提及的 AI 辅助开发工具</a> ⭐️ 7.0/10</h3>
-
-<p>开发者 roansh 发布 HackerBooks，一个可立即使用的网站，聚合了 2007 年至今 Hacker News 评论中至少被两位不同用户提及的约 16.5 万本书籍。每本书链接回原始评论，数据可从关于页面下载。该项目由 Claude Opus 5.5 几乎全程编写，包括数据管道与前端，运行在 HTTP/3 与 Cloudflare 上，加载极快。作者提醒：统计方式将赞扬与批评同等计数，存在漏收与错配情况，欢迎反馈。</p>
-
-<p>hackernews · roansh · 11月1日 15:58 · <a href="https://news.ycombinator.com/item?id=50326821">社区讨论</a></p>
-
-<p><strong>「实用价值」</strong> 适合想快速获取社区公认技术书单的开发者与研究者；首次使用可直接访问 hackerbooks.org 浏览或下载数据集对比现有阅读清单，也可作为 AI 辅助全栈开发的实战参考案例。</p>
-
-<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#book-discovery</code>, <code class="language-plaintext highlighter-rouge">#hacker-news</code>, <code class="language-plaintext highlighter-rouge">#ai-assisted-development</code>, <code class="language-plaintext highlighter-rouge">#side-project</code>, <code class="language-plaintext highlighter-rouge">#technical-books</code></p>
-
-<hr />
-
-<p><a id="item-ai-news-3"></a></p>
-<h3 id="个人灵光-20-实测个人-ai-助理的机会和门槛ai-上新-️-7010"><a href="http://www.geekpark.net/news/373249">个人灵光 2.0 实测：个人 AI 助理的机会和门槛｜AI 上新</a> ⭐️ 7.0/10</h3>
-
-<p>极客公园对灵光 2.0 进行两天实测，揭示个人 AI 助理在中国超级 App 生态中面临的权限与商业壁垒。</p>
-
-<p>rss · 极客公园 · 11月1日 10:03</p>
-
-<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#AI助手</code>, <code class="language-plaintext highlighter-rouge">#个人AI</code>, <code class="language-plaintext highlighter-rouge">#灵光2.0</code>, <code class="language-plaintext highlighter-rouge">#蚂蚁集团</code>, <code class="language-plaintext highlighter-rouge">#跨平台集成</code>, <code class="language-plaintext highlighter-rouge">#实测评测</code></p>
-
-<hr />
-
-<p><a id="item-ai-news-4"></a></p>
-<h3 id="glb-3d-coder-a-tiny-4b-coding-model-that-creates-3d-assets-for-godot-and-other-game-engines-️-6010"><a href="https://www.reddit.com/r/LocalLLaMA/comments/1xlh0zw/glb3dcoder_a_tiny_4b_coding_model_that_creates_3d/">[GLB-3D-Coder] A tiny 4B coding model that creates 3D assets for Godot and other game engines</a> ⭐️ 6.0/10</h3>
-
-<p>A 4B local coding model that outputs GLB 3D assets via Three.js for Godot, shared as an early checkpoint with usage tips but no direct download link in the post.</p>
-
-<p>reddit · r/LocalLLaMA · /u/ConfidentDinner6648 · 11月1日 22:56</p>
-
-<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#3D-asset-generation</code>, <code class="language-plaintext highlighter-rouge">#Godot</code>, <code class="language-plaintext highlighter-rouge">#local-LLM</code>, <code class="language-plaintext highlighter-rouge">#Three.js</code>, <code class="language-plaintext highlighter-rouge">#GLB-format</code></p>
-
-<hr />
-
-<p><a id="item-ai-news-5"></a></p>
-<h3 id="strata-补丁让-deepseek-v41-在消费级-gpu-上实现-20-倍会话启动加速-️-6010"><a href="https://www.reddit.com/r/LocalLLaMA/comments/1xljdnj/sorry_sam_my_quite_terrible_home_dram_is_at_100/">Strata 补丁让 DeepSeek V4.1 在消费级 GPU 上实现 20 倍会话启动加速</a> ⭐️ 6.0/10</h3>
-
-<p>Reddit 用户 /u/HearMeOut-13 发帖称，通过给 Strata 推理引擎打补丁（分支 dsv41-kv-splice），在 RX 9070 XT 16 GB + 64 GB DDR4 的消费级硬件上，DeepSeek V4.1 Flash（1M 上下文）的 OpenCode 代理会话启动从约 100 秒缩短到约 5 秒（约 20 倍加速）。补丁包含两项优化：1) KV splice——对齐新提示词与已缓存对话，仅重读变更行并记录 RoPE gap；2) Resident-only routing——提示词阶段仅从已驻留 VRAM/RAM 的专家中路由，避免从 SSD 流式读取 58 GB 模型权重。代码已开源（GitHub 分支），仅在 HIP (gfx1201) 上测试，CUDA/SYCL/Metal 未验证。作者承认 splice 为近似处理、resident routing 会轻微改变答案，且仅做单次硬编码测试（12/13 通过），无正式评测。上游 issue 为 #4921 与 #4936。</p>
-
-<p>reddit · r/LocalLLaMA · /u/HearMeOut-13 · 11月2日 00:44</p>
-
-<p><strong>「实用价值」</strong> 对于在消费级显存受限 GPU 上跑大模型、且频繁启动长上下文代理会话（如 OpenCode）的开发者，该分支可立即尝试：按帖中 CMake 参数编译 HIP 版本，设置 STRATA_DS4_REORDER=1 与 STRATA_DS4_PROMPT_RESIDENT=1（默认开启），并在 OpenCode 模型条目加入 "interleaved": {"field": "reasoning_content"} 以减少缓存未命中。首要风险是仅单人单机验证、近似 KV splice 可能在长推理任务中累积误差、resident routing 会改变输出分布；生产或关键任务前需自行对比基线。</p>
-
-<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#local-llm</code>, <code class="language-plaintext highlighter-rouge">#inference-optimization</code>, <code class="language-plaintext highlighter-rouge">#strata</code>, <code class="language-plaintext highlighter-rouge">#deepseek</code>, <code class="language-plaintext highlighter-rouge">#kv-cache</code></p>
-
-<hr />]]></content><author><name></name></author><summary type="html"><![CDATA[今日抓取 99 条内容，收录 5 条。]]></summary></entry></feed>
+<hr />]]></content><author><name></name></author><summary type="html"><![CDATA[今日抓取 137 条内容，收录 14 条。]]></summary></entry></feed>
