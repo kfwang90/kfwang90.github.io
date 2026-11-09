@@ -3,9 +3,190 @@
   <title>Horizon 每日速递 - 中文摘要</title>
   <link href="https://www.01040610.xyz/horizon/feed-zh.xml" rel="self"/>
   <link href="https://www.01040610.xyz/horizon/"/>
-  <updated>2026-11-08T02:31:35+00:00</updated>
+  <updated>2026-11-09T02:44:10+00:00</updated>
   <id>https://www.01040610.xyz/horizon/</id>
   
+  
+  <entry>
+    <title>Horizon Summary: 2026-11-09 (ZH)</title>
+    <link href="https://www.01040610.xyz/horizon/2026/11/09/summary-zh.html"/>
+    <updated>2026-11-09T00:00:00+00:00</updated>
+    <id>https://www.01040610.xyz/horizon/2026/11/09/summary-zh.html</id>
+    <content type="html"><![CDATA[ <blockquote>
+  <p>今日抓取 88 条内容，收录 11 条。</p>
+</blockquote>
+
+<hr />
+
+<p><strong>GitHub AI 开发工具</strong></p>
+<ol>
+  <li><a href="#item-gh-trending-1">microsoft/TokenEconomizer：AI 编码代理的 Token 成本控制器</a> ⭐️ 8.0/10</li>
+  <li><a href="#item-gh-trending-2">ruvnet/ruflo: 通用多智能体编排框架，集成主流编码代理</a> ⭐️ 6.0/10</li>
+  <li><a href="#item-gh-trending-3">activepieces/activepieces：AI 工作流自动化平台，400+ MCP 服务器</a> ⭐️ 6.0/10</li>
+</ol>
+
+<p><strong>AI 热门新闻</strong></p>
+<ol>
+  <li><a href="#item-ai-news-1">KetchUp：基于 Rust 与 WebGPU 的开源 SketchUp 替代品，浏览器即用</a> ⭐️ 9.0/10</li>
+  <li><a href="#item-ai-news-2">llama-modchip 声称 64GB 内存跑 284B DeepSeek 无需 GPU，尚待实测验证</a> ⭐️ 7.0/10</li>
+  <li><a href="#item-ai-news-3">MarkTechPost 对比 10 款开源 MoE 模型的 Token 路由配置</a> ⭐️ 7.0/10</li>
+  <li><a href="#item-ai-news-4">SQLite parse_number() 扩展：C 与 Rust 实现性能对比</a> ⭐️ 7.0/10</li>
+  <li><a href="#item-ai-news-5">llm-beliefs: 开源工具按国家绘制 LLM 审查回答地图</a> ⭐️ 7.0/10</li>
+  <li><a href="#item-ai-news-6">Reddit 用户演示 Qwen3.8 Flash Next 本地生成 three.js 动态图形视频全流程</a> ⭐️ 7.0/10</li>
+  <li><a href="#item-ai-news-7">Reddit 用户分享 4×R9700 推理服务器实测：QFN 3.8 单用户 190 tok/s、8 用户 128K 上下文首 token 2.5 分钟</a> ⭐️ 6.0/10</li>
+  <li><a href="#item-ai-news-8">Intel Arc Pro B70 32GB 在 Qwen3.8-27B 推理上达 RTX 5090 约一半生成速度，价格仅为 1/5</a> ⭐️ 6.0/10</li>
+</ol>
+
+<hr />
+
+<h2 id="github-ai-开发工具">GitHub AI 开发工具</h2>
+
+<p><a id="item-gh-trending-1"></a></p>
+<h3 id="microsofttokeneconomizerai-编码代理的-token-成本控制器-️-8010"><a href="https://github.com/microsoft/TokenEconomizer">microsoft/TokenEconomizer：AI 编码代理的 Token 成本控制器</a> ⭐️ 8.0/10</h3>
+
+<p>TokenEconomizer 是微软开源的 Python 工具，面向 Claude Code、Codex 等 AI 编码代理，通过经验驱动的黑盒方式在不牺牲输出质量前提下压缩 Token 开销。项目于 2026 年 10 月创建、11 月仍在活跃提交，已获 5.3k Star，处于可用且持续迭代阶段。</p>
+
+<p>github · microsoft · 11月9日 02:38</p>
+
+<p><strong>「推荐理由」</strong> 它切中 AI 辅助开发的「交付/运行」环节——把原本无感的 Token 消耗变成可观测、可优化的成本项，适合已在团队落地编码代理、需把模型调用费用纳入预算管控的工程组。</p>
+
+<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#ai-coding-assistant</code>, <code class="language-plaintext highlighter-rouge">#cost-optimization</code>, <code class="language-plaintext highlighter-rouge">#agentic-coding</code>, <code class="language-plaintext highlighter-rouge">#token-management</code>, <code class="language-plaintext highlighter-rouge">#developer-productivity</code></p>
+
+<hr />
+
+<p><a id="item-gh-trending-2"></a></p>
+<h3 id="ruvnetruflo-通用多智能体编排框架集成主流编码代理-️-6010"><a href="https://github.com/ruvnet/ruflo">ruvnet/ruflo: 通用多智能体编排框架，集成主流编码代理</a> ⭐️ 6.0/10</h3>
+
+<p>ruvnet/ruflo 是一个通用的多智能体编排框架，支持自主工作流、自适应记忆、向量 RAG 以及与 Claude Code、Codex、Hermes 等编码代理的原生集成。它旨在解决多智能体协作与自主任务编排的基础设施问题，使用 TypeScript 实现。目前拥有 81k 星标且近期活跃，但 619 个开放 Issue 与营销式描述暗示文档与生产就绪度仍需验证。</p>
+
+<p>github · ruvnet · 11月9日 02:38</p>
+
+<p><strong>「推荐理由」</strong> 适合需要构建自定义多智能体系统、探索 Agent 编排基础设施的研究者或平台工程师，可作为编码代理集成的底层框架，但非开箱即用的开发效能工具，落地成本需自行评估。</p>
+
+<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#agentic-framework</code>, <code class="language-plaintext highlighter-rouge">#ai-agents</code>, <code class="language-plaintext highlighter-rouge">#typescript</code>, <code class="language-plaintext highlighter-rouge">#claude-code</code>, <code class="language-plaintext highlighter-rouge">#codex</code></p>
+
+<hr />
+
+<p><a id="item-gh-trending-3"></a></p>
+<h3 id="activepiecesactivepiecesai-工作流自动化平台400-mcp-服务器-️-6010"><a href="https://github.com/activepieces/activepieces">activepieces/activepieces：AI 工作流自动化平台，400+ MCP 服务器</a> ⭐️ 6.0/10</h3>
+
+<p>Activepieces 是一个基于 TypeScript 的 AI 工作流自动化平台，提供 400 多个 MCP 服务器用于构建 AI Agent 和自动化流程，定位为 n8n 的替代方案。它解决的是将各类 AI 能力通过标准化接口串联成可执行工作流的问题，适合需要快速搭建 AI 自动化管道的团队。项目拥有 2.5 万星、持续活跃更新，处于生产可用成熟度阶段。</p>
+
+<p>github · activepieces · 11月9日 02:38</p>
+
+<p><strong>「推荐理由」</strong> 它落在「交付与自动化」环节，替代手写胶水代码或 SaaS 集成，让开发者用可视化或代码方式编排 AI Agent、MCP 工具与业务逻辑；适合需要自建 AI 自动化、不想被厂商锁定、或想把现有 MCP 服务器快速落地的后端/全栈工程师。</p>
+
+<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#ai-agent</code>, <code class="language-plaintext highlighter-rouge">#mcp</code>, <code class="language-plaintext highlighter-rouge">#workflow-automation</code>, <code class="language-plaintext highlighter-rouge">#no-code</code>, <code class="language-plaintext highlighter-rouge">#typescript</code></p>
+
+<hr />
+
+<h2 id="ai-热门新闻">AI 热门新闻</h2>
+
+<p><a id="item-ai-news-1"></a></p>
+<h3 id="ketchup基于-rust-与-webgpu-的开源-sketchup-替代品浏览器即用-️-9010"><a href="https://ketchup3d.github.io/app/">KetchUp：基于 Rust 与 WebGPU 的开源 SketchUp 替代品，浏览器即用</a> ⭐️ 9.0/10</h3>
+
+<p>KetchUp 是一个开源的 3D 建模工具，定位为 SketchUp 的替代品，使用 Rust 编写并通过 WebGPU 在浏览器中运行。用户无需安装即可通过 ketchup3d.github.io/app/ 直接使用，完全免费且开源。社区反馈显示其已可用于实际建模工作，但目前仅支持鼠标操作，缺乏触控板兼容性，且无法直接打开现有 SketchUp 文件。</p>
+
+<p>hackernews · dcoulmbe · 11月8日 22:35 · <a href="https://news.ycombinator.com/item?id=50418176">社区讨论</a></p>
+
+<p><strong>「实用价值」</strong> 适合不想订阅 SketchUp 的偶尔建模用户、想体验 Rust/WebGPU 技术栈的开发者，或需要零门槛 3D 建模的场景。第一步：直接在浏览器打开官网试用，评估是否满足建模需求。</p>
+
+<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#3D-modeling</code>, <code class="language-plaintext highlighter-rouge">#Rust</code>, <code class="language-plaintext highlighter-rouge">#WebGPU</code>, <code class="language-plaintext highlighter-rouge">#open-source</code>, <code class="language-plaintext highlighter-rouge">#SketchUp-alternative</code></p>
+
+<hr />
+
+<p><a id="item-ai-news-2"></a></p>
+<h3 id="llama-modchip-声称-64gb-内存跑-284b-deepseek-无需-gpu尚待实测验证-️-7010"><a href="https://github.com/synchopate/llama-modchip">llama-modchip 声称 64GB 内存跑 284B DeepSeek 无需 GPU，尚待实测验证</a> ⭐️ 7.0/10</h3>
+
+<p>GitHub 仓库 llama-modchip 宣称能在仅 64GB 系统内存、无 GPU 的机器上运行 284B 参数的 DeepSeek 模型。该项目在 Hacker News 引发讨论，有评论者指出量化细节未在文档中说明，也有人实测对比 llama.cpp 发现除 prefill 加速外无明显优势，且未在设置中找到 DeepSeek 选项。目前仅为作者单方面声称，缺乏可复现的基准、安装步骤与模型获取说明。</p>
+
+<p>hackernews · joshcsimmons · 11月8日 10:22 · <a href="https://news.ycombinator.com/item?id=50411961">社区讨论</a></p>
+
+<p><strong>「对你的意义」</strong> 如果你想在无 GPU 的工作站上跑超大模型，可先克隆仓库对比 llama.cpp 基线，重点验证量化等级、实际吞吐与显存占用；若量化低于 4-bit 或文档仍缺失关键参数，生产可用性存疑。</p>
+
+<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#llm-inference</code>, <code class="language-plaintext highlighter-rouge">#cpu-inference</code>, <code class="language-plaintext highlighter-rouge">#model-quantization</code>, <code class="language-plaintext highlighter-rouge">#local-llm</code>, <code class="language-plaintext highlighter-rouge">#deepseek</code></p>
+
+<hr />
+
+<p><a id="item-ai-news-3"></a></p>
+<h3 id="marktechpost-对比-10-款开源-moe-模型的-token-路由配置-️-7010"><a href="https://www.marktechpost.com/2026/11/08/moe-model-routing-comparison/">MarkTechPost 对比 10 款开源 MoE 模型的 Token 路由配置</a> ⭐️ 7.0/10</h3>
+
+<p>MarkTechPost 发布一篇配置经核实的对比文章，梳理了 DeepSeek、Qwen、Mixtral、Llama 4、gpt-oss 等 10 款开源 MoE 模型的 Token 路由机制，涵盖总/激活参数量、专家数量、top-k 选择、共享专家、门控函数及负载均衡方法等关键技术细节。</p>
+
+<p>rss · MarkTechPost · 11月8日 10:27</p>
+
+<p><strong>「实用价值」</strong> 需要在 MoE 模型间选型、复现架构或调优路由策略的工程师可直接把这份表格作为参考基线，第一步建议按文中列出的 top-k 与共享专家设置对照自家模型配置，再决定是否迁移或微调门控逻辑。</p>
+
+<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#MoE</code>, <code class="language-plaintext highlighter-rouge">#routing</code>, <code class="language-plaintext highlighter-rouge">#model-comparison</code>, <code class="language-plaintext highlighter-rouge">#LLM-architecture</code>, <code class="language-plaintext highlighter-rouge">#open-models</code></p>
+
+<hr />
+
+<p><a id="item-ai-news-4"></a></p>
+<h3 id="sqlite-parse_number-扩展c-与-rust-实现性能对比-️-7010"><a href="https://simonwillison.net/2026/Nov/8/sqlite-parse-number-c-vs-rust/">SQLite parse_number() 扩展：C 与 Rust 实现性能对比</a> ⭐️ 7.0/10</h3>
+
+<p>Simon Willison 对比了用 C 和 Rust 编写 SQLite parse_number() 扩展的性能与体积。初始版本中 Rust 扩展（rusqlite 321 KB、sqlite-loadable-rs 298 KB）体积大于 C 版（14 KB），但因 Rust 的字符串转数字函数更快而性能领先。随后他编写自定义 C 解析函数，在 200 万行测试中全面反超：混合数据 19 ns/行、整数 16 ns/行、小数 18 ns/行，均优于 Rust 实现（41-55 ns/行）。完整代码与报告已发布于 github.com/simonw/research/tree/main/sqlite-parse-number-c-vs-rust。</p>
+
+<p>rss · Simon Willison · 11月8日 22:26</p>
+
+<p><strong>「实用价值」</strong> 想要编写高性能 SQLite 扩展的开发者可直接参考该仓库的两套实现，对比 C 与 Rust 在体积、开发复杂度与运行速度上的权衡，第一步是克隆仓库运行基准测试复现结果。</p>
+
+<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#sqlite</code>, <code class="language-plaintext highlighter-rouge">#rust</code>, <code class="language-plaintext highlighter-rouge">#c</code>, <code class="language-plaintext highlighter-rouge">#extensions</code>, <code class="language-plaintext highlighter-rouge">#performance</code></p>
+
+<hr />
+
+<p><a id="item-ai-news-5"></a></p>
+<h3 id="llm-beliefs-开源工具按国家绘制-llm-审查回答地图-️-7010"><a href="https://www.reddit.com/r/LocalLLaMA/comments/1xr09nq/does_censorship_exist_in_country_according_to/">llm-beliefs: 开源工具按国家绘制 LLM 审查回答地图</a> ⭐️ 7.0/10</h3>
+
+<p>Reddit 用户 /u/-p-e-w- 发布了开源工具 llm-beliefs，该工具向语言模型逐个提问同一个关于审查的「是/否」问题，并将各国回答生成 SVG 世界地图。代码已托管在 GitHub (github.com/p-e-w/llm-beliefs)，可本地克隆、检查并运行。作者表示对结果感到惊讶，但具体支持的模型、安装步骤与提示词模板仅在仓库中说明。</p>
+
+<p>reddit · r/LocalLLaMA · /u/-p-e-w- · 11月8日 14:56</p>
+
+<p><strong>「实用价值」</strong> 面向 LLM 评估、偏见测试与红队人员：可直接克隆仓库在本地运行，快速对比不同模型在各国审查问题上的回答差异，作为模型审计与偏见分析的可执行起点。</p>
+
+<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#LLM-evaluation</code>, <code class="language-plaintext highlighter-rouge">#bias-testing</code>, <code class="language-plaintext highlighter-rouge">#censorship-analysis</code>, <code class="language-plaintext highlighter-rouge">#visualization</code>, <code class="language-plaintext highlighter-rouge">#open-source-tool</code></p>
+
+<hr />
+
+<p><a id="item-ai-news-6"></a></p>
+<h3 id="reddit-用户演示-qwen38-flash-next-本地生成-threejs-动态图形视频全流程-️-7010"><a href="https://www.reddit.com/r/LocalLLaMA/comments/1xr3qes/motion_graphics_video_made_with_qwen38_flash_next/">Reddit 用户演示 Qwen3.8 Flash Next 本地生成 three.js 动态图形视频全流程</a> ⭐️ 7.0/10</h3>
+
+<p>Reddit 用户 /u/Yhojm 分享在 RTX 4080 16 GB + 64 GB DDR5 上运行量化模型 Qwen3.8 Flash Next GSQ RCO IQ3_XXS，配合 strata 与 opencode，以约 95 tps decode / 3000 tps prefill 的速度生成 15 秒 1080p60 three.js/Playwright/ffmpeg 渲染的新干线展示视频。首次渲染约 40 分钟，经 3 轮修正提示词（修复画面过暗、缺建筑、文字过多）总耗时约 2 小时。提示词策略为显式指定 three.js + Playwright + ffmpeg 栈，再用自然语言描述风格、尺寸、内容、音频、动画等；视频时长无上限。作者称效果不及 Opus 但可用，且无公开视频链接或代码仓库供独立验证。</p>
+
+<p>reddit · r/LocalLLaMA · /u/Yhojm · 11月8日 17:23</p>
+
+<p><strong>「实用价值」</strong> 拥有 16 GB 显存消费级显卡的开发者可直接复刻该管线：先在 strata/opencode 中加载同量化模型，按“three.js + Playwright + ffmpeg”提示词模板生成代码，再迭代修复渲染缺陷，即可在本地离线产出任意时长的动态图形视频，适合原型演示、教学素材或个人项目。</p>
+
+<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#local-LLM</code>, <code class="language-plaintext highlighter-rouge">#code-generation</code>, <code class="language-plaintext highlighter-rouge">#three.js</code>, <code class="language-plaintext highlighter-rouge">#video-generation</code>, <code class="language-plaintext highlighter-rouge">#quantized-models</code></p>
+
+<hr />
+
+<p><a id="item-ai-news-7"></a></p>
+<h3 id="reddit-用户分享-4r9700-推理服务器实测qfn-38-单用户-190-toks8-用户-128k-上下文首-token-25-分钟-️-6010"><a href="https://www.reddit.com/r/LocalLLaMA/comments/1xrcia4/joined_the_4x_r9700_club_initial_benchmarks_for/">Reddit 用户分享 4×R9700 推理服务器实测：QFN 3.8 单用户 190 tok/s、8 用户 128K 上下文首 token 2.5 分钟</a> ⭐️ 6.0/10</h3>
+
+<p>Reddit 用户 /u/Anarchaotic 发布自建 4×AMD Radeon AI PRO R9700（3 张 Gigabyte + 1 张 XFX，功耗限 210 W）本地推理服务器的实测数据，总成本约 16,000 加元（CPU/内存/主板为 eBay 二手）。软件栈为 Ubuntu 26.04.1、ROCm 10.1、Radiance v1.17.0，跑 Qwen3.8-Flash-Next 量化模型（qwen3.8-next-flash-fp8-iq4r-moe.rad，int8 主干 + 4-bit 专家代码本 + MTP 3 token 草稿）。关键指标：单用户写入约 190 tok/s；Prefill 总吞吐固定约 6,800 tok/s，与并发用户数无关；8 用户同时发送 128K 冷提示词时首 token 中位数 150.8 秒（最长 151.5 秒），随后每用户 70–83 tok/s；二轮对话（Agent 跟进）缓存命中 94–99%，首 token 0.2–2.5 秒，写入 80–225 tok/s。显存占用：权重 17.4 GiB/张，KV cache 11.6 GiB/张（可容纳 8 个 200K 会话），n-gram/PLE 表 47.7 GiB 锁在主机内存。全卡预填阶段功耗稳定在 210 W 上限，最热显存/热点达 91–92 °C。</p>
+
+<p>reddit · r/LocalLLaMA · /u/Anarchaotic · 11月8日 23:36</p>
+
+<p><strong>「对你的意义」</strong> 如果你在评估 AMD 多卡方案做多用户长上下文推理，这组实测给出了可直接参考的并发性能基线：单用户 190 tok/s、8×128K 冷启动约 2.5 分钟、热跟进亚秒级首 token 且吞吐基本不随上下文长度下降。想复现或对比，第一步是确认 Radiance v1.17.0 的启动参数（–tp 4 –max-num-seqs 8 –placement expert_tiered –host-pool-mib 1024 –prefix-cache-mib 32768 等）与同款量化模型，再按自身并发需求调整 –max-model-len 与 prefix cache 大小。</p>
+
+<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#AMD GPU</code>, <code class="language-plaintext highlighter-rouge">#local LLM</code>, <code class="language-plaintext highlighter-rouge">#benchmark</code>, <code class="language-plaintext highlighter-rouge">#multi-GPU</code>, <code class="language-plaintext highlighter-rouge">#hardware</code></p>
+
+<hr />
+
+<p><a id="item-ai-news-8"></a></p>
+<h3 id="intel-arc-pro-b70-32gb-在-qwen38-27b-推理上达-rtx-5090-约一半生成速度价格仅为-15-️-6010"><a href="https://www.reddit.com/r/LocalLLaMA/comments/1xr78s5/intel_arc_pro_b70_32gb_1299_vs_nvidia_rtx_5090/">Intel Arc Pro B70 32GB 在 Qwen3.8-27B 推理上达 RTX 5090 约一半生成速度，价格仅为 1/5</a> ⭐️ 6.0/10</h3>
+
+<p>Reddit 用户 /u/maikerukonare 以 1,299 美元从 ASRock 官方店购入 Intel Arc Pro B70 32GB，对比街价 6,500 美元以上的 NVIDIA RTX 5090，在 Qwen3.8-27B Q6 量化、约 3k token 提示词、开启 MTP 的条件下测得：Arc Pro B70 预填约 960 tok/s、生成约 52 tok/s；RTX 5090 预填约 2,830 tok/s、生成约 98 tok/s。即 Arc Pro B70 以 1/5 价格实现约 1/3 预填、1/2 生成速度。关键优化包括：Ubuntu 24.04 + Kernel 6.17+ (HWE 7.0)、开启 Resizable BAR 并关闭 CSM、安装 Intel 计算运行时 (ppa:kobuk-team/intel-graphics)、升级 Mesa 至 26.x (ppa:kisak/kisak-mesa)、改用 llama.cpp SYCL 后端 (Intel oneAPI) 而非 Vulkan/ollama，并启用 q8_0 KV 缓存与 MTP。测试环境为 Threadripper 1950X、128GB DDR4、PCIe 3.0 主板。RTX 5090 数据来自他人 Hugging Face 讨论帖，非同机对比；优化细节未完全公开，可复现性有待验证。</p>
+
+<p>reddit · r/LocalLLaMA · /u/maikerukonare · 11月8日 19:46</p>
+
+<p><strong>「实用价值」</strong> 对于预算有限但需 32GB 显存跑本地大模型的开发者，Arc Pro B70 提供了可用的价格/性能替代方案；首要步骤是按帖中清单配置软件栈 (Kernel、Mesa、Intel 运行时、SYCL 版 llama.cpp) 并验证自家硬件能否复现同等速度。若仅追求极致吞吐或依赖成熟 CUDA 生态，仍以 NVIDIA 为首选。</p>
+
+<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#Intel Arc</code>, <code class="language-plaintext highlighter-rouge">#LLM inference</code>, <code class="language-plaintext highlighter-rouge">#hardware comparison</code>, <code class="language-plaintext highlighter-rouge">#cost optimization</code>, <code class="language-plaintext highlighter-rouge">#local LLM</code></p>
+
+<hr />
+ ]]></content>
+  </entry>
   
   <entry>
     <title>Horizon Summary: 2026-11-08 (ZH)</title>
@@ -1390,91 +1571,6 @@
 </details>
 
 <p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#reverse-engineering</code>, <code class="language-plaintext highlighter-rouge">#Ghidra</code>, <code class="language-plaintext highlighter-rouge">#YARA</code>, <code class="language-plaintext highlighter-rouge">#cybersecurity</code>, <code class="language-plaintext highlighter-rouge">#NSA-tools</code>, <code class="language-plaintext highlighter-rouge">#GitHub</code></p>
-
-<hr />
- ]]></content>
-  </entry>
-  
-  <entry>
-    <title>Horizon Summary: 2026-11-02 (ZH)</title>
-    <link href="https://www.01040610.xyz/horizon/2026/11/02/summary-zh.html"/>
-    <updated>2026-11-02T00:00:00+00:00</updated>
-    <id>https://www.01040610.xyz/horizon/2026/11/02/summary-zh.html</id>
-    <content type="html"><![CDATA[ <blockquote>
-  <p>今日抓取 99 条内容，收录 5 条。</p>
-</blockquote>
-
-<hr />
-
-<p><strong>AI 热门新闻</strong></p>
-<ol>
-  <li><a href="#item-ai-news-1">Getting incredible results with a single RTX 3090ti and 128gb of ram. Deepseek-V4.1-Flash-1017 (35 tok/s decode) and Qwen3.8-Flash-Next (130 tok/s decode)</a> ⭐️ 8.0/10</li>
-  <li><a href="#item-ai-news-2">HackerBooks：汇总 HN 16.5 万+ 书籍提及的 AI 辅助开发工具</a> ⭐️ 7.0/10</li>
-  <li><a href="#item-ai-news-3">个人灵光 2.0 实测：个人 AI 助理的机会和门槛｜AI 上新</a> ⭐️ 7.0/10</li>
-  <li><a href="#item-ai-news-4">[GLB-3D-Coder] A tiny 4B coding model that creates 3D assets for Godot and other game engines</a> ⭐️ 6.0/10</li>
-  <li><a href="#item-ai-news-5">Strata 补丁让 DeepSeek V4.1 在消费级 GPU 上实现 20 倍会话启动加速</a> ⭐️ 6.0/10</li>
-</ol>
-
-<hr />
-
-<h2 id="ai-热门新闻">AI 热门新闻</h2>
-
-<p><a id="item-ai-news-1"></a></p>
-<h3 id="getting-incredible-results-with-a-single-rtx-3090ti-and-128gb-of-ram-deepseek-v41-flash-1017-35-toks-decode-and-qwen38-flash-next-130-toks-decode-️-8010"><a href="https://www.reddit.com/r/LocalLLaMA/comments/1xlec67/getting_incredible_results_with_a_single_rtx/">Getting incredible results with a single RTX 3090ti and 128gb of ram. Deepseek-V4.1-Flash-1017 (35 tok/s decode) and Qwen3.8-Flash-Next (130 tok/s decode)</a> ⭐️ 8.0/10</h3>
-
-<p>Reddit user demonstrates high-throughput local inference of two large MoE models on a single RTX 3090 Ti + 128GB RAM, sharing model names, quantization, and measured token speeds.</p>
-
-<p>reddit · r/LocalLLaMA · /u/uniVocity · 11月1日 21:01</p>
-
-<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#local-llm</code>, <code class="language-plaintext highlighter-rouge">#inference-optimization</code>, <code class="language-plaintext highlighter-rouge">#quantization</code>, <code class="language-plaintext highlighter-rouge">#rtx-3090</code>, <code class="language-plaintext highlighter-rouge">#moe-models</code></p>
-
-<hr />
-
-<p><a id="item-ai-news-2"></a></p>
-<h3 id="hackerbooks汇总-hn-165-万-书籍提及的-ai-辅助开发工具-️-7010"><a href="https://hackerbooks.org/">HackerBooks：汇总 HN 16.5 万+ 书籍提及的 AI 辅助开发工具</a> ⭐️ 7.0/10</h3>
-
-<p>开发者 roansh 发布 HackerBooks，一个可立即使用的网站，聚合了 2007 年至今 Hacker News 评论中至少被两位不同用户提及的约 16.5 万本书籍。每本书链接回原始评论，数据可从关于页面下载。该项目由 Claude Opus 5.5 几乎全程编写，包括数据管道与前端，运行在 HTTP/3 与 Cloudflare 上，加载极快。作者提醒：统计方式将赞扬与批评同等计数，存在漏收与错配情况，欢迎反馈。</p>
-
-<p>hackernews · roansh · 11月1日 15:58 · <a href="https://news.ycombinator.com/item?id=50326821">社区讨论</a></p>
-
-<p><strong>「实用价值」</strong> 适合想快速获取社区公认技术书单的开发者与研究者；首次使用可直接访问 hackerbooks.org 浏览或下载数据集对比现有阅读清单，也可作为 AI 辅助全栈开发的实战参考案例。</p>
-
-<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#book-discovery</code>, <code class="language-plaintext highlighter-rouge">#hacker-news</code>, <code class="language-plaintext highlighter-rouge">#ai-assisted-development</code>, <code class="language-plaintext highlighter-rouge">#side-project</code>, <code class="language-plaintext highlighter-rouge">#technical-books</code></p>
-
-<hr />
-
-<p><a id="item-ai-news-3"></a></p>
-<h3 id="个人灵光-20-实测个人-ai-助理的机会和门槛ai-上新-️-7010"><a href="http://www.geekpark.net/news/373249">个人灵光 2.0 实测：个人 AI 助理的机会和门槛｜AI 上新</a> ⭐️ 7.0/10</h3>
-
-<p>极客公园对灵光 2.0 进行两天实测，揭示个人 AI 助理在中国超级 App 生态中面临的权限与商业壁垒。</p>
-
-<p>rss · 极客公园 · 11月1日 10:03</p>
-
-<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#AI助手</code>, <code class="language-plaintext highlighter-rouge">#个人AI</code>, <code class="language-plaintext highlighter-rouge">#灵光2.0</code>, <code class="language-plaintext highlighter-rouge">#蚂蚁集团</code>, <code class="language-plaintext highlighter-rouge">#跨平台集成</code>, <code class="language-plaintext highlighter-rouge">#实测评测</code></p>
-
-<hr />
-
-<p><a id="item-ai-news-4"></a></p>
-<h3 id="glb-3d-coder-a-tiny-4b-coding-model-that-creates-3d-assets-for-godot-and-other-game-engines-️-6010"><a href="https://www.reddit.com/r/LocalLLaMA/comments/1xlh0zw/glb3dcoder_a_tiny_4b_coding_model_that_creates_3d/">[GLB-3D-Coder] A tiny 4B coding model that creates 3D assets for Godot and other game engines</a> ⭐️ 6.0/10</h3>
-
-<p>A 4B local coding model that outputs GLB 3D assets via Three.js for Godot, shared as an early checkpoint with usage tips but no direct download link in the post.</p>
-
-<p>reddit · r/LocalLLaMA · /u/ConfidentDinner6648 · 11月1日 22:56</p>
-
-<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#3D-asset-generation</code>, <code class="language-plaintext highlighter-rouge">#Godot</code>, <code class="language-plaintext highlighter-rouge">#local-LLM</code>, <code class="language-plaintext highlighter-rouge">#Three.js</code>, <code class="language-plaintext highlighter-rouge">#GLB-format</code></p>
-
-<hr />
-
-<p><a id="item-ai-news-5"></a></p>
-<h3 id="strata-补丁让-deepseek-v41-在消费级-gpu-上实现-20-倍会话启动加速-️-6010"><a href="https://www.reddit.com/r/LocalLLaMA/comments/1xljdnj/sorry_sam_my_quite_terrible_home_dram_is_at_100/">Strata 补丁让 DeepSeek V4.1 在消费级 GPU 上实现 20 倍会话启动加速</a> ⭐️ 6.0/10</h3>
-
-<p>Reddit 用户 /u/HearMeOut-13 发帖称，通过给 Strata 推理引擎打补丁（分支 dsv41-kv-splice），在 RX 9070 XT 16 GB + 64 GB DDR4 的消费级硬件上，DeepSeek V4.1 Flash（1M 上下文）的 OpenCode 代理会话启动从约 100 秒缩短到约 5 秒（约 20 倍加速）。补丁包含两项优化：1) KV splice——对齐新提示词与已缓存对话，仅重读变更行并记录 RoPE gap；2) Resident-only routing——提示词阶段仅从已驻留 VRAM/RAM 的专家中路由，避免从 SSD 流式读取 58 GB 模型权重。代码已开源（GitHub 分支），仅在 HIP (gfx1201) 上测试，CUDA/SYCL/Metal 未验证。作者承认 splice 为近似处理、resident routing 会轻微改变答案，且仅做单次硬编码测试（12/13 通过），无正式评测。上游 issue 为 #4921 与 #4936。</p>
-
-<p>reddit · r/LocalLLaMA · /u/HearMeOut-13 · 11月2日 00:44</p>
-
-<p><strong>「实用价值」</strong> 对于在消费级显存受限 GPU 上跑大模型、且频繁启动长上下文代理会话（如 OpenCode）的开发者，该分支可立即尝试：按帖中 CMake 参数编译 HIP 版本，设置 STRATA_DS4_REORDER=1 与 STRATA_DS4_PROMPT_RESIDENT=1（默认开启），并在 OpenCode 模型条目加入 "interleaved": {"field": "reasoning_content"} 以减少缓存未命中。首要风险是仅单人单机验证、近似 KV splice 可能在长推理任务中累积误差、resident routing 会改变输出分布；生产或关键任务前需自行对比基线。</p>
-
-<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#local-llm</code>, <code class="language-plaintext highlighter-rouge">#inference-optimization</code>, <code class="language-plaintext highlighter-rouge">#strata</code>, <code class="language-plaintext highlighter-rouge">#deepseek</code>, <code class="language-plaintext highlighter-rouge">#kv-cache</code></p>
 
 <hr />
  ]]></content>
