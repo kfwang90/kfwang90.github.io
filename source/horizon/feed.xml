@@ -1,4 +1,364 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="https://www.01040610.xyz/horizon/feed.xml" rel="self" type="application/atom+xml" /><link href="https://www.01040610.xyz/horizon/" rel="alternate" type="text/html" /><updated>2026-11-09T02:44:10+00:00</updated><id>https://www.01040610.xyz/horizon/feed.xml</id><title type="html">Horizon 每日速递</title><subtitle>由 AI 自动筛选的 GitHub 热点项目、AI 新闻与 X / YouTube 热门内容</subtitle><entry xml:lang="en"><title type="html">Horizon Summary: 2026-11-09 (EN)</title><link href="https://www.01040610.xyz/horizon/2026/11/09/summary-en.html" rel="alternate" type="text/html" title="Horizon Summary: 2026-11-09 (EN)" /><published>2026-11-09T00:00:00+00:00</published><updated>2026-11-09T00:00:00+00:00</updated><id>https://www.01040610.xyz/horizon/2026/11/09/summary-en</id><content type="html" xml:base="https://www.01040610.xyz/horizon/2026/11/09/summary-en.html"><![CDATA[<blockquote>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="https://www.01040610.xyz/horizon/feed.xml" rel="self" type="application/atom+xml" /><link href="https://www.01040610.xyz/horizon/" rel="alternate" type="text/html" /><updated>2026-11-10T04:45:25+00:00</updated><id>https://www.01040610.xyz/horizon/feed.xml</id><title type="html">Horizon 每日速递</title><subtitle>由 AI 自动筛选的 GitHub 热点项目、AI 新闻与 X / YouTube 热门内容</subtitle><entry xml:lang="en"><title type="html">Horizon Summary: 2026-11-10 (EN)</title><link href="https://www.01040610.xyz/horizon/2026/11/10/summary-en.html" rel="alternate" type="text/html" title="Horizon Summary: 2026-11-10 (EN)" /><published>2026-11-10T00:00:00+00:00</published><updated>2026-11-10T00:00:00+00:00</updated><id>https://www.01040610.xyz/horizon/2026/11/10/summary-en</id><content type="html" xml:base="https://www.01040610.xyz/horizon/2026/11/10/summary-en.html"><![CDATA[<blockquote>
+  <p>Showing 11 of 135 fetched items.</p>
+</blockquote>
+
+<hr />
+
+<p><strong>AI News</strong></p>
+<ol>
+  <li><a href="#item-ai-news-1">watched.earth: Browser tool shows last 7 days satellite passes and imagery</a> ⭐️ 9.0/10</li>
+  <li><a href="#item-ai-news-2">llm-anthropic 0.31 adds Fable 5.2 and Mythos 5.2 support</a> ⭐️ 9.0/10</li>
+  <li><a href="#item-ai-news-3">NVIDIA Releases Nemotron-Personas-Finance-Japan Synthetic Dataset on Hugging Face</a> ⭐️ 8.0/10</li>
+  <li><a href="#item-ai-news-4">Simon Willison open-sources Beep Locator: multi-device audio triangulation built with Claude Code</a> ⭐️ 8.0/10</li>
+  <li><a href="#item-ai-news-5">DeepSeek V4.1 Flash vs Qwen 3.8 FN: Local MoE Benchmark</a> ⭐️ 8.0/10</li>
+  <li><a href="#item-ai-news-6">Amazon introduces HOPE pruning for MoE models on Hugging Face blog</a> ⭐️ 7.0/10</li>
+  <li><a href="#item-ai-news-7">E-means: Community tests show mixed speedups vs k-means</a> ⭐️ 6.0/10</li>
+  <li><a href="#item-ai-news-8">Airbnb cuts recommendation latency from days to seconds with Chronon</a> ⭐️ 6.0/10</li>
+  <li><a href="#item-ai-news-9">Reddit user shares Qwen3.5-4B neurons that shift personality when activated</a> ⭐️ 6.0/10</li>
+  <li><a href="#item-ai-news-10">Reddit guide introduces neuron steering on Qwen3.5-4B with architectural details but no runnable code</a> ⭐️ 6.0/10</li>
+</ol>
+
+<p><strong>X / YouTube Highlights</strong></p>
+<ol>
+  <li><a href="#item-social-hot-1">Complete GitHub Actions Course: Beginner to Pro</a> ⭐️ 8.0/10</li>
+</ol>
+
+<hr />
+
+<h2 id="ai-news">AI News</h2>
+
+<p><a id="item-ai-news-1"></a></p>
+<h3 id="watchedearth-browser-tool-shows-last-7-days-satellite-passes-and-imagery-️-9010"><a href="https://www.watched.earth/">watched.earth: Browser tool shows last 7 days satellite passes and imagery</a> ⭐️ 9.0/10</h3>
+
+<p>watched.earth is a browser-based, open-source tool that lets users enter any location and see every satellite that passed over it in the last 7 days. It uses SGP4 propagation on the CelesTrak catalog (about 17,000 objects) computed client-side in roughly half a second, then fetches actual Sentinel-2, Landsat, and NASA images from those passes. The site renders all orbits on the GPU, solves Kepler&#x27;s equation each frame, and only marks a pass as "watched" when a real image exists. The author notes Sentinel-2 timestamps can be 5-10 minutes off the actual ground crossing. The code is on GitHub (github.com/dev-Armaan/satellites) and the service does not store user locations.</p>
+
+<p>hackernews · a585gupt · Nov 9, 17:51 · <a href="https://news.ycombinator.com/item?id=50428907">Discussion</a></p>
+
+<p><strong>「Why it matters」</strong> Geospatial analysts, researchers, and anyone needing recent satellite imagery for a specific spot can get an instant, visual overview without using bulk portals like Copernicus. First step: go to watched.earth, type a place name or coordinates, and review the list of passes with linked imagery — useful for quick verification, change detection, or planning fieldwork.</p>
+
+<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#卫星影像</code>, <code class="language-plaintext highlighter-rouge">#地理空间</code>, <code class="language-plaintext highlighter-rouge">#开源工具</code>, <code class="language-plaintext highlighter-rouge">#Sentinel-2</code>, <code class="language-plaintext highlighter-rouge">#Landsat</code></p>
+
+<hr />
+
+<p><a id="item-ai-news-2"></a></p>
+<h3 id="llm-anthropic-031-adds-fable-52-and-mythos-52-support-️-9010"><a href="https://simonwillison.net/2026/Nov/9/llm-anthropic/">llm-anthropic 0.31 adds Fable 5.2 and Mythos 5.2 support</a> ⭐️ 9.0/10</h3>
+
+<p>Simon Willison released llm-anthropic 0.31, adding support for Anthropic&#x27;s newly announced Fable 5.2 and Mythos 5.2 models. The plugin can be installed via `uv tool install llm`, `llm install llm-anthropic`, and `llm keys set anthropic`. The model identifier for Fable 5.2 is `claude-fable-5.2`. Willison tested SVG generation of a pelican riding a bicycle across all five reasoning levels (low, medium, high, xhigh, max). The xhigh level produced the best result, while max failed entirely after consuming 128,000 thinking tokens — a regression not present in Fable 5 or 5.1. Comparative outputs are linked in the release notes.</p>
+
+<p>rss · Simon Willison · Nov 9, 23:58</p>
+
+<p><strong>「Why it matters」</strong> Developers using the LLM CLI can immediately experiment with Anthropic&#x27;s latest Fable and Mythos models, including their reasoning-level controls. The max-level token exhaustion bug means users should avoid `max` for now and default to `xhigh` for highest-quality output. Installation takes three commands and an API key.</p>
+
+<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#llm</code>, <code class="language-plaintext highlighter-rouge">#anthropic</code>, <code class="language-plaintext highlighter-rouge">#cli-tools</code>, <code class="language-plaintext highlighter-rouge">#svg-generation</code>, <code class="language-plaintext highlighter-rouge">#reasoning-levels</code></p>
+
+<hr />
+
+<p><a id="item-ai-news-3"></a></p>
+<h3 id="nvidia-releases-nemotron-personas-finance-japan-synthetic-dataset-on-hugging-face-️-8010"><a href="https://huggingface.co/blog/nvidia/nemotron-personas-finance-japan">NVIDIA Releases Nemotron-Personas-Finance-Japan Synthetic Dataset on Hugging Face</a> ⭐️ 8.0/10</h3>
+
+<p>NVIDIA has released Nemotron-Personas-Finance-Japan, a synthetic dataset capturing Japanese demographics and financial context, via the Hugging Face Hub. The dataset is intended for LLM training and bias evaluation in financial AI applications. The Hugging Face blog post likely provides direct download links, usage examples, licensing information, and documentation, though full details require viewing the complete announcement.</p>
+
+<p>rss · Hugging Face Blog · Nov 9, 15:05</p>
+
+<p><strong>「Why It Matters」</strong> Practitioners working on Japanese financial NLP, fairness testing, or synthetic data research can immediately access this NVIDIA-originated dataset for model training and bias benchmarking. First step: visit the Hugging Face Hub page linked in the blog post to review the license, format, and usage examples before integrating into pipelines.</p>
+
+<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#dataset</code>, <code class="language-plaintext highlighter-rouge">#synthetic-data</code>, <code class="language-plaintext highlighter-rouge">#finance</code>, <code class="language-plaintext highlighter-rouge">#japan</code>, <code class="language-plaintext highlighter-rouge">#nvidia</code></p>
+
+<hr />
+
+<p><a id="item-ai-news-4"></a></p>
+<h3 id="simon-willison-open-sources-beep-locator-multi-device-audio-triangulation-built-with-claude-code-️-8010"><a href="https://simonwillison.net/2026/Nov/9/mysterious-beeps/">Simon Willison open-sources Beep Locator: multi-device audio triangulation built with Claude Code</a> ⭐️ 8.0/10</h3>
+
+<p>Simon Willison built and open-sourced Beep Locator, a web-based system that uses multiple phones, tablets, and laptops as distributed microphones to triangulate the source of an intermittent beep. The Python web server coordinates listeners via WebSockets and WebAudio; devices play chirps to estimate relative positions (with a manual "Rough mode" fallback), record 60-second audio buffers, and detect beeps using FFT-based detection. A calibration chirp aligns clips from all listeners, enabling time-difference-of-arrival localization. Willison developed the project with Claude Code (Opus 5.5, Extra thinking mode) starting from a problem statement; the AI retrieved the 2007 BeepBeep acoustic-ranging paper and implemented the full stack, including over-the-air code updates to listeners. In practice, the system located a beeping carbon-monoxide detector to within ~40 cm. The complete source is on GitHub at simonw/beep-locator.</p>
+
+<p>rss · Simon Willison · Nov 9, 23:57</p>
+
+<p><strong>「Why it matters」</strong> Developers and hobbyists who need to locate intermittent sounds — failing alarms, leaking pipes, electrical faults — can clone the repository, run the Python server, and join any number of browser-equipped devices via QR code to get a working triangulation map in minutes. The project also serves as a reference for AI-assisted full-stack development: it shows how a single prompt-to-completion loop with Claude Code produced a coordinating server, real-time WebSocket clients, DSP detection logic, and a self-updating listener mechanism.</p>
+
+<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#AI-assisted development</code>, <code class="language-plaintext highlighter-rouge">#audio processing</code>, <code class="language-plaintext highlighter-rouge">#multi-device coordination</code>, <code class="language-plaintext highlighter-rouge">#practical tool</code>, <code class="language-plaintext highlighter-rouge">#Claude Code</code></p>
+
+<hr />
+
+<p><a id="item-ai-news-5"></a></p>
+<h3 id="deepseek-v41-flash-vs-qwen-38-fn-local-moe-benchmark-️-8010"><a href="https://www.reddit.com/r/LocalLLaMA/comments/1xs7ffm/same_prompt_deepseek_v41_flash_vs_qwen_38_fn_94/">DeepSeek V4.1 Flash vs Qwen 3.8 FN: Local MoE Benchmark</a> ⭐️ 8.0/10</h3>
+
+<p>A Reddit user benchmarked DeepSeek V4.1 Flash (UD IQ1_M quantization) against Qwen 3.8 FN (NVFP4 quantization) on a complex V8 engine coding task using Basalt and Quecto Harness on an RTX 5090 + RTX 5060 Ti system. DeepSeek ran as a single agent at ~94 tok/s, generating 250k tokens in ~60 minutes with 346k context and no compaction; the engine worked on the first try but had limited cutaway detail. Qwen used a main agent plus five subagents (up to three concurrent) at ~350 tok/s aggregate, producing 443k+ main-agent tokens and 804k total context with two compactions in ~70 minutes; it built more parts and added sound but suffered from floating parts and two subagents that failed to write files. The author notes this was a one-shot test with a prompt likely in both models&#x27; training data.</p>
+
+<p>reddit · r/LocalLLaMA · /u/jesdga95 · Nov 9, 23:32</p>
+
+<p><strong>「Why It Matters」</strong> Practitioners evaluating locally runnable MoE models for coding tasks can compare quantization trade-offs (IQ1_M vs NVFP4), agent architectures (single vs multi-agent), and real-world inference speeds on high-end consumer hardware. First step: run the provided V8 engine prompt on Basalt/Quecto or a similar stack to replicate the comparison.</p>
+
+<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#local-llm</code>, <code class="language-plaintext highlighter-rouge">#moe-models</code>, <code class="language-plaintext highlighter-rouge">#quantization</code>, <code class="language-plaintext highlighter-rouge">#inference-benchmark</code>, <code class="language-plaintext highlighter-rouge">#multi-agent</code></p>
+
+<hr />
+
+<p><a id="item-ai-news-6"></a></p>
+<h3 id="amazon-introduces-hope-pruning-for-moe-models-on-hugging-face-blog-️-7010"><a href="https://huggingface.co/blog/amazon/higher-order-pruning-experts">Amazon introduces HOPE pruning for MoE models on Hugging Face blog</a> ⭐️ 7.0/10</h3>
+
+<p>Amazon published a blog post on Hugging Face introducing HOPE (Higher-Order Pruning Experts), a pruning method for mixture-of-experts (MoE) models that aims to preserve expert relationships. The post appears on the Hugging Face blog under Amazon&#x27;s authorship. No source content is available to confirm technical details, code availability, benchmarks, hardware requirements, or licensing.</p>
+
+<p>rss · Hugging Face Blog · Nov 9, 12:34</p>
+
+<p><strong>「Why it matters」</strong> Practitioners working with MoE models who need to reduce model size or inference cost may want to evaluate HOPE once the full post is accessible. The first step is to read the Hugging Face blog post at the provided URL to check for implementation details, example code, and compatibility with existing MoE frameworks.</p>
+
+<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#mixture-of-experts</code>, <code class="language-plaintext highlighter-rouge">#model-pruning</code>, <code class="language-plaintext highlighter-rouge">#model-optimization</code>, <code class="language-plaintext highlighter-rouge">#aws</code>, <code class="language-plaintext highlighter-rouge">#hugging-face</code></p>
+
+<hr />
+
+<p><a id="item-ai-news-7"></a></p>
+<h3 id="e-means-community-tests-show-mixed-speedups-vs-k-means-️-6010"><a href="https://e-means.github.io/">E-means: Community tests show mixed speedups vs k-means</a> ⭐️ 6.0/10</h3>
+
+<p>A Hacker News discussion covers E-means, a k-means variant claiming to outperform standard k-means in one-tenth the epochs. Community members report mixed real-world results: a 146× GPU speedup when adapted to an IVF index (code-daemon project), 2.5× faster bulk reindexing for hierarchical clustering (antfly project), but a negative result for spherical mesh relaxation where it was "definitely not better." The thread contains no official documentation, installation guide, API, license, or benchmark details — only practitioner anecdotes. Readers must visit the project site (e-means.github.io) for usable information.</p>
+
+<p>hackernews · porridgeraisin · Nov 9, 18:45 · <a href="https://news.ycombinator.com/item?id=50429734">Discussion</a></p>
+
+<p><strong>「Why it matters」</strong> ML engineers evaluating faster clustering should test E-means on their specific workload — especially IVF indexes or bulk reindexing pipelines — before adopting, since results vary by use case. The first step is visiting e-means.github.io to find implementation details, dependencies, and integration guidance.</p>
+
+<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#clustering</code>, <code class="language-plaintext highlighter-rouge">#k-means</code>, <code class="language-plaintext highlighter-rouge">#optimization</code>, <code class="language-plaintext highlighter-rouge">#machine-learning</code>, <code class="language-plaintext highlighter-rouge">#algorithm</code></p>
+
+<hr />
+
+<p><a id="item-ai-news-8"></a></p>
+<h3 id="airbnb-cuts-recommendation-latency-from-days-to-seconds-with-chronon-️-6010"><a href="https://www.infoq.cn/article/yuRNB72KsEbjGYSkV7FY?utm_source=rss&amp;utm_medium=article">Airbnb cuts recommendation latency from days to seconds with Chronon</a> ⭐️ 6.0/10</h3>
+
+<p>The article title states that Airbnb used Chronon, a feature engineering platform, to reduce recommendation latency from two days down to seconds. The full article content was not provided, so architectural details, implementation steps, and measurable results cannot be verified from the supplied material.</p>
+
+<p>rss · InfoQ 中文 · Nov 10, 09:11</p>
+
+<p><strong>「Why it matters」</strong> If the case study delivers on its title, ML engineers building real-time recommendation systems can reference Airbnb&#x27;s Chronon adoption as a proven path to move batch feature pipelines to low-latency serving. The first step would be to read the full article on InfoQ for architecture specifics and then evaluate Chronon against your current feature store.</p>
+
+<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#特征工程</code>, <code class="language-plaintext highlighter-rouge">#实时推荐</code>, <code class="language-plaintext highlighter-rouge">#ML基础设施</code>, <code class="language-plaintext highlighter-rouge">#Chronon</code>, <code class="language-plaintext highlighter-rouge">#延迟优化</code></p>
+
+<hr />
+
+<p><a id="item-ai-news-9"></a></p>
+<h3 id="reddit-user-shares-qwen35-4b-neurons-that-shift-personality-when-activated-️-6010"><a href="https://www.reddit.com/r/LocalLLaMA/comments/1xrydgx/more_interesting_and_unusual_qwen354b_neurons/">Reddit user shares Qwen3.5-4B neurons that shift personality when activated</a> ⭐️ 6.0/10</h3>
+
+<p>A Reddit user reports discovering specific neurons in Qwen3.5-4B that dramatically alter model behavior when activated. The post identifies five neuron indices: L11 N8147 acts as a contrarian-sycophantic dial (snarky/lying vs. obsequious/gullible); L6 N9195 triggers state-propaganda persona claiming Chinese government training; L7 N4213 produces baby-talk explanations; L17 N5680 causes religious/CCP obsessive repetition; L7 N8916 makes the model behave like a TV channel guide. The findings are user-reported on Reddit without verification, methodology, reproduction code, or tooling.</p>
+
+<p>reddit · r/LocalLLaMA · /u/Tasty-Ad-3753 · Nov 9, 17:46</p>
+
+<p><strong>「Why it matters」</strong> Mechanistic interpretability and model-steering researchers can use these neuron indices as concrete starting points for experiments on Qwen3.5-4B. The first step is to replicate the activations using steering vectors or activation patching to verify whether these neurons reliably control the described behaviors.</p>
+
+<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#mechanistic-interpretability</code>, <code class="language-plaintext highlighter-rouge">#model-steering</code>, <code class="language-plaintext highlighter-rouge">#qwen</code>, <code class="language-plaintext highlighter-rouge">#neuron-analysis</code>, <code class="language-plaintext highlighter-rouge">#local-llm</code></p>
+
+<hr />
+
+<p><a id="item-ai-news-10"></a></p>
+<h3 id="reddit-guide-introduces-neuron-steering-on-qwen35-4b-with-architectural-details-but-no-runnable-code-️-6010"><a href="https://www.reddit.com/r/LocalLLaMA/comments/1xs81f3/how_to_mess_around_with_neurons_a_short_guide/">Reddit guide introduces neuron steering on Qwen3.5-4B with architectural details but no runnable code</a> ⭐️ 6.0/10</h3>
+
+<p>A Reddit user shares a conceptual guide for neuron steering on Qwen3.5-4B (32 layers, 9,216 neurons per layer, ~295K total), describing the technique as adding a fixed "dose" to a single neuron during inference via a PyTorch forward pre-hook on the MLP down_proj. The post specifies the addressing convention (e.g., L11 N8147), a scaling formula using median residual norms, practical dose ranges (0.75–1.0 typical, &gt;1.5 often gibberish), and notes that changes can be saved as control vectors for llama.cpp via –control-vector. Three discovery methods are outlined: random search, gradient-based shortlisting with an LLM judge, and activation mining, with caveats that most neurons yield uninteresting effects and polarity/dose tuning matters. The guide credits justinrhowell&#x27;s neuron-steering repo for inspiration but provides no complete code, installation steps, or demonstrated behavior changes.</p>
+
+<p>reddit · r/LocalLLaMA · /u/Tasty-Ad-3753 · Nov 9, 23:59</p>
+
+<p><strong>「Why it matters」</strong> Researchers and hobbyists exploring lightweight model steering can use this as a starting point to build a neuron-steering harness for Qwen3.5-4B; the first actionable step is to implement the described PyTorch hook and test random neurons at dose ±0.75 on middle layers while comparing outputs against a baseline.</p>
+
+<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#neuron-steering</code>, <code class="language-plaintext highlighter-rouge">#activation-steering</code>, <code class="language-plaintext highlighter-rouge">#Qwen</code>, <code class="language-plaintext highlighter-rouge">#interpretability</code>, <code class="language-plaintext highlighter-rouge">#local-LLM</code></p>
+
+<hr />
+
+<h2 id="x--youtube-highlights">X / YouTube Highlights</h2>
+
+<p><a id="item-social-hot-1"></a></p>
+<h3 id="complete-github-actions-course-beginner-to-pro-️-8010"><a href="https://www.youtube.com/watch?v=Xwpi0ITkL3U">Complete GitHub Actions Course: Beginner to Pro</a> ⭐️ 8.0/10</h3>
+
+<p>This 3.7-hour complete GitHub Actions course from DevOps Directive takes viewers from beginner to advanced level, covering CI/CD workflow automation with practical, reproducible examples. The course includes a companion GitHub repository containing all sample workflows so learners can follow along in their own editor and build a mental model for GitHub Actions as a platform.</p>
+
+<p>youtube · GitHub · Nov 10, 04:37</p>
+
+<p><strong>「Why It&#x27;s Hot」</strong> This 3.7-hour GitHub Actions course from DevOps Directive has attracted 370,967 views, signaling strong developer demand for practical CI/CD automation skills. Viewers can walk away with reproducible workflow examples, best-practice patterns, and a structured path from basic syntax to advanced deployment pipelines they can apply directly to their projects.</p>
+
+<details><summary>References</summary>
+<ul>
+<li><a href="https://github.com/rashidbestry/devops-directive-github-actions">GitHub - rashidbestry/ devops - directive - github - actions : Companion...</a></li>
+<li><a href="https://courses.devopsdirective.com/github-actions-beginner-to-pro/lessons/00-introduction/01-main">Technical courses by Sid Palas ( DevOps Directive )</a></li>
+
+</ul>
+</details>
+
+<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#GitHub Actions</code>, <code class="language-plaintext highlighter-rouge">#CI/CD</code>, <code class="language-plaintext highlighter-rouge">#DevOps</code>, <code class="language-plaintext highlighter-rouge">#教程</code>, <code class="language-plaintext highlighter-rouge">#自动化</code></p>
+
+<hr />]]></content><author><name></name></author><summary type="html"><![CDATA[Showing 11 of 135 fetched items.]]></summary></entry><entry xml:lang="zh"><title type="html">Horizon Summary: 2026-11-10 (ZH)</title><link href="https://www.01040610.xyz/horizon/2026/11/10/summary-zh.html" rel="alternate" type="text/html" title="Horizon Summary: 2026-11-10 (ZH)" /><published>2026-11-10T00:00:00+00:00</published><updated>2026-11-10T00:00:00+00:00</updated><id>https://www.01040610.xyz/horizon/2026/11/10/summary-zh</id><content type="html" xml:base="https://www.01040610.xyz/horizon/2026/11/10/summary-zh.html"><![CDATA[<blockquote>
+  <p>今日抓取 135 条内容，收录 11 条。</p>
+</blockquote>
+
+<hr />
+
+<p><strong>AI 热门新闻</strong></p>
+<ol>
+  <li><a href="#item-ai-news-1">watched.earth：浏览器秒查任意地点近 7 天卫星过境与实拍影像</a> ⭐️ 9.0/10</li>
+  <li><a href="#item-ai-news-2">llm-anthropic 0.31 新增 Fable 5.2 与 Mythos 5.2 支持，附推理层级对比</a> ⭐️ 9.0/10</li>
+  <li><a href="#item-ai-news-3">NVIDIA 发布 Nemotron-Personas-Finance-Japan 合成数据集</a> ⭐️ 8.0/10</li>
+  <li><a href="#item-ai-news-4">Simon Willison 用 Claude Code 开发开源蜂鸣器定位工具 Beep Locator</a> ⭐️ 8.0/10</li>
+  <li><a href="#item-ai-news-5">DeepSeek V4.1 Flash 与 Qwen 3.8 FN 本地推理实测对比</a> ⭐️ 8.0/10</li>
+  <li><a href="#item-ai-news-6">Amazon 在 Hugging Face 发布 HOPE：面向 MoE 模型的高阶剪枝方法</a> ⭐️ 7.0/10</li>
+  <li><a href="#item-ai-news-7">E-means 聚类算法：社区实测加速效果不一，需自行验证适用场景</a> ⭐️ 6.0/10</li>
+  <li><a href="#item-ai-news-8">Airbnb 用 Chronon 把推荐延迟从两天降到秒级</a> ⭐️ 6.0/10</li>
+  <li><a href="#item-ai-news-9">Qwen3.5-4B 神经元索引被发现可控制人格模式</a> ⭐️ 6.0/10</li>
+  <li><a href="#item-ai-news-10">Reddit 发布 Qwen3.5-4B 神经元操控概念指南，提供架构细节但缺可运行代码</a> ⭐️ 6.0/10</li>
+</ol>
+
+<p><strong>X / YouTube 热门</strong></p>
+<ol>
+  <li><a href="#item-social-hot-1">DevOps Directive 出品 GitHub Actions 完整实战课程</a> ⭐️ 8.0/10</li>
+</ol>
+
+<hr />
+
+<h2 id="ai-热门新闻">AI 热门新闻</h2>
+
+<p><a id="item-ai-news-1"></a></p>
+<h3 id="watchedearth浏览器秒查任意地点近-7-天卫星过境与实拍影像-️-9010"><a href="https://www.watched.earth/">watched.earth：浏览器秒查任意地点近 7 天卫星过境与实拍影像</a> ⭐️ 9.0/10</h3>
+
+<p>watched.earth 是一个即开即用的网页工具，输入任意地点即可在约 0.5 秒内列出过去 7 天所有经过该地的卫星（基于 CelesTrak 目录的 SGP4 算法，浏览器端运行），并拉取 Sentinel-2、Landsat 与 NASA 的真实影像。全量约 1.7 万在轨目标由 GPU 逐帧求解开普勒方程渲染；作者声称过境检索零遗漏（已对极点、本初子午线、极窄幅面做暴力校验），且不存储用户位置。代码已开源于 GitHub（dev-Armaan/satellites），免费无需部署。</p>
+
+<p>hackernews · a585gupt · 11月9日 17:51 · <a href="https://news.ycombinator.com/item?id=50428907">社区讨论</a></p>
+
+<p><strong>「实用价值」</strong> 地理信息从业者、户外规划者或对卫星影像感兴趣的用户可直接在浏览器验证某地近期是否被拍摄、获取对应影像时间戳与来源，首要动作是打开 watched.earth 输入目标坐标或地名即可试用。</p>
+
+<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#卫星影像</code>, <code class="language-plaintext highlighter-rouge">#地理空间</code>, <code class="language-plaintext highlighter-rouge">#开源工具</code>, <code class="language-plaintext highlighter-rouge">#Sentinel-2</code>, <code class="language-plaintext highlighter-rouge">#Landsat</code></p>
+
+<hr />
+
+<p><a id="item-ai-news-2"></a></p>
+<h3 id="llm-anthropic-031-新增-fable-52-与-mythos-52-支持附推理层级对比-️-9010"><a href="https://simonwillison.net/2026/Nov/9/llm-anthropic/">llm-anthropic 0.31 新增 Fable 5.2 与 Mythos 5.2 支持，附推理层级对比</a> ⭐️ 9.0/10</h3>
+
+<p>Simon Willison 发布 llm-anthropic 0.31，新增对 Anthropic 最新模型 Fable 5.2 与 Mythos 5.2 的支持。安装命令为：`uv tool install llm`、`llm install llm-anthropic`、`llm keys set anthropic`（随后粘贴 API Key）。模型标识符为 `claude-fable-5.2`，可直接通过 `llm -m claude-fable-5.2 "提示词"` 调用。作者以“鹈鹕骑自行车”生成 SVG 为例，在五个推理层级（low、medium、high、xhigh、max）均做了对比测试，xhigh 表现最佳；max 层级因消耗 128,000 思考 token 耗尽上下文而失败，该问题此前在 Opus 5.5 出现过，但在 Fable 5 与 5.1 中并不存在。完整对比结果可通过提供的 Gist 链接查看。</p>
+
+<p>rss · Simon Willison · 11月9日 23:58</p>
+
+<p><strong>「实用价值」</strong> 想在命令行或脚本中直接调用 Anthropic 新模型的开发者，可按文中三条命令立即完成环境搭建并开始实验；对比测试结果可作为选择推理层级的参考——若需高质量 SVG 生成，优先尝试 xhigh，避免使用 max 以防 token 耗尽。</p>
+
+<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#llm</code>, <code class="language-plaintext highlighter-rouge">#anthropic</code>, <code class="language-plaintext highlighter-rouge">#cli-tools</code>, <code class="language-plaintext highlighter-rouge">#svg-generation</code>, <code class="language-plaintext highlighter-rouge">#reasoning-levels</code></p>
+
+<hr />
+
+<p><a id="item-ai-news-3"></a></p>
+<h3 id="nvidia-发布-nemotron-personas-finance-japan-合成数据集-️-8010"><a href="https://huggingface.co/blog/nvidia/nemotron-personas-finance-japan">NVIDIA 发布 Nemotron-Personas-Finance-Japan 合成数据集</a> ⭐️ 8.0/10</h3>
+
+<p>NVIDIA 于 2026-11-09 通过 Hugging Face Blog 发布了名为 Nemotron-Personas-Finance-Japan 的合成数据集，旨在捕捉日本的人口统计特征与金融语境。该数据集属于 Nemotron 系列，面向日文金融 NLP、LLM 训练及偏见/公平性评估场景。博文通常会提供 Hugging Face Hub 下载链接、数据格式、许可证及使用示例，但具体的数据规模、字段结构、许可证类型及是否已可直接下载，需以原文为准。</p>
+
+<p>rss · Hugging Face Blog · 11月9日 15:05</p>
+
+<p><strong>「实用价值」</strong> 对从事日文金融领域 LLM 微调、合成数据研究或模型公平性测试的工程师/研究员可用。第一步：打开博文链接获取 Hugging Face Hub 仓库地址，确认许可证与数据卡片，再决定是否纳入训练或评测流程。</p>
+
+<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#dataset</code>, <code class="language-plaintext highlighter-rouge">#synthetic-data</code>, <code class="language-plaintext highlighter-rouge">#finance</code>, <code class="language-plaintext highlighter-rouge">#japan</code>, <code class="language-plaintext highlighter-rouge">#nvidia</code></p>
+
+<hr />
+
+<p><a id="item-ai-news-4"></a></p>
+<h3 id="simon-willison-用-claude-code-开发开源蜂鸣器定位工具-beep-locator-️-8010"><a href="https://simonwillison.net/2026/Nov/9/mysterious-beeps/">Simon Willison 用 Claude Code 开发开源蜂鸣器定位工具 Beep Locator</a> ⭐️ 8.0/10</h3>
+
+<p>Simon Willison 利用 Claude Code（Opus 5.5 Extra thinking 模式）构建并开源了 Beep Locator，一个基于 Web 的蜂鸣器三角定位系统。用户在一台设备上运行 Python Web 服务器，通过二维码或链接让多台手机、平板、笔记本作为分布式麦克风接入。系统基于 2007 年 BeepBeep 论文的声学测距原理，利用设备间播放啁啾声同步音频片段，结合 FFT 和高通滤波检测蜂鸣，实现约 40 厘米定位精度。项目已在 GitHub 完整开源（simonw/beep-locator），包含拍手测试模式、手动粗略定位模式、实时声源可视化等功能，实测成功定位家中一台电量不足的旧一氧化碳报警器。</p>
+
+<p>rss · Simon Willison · 11月9日 23:57</p>
+
+<p><strong>「实用价值」</strong> 任何需要定位间歇性声源（报警器、管道漏水、电器异响）的人都可直接克隆部署，利用手边闲置设备组成临时麦克风阵列，无需专业设备。第一步：克隆仓库，按 README 启动 Python 服务器，扫码加入监听设备，按提示校准或拖拽粗略定位，即可开始抓取神秘蜂鸣。</p>
+
+<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#AI-assisted development</code>, <code class="language-plaintext highlighter-rouge">#audio processing</code>, <code class="language-plaintext highlighter-rouge">#multi-device coordination</code>, <code class="language-plaintext highlighter-rouge">#practical tool</code>, <code class="language-plaintext highlighter-rouge">#Claude Code</code></p>
+
+<hr />
+
+<p><a id="item-ai-news-5"></a></p>
+<h3 id="deepseek-v41-flash-与-qwen-38-fn-本地推理实测对比-️-8010"><a href="https://www.reddit.com/r/LocalLLaMA/comments/1xs7ffm/same_prompt_deepseek_v41_flash_vs_qwen_38_fn_94/">DeepSeek V4.1 Flash 与 Qwen 3.8 FN 本地推理实测对比</a> ⭐️ 8.0/10</h3>
+
+<p>Reddit 用户 /u/jesdga95 在 RTX 5090 + RTX 5060 Ti、128 GB DDR5 环境下，用同一提示词（构建交互式 V8 引擎 Three.js 页面）对比了两款可本地运行的 MoE 模型。DeepSeek V4.1 Flash 采用 UD IQ1_M 量化、单 Agent，以约 94 tok/s 跑完 250k token、346k 上下文且无压缩，首次生成即完美运行；Qwen 3.8 FN 采用 NVFP4 量化、主 Agent + 5 子 Agent（最多 3 并发），聚合约 350 tok/s，耗时 70 分钟生成 443k+ token、总上下文 804k 并发生 2 次压缩，但有子 Agent 未完成任务、最终成品存在悬浮部件。测试使用 Basalt 与 Quecto Harness（作者为维护者），属单次实测，提示词极大概率已在训练集中。</p>
+
+<p>reddit · r/LocalLLaMA · /u/jesdga95 · 11月9日 23:32</p>
+
+<p><strong>「实用价值」</strong> 对于在消费级/准专业显卡上部署大模型的工程师，该实测直观展示了极低比特量化（IQ1_M）下 DeepSeek V4.1 Flash 的单 Agent 稳定性，以及高吞吐量 NVFP4 量化下 Qwen 3.8 FN 多 Agent 协作的潜在故障点；想评估本地长上下文、多 Agent 编码任务可行性的团队可直接复现该提示词，对比两种量化与 Agent 架构的权衡。</p>
+
+<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#local-llm</code>, <code class="language-plaintext highlighter-rouge">#moe-models</code>, <code class="language-plaintext highlighter-rouge">#quantization</code>, <code class="language-plaintext highlighter-rouge">#inference-benchmark</code>, <code class="language-plaintext highlighter-rouge">#multi-agent</code></p>
+
+<hr />
+
+<p><a id="item-ai-news-6"></a></p>
+<h3 id="amazon-在-hugging-face-发布-hope面向-moe-模型的高阶剪枝方法-️-7010"><a href="https://huggingface.co/blog/amazon/higher-order-pruning-experts">Amazon 在 Hugging Face 发布 HOPE：面向 MoE 模型的高阶剪枝方法</a> ⭐️ 7.0/10</h3>
+
+<p>Amazon 在 Hugging Face 博客发文介绍 HOPE（Higher-Order Pruning Experts），一种针对混合专家模型（MoE）的高阶剪枝方法，旨在剪枝的同时保留专家间的关系。博客由 Amazon 团队撰写，发布于 Hugging Face 官方博客，属于技术分享性质。目前仅知标题与发布渠道，正文细节（如实现代码、基准对比、硬件要求、许可证、可直接下载的模型权重等）未在可用材料中出现，实际可用程度需阅读原文确认。</p>
+
+<p>rss · Hugging Face Blog · 11月9日 12:34</p>
+
+<p><strong>「对你的意义」</strong> 如果你在生产或实验中部署 MoE 模型并面临显存/算力压力，HOPE 可能提供一种在保持专家协作能力的前提下压缩模型的新思路。第一步是打开原文（链接见上），确认是否提供可复现的代码、预剪枝权重或集成指南，再决定是否纳入评测对比。</p>
+
+<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#mixture-of-experts</code>, <code class="language-plaintext highlighter-rouge">#model-pruning</code>, <code class="language-plaintext highlighter-rouge">#model-optimization</code>, <code class="language-plaintext highlighter-rouge">#aws</code>, <code class="language-plaintext highlighter-rouge">#hugging-face</code></p>
+
+<hr />
+
+<p><a id="item-ai-news-7"></a></p>
+<h3 id="e-means-聚类算法社区实测加速效果不一需自行验证适用场景-️-6010"><a href="https://e-means.github.io/">E-means 聚类算法：社区实测加速效果不一，需自行验证适用场景</a> ⭐️ 6.0/10</h3>
+
+<p>Hacker News 讨论 E-means（一种声称比 k-means 快十倍的聚类变体）。社区成员报告了真实集成测试结果：real_faxenoff 在 IVF 索引（code-daemon 项目）上实现 146 倍 GPU 加速；kingcauchy 在分层平衡增量聚类（antflydb/antfly#1607）中让批量重建索引快 2.5 倍，但整体插入耗时变化不大；jlhawn 尝试用于球面等面积网格松弛，发现效果反而变差。讨论中无官方文档、安装指南、API、许可证或基准细节，读者需自行访问 e-means.github.io 获取可用信息。</p>
+
+<p>hackernews · porridgeraisin · 11月9日 18:45 · <a href="https://news.ycombinator.com/item?id=50429734">社区讨论</a></p>
+
+<p><strong>「对你有什么用」</strong> 从事向量检索、聚类索引、大规模数据分区的工程师可关注：若你的场景涉及大批量离线重建或 GPU 加速的 IVF 类索引，值得去项目站点拿代码跑基准；但球面网格松弛等几何优化场景已有负面反馈。第一步：打开 e-means.github.io 确认是否有可用的库、许可证与基准脚本，再在自家数据上对比 Lloyd 算法或 FAISS。</p>
+
+<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#clustering</code>, <code class="language-plaintext highlighter-rouge">#k-means</code>, <code class="language-plaintext highlighter-rouge">#optimization</code>, <code class="language-plaintext highlighter-rouge">#machine-learning</code>, <code class="language-plaintext highlighter-rouge">#algorithm</code></p>
+
+<hr />
+
+<p><a id="item-ai-news-8"></a></p>
+<h3 id="airbnb-用-chronon-把推荐延迟从两天降到秒级-️-6010"><a href="https://www.infoq.cn/article/yuRNB72KsEbjGYSkV7FY?utm_source=rss&amp;utm_medium=article">Airbnb 用 Chronon 把推荐延迟从两天降到秒级</a> ⭐️ 6.0/10</h3>
+
+<p>InfoQ 刊发标题为《Airbnb 借助 Chronon 将推荐延迟从两天缩短至秒级》的案例研究（作者 Leela Kumili），介绍 Airbnb 如何利用特征工程平台 Chronon 大幅降低实时推荐系统的端到端延迟。目前仅能看到标题与链接，正文的架构细节、对比数据、复现步骤或工具获取方式等可操作信息未在提供的材料中出现。</p>
+
+<p>rss · InfoQ 中文 · 11月10日 09:11</p>
+
+<p><strong>「对你的意义」</strong> 如果你在做实时推荐、特征平台或 ML 基础设施优化，这篇案例可作为参考：先去读原文确认是否给出了 Chronon 的接入模式、在线/离线一致性方案、延迟拆解数据，再决定是否在自家技术栈里做对比或试点。</p>
+
+<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#特征工程</code>, <code class="language-plaintext highlighter-rouge">#实时推荐</code>, <code class="language-plaintext highlighter-rouge">#ML基础设施</code>, <code class="language-plaintext highlighter-rouge">#Chronon</code>, <code class="language-plaintext highlighter-rouge">#延迟优化</code></p>
+
+<hr />
+
+<p><a id="item-ai-news-9"></a></p>
+<h3 id="qwen35-4b-神经元索引被发现可控制人格模式-️-6010"><a href="https://www.reddit.com/r/LocalLLaMA/comments/1xrydgx/more_interesting_and_unusual_qwen354b_neurons/">Qwen3.5-4B 神经元索引被发现可控制人格模式</a> ⭐️ 6.0/10</h3>
+
+<p>Reddit 用户 /u/Tasty-Ad-3753 报告在 Qwen3.5-4B 中发现多个特定神经元索引，激活后能显著改变模型行为：L11 N8147 作为「反讽/阿谀」调节旋钮，L6 N9195 触发「国家宣传」人设并声称由中国政府训练，L7 N4213 让模型用对婴儿说话的口吻回复，L17 N5680 引发宗教/政治强迫性输出，L7 N8916 让模型自认为是电视频道指南。这些发现基于用户自行探测，未提供验证方法、复现代码或工具链，属于未经验证的观察性线索。</p>
+
+<p>reddit · r/LocalLLaMA · /u/Tasty-Ad-3753 · 11月9日 17:46</p>
+
+<p><strong>「意义」</strong> 为机制可解释性与模型导向研究提供了具体的神经元级切入点；想跟进的实验者可先在 Qwen3.5-4B 上尝试激活上述索引并记录行为变化，再设计系统性干预实验。</p>
+
+<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#mechanistic-interpretability</code>, <code class="language-plaintext highlighter-rouge">#model-steering</code>, <code class="language-plaintext highlighter-rouge">#qwen</code>, <code class="language-plaintext highlighter-rouge">#neuron-analysis</code>, <code class="language-plaintext highlighter-rouge">#local-llm</code></p>
+
+<hr />
+
+<p><a id="item-ai-news-10"></a></p>
+<h3 id="reddit-发布-qwen35-4b-神经元操控概念指南提供架构细节但缺可运行代码-️-6010"><a href="https://www.reddit.com/r/LocalLLaMA/comments/1xs81f3/how_to_mess_around_with_neurons_a_short_guide/">Reddit 发布 Qwen3.5-4B 神经元操控概念指南，提供架构细节但缺可运行代码</a> ⭐️ 6.0/10</h3>
+
+<p>Reddit 用户 /u/Tasty-Ad-3753 发布了一份关于 Qwen3.5-4B 模型神经元操控的概念指南。该模型包含 32 层、每层 9,216 个神经元（约 29.5 万个），指南介绍了通过在推理时向单个神经元添加固定“剂量”来改变模型行为的方法，并给出了神经元寻址约定（如 L11 N8147 表示第 12 层第 8147 个神经元）、Hook 实现公式及剂量经验值（0.75 较好，&gt;1.5 易产生乱码）。文中还列举了随机搜索、梯度筛选+LLM 评判、激活挖掘三种寻找有趣神经元的思路，并提到可将修改保存为 control vector 在 llama.cpp 中使用。指南参考了 justinrhowell 的 neuron-steering 仓库，但内容被截断，未提供完整代码、库依赖、安装步骤或演示效果。</p>
+
+<p>reddit · r/LocalLLaMA · /u/Tasty-Ad-3753 · 11月9日 23:59</p>
+
+<p><strong>「实用价值」</strong> 对想在本地尝试激活向量操控的开发者有参考价值：可先按指南公式在 PyTorch/transformers 中给 Qwen3.5-4B 的 down_proj 挂 Hook 做单神经元推理实验，或直接用 llama.cpp 的 –control-vector 加载已有向量；寻找有趣神经元时建议优先用随机搜索配合 LLM 自动评测，再结合 Neuronpedia 复核。</p>
+
+<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#neuron-steering</code>, <code class="language-plaintext highlighter-rouge">#activation-steering</code>, <code class="language-plaintext highlighter-rouge">#Qwen</code>, <code class="language-plaintext highlighter-rouge">#interpretability</code>, <code class="language-plaintext highlighter-rouge">#local-LLM</code></p>
+
+<hr />
+
+<h2 id="x--youtube-热门">X / YouTube 热门</h2>
+
+<p><a id="item-social-hot-1"></a></p>
+<h3 id="devops-directive-出品-github-actions-完整实战课程-️-8010"><a href="https://www.youtube.com/watch?v=Xwpi0ITkL3U">DevOps Directive 出品 GitHub Actions 完整实战课程</a> ⭐️ 8.0/10</h3>
+
+<p>这是 DevOps Directive 频道出品的 3.7 小时 GitHub Actions 完整实战课程，从入门到进阶系统讲解 CI/CD 配置。课程配套 GitHub 仓库提供所有示例工作流，涵盖 GitHub Actions 平台心智模型构建、历史动机、核心概念及可落地的自动化部署实战。</p>
+
+<p>youtube · GitHub · 11月10日 04:37</p>
+
+<p><strong>「推荐理由」</strong> 该视频播放量 37 万+，是 DevOps Directive 频道出品的 3.7 小时 GitHub Actions 系统教程，从入门到进阶提供大量可落地的 CI/CD 配置示例，适合开发者系统学习并直接应用到项目中。</p>
+
+<details><summary>参考链接</summary>
+<ul>
+<li><a href="https://github.com/rashidbestry/devops-directive-github-actions">GitHub - rashidbestry/ devops - directive - github - actions : Companion...</a></li>
+<li><a href="https://courses.devopsdirective.com/github-actions-beginner-to-pro/lessons/00-introduction/01-main">Technical courses by Sid Palas ( DevOps Directive )</a></li>
+
+</ul>
+</details>
+
+<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#GitHub Actions</code>, <code class="language-plaintext highlighter-rouge">#CI/CD</code>, <code class="language-plaintext highlighter-rouge">#DevOps</code>, <code class="language-plaintext highlighter-rouge">#教程</code>, <code class="language-plaintext highlighter-rouge">#自动化</code></p>
+
+<hr />]]></content><author><name></name></author><summary type="html"><![CDATA[今日抓取 135 条内容，收录 11 条。]]></summary></entry><entry xml:lang="en"><title type="html">Horizon Summary: 2026-11-09 (EN)</title><link href="https://www.01040610.xyz/horizon/2026/11/09/summary-en.html" rel="alternate" type="text/html" title="Horizon Summary: 2026-11-09 (EN)" /><published>2026-11-09T00:00:00+00:00</published><updated>2026-11-09T00:00:00+00:00</updated><id>https://www.01040610.xyz/horizon/2026/11/09/summary-en</id><content type="html" xml:base="https://www.01040610.xyz/horizon/2026/11/09/summary-en.html"><![CDATA[<blockquote>
   <p>Showing 11 of 88 fetched items.</p>
 </blockquote>
 
@@ -1588,756 +1948,4 @@
 
 <p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#GitHub</code>, <code class="language-plaintext highlighter-rouge">#tutorial</code>, <code class="language-plaintext highlighter-rouge">#beginner</code>, <code class="language-plaintext highlighter-rouge">#open-source</code>, <code class="language-plaintext highlighter-rouge">#resource-discovery</code></p>
 
-<hr />]]></content><author><name></name></author><summary type="html"><![CDATA[今日抓取 136 条内容，收录 15 条。]]></summary></entry><entry xml:lang="en"><title type="html">Horizon Summary: 2026-11-05 (EN)</title><link href="https://www.01040610.xyz/horizon/2026/11/05/summary-en.html" rel="alternate" type="text/html" title="Horizon Summary: 2026-11-05 (EN)" /><published>2026-11-05T00:00:00+00:00</published><updated>2026-11-05T00:00:00+00:00</updated><id>https://www.01040610.xyz/horizon/2026/11/05/summary-en</id><content type="html" xml:base="https://www.01040610.xyz/horizon/2026/11/05/summary-en.html"><![CDATA[<blockquote>
-  <p>Showing 24 of 142 fetched items.</p>
-</blockquote>
-
-<hr />
-
-<p><strong>AI Dev Tools</strong></p>
-<ol>
-  <li><a href="#item-gh-trending-1">The-PR-Agent/pr-agent: Open-source AI PR reviewer for automated code review</a> ⭐️ 9.0/10</li>
-  <li><a href="#item-gh-trending-2">google-gemini/gemini-cli: Terminal AI agent with Gemini and MCP support</a> ⭐️ 9.0/10</li>
-  <li><a href="#item-gh-trending-3">QwenLM/qwen-code: Terminal-native AI coding agent</a> ⭐️ 8.0/10</li>
-  <li><a href="#item-gh-trending-4">coleam00/Archon: Open-source harness builder for deterministic AI coding</a> ⭐️ 8.0/10</li>
-  <li><a href="#item-gh-trending-5">n8n-io/n8n: Fair-code workflow automation with native AI and MCP</a> ⭐️ 8.0/10</li>
-  <li><a href="#item-gh-trending-6">sourcery-ai/sourcery: AI code review bot for Python</a> ⭐️ 8.0/10</li>
-  <li><a href="#item-gh-trending-7">iamumeransari/claude-show-your-work: In-terminal visual review for Claude Code agents</a> ⭐️ 8.0/10</li>
-  <li><a href="#item-gh-trending-8">codewhale-hq/Codewhale: Open-source Rust terminal coding agent with multi-model support</a> ⭐️ 7.0/10</li>
-  <li><a href="#item-gh-trending-9">esengine/DeepSeek-Reasonix: Go CLI coding agent for complex engineering tasks</a> ⭐️ 7.0/10</li>
-  <li><a href="#item-gh-trending-10">kodustech/kodus-ai: Self-hosted AI code review bot with BYOK</a> ⭐️ 7.0/10</li>
-  <li><a href="#item-gh-trending-11">HexmosTech/git-lrc: AI code reviews on git commit</a> ⭐️ 7.0/10</li>
-  <li><a href="#item-gh-trending-12">openqodex/openqodex: AI code reviewer for coding agents</a> ⭐️ 7.0/10</li>
-  <li><a href="#item-gh-trending-13">1jehuang/jcode: Rust coding agent harness for multi-agent workflows</a> ⭐️ 6.0/10</li>
-  <li><a href="#item-gh-trending-14">D4Vinci/Scrapling: Python web scraping framework for scalable crawling</a> ⭐️ 5.0/10</li>
-  <li><a href="#item-gh-trending-15">scenario-labs/skills: Python SDK for AI-driven 3D asset generation with DCC tool integration</a> ⭐️ 5.0/10</li>
-</ol>
-
-<p><strong>AI News</strong></p>
-<ol>
-  <li><a href="#item-ai-news-1">Go 1.23+ adds encoding/json/v2 with streaming and performance gains</a> ⭐️ 8.0/10</li>
-  <li><a href="#item-ai-news-2">OpenAI Images 2.6 raises low-tier costs 4×, adds animation frames and SVG</a> ⭐️ 7.0/10</li>
-  <li><a href="#item-ai-news-3">Kimi K3.1 Pro weights released on Hugging Face with API access</a> ⭐️ 7.0/10</li>
-  <li><a href="#item-ai-news-4">Unsloth releases Qwen3.8-Flash-Next GGUFs V3.1 with claimed 15% accuracy gain</a> ⭐️ 7.0/10</li>
-  <li><a href="#item-ai-news-5">Gemma 4 26B-A4B pruned to 3.8B dense model via expert fixing</a> ⭐️ 7.0/10</li>
-</ol>
-
-<p><strong>X / YouTube Highlights</strong></p>
-<ol>
-  <li><a href="#item-social-hot-1">Git &amp; GitHub Crash Course for Beginners [2026] - freeCodeCamp.org</a> ⭐️ 8.0/10</li>
-  <li><a href="#item-social-hot-2">GitHub Official Beginner Tutorial Hits 1.9M Views</a> ⭐️ 7.0/10</li>
-  <li><a href="#item-social-hot-3">GitHub Official Tutorial: Essential Workflows for Developers</a> ⭐️ 7.0/10</li>
-  <li><a href="#item-social-hot-4">Learn Git &amp; GitHub for Beginners (2026 Tutorial) | Coder Coder</a> ⭐️ 7.0/10</li>
-</ol>
-
-<hr />
-
-<h2 id="ai-dev-tools">AI Dev Tools</h2>
-
-<p><a id="item-gh-trending-1"></a></p>
-<h3 id="the-pr-agentpr-agent-open-source-ai-pr-reviewer-for-automated-code-review-️-9010"><a href="https://github.com/The-PR-Agent/pr-agent">The-PR-Agent/pr-agent: Open-source AI PR reviewer for automated code review</a> ⭐️ 9.0/10</h3>
-
-<p>PR Agent is an open-source AI tool that automates pull-request reviews by integrating with CI/CD pipelines and supporting multiple LLM providers such as OpenAI, Anthropic, and Ollama. Written in Python, it addresses the time-consuming and inconsistent nature of manual code reviews. The project has been actively maintained since 2023 and shows production-ready maturity with over 14.8k stars and recent activity.</p>
-
-<p>github · The-PR-Agent · Nov 5, 03:28</p>
-
-<p><strong>「Why Recommended」</strong> It fits into the code-review stage of development, replacing or augmenting manual PR reviews with automated AI feedback, and is suited for teams wanting to reduce review latency and improve consistency. The 14.8k stars and 280 stars gained today indicate strong community adoption and ongoing maintenance.</p>
-
-<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#code-review</code>, <code class="language-plaintext highlighter-rouge">#ai-code-review</code>, <code class="language-plaintext highlighter-rouge">#pr-automation</code>, <code class="language-plaintext highlighter-rouge">#devtools</code>, <code class="language-plaintext highlighter-rouge">#llm-applications</code></p>
-
-<hr />
-
-<p><a id="item-gh-trending-2"></a></p>
-<h3 id="google-geminigemini-cli-terminal-ai-agent-with-gemini-and-mcp-support-️-9010"><a href="https://github.com/google-gemini/gemini-cli">google-gemini/gemini-cli: Terminal AI agent with Gemini and MCP support</a> ⭐️ 9.0/10</h3>
-
-<p>google-gemini/gemini-cli is an open-source terminal AI agent that brings Google&#x27;s Gemini models directly into the command line for coding assistance. It supports the Model Context Protocol (MCP) as both client and server, enabling integration with external tools and data sources. Built in TypeScript, the project has accumulated over 108k stars since its April 2025 launch and shows active maintenance with recent pushes.</p>
-
-<p>github · google-gemini · Nov 5, 03:28</p>
-
-<p><strong>「Why Recommended」</strong> It fits the coding and context-supply phases of development by letting developers invoke Gemini without leaving the terminal, replacing ad-hoc web chats or IDE plugins with a scriptable, MCP-compatible CLI. The high star count and ongoing commits signal a healthy community for teams wanting a lightweight, vendor-backed AI assistant in their existing shell workflows.</p>
-
-<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#ai-agent</code>, <code class="language-plaintext highlighter-rouge">#cli-tool</code>, <code class="language-plaintext highlighter-rouge">#gemini</code>, <code class="language-plaintext highlighter-rouge">#mcp</code>, <code class="language-plaintext highlighter-rouge">#developer-productivity</code></p>
-
-<hr />
-
-<p><a id="item-gh-trending-3"></a></p>
-<h3 id="qwenlmqwen-code-terminal-native-ai-coding-agent-️-8010"><a href="https://github.com/QwenLM/qwen-code">QwenLM/qwen-code: Terminal-native AI coding agent</a> ⭐️ 8.0/10</h3>
-
-<p>QwenLM/qwen-code is an open-source AI coding agent that runs directly in the terminal, embedding into CLI workflows to reduce context-switching overhead. Built with TypeScript, it targets the coding phase of development and has garnered over 29k stars since its June 2025 launch. The project remains actively maintained, though a high number of open issues suggests ongoing maturity challenges.</p>
-
-<p>github · QwenLM · Nov 5, 03:28</p>
-
-<p><strong>「Why Recommended」</strong> It fits the writing-code stage by providing an agentic assistant inside the terminal, replacing manual context gathering and boilerplate generation for developers who prefer a CLI-first workflow. The strong star count and recent activity indicate community interest, making it worth evaluating for teams adopting AI-assisted coding.</p>
-
-<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#ai-coding-agent</code>, <code class="language-plaintext highlighter-rouge">#terminal-cli</code>, <code class="language-plaintext highlighter-rouge">#developer-tools</code>, <code class="language-plaintext highlighter-rouge">#typescript</code>, <code class="language-plaintext highlighter-rouge">#qwen</code></p>
-
-<hr />
-
-<p><a id="item-gh-trending-4"></a></p>
-<h3 id="coleam00archon-open-source-harness-builder-for-deterministic-ai-coding-️-8010"><a href="https://github.com/coleam00/Archon">coleam00/Archon: Open-source harness builder for deterministic AI coding</a> ⭐️ 8.0/10</h3>
-
-<p>Archon is an open-source harness builder that makes AI coding deterministic and repeatable by defining coding tasks as versioned YAML workflows. It provides a CLI and workflow engine implemented in TypeScript with Bun, targeting the problem of non-reproducible prompts and fragile AI-generated code. The project has 23.8k stars, 3.5k forks, and recent commits, indicating an actively maintained and usable tool.</p>
-
-<p>github · coleam00 · Nov 5, 03:28</p>
-
-<p><strong>「Why Recommended」</strong> Archon fits into the AI-assisted development loop by replacing ad-hoc prompting with reproducible, version-controlled workflows, giving developers a deterministic way to generate and iterate on code. Its active community (23.8k stars) and recent updates make it a practical choice for teams that want to treat AI coding tasks as first-class, auditable artifacts.</p>
-
-<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#ai-coding-assistant</code>, <code class="language-plaintext highlighter-rouge">#workflow-engine</code>, <code class="language-plaintext highlighter-rouge">#developer-tools</code>, <code class="language-plaintext highlighter-rouge">#deterministic-ai</code>, <code class="language-plaintext highlighter-rouge">#typescript-cli</code></p>
-
-<hr />
-
-<p><a id="item-gh-trending-5"></a></p>
-<h3 id="n8n-ion8n-fair-code-workflow-automation-with-native-ai-and-mcp-️-8010"><a href="https://github.com/n8n-io/n8n">n8n-io/n8n: Fair-code workflow automation with native AI and MCP</a> ⭐️ 8.0/10</h3>
-
-<p>n8n is a fair-code workflow automation platform that lets developers build integrations visually or with custom TypeScript code, offering 400+ native integrations and self-hosted or cloud deployment. It targets the glue-code burden in development by providing a low-code canvas for orchestrating APIs, data flows, and AI steps, with built-in MCP support for model context. The project, created in 2019 and now at 209k stars, is mature and production-ready with active maintenance.</p>
-
-<p>github · n8n-io · Nov 5, 03:28</p>
-
-<p><strong>「Why Recommended」</strong> It fits the delivery and integration phase by replacing hand-written glue code with a visual, extensible workflow engine that also embeds AI capabilities and MCP, so teams can automate multi-step processes without leaving their infrastructure. The 209k-star count signals strong community adoption and ongoing development, making it a practical choice for engineers who want to reduce integration overhead while keeping full control via self-hosting.</p>
-
-<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#workflow-automation</code>, <code class="language-plaintext highlighter-rouge">#low-code</code>, <code class="language-plaintext highlighter-rouge">#ai-integration</code>, <code class="language-plaintext highlighter-rouge">#mcp</code>, <code class="language-plaintext highlighter-rouge">#self-hosted</code></p>
-
-<hr />
-
-<p><a id="item-gh-trending-6"></a></p>
-<h3 id="sourcery-aisourcery-ai-code-review-bot-for-python-️-8010"><a href="https://github.com/sourcery-ai/sourcery">sourcery-ai/sourcery: AI code review bot for Python</a> ⭐️ 8.0/10</h3>
-
-<p>Sourcery is an AI-powered code review bot that automates refactoring suggestions and quality feedback for Python pull requests. It targets the code review phase by providing instant, automated reviews that reduce manual effort. The project has been actively maintained since 2019 with recent updates, indicating a usable, production-ready tool.</p>
-
-<p>github · sourcery-ai · Nov 5, 03:28</p>
-
-<p><strong>「Why Recommended」</strong> It fits the code review stage, replacing manual review steps with AI-driven refactoring and quality checks, making it suitable for Python teams wanting faster, consistent PR feedback. With 1.8k stars and recent activity, it shows strong community adoption and ongoing maintenance.</p>
-
-<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#ai-code-review</code>, <code class="language-plaintext highlighter-rouge">#python</code>, <code class="language-plaintext highlighter-rouge">#refactoring</code>, <code class="language-plaintext highlighter-rouge">#code-quality</code>, <code class="language-plaintext highlighter-rouge">#developer-tools</code></p>
-
-<hr />
-
-<p><a id="item-gh-trending-7"></a></p>
-<h3 id="iamumeransariclaude-show-your-work-in-terminal-visual-review-for-claude-code-agents-️-8010"><a href="https://github.com/iamumeransari/claude-show-your-work">iamumeransari/claude-show-your-work: In-terminal visual review for Claude Code agents</a> ⭐️ 8.0/10</h3>
-
-<p>This Claude Code plugin lets developers view images, play videos, and inspect Playwright recordings directly inside any terminal that supports the kitty graphics protocol, eliminating the need to switch windows during visual QA. It solves the friction of reviewing agent-generated visual output by keeping the feedback loop entirely in the terminal across macOS, Linux, and Windows. Built in TypeScript, the project is actively maintained with recent pushes and a modest but growing star count, indicating it is usable though still early in adoption.</p>
-
-<p>github · iamumeransari · Nov 5, 03:28</p>
-
-<p><strong>「Why Recommended」</strong> It plugs into the review and QA phase of agentic coding workflows, replacing the context switch to browsers or external viewers when agents produce screenshots, recordings, or before/after comparisons. Front-end engineers and QA-focused developers using Claude Code will benefit most, especially those already on kitty-compatible terminals like Ghostty or kitty itself.</p>
-
-<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#claude-code-plugin</code>, <code class="language-plaintext highlighter-rouge">#visual-qa</code>, <code class="language-plaintext highlighter-rouge">#terminal-tools</code>, <code class="language-plaintext highlighter-rouge">#agentic-coding</code>, <code class="language-plaintext highlighter-rouge">#developer-productivity</code></p>
-
-<hr />
-
-<p><a id="item-gh-trending-8"></a></p>
-<h3 id="codewhale-hqcodewhale-open-source-rust-terminal-coding-agent-with-multi-model-support-️-7010"><a href="https://github.com/codewhale-hq/Codewhale">codewhale-hq/Codewhale: Open-source Rust terminal coding agent with multi-model support</a> ⭐️ 7.0/10</h3>
-
-<p>Codewhale is an open-source terminal coding agent written in Rust that lets developers use any LLM provider or model locally. It aims to bring AI-assisted coding directly into the command line with support for MCP and multi-agent workflows. The project shows active maintenance (last push November 2026) and strong community interest, though hands-on reliability remains unverified.</p>
-
-<p>github · codewhale-hq · Nov 5, 03:28</p>
-
-<p><strong>「Why Recommended」</strong> It targets the coding phase by providing a local-first, model-agnostic AI agent in the terminal, potentially replacing manual coding steps for developers who prefer CLI-based workflows and want flexibility across providers. Its 41k stars signal significant community attention, making it worth evaluating for terminal-centric AI assistance.</p>
-
-<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#coding-agent</code>, <code class="language-plaintext highlighter-rouge">#cli</code>, <code class="language-plaintext highlighter-rouge">#rust</code>, <code class="language-plaintext highlighter-rouge">#terminal</code>, <code class="language-plaintext highlighter-rouge">#multi-model</code></p>
-
-<hr />
-
-<p><a id="item-gh-trending-9"></a></p>
-<h3 id="esenginedeepseek-reasonix-go-cli-coding-agent-for-complex-engineering-tasks-️-7010"><a href="https://github.com/esengine/DeepSeek-Reasonix">esengine/DeepSeek-Reasonix: Go CLI coding agent for complex engineering tasks</a> ⭐️ 7.0/10</h3>
-
-<p>DeepSeek-Reasonix is a Go-based CLI coding agent that uses DeepSeek models to tackle complex software engineering tasks. It aims to automate multi-step coding workflows such as refactoring, feature implementation, and debugging directly from the terminal. The project has gained significant community traction (36k stars) but carries 652 open issues, suggesting active development with ongoing maintenance needs.</p>
-
-<p>github · esengine · Nov 5, 03:28</p>
-
-<p><strong>「Why Recommended」</strong> It fits the code-writing and refactoring phase, offering a terminal-native agent that can replace manual multi-file edits and iterative prompting. The high star count signals strong community interest, making it worth evaluating for developers who prefer CLI-first AI assistance over IDE-integrated copilots.</p>
-
-<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#coding-agent</code>, <code class="language-plaintext highlighter-rouge">#cli</code>, <code class="language-plaintext highlighter-rouge">#developer-tools</code>, <code class="language-plaintext highlighter-rouge">#deepseek</code>, <code class="language-plaintext highlighter-rouge">#ai-coding</code></p>
-
-<hr />
-
-<p><a id="item-gh-trending-10"></a></p>
-<h3 id="kodustechkodus-ai-self-hosted-ai-code-review-bot-with-byok-️-7010"><a href="https://github.com/kodustech/kodus-ai">kodustech/kodus-ai: Self-hosted AI code review bot with BYOK</a> ⭐️ 7.0/10</h3>
-
-<p>kodus-ai is an open-source, self-hosted AI code review bot that lets teams run reviews using their own LLM API keys. It targets the code review phase as a privacy-focused alternative to SaaS tools like CodeRabbit. Built in TypeScript, the project has 1.5k stars but shows 184 open issues and a future-dated last push, suggesting active development with maturity still to be proven.</p>
-
-<p>github · kodustech · Nov 5, 03:28</p>
-
-<p><strong>「Why Recommended」</strong> It replaces manual or paid SaaS code review with a self-hosted, BYOK solution that keeps code private — ideal for teams with strict data policies who want AI-assisted PR reviews without sending code to third parties.</p>
-
-<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#ai-code-review</code>, <code class="language-plaintext highlighter-rouge">#self-hosted</code>, <code class="language-plaintext highlighter-rouge">#byok</code>, <code class="language-plaintext highlighter-rouge">#code-review-bot</code>, <code class="language-plaintext highlighter-rouge">#developer-tool</code></p>
-
-<hr />
-
-<p><a id="item-gh-trending-11"></a></p>
-<h3 id="hexmostechgit-lrc-ai-code-reviews-on-git-commit-️-7010"><a href="https://github.com/HexmosTech/git-lrc">HexmosTech/git-lrc: AI code reviews on git commit</a> ⭐️ 7.0/10</h3>
-
-<p>HexmosTech/git-lrc is a lightweight AI code review tool that runs automatically during git commit, using Go and Google&#x27;s Gemini to give developers instant feedback before changes are finalized. It targets the pre-commit review stage, aiming to catch issues early without requiring a separate CI pipeline. The project is early-stage but actively maintained, with recent commits and over 1,400 stars indicating community interest.</p>
-
-<p>github · HexmosTech · Nov 5, 03:28</p>
-
-<p><strong>「Why Recommended」</strong> It plugs directly into the commit workflow, replacing the first manual review pass with a free, fast AI scan that works locally. This makes it a good fit for individual developers or small teams who want immediate code-quality checks without setting up a full review infrastructure. The 1.4k stars and recent activity suggest it&#x27;s worth trying for anyone experimenting with AI-assisted code review.</p>
-
-<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#ai-code-review</code>, <code class="language-plaintext highlighter-rouge">#code-review</code>, <code class="language-plaintext highlighter-rouge">#git-hooks</code>, <code class="language-plaintext highlighter-rouge">#gemini</code>, <code class="language-plaintext highlighter-rouge">#go</code></p>
-
-<hr />
-
-<p><a id="item-gh-trending-12"></a></p>
-<h3 id="openqodexopenqodex-ai-code-reviewer-for-coding-agents-️-7010"><a href="https://github.com/openqodex/openqodex">openqodex/openqodex: AI code reviewer for coding agents</a> ⭐️ 7.0/10</h3>
-
-<p>openqodex/openqodex is an open-source AI code reviewer that audits changes generated by coding agents such as Claude Code, Codex, Cursor, and Cline before they are pushed. It is implemented in TypeScript and positions itself as a zero-configuration, no-account-required layer in the AI-assisted development workflow. The project was created in October 2026, has about 1.1k stars and 86 open issues, indicating early community interest but still experimental maturity.</p>
-
-<p>github · openqodex · Nov 5, 03:28</p>
-
-<p><strong>「Why Recommended」</strong> It plugs directly into the review step of agent-driven coding, giving teams that already use Claude Code, Codex, Cursor, or Cline an automated gatekeeper for agent output. The 1.1k stars show early traction, though the high issue count suggests production readiness is not yet proven.</p>
-
-<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#ai-code-review</code>, <code class="language-plaintext highlighter-rouge">#coding-agents</code>, <code class="language-plaintext highlighter-rouge">#claude-code</code>, <code class="language-plaintext highlighter-rouge">#cursor</code>, <code class="language-plaintext highlighter-rouge">#codex</code></p>
-
-<hr />
-
-<p><a id="item-gh-trending-13"></a></p>
-<h3 id="1jehuangjcode-rust-coding-agent-harness-for-multi-agent-workflows-️-6010"><a href="https://github.com/1jehuang/jcode">1jehuang/jcode: Rust coding agent harness for multi-agent workflows</a> ⭐️ 6.0/10</h3>
-
-<p>jcode is a Rust-based coding agent harness designed for heavy multi-agent development workflows, offering a CLI/TUI interface and integrations with Claude, OpenAI, and MCP. The project shows strong community interest with over 21k stars, but its maturity is unclear due to future-dated metadata (2026) and 798 open issues suggesting it may be an early framework rather than a production-ready tool.</p>
-
-<p>github · 1jehuang · Nov 5, 03:28</p>
-
-<p><strong>「Why Recommended」</strong> Worth tracking for developers building or evaluating Rust-based coding agent frameworks, as it targets the multi-agent orchestration layer and could replace custom agent coordination code; the high star count signals active community attention despite the immaturity indicators.</p>
-
-<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#coding-agent</code>, <code class="language-plaintext highlighter-rouge">#rust</code>, <code class="language-plaintext highlighter-rouge">#cli</code>, <code class="language-plaintext highlighter-rouge">#multi-agent</code>, <code class="language-plaintext highlighter-rouge">#terminal</code></p>
-
-<hr />
-
-<p><a id="item-gh-trending-14"></a></p>
-<h3 id="d4vinciscrapling-python-web-scraping-framework-for-scalable-crawling-️-5010"><a href="https://github.com/D4Vinci/Scrapling">D4Vinci/Scrapling: Python web scraping framework for scalable crawling</a> ⭐️ 5.0/10</h3>
-
-<p>Scrapling is a Python web scraping framework designed to handle everything from single requests to full-scale crawls, addressing the data collection step in development workflows. It is implemented in Python and has gained significant attention with over 96,000 total stars and a recent surge of 2,000 stars in a day, though its maturity and production readiness remain unverified beyond promotional claims.</p>
-
-<p>github · D4Vinci · Nov 5, 03:28</p>
-
-<p><strong>「Why Recommended」</strong> Scrapling targets the data collection phase, offering a unified framework that can replace or augment custom scraping scripts and simplify large-scale crawling tasks. Its high star count signals an active community, making it worth evaluating for developers who need a Python-based scraping solution with potential for rapid prototyping and scaling.</p>
-
-<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#web-scraping</code>, <code class="language-plaintext highlighter-rouge">#data-collection</code>, <code class="language-plaintext highlighter-rouge">#python-framework</code>, <code class="language-plaintext highlighter-rouge">#developer-tools</code></p>
-
-<hr />
-
-<p><a id="item-gh-trending-15"></a></p>
-<h3 id="scenario-labsskills-python-sdk-for-ai-driven-3d-asset-generation-with-dcc-tool-integration-️-5010"><a href="https://github.com/scenario-labs/skills">scenario-labs/skills: Python SDK for AI-driven 3D asset generation with DCC tool integration</a> ⭐️ 5.0/10</h3>
-
-<p>scenario-labs/skills is a Python SDK that lets AI agents generate production-ready images, video, audio, and 3D assets while handling model selection, cost estimation, and brand consistency through the Scenario MCP. It integrates directly with Blender, Maya, ZBrush, Unreal Engine, and Unity, targeting technical artists and game developers who need automated, consistent asset pipelines. The project has gathered over 2,500 stars, indicating active development and community interest.</p>
-
-<p>github · scenario-labs · Nov 5, 03:28</p>
-
-<p><strong>「Why Recommended」</strong> This tool fits the asset-creation stage of game development and 3D content pipelines, replacing manual modeling/texturing workflows with AI-driven generation that maintains character and brand consistency across major DCC applications. It is best suited for technical artists and game studios looking to accelerate production while keeping creative control.</p>
-
-<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#AI-asset-generation</code>, <code class="language-plaintext highlighter-rouge">#3D-pipeline</code>, <code class="language-plaintext highlighter-rouge">#game-dev</code>, <code class="language-plaintext highlighter-rouge">#Blender</code>, <code class="language-plaintext highlighter-rouge">#Unity</code></p>
-
-<hr />
-
-<h2 id="ai-news">AI News</h2>
-
-<p><a id="item-ai-news-1"></a></p>
-<h3 id="go-123-adds-encodingjsonv2-with-streaming-and-performance-gains-️-8010"><a href="https://go.dev/blog/jsonv2">Go 1.23+ adds encoding/json/v2 with streaming and performance gains</a> ⭐️ 8.0/10</h3>
-
-<p>The Go team has released encoding/json/v2 as part of Go 1.23+, a new standard-library API for JSON handling that replaces the original encoding/json. The v2 package introduces streaming decode/encode via jsontext, faster parsing, and more customization hooks while dropping MarshalIndent. The API is available now for Go 1.23+ users and the official blog post includes migration guidance and compatibility notes.</p>
-
-<p>hackernews · olexsmir · Nov 4, 17:52 · <a href="https://news.ycombinator.com/item?id=50369106">Discussion</a></p>
-
-<p><strong>「Why it matters」</strong> Go developers building services, APIs, or data pipelines can adopt encoding/json/v2 immediately for better throughput and streaming support; start by importing encoding/json/v2 and jsontext, then follow the blog&#x27;s migration guide to replace MarshalIndent with the new streaming encoder.</p>
-
-<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#Go</code>, <code class="language-plaintext highlighter-rouge">#JSON</code>, <code class="language-plaintext highlighter-rouge">#standard-library</code>, <code class="language-plaintext highlighter-rouge">#encoding/json</code>, <code class="language-plaintext highlighter-rouge">#API</code></p>
-
-<hr />
-
-<p><a id="item-ai-news-2"></a></p>
-<h3 id="openai-images-26-raises-low-tier-costs-4-adds-animation-frames-and-svg-️-7010"><a href="https://openai.com/index/introducing-images-2-6/">OpenAI Images 2.6 raises low-tier costs 4×, adds animation frames and SVG</a> ⭐️ 7.0/10</h3>
-
-<p>OpenAI released Images 2.6 with a ~4× token increase at low and medium quality tiers versus 2.5, while high-quality token usage stays flat. At 1024×1024, low quality jumps from 196 to 823 tokens ($0.006 → $0.025) and medium from 439 to 1,449 tokens ($0.013 → $0.043). The update also adds explicit animation-frame generation and SVG output, though early community feedback reports visible quality regressions and skepticism about SVG fidelity.</p>
-
-<p>hackernews · davidbarker · Nov 4, 23:35 · <a href="https://news.ycombinator.com/item?id=50372945">Discussion</a></p>
-
-<p><strong>「Why it matters」</strong> Developers using low/medium quality for cost-sensitive workloads face a 4× price hike and should re-evaluate tier selection or consider staying on 2.5. Teams needing animation frames or vector output can test the new capabilities immediately, but should verify frame consistency and SVG quality before production use.</p>
-
-<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#openai</code>, <code class="language-plaintext highlighter-rouge">#image-generation</code>, <code class="language-plaintext highlighter-rouge">#api-pricing</code>, <code class="language-plaintext highlighter-rouge">#gpt-images</code>, <code class="language-plaintext highlighter-rouge">#model-release</code></p>
-
-<hr />
-
-<p><a id="item-ai-news-3"></a></p>
-<h3 id="kimi-k31-pro-weights-released-on-hugging-face-with-api-access-️-7010"><a href="https://huggingface.co/moonshotai/Kimi-K3.1-Pro">Kimi K3.1 Pro weights released on Hugging Face with API access</a> ⭐️ 7.0/10</h3>
-
-<p>Moonshot AI has published the Kimi K3.1 Pro model weights on Hugging Face, making them available for download and immediate inference via providers including OpenRouter, Together AI, and Modal. Self-hosting the model requires approximately eight H100-class GPUs, putting local deployment out of reach for most practitioners. Community comments note that third-party inference endpoints already show throughput and pricing differences, with Together and Modal offering higher throughput than the official Moonshot endpoint at the same price. Benchmark-overfitting concerns have been raised, though some testers report strong practical performance despite trailing frontier models.</p>
-
-<p>hackernews · abrarthought · Nov 4, 15:30 · <a href="https://news.ycombinator.com/item?id=50366999">Discussion</a></p>
-
-<p><strong>「Why it matters」</strong> Teams evaluating open-weight models for API-based workloads can start testing Kimi K3.1 Pro today through OpenRouter, Together, or Modal without provisioning GPU clusters; the first step is to run a quick comparison against your current model on a representative task to see if the quality and cost trade-offs justify a switch.</p>
-
-<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#model-release</code>, <code class="language-plaintext highlighter-rouge">#inference-api</code>, <code class="language-plaintext highlighter-rouge">#moonshotai</code>, <code class="language-plaintext highlighter-rouge">#huggingface</code>, <code class="language-plaintext highlighter-rouge">#llm-evaluation</code></p>
-
-<hr />
-
-<p><a id="item-ai-news-4"></a></p>
-<h3 id="unsloth-releases-qwen38-flash-next-ggufs-v31-with-claimed-15-accuracy-gain-️-7010"><a href="https://www.reddit.com/r/LocalLLaMA/comments/1xnuva2/unsloth_qwen38flashnext_ggufs_v31_update_november/">Unsloth releases Qwen3.8-Flash-Next GGUFs V3.1 with claimed 15% accuracy gain</a> ⭐️ 7.0/10</h3>
-
-<p>Unsloth has released version 3.1 of its Qwen3.8-Flash-Next GGUF models, claiming a 15% accuracy improvement over the previous version. The Reddit announcement links to the official Unsloth documentation page (unsloth.ai/docs/models/qwen3.8-next) where download links, quantization options, and usage details are provided. The claim originates from the announcement and has not been independently verified.</p>
-
-<p>reddit · r/LocalLLaMA · /u/jacek2023 · Nov 4, 17:51</p>
-
-<p><strong>「Why it matters」</strong> Local LLM practitioners can now download and test the updated GGUF quantizations for potential quality gains. The first step is to visit the linked documentation to select the appropriate quantization for your hardware and follow the provided usage instructions.</p>
-
-<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#LLM</code>, <code class="language-plaintext highlighter-rouge">#GGUF</code>, <code class="language-plaintext highlighter-rouge">#Unsloth</code>, <code class="language-plaintext highlighter-rouge">#Qwen</code>, <code class="language-plaintext highlighter-rouge">#Local-Inference</code></p>
-
-<hr />
-
-<p><a id="item-ai-news-5"></a></p>
-<h3 id="gemma-4-26b-a4b-pruned-to-38b-dense-model-via-expert-fixing-️-7010"><a href="https://www.reddit.com/r/LocalLLaMA/comments/1xnoqyy/i_removed_85_of_gemmas_weights_and_it_is_mostly/">Gemma 4 26B-A4B pruned to 3.8B dense model via expert fixing</a> ⭐️ 7.0/10</h3>
-
-<p>Reddit user pruned Gemma 4 26B-A4B MoE to a 3.81B dense model (2.75 GB Q4_K_M) by fixing 8 experts per layer, achieving 79 tok/s and 3.8 GB RAM on Mac. The pruned model shows 92% agreement with the original on a classification task, comparable to the 12B variant&#x27;s 90% agreement. Knowledge-heavy tasks degrade due to removed weights. The method uses block-local training on user data and could run on-device in ~5 GB memory, though no code is released yet.</p>
-
-<p>reddit · r/LocalLLaMA · /u/Accomplished_Ad_56 · Nov 4, 13:53</p>
-
-<p><strong>「Why it matters」</strong> Developers building on-device classification apps can evaluate this pruning approach for 2× speed and ½ memory vs. 12B dense models; first step is reading the author&#x27;s blog post for method details and testing on a narrow classification task.</p>
-
-<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#model-pruning</code>, <code class="language-plaintext highlighter-rouge">#MoE</code>, <code class="language-plaintext highlighter-rouge">#on-device-LLM</code>, <code class="language-plaintext highlighter-rouge">#Gemma</code>, <code class="language-plaintext highlighter-rouge">#quantization</code></p>
-
-<hr />
-
-<h2 id="x--youtube-highlights">X / YouTube Highlights</h2>
-
-<p><a id="item-social-hot-1"></a></p>
-<h3 id="git--github-crash-course-for-beginners-2026---freecodecamporg-️-8010"><a href="https://www.youtube.com/watch?v=mAFoROnOfHs">Git &amp; GitHub Crash Course for Beginners [2026] - freeCodeCamp.org</a> ⭐️ 8.0/10</h3>
-
-<p>This 1 hour 21 minute video from freeCodeCamp.org teaches Git and GitHub fundamentals from scratch with hands-on examples. It covers practical workflows including branching, merging, stashing, rebasing, and pull requests, structured for beginners to follow along and apply directly.</p>
-
-<p>youtube · GitHub · Nov 5, 03:28</p>
-
-<p><strong>「Why It&#x27;s Hot」</strong> With 908,000 views, this crash course has earned strong community trust as a go-to resource for learning version control. Viewers can walk away with a reproducible, end-to-end Git/GitHub workflow they can use immediately in real projects.</p>
-
-<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#Git</code>, <code class="language-plaintext highlighter-rouge">#GitHub</code>, <code class="language-plaintext highlighter-rouge">#version control</code>, <code class="language-plaintext highlighter-rouge">#tutorial</code>, <code class="language-plaintext highlighter-rouge">#beginner</code></p>
-
-<hr />
-
-<p><a id="item-social-hot-2"></a></p>
-<h3 id="github-official-beginner-tutorial-hits-19m-views-️-7010"><a href="https://www.youtube.com/watch?v=a9u2yZvsqHA">GitHub Official Beginner Tutorial Hits 1.9M Views</a> ⭐️ 7.0/10</h3>
-
-<p>This video titled "How To Use GitHub For Beginners" is a beginner-oriented tutorial that likely walks through core GitHub workflows such as creating repositories, making commits, opening pull requests, and collaborating via the web UI. With 1.9 M views, it has reached a large audience of new developers. The description links to an external blog post for further reading. Since the full transcript isn&#x27;t available, this description is inferred from the title and metadata.</p>
-
-<p>youtube · GitHub · Nov 5, 03:28</p>
-
-<p><strong>「Why It&#x27;s Hot」</strong> GitHub&#x27;s official beginner tutorial has attracted 1.9M views, showing strong demand for a clear, platform-endorsed walkthrough of core workflows like repositories, commits, pull requests, and Issues. New developers can follow along to set up their first project and learn the essential UI-driven GitHub skills they&#x27;ll use daily.</p>
-
-<details><summary>References</summary>
-<ul>
-<li><a href="https://www.youtube.com/watch?v=tRZGeaHPoaw">Git and GitHub Tutorial for Beginners - YouTube</a></li>
-<li><a href="https://docs.github.com/en/get-started">Get started with GitHub documentation - GitHub Docs</a></li>
-<li><a href="https://www.freecodecamp.org/news/git-and-github-for-beginners/">Git and GitHub Tutorial – Version Control for Beginners</a></li>
-
-</ul>
-</details>
-
-<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#GitHub</code>, <code class="language-plaintext highlighter-rouge">#tutorial</code>, <code class="language-plaintext highlighter-rouge">#beginner</code>, <code class="language-plaintext highlighter-rouge">#version-control</code>, <code class="language-plaintext highlighter-rouge">#developer-tools</code></p>
-
-<hr />
-
-<p><a id="item-social-hot-3"></a></p>
-<h3 id="github-official-tutorial-essential-workflows-for-developers-️-7010"><a href="https://www.youtube.com/watch?v=pJYOG6klqj8">GitHub Official Tutorial: Essential Workflows for Developers</a> ⭐️ 7.0/10</h3>
-
-<p>This 46-minute tutorial from the GitHub channel (published as "corbin") walks through the essential steps for using GitHub, targeting developers who want a comprehensive guide. Based on the title and description, it likely covers repository creation, branching, pull requests, issues, and collaboration workflows—core skills for version control. The high view count (567K) suggests it resonates with beginners seeking a single, authoritative resource.</p>
-
-<p>youtube · GitHub · Nov 5, 03:28</p>
-
-<p><strong>「Why This Matters」</strong> With 566,974 views, this 46-minute official GitHub tutorial walks developers through essential GitHub workflows step by step, making it a practical reference for mastering version control, collaboration, and repository management.</p>
-
-<details><summary>References</summary>
-<ul>
-<li><a href="https://www.youtube.com/watch?v=pJYOG6klqj8">The Only GitHub Guide You ’ ll Ever Need - YouTube</a></li>
-
-</ul>
-</details>
-
-<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#GitHub</code>, <code class="language-plaintext highlighter-rouge">#tutorial</code>, <code class="language-plaintext highlighter-rouge">#version-control</code>, <code class="language-plaintext highlighter-rouge">#beginner-guide</code>, <code class="language-plaintext highlighter-rouge">#developer-tools</code></p>
-
-<hr />
-
-<p><a id="item-social-hot-4"></a></p>
-<h3 id="learn-git--github-for-beginners-2026-tutorial--coder-coder-️-7010"><a href="https://www.youtube.com/watch?v=h2a3Kw-I_Ec">Learn Git &amp; GitHub for Beginners (2026 Tutorial) | Coder Coder</a> ⭐️ 7.0/10</h3>
-
-<p>This 56-minute beginner tutorial from the Coder Coder channel teaches Git version control fundamentals and GitHub collaboration workflows. Based on the title and description, viewers can expect hands-on coverage of core commands, repository setup, branching, commits, and pushing code to GitHub — aimed at developers with no prior experience. The 93K view count suggests it has resonated with learners seeking a practical, full-length introduction.</p>
-
-<p>youtube · GitHub · Nov 5, 03:28</p>
-
-<p><strong>「Why it&#x27;s hot」</strong> This 56-minute beginner tutorial from Coder Coder has attracted 93K views, signaling strong demand for a practical, end-to-end walkthrough of Git and GitHub fundamentals. Viewers can expect hands-on commands, workflow demonstrations, and tool usage they can replicate immediately in their own projects.</p>
-
-<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#git</code>, <code class="language-plaintext highlighter-rouge">#github</code>, <code class="language-plaintext highlighter-rouge">#tutorial</code>, <code class="language-plaintext highlighter-rouge">#beginner</code>, <code class="language-plaintext highlighter-rouge">#version-control</code></p>
-
-<hr />]]></content><author><name></name></author><summary type="html"><![CDATA[Showing 24 of 142 fetched items.]]></summary></entry><entry xml:lang="zh"><title type="html">Horizon Summary: 2026-11-05 (ZH)</title><link href="https://www.01040610.xyz/horizon/2026/11/05/summary-zh.html" rel="alternate" type="text/html" title="Horizon Summary: 2026-11-05 (ZH)" /><published>2026-11-05T00:00:00+00:00</published><updated>2026-11-05T00:00:00+00:00</updated><id>https://www.01040610.xyz/horizon/2026/11/05/summary-zh</id><content type="html" xml:base="https://www.01040610.xyz/horizon/2026/11/05/summary-zh.html"><![CDATA[<blockquote>
-  <p>今日抓取 142 条内容，收录 24 条。</p>
-</blockquote>
-
-<hr />
-
-<p><strong>GitHub AI 开发工具</strong></p>
-<ol>
-  <li><a href="#item-gh-trending-1">The-PR-Agent/pr-agent：开源 AI PR 审查工具</a> ⭐️ 9.0/10</li>
-  <li><a href="#item-gh-trending-2">google-gemini/gemini-cli：终端内的 Gemini AI 编程助手</a> ⭐️ 9.0/10</li>
-  <li><a href="#item-gh-trending-3">QwenLM/qwen-code: 终端原生 AI 编码代理</a> ⭐️ 8.0/10</li>
-  <li><a href="#item-gh-trending-4">coleam00/Archon: AI 编码马具框架，YAML 定义可复现工作流</a> ⭐️ 8.0/10</li>
-  <li><a href="#item-gh-trending-5">n8n-io/n8n：内置 AI 与 MCP 的低代码工作流自动化平台</a> ⭐️ 8.0/10</li>
-  <li><a href="#item-gh-trending-6">sourcery-ai/sourcery：Python AI 代码审查机器人，自动重构与质量反馈</a> ⭐️ 8.0/10</li>
-  <li><a href="#item-gh-trending-7">iamumeransari/claude-show-your-work: Claude Code 终端可视化审查插件</a> ⭐️ 8.0/10</li>
-  <li><a href="#item-gh-trending-8">codewhale-hq/Codewhale：Rust 终端编码代理，支持多模型</a> ⭐️ 7.0/10</li>
-  <li><a href="#item-gh-trending-9">esengine/DeepSeek-Reasonix：基于 DeepSeek 的 Go CLI 编码代理</a> ⭐️ 7.0/10</li>
-  <li><a href="#item-gh-trending-10">kodustech/kodus-ai：自托管 AI 代码审查机器人，自带 LLM 密钥</a> ⭐️ 7.0/10</li>
-  <li><a href="#item-gh-trending-11">HexmosTech/git-lrc: Git 提交时自动运行的轻量 AI 代码审查工具</a> ⭐️ 7.0/10</li>
-  <li><a href="#item-gh-trending-12">openqodex/openqodex：面向编码代理的开源 AI 代码审查工具</a> ⭐️ 7.0/10</li>
-  <li><a href="#item-gh-trending-13">1jehuang/jcode: Rust 编码代理框架，高星但元数据可疑</a> ⭐️ 6.0/10</li>
-  <li><a href="#item-gh-trending-14">D4Vinci/Scrapling – Python web scraping framework</a> ⭐️ 5.0/10</li>
-  <li><a href="#item-gh-trending-15">scenario-labs/skills: AI 驱动的 3D 资产生成 Python SDK</a> ⭐️ 5.0/10</li>
-</ol>
-
-<p><strong>AI 热门新闻</strong></p>
-<ol>
-  <li><a href="#item-ai-news-1">Go 1.23 发布 encoding/json/v2 标准库新 API</a> ⭐️ 8.0/10</li>
-  <li><a href="#item-ai-news-2">OpenAI 发布 Images 2.6，低画质模式 Token 成本约增 4 倍，新增动画帧与 SVG 输出</a> ⭐️ 7.0/10</li>
-  <li><a href="#item-ai-news-3">Kimi K3.1 Pro 权重发布，推理 API 可用但自托管需极强算力</a> ⭐️ 7.0/10</li>
-  <li><a href="#item-ai-news-4">Unsloth 发布 Qwen3.8-Flash-Next GGUF V3.1，声称准确率提升 15%</a> ⭐️ 7.0/10</li>
-  <li><a href="#item-ai-news-5">Gemma 4 26B-A4B MoE pruned to 3.8B dense model via fixed experts</a> ⭐️ 7.0/10</li>
-</ol>
-
-<p><strong>X / YouTube 热门</strong></p>
-<ol>
-  <li><a href="#item-social-hot-1">Git &amp; GitHub 入门速成课 2026 版 90 万播放</a> ⭐️ 8.0/10</li>
-  <li><a href="#item-social-hot-2">GitHub 官方新手教程：核心功能与 UI 操作演示</a> ⭐️ 7.0/10</li>
-  <li><a href="#item-social-hot-3">GitHub 官方完整使用指南教程</a> ⭐️ 7.0/10</li>
-  <li><a href="#item-social-hot-4">Git 与 GitHub 入门完整教程（2026）</a> ⭐️ 7.0/10</li>
-</ol>
-
-<hr />
-
-<h2 id="github-ai-开发工具">GitHub AI 开发工具</h2>
-
-<p><a id="item-gh-trending-1"></a></p>
-<h3 id="the-pr-agentpr-agent开源-ai-pr-审查工具-️-9010"><a href="https://github.com/The-PR-Agent/pr-agent">The-PR-Agent/pr-agent：开源 AI PR 审查工具</a> ⭐️ 9.0/10</h3>
-
-<p>The-PR-Agent/pr-agent 是一个用 Python 编写的开源 AI 代码审查工具，支持接入 OpenAI、Anthropic、Ollama 等多种大模型，并可集成到 CI/CD 流水线中自动化 Pull Request 审查。项目从 2023 年开始持续维护，已积累 1.4 万星标，处于可用于生产环境的成熟阶段。</p>
-
-<p>github · The-PR-Agent · 11月5日 03:28</p>
-
-<p><strong>「推荐理由」</strong> 它直接切入代码审查环节，替代人工逐行阅读，自动给出改进建议、潜在缺陷与最佳实践提示，适合希望缩短审查周期、提升代码质量的工程团队；1.4 万星标与日增 280 星印证了社区活跃度。</p>
-
-<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#code-review</code>, <code class="language-plaintext highlighter-rouge">#ai-code-review</code>, <code class="language-plaintext highlighter-rouge">#pr-automation</code>, <code class="language-plaintext highlighter-rouge">#devtools</code>, <code class="language-plaintext highlighter-rouge">#llm-applications</code></p>
-
-<hr />
-
-<p><a id="item-gh-trending-2"></a></p>
-<h3 id="google-geminigemini-cli终端内的-gemini-ai-编程助手-️-9010"><a href="https://github.com/google-gemini/gemini-cli">google-gemini/gemini-cli：终端内的 Gemini AI 编程助手</a> ⭐️ 9.0/10</h3>
-
-<p>google-gemini/gemini-cli 是 Google 开源的终端 AI 代理，将 Gemini 模型能力直接引入命令行，辅助编码、调试与上下文检索。项目基于 TypeScript 实现，支持 MCP 客户端/服务器协议，可在现有开发流程中无缝调用模型完成代码生成、重构解释等任务。自 2025 年 4 月发布以来持续活跃更新，已积累 10.8 万星标，处于可用且快速迭代阶段。</p>
-
-<p>github · google-gemini · 11月5日 03:28</p>
-
-<p><strong>「推荐理由」</strong> 它把大模型能力嵌入写码、审查、测试的终端环节，替代频繁切换 IDE 与网页聊天的上下文开销，适合习惯 CLI 工作流、想在本地终端直接获得 Gemini 编程建议的开发者；10.8 万星标与近期频繁提交表明社区采用度高、维护响应快。</p>
-
-<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#ai-agent</code>, <code class="language-plaintext highlighter-rouge">#cli-tool</code>, <code class="language-plaintext highlighter-rouge">#gemini</code>, <code class="language-plaintext highlighter-rouge">#mcp</code>, <code class="language-plaintext highlighter-rouge">#developer-productivity</code></p>
-
-<hr />
-
-<p><a id="item-gh-trending-3"></a></p>
-<h3 id="qwenlmqwen-code-终端原生-ai-编码代理-️-8010"><a href="https://github.com/QwenLM/qwen-code">QwenLM/qwen-code: 终端原生 AI 编码代理</a> ⭐️ 8.0/10</h3>
-
-<p>QwenLM/qwen-code 是一个开源的终端原生 AI 编码代理，直接嵌入 CLI 工作流，旨在降低编码与上下文切换成本。项目使用 TypeScript 编写，拥有 2.9 万星标，但创建于 2025 年 6 月，开放问题较多（2139 个），最后推送日期显示为未来时间，可能存在数据异常，整体处于可用但仍在快速迭代阶段。</p>
-
-<p>github · QwenLM · 11月5日 03:28</p>
-
-<p><strong>「推荐理由」</strong> 它切中「写码」环节，替代或增强终端内的代码生成与上下文管理，适合习惯 CLI 工作流的开发者快速试用；2.9 万星标显示社区关注度高，但需注意项目成熟度与维护压力。</p>
-
-<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#ai-coding-agent</code>, <code class="language-plaintext highlighter-rouge">#terminal-cli</code>, <code class="language-plaintext highlighter-rouge">#developer-tools</code>, <code class="language-plaintext highlighter-rouge">#typescript</code>, <code class="language-plaintext highlighter-rouge">#qwen</code></p>
-
-<hr />
-
-<p><a id="item-gh-trending-4"></a></p>
-<h3 id="coleam00archon-ai-编码马具框架yaml-定义可复现工作流-️-8010"><a href="https://github.com/coleam00/Archon">coleam00/Archon: AI 编码马具框架，YAML 定义可复现工作流</a> ⭐️ 8.0/10</h3>
-
-<p>Archon 是一个面向 AI 编码的开源马具构建器，通过 YAML 定义可复现的编码任务流，解决 AI 生成代码的确定性与版本化难题。项目使用 TypeScript、Bun 与 YAML 实现 CLI 与工作流引擎，拥有 2.3 万星、3.5 万 fork 且近期仍有提交，处于活跃开发且可用阶段。</p>
-
-<p>github · coleam00 · 11月5日 03:28</p>
-
-<p><strong>「推荐理由」</strong> 它落在 AI 辅助编码的工作流编排环节，用版本化的 YAML 替代临时提示词，让 AI 编码过程可复现、可审查、可回滚，适合追求确定性输出的个人开发者与团队；2.3 万星与持续更新表明社区已在真实场景中验证其可用性。</p>
-
-<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#ai-coding-assistant</code>, <code class="language-plaintext highlighter-rouge">#workflow-engine</code>, <code class="language-plaintext highlighter-rouge">#developer-tools</code>, <code class="language-plaintext highlighter-rouge">#deterministic-ai</code>, <code class="language-plaintext highlighter-rouge">#typescript-cli</code></p>
-
-<hr />
-
-<p><a id="item-gh-trending-5"></a></p>
-<h3 id="n8n-ion8n内置-ai-与-mcp-的低代码工作流自动化平台-️-8010"><a href="https://github.com/n8n-io/n8n">n8n-io/n8n：内置 AI 与 MCP 的低代码工作流自动化平台</a> ⭐️ 8.0/10</h3>
-
-<p>n8n 是一个成熟的低代码工作流自动化平台，提供可视化构建与自定义代码相结合的方式，内置 400 多个原生集成并支持 AI 与 MCP 能力。它解决开发过程中大量集成、编排与胶水代码的痛点，支持自托管与云端双模式部署。项目采用 TypeScript 实现，创建于 2019 年、拥有 20.9 万星，处于生产就绪阶段。</p>
-
-<p>github · n8n-io · 11月5日 03:28</p>
-
-<p><strong>「推荐理由」</strong> 它落在交付与集成环节，能以可视化流程替代手写胶水代码，适合需要快速搭建自动化管道、连接多系统的后端与 DevOps 工程师。20.9 万星与活跃社区证明其在生产环境被广泛采用。</p>
-
-<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#workflow-automation</code>, <code class="language-plaintext highlighter-rouge">#low-code</code>, <code class="language-plaintext highlighter-rouge">#ai-integration</code>, <code class="language-plaintext highlighter-rouge">#mcp</code>, <code class="language-plaintext highlighter-rouge">#self-hosted</code></p>
-
-<hr />
-
-<p><a id="item-gh-trending-6"></a></p>
-<h3 id="sourcery-aisourcerypython-ai-代码审查机器人自动重构与质量反馈-️-8010"><a href="https://github.com/sourcery-ai/sourcery">sourcery-ai/sourcery：Python AI 代码审查机器人，自动重构与质量反馈</a> ⭐️ 8.0/10</h3>
-
-<p>Sourcery 是一个面向 Python 的 AI 代码审查机器人，在拉取请求中自动给出重构建议与代码质量反馈。它直接切入代码审查环节，帮助开发者减少人工审查的重复工作。项目使用 Python 实现，已运行多年且近期仍有提交，处于可用且持续维护的成熟度。</p>
-
-<p>github · sourcery-ai · 11月5日 03:28</p>
-
-<p><strong>「推荐理由」</strong> 它落在代码审查阶段，替代人工逐行检查常见重构模式与质量问题，适合希望在 PR 流程中自动化提升 Python 代码质量的团队。1.8k Star 与近期活跃提交表明社区关注度与维护活跃度较高。</p>
-
-<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#ai-code-review</code>, <code class="language-plaintext highlighter-rouge">#python</code>, <code class="language-plaintext highlighter-rouge">#refactoring</code>, <code class="language-plaintext highlighter-rouge">#code-quality</code>, <code class="language-plaintext highlighter-rouge">#developer-tools</code></p>
-
-<hr />
-
-<p><a id="item-gh-trending-7"></a></p>
-<h3 id="iamumeransariclaude-show-your-work-claude-code-终端可视化审查插件-️-8010"><a href="https://github.com/iamumeransari/claude-show-your-work">iamumeransari/claude-show-your-work: Claude Code 终端可视化审查插件</a> ⭐️ 8.0/10</h3>
-
-<p>这是一个 Claude Code 插件，让开发者在支持 kitty 图形协议的终端中直接查看、播放 Agent 生成的图片、视频及 Playwright 录屏，支持前后对比，实现不离开终端的可视化 QA。项目用 TypeScript 编写，跨平台支持 macOS、Linux 和 Windows，目前有 295 颗星、最近一次提交在 2026-11-04，处于可用维护状态。</p>
-
-<p>github · iamumeransari · 11月5日 03:28</p>
-
-<p><strong>「推荐理由」</strong> 它填补了 Claude Code 在前端/视觉类任务上的审查空白：把原本需要切换到浏览器或文件管理器的图像、视频、录屏对比直接内嵌到终端工作流，适合做前端开发、UI 测试或任何需要频繁核对视觉产出的开发者。295 星说明在 Claude Code 社区已有一定认可度。</p>
-
-<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#claude-code-plugin</code>, <code class="language-plaintext highlighter-rouge">#visual-qa</code>, <code class="language-plaintext highlighter-rouge">#terminal-tools</code>, <code class="language-plaintext highlighter-rouge">#agentic-coding</code>, <code class="language-plaintext highlighter-rouge">#developer-productivity</code></p>
-
-<hr />
-
-<p><a id="item-gh-trending-8"></a></p>
-<h3 id="codewhale-hqcodewhalerust-终端编码代理支持多模型-️-7010"><a href="https://github.com/codewhale-hq/Codewhale">codewhale-hq/Codewhale：Rust 终端编码代理，支持多模型</a> ⭐️ 7.0/10</h3>
-
-<p>Codewhale 是一个用 Rust 编写的开源终端编码代理，主打本地优先、多模型/提供商灵活切换并支持 MCP 协议。项目自 2026 年初创建以来持续更新，拥有 4.1 万星标记显示社区关注度高，但仅凭元数据尚无法确认其在实际工作流中的稳定性与收益。</p>
-
-<p>github · codewhale-hq · 11月5日 03:28</p>
-
-<p><strong>「推荐理由」</strong> 它定位于写码环节，为偏好终端操作且需要自由选择模型的开发者提供了一个可本地运行的替代方案；4.1 万星的活跃度表明社区对其多模型、本地优先架构有较强期待，适合愿意尝鲜并参与反馈的工程师。</p>
-
-<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#coding-agent</code>, <code class="language-plaintext highlighter-rouge">#cli</code>, <code class="language-plaintext highlighter-rouge">#rust</code>, <code class="language-plaintext highlighter-rouge">#terminal</code>, <code class="language-plaintext highlighter-rouge">#multi-model</code></p>
-
-<hr />
-
-<p><a id="item-gh-trending-9"></a></p>
-<h3 id="esenginedeepseek-reasonix基于-deepseek-的-go-cli-编码代理-️-7010"><a href="https://github.com/esengine/DeepSeek-Reasonix">esengine/DeepSeek-Reasonix：基于 DeepSeek 的 Go CLI 编码代理</a> ⭐️ 7.0/10</h3>
-
-<p>该仓库提供一个基于 Go 编写的命令行编码代理，利用 DeepSeek 模型处理复杂软件工程任务，旨在提升开发效率。项目目前拥有 3.6 万星标，最近一次提交在 2026 年 11 月，处于活跃开发阶段，但开放问题较多（652 个），成熟度仍需实地验证。</p>
-
-<p>github · esengine · 11月5日 03:28</p>
-
-<p><strong>「推荐理由」</strong> 适合需要在终端直接调用大模型完成代码生成、重构或调试的开发者，可替代手工编写样板代码或在 IDE 外快速原型验证；高星标数显示社区关注度高，适合愿意尝试前沿 AI 编码工作流的工程师。</p>
-
-<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#coding-agent</code>, <code class="language-plaintext highlighter-rouge">#cli</code>, <code class="language-plaintext highlighter-rouge">#developer-tools</code>, <code class="language-plaintext highlighter-rouge">#deepseek</code>, <code class="language-plaintext highlighter-rouge">#ai-coding</code></p>
-
-<hr />
-
-<p><a id="item-gh-trending-10"></a></p>
-<h3 id="kodustechkodus-ai自托管-ai-代码审查机器人自带-llm-密钥-️-7010"><a href="https://github.com/kodustech/kodus-ai">kodustech/kodus-ai：自托管 AI 代码审查机器人，自带 LLM 密钥</a> ⭐️ 7.0/10</h3>
-
-<p>kodus-ai 是一个开源、自托管的 AI 代码审查工具，采用 BYOK（自带密钥）模式让团队用自己的 LLM 密钥跑审查，定位为 CodeRabbit 等付费 SaaS 的隐私可控替代品。项目用 TypeScript 编写，通过 GitHub Actions 或自建服务接入 PR 流程，自动给出变更摘要、潜在问题与改进建议。目前有 1.5k+ Star 但开放 Issue 184 个且最后推送日期异常，处于活跃开发期，生产就绪度仍需实测验证。</p>
-
-<p>github · kodustech · 11月5日 03:28</p>
-
-<p><strong>「推荐理由」</strong> 它落在代码审查环节，替代人工逐行阅读或付费 SaaS，适合对数据隐私、合规或成本敏感、且愿自行维护部署的中小团队；1.5k Star 说明社区关注度不错，但高 Issue 数提示需评估稳定性后再上线。</p>
-
-<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#ai-code-review</code>, <code class="language-plaintext highlighter-rouge">#self-hosted</code>, <code class="language-plaintext highlighter-rouge">#byok</code>, <code class="language-plaintext highlighter-rouge">#code-review-bot</code>, <code class="language-plaintext highlighter-rouge">#developer-tool</code></p>
-
-<hr />
-
-<p><a id="item-gh-trending-11"></a></p>
-<h3 id="hexmostechgit-lrc-git-提交时自动运行的轻量-ai-代码审查工具-️-7010"><a href="https://github.com/HexmosTech/git-lrc">HexmosTech/git-lrc: Git 提交时自动运行的轻量 AI 代码审查工具</a> ⭐️ 7.0/10</h3>
-
-<p>HexmosTech/git-lrc 是一个在 git commit 阶段自动运行的轻量级 AI 代码审查工具，使用 Go 语言编写并集成 Gemini 模型，旨在为提交前提供即时反馈。它解决了开发流程中人工审查前的首轮扫描缺失问题，属于可用且维护活跃的开源项目。</p>
-
-<p>github · HexmosTech · 11月5日 03:28</p>
-
-<p><strong>「推荐理由」</strong> 该工具落在代码审查环节，替代或辅助人工审查的初步扫描，适合希望在本地提交前获得快速 AI 反馈的个人开发者或小型团队。仓库拥有 1.4k Star 且近期有提交记录，显示有一定社区关注和持续维护。</p>
-
-<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#ai-code-review</code>, <code class="language-plaintext highlighter-rouge">#code-review</code>, <code class="language-plaintext highlighter-rouge">#git-hooks</code>, <code class="language-plaintext highlighter-rouge">#gemini</code>, <code class="language-plaintext highlighter-rouge">#go</code></p>
-
-<hr />
-
-<p><a id="item-gh-trending-12"></a></p>
-<h3 id="openqodexopenqodex面向编码代理的开源-ai-代码审查工具-️-7010"><a href="https://github.com/openqodex/openqodex">openqodex/openqodex：面向编码代理的开源 AI 代码审查工具</a> ⭐️ 7.0/10</h3>
-
-<p>openqodex 是一个开源的 AI 代码审查工具，专为 Claude Code、Codex、Cursor、Cline 等编码代理设计，在代码推送前由独立审查器自动检查代理生成的变更。项目使用 TypeScript 编写，定位于解决 AI 辅助开发中「代理写代码、人工审查滞后」的痛点，目前处于早期可用阶段（创建于 2026-10-02，86 个开放 Issue 表明成熟度仍在建设中）。</p>
-
-<p>github · openqodex · 11月5日 03:28</p>
-
-<p><strong>「推荐理由」</strong> 它切中「写码 → 审查」环节，为已接入上述代理的团队提供零配置、无需额外账号密钥的审查增强；1.1k Star 显示社区关注度不错，适合想在现有 AI 工作流中补齐自动化审查闭环的工程团队试用。</p>
-
-<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#ai-code-review</code>, <code class="language-plaintext highlighter-rouge">#coding-agents</code>, <code class="language-plaintext highlighter-rouge">#claude-code</code>, <code class="language-plaintext highlighter-rouge">#cursor</code>, <code class="language-plaintext highlighter-rouge">#codex</code></p>
-
-<hr />
-
-<p><a id="item-gh-trending-13"></a></p>
-<h3 id="1jehuangjcode-rust-编码代理框架高星但元数据可疑-️-6010"><a href="https://github.com/1jehuang/jcode">1jehuang/jcode: Rust 编码代理框架，高星但元数据可疑</a> ⭐️ 6.0/10</h3>
-
-<p>jcode 是一个用 Rust 编写的编码代理框架，面向重度多智能体开发工作流，提供 CLI/TUI 界面并集成 Claude、OpenAI 与 MCP 等模型服务。仓库拥有 2.1 万星，但创建与推送日期均标注为 2026 年（未来时间），且有 798 个开放 Issue，成熟度难以判断，更像是一个框架而非开箱即用的工具。</p>
-
-<p>github · 1jehuang · 11月5日 03:28</p>
-
-<p><strong>「推荐理由」</strong> 它切中 AI 编码辅助的核心环节，用 Rust 的高性能特性承载多智能体协作，适合关注 Rust 生态编码代理演进的开发者跟踪调研；但鉴于元数据异常与维护负载，建议在引入生产前先验证实际可用性与文档完备度。</p>
-
-<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#coding-agent</code>, <code class="language-plaintext highlighter-rouge">#rust</code>, <code class="language-plaintext highlighter-rouge">#cli</code>, <code class="language-plaintext highlighter-rouge">#multi-agent</code>, <code class="language-plaintext highlighter-rouge">#terminal</code></p>
-
-<hr />
-
-<p><a id="item-gh-trending-14"></a></p>
-<h3 id="d4vinciscrapling--python-web-scraping-framework-️-5010"><a href="https://github.com/D4Vinci/Scrapling">D4Vinci/Scrapling – Python web scraping framework</a> ⭐️ 5.0/10</h3>
-
-<p>Scrapling 是一个 Python 网页抓取框架，宣称能从单次请求扩展到全站爬取，解决开发流程中的数据采集问题。项目近期获得大量关注（累计 96.7k 星、单日新增 2k 星），但现有信息不足以判断其成熟度或生产可用性。</p>
-
-<p>github · D4Vinci · 11月5日 03:28</p>
-
-<p><strong>「推荐理由」</strong> 适合需要统一抓取工具的开发者，可替代多个分散库完成数据收集任务；星标快速增长显示社区活跃，但实际稳定性与文档完善度仍待验证。</p>
-
-<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#web-scraping</code>, <code class="language-plaintext highlighter-rouge">#data-collection</code>, <code class="language-plaintext highlighter-rouge">#python-framework</code>, <code class="language-plaintext highlighter-rouge">#developer-tools</code></p>
-
-<hr />
-
-<p><a id="item-gh-trending-15"></a></p>
-<h3 id="scenario-labsskills-ai-驱动的-3d-资产生成-python-sdk-️-5010"><a href="https://github.com/scenario-labs/skills">scenario-labs/skills: AI 驱动的 3D 资产生成 Python SDK</a> ⭐️ 5.0/10</h3>
-
-<p>scenario-labs/skills 是一个 Python SDK，让 AI 智能体按需生成可直接投入生产的图像、视频、音频和 3D 资产，并内置模型选择、成本预估与品牌一致性控制。它通过 MCP 协议与 Blender、Maya、ZBrush、Unreal Engine、Unity 等主流 3D 工具深度集成，解决技术美术与游戏开发者在资产管线中的手工建模、风格统一与跨工具协作难题。项目以 Python 为主语言，已获 2.5k+ Star 并日增 200+，处于可用、面向生产管线的成熟度阶段。</p>
-
-<p>github · scenario-labs · 11月5日 03:28</p>
-
-<p><strong>「推荐理由」</strong> 它切中 3D 内容制作的“资产生成与管线集成”环节，用 AI 代理替代繁琐的手工建模、贴图与跨软件导入导出，适合技术美术、游戏客户端工程师、实时渲染管线维护者在原有 DCC/引擎工作流中直接调用。2.5k Star 与日增 200+ 表明社区活跃、文档与示例相对完善，可作为团队引入 AI 生成资产的低门槛切入点。</p>
-
-<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#AI-asset-generation</code>, <code class="language-plaintext highlighter-rouge">#3D-pipeline</code>, <code class="language-plaintext highlighter-rouge">#game-dev</code>, <code class="language-plaintext highlighter-rouge">#Blender</code>, <code class="language-plaintext highlighter-rouge">#Unity</code></p>
-
-<hr />
-
-<h2 id="ai-热门新闻">AI 热门新闻</h2>
-
-<p><a id="item-ai-news-1"></a></p>
-<h3 id="go-123-发布-encodingjsonv2-标准库新-api-️-8010"><a href="https://go.dev/blog/jsonv2">Go 1.23 发布 encoding/json/v2 标准库新 API</a> ⭐️ 8.0/10</h3>
-
-<p>Go 官方博客宣布 Go 1.23+ 引入 `encoding/json/v2`，提供改进的性能、流式处理和自定义能力。该标准库升级已可直接采用，但移除了 `MarshalIndent`，迁移代码较为复杂。社区反馈显示 `jsontext` 子包在解析错误处理和性能上表现良好。</p>
-
-<p>hackernews · olexsmir · 11月4日 17:52 · <a href="https://news.ycombinator.com/item?id=50369106">社区讨论</a></p>
-
-<p><strong>「实用价值」</strong> Go 后端开发者可立即在 Go 1.23+ 项目中引入 `encoding/json/v2` 替代旧版，首要步骤是阅读官方迁移指南并评估 `MarshalIndent` 移除对现有代码的影响。</p>
-
-<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#Go</code>, <code class="language-plaintext highlighter-rouge">#JSON</code>, <code class="language-plaintext highlighter-rouge">#standard-library</code>, <code class="language-plaintext highlighter-rouge">#encoding/json</code>, <code class="language-plaintext highlighter-rouge">#API</code></p>
-
-<hr />
-
-<p><a id="item-ai-news-2"></a></p>
-<h3 id="openai-发布-images-26低画质模式-token-成本约增-4-倍新增动画帧与-svg-输出-️-7010"><a href="https://openai.com/index/introducing-images-2-6/">OpenAI 发布 Images 2.6，低画质模式 Token 成本约增 4 倍，新增动画帧与 SVG 输出</a> ⭐️ 7.0/10</h3>
-
-<p>OpenAI 正式发布 Images 2.6 模型。根据官方定价计算器，1024×1024 分辨率下，low 质量从 196 tokens（$0.006）涨至 823 tokens（$0.025），medium 从 439 tokens（$0.013）涨至 1449 tokens（$0.043），约为 2.5 版的 4 倍；high 质量 token 用量不变。新版本显式支持动画帧生成与 SVG 矢量输出，早期社区反馈指出帧间一致性与细节仍有瑕疵。</p>
-
-<p>hackernews · davidbarker · 11月4日 23:35 · <a href="https://news.ycombinator.com/item?id=50372945">社区讨论</a></p>
-
-<p><strong>「实用意义」</strong> 若你在生产环境用低/中画质批量生图，成本将显著上升，建议先用定价计算器对比 2.5 与 2.6 的实际账单，再决定是否迁移；需要动画分帧或 SVG 的场景可优先试用新能力。</p>
-
-<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#openai</code>, <code class="language-plaintext highlighter-rouge">#image-generation</code>, <code class="language-plaintext highlighter-rouge">#api-pricing</code>, <code class="language-plaintext highlighter-rouge">#gpt-images</code>, <code class="language-plaintext highlighter-rouge">#model-release</code></p>
-
-<hr />
-
-<p><a id="item-ai-news-3"></a></p>
-<h3 id="kimi-k31-pro-权重发布推理-api-可用但自托管需极强算力-️-7010"><a href="https://huggingface.co/moonshotai/Kimi-K3.1-Pro">Kimi K3.1 Pro 权重发布，推理 API 可用但自托管需极强算力</a> ⭐️ 7.0/10</h3>
-
-<p>Moonshot AI 在 Hugging Face 发布 Kimi K3.1 Pro 模型权重，OpenRouter、Together、Modal 等推理服务商已提供即用 API，Together 吞吐量为官方端点两倍且同价，Modal 再翻倍。自托管需约 8 张 H100 级显卡（如 8×B300 节点），超出大多数实践者承受范围。社区讨论存在「benchmaxxed」质疑，称其在第三方基准（如 Hy4 内测）不及 Opus 5.5，且未显著超越 DeepSeek V4.1-Flash；也有测试者认为其为强有力开放模型，虽略落后前沿但覆盖大多数场景。</p>
-
-<p>hackernews · abrarthought · 11月4日 15:30 · <a href="https://news.ycombinator.com/item?id=50366999">社区讨论</a></p>
-
-<p><strong>「实用价值」</strong> 想快速评估该模型的团队可直接在 OpenRouter 或 Together 调用 API 对比效果，无需自建集群；若基准可信度是决策阻碍，建议先跑自有任务集再决定是否替换现有模型。</p>
-
-<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#model-release</code>, <code class="language-plaintext highlighter-rouge">#inference-api</code>, <code class="language-plaintext highlighter-rouge">#moonshotai</code>, <code class="language-plaintext highlighter-rouge">#huggingface</code>, <code class="language-plaintext highlighter-rouge">#llm-evaluation</code></p>
-
-<hr />
-
-<p><a id="item-ai-news-4"></a></p>
-<h3 id="unsloth-发布-qwen38-flash-next-gguf-v31声称准确率提升-15-️-7010"><a href="https://www.reddit.com/r/LocalLLaMA/comments/1xnuva2/unsloth_qwen38flashnext_ggufs_v31_update_november/">Unsloth 发布 Qwen3.8-Flash-Next GGUF V3.1，声称准确率提升 15%</a> ⭐️ 7.0/10</h3>
-
-<p>Unsloth 在 2026 年 11 月 4 日通过 Reddit 宣布发布 Qwen3.8-Flash-Next（QFN）GGUF 格式模型的 V3.1 版本，官方文档提供下载链接。发布帖称新版本准确率比前版本提升 15%，但该数据来自官方宣称，未经独立验证。GGUF 格式可直接用于本地推理，用户可前往 unsloth.ai/docs/models/qwen3.8-next 获取量化选项与使用说明。</p>
-
-<p>reddit · r/LocalLLaMA · /u/jacek2023 · 11月4日 17:51</p>
-
-<p><strong>「实用价值」</strong> 对在本地运行大模型的开发者和爱好者有用，可直接下载 GGUF 文件替换或对比现有 QFN 版本；第一步是访问官方文档页面确认硬件要求并下载对应量化版本。</p>
-
-<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#LLM</code>, <code class="language-plaintext highlighter-rouge">#GGUF</code>, <code class="language-plaintext highlighter-rouge">#Unsloth</code>, <code class="language-plaintext highlighter-rouge">#Qwen</code>, <code class="language-plaintext highlighter-rouge">#Local-Inference</code></p>
-
-<hr />
-
-<p><a id="item-ai-news-5"></a></p>
-<h3 id="gemma-4-26b-a4b-moe-pruned-to-38b-dense-model-via-fixed-experts-️-7010"><a href="https://www.reddit.com/r/LocalLLaMA/comments/1xnoqyy/i_removed_85_of_gemmas_weights_and_it_is_mostly/">Gemma 4 26B-A4B MoE pruned to 3.8B dense model via fixed experts</a> ⭐️ 7.0/10</h3>
-
-<p>Reddit 用户 /u/Accomplished_Ad_56 将 Google Gemma 4 26B-A4B 混合专家模型剪枝为 3.81B 稠密模型（Q4_K_M 量化 2.75 GB），方法是固定每层 8 个专家并移除路由器。在 Mac 上实测约 79 tok/s、占用 3.8 GB 内存，速度约为 12B 稠密版的 2 倍、内存约为一半。在单一分类任务上与原 26B 模型达成 92% 一致性，接近 12B 模型对 26B 的 90% 一致性。作者强调知识密集型任务表现下降，且尚未公开训练代码或脚本。</p>
-
-<p>reddit · r/LocalLLaMA · /u/Accomplished_Ad_56 · 11月4日 13:53</p>
-
-<p><strong>「实用价值」</strong> 面向设备端分类场景的开发者可评估该剪枝路线，以在相近精度下获得 2 倍速度和一半内存占用；首要步骤是在自有任务上复现测试，因目前仅有单一分类基准且无开源代码。</p>
-
-<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#model-pruning</code>, <code class="language-plaintext highlighter-rouge">#MoE</code>, <code class="language-plaintext highlighter-rouge">#on-device-LLM</code>, <code class="language-plaintext highlighter-rouge">#Gemma</code>, <code class="language-plaintext highlighter-rouge">#quantization</code></p>
-
-<hr />
-
-<h2 id="x--youtube-热门">X / YouTube 热门</h2>
-
-<p><a id="item-social-hot-1"></a></p>
-<h3 id="git--github-入门速成课-2026-版-90-万播放-️-8010"><a href="https://www.youtube.com/watch?v=mAFoROnOfHs">Git &amp; GitHub 入门速成课 2026 版 90 万播放</a> ⭐️ 8.0/10</h3>
-
-<p>这是一条时长约 1 小时 21 分钟的 Git 与 GitHub 入门速成教程，由 freeCodeCamp.org 与 logicBase Labs 联合发布。视频从零开始讲解版本控制基础，涵盖分支、合并、暂存、变基、拉取请求等核心工作流，并配有实操演示。说明基于标题与简介推断，未逐段观看验证细节。</p>
-
-<p>youtube · GitHub · 11月5日 03:28</p>
-
-<p><strong>「推荐理由」</strong> 播放量已达 90.8 万，说明社区高度认可该教程的实用性。初学者可一次性掌握从本地提交到远程协作的完整 Git/GitHub 流程，适合想快速上手版本控制的开发者直接跟练。</p>
-
-<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#Git</code>, <code class="language-plaintext highlighter-rouge">#GitHub</code>, <code class="language-plaintext highlighter-rouge">#version control</code>, <code class="language-plaintext highlighter-rouge">#tutorial</code>, <code class="language-plaintext highlighter-rouge">#beginner</code></p>
-
-<hr />
-
-<p><a id="item-social-hot-2"></a></p>
-<h3 id="github-官方新手教程核心功能与-ui-操作演示-️-7010"><a href="https://www.youtube.com/watch?v=a9u2yZvsqHA">GitHub 官方新手教程：核心功能与 UI 操作演示</a> ⭐️ 7.0/10</h3>
-
-<p>这是 GitHub 官方发布的新手教学视频，标题为「How To Use GitHub For Beginners」，时长约 10 分钟，播放量 192 万。视频预计涵盖 GitHub 核心功能的基础操作，如创建仓库、提交更改、发起拉取请求等入门流程（以上内容基于标题推断，非逐帧观看）。</p>
-
-<p>youtube · GitHub · 11月5日 03:28</p>
-
-<p><strong>「推荐理由」</strong> GitHub 官方出品的新手入门视频，播放量 192 万，时长约 10 分钟，系统演示了仓库创建、提交、分支、Pull Request 等核心 UI 流程，适合零基础开发者快速上手实操。</p>
-
-<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#GitHub</code>, <code class="language-plaintext highlighter-rouge">#tutorial</code>, <code class="language-plaintext highlighter-rouge">#beginner</code>, <code class="language-plaintext highlighter-rouge">#version-control</code>, <code class="language-plaintext highlighter-rouge">#developer-tools</code></p>
-
-<hr />
-
-<p><a id="item-social-hot-3"></a></p>
-<h3 id="github-官方完整使用指南教程-️-7010"><a href="https://www.youtube.com/watch?v=pJYOG6klqj8">GitHub 官方完整使用指南教程</a> ⭐️ 7.0/10</h3>
-
-<p>这是 GitHub 官方频道发布的 46 分钟长教程，标题为「The Only GitHub Guide You&#x27;ll Ever Need」，旨在系统讲解 GitHub 的核心使用步骤。视频描述明确指出将学习「使用 GitHub 的基本步骤」，结合时长推测内容可能涵盖仓库创建、分支管理、Pull Request、Issue 追踪、Actions 自动化等完整工作流。由于视频详细内容无法直接获取，以上为基于标题、描述与时长的推断。</p>
-
-<p>youtube · GitHub · 11月5日 03:28</p>
-
-<p><strong>「推荐理由」</strong> GitHub 官方频道发布的 46 分钟完整教程，播放量 56.7 万，系统讲解从建仓库、分支、Pull Request 到 Actions 自动化的核心工作流，适合想一次性掌握 GitHub 标准用法的开发者。</p>
-
-<details><summary>参考链接</summary>
-<ul>
-<li><a href="https://www.youtube.com/watch?v=pJYOG6klqj8">The Only GitHub Guide You ’ ll Ever Need - YouTube</a></li>
-
-</ul>
-</details>
-
-<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#GitHub</code>, <code class="language-plaintext highlighter-rouge">#tutorial</code>, <code class="language-plaintext highlighter-rouge">#version-control</code>, <code class="language-plaintext highlighter-rouge">#beginner-guide</code>, <code class="language-plaintext highlighter-rouge">#developer-tools</code></p>
-
-<hr />
-
-<p><a id="item-social-hot-4"></a></p>
-<h3 id="git-与-github-入门完整教程2026-️-7010"><a href="https://www.youtube.com/watch?v=h2a3Kw-I_Ec">Git 与 GitHub 入门完整教程（2026）</a> ⭐️ 7.0/10</h3>
-
-<p>这是一条来自 Coder Coder 频道的 56 分钟 Git 与 GitHub 入门教程（2026 年版），标题表明面向零基础学习者，预计涵盖版本控制基础命令、本地仓库操作、远程协作流程以及 GitHub 平台的核心功能演示。由于无法直接观看视频，以上内容范围系根据标题与频道定位推断，实际章节深度、实战案例与命令覆盖面以视频本身为准。</p>
-
-<p>youtube · GitHub · 11月5日 03:28</p>
-
-<p><strong>「推荐理由」</strong> 这是 Coder Coder 频道发布的 56 分钟 Git 与 GitHub 零基础教程，已获 9.3 万次播放，说明内容受开发者认可。视频涵盖版本控制核心命令、GitHub 协作流程与实操演示，适合想快速上手可复现工作流的前端或全栈工程师。</p>
-
-<details><summary>参考链接</summary>
-<ul>
-<li><a href="https://www.youtube.com/watch?v=mAFoROnOfHs">Git &amp; GitHub Crash Course for Beginners [ 2026 ] - YouTube</a></li>
-<li><a href="https://www.youtube.com/watch?v=hrTQipWp6co">Git and GitHub - 0 Experience to Professional in 1 Tutorial ... - YouTube</a></li>
-<li><a href="https://www.youtube.com/watch?v=rH3zE7VlIMs">Git and GitHub - Full Course - YouTube</a></li>
-
-</ul>
-</details>
-
-<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#git</code>, <code class="language-plaintext highlighter-rouge">#github</code>, <code class="language-plaintext highlighter-rouge">#tutorial</code>, <code class="language-plaintext highlighter-rouge">#beginner</code>, <code class="language-plaintext highlighter-rouge">#version-control</code></p>
-
-<hr />]]></content><author><name></name></author><summary type="html"><![CDATA[今日抓取 142 条内容，收录 24 条。]]></summary></entry></feed>
+<hr />]]></content><author><name></name></author><summary type="html"><![CDATA[今日抓取 136 条内容，收录 15 条。]]></summary></entry></feed>

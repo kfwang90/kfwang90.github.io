@@ -85,26 +85,6 @@
    "last_seen": "2026-11-09",
    "title": "microsoft/TokenEconomizer"
   },
-  "reddit:subreddit-rss:t3_1xlec67": {
-   "last_seen": "2026-11-02",
-   "title": "Getting incredible results with a single RTX 3090ti and 128gb of ram. Deepseek-V4.1-Flash-1017 (35 tok/s decode) and Qwe"
-  },
-  "hackernews:story:50326821": {
-   "last_seen": "2026-11-02",
-   "title": "Show HN: HackerBooks – HackerTube, but for books mentioned on HN"
-  },
-  "rss:www.geekpark.net_rss:39dc0904c80d148c": {
-   "last_seen": "2026-11-02",
-   "title": "个人灵光 2.0 实测：个人 AI 助理的机会和门槛｜AI 上新"
-  },
-  "reddit:subreddit-rss:t3_1xlh0zw": {
-   "last_seen": "2026-11-02",
-   "title": "[GLB-3D-Coder] A tiny 4B coding model that creates 3D assets for Godot and other game engines"
-  },
-  "reddit:subreddit-rss:t3_1xljdnj": {
-   "last_seen": "2026-11-02",
-   "title": "Sorry Sam, my \"quite terrible\" home DRAM is at 100% now: patched Strata to make DeepSeek V4.1 agent sessions start 20× f"
-  },
   "github:search:OthmanAdi/planning-with-files": {
    "last_seen": "2026-11-03",
    "title": "OthmanAdi/planning-with-files"
@@ -396,6 +376,50 @@
   "github:search:activepieces/activepieces": {
    "last_seen": "2026-11-09",
    "title": "activepieces/activepieces"
+  },
+  "hackernews:story:50428907": {
+   "last_seen": "2026-11-10",
+   "title": "Show HN: Every satellite that passed over any place this week, and its photos"
+  },
+  "rss:simonwillison.net_atom_everything_:86b4ba3155e4ca0c": {
+   "last_seen": "2026-11-10",
+   "title": "llm-anthropic 0.31"
+  },
+  "rss:huggingface.co_blog_feed.xml:ac8f18750241a65f": {
+   "last_seen": "2026-11-10",
+   "title": "Nemotron-Personas-Finance-Japan: A Synthetic Dataset Capturing Japan's Demographics and Financial Context"
+  },
+  "rss:simonwillison.net_atom_everything_:ffd0277ad7cd64c2": {
+   "last_seen": "2026-11-10",
+   "title": "Locating the source of a mysterious beep with Claude"
+  },
+  "reddit:subreddit-rss:t3_1xs7ffm": {
+   "last_seen": "2026-11-10",
+   "title": "Same prompt, DeepSeek V4.1 Flash vs Qwen 3.8 FN: 94 tok/s vs 350 tok/s"
+  },
+  "youtube:video:Xwpi0ITkL3U": {
+   "last_seen": "2026-11-10",
+   "title": "Complete GitHub Actions Course - From BEGINNER to PRO"
+  },
+  "rss:huggingface.co_blog_feed.xml:55d059b88c6c576a": {
+   "last_seen": "2026-11-10",
+   "title": "Your Experts Have Partners. There's HOPE for Keeping Them Together"
+  },
+  "hackernews:story:50429734": {
+   "last_seen": "2026-11-10",
+   "title": "E-means: Outperforming k-means in one-tenth the epochs"
+  },
+  "rss:www.infoq.cn_feed:84d86f0483459a20": {
+   "last_seen": "2026-11-10",
+   "title": "Airbnb 借助 Chronon 将推荐延迟从两天缩短至秒级"
+  },
+  "reddit:subreddit-rss:t3_1xrydgx": {
+   "last_seen": "2026-11-10",
+   "title": "More interesting and unusual Qwen3.5-4B neurons"
+  },
+  "reddit:subreddit-rss:t3_1xs81f3": {
+   "last_seen": "2026-11-10",
+   "title": "How to mess around with neurons... a short guide"
   }
  }
 }

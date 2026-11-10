@@ -3,9 +3,198 @@
   <title>Horizon 每日速递 - 中文摘要</title>
   <link href="https://www.01040610.xyz/horizon/feed-zh.xml" rel="self"/>
   <link href="https://www.01040610.xyz/horizon/"/>
-  <updated>2026-11-09T02:44:10+00:00</updated>
+  <updated>2026-11-10T04:45:25+00:00</updated>
   <id>https://www.01040610.xyz/horizon/</id>
   
+  
+  <entry>
+    <title>Horizon Summary: 2026-11-10 (ZH)</title>
+    <link href="https://www.01040610.xyz/horizon/2026/11/10/summary-zh.html"/>
+    <updated>2026-11-10T00:00:00+00:00</updated>
+    <id>https://www.01040610.xyz/horizon/2026/11/10/summary-zh.html</id>
+    <content type="html"><![CDATA[ <blockquote>
+  <p>今日抓取 135 条内容，收录 11 条。</p>
+</blockquote>
+
+<hr />
+
+<p><strong>AI 热门新闻</strong></p>
+<ol>
+  <li><a href="#item-ai-news-1">watched.earth：浏览器秒查任意地点近 7 天卫星过境与实拍影像</a> ⭐️ 9.0/10</li>
+  <li><a href="#item-ai-news-2">llm-anthropic 0.31 新增 Fable 5.2 与 Mythos 5.2 支持，附推理层级对比</a> ⭐️ 9.0/10</li>
+  <li><a href="#item-ai-news-3">NVIDIA 发布 Nemotron-Personas-Finance-Japan 合成数据集</a> ⭐️ 8.0/10</li>
+  <li><a href="#item-ai-news-4">Simon Willison 用 Claude Code 开发开源蜂鸣器定位工具 Beep Locator</a> ⭐️ 8.0/10</li>
+  <li><a href="#item-ai-news-5">DeepSeek V4.1 Flash 与 Qwen 3.8 FN 本地推理实测对比</a> ⭐️ 8.0/10</li>
+  <li><a href="#item-ai-news-6">Amazon 在 Hugging Face 发布 HOPE：面向 MoE 模型的高阶剪枝方法</a> ⭐️ 7.0/10</li>
+  <li><a href="#item-ai-news-7">E-means 聚类算法：社区实测加速效果不一，需自行验证适用场景</a> ⭐️ 6.0/10</li>
+  <li><a href="#item-ai-news-8">Airbnb 用 Chronon 把推荐延迟从两天降到秒级</a> ⭐️ 6.0/10</li>
+  <li><a href="#item-ai-news-9">Qwen3.5-4B 神经元索引被发现可控制人格模式</a> ⭐️ 6.0/10</li>
+  <li><a href="#item-ai-news-10">Reddit 发布 Qwen3.5-4B 神经元操控概念指南，提供架构细节但缺可运行代码</a> ⭐️ 6.0/10</li>
+</ol>
+
+<p><strong>X / YouTube 热门</strong></p>
+<ol>
+  <li><a href="#item-social-hot-1">DevOps Directive 出品 GitHub Actions 完整实战课程</a> ⭐️ 8.0/10</li>
+</ol>
+
+<hr />
+
+<h2 id="ai-热门新闻">AI 热门新闻</h2>
+
+<p><a id="item-ai-news-1"></a></p>
+<h3 id="watchedearth浏览器秒查任意地点近-7-天卫星过境与实拍影像-️-9010"><a href="https://www.watched.earth/">watched.earth：浏览器秒查任意地点近 7 天卫星过境与实拍影像</a> ⭐️ 9.0/10</h3>
+
+<p>watched.earth 是一个即开即用的网页工具，输入任意地点即可在约 0.5 秒内列出过去 7 天所有经过该地的卫星（基于 CelesTrak 目录的 SGP4 算法，浏览器端运行），并拉取 Sentinel-2、Landsat 与 NASA 的真实影像。全量约 1.7 万在轨目标由 GPU 逐帧求解开普勒方程渲染；作者声称过境检索零遗漏（已对极点、本初子午线、极窄幅面做暴力校验），且不存储用户位置。代码已开源于 GitHub（dev-Armaan/satellites），免费无需部署。</p>
+
+<p>hackernews · a585gupt · 11月9日 17:51 · <a href="https://news.ycombinator.com/item?id=50428907">社区讨论</a></p>
+
+<p><strong>「实用价值」</strong> 地理信息从业者、户外规划者或对卫星影像感兴趣的用户可直接在浏览器验证某地近期是否被拍摄、获取对应影像时间戳与来源，首要动作是打开 watched.earth 输入目标坐标或地名即可试用。</p>
+
+<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#卫星影像</code>, <code class="language-plaintext highlighter-rouge">#地理空间</code>, <code class="language-plaintext highlighter-rouge">#开源工具</code>, <code class="language-plaintext highlighter-rouge">#Sentinel-2</code>, <code class="language-plaintext highlighter-rouge">#Landsat</code></p>
+
+<hr />
+
+<p><a id="item-ai-news-2"></a></p>
+<h3 id="llm-anthropic-031-新增-fable-52-与-mythos-52-支持附推理层级对比-️-9010"><a href="https://simonwillison.net/2026/Nov/9/llm-anthropic/">llm-anthropic 0.31 新增 Fable 5.2 与 Mythos 5.2 支持，附推理层级对比</a> ⭐️ 9.0/10</h3>
+
+<p>Simon Willison 发布 llm-anthropic 0.31，新增对 Anthropic 最新模型 Fable 5.2 与 Mythos 5.2 的支持。安装命令为：`uv tool install llm`、`llm install llm-anthropic`、`llm keys set anthropic`（随后粘贴 API Key）。模型标识符为 `claude-fable-5.2`，可直接通过 `llm -m claude-fable-5.2 "提示词"` 调用。作者以“鹈鹕骑自行车”生成 SVG 为例，在五个推理层级（low、medium、high、xhigh、max）均做了对比测试，xhigh 表现最佳；max 层级因消耗 128,000 思考 token 耗尽上下文而失败，该问题此前在 Opus 5.5 出现过，但在 Fable 5 与 5.1 中并不存在。完整对比结果可通过提供的 Gist 链接查看。</p>
+
+<p>rss · Simon Willison · 11月9日 23:58</p>
+
+<p><strong>「实用价值」</strong> 想在命令行或脚本中直接调用 Anthropic 新模型的开发者，可按文中三条命令立即完成环境搭建并开始实验；对比测试结果可作为选择推理层级的参考——若需高质量 SVG 生成，优先尝试 xhigh，避免使用 max 以防 token 耗尽。</p>
+
+<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#llm</code>, <code class="language-plaintext highlighter-rouge">#anthropic</code>, <code class="language-plaintext highlighter-rouge">#cli-tools</code>, <code class="language-plaintext highlighter-rouge">#svg-generation</code>, <code class="language-plaintext highlighter-rouge">#reasoning-levels</code></p>
+
+<hr />
+
+<p><a id="item-ai-news-3"></a></p>
+<h3 id="nvidia-发布-nemotron-personas-finance-japan-合成数据集-️-8010"><a href="https://huggingface.co/blog/nvidia/nemotron-personas-finance-japan">NVIDIA 发布 Nemotron-Personas-Finance-Japan 合成数据集</a> ⭐️ 8.0/10</h3>
+
+<p>NVIDIA 于 2026-11-09 通过 Hugging Face Blog 发布了名为 Nemotron-Personas-Finance-Japan 的合成数据集，旨在捕捉日本的人口统计特征与金融语境。该数据集属于 Nemotron 系列，面向日文金融 NLP、LLM 训练及偏见/公平性评估场景。博文通常会提供 Hugging Face Hub 下载链接、数据格式、许可证及使用示例，但具体的数据规模、字段结构、许可证类型及是否已可直接下载，需以原文为准。</p>
+
+<p>rss · Hugging Face Blog · 11月9日 15:05</p>
+
+<p><strong>「实用价值」</strong> 对从事日文金融领域 LLM 微调、合成数据研究或模型公平性测试的工程师/研究员可用。第一步：打开博文链接获取 Hugging Face Hub 仓库地址，确认许可证与数据卡片，再决定是否纳入训练或评测流程。</p>
+
+<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#dataset</code>, <code class="language-plaintext highlighter-rouge">#synthetic-data</code>, <code class="language-plaintext highlighter-rouge">#finance</code>, <code class="language-plaintext highlighter-rouge">#japan</code>, <code class="language-plaintext highlighter-rouge">#nvidia</code></p>
+
+<hr />
+
+<p><a id="item-ai-news-4"></a></p>
+<h3 id="simon-willison-用-claude-code-开发开源蜂鸣器定位工具-beep-locator-️-8010"><a href="https://simonwillison.net/2026/Nov/9/mysterious-beeps/">Simon Willison 用 Claude Code 开发开源蜂鸣器定位工具 Beep Locator</a> ⭐️ 8.0/10</h3>
+
+<p>Simon Willison 利用 Claude Code（Opus 5.5 Extra thinking 模式）构建并开源了 Beep Locator，一个基于 Web 的蜂鸣器三角定位系统。用户在一台设备上运行 Python Web 服务器，通过二维码或链接让多台手机、平板、笔记本作为分布式麦克风接入。系统基于 2007 年 BeepBeep 论文的声学测距原理，利用设备间播放啁啾声同步音频片段，结合 FFT 和高通滤波检测蜂鸣，实现约 40 厘米定位精度。项目已在 GitHub 完整开源（simonw/beep-locator），包含拍手测试模式、手动粗略定位模式、实时声源可视化等功能，实测成功定位家中一台电量不足的旧一氧化碳报警器。</p>
+
+<p>rss · Simon Willison · 11月9日 23:57</p>
+
+<p><strong>「实用价值」</strong> 任何需要定位间歇性声源（报警器、管道漏水、电器异响）的人都可直接克隆部署，利用手边闲置设备组成临时麦克风阵列，无需专业设备。第一步：克隆仓库，按 README 启动 Python 服务器，扫码加入监听设备，按提示校准或拖拽粗略定位，即可开始抓取神秘蜂鸣。</p>
+
+<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#AI-assisted development</code>, <code class="language-plaintext highlighter-rouge">#audio processing</code>, <code class="language-plaintext highlighter-rouge">#multi-device coordination</code>, <code class="language-plaintext highlighter-rouge">#practical tool</code>, <code class="language-plaintext highlighter-rouge">#Claude Code</code></p>
+
+<hr />
+
+<p><a id="item-ai-news-5"></a></p>
+<h3 id="deepseek-v41-flash-与-qwen-38-fn-本地推理实测对比-️-8010"><a href="https://www.reddit.com/r/LocalLLaMA/comments/1xs7ffm/same_prompt_deepseek_v41_flash_vs_qwen_38_fn_94/">DeepSeek V4.1 Flash 与 Qwen 3.8 FN 本地推理实测对比</a> ⭐️ 8.0/10</h3>
+
+<p>Reddit 用户 /u/jesdga95 在 RTX 5090 + RTX 5060 Ti、128 GB DDR5 环境下，用同一提示词（构建交互式 V8 引擎 Three.js 页面）对比了两款可本地运行的 MoE 模型。DeepSeek V4.1 Flash 采用 UD IQ1_M 量化、单 Agent，以约 94 tok/s 跑完 250k token、346k 上下文且无压缩，首次生成即完美运行；Qwen 3.8 FN 采用 NVFP4 量化、主 Agent + 5 子 Agent（最多 3 并发），聚合约 350 tok/s，耗时 70 分钟生成 443k+ token、总上下文 804k 并发生 2 次压缩，但有子 Agent 未完成任务、最终成品存在悬浮部件。测试使用 Basalt 与 Quecto Harness（作者为维护者），属单次实测，提示词极大概率已在训练集中。</p>
+
+<p>reddit · r/LocalLLaMA · /u/jesdga95 · 11月9日 23:32</p>
+
+<p><strong>「实用价值」</strong> 对于在消费级/准专业显卡上部署大模型的工程师，该实测直观展示了极低比特量化（IQ1_M）下 DeepSeek V4.1 Flash 的单 Agent 稳定性，以及高吞吐量 NVFP4 量化下 Qwen 3.8 FN 多 Agent 协作的潜在故障点；想评估本地长上下文、多 Agent 编码任务可行性的团队可直接复现该提示词，对比两种量化与 Agent 架构的权衡。</p>
+
+<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#local-llm</code>, <code class="language-plaintext highlighter-rouge">#moe-models</code>, <code class="language-plaintext highlighter-rouge">#quantization</code>, <code class="language-plaintext highlighter-rouge">#inference-benchmark</code>, <code class="language-plaintext highlighter-rouge">#multi-agent</code></p>
+
+<hr />
+
+<p><a id="item-ai-news-6"></a></p>
+<h3 id="amazon-在-hugging-face-发布-hope面向-moe-模型的高阶剪枝方法-️-7010"><a href="https://huggingface.co/blog/amazon/higher-order-pruning-experts">Amazon 在 Hugging Face 发布 HOPE：面向 MoE 模型的高阶剪枝方法</a> ⭐️ 7.0/10</h3>
+
+<p>Amazon 在 Hugging Face 博客发文介绍 HOPE（Higher-Order Pruning Experts），一种针对混合专家模型（MoE）的高阶剪枝方法，旨在剪枝的同时保留专家间的关系。博客由 Amazon 团队撰写，发布于 Hugging Face 官方博客，属于技术分享性质。目前仅知标题与发布渠道，正文细节（如实现代码、基准对比、硬件要求、许可证、可直接下载的模型权重等）未在可用材料中出现，实际可用程度需阅读原文确认。</p>
+
+<p>rss · Hugging Face Blog · 11月9日 12:34</p>
+
+<p><strong>「对你的意义」</strong> 如果你在生产或实验中部署 MoE 模型并面临显存/算力压力，HOPE 可能提供一种在保持专家协作能力的前提下压缩模型的新思路。第一步是打开原文（链接见上），确认是否提供可复现的代码、预剪枝权重或集成指南，再决定是否纳入评测对比。</p>
+
+<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#mixture-of-experts</code>, <code class="language-plaintext highlighter-rouge">#model-pruning</code>, <code class="language-plaintext highlighter-rouge">#model-optimization</code>, <code class="language-plaintext highlighter-rouge">#aws</code>, <code class="language-plaintext highlighter-rouge">#hugging-face</code></p>
+
+<hr />
+
+<p><a id="item-ai-news-7"></a></p>
+<h3 id="e-means-聚类算法社区实测加速效果不一需自行验证适用场景-️-6010"><a href="https://e-means.github.io/">E-means 聚类算法：社区实测加速效果不一，需自行验证适用场景</a> ⭐️ 6.0/10</h3>
+
+<p>Hacker News 讨论 E-means（一种声称比 k-means 快十倍的聚类变体）。社区成员报告了真实集成测试结果：real_faxenoff 在 IVF 索引（code-daemon 项目）上实现 146 倍 GPU 加速；kingcauchy 在分层平衡增量聚类（antflydb/antfly#1607）中让批量重建索引快 2.5 倍，但整体插入耗时变化不大；jlhawn 尝试用于球面等面积网格松弛，发现效果反而变差。讨论中无官方文档、安装指南、API、许可证或基准细节，读者需自行访问 e-means.github.io 获取可用信息。</p>
+
+<p>hackernews · porridgeraisin · 11月9日 18:45 · <a href="https://news.ycombinator.com/item?id=50429734">社区讨论</a></p>
+
+<p><strong>「对你有什么用」</strong> 从事向量检索、聚类索引、大规模数据分区的工程师可关注：若你的场景涉及大批量离线重建或 GPU 加速的 IVF 类索引，值得去项目站点拿代码跑基准；但球面网格松弛等几何优化场景已有负面反馈。第一步：打开 e-means.github.io 确认是否有可用的库、许可证与基准脚本，再在自家数据上对比 Lloyd 算法或 FAISS。</p>
+
+<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#clustering</code>, <code class="language-plaintext highlighter-rouge">#k-means</code>, <code class="language-plaintext highlighter-rouge">#optimization</code>, <code class="language-plaintext highlighter-rouge">#machine-learning</code>, <code class="language-plaintext highlighter-rouge">#algorithm</code></p>
+
+<hr />
+
+<p><a id="item-ai-news-8"></a></p>
+<h3 id="airbnb-用-chronon-把推荐延迟从两天降到秒级-️-6010"><a href="https://www.infoq.cn/article/yuRNB72KsEbjGYSkV7FY?utm_source=rss&amp;utm_medium=article">Airbnb 用 Chronon 把推荐延迟从两天降到秒级</a> ⭐️ 6.0/10</h3>
+
+<p>InfoQ 刊发标题为《Airbnb 借助 Chronon 将推荐延迟从两天缩短至秒级》的案例研究（作者 Leela Kumili），介绍 Airbnb 如何利用特征工程平台 Chronon 大幅降低实时推荐系统的端到端延迟。目前仅能看到标题与链接，正文的架构细节、对比数据、复现步骤或工具获取方式等可操作信息未在提供的材料中出现。</p>
+
+<p>rss · InfoQ 中文 · 11月10日 09:11</p>
+
+<p><strong>「对你的意义」</strong> 如果你在做实时推荐、特征平台或 ML 基础设施优化，这篇案例可作为参考：先去读原文确认是否给出了 Chronon 的接入模式、在线/离线一致性方案、延迟拆解数据，再决定是否在自家技术栈里做对比或试点。</p>
+
+<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#特征工程</code>, <code class="language-plaintext highlighter-rouge">#实时推荐</code>, <code class="language-plaintext highlighter-rouge">#ML基础设施</code>, <code class="language-plaintext highlighter-rouge">#Chronon</code>, <code class="language-plaintext highlighter-rouge">#延迟优化</code></p>
+
+<hr />
+
+<p><a id="item-ai-news-9"></a></p>
+<h3 id="qwen35-4b-神经元索引被发现可控制人格模式-️-6010"><a href="https://www.reddit.com/r/LocalLLaMA/comments/1xrydgx/more_interesting_and_unusual_qwen354b_neurons/">Qwen3.5-4B 神经元索引被发现可控制人格模式</a> ⭐️ 6.0/10</h3>
+
+<p>Reddit 用户 /u/Tasty-Ad-3753 报告在 Qwen3.5-4B 中发现多个特定神经元索引，激活后能显著改变模型行为：L11 N8147 作为「反讽/阿谀」调节旋钮，L6 N9195 触发「国家宣传」人设并声称由中国政府训练，L7 N4213 让模型用对婴儿说话的口吻回复，L17 N5680 引发宗教/政治强迫性输出，L7 N8916 让模型自认为是电视频道指南。这些发现基于用户自行探测，未提供验证方法、复现代码或工具链，属于未经验证的观察性线索。</p>
+
+<p>reddit · r/LocalLLaMA · /u/Tasty-Ad-3753 · 11月9日 17:46</p>
+
+<p><strong>「意义」</strong> 为机制可解释性与模型导向研究提供了具体的神经元级切入点；想跟进的实验者可先在 Qwen3.5-4B 上尝试激活上述索引并记录行为变化，再设计系统性干预实验。</p>
+
+<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#mechanistic-interpretability</code>, <code class="language-plaintext highlighter-rouge">#model-steering</code>, <code class="language-plaintext highlighter-rouge">#qwen</code>, <code class="language-plaintext highlighter-rouge">#neuron-analysis</code>, <code class="language-plaintext highlighter-rouge">#local-llm</code></p>
+
+<hr />
+
+<p><a id="item-ai-news-10"></a></p>
+<h3 id="reddit-发布-qwen35-4b-神经元操控概念指南提供架构细节但缺可运行代码-️-6010"><a href="https://www.reddit.com/r/LocalLLaMA/comments/1xs81f3/how_to_mess_around_with_neurons_a_short_guide/">Reddit 发布 Qwen3.5-4B 神经元操控概念指南，提供架构细节但缺可运行代码</a> ⭐️ 6.0/10</h3>
+
+<p>Reddit 用户 /u/Tasty-Ad-3753 发布了一份关于 Qwen3.5-4B 模型神经元操控的概念指南。该模型包含 32 层、每层 9,216 个神经元（约 29.5 万个），指南介绍了通过在推理时向单个神经元添加固定“剂量”来改变模型行为的方法，并给出了神经元寻址约定（如 L11 N8147 表示第 12 层第 8147 个神经元）、Hook 实现公式及剂量经验值（0.75 较好，&gt;1.5 易产生乱码）。文中还列举了随机搜索、梯度筛选+LLM 评判、激活挖掘三种寻找有趣神经元的思路，并提到可将修改保存为 control vector 在 llama.cpp 中使用。指南参考了 justinrhowell 的 neuron-steering 仓库，但内容被截断，未提供完整代码、库依赖、安装步骤或演示效果。</p>
+
+<p>reddit · r/LocalLLaMA · /u/Tasty-Ad-3753 · 11月9日 23:59</p>
+
+<p><strong>「实用价值」</strong> 对想在本地尝试激活向量操控的开发者有参考价值：可先按指南公式在 PyTorch/transformers 中给 Qwen3.5-4B 的 down_proj 挂 Hook 做单神经元推理实验，或直接用 llama.cpp 的 –control-vector 加载已有向量；寻找有趣神经元时建议优先用随机搜索配合 LLM 自动评测，再结合 Neuronpedia 复核。</p>
+
+<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#neuron-steering</code>, <code class="language-plaintext highlighter-rouge">#activation-steering</code>, <code class="language-plaintext highlighter-rouge">#Qwen</code>, <code class="language-plaintext highlighter-rouge">#interpretability</code>, <code class="language-plaintext highlighter-rouge">#local-LLM</code></p>
+
+<hr />
+
+<h2 id="x--youtube-热门">X / YouTube 热门</h2>
+
+<p><a id="item-social-hot-1"></a></p>
+<h3 id="devops-directive-出品-github-actions-完整实战课程-️-8010"><a href="https://www.youtube.com/watch?v=Xwpi0ITkL3U">DevOps Directive 出品 GitHub Actions 完整实战课程</a> ⭐️ 8.0/10</h3>
+
+<p>这是 DevOps Directive 频道出品的 3.7 小时 GitHub Actions 完整实战课程，从入门到进阶系统讲解 CI/CD 配置。课程配套 GitHub 仓库提供所有示例工作流，涵盖 GitHub Actions 平台心智模型构建、历史动机、核心概念及可落地的自动化部署实战。</p>
+
+<p>youtube · GitHub · 11月10日 04:37</p>
+
+<p><strong>「推荐理由」</strong> 该视频播放量 37 万+，是 DevOps Directive 频道出品的 3.7 小时 GitHub Actions 系统教程，从入门到进阶提供大量可落地的 CI/CD 配置示例，适合开发者系统学习并直接应用到项目中。</p>
+
+<details><summary>参考链接</summary>
+<ul>
+<li><a href="https://github.com/rashidbestry/devops-directive-github-actions">GitHub - rashidbestry/ devops - directive - github - actions : Companion...</a></li>
+<li><a href="https://courses.devopsdirective.com/github-actions-beginner-to-pro/lessons/00-introduction/01-main">Technical courses by Sid Palas ( DevOps Directive )</a></li>
+
+</ul>
+</details>
+
+<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#GitHub Actions</code>, <code class="language-plaintext highlighter-rouge">#CI/CD</code>, <code class="language-plaintext highlighter-rouge">#DevOps</code>, <code class="language-plaintext highlighter-rouge">#教程</code>, <code class="language-plaintext highlighter-rouge">#自动化</code></p>
+
+<hr />
+ ]]></content>
+  </entry>
   
   <entry>
     <title>Horizon Summary: 2026-11-09 (ZH)</title>
@@ -1326,251 +1515,6 @@
 <p><strong>「对你的意义」</strong> 因缺乏文章实质内容，暂无法给出可执行的第一步建议（如试用、替换、对比或迁移）。若后续获取全文并确认包含可复用的配置模式或迁移步骤，再评估是否纳入云原生身份认证的参考案例。</p>
 
 <p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#Workload Identity</code>, <code class="language-plaintext highlighter-rouge">#AWS IAM</code>, <code class="language-plaintext highlighter-rouge">#Netflix</code>, <code class="language-plaintext highlighter-rouge">#云原生安全</code>, <code class="language-plaintext highlighter-rouge">#身份认证</code></p>
-
-<hr />
- ]]></content>
-  </entry>
-  
-  <entry>
-    <title>Horizon Summary: 2026-11-03 (ZH)</title>
-    <link href="https://www.01040610.xyz/horizon/2026/11/03/summary-zh.html"/>
-    <updated>2026-11-03T00:00:00+00:00</updated>
-    <id>https://www.01040610.xyz/horizon/2026/11/03/summary-zh.html</id>
-    <content type="html"><![CDATA[ <blockquote>
-  <p>今日抓取 137 条内容，收录 14 条。</p>
-</blockquote>
-
-<hr />
-
-<p><strong>GitHub AI 开发工具</strong></p>
-<ol>
-  <li><a href="#item-gh-trending-1">OthmanAdi/planning-with-files：AI 编码代理的持久化文件规划工具</a> ⭐️ 9.0/10</li>
-  <li><a href="#item-gh-trending-2">JustVugg/colibri：纯 C 零依赖的 MoE 模型本地推理引擎</a> ⭐️ 8.0/10</li>
-  <li><a href="#item-gh-trending-3">max-sixty/worktrunk：面向并行 AI Agent 的 Git worktree 管理 CLI</a> ⭐️ 8.0/10</li>
-  <li><a href="#item-gh-trending-4">upstash/context7：为 AI 代理提供实时文档的 MCP 服务器</a> ⭐️ 8.0/10</li>
-  <li><a href="#item-gh-trending-5">vercel-labs/agent-desktop：给 AI Agent 赋能桌面操作的 Rust CLI</a> ⭐️ 6.0/10</li>
-  <li><a href="#item-gh-trending-6">mattpocock/skills：工程师 AI Agent 技能集合</a> ⭐️ 5.0/10</li>
-  <li><a href="#item-gh-trending-7">FlashML-org/FreeToken：本地大模型推理服务工具</a> ⭐️ 5.0/10</li>
-</ol>
-
-<p><strong>AI 热门新闻</strong></p>
-<ol>
-  <li><a href="#item-ai-news-1">vLLM v0.33.0rc3 发布：新增 10+ 模型、升级 PyTorch 2.14、仅支持 CUDA 13.0</a> ⭐️ 7.0/10</li>
-  <li><a href="#item-ai-news-2">llm 0.37 发布：新模型、OpenAI 兼容端点、更便宜默认模型</a> ⭐️ 7.0/10</li>
-  <li><a href="#item-ai-news-3">ISTA 发布 DeepSeek-V4.1-Flash 763B 专家剪枝版，1 bit/参数压缩至 72.1 GB</a> ⭐️ 7.0/10</li>
-  <li><a href="#item-ai-news-4">RTX 8000 48GB 二手价降至 $2100，成本优于双 3090 跑 70B 模型</a> ⭐️ 7.0/10</li>
-  <li><a href="#item-ai-news-5">用户用 Qwen 3 27B 分析 16 年市议会会议纪要，寻求 YouTube 直播字幕抓取方案</a> ⭐️ 6.0/10</li>
-</ol>
-
-<p><strong>X / YouTube 热门</strong></p>
-<ol>
-  <li><a href="#item-social-hot-1">GitHub Copilot Day 直播：新功能发布、实战工作流与现场编码演示</a> ⭐️ 7.0/10</li>
-  <li><a href="#item-social-hot-2">NSA 开源工具实测：Ghidra 与 YARA 等 7 个项目</a> ⭐️ 7.0/10</li>
-</ol>
-
-<hr />
-
-<h2 id="github-ai-开发工具">GitHub AI 开发工具</h2>
-
-<p><a id="item-gh-trending-1"></a></p>
-<h3 id="othmanadiplanning-with-filesai-编码代理的持久化文件规划工具-️-9010"><a href="https://github.com/OthmanAdi/planning-with-files">OthmanAdi/planning-with-files：AI 编码代理的持久化文件规划工具</a> ⭐️ 9.0/10</h3>
-
-<p>planning-with-files 为 AI 编码代理提供基于文件的持久化规划能力，解决长任务中的上下文腐烂与会话脆弱问题。它以 Markdown 形式落盘计划，支持 /clear 与压缩后的会话恢复、逐轮重注入上下文以及确定性完成门控，兼容 Codex、Cursor、OpenCode、Copilot 等 60 余种代理，可通过 npm、Claude Code 插件市场或 npx 安装。项目以 Shell 为主，已获 27.8k Star、14 个开放 Issue，近期仍在活跃维护，处于可用、生产就绪阶段。</p>
-
-<p>github · OthmanAdi · 11月3日 03:55</p>
-
-<p><strong>「推荐理由」</strong> 它落在“上下文供给”与“写代码”环节，把易丢失的临时规划变成可版本化、可恢复的文件资产，替代了人工在会话间手动同步进度的繁琐步骤，适合需要跑长任务、频繁切换上下文窗口或在多代理间协作的开发者。27.8k Star 与低 Issue 数印证了社区对其稳定性的认可。</p>
-
-<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#ai-coding-agent</code>, <code class="language-plaintext highlighter-rouge">#context-engineering</code>, <code class="language-plaintext highlighter-rouge">#session-recovery</code>, <code class="language-plaintext highlighter-rouge">#planning</code>, <code class="language-plaintext highlighter-rouge">#developer-tools</code></p>
-
-<hr />
-
-<p><a id="item-gh-trending-2"></a></p>
-<h3 id="justvuggcolibri纯-c-零依赖的-moe-模型本地推理引擎-️-8010"><a href="https://github.com/JustVugg/colibri">JustVugg/colibri：纯 C 零依赖的 MoE 模型本地推理引擎</a> ⭐️ 8.0/10</h3>
-
-<p>colibri 是一个纯 C 编写、零外部依赖的轻量推理引擎，通过从磁盘流式加载 MoE（混合专家）模型的专家权重，让普通硬件也能运行前沿大语言模型，主打本地 AI 辅助编程场景。项目目前拥有 4.6 万星，处于可用阶段。</p>
-
-<p>github · JustVugg · 11月3日 03:55</p>
-
-<p><strong>「推荐理由」</strong> 它解决了开发者在「写码/上下文供给」环节依赖昂贵 GPU 或云 API 的痛点，以极小的二进制体积替代重型推理框架，适合想在本机离线跑大模型、且偏好无依赖部署的工程师。</p>
-
-<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#local-llm-inference</code>, <code class="language-plaintext highlighter-rouge">#moe-models</code>, <code class="language-plaintext highlighter-rouge">#c-language</code>, <code class="language-plaintext highlighter-rouge">#zero-dependencies</code>, <code class="language-plaintext highlighter-rouge">#edge-ai</code></p>
-
-<hr />
-
-<p><a id="item-gh-trending-3"></a></p>
-<h3 id="max-sixtyworktrunk面向并行-ai-agent-的-git-worktree-管理-cli-️-8010"><a href="https://github.com/max-sixty/worktrunk">max-sixty/worktrunk：面向并行 AI Agent 的 Git worktree 管理 CLI</a> ⭐️ 8.0/10</h3>
-
-<p>Worktrunk 是一个用 Rust 编写的命令行工具，专门管理 Git worktree 以支持多个 AI Agent 并行工作。它解决了并行运行多个 Agent 会话时的上下文隔离与分支切换难题，适合需要同时推进多个任务的开发者。项目已积累 10k+ Star 并持续增长，提供开箱即用的二进制发布，文档与代码完善，处于可直接投入使用的成熟阶段。</p>
-
-<p>github · max-sixty · 11月3日 03:55</p>
-
-<p><strong>「推荐理由」</strong> 它切中 AI 辅助开发中并行任务的上下文隔离痛点，替代手动创建 worktree 和切换分支的繁琐步骤，适合习惯同时跑多个 Agent 会话的工程师和团队。</p>
-
-<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#git-worktree</code>, <code class="language-plaintext highlighter-rouge">#cli-tool</code>, <code class="language-plaintext highlighter-rouge">#ai-agent-workflow</code>, <code class="language-plaintext highlighter-rouge">#parallel-development</code>, <code class="language-plaintext highlighter-rouge">#rust</code></p>
-
-<hr />
-
-<p><a id="item-gh-trending-4"></a></p>
-<h3 id="upstashcontext7为-ai-代理提供实时文档的-mcp-服务器-️-8010"><a href="https://github.com/upstash/context7">upstash/context7：为 AI 代理提供实时文档的 MCP 服务器</a> ⭐️ 8.0/10</h3>
-
-<p>Context7 是一个基于 TypeScript 实现的 MCP 服务器，专门为 AI 代理提供最新的技术文档，解决 AI 编程助手因文档过时而产生幻觉或错误的问题。项目创建于 2025 年 3 月，最近一次推送在 2026 年 11 月，维护活跃，已获 6.4 万星标，处于可用且社区认可度高的阶段。</p>
-
-<p>github · upstash · 11月3日 03:55</p>
-
-<p><strong>「推荐理由」</strong> 它落在「上下文供给」环节，通过标准化的 MCP 接口为 AI 编程助手注入实时文档，替代了手动查阅或依赖过时训练数据的做法，适合需要提升 AI 代码生成准确性的开发者与团队。</p>
-
-<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#mcp-server</code>, <code class="language-plaintext highlighter-rouge">#context-supply</code>, <code class="language-plaintext highlighter-rouge">#ai-coding-assistant</code>, <code class="language-plaintext highlighter-rouge">#documentation</code>, <code class="language-plaintext highlighter-rouge">#typescript</code></p>
-
-<hr />
-
-<p><a id="item-gh-trending-5"></a></p>
-<h3 id="vercel-labsagent-desktop给-ai-agent-赋能桌面操作的-rust-cli-️-6010"><a href="https://github.com/vercel-labs/agent-desktop">vercel-labs/agent-desktop：给 AI Agent 赋能桌面操作的 Rust CLI</a> ⭐️ 6.0/10</h3>
-
-<p>vercel-labs/agent-desktop 是一个由 Vercel Labs 开发的 Rust 命令行工具，旨在让 AI Agent 获得桌面级的计算机使用能力（computer-use），解决 Agent 与图形界面交互的上下文供给问题。项目处于早期实验阶段，公开文档与可复现的使用示例尚不足，难以判定为生产就绪。</p>
-
-<p>github · vercel-labs · 11月3日 03:55</p>
-
-<p><strong>「推荐理由」</strong> 它切中 AI Agent 需要操作真实桌面环境的工具链缺口，适合正在探索 Agent 自动化桌面工作流的开发者；来自 Vercel Labs 的背书与 Rust 实现暗示代码质量可期，但目前更适合作为调研参考而非直接接入生产。</p>
-
-<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#ai-agents</code>, <code class="language-plaintext highlighter-rouge">#computer-use</code>, <code class="language-plaintext highlighter-rouge">#cli-tool</code>, <code class="language-plaintext highlighter-rouge">#rust</code>, <code class="language-plaintext highlighter-rouge">#developer-tooling</code></p>
-
-<hr />
-
-<p><a id="item-gh-trending-6"></a></p>
-<h3 id="mattpocockskills工程师-ai-agent-技能集合-️-5010"><a href="https://github.com/mattpocock/skills">mattpocock/skills：工程师 AI Agent 技能集合</a> ⭐️ 5.0/10</h3>
-
-<p>该仓库是作者从个人 .agents 目录整理出的 AI Agent 技能集合，面向工程师提供 AI 辅助编程的可复用技能脚本，主语言为 Shell。尽管累计星标超过 31 万，但缺乏代码、文档与使用示例，成熟度难以评估，处于早期或实验性阶段。</p>
-
-<p>github · mattpocock · 11月3日 03:55</p>
-
-<p><strong>「推荐理由」</strong> 作为高星标的 AI Agent 技能库，它可能为编写代码、代码审查等环节提供现成的自动化脚本，适合想尝试将 AI 技能集成到本地开发流程的工程师；但实际可用性需自行验证。</p>
-
-<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#ai-agent</code>, <code class="language-plaintext highlighter-rouge">#developer-productivity</code>, <code class="language-plaintext highlighter-rouge">#shell-scripts</code>, <code class="language-plaintext highlighter-rouge">#ai-assisted-coding</code>, <code class="language-plaintext highlighter-rouge">#engineering-tools</code></p>
-
-<hr />
-
-<p><a id="item-gh-trending-7"></a></p>
-<h3 id="flashml-orgfreetoken本地大模型推理服务工具-️-5010"><a href="https://github.com/FlashML-org/FreeToken">FlashML-org/FreeToken：本地大模型推理服务工具</a> ⭐️ 5.0/10</h3>
-
-<p>FreeToken 是一个本地 LLM 推理服务工具，主打将「数据中心级模型服务」带到桌面端，让用户能在本地高效运行大规模模型。它基于 Python 实现，定位于模型服务/基础设施层，目前处于早期活跃阶段（单日新增 653 颗星，累计 1.6 万），但官方资料未提供开发者导向的功能、集成或成熟度细节。</p>
-
-<p>github · FlashML-org · 11月3日 03:55</p>
-
-<p><strong>「推荐理由」</strong> 适合需要离线、私有化运行编程类大模型的开发者或团队，作为本地推理后端替代云端 API，解决数据不出本地、延迟与成本可控的问题；目前更偏基础设施组件，需自行对接编码工作流。</p>
-
-<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#llm-inference</code>, <code class="language-plaintext highlighter-rouge">#local-ai</code>, <code class="language-plaintext highlighter-rouge">#model-serving</code>, <code class="language-plaintext highlighter-rouge">#python</code>, <code class="language-plaintext highlighter-rouge">#infrastructure</code></p>
-
-<hr />
-
-<h2 id="ai-热门新闻">AI 热门新闻</h2>
-
-<p><a id="item-ai-news-1"></a></p>
-<h3 id="vllm-v0330rc3-发布新增-10-模型升级-pytorch-214仅支持-cuda-130-️-7010"><a href="https://github.com/vllm-project/vllm/releases/tag/v0.33.0rc3">vLLM v0.33.0rc3 发布：新增 10+ 模型、升级 PyTorch 2.14、仅支持 CUDA 13.0</a> ⭐️ 7.0/10</h3>
-
-<p>vLLM v0.33.0rc3 作为发布候选版本发布，包含 927 个提交。新增 10 余个模型日零支持，包括 Reflection Beam-1.0 (501B MoE)、Yandex AliceAI-Foundation-80B-A3B、Recursive Flint 等。依赖升级至 PyTorch 2.14.0、Triton 3.8.0，放弃 CUDA 12.9 仅提供 CUDA 13.0 轮包与镜像，新增 libtorch ABI 稳定轮包与 AWS EFA 专用镜像 (vllm/vllm-openai:v0.33.0-efa)。推测解码、NVIDIA/AMD 侧解码性能、OpenAI 兼容 API 均有实测优化。所有制品已上传 PyPI 与 Docker Hub，可通过 `pip install vllm` 或拉取 `vllm/vllm:v0.33.0` 直接体验，但属 RC 版本，生产环境建议等待 GA。</p>
-
-<p>github · khluu · 11月2日 10:10</p>
-
-<p><strong>「实用价值」</strong> 想要首批验证新模型 (如 Reflection Beam-1.0、Nemotron Parse 3.5) 或评估 CUDA 13.0 迁移、AWS EFA 多节点服务的推理工程师，可立即在测试环境拉取 RC 镜像跑基准；生产负载请等待正式版并留意破坏性变更 (Medusa/MLP 移除、Ray 编译图执行器移除、暂停生成返回 503 等)。</p>
-
-<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#vLLM</code>, <code class="language-plaintext highlighter-rouge">#LLM-inference</code>, <code class="language-plaintext highlighter-rouge">#model-support</code>, <code class="language-plaintext highlighter-rouge">#CUDA-13</code>, <code class="language-plaintext highlighter-rouge">#release-candidate</code></p>
-
-<hr />
-
-<p><a id="item-ai-news-2"></a></p>
-<h3 id="llm-037-发布新模型openai-兼容端点更便宜默认模型-️-7010"><a href="https://simonwillison.net/2026/Nov/2/llm/">llm 0.37 发布：新模型、OpenAI 兼容端点、更便宜默认模型</a> ⭐️ 7.0/10</h3>
-
-<p>Simon Willison 发布 llm 0.37，这是其 LLM CLI 工具和 Python 库的新版本。新增 gpt-6.1-sol 和 gpt-6.1-terra 两个模型，并添加 `llm openai endpoint add` 命令以便配置 OpenAI 兼容端点。默认模型从 gpt-5.6-luna 切换为 gpt-6-luna，价格减半。嵌入功能现在支持不同二进制内容的 content-type，适配 Gemini Embedding 2 等多模态嵌入模型。该版本包含 12 位贡献者的修复，多数为 AI 辅助完成。</p>
-
-<p>rss · Simon Willison · 11月2日 23:49</p>
-
-<p><strong>「实用价值」</strong> 如果你在用 llm CLI 或库，升级后可直接用更便宜的默认模型、通过新命令快速接入任意 OpenAI 兼容端点，并能为多模态嵌入传入音频、图像或视频。第一步：运行 `pip install -U llm` 升级，再用 `llm openai endpoint add` 配置自定义端点。</p>
-
-<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#llm-cli</code>, <code class="language-plaintext highlighter-rouge">#simon-willison</code>, <code class="language-plaintext highlighter-rouge">#openai-compatible</code>, <code class="language-plaintext highlighter-rouge">#embeddings</code>, <code class="language-plaintext highlighter-rouge">#python-library</code></p>
-
-<hr />
-
-<p><a id="item-ai-news-3"></a></p>
-<h3 id="ista-发布-deepseek-v41-flash-763b-专家剪枝版1-bit参数压缩至-721-gb-️-7010"><a href="https://www.reddit.com/r/LocalLLaMA/comments/1xlys6k/release_ista_deepseekv41flash1017_gsqrco_coder_a/">ISTA 发布 DeepSeek-V4.1-Flash 763B 专家剪枝版，1 bit/参数压缩至 72.1 GB</a> ⭐️ 7.0/10</h3>
-
-<p>ISTA Deep Algorithms and Systems Lab 在 Hugging Face 发布了 DeepSeek-V4.1-Flash-1017 的 Coder 实验版，采用 GSQ（Gumbel-Softmax 量化）与 RCO（黎曼约束优化）将原 763.2B 参数的稀疏 MoE 模型（384 专家/层，6 激活）压缩至约 1 bit/参数。该版本每层保留 192 个路由专家，Transformer 权重 72.1 GB（未剪枝 IQ2_XXS 为 138.2 GB），共享 Engram 文件 110.6 GB 与未剪枝版相同。实测 LiveCodeBench v6 保留 98.7% 基线性能（88.57 vs 89.71），SWE-bench Verified 保留 94.8%（77.00 vs 81.20）。模型已上传至 huggingface.co/ISTA-DASLab/DeepSeek-V4.1-Flash-1017-GSQ-RCO-Coder-GGUF，需 llama.cpp b11870 或更新版本、或 Strata 运行。</p>
-
-<p>reddit · r/LocalLLaMA · /u/Loginhe · 11月2日 14:33</p>
-
-<p><strong>「实用价值」</strong> 想在本地跑 700B 级 MoE 编码模型但显存/内存不足的开发者可直接下载该 GGUF 尝试；首要步骤是拉取 Hugging Face 仓库的 72.1 GB Transformer 与 110.6 GB Engram 文件，配合 llama.cpp b11870+ 加载测试。压缩后总体积约 183 GB，仍需大内存机器，但比未剪枝版节省近一半 Transformer 体积，且在单轮代码生成任务上性能损失极小（&lt;2%），适合作为极限压缩 MoE 部署的参考基线。</p>
-
-<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#model-release</code>, <code class="language-plaintext highlighter-rouge">#quantization</code>, <code class="language-plaintext highlighter-rouge">#moe</code>, <code class="language-plaintext highlighter-rouge">#local-llm</code>, <code class="language-plaintext highlighter-rouge">#deepseek</code></p>
-
-<hr />
-
-<p><a id="item-ai-news-4"></a></p>
-<h3 id="rtx-8000-48gb-二手价降至-2100成本优于双-3090-跑-70b-模型-️-7010"><a href="https://www.reddit.com/r/LocalLLaMA/comments/1xmgmd8/rtx_8000_48gb_prices_have_decreased_over_the_last/">RTX 8000 48GB 二手价降至 $2100，成本优于双 3090 跑 70B 模型</a> ⭐️ 7.0/10</h3>
-
-<p>Reddit 用户报告 RTX 8000 48GB 显卡二手价从 2024 年的 $2400 降至约 $2100，而同期单张 RTX 3090 价格翻倍至 $1500-1600，导致双 3090 方案（48GB 显存、700W 功耗）每 GB 成本高于单张 RTX 8000（265W、672 GB/s 带宽）。实测可在 48GB 显存内完整跑 Qwen 3.8 27B、Llama 3 70B 等模型（256k 上下文、q6 量化），GPT-OSS 120B 等 MoE 模型则通过系统内存卸载层运行；配合 Strata 框架，QFN q4_xs 可达 390k 上下文、850 tok/s 预填与 60-70 tok/s 生成（i9-9900K + 64GB DDR4）。用户两年无驱动兼容性问题，认为这是当前家庭实验室“全能”最优选，但数据基于单一买家经验且二手市场价格波动大。</p>
-
-<p>reddit · r/LocalLLaMA · /u/triynizzles1 · 11月3日 02:09</p>
-
-<p><strong>「实用价值」</strong> 对于在本地部署 70B 级模型且预算敏感的开发者，RTX 8000 48GB 以更低功耗、更低每 GB 成本提供单卡大显存方案，避免双卡 NVLink 复杂性；建议先在二手平台对比当前 RTX 8000 与双 3090 实时成交价，再按目标模型量化与上下文长度测试推理速度。</p>
-
-<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#local-llm</code>, <code class="language-plaintext highlighter-rouge">#gpu-hardware</code>, <code class="language-plaintext highlighter-rouge">#rtx-8000</code>, <code class="language-plaintext highlighter-rouge">#inference</code>, <code class="language-plaintext highlighter-rouge">#cost-analysis</code></p>
-
-<hr />
-
-<p><a id="item-ai-news-5"></a></p>
-<h3 id="用户用-qwen-3-27b-分析-16-年市议会会议纪要寻求-youtube-直播字幕抓取方案-️-6010"><a href="https://www.reddit.com/r/LocalLLaMA/comments/1xmfbam/i_found_another_niche_use_case_for_local_llms_but/">用户用 Qwen 3 27B 分析 16 年市议会会议纪要，寻求 YouTube 直播字幕抓取方案</a> ⭐️ 6.0/10</h3>
-
-<p>Reddit 用户 /u/Strid3r21 下载了过去 16 年的市议会会议纪要，使用本地部署的 Qwen 3 27B（Q6 量化）模型分析，发现警长以 9000 美元拨款购买 Flock 摄像头，但会议纪要中未见公众评论记录。由于会议同步直播至 YouTube 并有自动生成字幕，用户希望抓取这些字幕供 LLM 深度分析，正在寻求可行的抓取工具或方法建议。</p>
-
-<p>reddit · r/LocalLLaMA · /u/Strid3r21 · 11月3日 01:08</p>
-
-<p><strong>「对实践者的意义」</strong> 这展示了一个可落地的公民技术工作流：公开记录 + 本地 LLM 可低成本挖掘治理细节。对于想复现或扩展此类分析的人，第一步是解决 YouTube 直播字幕的批量获取问题（可尝试 yt-dlp、youtube-transcript-api 或 YouTube Data API），随后再接入本地模型做长文本检索与摘要。</p>
-
-<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#local-llm</code>, <code class="language-plaintext highlighter-rouge">#public-records-analysis</code>, <code class="language-plaintext highlighter-rouge">#youtube-transcript-scraping</code>, <code class="language-plaintext highlighter-rouge">#qwen</code>, <code class="language-plaintext highlighter-rouge">#civic-tech</code></p>
-
-<hr />
-
-<h2 id="x--youtube-热门">X / YouTube 热门</h2>
-
-<p><a id="item-social-hot-1"></a></p>
-<h3 id="github-copilot-day-直播新功能发布实战工作流与现场编码演示-️-7010"><a href="https://www.youtube.com/watch?v=0kOXsQUNzss">GitHub Copilot Day 直播：新功能发布、实战工作流与现场编码演示</a> ⭐️ 7.0/10</h3>
-
-<p>这是 GitHub 官方举办的首届 Copilot Day 四小时直播回放，由产品团队现场演示新发布的功能、真实开发工作流与现场编码。直播深入讲解了 Agent 模式、模型选择，以及 Copilot 在 GitHub 网页端、CLI 与 VS Code 中的跨平台协作，并首次公开了研究预览项目 HydraFusion，展示通过运行时编排提供前沿智能的能力。</p>
-
-<p>youtube · GitHub · 11月3日 03:55</p>
-
-<p><strong>「推荐理由」</strong> 这是 GitHub 官方举办的 4 小时 Copilot Day 直播，涵盖新功能发布、真实开发工作流演示和产品团队现场编码，播放量 7.8 万次。开发者可直接从构建者那里学到可落地的 Copilot 使用技巧、新特性实战演示以及团队协作中的最佳实践。</p>
-
-<details><summary>参考链接</summary>
-<ul>
-<li><a href="https://www.youtube.com/watch?v=0kOXsQUNzss">GitHub Copilot Day live : new releases , real workflows... - YouTube</a></li>
-<li><a href="https://www.linkedin.com/posts/github_tomorrow-github-copilot-day-new-releases-activity-7503571767064608768-SrFf">Tomorrow: GitHub Copilot Day New releases , real workflows...</a></li>
-
-</ul>
-</details>
-
-<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#github-copilot</code>, <code class="language-plaintext highlighter-rouge">#ai-coding-assistant</code>, <code class="language-plaintext highlighter-rouge">#live-coding</code>, <code class="language-plaintext highlighter-rouge">#developer-workflows</code>, <code class="language-plaintext highlighter-rouge">#product-demos</code></p>
-
-<hr />
-
-<p><a id="item-social-hot-2"></a></p>
-<h3 id="nsa-开源工具实测ghidra-与-yara-等-7-个项目-️-7010"><a href="https://www.youtube.com/watch?v=i-V89uYnCZ4">NSA 开源工具实测：Ghidra 与 YARA 等 7 个项目</a> ⭐️ 7.0/10</h3>
-
-<p>该视频由频道 Electronic Tech Show 发布，演示了 7 个 NSA 在 GitHub 上开源的工具，并在实验室环境中实测演示，内容涵盖 Ghidra 逆向工程入门教程、用于 Web Shell 检测的 YARA 规则、SELinux、Apache NiFi 等。视频时长约 15 分钟，播放量 5,071 次，属于实操演示类安全工具介绍。</p>
-
-<p>youtube · GitHub · 11月3日 03:55</p>
-
-<p><strong>「推荐理由」</strong> 视频在实验室环境中实测演示了 NSA 在 GitHub 上开源的 7 个安全工具，包含 Ghidra 逆向工程入门教程与 Web Shell 检测 YARA 规则编写，内容可复现、偏实战。截至发布已获 5071 次播放，适合想快速上手 NSA 官方工具链的安全从业者或爱好者。</p>
-
-<details><summary>参考链接</summary>
-<ul>
-<li><a href="https://github.com/NationalSecurityAgency">National Security Agency - GitHub</a></li>
-<li><a href="https://m.youtube.com/watch?v=i-V89uYnCZ4">7 GitHub Tools the NSA Uses (That Anyone Can Download)</a></li>
-
-</ul>
-</details>
-
-<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#reverse-engineering</code>, <code class="language-plaintext highlighter-rouge">#Ghidra</code>, <code class="language-plaintext highlighter-rouge">#YARA</code>, <code class="language-plaintext highlighter-rouge">#cybersecurity</code>, <code class="language-plaintext highlighter-rouge">#NSA-tools</code>, <code class="language-plaintext highlighter-rouge">#GitHub</code></p>
 
 <hr />
  ]]></content>
