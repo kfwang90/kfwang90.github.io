@@ -3,9 +3,245 @@
   <title>Horizon 每日速递 - English Digest</title>
   <link href="https://www.01040610.xyz/horizon/feed-en.xml" rel="self"/>
   <link href="https://www.01040610.xyz/horizon/"/>
-  <updated>2026-11-10T04:45:25+00:00</updated>
+  <updated>2026-11-11T02:56:28+00:00</updated>
   <id>https://www.01040610.xyz/horizon/</id>
   
+  
+  <entry>
+    <title>Horizon Summary: 2026-11-11 (EN)</title>
+    <link href="https://www.01040610.xyz/horizon/2026/11/11/summary-en.html"/>
+    <updated>2026-11-11T00:00:00+00:00</updated>
+    <id>https://www.01040610.xyz/horizon/2026/11/11/summary-en.html</id>
+    <content type="html"><![CDATA[ <blockquote>
+  <p>Showing 13 of 145 fetched items.</p>
+</blockquote>
+
+<hr />
+
+<p><strong>AI Dev Tools</strong></p>
+<ol>
+  <li><a href="#item-gh-trending-1">DeusData/codebase-memory-mcp: Local code intelligence via persistent graph and MCP tools</a> ⭐️ 8.0/10</li>
+  <li><a href="#item-gh-trending-2">addyosmani/agent-skills: Production-grade engineering skills for AI coding agents</a> ⭐️ 7.0/10</li>
+  <li><a href="#item-gh-trending-3">anthropics/skills – Public repo for Agent Skills (Python)</a> ⭐️ 6.0/10</li>
+  <li><a href="#item-gh-trending-4">anthropics/claude-quickstarts: Official Claude API quickstart templates</a> ⭐️ 5.0/10</li>
+  <li><a href="#item-gh-trending-5">DiffuSpace/Clover-35B-A3B-Preview: 35B diffusion language model checkpoint for agentic coding research</a> ⭐️ 5.0/10</li>
+</ol>
+
+<p><strong>AI News</strong></p>
+<ol>
+  <li><a href="#item-ai-news-1">Anthropic documents prompt to make Claude Fable 5.2 refactor code more aggressively</a> ⭐️ 9.0/10</li>
+  <li><a href="#item-ai-news-2">Anthropic Glasswing AI Finds 9 Real Bugs, Zero False Positives in Maintainer Test</a> ⭐️ 7.0/10</li>
+  <li><a href="#item-ai-news-3">Google Chrome releases modern-web-guidance v1.0 for coding agents</a> ⭐️ 7.0/10</li>
+  <li><a href="#item-ai-news-4">llm-gemini 0.36 adds Gemini 4 Carbon support with launch pricing</a> ⭐️ 7.0/10</li>
+  <li><a href="#item-ai-news-5">DeepMind Announces AlphaProof Code for AI Formal Verification</a> ⭐️ 6.0/10</li>
+</ol>
+
+<p><strong>X / YouTube Highlights</strong></p>
+<ol>
+  <li><a href="#item-social-hot-1">9 Trending GitHub Repos Tested Hands-On</a> ⭐️ 7.0/10</li>
+  <li><a href="#item-social-hot-2">17 agents, one SDLC: How Levi Strauss reimagined development on GitHub</a> ⭐️ 7.0/10</li>
+  <li><a href="#item-social-hot-3">Fable 5.2 Compiler Deep Dive &amp; Review</a> ⭐️ 6.0/10</li>
+</ol>
+
+<hr />
+
+<h2 id="ai-dev-tools">AI Dev Tools</h2>
+
+<p><a id="item-gh-trending-1"></a></p>
+<h3 id="deusdatacodebase-memory-mcp-local-code-intelligence-via-persistent-graph-and-mcp-tools-️-8010"><a href="https://github.com/DeusData/codebase-memory-mcp">DeusData/codebase-memory-mcp: Local code intelligence via persistent graph and MCP tools</a> ⭐️ 8.0/10</h3>
+
+<p>DeusData/codebase-memory-mcp is a local code intelligence platform that connects code, documentation, and infrastructure in a persistent graph, exposing MCP tools and change-aware test selection for AI agents. It is implemented primarily in C and integrates with assistants such as Aider, Claude Code, Codex, Cursor, and Gemini CLI. The project has gathered over 48k stars but also has 553 open issues and a future-dated timeline, suggesting it is still in an early or experimental stage.</p>
+
+<p>github · DeusData · Nov 11, 02:45</p>
+
+<p><strong>「Why Recommended」</strong> It targets the context-supply and test-selection steps of AI-assisted development, replacing ad-hoc code search with a queryable graph and MCP interface, which can benefit developers and teams who want tighter, local integration between their codebase and AI coding agents. The high star count (48k+) signals strong community interest and active experimentation.</p>
+
+<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#code-intelligence</code>, <code class="language-plaintext highlighter-rouge">#mcp-server</code>, <code class="language-plaintext highlighter-rouge">#ai-assisted-development</code>, <code class="language-plaintext highlighter-rouge">#graph-based-analysis</code>, <code class="language-plaintext highlighter-rouge">#test-selection</code></p>
+
+<hr />
+
+<p><a id="item-gh-trending-2"></a></p>
+<h3 id="addyosmaniagent-skills-production-grade-engineering-skills-for-ai-coding-agents-️-7010"><a href="https://github.com/addyosmani/agent-skills">addyosmani/agent-skills: Production-grade engineering skills for AI coding agents</a> ⭐️ 7.0/10</h3>
+
+<p>This repository provides a curated collection of production-grade engineering skills designed to improve AI coding agents&#x27; output quality by enhancing the context-provisioning layer of AI-assisted development. Authored by Addy Osmani from the Google Chrome team, it targets the prompt engineering and context engineering aspects of the development workflow using JavaScript. The project has garnered significant attention with over 115k stars, though practical maturity and verified adoption remain to be confirmed through direct inspection of the skill implementations.</p>
+
+<p>github · addyosmani · Nov 11, 02:45</p>
+
+<p><strong>「Why Recommended」</strong> It addresses the context-provisioning stage of AI-assisted development by offering structured engineering skills that can replace ad-hoc prompting with reproducible, production-oriented patterns, making it relevant for developers integrating AI coding agents into their workflow who want more reliable output quality.</p>
+
+<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#ai-coding-agents</code>, <code class="language-plaintext highlighter-rouge">#prompt-engineering</code>, <code class="language-plaintext highlighter-rouge">#developer-productivity</code>, <code class="language-plaintext highlighter-rouge">#context-engineering</code>, <code class="language-plaintext highlighter-rouge">#engineering-practices</code></p>
+
+<hr />
+
+<p><a id="item-gh-trending-3"></a></p>
+<h3 id="anthropicsskills--public-repo-for-agent-skills-python-️-6010"><a href="https://github.com/anthropics/skills">anthropics/skills – Public repo for Agent Skills (Python)</a> ⭐️ 6.0/10</h3>
+
+<p>anthropics/skills is Anthropic&#x27;s public repository for Agent Skills, written in Python. It appears to provide building blocks for AI agent capabilities, but the available metadata contains no code, documentation, or usage examples, so its actual maturity and usability cannot be verified. The project is currently unvalidated despite high visibility.</p>
+
+<p>github · anthropics · Nov 11, 02:45</p>
+
+<p><strong>「Why Recommended」</strong> This repo may interest developers exploring AI agent frameworks, as it comes from Anthropic and targets the agent-building step of the development workflow. However, without public documentation or integration points, it remains a speculative watch rather than a ready-to-use tool.</p>
+
+<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#AI-agents</code>, <code class="language-plaintext highlighter-rouge">#developer-tools</code>, <code class="language-plaintext highlighter-rouge">#anthropic</code>, <code class="language-plaintext highlighter-rouge">#python</code>, <code class="language-plaintext highlighter-rouge">#agent-framework</code></p>
+
+<hr />
+
+<p><a id="item-gh-trending-4"></a></p>
+<h3 id="anthropicsclaude-quickstarts-official-claude-api-quickstart-templates-️-5010"><a href="https://github.com/anthropics/claude-quickstarts">anthropics/claude-quickstarts: Official Claude API quickstart templates</a> ⭐️ 5.0/10</h3>
+
+<p>This is an official Anthropic repository providing quickstart projects for building deployable applications with the Claude API. It solves the getting-started problem for developers integrating Claude by offering curated templates and boilerplate code. Written primarily in Python, the project is mature and production-ready given its official backing and high star count.</p>
+
+<p>github · anthropics · Nov 11, 02:45</p>
+
+<p><strong>「Why Recommended」</strong> It accelerates the "context supply" phase of LLM integration by replacing manual boilerplate setup with ready-to-deploy templates, ideal for developers adopting the Claude API who want to skip scaffolding. The 20.5k stars reflect strong community trust and active maintenance.</p>
+
+<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#claude-api</code>, <code class="language-plaintext highlighter-rouge">#quickstart</code>, <code class="language-plaintext highlighter-rouge">#templates</code>, <code class="language-plaintext highlighter-rouge">#anthropic</code>, <code class="language-plaintext highlighter-rouge">#llm-integration</code></p>
+
+<hr />
+
+<p><a id="item-gh-trending-5"></a></p>
+<h3 id="diffuspaceclover-35b-a3b-preview-35b-diffusion-language-model-checkpoint-for-agentic-coding-research-️-5010"><a href="https://github.com/DiffuSpace/Clover-35B-A3B-Preview">DiffuSpace/Clover-35B-A3B-Preview: 35B diffusion language model checkpoint for agentic coding research</a> ⭐️ 5.0/10</h3>
+
+<p>This repository hosts a 35-billion-parameter diffusion language model checkpoint tagged for agentic coding experiments. It provides model weights and configuration only, with no documentation, usage examples, or integration guidance for direct developer adoption. The project is a preview release from October 2026 and remains at an early research stage.</p>
+
+<p>github · DiffuSpace · Nov 11, 02:45</p>
+
+<p><strong>「Why Recommended」</strong> Relevant for researchers and tool builders exploring diffusion-based approaches to agentic coding who need a sizable open checkpoint to experiment with; not suitable for practitioners seeking a ready-to-use coding assistant or IDE integration.</p>
+
+<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#diffusion-language-model</code>, <code class="language-plaintext highlighter-rouge">#agentic-coding</code>, <code class="language-plaintext highlighter-rouge">#model-checkpoint</code>, <code class="language-plaintext highlighter-rouge">#preview-release</code>, <code class="language-plaintext highlighter-rouge">#research</code></p>
+
+<hr />
+
+<h2 id="ai-news">AI News</h2>
+
+<p><a id="item-ai-news-1"></a></p>
+<h3 id="anthropic-documents-prompt-to-make-claude-fable-52-refactor-code-more-aggressively-️-9010"><a href="https://simonwillison.net/2026/Nov/10/prompting-claude-fable-52/">Anthropic documents prompt to make Claude Fable 5.2 refactor code more aggressively</a> ⭐️ 9.0/10</h3>
+
+<p>Anthropic&#x27;s official documentation for Claude Fable 5.2 reveals a specific prompt that significantly increases the model&#x27;s tendency to refactor and deduplicate code. The prompt "This codebase is yours: what it&#x27;s for and how it&#x27;s built are your call, and you&#x27;ll keep building on it" caused the model to merge repeated code in about 50% of test cases, compared to under 10% without the ownership statement. The finding comes from Anthropic&#x27;s own testing on small coding tasks and is published in their prompt engineering guide.</p>
+
+<p>rss · Simon Willison · Nov 10, 05:34</p>
+
+<p><strong>「Why it matters」</strong> Developers using Claude Fable 5.2 for coding tasks can immediately apply this single-sentence prompt to get more aggressive refactoring and deduplication, reducing code duplication without additional tooling. The technique is model-specific to Fable 5.2 and directly actionable — add the ownership sentence to your system prompt or task instructions when you want the model to restructure code rather than just extend it.</p>
+
+<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#prompt-engineering</code>, <code class="language-plaintext highlighter-rouge">#claude</code>, <code class="language-plaintext highlighter-rouge">#coding-assistant</code>, <code class="language-plaintext highlighter-rouge">#anthropic</code>, <code class="language-plaintext highlighter-rouge">#prompting-techniques</code></p>
+
+<hr />
+
+<p><a id="item-ai-news-2"></a></p>
+<h3 id="anthropic-glasswing-ai-finds-9-real-bugs-zero-false-positives-in-maintainer-test-️-7010"><a href="https://www.vulncheck.com/blog/anthropic-glasswing-november-update">Anthropic Glasswing AI Finds 9 Real Bugs, Zero False Positives in Maintainer Test</a> ⭐️ 7.0/10</h3>
+
+<p>A maintainer (pizlonator) reports receiving 9 vulnerability reports from Anthropic&#x27;s Glasswing AI system for the Fil-C project, all of which were real bugs with zero false positives. The report quality was described as exceptional compared to browser engine security baselines, while proposed fix quality was "alright" — some used verbatim, most as significant inspiration. The VulnCheck blog post characterizes Glasswing&#x27;s findings as "underwhelming," but the maintainer&#x27;s first-hand experience contradicts this. Glasswing partners typically point Mythos-class models at proprietary codebases; the public ledger covers only Anthropic&#x27;s coordinated open-source disclosure program. Access method, pricing, and integration details remain undisclosed.</p>
+
+<p>hackernews · panic · Nov 10, 22:17 · <a href="https://news.ycombinator.com/item?id=50447074">Discussion</a></p>
+
+<p><strong>「Why It Matters」</strong> Security practitioners and maintainers evaluating AI-assisted vulnerability detection now have concrete, deployed-tool evidence: a frontier-model system produced high-quality, zero-false-positive reports on a real codebase. The first step is to investigate whether Glasswing or similar Mythos-class model access is available for your own projects, since the public ledger represents only a fraction of its actual deployment.</p>
+
+<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#AI security</code>, <code class="language-plaintext highlighter-rouge">#vulnerability detection</code>, <code class="language-plaintext highlighter-rouge">#Anthropic</code>, <code class="language-plaintext highlighter-rouge">#Glasswing</code>, <code class="language-plaintext highlighter-rouge">#software security</code></p>
+
+<hr />
+
+<p><a id="item-ai-news-3"></a></p>
+<h3 id="google-chrome-releases-modern-web-guidance-v10-for-coding-agents-️-7010"><a href="https://github.com/GoogleChrome/modern-web-guidance">Google Chrome releases modern-web-guidance v1.0 for coding agents</a> ⭐️ 7.0/10</h3>
+
+<p>Google Chrome has released modern-web-guidance v1.0, an open-source knowledge base of 200+ curated guides developed with Firefox, MDN, and Edge. The package teaches coding agents to use native browser primitives — such as CSS.highlights, &lt;dialog&gt;, and field-sizing — instead of legacy JavaScript patterns. It installs via `npx modern-web-guidance@latest install` and includes a CLI for search and a deterministic legacy-scan trained on 30,000 GitHub repos (reported 92% precision). The authors claim agents improve from 55% to 92% pass rates on 200 frontend tasks when guided. Readable guides are published at developer.chrome.com/docs/modern-web-guidance/guides. Some listed features are Chrome-only and not yet supported in Firefox or Safari.</p>
+
+<p>hackernews · paulirish · Nov 10, 18:01 · <a href="https://news.ycombinator.com/item?id=50443812">Discussion</a></p>
+
+<p><strong>「Why it matters」</strong> Front-end developers using coding agents (Cursor, Copilot, Claude Code, etc.) can immediately add this skill to steer agents toward dependency-free, standards-based solutions. First step: run `DISABLE_TELEMETRY=1 npx modern-web-guidance@latest install` in a project, then try `legacy-scan ./src` to surface outdated patterns the agent can modernize. Teams should verify cross-browser support for any suggested feature before shipping.</p>
+
+<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#coding-agents</code>, <code class="language-plaintext highlighter-rouge">#modern-web</code>, <code class="language-plaintext highlighter-rouge">#browser-apis</code>, <code class="language-plaintext highlighter-rouge">#web-development</code>, <code class="language-plaintext highlighter-rouge">#open-source</code></p>
+
+<hr />
+
+<p><a id="item-ai-news-4"></a></p>
+<h3 id="llm-gemini-036-adds-gemini-4-carbon-support-with-launch-pricing-️-7010"><a href="https://simonwillison.net/2026/Nov/10/llm-gemini/">llm-gemini 0.36 adds Gemini 4 Carbon support with launch pricing</a> ⭐️ 7.0/10</h3>
+
+<p>Simon Willison released llm-gemini 0.36, a plugin that adds Gemini 4 Carbon model support to the LLM command-line tool. Gemini 4 Carbon, previously limited to a subset of cyber defenders, is now generally available with launch pricing of $2 per million input tokens and $10 per million output tokens, matching GPT-6.1 Sol and Claude Sonnet 5.5 rates. Prices are scheduled to double to $4/$20 on December 1st. The model supports three thinking effort tiers (low, medium default, high) which the release demonstrates with pelican image generation examples.</p>
+
+<p>rss · Simon Willison · Nov 10, 20:09</p>
+
+<p><strong>「Why it matters」</strong> Developers using the LLM CLI can immediately upgrade to llm-gemini 0.36 to access Google&#x27;s newest flagship model at introductory pricing before the December 1st increase. The thinking effort tiers let you trade latency for reasoning depth on coding and creative tasks, and the plugin integrates directly into existing LLM workflows without API changes.</p>
+
+<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#llm-cli</code>, <code class="language-plaintext highlighter-rouge">#gemini</code>, <code class="language-plaintext highlighter-rouge">#plugin-release</code>, <code class="language-plaintext highlighter-rouge">#command-line-tools</code>, <code class="language-plaintext highlighter-rouge">#ai-models</code></p>
+
+<hr />
+
+<p><a id="item-ai-news-5"></a></p>
+<h3 id="deepmind-announces-alphaproof-code-for-ai-formal-verification-️-6010"><a href="https://deepmind.google/blog/introducing-alphaproof-code/">DeepMind Announces AlphaProof Code for AI Formal Verification</a> ⭐️ 6.0/10</h3>
+
+<p>DeepMind has announced AlphaProof Code, an AI system for formal verification and proof generation targeting Lean and Rocq, via a blog post. The supplied material does not include the blog content, so availability, access method, cost, concrete capabilities, and benchmarks are unknown. Community discussion on Hacker News shows practitioner skepticism about claimed bug-finding results and comparisons to existing coding agents.</p>
+
+<p>hackernews · Google DeepMind Blog · Nov 10, 12:11 · <a href="https://news.ycombinator.com/item?id=50439193">Discussion</a></p>
+
+<p><strong>「Why It Matters」</strong> Practitioners working on formal verification, theorem proving, or AI-assisted proof engineering should read the DeepMind blog post to learn whether AlphaProof Code is accessible now, what it can prove, and how it differs from current Lean/Rocq workflows and coding agents.</p>
+
+<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#formal-verification</code>, <code class="language-plaintext highlighter-rouge">#AI-coding-assistant</code>, <code class="language-plaintext highlighter-rouge">#theorem-proving</code>, <code class="language-plaintext highlighter-rouge">#DeepMind</code>, <code class="language-plaintext highlighter-rouge">#Lean</code></p>
+
+<hr />
+
+<h2 id="x--youtube-highlights">X / YouTube Highlights</h2>
+
+<p><a id="item-social-hot-1"></a></p>
+<h3 id="9-trending-github-repos-tested-hands-on-️-7010"><a href="https://www.youtube.com/watch?v=ZbmfYMlrlII">9 Trending GitHub Repos Tested Hands-On</a> ⭐️ 7.0/10</h3>
+
+<p>The video tests and reviews nine currently trending GitHub repositories, with the creator sharing hands-on findings from personal testing. Search snippets indicate the repos include Elephant-Goldfish, which helps Claude catch mistakes before writing code, and BAMA for building native Mac apps, among others. The ~20-minute runtime suggests substantive demos, though the exact nine repositories and depth of reproducible details cannot be fully verified from available metadata alone.</p>
+
+<p>youtube · GitHub · Nov 11, 02:45</p>
+
+<p><strong>「Why It&#x27;s Hot」</strong> The video has 103,521 views, showing strong developer interest in a practitioner&#x27;s hands-on testing of nine currently popular GitHub repositories. Viewers can expect practical demos and actionable takeaways for each repo, helping them decide which tools are worth adopting.</p>
+
+<details><summary>References</summary>
+<ul>
+<li><a href="https://www.youtube.com/watch?v=ZbmfYMlrlII">9 GitHub Repos Blowing Up Right Now ( I Tested Every ...) - YouTube</a></li>
+
+</ul>
+</details>
+
+<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#GitHub</code>, <code class="language-plaintext highlighter-rouge">#developer-tools</code>, <code class="language-plaintext highlighter-rouge">#repository-review</code>, <code class="language-plaintext highlighter-rouge">#hands-on-testing</code>, <code class="language-plaintext highlighter-rouge">#trending-repos</code></p>
+
+<hr />
+
+<p><a id="item-social-hot-2"></a></p>
+<h3 id="17-agents-one-sdlc-how-levi-strauss-reimagined-development-on-github-️-7010"><a href="https://www.youtube.com/watch?v=-GpxKKgoWWg">17 agents, one SDLC: How Levi Strauss reimagined development on GitHub</a> ⭐️ 7.0/10</h3>
+
+<p>This 30-minute GitHub Universe 2026 session features Jenny Patchen from Levi Strauss &amp; Co. presenting how the company built an enterprise multi-agent software development lifecycle using 17 custom agents on GitHub Copilot&#x27;s platform. The case study covers the architecture, implementation patterns, and lessons learned from deploying agentic workflows across their SDLC at scale.</p>
+
+<p>youtube · GitHub · Nov 11, 02:45</p>
+
+<p><strong>「Why this matters」</strong> This 30-minute GitHub case study has 34,431 views and shows how Levi Strauss deployed a 17-agent multi-agent SDLC on Copilot&#x27;s custom agents platform, giving developers concrete architecture patterns and implementation lessons from a real enterprise rollout.</p>
+
+<details><summary>References</summary>
+<ul>
+<li><a href="https://www.youtube.com/watch?v=-GpxKKgoWWg">17 agents , one SDLC : How Levi Strauss reimagined... - YouTube</a></li>
+
+</ul>
+</details>
+
+<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#GitHub Copilot</code>, <code class="language-plaintext highlighter-rouge">#AI agents</code>, <code class="language-plaintext highlighter-rouge">#SDLC</code>, <code class="language-plaintext highlighter-rouge">#enterprise development</code>, <code class="language-plaintext highlighter-rouge">#case study</code></p>
+
+<hr />
+
+<p><a id="item-social-hot-3"></a></p>
+<h3 id="fable-52-compiler-deep-dive--review-️-6010"><a href="https://www.youtube.com/watch?v=0vNyVMDFdkg">Fable 5.2 Compiler Deep Dive &amp; Review</a> ⭐️ 6.0/10</h3>
+
+<p>Matthew Berman reviews Anthropic&#x27;s new Claude Fable 5.2 model, testing its coding and reasoning capabilities against Opus 5.5. The 24-minute video demonstrates Fable 5.2 on tasks such as building a playable Gears of War level clone in Unreal Engine 5 and other complex coding challenges, with Berman expressing strong endorsement of the model&#x27;s performance.</p>
+
+<p>youtube · @matthew_berman · Nov 11, 02:45</p>
+
+<p><strong>「Why It&#x27;s Hot」</strong> With 259k views, this 24-minute video from @matthew_berman likely delivers a technical deep-dive on Fable 5.2, covering compiler updates, new features, and migration guidance for F# to JavaScript developers.</p>
+
+<details><summary>References</summary>
+<ul>
+<li><a href="https://www.youtube.com/watch?v=0vNyVMDFdkg">Anthropic just dropped the best model ever... ( Fable 5 . 2 ) - YouTube</a></li>
+
+</ul>
+</details>
+
+<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#Fable</code>, <code class="language-plaintext highlighter-rouge">#F\#</code>, <code class="language-plaintext highlighter-rouge">#JavaScript</code>, <code class="language-plaintext highlighter-rouge">#Compiler</code>, <code class="language-plaintext highlighter-rouge">#Web Development</code></p>
+
+<hr />
+ ]]></content>
+  </entry>
   
   <entry>
     <title>Horizon Summary: 2026-11-10 (EN)</title>
@@ -1410,117 +1646,6 @@
 <p><strong>「Why it&#x27;s hot」</strong> This 56-minute beginner tutorial from Coder Coder has attracted 93K views, signaling strong demand for a practical, end-to-end walkthrough of Git and GitHub fundamentals. Viewers can expect hands-on commands, workflow demonstrations, and tool usage they can replicate immediately in their own projects.</p>
 
 <p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#git</code>, <code class="language-plaintext highlighter-rouge">#github</code>, <code class="language-plaintext highlighter-rouge">#tutorial</code>, <code class="language-plaintext highlighter-rouge">#beginner</code>, <code class="language-plaintext highlighter-rouge">#version-control</code></p>
-
-<hr />
- ]]></content>
-  </entry>
-  
-  <entry>
-    <title>Horizon Summary: 2026-11-04 (EN)</title>
-    <link href="https://www.01040610.xyz/horizon/2026/11/04/summary-en.html"/>
-    <updated>2026-11-04T00:00:00+00:00</updated>
-    <id>https://www.01040610.xyz/horizon/2026/11/04/summary-en.html</id>
-    <content type="html"><![CDATA[ <blockquote>
-  <p>Showing 6 of 135 fetched items.</p>
-</blockquote>
-
-<hr />
-
-<p><strong>AI Dev Tools</strong></p>
-<ol>
-  <li><a href="#item-gh-trending-1">NanmiCoder/cc-haha: Local-first AI Agent desktop workspace for Claude Code</a> ⭐️ 8.0/10</li>
-  <li><a href="#item-gh-trending-2">anomalyco/hex: Local voice dictation for developers</a> ⭐️ 6.0/10</li>
-  <li><a href="#item-gh-trending-3">p-e-w/heretic: Training-free LLM behavior modification library</a> ⭐️ 5.0/10</li>
-  <li><a href="#item-gh-trending-4">openinterpreter/openinterpreter – Rust coding agent for open LLMs (Kimi, GLM, DeepSeek, Qwen) with 68k stars</a> ⭐️ 5.0/10</li>
-</ol>
-
-<p><strong>AI News</strong></p>
-<ol>
-  <li><a href="#item-ai-news-1">IBM Research introduces Palette for on-brand deck generation with small models</a> ⭐️ 8.0/10</li>
-  <li><a href="#item-ai-news-2">Netflix connects AWS IAM to internal identity via workload identity</a> ⭐️ 6.0/10</li>
-</ol>
-
-<hr />
-
-<h2 id="ai-dev-tools">AI Dev Tools</h2>
-
-<p><a id="item-gh-trending-1"></a></p>
-<h3 id="nanmicodercc-haha-local-first-ai-agent-desktop-workspace-for-claude-code-️-8010"><a href="https://github.com/NanmiCoder/cc-haha">NanmiCoder/cc-haha: Local-first AI Agent desktop workspace for Claude Code</a> ⭐️ 8.0/10</h3>
-
-<p>NanmiCoder/cc-haha is a local-first, cross-platform desktop workspace for Claude Code and AI agents. It integrates multi-agent collaboration, Git worktree management, code diffs, a skills marketplace, multi-model switching, Computer Use, and remote access via WeChat, Feishu, DingTalk, Telegram, WhatsApp, and H5. Built with TypeScript and Electron, the project has 15k+ stars and 8k+ forks with recent activity, indicating an actively maintained, usable tool.</p>
-
-<p>github · NanmiCoder · Nov 4, 02:59</p>
-
-<p><strong>「Why Recommended」</strong> It streamlines the coding and context-supply phases by replacing manual terminal juggling with a unified GUI that manages multiple agents, worktrees, and remote channels in one place. Developers who use Claude Code or similar AI agents and want a desktop environment for orchestration, collaboration, and remote control will benefit most.</p>
-
-<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#claude-code</code>, <code class="language-plaintext highlighter-rouge">#ai-agent</code>, <code class="language-plaintext highlighter-rouge">#desktop-app</code>, <code class="language-plaintext highlighter-rouge">#developer-tools</code>, <code class="language-plaintext highlighter-rouge">#productivity</code></p>
-
-<hr />
-
-<p><a id="item-gh-trending-2"></a></p>
-<h3 id="anomalycohex-local-voice-dictation-for-developers-️-6010"><a href="https://github.com/anomalyco/hex">anomalyco/hex: Local voice dictation for developers</a> ⭐️ 6.0/10</h3>
-
-<p>Hex is a cross-platform local voice dictation tool written in Rust that lets developers dictate code, comments, and documentation on macOS, Windows, and Linux. It runs entirely locally for privacy and aims to reduce keyboard strain. The project is early-stage but has recently attracted significant community interest.</p>
-
-<p>github · anomalyco · Nov 4, 02:59</p>
-
-<p><strong>「Why Recommended」</strong> Hex replaces keyboard typing with local voice dictation during code authoring, helping developers with RSI or a preference for speech input; its 4,651 stars and 410 daily gains show growing community traction.</p>
-
-<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#voice-dictation</code>, <code class="language-plaintext highlighter-rouge">#accessibility</code>, <code class="language-plaintext highlighter-rouge">#rust</code>, <code class="language-plaintext highlighter-rouge">#local-ai</code>, <code class="language-plaintext highlighter-rouge">#developer-tools</code></p>
-
-<hr />
-
-<p><a id="item-gh-trending-3"></a></p>
-<h3 id="p-e-wheretic-training-free-llm-behavior-modification-library-️-5010"><a href="https://github.com/p-e-w/heretic">p-e-w/heretic: Training-free LLM behavior modification library</a> ⭐️ 5.0/10</h3>
-
-<p>Heretic is a Python research library that modifies language model outputs at inference time without retraining, offering techniques to remove censorship, suppress low-quality outputs, and reduce sycophancy. It targets the model alignment and inference control layer of LLM application development. With 38.8k stars and active recent growth, the project appears to be in an experimental-to-usable research stage rather than a production-ready developer tool.</p>
-
-<p>github · p-e-w · Nov 4, 02:59</p>
-
-<p><strong>「Why Recommended」</strong> Recommended for LLM application builders and alignment researchers who need fine-grained control over model behavior during inference without the cost of fine-tuning; it replaces or augments prompt engineering and post-processing steps for developers working on model safety, output quality, or behavioral steering.</p>
-
-<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#LLM行为控制</code>, <code class="language-plaintext highlighter-rouge">#免训练模型修改</code>, <code class="language-plaintext highlighter-rouge">#模型对齐</code>, <code class="language-plaintext highlighter-rouge">#推理时干预</code>, <code class="language-plaintext highlighter-rouge">#AI应用开发</code></p>
-
-<hr />
-
-<p><a id="item-gh-trending-4"></a></p>
-<h3 id="openinterpreteropeninterpreter--rust-coding-agent-for-open-llms-kimi-glm-deepseek-qwen-with-68k-stars-️-5010"><a href="https://github.com/openinterpreter/openinterpreter">openinterpreter/openinterpreter – Rust coding agent for open LLMs (Kimi, GLM, DeepSeek, Qwen) with 68k stars</a> ⭐️ 5.0/10</h3>
-
-<p>openinterpreter is a Rust-based coding agent designed to work with open-weight models such as Kimi K3, GLM 5.3, DeepSeek, and Qwen. It targets the code-writing phase of development by letting an LLM execute and iterate on code locally. The repository has accumulated about 68k stars since its creation in July 2023, but the supplied metadata contains only a one-line description and topic tags; no README, documentation, installation steps, or usage examples are provided, and the reported last-push date of 2026-11-04 appears to be a data error. Maturity and practical usability cannot be verified from the available information.</p>
-
-<p>github · openinterpreter · Nov 4, 02:59</p>
-
-<p><strong>「Why Recommended」</strong> It directly addresses the code-generation step for developers who want to run open models locally instead of relying on closed APIs, and its high star count suggests strong community interest. However, without visible docs or reproducible evidence, it is best suited for early adopters willing to explore the codebase themselves rather than teams needing a ready-to-use assistant.</p>
-
-<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#coding-agent</code>, <code class="language-plaintext highlighter-rouge">#open-models</code>, <code class="language-plaintext highlighter-rouge">#rust</code>, <code class="language-plaintext highlighter-rouge">#ai-coding-assistant</code>, <code class="language-plaintext highlighter-rouge">#local-llm</code></p>
-
-<hr />
-
-<h2 id="ai-news">AI News</h2>
-
-<p><a id="item-ai-news-1"></a></p>
-<h3 id="ibm-research-introduces-palette-for-on-brand-deck-generation-with-small-models-️-8010"><a href="https://huggingface.co/blog/ibm-research/palette-deck-building">IBM Research introduces Palette for on-brand deck generation with small models</a> ⭐️ 8.0/10</h3>
-
-<p>IBM Research published a Hugging Face blog post introducing Palette, a technique for fine-tuning small language models to generate presentation decks that follow a specific design language. The post includes practical implementation details for developers who want to automate on-brand deck creation. The blog was published on November 3, 2026. Specific model names, training data, performance metrics, and code availability are not provided in the available summary.</p>
-
-<p>rss · Hugging Face Blog · Nov 3, 16:35</p>
-
-<p><strong>「Why it matters」</strong> Developers building internal tools for automated slide generation can evaluate Palette as a potential approach for enforcing brand consistency without relying on large proprietary models. The first step is to read the full Hugging Face blog post for the fine-tuning recipe, dataset requirements, and any released checkpoints or code.</p>
-
-<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#small-language-models</code>, <code class="language-plaintext highlighter-rouge">#presentation-generation</code>, <code class="language-plaintext highlighter-rouge">#design-systems</code>, <code class="language-plaintext highlighter-rouge">#model-fine-tuning</code>, <code class="language-plaintext highlighter-rouge">#IBM-Research</code></p>
-
-<hr />
-
-<p><a id="item-ai-news-2"></a></p>
-<h3 id="netflix-connects-aws-iam-to-internal-identity-via-workload-identity-️-6010"><a href="https://www.infoq.cn/article/PJdTzbUNPBhvKEd6QuxZ?utm_source=rss&amp;utm_medium=article">Netflix connects AWS IAM to internal identity via workload identity</a> ⭐️ 6.0/10</h3>
-
-<p>InfoQ published an article titled "Netflix connects AWS IAM with internal identity system via workload identity" on November 3, 2026, authored by Leela Kumili. The article describes Netflix&#x27;s practice of linking AWS IAM to its internal identity system using workload identity. However, the full article content is not available in this feed, so implementation details, configuration examples, and applicability remain unknown.</p>
-
-<p>rss · InfoQ 中文 · Nov 3, 13:04</p>
-
-<p><strong>「Why It Matters」</strong> Without the article content, it is unclear which teams or scenarios would benefit, nor what the first practical step would be. Readers should access the full article on InfoQ to evaluate relevance.</p>
-
-<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#Workload Identity</code>, <code class="language-plaintext highlighter-rouge">#AWS IAM</code>, <code class="language-plaintext highlighter-rouge">#Netflix</code>, <code class="language-plaintext highlighter-rouge">#云原生安全</code>, <code class="language-plaintext highlighter-rouge">#身份认证</code></p>
 
 <hr />
  ]]></content>

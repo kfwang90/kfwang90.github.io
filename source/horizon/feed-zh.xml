@@ -3,9 +3,247 @@
   <title>Horizon 每日速递 - 中文摘要</title>
   <link href="https://www.01040610.xyz/horizon/feed-zh.xml" rel="self"/>
   <link href="https://www.01040610.xyz/horizon/"/>
-  <updated>2026-11-10T04:45:25+00:00</updated>
+  <updated>2026-11-11T02:56:28+00:00</updated>
   <id>https://www.01040610.xyz/horizon/</id>
   
+  
+  <entry>
+    <title>Horizon Summary: 2026-11-11 (ZH)</title>
+    <link href="https://www.01040610.xyz/horizon/2026/11/11/summary-zh.html"/>
+    <updated>2026-11-11T00:00:00+00:00</updated>
+    <id>https://www.01040610.xyz/horizon/2026/11/11/summary-zh.html</id>
+    <content type="html"><![CDATA[ <blockquote>
+  <p>今日抓取 145 条内容，收录 13 条。</p>
+</blockquote>
+
+<hr />
+
+<p><strong>GitHub AI 开发工具</strong></p>
+<ol>
+  <li><a href="#item-gh-trending-1">DeusData/codebase-memory-mcp：本地代码图谱与 MCP 工具</a> ⭐️ 8.0/10</li>
+  <li><a href="#item-gh-trending-2">addyosmani/agent-skills：面向 AI 编码代理的工程技能集</a> ⭐️ 7.0/10</li>
+  <li><a href="#item-gh-trending-3">anthropics/skills：Anthropic 发布的 Agent Skills 公开仓库</a> ⭐️ 6.0/10</li>
+  <li><a href="#item-gh-trending-4">anthropics/claude-quickstarts：Claude API 官方快速入门模板集合</a> ⭐️ 5.0/10</li>
+  <li><a href="#item-gh-trending-5">DiffuSpace/Clover-35B-A3B-Preview：35B 扩散语言模型预览版权重</a> ⭐️ 5.0/10</li>
+</ol>
+
+<p><strong>AI 热门新闻</strong></p>
+<ol>
+  <li><a href="#item-ai-news-1">Anthropic 发布 Claude Fable 5.2 代码所有权提示技巧</a> ⭐️ 9.0/10</li>
+  <li><a href="#item-ai-news-2">Anthropic Glasswing AI 漏洞挖掘实测：零误报但修复建议一般</a> ⭐️ 7.0/10</li>
+  <li><a href="#item-ai-news-3">Google Chrome 发布 modern-web-guidance 1.0，教编码代理用原生 Web API 替代旧式 JS 模式</a> ⭐️ 7.0/10</li>
+  <li><a href="#item-ai-news-4">llm-gemini 0.36 添加 Gemini 4 Carbon 模型支持</a> ⭐️ 7.0/10</li>
+  <li><a href="#item-ai-news-5">DeepMind 发布 AlphaProof Code 用于 AI 形式化验证</a> ⭐️ 6.0/10</li>
+</ol>
+
+<p><strong>X / YouTube 热门</strong></p>
+<ol>
+  <li><a href="#item-social-hot-1">Jack Roberts 实测 9 个热门 GitHub 仓库</a> ⭐️ 7.0/10</li>
+  <li><a href="#item-social-hot-2">Levi Strauss 17 智能体重塑 GitHub SDLC 实战案例</a> ⭐️ 7.0/10</li>
+  <li><a href="#item-social-hot-3">Matthew Berman 强推 Fable 5.2：F# 转 JS 编译器更新</a> ⭐️ 6.0/10</li>
+</ol>
+
+<hr />
+
+<h2 id="github-ai-开发工具">GitHub AI 开发工具</h2>
+
+<p><a id="item-gh-trending-1"></a></p>
+<h3 id="deusdatacodebase-memory-mcp本地代码图谱与-mcp-工具-️-8010"><a href="https://github.com/DeusData/codebase-memory-mcp">DeusData/codebase-memory-mcp：本地代码图谱与 MCP 工具</a> ⭐️ 8.0/10</h3>
+
+<p>DeusData/codebase-memory-mcp 是一个面向开发者和 AI Agent 的本地代码智能平台，将代码、文档与基础设施连接成持久化图谱，提供 MCP 工具、Agent 集成与变更感知测试选择。项目以 C 语言为主，处于实验性阶段（创建于 2026 年，仍有 553 个开放 Issue），需实地验证稳定性。</p>
+
+<p>github · DeusData · 11月11日 02:45</p>
+
+<p><strong>「推荐理由」</strong> 它切中写码、评审、测试及上下文供给等核心环节，替代传统检索方式，适合需要本地图谱增强 AI 辅助开发的团队；4.8 万 Star 显示社区关注度高。</p>
+
+<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#code-intelligence</code>, <code class="language-plaintext highlighter-rouge">#mcp-server</code>, <code class="language-plaintext highlighter-rouge">#ai-assisted-development</code>, <code class="language-plaintext highlighter-rouge">#graph-based-analysis</code>, <code class="language-plaintext highlighter-rouge">#test-selection</code></p>
+
+<hr />
+
+<p><a id="item-gh-trending-2"></a></p>
+<h3 id="addyosmaniagent-skills面向-ai-编码代理的工程技能集-️-7010"><a href="https://github.com/addyosmani/agent-skills">addyosmani/agent-skills：面向 AI 编码代理的工程技能集</a> ⭐️ 7.0/10</h3>
+
+<p>该仓库由 Google Chrome 团队的 Addy Osmani 维护，提供一套面向 AI 编码代理的生产级工程技能集合，旨在通过结构化的上下文供给提升代理输出质量。项目以 JavaScript 为主语言，目前拥有 11.5 万星标，反映出极高的关注度，但实际技能实现的成熟度与可用性仍需进一步验证。</p>
+
+<p>github · addyosmani · 11月11日 02:45</p>
+
+<p><strong>「推荐理由」</strong> 它定位于 AI 辅助开发的上下文工程环节，以可复用的技能定义替代或增强手工提示词编写，适合希望提升 AI 编码代理可靠性与工程规范性的开发者与团队。</p>
+
+<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#ai-coding-agents</code>, <code class="language-plaintext highlighter-rouge">#prompt-engineering</code>, <code class="language-plaintext highlighter-rouge">#developer-productivity</code>, <code class="language-plaintext highlighter-rouge">#context-engineering</code>, <code class="language-plaintext highlighter-rouge">#engineering-practices</code></p>
+
+<hr />
+
+<p><a id="item-gh-trending-3"></a></p>
+<h3 id="anthropicsskillsanthropic-发布的-agent-skills-公开仓库-️-6010"><a href="https://github.com/anthropics/skills">anthropics/skills：Anthropic 发布的 Agent Skills 公开仓库</a> ⭐️ 6.0/10</h3>
+
+<p>该仓库是 Anthropic 发布的 Agent Skills 公开仓库，使用 Python 编写，旨在提供 AI Agent 构建模块。但目前公开的代码、文档和使用示例极少，成熟度难以评估，处于早期或实验阶段。</p>
+
+<p>github · anthropics · 11月11日 02:45</p>
+
+<p><strong>「推荐理由」</strong> 适合关注 AI Agent 开发工具链的开发者跟踪 Anthropic 的最新动向，但缺乏可复现的使用证据和明确集成点，暂不建议直接用于生产开发。</p>
+
+<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#AI-agents</code>, <code class="language-plaintext highlighter-rouge">#developer-tools</code>, <code class="language-plaintext highlighter-rouge">#anthropic</code>, <code class="language-plaintext highlighter-rouge">#python</code>, <code class="language-plaintext highlighter-rouge">#agent-framework</code></p>
+
+<hr />
+
+<p><a id="item-gh-trending-4"></a></p>
+<h3 id="anthropicsclaude-quickstartsclaude-api-官方快速入门模板集合-️-5010"><a href="https://github.com/anthropics/claude-quickstarts">anthropics/claude-quickstarts：Claude API 官方快速入门模板集合</a> ⭐️ 5.0/10</h3>
+
+<p>该仓库是 Anthropic 官方维护的 Claude API 快速入门项目集合，旨在帮助开发者快速构建可部署的 Claude 应用。它提供多种语言（以 Python 为主）的模板与样板代码，覆盖从基础调用到可部署应用的常见场景，解决开发者在 LLM 集成初期的“从零开始”问题。项目处于可用状态，持续更新，适合决定接入 Claude API 的团队直接参考。</p>
+
+<p>github · anthropics · 11月11日 02:45</p>
+
+<p><strong>「推荐理由」</strong> 它落在“上下文供给/起步”环节，替代了开发者自行摸索 API 调用、提示词组织与部署骨架的过程，适合正在评估或已决定使用 Claude API 的后端与全栈工程师。20.5k Star 反映了官方背书与社区关注度，但价值局限于 Claude 生态内部。</p>
+
+<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#claude-api</code>, <code class="language-plaintext highlighter-rouge">#quickstart</code>, <code class="language-plaintext highlighter-rouge">#templates</code>, <code class="language-plaintext highlighter-rouge">#anthropic</code>, <code class="language-plaintext highlighter-rouge">#llm-integration</code></p>
+
+<hr />
+
+<p><a id="item-gh-trending-5"></a></p>
+<h3 id="diffuspaceclover-35b-a3b-preview35b-扩散语言模型预览版权重-️-5010"><a href="https://github.com/DiffuSpace/Clover-35B-A3B-Preview">DiffuSpace/Clover-35B-A3B-Preview：35B 扩散语言模型预览版权重</a> ⭐️ 5.0/10</h3>
+
+<p>该仓库发布了一个 350 亿参数的扩散语言模型检查点，标注面向代理式编程。它仅提供模型权重与配置，缺少文档、使用示例或集成指南，属于预览阶段的研究型模型制品，而非可直接在开发流程中使用的工具。</p>
+
+<p>github · DiffuSpace · 11月11日 02:45</p>
+
+<p><strong>「推荐理由」</strong> 适合关注扩散语言模型在代码生成方向最新进展的研究人员或工具构建者跟踪实验；对于寻求即插即用编码助手的普通开发者，当前版本尚不具备直接提效价值。</p>
+
+<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#diffusion-language-model</code>, <code class="language-plaintext highlighter-rouge">#agentic-coding</code>, <code class="language-plaintext highlighter-rouge">#model-checkpoint</code>, <code class="language-plaintext highlighter-rouge">#preview-release</code>, <code class="language-plaintext highlighter-rouge">#research</code></p>
+
+<hr />
+
+<h2 id="ai-热门新闻">AI 热门新闻</h2>
+
+<p><a id="item-ai-news-1"></a></p>
+<h3 id="anthropic-发布-claude-fable-52-代码所有权提示技巧-️-9010"><a href="https://simonwillison.net/2026/Nov/10/prompting-claude-fable-52/">Anthropic 发布 Claude Fable 5.2 代码所有权提示技巧</a> ⭐️ 9.0/10</h3>
+
+<p>Anthropic 官方文档记录了一个针对 Claude Fable 5.2 的提示语："This codebase is yours: what it&#x27;s for and how it&#x27;s built are your call, and you&#x27;ll keep building on it."。在小型编码任务测试中，加入该句后模型在约 50% 的尝试中合并了重复代码，而不加该句时不足 10%。文档明确指出该模型对代码所有权表述敏感，若提示未说明归属或声明属于他人，模型倾向于沿用现有结构而非重构。</p>
+
+<p>rss · Simon Willison · 11月10日 05:34</p>
+
+<p><strong>「实用价值」</strong> 使用 Claude Fable 5.2 进行代码重构或去重任务的开发者，可直接在系统提示或任务开头加入该句，显著提升模型主动合并重复代码的概率；第一步是将该提示语复制到你的提示模板中并对比效果。</p>
+
+<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#prompt-engineering</code>, <code class="language-plaintext highlighter-rouge">#claude</code>, <code class="language-plaintext highlighter-rouge">#coding-assistant</code>, <code class="language-plaintext highlighter-rouge">#anthropic</code>, <code class="language-plaintext highlighter-rouge">#prompting-techniques</code></p>
+
+<hr />
+
+<p><a id="item-ai-news-2"></a></p>
+<h3 id="anthropic-glasswing-ai-漏洞挖掘实测零误报但修复建议一般-️-7010"><a href="https://www.vulncheck.com/blog/anthropic-glasswing-november-update">Anthropic Glasswing AI 漏洞挖掘实测：零误报但修复建议一般</a> ⭐️ 7.0/10</h3>
+
+<p>Anthropic 的 Glasswing AI 漏洞挖掘系统在为期 7 个月的开源协调披露计划中，向 Fil-C 维护者 pizlonator 提交了 9 份报告，全部为真实漏洞，零误报，报告质量被评价为「exceptional」。提出的修复建议质量「alright」，部分被直接采纳，多数作为重写参考。VulnCheck 博客标题称发现「underwhelming」，但维护者亲身经历与此矛盾。Glasswing 为 Anthropic 协调漏洞披露计划的一部分，合作伙伴可将 Mythos 级模型指向自有（常为专有）代码库；目前尚无公开获取方式、定价或集成步骤信息。</p>
+
+<p>hackernews · panic · 11月10日 22:17 · <a href="https://news.ycombinator.com/item?id=50447074">社区讨论</a></p>
+
+<p><strong>「实用价值」</strong> 对评估 AI 辅助漏洞检测的开源维护者和安全团队有参考价值：实测零误报、高质量报告证明该类工具已具备实战可用性。第一步可关注 Anthropic 官方渠道了解 Glasswing 申请流程，或尝试加入其协调漏洞披露计划以获取早期访问权限。</p>
+
+<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#AI security</code>, <code class="language-plaintext highlighter-rouge">#vulnerability detection</code>, <code class="language-plaintext highlighter-rouge">#Anthropic</code>, <code class="language-plaintext highlighter-rouge">#Glasswing</code>, <code class="language-plaintext highlighter-rouge">#software security</code></p>
+
+<hr />
+
+<p><a id="item-ai-news-3"></a></p>
+<h3 id="google-chrome-发布-modern-web-guidance-10教编码代理用原生-web-api-替代旧式-js-模式-️-7010"><a href="https://github.com/GoogleChrome/modern-web-guidance">Google Chrome 发布 modern-web-guidance 1.0，教编码代理用原生 Web API 替代旧式 JS 模式</a> ⭐️ 7.0/10</h3>
+
+<p>Google Chrome 联合 Firefox、MDN 与 Edge 发布 modern-web-guidance 1.0，这是一个开源知识库，包含 200 多份手工整理的实现指南（约 1.7 MB），旨在让编码代理默认使用原生浏览器特性（如 CSS.highlights、&lt;dialog&gt;、field-sizing 等）而非旧式 JavaScript 方案。项目提供 npm 包与 CLI：`npx modern-web-guidance@latest install`、`search` 与 `legacy-scan`（基于 3 万仓库训练，声称 92% 精度）。官方评测显示，在 200 个前端任务上，代理通过率从 55% 提升至 92%。指南可在 developer.chrome.com/docs/modern-web-guidance/guides 在线阅读，源码托管于 GitHub。</p>
+
+<p>hackernews · paulirish · 11月10日 18:01 · <a href="https://news.ycombinator.com/item?id=50443812">社区讨论</a></p>
+
+<p><strong>「实用价值」</strong> 前端开发者可立即把该工具加入 Cursor、Copilot 等代理工作流，让生成的代码更少依赖、更符合现代标准；`legacy-scan` 还能批量检测并现代化存量代码库中的过时模式。首要动作：在项目根目录运行 `DISABLE_TELEMETRY=1 npx modern-web-guidance@latest install` 接入技能，再用 `legacy-scan ./src` 扫描现有代码。</p>
+
+<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#coding-agents</code>, <code class="language-plaintext highlighter-rouge">#modern-web</code>, <code class="language-plaintext highlighter-rouge">#browser-apis</code>, <code class="language-plaintext highlighter-rouge">#web-development</code>, <code class="language-plaintext highlighter-rouge">#open-source</code></p>
+
+<hr />
+
+<p><a id="item-ai-news-4"></a></p>
+<h3 id="llm-gemini-036-添加-gemini-4-carbon-模型支持-️-7010"><a href="https://simonwillison.net/2026/Nov/10/llm-gemini/">llm-gemini 0.36 添加 Gemini 4 Carbon 模型支持</a> ⭐️ 7.0/10</h3>
+
+<p>llm-gemini 0.36 发布，新增对 Google Gemini 4 Carbon 模型的支持。该模型现已向所有用户开放，定价为每百万输入 $2、输出 $10，12 月 1 日起将涨至 $4/$20。模型提供低、中、高三档思考力度（默认中等），可通过 LLM CLI 直接调用。</p>
+
+<p>rss · Simon Willison · 11月10日 20:09</p>
+
+<p><strong>「实用价值」</strong> 使用 LLM 命令行工具的开发者可立即升级插件并测试 Gemini 4 Carbon 的多档思考模式，适合需要在 CLI 中快速对比不同推理深度输出的场景，首步执行 `llm install -U llm-gemini` 后指定模型与 thinking 参数即可。</p>
+
+<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#llm-cli</code>, <code class="language-plaintext highlighter-rouge">#gemini</code>, <code class="language-plaintext highlighter-rouge">#plugin-release</code>, <code class="language-plaintext highlighter-rouge">#command-line-tools</code>, <code class="language-plaintext highlighter-rouge">#ai-models</code></p>
+
+<hr />
+
+<p><a id="item-ai-news-5"></a></p>
+<h3 id="deepmind-发布-alphaproof-code-用于-ai-形式化验证-️-6010"><a href="https://deepmind.google/blog/introducing-alphaproof-code/">DeepMind 发布 AlphaProof Code 用于 AI 形式化验证</a> ⭐️ 6.0/10</h3>
+
+<p>DeepMind 在博客中宣布推出 AlphaProof Code，这是一个面向 Lean/Rocq 等证明助手的 AI 形式化验证与证明生成系统。目前仅有标题与 Hacker News 讨论可用，博客正文细节（可用性、访问方式、价格、基准测试、具体能力边界）均未在提供的材料中出现。社区评论对其声称的零 Bug 发现结果表示怀疑，并将其与现有编码代理做对比。</p>
+
+<p>hackernews · Google DeepMind Blog · 11月10日 12:11 · <a href="https://news.ycombinator.com/item?id=50439193">社区讨论</a></p>
+
+<p><strong>「实用意义」</strong> 关注形式化验证、定理证明或 AI 辅助证明的开发者可先阅读原文博客（链接），确认是否已开放试用或提供技术报告；若暂无访问入口，则需等待后续发布的基准数据与访问政策再决定是否纳入工具链对比。</p>
+
+<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#formal-verification</code>, <code class="language-plaintext highlighter-rouge">#AI-coding-assistant</code>, <code class="language-plaintext highlighter-rouge">#theorem-proving</code>, <code class="language-plaintext highlighter-rouge">#DeepMind</code>, <code class="language-plaintext highlighter-rouge">#Lean</code></p>
+
+<hr />
+
+<h2 id="x--youtube-热门">X / YouTube 热门</h2>
+
+<p><a id="item-social-hot-1"></a></p>
+<h3 id="jack-roberts-实测-9-个热门-github-仓库-️-7010"><a href="https://www.youtube.com/watch?v=ZbmfYMlrlII">Jack Roberts 实测 9 个热门 GitHub 仓库</a> ⭐️ 7.0/10</h3>
+
+<p>该视频由开发者 Jack Roberts 制作，实测并点评 9 个近期 GitHub 趋势仓库，时长约 20 分钟。根据可检索信息，内容涵盖 Elephant-Goldfish（帮助 Claude 在写代码前捕获错误）与 BAMA（构建原生 Mac 应用）等工具的实际体验。其余 7 个仓库的具体名称与测试细节需观看视频确认。</p>
+
+<p>youtube · GitHub · 11月11日 02:45</p>
+
+<p><strong>「为何值得关注」</strong> 视频由开发者 Jack Roberts 亲自测试 9 个当前 GitHub 上热度极高的仓库，时长约 20 分钟，包含实操演示与避坑经验，播放量已达 10.3 万，说明社区极度关注。观众可直接获取可复现的工具选型参考、配置细节及实战心得，避免盲目跟风。</p>
+
+<details><summary>参考链接</summary>
+<ul>
+<li><a href="https://www.youtube.com/watch?v=ZbmfYMlrlII">9 GitHub Repos Blowing Up Right Now ( I Tested Every ...) - YouTube</a></li>
+
+</ul>
+</details>
+
+<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#GitHub</code>, <code class="language-plaintext highlighter-rouge">#developer-tools</code>, <code class="language-plaintext highlighter-rouge">#repository-review</code>, <code class="language-plaintext highlighter-rouge">#hands-on-testing</code>, <code class="language-plaintext highlighter-rouge">#trending-repos</code></p>
+
+<hr />
+
+<p><a id="item-social-hot-2"></a></p>
+<h3 id="levi-strauss-17-智能体重塑-github-sdlc-实战案例-️-7010"><a href="https://www.youtube.com/watch?v=-GpxKKgoWWg">Levi Strauss 17 智能体重塑 GitHub SDLC 实战案例</a> ⭐️ 7.0/10</h3>
+
+<p>这是 GitHub Universe 2026 的一场 30 分钟技术案例分享，由 Levi Strauss &amp; Co. 高级总监 Jenny Patchen 介绍该公司如何在 GitHub Copilot 自定义 Agent 平台上构建包含 17 个 Agent 的企业级多 Agent SDLC（软件开发生命周期）。视频涵盖架构设计、实现模式与落地经验，展示从需求到合并的端到端自动化流程。</p>
+
+<p>youtube · GitHub · 11月11日 02:45</p>
+
+<p><strong>「推荐理由」</strong> GitHub 官方频道发布的 30 分钟企业级案例，播放量 3.4 万，详细拆解 Levi Strauss 如何在 Copilot 自定义智能体平台上落地 17 个协作智能体覆盖全 SDLC，包含架构模式、实现细节与踩坑经验，适合想把多智能体工作流落地的工程团队参考。</p>
+
+<details><summary>参考链接</summary>
+<ul>
+<li><a href="https://www.youtube.com/watch?v=-GpxKKgoWWg">17 agents , one SDLC : How Levi Strauss reimagined... - YouTube</a></li>
+
+</ul>
+</details>
+
+<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#GitHub Copilot</code>, <code class="language-plaintext highlighter-rouge">#AI agents</code>, <code class="language-plaintext highlighter-rouge">#SDLC</code>, <code class="language-plaintext highlighter-rouge">#enterprise development</code>, <code class="language-plaintext highlighter-rouge">#case study</code></p>
+
+<hr />
+
+<p><a id="item-social-hot-3"></a></p>
+<h3 id="matthew-berman-强推-fable-52f-转-js-编译器更新-️-6010"><a href="https://www.youtube.com/watch?v=0vNyVMDFdkg">Matthew Berman 强推 Fable 5.2：F# 转 JS 编译器更新</a> ⭐️ 6.0/10</h3>
+
+<p>该视频由 Matthew Berman 发布，标题为「Nothing else is this good…(Fable 5.2)」，时长 24 分钟，播放量 25.9 万。根据搜索结果，内容疑似围绕 Anthropic 发布的 Claude Fable 5.2 模型展开，涉及其在长周期编码、机器人控制、硬件设计及理论物理等领域的能力演示（如协调 1000 个智能体在 8 天内构建操作系统、从三行提示词复刻《战争机器》关卡等）。因缺乏字幕或逐帧说明，以上内容系从标题及公开检索结果推断，实际视频细节以原片为准。</p>
+
+<p>youtube · @matthew_berman · 11月11日 02:45</p>
+
+<p><strong>「为何值得看」</strong> 视频以 25.9 万次播放为证，Matthew Berman 以强烈推荐口吻介绍 Fable 5.2，可能涵盖新版本核心改进、迁移实战与性能演示，帮 F# 开发者快速上手 Fable 编译到 JavaScript 的最新最佳实践。</p>
+
+<details><summary>参考链接</summary>
+<ul>
+<li><a href="https://www.youtube.com/watch?v=h76wUNmRqxc">NOTHING will be smarter than Fable 5 . 2 ... - YouTube</a></li>
+<li><a href="https://interestingengineering.com/ai-robotics/anthropic-claude-fable-5-2-operating-system">Claude Fable 5 . 2 builds a working OS with 1,000 agents in eight days</a></li>
+<li><a href="https://wccftech.com/claude-fable-5-2-builds-playable-gears-of-war-e-day-clone-from-three-line-prompt-but-estimated-cost-reaches-15000/">Claude Fable 5 . 2 Builds Playable Gears of War: E-Day Clone From...</a></li>
+
+</ul>
+</details>
+
+<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#Fable</code>, <code class="language-plaintext highlighter-rouge">#F\#</code>, <code class="language-plaintext highlighter-rouge">#JavaScript</code>, <code class="language-plaintext highlighter-rouge">#Compiler</code>, <code class="language-plaintext highlighter-rouge">#Web Development</code></p>
+
+<hr />
+ ]]></content>
+  </entry>
   
   <entry>
     <title>Horizon Summary: 2026-11-10 (ZH)</title>
@@ -1404,117 +1642,6 @@
 </details>
 
 <p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#git</code>, <code class="language-plaintext highlighter-rouge">#github</code>, <code class="language-plaintext highlighter-rouge">#tutorial</code>, <code class="language-plaintext highlighter-rouge">#beginner</code>, <code class="language-plaintext highlighter-rouge">#version-control</code></p>
-
-<hr />
- ]]></content>
-  </entry>
-  
-  <entry>
-    <title>Horizon Summary: 2026-11-04 (ZH)</title>
-    <link href="https://www.01040610.xyz/horizon/2026/11/04/summary-zh.html"/>
-    <updated>2026-11-04T00:00:00+00:00</updated>
-    <id>https://www.01040610.xyz/horizon/2026/11/04/summary-zh.html</id>
-    <content type="html"><![CDATA[ <blockquote>
-  <p>今日抓取 135 条内容，收录 6 条。</p>
-</blockquote>
-
-<hr />
-
-<p><strong>GitHub AI 开发工具</strong></p>
-<ol>
-  <li><a href="#item-gh-trending-1">NanmiCoder/cc-haha: 本地优先的 Claude Code 桌面工作台</a> ⭐️ 8.0/10</li>
-  <li><a href="#item-gh-trending-2">anomalyco/hex：跨平台本地语音听写工具（Rust）</a> ⭐️ 6.0/10</li>
-  <li><a href="#item-gh-trending-3">p-e-w/heretic: 免训练修改 LLM 输出行为的研究库</a> ⭐️ 5.0/10</li>
-  <li><a href="#item-gh-trending-4">openinterpreter/openinterpreter: 面向开放模型的 Rust 编码代理</a> ⭐️ 5.0/10</li>
-</ol>
-
-<p><strong>AI 热门新闻</strong></p>
-<ol>
-  <li><a href="#item-ai-news-1">IBM Research 发布 Palette：微调小模型生成品牌演示文稿</a> ⭐️ 8.0/10</li>
-  <li><a href="#item-ai-news-2">Netflix 落地工作负载身份对接 AWS IAM，文章细节未公开</a> ⭐️ 6.0/10</li>
-</ol>
-
-<hr />
-
-<h2 id="github-ai-开发工具">GitHub AI 开发工具</h2>
-
-<p><a id="item-gh-trending-1"></a></p>
-<h3 id="nanmicodercc-haha-本地优先的-claude-code-桌面工作台-️-8010"><a href="https://github.com/NanmiCoder/cc-haha">NanmiCoder/cc-haha: 本地优先的 Claude Code 桌面工作台</a> ⭐️ 8.0/10</h3>
-
-<p>cc-haha 是一个本地优先的跨平台桌面应用，为 Claude Code 与 AI Agent 提供图形化工作台，集成多 Agent 协作、Git Worktree 管理、代码 Diff、技能市场、多模型切换、Computer Use 以及桌面宠物，并支持微信、飞书、钉钉、Telegram、WhatsApp 与 H5 远程访问。项目使用 TypeScript 与 Electron 构建，拥有 15k+ Star 与 8k+ Fork，近期仍在活跃提交（最近推送 2026-11-04），处于可用且社区认可度高的阶段。</p>
-
-<p>github · NanmiCoder · 11月4日 02:59</p>
-
-<p><strong>「推荐理由」</strong> 它落在写码、上下文供给与交付环节，替代了在终端手动切换 Agent、管理 Worktree 与远程协作的繁琐步骤，适合需要可视化管理多 Agent 与多渠道远程访问的 Claude Code 使用者；15k+ Star 与持续的提交记录表明社区活跃且维护及时。</p>
-
-<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#claude-code</code>, <code class="language-plaintext highlighter-rouge">#ai-agent</code>, <code class="language-plaintext highlighter-rouge">#desktop-app</code>, <code class="language-plaintext highlighter-rouge">#developer-tools</code>, <code class="language-plaintext highlighter-rouge">#productivity</code></p>
-
-<hr />
-
-<p><a id="item-gh-trending-2"></a></p>
-<h3 id="anomalycohex跨平台本地语音听写工具rust-️-6010"><a href="https://github.com/anomalyco/hex">anomalyco/hex：跨平台本地语音听写工具（Rust）</a> ⭐️ 6.0/10</h3>
-
-<p>Hex 是一个用 Rust 编写的跨平台本地语音听写工具，支持 macOS、Windows 和 Linux。它让开发者能用语音输入代码、注释、提交信息与文档，解决「以语音替代键盘」的需求，适合有 RSI 风险或偏好语音输入的人群。项目近期单日新增 410 星、累计 4651 星，处于可用且受关注的早期阶段。</p>
-
-<p>github · anomalyco · 11月4日 02:59</p>
-
-<p><strong>「推荐理由」</strong> 它落在「写码/文档输入」环节，提供本地运行、隐私友好的语音转文字替代方案，增强或替代键盘打字步骤，适合想减少敲击、追求无障碍输入或尝试语音编程工作流的开发者。</p>
-
-<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#voice-dictation</code>, <code class="language-plaintext highlighter-rouge">#accessibility</code>, <code class="language-plaintext highlighter-rouge">#rust</code>, <code class="language-plaintext highlighter-rouge">#local-ai</code>, <code class="language-plaintext highlighter-rouge">#developer-tools</code></p>
-
-<hr />
-
-<p><a id="item-gh-trending-3"></a></p>
-<h3 id="p-e-wheretic-免训练修改-llm-输出行为的研究库-️-5010"><a href="https://github.com/p-e-w/heretic">p-e-w/heretic: 免训练修改 LLM 输出行为的研究库</a> ⭐️ 5.0/10</h3>
-
-<p>heretic 是一个基于 Python 的研究型库，提供免训练的语言模型行为修改技术，可在推理阶段移除审查、抑制低质量输出、减少迎合性等。它解决的是 LLM 应用开发中模型对齐与推理控制的问题，属于实验性、面向研究的工具，而非通用的开发效能工具。</p>
-
-<p>github · p-e-w · 11月4日 02:59</p>
-
-<p><strong>「推荐理由」</strong> 该项目落在 LLM 应用的模型对齐与推理控制环节，能在不重新训练的情况下干预模型输出，适合需要在推理时精细调整模型行为的 AI 应用开发者。GitHub 累计 38.9k Star 显示社区对该研究方向的关注度较高。</p>
-
-<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#LLM行为控制</code>, <code class="language-plaintext highlighter-rouge">#免训练模型修改</code>, <code class="language-plaintext highlighter-rouge">#模型对齐</code>, <code class="language-plaintext highlighter-rouge">#推理时干预</code>, <code class="language-plaintext highlighter-rouge">#AI应用开发</code></p>
-
-<hr />
-
-<p><a id="item-gh-trending-4"></a></p>
-<h3 id="openinterpreteropeninterpreter-面向开放模型的-rust-编码代理-️-5010"><a href="https://github.com/openinterpreter/openinterpreter">openinterpreter/openinterpreter: 面向开放模型的 Rust 编码代理</a> ⭐️ 5.0/10</h3>
-
-<p>openinterpreter/openinterpreter 是一个面向 Kimi、GLM、DeepSeek、Qwen 等开放大模型的编码代理，使用 Rust 编写，旨在辅助代码编写阶段。项目拥有 6.8 万星标，显示较高关注度，但公开文档、安装指南与实际使用案例缺失，且最近推送日期疑似数据错误，成熟度难以确认，目前处于可初步了解阶段。</p>
-
-<p>github · openinterpreter · 11月4日 02:59</p>
-
-<p><strong>「推荐理由」</strong> 它直接切入代码编写环节，利用本地或开放模型替代闭源编码助手，适合希望自主可控、尝试开放模型编码能力的开发者；高星数表明社区活跃，值得跟踪后续文档与功能完善。</p>
-
-<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#coding-agent</code>, <code class="language-plaintext highlighter-rouge">#open-models</code>, <code class="language-plaintext highlighter-rouge">#rust</code>, <code class="language-plaintext highlighter-rouge">#ai-coding-assistant</code>, <code class="language-plaintext highlighter-rouge">#local-llm</code></p>
-
-<hr />
-
-<h2 id="ai-热门新闻">AI 热门新闻</h2>
-
-<p><a id="item-ai-news-1"></a></p>
-<h3 id="ibm-research-发布-palette微调小模型生成品牌演示文稿-️-8010"><a href="https://huggingface.co/blog/ibm-research/palette-deck-building">IBM Research 发布 Palette：微调小模型生成品牌演示文稿</a> ⭐️ 8.0/10</h3>
-
-<p>IBM Research 在 Hugging Face 博客发布 Palette，介绍一种将小模型微调为按特定设计语言生成演示文稿的技术。文章提供了实现细节，但目前未公开具体模型名称、版本、训练数据规模或可直接下载的权重。</p>
-
-<p>rss · Hugging Face Blog · 11月3日 16:35</p>
-
-<p><strong>「实用价值」</strong> 想自动化生成符合品牌规范幻灯片的团队可参考该方法，先在自有设计系统样本上微调小模型，再对比生成质量与人工制作的差距。</p>
-
-<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#small-language-models</code>, <code class="language-plaintext highlighter-rouge">#presentation-generation</code>, <code class="language-plaintext highlighter-rouge">#design-systems</code>, <code class="language-plaintext highlighter-rouge">#model-fine-tuning</code>, <code class="language-plaintext highlighter-rouge">#IBM-Research</code></p>
-
-<hr />
-
-<p><a id="item-ai-news-2"></a></p>
-<h3 id="netflix-落地工作负载身份对接-aws-iam文章细节未公开-️-6010"><a href="https://www.infoq.cn/article/PJdTzbUNPBhvKEd6QuxZ?utm_source=rss&amp;utm_medium=article">Netflix 落地工作负载身份对接 AWS IAM，文章细节未公开</a> ⭐️ 6.0/10</h3>
-
-<p>InfoQ 转载了 Netflix 作者 Leela Kumili 的文章，标题显示 Netflix 通过工作负载认证将 AWS IAM 与内部身份系统连接。目前仅见标题与链接，文章正文的实现细节、配置示例、适用场景或对比现有方案的信息均未提供，无法判断具体技术路径或可用性。</p>
-
-<p>rss · InfoQ 中文 · 11月3日 13:04</p>
-
-<p><strong>「对你的意义」</strong> 因缺乏文章实质内容，暂无法给出可执行的第一步建议（如试用、替换、对比或迁移）。若后续获取全文并确认包含可复用的配置模式或迁移步骤，再评估是否纳入云原生身份认证的参考案例。</p>
-
-<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#Workload Identity</code>, <code class="language-plaintext highlighter-rouge">#AWS IAM</code>, <code class="language-plaintext highlighter-rouge">#Netflix</code>, <code class="language-plaintext highlighter-rouge">#云原生安全</code>, <code class="language-plaintext highlighter-rouge">#身份认证</code></p>
 
 <hr />
  ]]></content>

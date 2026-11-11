@@ -1,4 +1,460 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="https://www.01040610.xyz/horizon/feed.xml" rel="self" type="application/atom+xml" /><link href="https://www.01040610.xyz/horizon/" rel="alternate" type="text/html" /><updated>2026-11-10T04:45:25+00:00</updated><id>https://www.01040610.xyz/horizon/feed.xml</id><title type="html">Horizon 每日速递</title><subtitle>由 AI 自动筛选的 GitHub 热点项目、AI 新闻与 X / YouTube 热门内容</subtitle><entry xml:lang="en"><title type="html">Horizon Summary: 2026-11-10 (EN)</title><link href="https://www.01040610.xyz/horizon/2026/11/10/summary-en.html" rel="alternate" type="text/html" title="Horizon Summary: 2026-11-10 (EN)" /><published>2026-11-10T00:00:00+00:00</published><updated>2026-11-10T00:00:00+00:00</updated><id>https://www.01040610.xyz/horizon/2026/11/10/summary-en</id><content type="html" xml:base="https://www.01040610.xyz/horizon/2026/11/10/summary-en.html"><![CDATA[<blockquote>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="https://www.01040610.xyz/horizon/feed.xml" rel="self" type="application/atom+xml" /><link href="https://www.01040610.xyz/horizon/" rel="alternate" type="text/html" /><updated>2026-11-11T02:56:28+00:00</updated><id>https://www.01040610.xyz/horizon/feed.xml</id><title type="html">Horizon 每日速递</title><subtitle>由 AI 自动筛选的 GitHub 热点项目、AI 新闻与 X / YouTube 热门内容</subtitle><entry xml:lang="en"><title type="html">Horizon Summary: 2026-11-11 (EN)</title><link href="https://www.01040610.xyz/horizon/2026/11/11/summary-en.html" rel="alternate" type="text/html" title="Horizon Summary: 2026-11-11 (EN)" /><published>2026-11-11T00:00:00+00:00</published><updated>2026-11-11T00:00:00+00:00</updated><id>https://www.01040610.xyz/horizon/2026/11/11/summary-en</id><content type="html" xml:base="https://www.01040610.xyz/horizon/2026/11/11/summary-en.html"><![CDATA[<blockquote>
+  <p>Showing 13 of 145 fetched items.</p>
+</blockquote>
+
+<hr />
+
+<p><strong>AI Dev Tools</strong></p>
+<ol>
+  <li><a href="#item-gh-trending-1">DeusData/codebase-memory-mcp: Local code intelligence via persistent graph and MCP tools</a> ⭐️ 8.0/10</li>
+  <li><a href="#item-gh-trending-2">addyosmani/agent-skills: Production-grade engineering skills for AI coding agents</a> ⭐️ 7.0/10</li>
+  <li><a href="#item-gh-trending-3">anthropics/skills – Public repo for Agent Skills (Python)</a> ⭐️ 6.0/10</li>
+  <li><a href="#item-gh-trending-4">anthropics/claude-quickstarts: Official Claude API quickstart templates</a> ⭐️ 5.0/10</li>
+  <li><a href="#item-gh-trending-5">DiffuSpace/Clover-35B-A3B-Preview: 35B diffusion language model checkpoint for agentic coding research</a> ⭐️ 5.0/10</li>
+</ol>
+
+<p><strong>AI News</strong></p>
+<ol>
+  <li><a href="#item-ai-news-1">Anthropic documents prompt to make Claude Fable 5.2 refactor code more aggressively</a> ⭐️ 9.0/10</li>
+  <li><a href="#item-ai-news-2">Anthropic Glasswing AI Finds 9 Real Bugs, Zero False Positives in Maintainer Test</a> ⭐️ 7.0/10</li>
+  <li><a href="#item-ai-news-3">Google Chrome releases modern-web-guidance v1.0 for coding agents</a> ⭐️ 7.0/10</li>
+  <li><a href="#item-ai-news-4">llm-gemini 0.36 adds Gemini 4 Carbon support with launch pricing</a> ⭐️ 7.0/10</li>
+  <li><a href="#item-ai-news-5">DeepMind Announces AlphaProof Code for AI Formal Verification</a> ⭐️ 6.0/10</li>
+</ol>
+
+<p><strong>X / YouTube Highlights</strong></p>
+<ol>
+  <li><a href="#item-social-hot-1">9 Trending GitHub Repos Tested Hands-On</a> ⭐️ 7.0/10</li>
+  <li><a href="#item-social-hot-2">17 agents, one SDLC: How Levi Strauss reimagined development on GitHub</a> ⭐️ 7.0/10</li>
+  <li><a href="#item-social-hot-3">Fable 5.2 Compiler Deep Dive &amp; Review</a> ⭐️ 6.0/10</li>
+</ol>
+
+<hr />
+
+<h2 id="ai-dev-tools">AI Dev Tools</h2>
+
+<p><a id="item-gh-trending-1"></a></p>
+<h3 id="deusdatacodebase-memory-mcp-local-code-intelligence-via-persistent-graph-and-mcp-tools-️-8010"><a href="https://github.com/DeusData/codebase-memory-mcp">DeusData/codebase-memory-mcp: Local code intelligence via persistent graph and MCP tools</a> ⭐️ 8.0/10</h3>
+
+<p>DeusData/codebase-memory-mcp is a local code intelligence platform that connects code, documentation, and infrastructure in a persistent graph, exposing MCP tools and change-aware test selection for AI agents. It is implemented primarily in C and integrates with assistants such as Aider, Claude Code, Codex, Cursor, and Gemini CLI. The project has gathered over 48k stars but also has 553 open issues and a future-dated timeline, suggesting it is still in an early or experimental stage.</p>
+
+<p>github · DeusData · Nov 11, 02:45</p>
+
+<p><strong>「Why Recommended」</strong> It targets the context-supply and test-selection steps of AI-assisted development, replacing ad-hoc code search with a queryable graph and MCP interface, which can benefit developers and teams who want tighter, local integration between their codebase and AI coding agents. The high star count (48k+) signals strong community interest and active experimentation.</p>
+
+<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#code-intelligence</code>, <code class="language-plaintext highlighter-rouge">#mcp-server</code>, <code class="language-plaintext highlighter-rouge">#ai-assisted-development</code>, <code class="language-plaintext highlighter-rouge">#graph-based-analysis</code>, <code class="language-plaintext highlighter-rouge">#test-selection</code></p>
+
+<hr />
+
+<p><a id="item-gh-trending-2"></a></p>
+<h3 id="addyosmaniagent-skills-production-grade-engineering-skills-for-ai-coding-agents-️-7010"><a href="https://github.com/addyosmani/agent-skills">addyosmani/agent-skills: Production-grade engineering skills for AI coding agents</a> ⭐️ 7.0/10</h3>
+
+<p>This repository provides a curated collection of production-grade engineering skills designed to improve AI coding agents&#x27; output quality by enhancing the context-provisioning layer of AI-assisted development. Authored by Addy Osmani from the Google Chrome team, it targets the prompt engineering and context engineering aspects of the development workflow using JavaScript. The project has garnered significant attention with over 115k stars, though practical maturity and verified adoption remain to be confirmed through direct inspection of the skill implementations.</p>
+
+<p>github · addyosmani · Nov 11, 02:45</p>
+
+<p><strong>「Why Recommended」</strong> It addresses the context-provisioning stage of AI-assisted development by offering structured engineering skills that can replace ad-hoc prompting with reproducible, production-oriented patterns, making it relevant for developers integrating AI coding agents into their workflow who want more reliable output quality.</p>
+
+<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#ai-coding-agents</code>, <code class="language-plaintext highlighter-rouge">#prompt-engineering</code>, <code class="language-plaintext highlighter-rouge">#developer-productivity</code>, <code class="language-plaintext highlighter-rouge">#context-engineering</code>, <code class="language-plaintext highlighter-rouge">#engineering-practices</code></p>
+
+<hr />
+
+<p><a id="item-gh-trending-3"></a></p>
+<h3 id="anthropicsskills--public-repo-for-agent-skills-python-️-6010"><a href="https://github.com/anthropics/skills">anthropics/skills – Public repo for Agent Skills (Python)</a> ⭐️ 6.0/10</h3>
+
+<p>anthropics/skills is Anthropic&#x27;s public repository for Agent Skills, written in Python. It appears to provide building blocks for AI agent capabilities, but the available metadata contains no code, documentation, or usage examples, so its actual maturity and usability cannot be verified. The project is currently unvalidated despite high visibility.</p>
+
+<p>github · anthropics · Nov 11, 02:45</p>
+
+<p><strong>「Why Recommended」</strong> This repo may interest developers exploring AI agent frameworks, as it comes from Anthropic and targets the agent-building step of the development workflow. However, without public documentation or integration points, it remains a speculative watch rather than a ready-to-use tool.</p>
+
+<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#AI-agents</code>, <code class="language-plaintext highlighter-rouge">#developer-tools</code>, <code class="language-plaintext highlighter-rouge">#anthropic</code>, <code class="language-plaintext highlighter-rouge">#python</code>, <code class="language-plaintext highlighter-rouge">#agent-framework</code></p>
+
+<hr />
+
+<p><a id="item-gh-trending-4"></a></p>
+<h3 id="anthropicsclaude-quickstarts-official-claude-api-quickstart-templates-️-5010"><a href="https://github.com/anthropics/claude-quickstarts">anthropics/claude-quickstarts: Official Claude API quickstart templates</a> ⭐️ 5.0/10</h3>
+
+<p>This is an official Anthropic repository providing quickstart projects for building deployable applications with the Claude API. It solves the getting-started problem for developers integrating Claude by offering curated templates and boilerplate code. Written primarily in Python, the project is mature and production-ready given its official backing and high star count.</p>
+
+<p>github · anthropics · Nov 11, 02:45</p>
+
+<p><strong>「Why Recommended」</strong> It accelerates the "context supply" phase of LLM integration by replacing manual boilerplate setup with ready-to-deploy templates, ideal for developers adopting the Claude API who want to skip scaffolding. The 20.5k stars reflect strong community trust and active maintenance.</p>
+
+<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#claude-api</code>, <code class="language-plaintext highlighter-rouge">#quickstart</code>, <code class="language-plaintext highlighter-rouge">#templates</code>, <code class="language-plaintext highlighter-rouge">#anthropic</code>, <code class="language-plaintext highlighter-rouge">#llm-integration</code></p>
+
+<hr />
+
+<p><a id="item-gh-trending-5"></a></p>
+<h3 id="diffuspaceclover-35b-a3b-preview-35b-diffusion-language-model-checkpoint-for-agentic-coding-research-️-5010"><a href="https://github.com/DiffuSpace/Clover-35B-A3B-Preview">DiffuSpace/Clover-35B-A3B-Preview: 35B diffusion language model checkpoint for agentic coding research</a> ⭐️ 5.0/10</h3>
+
+<p>This repository hosts a 35-billion-parameter diffusion language model checkpoint tagged for agentic coding experiments. It provides model weights and configuration only, with no documentation, usage examples, or integration guidance for direct developer adoption. The project is a preview release from October 2026 and remains at an early research stage.</p>
+
+<p>github · DiffuSpace · Nov 11, 02:45</p>
+
+<p><strong>「Why Recommended」</strong> Relevant for researchers and tool builders exploring diffusion-based approaches to agentic coding who need a sizable open checkpoint to experiment with; not suitable for practitioners seeking a ready-to-use coding assistant or IDE integration.</p>
+
+<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#diffusion-language-model</code>, <code class="language-plaintext highlighter-rouge">#agentic-coding</code>, <code class="language-plaintext highlighter-rouge">#model-checkpoint</code>, <code class="language-plaintext highlighter-rouge">#preview-release</code>, <code class="language-plaintext highlighter-rouge">#research</code></p>
+
+<hr />
+
+<h2 id="ai-news">AI News</h2>
+
+<p><a id="item-ai-news-1"></a></p>
+<h3 id="anthropic-documents-prompt-to-make-claude-fable-52-refactor-code-more-aggressively-️-9010"><a href="https://simonwillison.net/2026/Nov/10/prompting-claude-fable-52/">Anthropic documents prompt to make Claude Fable 5.2 refactor code more aggressively</a> ⭐️ 9.0/10</h3>
+
+<p>Anthropic&#x27;s official documentation for Claude Fable 5.2 reveals a specific prompt that significantly increases the model&#x27;s tendency to refactor and deduplicate code. The prompt "This codebase is yours: what it&#x27;s for and how it&#x27;s built are your call, and you&#x27;ll keep building on it" caused the model to merge repeated code in about 50% of test cases, compared to under 10% without the ownership statement. The finding comes from Anthropic&#x27;s own testing on small coding tasks and is published in their prompt engineering guide.</p>
+
+<p>rss · Simon Willison · Nov 10, 05:34</p>
+
+<p><strong>「Why it matters」</strong> Developers using Claude Fable 5.2 for coding tasks can immediately apply this single-sentence prompt to get more aggressive refactoring and deduplication, reducing code duplication without additional tooling. The technique is model-specific to Fable 5.2 and directly actionable — add the ownership sentence to your system prompt or task instructions when you want the model to restructure code rather than just extend it.</p>
+
+<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#prompt-engineering</code>, <code class="language-plaintext highlighter-rouge">#claude</code>, <code class="language-plaintext highlighter-rouge">#coding-assistant</code>, <code class="language-plaintext highlighter-rouge">#anthropic</code>, <code class="language-plaintext highlighter-rouge">#prompting-techniques</code></p>
+
+<hr />
+
+<p><a id="item-ai-news-2"></a></p>
+<h3 id="anthropic-glasswing-ai-finds-9-real-bugs-zero-false-positives-in-maintainer-test-️-7010"><a href="https://www.vulncheck.com/blog/anthropic-glasswing-november-update">Anthropic Glasswing AI Finds 9 Real Bugs, Zero False Positives in Maintainer Test</a> ⭐️ 7.0/10</h3>
+
+<p>A maintainer (pizlonator) reports receiving 9 vulnerability reports from Anthropic&#x27;s Glasswing AI system for the Fil-C project, all of which were real bugs with zero false positives. The report quality was described as exceptional compared to browser engine security baselines, while proposed fix quality was "alright" — some used verbatim, most as significant inspiration. The VulnCheck blog post characterizes Glasswing&#x27;s findings as "underwhelming," but the maintainer&#x27;s first-hand experience contradicts this. Glasswing partners typically point Mythos-class models at proprietary codebases; the public ledger covers only Anthropic&#x27;s coordinated open-source disclosure program. Access method, pricing, and integration details remain undisclosed.</p>
+
+<p>hackernews · panic · Nov 10, 22:17 · <a href="https://news.ycombinator.com/item?id=50447074">Discussion</a></p>
+
+<p><strong>「Why It Matters」</strong> Security practitioners and maintainers evaluating AI-assisted vulnerability detection now have concrete, deployed-tool evidence: a frontier-model system produced high-quality, zero-false-positive reports on a real codebase. The first step is to investigate whether Glasswing or similar Mythos-class model access is available for your own projects, since the public ledger represents only a fraction of its actual deployment.</p>
+
+<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#AI security</code>, <code class="language-plaintext highlighter-rouge">#vulnerability detection</code>, <code class="language-plaintext highlighter-rouge">#Anthropic</code>, <code class="language-plaintext highlighter-rouge">#Glasswing</code>, <code class="language-plaintext highlighter-rouge">#software security</code></p>
+
+<hr />
+
+<p><a id="item-ai-news-3"></a></p>
+<h3 id="google-chrome-releases-modern-web-guidance-v10-for-coding-agents-️-7010"><a href="https://github.com/GoogleChrome/modern-web-guidance">Google Chrome releases modern-web-guidance v1.0 for coding agents</a> ⭐️ 7.0/10</h3>
+
+<p>Google Chrome has released modern-web-guidance v1.0, an open-source knowledge base of 200+ curated guides developed with Firefox, MDN, and Edge. The package teaches coding agents to use native browser primitives — such as CSS.highlights, &lt;dialog&gt;, and field-sizing — instead of legacy JavaScript patterns. It installs via `npx modern-web-guidance@latest install` and includes a CLI for search and a deterministic legacy-scan trained on 30,000 GitHub repos (reported 92% precision). The authors claim agents improve from 55% to 92% pass rates on 200 frontend tasks when guided. Readable guides are published at developer.chrome.com/docs/modern-web-guidance/guides. Some listed features are Chrome-only and not yet supported in Firefox or Safari.</p>
+
+<p>hackernews · paulirish · Nov 10, 18:01 · <a href="https://news.ycombinator.com/item?id=50443812">Discussion</a></p>
+
+<p><strong>「Why it matters」</strong> Front-end developers using coding agents (Cursor, Copilot, Claude Code, etc.) can immediately add this skill to steer agents toward dependency-free, standards-based solutions. First step: run `DISABLE_TELEMETRY=1 npx modern-web-guidance@latest install` in a project, then try `legacy-scan ./src` to surface outdated patterns the agent can modernize. Teams should verify cross-browser support for any suggested feature before shipping.</p>
+
+<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#coding-agents</code>, <code class="language-plaintext highlighter-rouge">#modern-web</code>, <code class="language-plaintext highlighter-rouge">#browser-apis</code>, <code class="language-plaintext highlighter-rouge">#web-development</code>, <code class="language-plaintext highlighter-rouge">#open-source</code></p>
+
+<hr />
+
+<p><a id="item-ai-news-4"></a></p>
+<h3 id="llm-gemini-036-adds-gemini-4-carbon-support-with-launch-pricing-️-7010"><a href="https://simonwillison.net/2026/Nov/10/llm-gemini/">llm-gemini 0.36 adds Gemini 4 Carbon support with launch pricing</a> ⭐️ 7.0/10</h3>
+
+<p>Simon Willison released llm-gemini 0.36, a plugin that adds Gemini 4 Carbon model support to the LLM command-line tool. Gemini 4 Carbon, previously limited to a subset of cyber defenders, is now generally available with launch pricing of $2 per million input tokens and $10 per million output tokens, matching GPT-6.1 Sol and Claude Sonnet 5.5 rates. Prices are scheduled to double to $4/$20 on December 1st. The model supports three thinking effort tiers (low, medium default, high) which the release demonstrates with pelican image generation examples.</p>
+
+<p>rss · Simon Willison · Nov 10, 20:09</p>
+
+<p><strong>「Why it matters」</strong> Developers using the LLM CLI can immediately upgrade to llm-gemini 0.36 to access Google&#x27;s newest flagship model at introductory pricing before the December 1st increase. The thinking effort tiers let you trade latency for reasoning depth on coding and creative tasks, and the plugin integrates directly into existing LLM workflows without API changes.</p>
+
+<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#llm-cli</code>, <code class="language-plaintext highlighter-rouge">#gemini</code>, <code class="language-plaintext highlighter-rouge">#plugin-release</code>, <code class="language-plaintext highlighter-rouge">#command-line-tools</code>, <code class="language-plaintext highlighter-rouge">#ai-models</code></p>
+
+<hr />
+
+<p><a id="item-ai-news-5"></a></p>
+<h3 id="deepmind-announces-alphaproof-code-for-ai-formal-verification-️-6010"><a href="https://deepmind.google/blog/introducing-alphaproof-code/">DeepMind Announces AlphaProof Code for AI Formal Verification</a> ⭐️ 6.0/10</h3>
+
+<p>DeepMind has announced AlphaProof Code, an AI system for formal verification and proof generation targeting Lean and Rocq, via a blog post. The supplied material does not include the blog content, so availability, access method, cost, concrete capabilities, and benchmarks are unknown. Community discussion on Hacker News shows practitioner skepticism about claimed bug-finding results and comparisons to existing coding agents.</p>
+
+<p>hackernews · Google DeepMind Blog · Nov 10, 12:11 · <a href="https://news.ycombinator.com/item?id=50439193">Discussion</a></p>
+
+<p><strong>「Why It Matters」</strong> Practitioners working on formal verification, theorem proving, or AI-assisted proof engineering should read the DeepMind blog post to learn whether AlphaProof Code is accessible now, what it can prove, and how it differs from current Lean/Rocq workflows and coding agents.</p>
+
+<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#formal-verification</code>, <code class="language-plaintext highlighter-rouge">#AI-coding-assistant</code>, <code class="language-plaintext highlighter-rouge">#theorem-proving</code>, <code class="language-plaintext highlighter-rouge">#DeepMind</code>, <code class="language-plaintext highlighter-rouge">#Lean</code></p>
+
+<hr />
+
+<h2 id="x--youtube-highlights">X / YouTube Highlights</h2>
+
+<p><a id="item-social-hot-1"></a></p>
+<h3 id="9-trending-github-repos-tested-hands-on-️-7010"><a href="https://www.youtube.com/watch?v=ZbmfYMlrlII">9 Trending GitHub Repos Tested Hands-On</a> ⭐️ 7.0/10</h3>
+
+<p>The video tests and reviews nine currently trending GitHub repositories, with the creator sharing hands-on findings from personal testing. Search snippets indicate the repos include Elephant-Goldfish, which helps Claude catch mistakes before writing code, and BAMA for building native Mac apps, among others. The ~20-minute runtime suggests substantive demos, though the exact nine repositories and depth of reproducible details cannot be fully verified from available metadata alone.</p>
+
+<p>youtube · GitHub · Nov 11, 02:45</p>
+
+<p><strong>「Why It&#x27;s Hot」</strong> The video has 103,521 views, showing strong developer interest in a practitioner&#x27;s hands-on testing of nine currently popular GitHub repositories. Viewers can expect practical demos and actionable takeaways for each repo, helping them decide which tools are worth adopting.</p>
+
+<details><summary>References</summary>
+<ul>
+<li><a href="https://www.youtube.com/watch?v=ZbmfYMlrlII">9 GitHub Repos Blowing Up Right Now ( I Tested Every ...) - YouTube</a></li>
+
+</ul>
+</details>
+
+<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#GitHub</code>, <code class="language-plaintext highlighter-rouge">#developer-tools</code>, <code class="language-plaintext highlighter-rouge">#repository-review</code>, <code class="language-plaintext highlighter-rouge">#hands-on-testing</code>, <code class="language-plaintext highlighter-rouge">#trending-repos</code></p>
+
+<hr />
+
+<p><a id="item-social-hot-2"></a></p>
+<h3 id="17-agents-one-sdlc-how-levi-strauss-reimagined-development-on-github-️-7010"><a href="https://www.youtube.com/watch?v=-GpxKKgoWWg">17 agents, one SDLC: How Levi Strauss reimagined development on GitHub</a> ⭐️ 7.0/10</h3>
+
+<p>This 30-minute GitHub Universe 2026 session features Jenny Patchen from Levi Strauss &amp; Co. presenting how the company built an enterprise multi-agent software development lifecycle using 17 custom agents on GitHub Copilot&#x27;s platform. The case study covers the architecture, implementation patterns, and lessons learned from deploying agentic workflows across their SDLC at scale.</p>
+
+<p>youtube · GitHub · Nov 11, 02:45</p>
+
+<p><strong>「Why this matters」</strong> This 30-minute GitHub case study has 34,431 views and shows how Levi Strauss deployed a 17-agent multi-agent SDLC on Copilot&#x27;s custom agents platform, giving developers concrete architecture patterns and implementation lessons from a real enterprise rollout.</p>
+
+<details><summary>References</summary>
+<ul>
+<li><a href="https://www.youtube.com/watch?v=-GpxKKgoWWg">17 agents , one SDLC : How Levi Strauss reimagined... - YouTube</a></li>
+
+</ul>
+</details>
+
+<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#GitHub Copilot</code>, <code class="language-plaintext highlighter-rouge">#AI agents</code>, <code class="language-plaintext highlighter-rouge">#SDLC</code>, <code class="language-plaintext highlighter-rouge">#enterprise development</code>, <code class="language-plaintext highlighter-rouge">#case study</code></p>
+
+<hr />
+
+<p><a id="item-social-hot-3"></a></p>
+<h3 id="fable-52-compiler-deep-dive--review-️-6010"><a href="https://www.youtube.com/watch?v=0vNyVMDFdkg">Fable 5.2 Compiler Deep Dive &amp; Review</a> ⭐️ 6.0/10</h3>
+
+<p>Matthew Berman reviews Anthropic&#x27;s new Claude Fable 5.2 model, testing its coding and reasoning capabilities against Opus 5.5. The 24-minute video demonstrates Fable 5.2 on tasks such as building a playable Gears of War level clone in Unreal Engine 5 and other complex coding challenges, with Berman expressing strong endorsement of the model&#x27;s performance.</p>
+
+<p>youtube · @matthew_berman · Nov 11, 02:45</p>
+
+<p><strong>「Why It&#x27;s Hot」</strong> With 259k views, this 24-minute video from @matthew_berman likely delivers a technical deep-dive on Fable 5.2, covering compiler updates, new features, and migration guidance for F# to JavaScript developers.</p>
+
+<details><summary>References</summary>
+<ul>
+<li><a href="https://www.youtube.com/watch?v=0vNyVMDFdkg">Anthropic just dropped the best model ever... ( Fable 5 . 2 ) - YouTube</a></li>
+
+</ul>
+</details>
+
+<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#Fable</code>, <code class="language-plaintext highlighter-rouge">#F\#</code>, <code class="language-plaintext highlighter-rouge">#JavaScript</code>, <code class="language-plaintext highlighter-rouge">#Compiler</code>, <code class="language-plaintext highlighter-rouge">#Web Development</code></p>
+
+<hr />]]></content><author><name></name></author><summary type="html"><![CDATA[Showing 13 of 145 fetched items.]]></summary></entry><entry xml:lang="zh"><title type="html">Horizon Summary: 2026-11-11 (ZH)</title><link href="https://www.01040610.xyz/horizon/2026/11/11/summary-zh.html" rel="alternate" type="text/html" title="Horizon Summary: 2026-11-11 (ZH)" /><published>2026-11-11T00:00:00+00:00</published><updated>2026-11-11T00:00:00+00:00</updated><id>https://www.01040610.xyz/horizon/2026/11/11/summary-zh</id><content type="html" xml:base="https://www.01040610.xyz/horizon/2026/11/11/summary-zh.html"><![CDATA[<blockquote>
+  <p>今日抓取 145 条内容，收录 13 条。</p>
+</blockquote>
+
+<hr />
+
+<p><strong>GitHub AI 开发工具</strong></p>
+<ol>
+  <li><a href="#item-gh-trending-1">DeusData/codebase-memory-mcp：本地代码图谱与 MCP 工具</a> ⭐️ 8.0/10</li>
+  <li><a href="#item-gh-trending-2">addyosmani/agent-skills：面向 AI 编码代理的工程技能集</a> ⭐️ 7.0/10</li>
+  <li><a href="#item-gh-trending-3">anthropics/skills：Anthropic 发布的 Agent Skills 公开仓库</a> ⭐️ 6.0/10</li>
+  <li><a href="#item-gh-trending-4">anthropics/claude-quickstarts：Claude API 官方快速入门模板集合</a> ⭐️ 5.0/10</li>
+  <li><a href="#item-gh-trending-5">DiffuSpace/Clover-35B-A3B-Preview：35B 扩散语言模型预览版权重</a> ⭐️ 5.0/10</li>
+</ol>
+
+<p><strong>AI 热门新闻</strong></p>
+<ol>
+  <li><a href="#item-ai-news-1">Anthropic 发布 Claude Fable 5.2 代码所有权提示技巧</a> ⭐️ 9.0/10</li>
+  <li><a href="#item-ai-news-2">Anthropic Glasswing AI 漏洞挖掘实测：零误报但修复建议一般</a> ⭐️ 7.0/10</li>
+  <li><a href="#item-ai-news-3">Google Chrome 发布 modern-web-guidance 1.0，教编码代理用原生 Web API 替代旧式 JS 模式</a> ⭐️ 7.0/10</li>
+  <li><a href="#item-ai-news-4">llm-gemini 0.36 添加 Gemini 4 Carbon 模型支持</a> ⭐️ 7.0/10</li>
+  <li><a href="#item-ai-news-5">DeepMind 发布 AlphaProof Code 用于 AI 形式化验证</a> ⭐️ 6.0/10</li>
+</ol>
+
+<p><strong>X / YouTube 热门</strong></p>
+<ol>
+  <li><a href="#item-social-hot-1">Jack Roberts 实测 9 个热门 GitHub 仓库</a> ⭐️ 7.0/10</li>
+  <li><a href="#item-social-hot-2">Levi Strauss 17 智能体重塑 GitHub SDLC 实战案例</a> ⭐️ 7.0/10</li>
+  <li><a href="#item-social-hot-3">Matthew Berman 强推 Fable 5.2：F# 转 JS 编译器更新</a> ⭐️ 6.0/10</li>
+</ol>
+
+<hr />
+
+<h2 id="github-ai-开发工具">GitHub AI 开发工具</h2>
+
+<p><a id="item-gh-trending-1"></a></p>
+<h3 id="deusdatacodebase-memory-mcp本地代码图谱与-mcp-工具-️-8010"><a href="https://github.com/DeusData/codebase-memory-mcp">DeusData/codebase-memory-mcp：本地代码图谱与 MCP 工具</a> ⭐️ 8.0/10</h3>
+
+<p>DeusData/codebase-memory-mcp 是一个面向开发者和 AI Agent 的本地代码智能平台，将代码、文档与基础设施连接成持久化图谱，提供 MCP 工具、Agent 集成与变更感知测试选择。项目以 C 语言为主，处于实验性阶段（创建于 2026 年，仍有 553 个开放 Issue），需实地验证稳定性。</p>
+
+<p>github · DeusData · 11月11日 02:45</p>
+
+<p><strong>「推荐理由」</strong> 它切中写码、评审、测试及上下文供给等核心环节，替代传统检索方式，适合需要本地图谱增强 AI 辅助开发的团队；4.8 万 Star 显示社区关注度高。</p>
+
+<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#code-intelligence</code>, <code class="language-plaintext highlighter-rouge">#mcp-server</code>, <code class="language-plaintext highlighter-rouge">#ai-assisted-development</code>, <code class="language-plaintext highlighter-rouge">#graph-based-analysis</code>, <code class="language-plaintext highlighter-rouge">#test-selection</code></p>
+
+<hr />
+
+<p><a id="item-gh-trending-2"></a></p>
+<h3 id="addyosmaniagent-skills面向-ai-编码代理的工程技能集-️-7010"><a href="https://github.com/addyosmani/agent-skills">addyosmani/agent-skills：面向 AI 编码代理的工程技能集</a> ⭐️ 7.0/10</h3>
+
+<p>该仓库由 Google Chrome 团队的 Addy Osmani 维护，提供一套面向 AI 编码代理的生产级工程技能集合，旨在通过结构化的上下文供给提升代理输出质量。项目以 JavaScript 为主语言，目前拥有 11.5 万星标，反映出极高的关注度，但实际技能实现的成熟度与可用性仍需进一步验证。</p>
+
+<p>github · addyosmani · 11月11日 02:45</p>
+
+<p><strong>「推荐理由」</strong> 它定位于 AI 辅助开发的上下文工程环节，以可复用的技能定义替代或增强手工提示词编写，适合希望提升 AI 编码代理可靠性与工程规范性的开发者与团队。</p>
+
+<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#ai-coding-agents</code>, <code class="language-plaintext highlighter-rouge">#prompt-engineering</code>, <code class="language-plaintext highlighter-rouge">#developer-productivity</code>, <code class="language-plaintext highlighter-rouge">#context-engineering</code>, <code class="language-plaintext highlighter-rouge">#engineering-practices</code></p>
+
+<hr />
+
+<p><a id="item-gh-trending-3"></a></p>
+<h3 id="anthropicsskillsanthropic-发布的-agent-skills-公开仓库-️-6010"><a href="https://github.com/anthropics/skills">anthropics/skills：Anthropic 发布的 Agent Skills 公开仓库</a> ⭐️ 6.0/10</h3>
+
+<p>该仓库是 Anthropic 发布的 Agent Skills 公开仓库，使用 Python 编写，旨在提供 AI Agent 构建模块。但目前公开的代码、文档和使用示例极少，成熟度难以评估，处于早期或实验阶段。</p>
+
+<p>github · anthropics · 11月11日 02:45</p>
+
+<p><strong>「推荐理由」</strong> 适合关注 AI Agent 开发工具链的开发者跟踪 Anthropic 的最新动向，但缺乏可复现的使用证据和明确集成点，暂不建议直接用于生产开发。</p>
+
+<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#AI-agents</code>, <code class="language-plaintext highlighter-rouge">#developer-tools</code>, <code class="language-plaintext highlighter-rouge">#anthropic</code>, <code class="language-plaintext highlighter-rouge">#python</code>, <code class="language-plaintext highlighter-rouge">#agent-framework</code></p>
+
+<hr />
+
+<p><a id="item-gh-trending-4"></a></p>
+<h3 id="anthropicsclaude-quickstartsclaude-api-官方快速入门模板集合-️-5010"><a href="https://github.com/anthropics/claude-quickstarts">anthropics/claude-quickstarts：Claude API 官方快速入门模板集合</a> ⭐️ 5.0/10</h3>
+
+<p>该仓库是 Anthropic 官方维护的 Claude API 快速入门项目集合，旨在帮助开发者快速构建可部署的 Claude 应用。它提供多种语言（以 Python 为主）的模板与样板代码，覆盖从基础调用到可部署应用的常见场景，解决开发者在 LLM 集成初期的“从零开始”问题。项目处于可用状态，持续更新，适合决定接入 Claude API 的团队直接参考。</p>
+
+<p>github · anthropics · 11月11日 02:45</p>
+
+<p><strong>「推荐理由」</strong> 它落在“上下文供给/起步”环节，替代了开发者自行摸索 API 调用、提示词组织与部署骨架的过程，适合正在评估或已决定使用 Claude API 的后端与全栈工程师。20.5k Star 反映了官方背书与社区关注度，但价值局限于 Claude 生态内部。</p>
+
+<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#claude-api</code>, <code class="language-plaintext highlighter-rouge">#quickstart</code>, <code class="language-plaintext highlighter-rouge">#templates</code>, <code class="language-plaintext highlighter-rouge">#anthropic</code>, <code class="language-plaintext highlighter-rouge">#llm-integration</code></p>
+
+<hr />
+
+<p><a id="item-gh-trending-5"></a></p>
+<h3 id="diffuspaceclover-35b-a3b-preview35b-扩散语言模型预览版权重-️-5010"><a href="https://github.com/DiffuSpace/Clover-35B-A3B-Preview">DiffuSpace/Clover-35B-A3B-Preview：35B 扩散语言模型预览版权重</a> ⭐️ 5.0/10</h3>
+
+<p>该仓库发布了一个 350 亿参数的扩散语言模型检查点，标注面向代理式编程。它仅提供模型权重与配置，缺少文档、使用示例或集成指南，属于预览阶段的研究型模型制品，而非可直接在开发流程中使用的工具。</p>
+
+<p>github · DiffuSpace · 11月11日 02:45</p>
+
+<p><strong>「推荐理由」</strong> 适合关注扩散语言模型在代码生成方向最新进展的研究人员或工具构建者跟踪实验；对于寻求即插即用编码助手的普通开发者，当前版本尚不具备直接提效价值。</p>
+
+<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#diffusion-language-model</code>, <code class="language-plaintext highlighter-rouge">#agentic-coding</code>, <code class="language-plaintext highlighter-rouge">#model-checkpoint</code>, <code class="language-plaintext highlighter-rouge">#preview-release</code>, <code class="language-plaintext highlighter-rouge">#research</code></p>
+
+<hr />
+
+<h2 id="ai-热门新闻">AI 热门新闻</h2>
+
+<p><a id="item-ai-news-1"></a></p>
+<h3 id="anthropic-发布-claude-fable-52-代码所有权提示技巧-️-9010"><a href="https://simonwillison.net/2026/Nov/10/prompting-claude-fable-52/">Anthropic 发布 Claude Fable 5.2 代码所有权提示技巧</a> ⭐️ 9.0/10</h3>
+
+<p>Anthropic 官方文档记录了一个针对 Claude Fable 5.2 的提示语："This codebase is yours: what it&#x27;s for and how it&#x27;s built are your call, and you&#x27;ll keep building on it."。在小型编码任务测试中，加入该句后模型在约 50% 的尝试中合并了重复代码，而不加该句时不足 10%。文档明确指出该模型对代码所有权表述敏感，若提示未说明归属或声明属于他人，模型倾向于沿用现有结构而非重构。</p>
+
+<p>rss · Simon Willison · 11月10日 05:34</p>
+
+<p><strong>「实用价值」</strong> 使用 Claude Fable 5.2 进行代码重构或去重任务的开发者，可直接在系统提示或任务开头加入该句，显著提升模型主动合并重复代码的概率；第一步是将该提示语复制到你的提示模板中并对比效果。</p>
+
+<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#prompt-engineering</code>, <code class="language-plaintext highlighter-rouge">#claude</code>, <code class="language-plaintext highlighter-rouge">#coding-assistant</code>, <code class="language-plaintext highlighter-rouge">#anthropic</code>, <code class="language-plaintext highlighter-rouge">#prompting-techniques</code></p>
+
+<hr />
+
+<p><a id="item-ai-news-2"></a></p>
+<h3 id="anthropic-glasswing-ai-漏洞挖掘实测零误报但修复建议一般-️-7010"><a href="https://www.vulncheck.com/blog/anthropic-glasswing-november-update">Anthropic Glasswing AI 漏洞挖掘实测：零误报但修复建议一般</a> ⭐️ 7.0/10</h3>
+
+<p>Anthropic 的 Glasswing AI 漏洞挖掘系统在为期 7 个月的开源协调披露计划中，向 Fil-C 维护者 pizlonator 提交了 9 份报告，全部为真实漏洞，零误报，报告质量被评价为「exceptional」。提出的修复建议质量「alright」，部分被直接采纳，多数作为重写参考。VulnCheck 博客标题称发现「underwhelming」，但维护者亲身经历与此矛盾。Glasswing 为 Anthropic 协调漏洞披露计划的一部分，合作伙伴可将 Mythos 级模型指向自有（常为专有）代码库；目前尚无公开获取方式、定价或集成步骤信息。</p>
+
+<p>hackernews · panic · 11月10日 22:17 · <a href="https://news.ycombinator.com/item?id=50447074">社区讨论</a></p>
+
+<p><strong>「实用价值」</strong> 对评估 AI 辅助漏洞检测的开源维护者和安全团队有参考价值：实测零误报、高质量报告证明该类工具已具备实战可用性。第一步可关注 Anthropic 官方渠道了解 Glasswing 申请流程，或尝试加入其协调漏洞披露计划以获取早期访问权限。</p>
+
+<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#AI security</code>, <code class="language-plaintext highlighter-rouge">#vulnerability detection</code>, <code class="language-plaintext highlighter-rouge">#Anthropic</code>, <code class="language-plaintext highlighter-rouge">#Glasswing</code>, <code class="language-plaintext highlighter-rouge">#software security</code></p>
+
+<hr />
+
+<p><a id="item-ai-news-3"></a></p>
+<h3 id="google-chrome-发布-modern-web-guidance-10教编码代理用原生-web-api-替代旧式-js-模式-️-7010"><a href="https://github.com/GoogleChrome/modern-web-guidance">Google Chrome 发布 modern-web-guidance 1.0，教编码代理用原生 Web API 替代旧式 JS 模式</a> ⭐️ 7.0/10</h3>
+
+<p>Google Chrome 联合 Firefox、MDN 与 Edge 发布 modern-web-guidance 1.0，这是一个开源知识库，包含 200 多份手工整理的实现指南（约 1.7 MB），旨在让编码代理默认使用原生浏览器特性（如 CSS.highlights、&lt;dialog&gt;、field-sizing 等）而非旧式 JavaScript 方案。项目提供 npm 包与 CLI：`npx modern-web-guidance@latest install`、`search` 与 `legacy-scan`（基于 3 万仓库训练，声称 92% 精度）。官方评测显示，在 200 个前端任务上，代理通过率从 55% 提升至 92%。指南可在 developer.chrome.com/docs/modern-web-guidance/guides 在线阅读，源码托管于 GitHub。</p>
+
+<p>hackernews · paulirish · 11月10日 18:01 · <a href="https://news.ycombinator.com/item?id=50443812">社区讨论</a></p>
+
+<p><strong>「实用价值」</strong> 前端开发者可立即把该工具加入 Cursor、Copilot 等代理工作流，让生成的代码更少依赖、更符合现代标准；`legacy-scan` 还能批量检测并现代化存量代码库中的过时模式。首要动作：在项目根目录运行 `DISABLE_TELEMETRY=1 npx modern-web-guidance@latest install` 接入技能，再用 `legacy-scan ./src` 扫描现有代码。</p>
+
+<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#coding-agents</code>, <code class="language-plaintext highlighter-rouge">#modern-web</code>, <code class="language-plaintext highlighter-rouge">#browser-apis</code>, <code class="language-plaintext highlighter-rouge">#web-development</code>, <code class="language-plaintext highlighter-rouge">#open-source</code></p>
+
+<hr />
+
+<p><a id="item-ai-news-4"></a></p>
+<h3 id="llm-gemini-036-添加-gemini-4-carbon-模型支持-️-7010"><a href="https://simonwillison.net/2026/Nov/10/llm-gemini/">llm-gemini 0.36 添加 Gemini 4 Carbon 模型支持</a> ⭐️ 7.0/10</h3>
+
+<p>llm-gemini 0.36 发布，新增对 Google Gemini 4 Carbon 模型的支持。该模型现已向所有用户开放，定价为每百万输入 $2、输出 $10，12 月 1 日起将涨至 $4/$20。模型提供低、中、高三档思考力度（默认中等），可通过 LLM CLI 直接调用。</p>
+
+<p>rss · Simon Willison · 11月10日 20:09</p>
+
+<p><strong>「实用价值」</strong> 使用 LLM 命令行工具的开发者可立即升级插件并测试 Gemini 4 Carbon 的多档思考模式，适合需要在 CLI 中快速对比不同推理深度输出的场景，首步执行 `llm install -U llm-gemini` 后指定模型与 thinking 参数即可。</p>
+
+<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#llm-cli</code>, <code class="language-plaintext highlighter-rouge">#gemini</code>, <code class="language-plaintext highlighter-rouge">#plugin-release</code>, <code class="language-plaintext highlighter-rouge">#command-line-tools</code>, <code class="language-plaintext highlighter-rouge">#ai-models</code></p>
+
+<hr />
+
+<p><a id="item-ai-news-5"></a></p>
+<h3 id="deepmind-发布-alphaproof-code-用于-ai-形式化验证-️-6010"><a href="https://deepmind.google/blog/introducing-alphaproof-code/">DeepMind 发布 AlphaProof Code 用于 AI 形式化验证</a> ⭐️ 6.0/10</h3>
+
+<p>DeepMind 在博客中宣布推出 AlphaProof Code，这是一个面向 Lean/Rocq 等证明助手的 AI 形式化验证与证明生成系统。目前仅有标题与 Hacker News 讨论可用，博客正文细节（可用性、访问方式、价格、基准测试、具体能力边界）均未在提供的材料中出现。社区评论对其声称的零 Bug 发现结果表示怀疑，并将其与现有编码代理做对比。</p>
+
+<p>hackernews · Google DeepMind Blog · 11月10日 12:11 · <a href="https://news.ycombinator.com/item?id=50439193">社区讨论</a></p>
+
+<p><strong>「实用意义」</strong> 关注形式化验证、定理证明或 AI 辅助证明的开发者可先阅读原文博客（链接），确认是否已开放试用或提供技术报告；若暂无访问入口，则需等待后续发布的基准数据与访问政策再决定是否纳入工具链对比。</p>
+
+<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#formal-verification</code>, <code class="language-plaintext highlighter-rouge">#AI-coding-assistant</code>, <code class="language-plaintext highlighter-rouge">#theorem-proving</code>, <code class="language-plaintext highlighter-rouge">#DeepMind</code>, <code class="language-plaintext highlighter-rouge">#Lean</code></p>
+
+<hr />
+
+<h2 id="x--youtube-热门">X / YouTube 热门</h2>
+
+<p><a id="item-social-hot-1"></a></p>
+<h3 id="jack-roberts-实测-9-个热门-github-仓库-️-7010"><a href="https://www.youtube.com/watch?v=ZbmfYMlrlII">Jack Roberts 实测 9 个热门 GitHub 仓库</a> ⭐️ 7.0/10</h3>
+
+<p>该视频由开发者 Jack Roberts 制作，实测并点评 9 个近期 GitHub 趋势仓库，时长约 20 分钟。根据可检索信息，内容涵盖 Elephant-Goldfish（帮助 Claude 在写代码前捕获错误）与 BAMA（构建原生 Mac 应用）等工具的实际体验。其余 7 个仓库的具体名称与测试细节需观看视频确认。</p>
+
+<p>youtube · GitHub · 11月11日 02:45</p>
+
+<p><strong>「为何值得关注」</strong> 视频由开发者 Jack Roberts 亲自测试 9 个当前 GitHub 上热度极高的仓库，时长约 20 分钟，包含实操演示与避坑经验，播放量已达 10.3 万，说明社区极度关注。观众可直接获取可复现的工具选型参考、配置细节及实战心得，避免盲目跟风。</p>
+
+<details><summary>参考链接</summary>
+<ul>
+<li><a href="https://www.youtube.com/watch?v=ZbmfYMlrlII">9 GitHub Repos Blowing Up Right Now ( I Tested Every ...) - YouTube</a></li>
+
+</ul>
+</details>
+
+<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#GitHub</code>, <code class="language-plaintext highlighter-rouge">#developer-tools</code>, <code class="language-plaintext highlighter-rouge">#repository-review</code>, <code class="language-plaintext highlighter-rouge">#hands-on-testing</code>, <code class="language-plaintext highlighter-rouge">#trending-repos</code></p>
+
+<hr />
+
+<p><a id="item-social-hot-2"></a></p>
+<h3 id="levi-strauss-17-智能体重塑-github-sdlc-实战案例-️-7010"><a href="https://www.youtube.com/watch?v=-GpxKKgoWWg">Levi Strauss 17 智能体重塑 GitHub SDLC 实战案例</a> ⭐️ 7.0/10</h3>
+
+<p>这是 GitHub Universe 2026 的一场 30 分钟技术案例分享，由 Levi Strauss &amp; Co. 高级总监 Jenny Patchen 介绍该公司如何在 GitHub Copilot 自定义 Agent 平台上构建包含 17 个 Agent 的企业级多 Agent SDLC（软件开发生命周期）。视频涵盖架构设计、实现模式与落地经验，展示从需求到合并的端到端自动化流程。</p>
+
+<p>youtube · GitHub · 11月11日 02:45</p>
+
+<p><strong>「推荐理由」</strong> GitHub 官方频道发布的 30 分钟企业级案例，播放量 3.4 万，详细拆解 Levi Strauss 如何在 Copilot 自定义智能体平台上落地 17 个协作智能体覆盖全 SDLC，包含架构模式、实现细节与踩坑经验，适合想把多智能体工作流落地的工程团队参考。</p>
+
+<details><summary>参考链接</summary>
+<ul>
+<li><a href="https://www.youtube.com/watch?v=-GpxKKgoWWg">17 agents , one SDLC : How Levi Strauss reimagined... - YouTube</a></li>
+
+</ul>
+</details>
+
+<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#GitHub Copilot</code>, <code class="language-plaintext highlighter-rouge">#AI agents</code>, <code class="language-plaintext highlighter-rouge">#SDLC</code>, <code class="language-plaintext highlighter-rouge">#enterprise development</code>, <code class="language-plaintext highlighter-rouge">#case study</code></p>
+
+<hr />
+
+<p><a id="item-social-hot-3"></a></p>
+<h3 id="matthew-berman-强推-fable-52f-转-js-编译器更新-️-6010"><a href="https://www.youtube.com/watch?v=0vNyVMDFdkg">Matthew Berman 强推 Fable 5.2：F# 转 JS 编译器更新</a> ⭐️ 6.0/10</h3>
+
+<p>该视频由 Matthew Berman 发布，标题为「Nothing else is this good…(Fable 5.2)」，时长 24 分钟，播放量 25.9 万。根据搜索结果，内容疑似围绕 Anthropic 发布的 Claude Fable 5.2 模型展开，涉及其在长周期编码、机器人控制、硬件设计及理论物理等领域的能力演示（如协调 1000 个智能体在 8 天内构建操作系统、从三行提示词复刻《战争机器》关卡等）。因缺乏字幕或逐帧说明，以上内容系从标题及公开检索结果推断，实际视频细节以原片为准。</p>
+
+<p>youtube · @matthew_berman · 11月11日 02:45</p>
+
+<p><strong>「为何值得看」</strong> 视频以 25.9 万次播放为证，Matthew Berman 以强烈推荐口吻介绍 Fable 5.2，可能涵盖新版本核心改进、迁移实战与性能演示，帮 F# 开发者快速上手 Fable 编译到 JavaScript 的最新最佳实践。</p>
+
+<details><summary>参考链接</summary>
+<ul>
+<li><a href="https://www.youtube.com/watch?v=h76wUNmRqxc">NOTHING will be smarter than Fable 5 . 2 ... - YouTube</a></li>
+<li><a href="https://interestingengineering.com/ai-robotics/anthropic-claude-fable-5-2-operating-system">Claude Fable 5 . 2 builds a working OS with 1,000 agents in eight days</a></li>
+<li><a href="https://wccftech.com/claude-fable-5-2-builds-playable-gears-of-war-e-day-clone-from-three-line-prompt-but-estimated-cost-reaches-15000/">Claude Fable 5 . 2 Builds Playable Gears of War: E-Day Clone From...</a></li>
+
+</ul>
+</details>
+
+<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#Fable</code>, <code class="language-plaintext highlighter-rouge">#F\#</code>, <code class="language-plaintext highlighter-rouge">#JavaScript</code>, <code class="language-plaintext highlighter-rouge">#Compiler</code>, <code class="language-plaintext highlighter-rouge">#Web Development</code></p>
+
+<hr />]]></content><author><name></name></author><summary type="html"><![CDATA[今日抓取 145 条内容，收录 13 条。]]></summary></entry><entry xml:lang="en"><title type="html">Horizon Summary: 2026-11-10 (EN)</title><link href="https://www.01040610.xyz/horizon/2026/11/10/summary-en.html" rel="alternate" type="text/html" title="Horizon Summary: 2026-11-10 (EN)" /><published>2026-11-10T00:00:00+00:00</published><updated>2026-11-10T00:00:00+00:00</updated><id>https://www.01040610.xyz/horizon/2026/11/10/summary-en</id><content type="html" xml:base="https://www.01040610.xyz/horizon/2026/11/10/summary-en.html"><![CDATA[<blockquote>
   <p>Showing 11 of 135 fetched items.</p>
 </blockquote>
 
@@ -1480,472 +1936,4 @@
 
 <p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#Claude Code</code>, <code class="language-plaintext highlighter-rouge">#AI coding assistant</code>, <code class="language-plaintext highlighter-rouge">#free developer tools</code>, <code class="language-plaintext highlighter-rouge">#agent loop</code>, <code class="language-plaintext highlighter-rouge">#TestSprite</code></p>
 
-<hr />]]></content><author><name></name></author><summary type="html"><![CDATA[今日抓取 117 条内容，收录 12 条。]]></summary></entry><entry xml:lang="en"><title type="html">Horizon Summary: 2026-11-06 (EN)</title><link href="https://www.01040610.xyz/horizon/2026/11/06/summary-en.html" rel="alternate" type="text/html" title="Horizon Summary: 2026-11-06 (EN)" /><published>2026-11-06T00:00:00+00:00</published><updated>2026-11-06T00:00:00+00:00</updated><id>https://www.01040610.xyz/horizon/2026/11/06/summary-en</id><content type="html" xml:base="https://www.01040610.xyz/horizon/2026/11/06/summary-en.html"><![CDATA[<blockquote>
-  <p>Showing 15 of 136 fetched items.</p>
-</blockquote>
-
-<hr />
-
-<p><strong>AI Dev Tools</strong></p>
-<ol>
-  <li><a href="#item-gh-trending-1">vercel-labs/agent-browser: Rust CLI for AI agent browser automation</a> ⭐️ 7.0/10</li>
-  <li><a href="#item-gh-trending-2">can1357/oh-my-pi: Multi-provider AI coding agent with IDE integration</a> ⭐️ 7.0/10</li>
-  <li><a href="#item-gh-trending-3">google/skills: Agent Skills Framework for Google Products</a> ⭐️ 5.0/10</li>
-  <li><a href="#item-gh-trending-4">rudderlabs/devbox: Open-source autonomous engineering harness with per-task sandboxes</a> ⭐️ 5.0/10</li>
-  <li><a href="#item-gh-trending-5">muaaz9329/cheap-ag: MCP server routing Claude Code/Codex through cheaper models with test validation</a> ⭐️ 5.0/10</li>
-</ol>
-
-<p><strong>AI News</strong></p>
-<ol>
-  <li><a href="#item-ai-news-1">NVIDIA Releases Cosmos 3 Open Models for Interactive World Simulation on Hugging Face</a> ⭐️ 9.0/10</li>
-  <li><a href="#item-ai-news-2">Alpine Linux OpenSSH password auth bypass via musl crypt()</a> ⭐️ 8.0/10</li>
-  <li><a href="#item-ai-news-3">CCORE releases GLB-3D-Coder dataset: 3,918 examples for 3D asset generation</a> ⭐️ 8.0/10</li>
-  <li><a href="#item-ai-news-4">RustingStrata beats llama.cpp on large Qwen models exceeding VRAM on RTX 3060 12GB</a> ⭐️ 8.0/10</li>
-  <li><a href="#item-ai-news-5">Kagi opens search to everyone without registration</a> ⭐️ 7.0/10</li>
-  <li><a href="#item-ai-news-6">Gemini Omni 1.2 Flash: 15-second video, 30% price cut</a> ⭐️ 7.0/10</li>
-  <li><a href="#item-ai-news-7">Delta Inference Engine v0.93 runs DeepSeek-V4.1-Flash on single RTX 3090</a> ⭐️ 7.0/10</li>
-  <li><a href="#item-ai-news-8">YouTube video archival with yt-dlp and ytdl-sub commands</a> ⭐️ 6.0/10</li>
-</ol>
-
-<p><strong>X / YouTube Highlights</strong></p>
-<ol>
-  <li><a href="#item-social-hot-1">Complete Git &amp; GitHub Course for Beginners in Spanish</a> ⭐️ 8.0/10</li>
-  <li><a href="#item-social-hot-2">零基础 GitHub 入门教程，面向非程序员</a> ⭐️ 6.0/10</li>
-</ol>
-
-<hr />
-
-<h2 id="ai-dev-tools">AI Dev Tools</h2>
-
-<p><a id="item-gh-trending-1"></a></p>
-<h3 id="vercel-labsagent-browser-rust-cli-for-ai-agent-browser-automation-️-7010"><a href="https://github.com/vercel-labs/agent-browser">vercel-labs/agent-browser: Rust CLI for AI agent browser automation</a> ⭐️ 7.0/10</h3>
-
-<p>vercel-labs/agent-browser is a Rust-based command-line tool from Vercel Labs that provides browser automation capabilities specifically designed for AI agents. It enables programmatic web interaction, allowing AI-driven workflows to navigate, scrape, and manipulate web pages. The project has accumulated 45,981 stars, indicating strong community interest, though its exact maturity level remains unclear from available metadata.</p>
-
-<p>github · vercel-labs · Nov 6, 03:25</p>
-
-<p><strong>「Why Recommended」</strong> This tool fits into the AI agent development workflow by supplying a dedicated browser automation layer, replacing ad-hoc scripting for web interactions. It is suited for developers building AI agents that need reliable, programmatic control over web browsers for tasks such as testing, data extraction, or autonomous navigation.</p>
-
-<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#browser-automation</code>, <code class="language-plaintext highlighter-rouge">#ai-agents</code>, <code class="language-plaintext highlighter-rouge">#cli-tool</code>, <code class="language-plaintext highlighter-rouge">#rust</code>, <code class="language-plaintext highlighter-rouge">#web-automation</code></p>
-
-<hr />
-
-<p><a id="item-gh-trending-2"></a></p>
-<h3 id="can1357oh-my-pi-multi-provider-ai-coding-agent-with-ide-integration-️-7010"><a href="https://github.com/can1357/oh-my-pi">can1357/oh-my-pi: Multi-provider AI coding agent with IDE integration</a> ⭐️ 7.0/10</h3>
-
-<p>oh-my-pi is a multi-provider AI coding agent that integrates directly with IDEs and supports MCP (Model Context Protocol). It is built with TypeScript and Rust by Stencil Labs, allowing developers to use various LLM providers (OpenAI, Anthropic, etc.) within their coding workflow. The project shows high adoption with ~38k stars but has a concerning volume of open issues (~4.6k) and metadata anomalies (future-dated creation and push timestamps), suggesting uncertainty around maintenance health.</p>
-
-<p>github · can1357 · Nov 6, 03:25</p>
-
-<p><strong>「Why Recommended」</strong> It targets the coding phase by embedding an AI agent inside the IDE, replacing manual context-switching between chat UIs and the editor. The multi-provider MCP support suits teams that want flexibility across LLM vendors without vendor lock-in. The high star count signals strong community interest, though the open issue backlog warrants caution for production reliance.</p>
-
-<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#ai-coding-agent</code>, <code class="language-plaintext highlighter-rouge">#ide-integration</code>, <code class="language-plaintext highlighter-rouge">#mcp</code>, <code class="language-plaintext highlighter-rouge">#multi-provider-llm</code>, <code class="language-plaintext highlighter-rouge">#cli-tool</code></p>
-
-<hr />
-
-<p><a id="item-gh-trending-3"></a></p>
-<h3 id="googleskills-agent-skills-framework-for-google-products-️-5010"><a href="https://github.com/google/skills">google/skills: Agent Skills Framework for Google Products</a> ⭐️ 5.0/10</h3>
-
-<p>google/skills provides an agent-skills framework for Google products and technologies, implemented in Python. It aims to enable developers to build and integrate agent capabilities within the Google ecosystem, though public documentation and concrete developer-facing workflows remain limited. The project has accumulated over 22,000 stars, indicating strong community interest, but its practical maturity for general AI development workflows is unclear from available metadata.</p>
-
-<p>github · google · Nov 6, 03:25</p>
-
-<p><strong>「Why Recommended」</strong> This repository targets the automation and agent-building layer of AI development, potentially replacing custom skill implementations for Google services. It suits developers already invested in the Google ecosystem who need a structured way to compose agent abilities, with the high star count signaling active community attention.</p>
-
-<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#ai-agents</code>, <code class="language-plaintext highlighter-rouge">#google-ecosystem</code>, <code class="language-plaintext highlighter-rouge">#python</code>, <code class="language-plaintext highlighter-rouge">#developer-tools</code>, <code class="language-plaintext highlighter-rouge">#automation</code></p>
-
-<hr />
-
-<p><a id="item-gh-trending-4"></a></p>
-<h3 id="rudderlabsdevbox-open-source-autonomous-engineering-harness-with-per-task-sandboxes-️-5010"><a href="https://github.com/rudderlabs/devbox">rudderlabs/devbox: Open-source autonomous engineering harness with per-task sandboxes</a> ⭐️ 5.0/10</h3>
-
-<p>rudderlabs/devbox is an open-source autonomous engineering harness that runs in your cloud, providing one isolated sandbox per coding task without exposing real secrets. Built with TypeScript, it targets the coding phase by enabling secure, isolated execution of AI coding agents. The project is one week old (created 2026-10-27) and remains in an early experimental stage with no public documentation or usage examples yet.</p>
-
-<p>github · rudderlabs · Nov 6, 03:25</p>
-
-<p><strong>「Why Recommended」</strong> It addresses the sandboxing and security needs of agentic coding workflows by offering per-task isolation and secret-free execution, a gap in current AI coding toolchains. With 297 stars in its first week, it signals early community interest for teams building or evaluating autonomous agent infrastructure.</p>
-
-<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#agentic-coding</code>, <code class="language-plaintext highlighter-rouge">#autonomous-agents</code>, <code class="language-plaintext highlighter-rouge">#sandbox</code>, <code class="language-plaintext highlighter-rouge">#security</code>, <code class="language-plaintext highlighter-rouge">#developer-tools</code></p>
-
-<hr />
-
-<p><a id="item-gh-trending-5"></a></p>
-<h3 id="muaaz9329cheap-ag-mcp-server-routing-claude-codecodex-through-cheaper-models-with-test-validation-️-5010"><a href="https://github.com/muaaz9329/cheap-ag">muaaz9329/cheap-ag: MCP server routing Claude Code/Codex through cheaper models with test validation</a> ⭐️ 5.0/10</h3>
-
-<p>cheap-ag is an early-stage MCP server written in TypeScript that intercepts requests from Claude Code and Codex, routes them through lower-cost models, and uses test-based validation to decide what code ships. It targets developers who hit API usage limits on premium plans by substituting expensive model calls with cheaper alternatives while maintaining quality through automated tests. The project is only about a week old with 289 stars, 20 forks, and 4 open issues, placing it in an experimental, pre-production phase.</p>
-
-<p>github · muaaz9329 · Nov 6, 03:25</p>
-
-<p><strong>「Why Recommended」</strong> It plugs directly into the coding-assistant loop (Claude Code/Codex via MCP) and replaces the expensive model-inference step with a cheaper model plus a test gate, which is exactly the cost-optimization lever developers on tight API budgets need. The 289 stars in six days signal strong early interest from the agentic-coding community, making it worth a trial for anyone regularly hitting Claude plan limits.</p>
-
-<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#agentic-coding</code>, <code class="language-plaintext highlighter-rouge">#cost-optimization</code>, <code class="language-plaintext highlighter-rouge">#claude-code</code>, <code class="language-plaintext highlighter-rouge">#mcp-server</code>, <code class="language-plaintext highlighter-rouge">#developer-tools</code></p>
-
-<hr />
-
-<h2 id="ai-news">AI News</h2>
-
-<p><a id="item-ai-news-1"></a></p>
-<h3 id="nvidia-releases-cosmos-3-open-models-for-interactive-world-simulation-on-hugging-face-️-9010"><a href="https://huggingface.co/blog/nvidia/cosmos-interactive-world-simulation">NVIDIA Releases Cosmos 3 Open Models for Interactive World Simulation on Hugging Face</a> ⭐️ 9.0/10</h3>
-
-<p>NVIDIA has released Cosmos 3 open models for interactive world simulation on the Hugging Face Hub. The release provides ready-to-use model weights and tooling for practitioners to download and experiment with immediately. The models are designed for interactive world simulation tasks, likely relevant to robotics and physical AI applications. The announcement was published on the Hugging Face Blog on November 5, 2026.</p>
-
-<p>rss · Hugging Face Blog · Nov 5, 19:35</p>
-
-<p><strong>「Why It Matters」</strong> Robotics and simulation researchers can now directly access NVIDIA&#x27;s latest world simulation models via Hugging Face without waiting for proprietary access. First step: visit the Hugging Face Hub to download weights and try the inference widgets for immediate experimentation in interactive simulation workflows.</p>
-
-<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#world-simulation</code>, <code class="language-plaintext highlighter-rouge">#NVIDIA-Cosmos</code>, <code class="language-plaintext highlighter-rouge">#open-models</code>, <code class="language-plaintext highlighter-rouge">#robotics</code>, <code class="language-plaintext highlighter-rouge">#HuggingFace</code></p>
-
-<hr />
-
-<p><a id="item-ai-news-2"></a></p>
-<h3 id="alpine-linux-openssh-password-auth-bypass-via-musl-crypt-️-8010"><a href="https://alpinelinux.org/posts/2026-11-05-openssh-password-authentication-bypass/">Alpine Linux OpenSSH password auth bypass via musl crypt()</a> ⭐️ 8.0/10</h3>
-
-<p>Alpine Linux issued a security advisory for an OpenSSH-server password authentication bypass caused by musl libc&#x27;s crypt() function. When a password exceeds 256 bytes, musl&#x27;s crypt() returns "*" as an error indicator, which matches the hash field for accounts with no password set, allowing login without credentials. The vulnerability affects systems with at least one local account using $5$ (SHA-256) or $6$ (SHA-512) password hashes. Alpine has released updated OpenSSH packages; the immediate mitigation is to disable password authentication by setting PasswordAuthentication no in sshd_config and restarting sshd.</p>
-
-<p>hackernews · pantalaimon · Nov 5, 14:44 · <a href="https://news.ycombinator.com/item?id=50379704">Discussion</a></p>
-
-<p><strong>「Why It Matters」</strong> Any Alpine Linux server exposing SSH with password authentication enabled is vulnerable to unauthenticated remote login. Administrators should first check if they run Alpine with OpenSSH-server and password auth enabled, then either apply the updated packages immediately or disable password authentication as a stopgap. The root cause is a musl libc design choice that returns a sentinel value identical to a valid hash marker, so other musl-based distributions may need to assess similar exposure.</p>
-
-<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#security</code>, <code class="language-plaintext highlighter-rouge">#vulnerability</code>, <code class="language-plaintext highlighter-rouge">#openssh</code>, <code class="language-plaintext highlighter-rouge">#alpine-linux</code>, <code class="language-plaintext highlighter-rouge">#musl-libc</code></p>
-
-<hr />
-
-<p><a id="item-ai-news-3"></a></p>
-<h3 id="ccore-releases-glb-3d-coder-dataset-3918-examples-for-3d-asset-generation-️-8010"><a href="https://www.reddit.com/r/LocalLLaMA/comments/1xozbe6/ccore_glb3dcoder_dataset_is_here_3918_rendered/">CCORE releases GLB-3D-Coder dataset: 3,918 examples for 3D asset generation</a> ⭐️ 8.0/10</h3>
-
-<p>CCORE has released the GLB-3D-Coder dataset containing 3,918 rendered and validated examples across 40 domains (characters, vehicles, architecture, etc.) for training 3D asset generation via Three.js/GLB code. The MIT-licensed dataset includes complete conversations, reasoning traces, HTML/JavaScript responses, rendered reference images, and both static and animated/interactive examples, split into 3,501 training and 417 validation samples. The author also releases the 4B model weights used for training. All examples were tested, rendered, and GLB-validated before inclusion.</p>
-
-<p>reddit · r/LocalLLaMA · /u/ConfidentDinner6648 · Nov 6, 00:43</p>
-
-<p><strong>「Why it matters」</strong> Developers building code-based 3D generation models can immediately download the dataset and 4B model weights to fine-tune or experiment with Three.js/GLB asset creation, saving the effort of curating and validating a large, diverse 3D code corpus themselves.</p>
-
-<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#3D-generation</code>, <code class="language-plaintext highlighter-rouge">#dataset</code>, <code class="language-plaintext highlighter-rouge">#Three.js</code>, <code class="language-plaintext highlighter-rouge">#fine-tuning</code>, <code class="language-plaintext highlighter-rouge">#GLB</code></p>
-
-<hr />
-
-<p><a id="item-ai-news-4"></a></p>
-<h3 id="rustingstrata-beats-llamacpp-on-large-qwen-models-exceeding-vram-on-rtx-3060-12gb-️-8010"><a href="https://www.reddit.com/r/LocalLLaMA/comments/1xottw2/strata_for_all_qwen_models_from_little_to_big/">RustingStrata beats llama.cpp on large Qwen models exceeding VRAM on RTX 3060 12GB</a> ⭐️ 8.0/10</h3>
-
-<p>Reddit user /u/Serious_Scarcity7818 benchmarked RustingStrata against llama.cpp (build 12119) across all Qwen GGUF models from 2B to 177B on an RTX 3060 12GB with 32GB RAM. Tests ran back-to-back with normal desktop apps open and no tuning. For small dense models that fit in VRAM (2B, 4B), llama.cpp prefilled faster (e.g., Qwen3.5-2B Q8_0: 6080 vs 3859 tok/s prefill). Once models exceeded 12GB VRAM (35B, 80B, 177B), RustingStrata delivered ~1.5x faster prefill and up to ~2x faster decode: Qwen3-Next-80B-A3B-Instruct reached 63.7 tok/s decode vs 33.3, and the 177B Flash-Next model hit 21.3 tok/s vs 18.1. Commands used: strata bench with –gpu –mtp 0 –pp 4096 –tg 128 –reps 2; llama-bench with -p 4096 -n 128 -d 4096 -fa on -ub 2048 -b 2048 -fitt 512. MTP was off; enabling it on the 35B model raised decode to ~160 tok/s. Hand-tuned llama.cpp with -ncmoe 12 on a quiet machine performed better on 35B (~2236 prefill / 68 decode).</p>
-
-<p>reddit · r/LocalLLaMA · /u/Serious_Scarcity7818 · Nov 5, 20:47</p>
-
-<p><strong>「Why it matters」</strong> If you run local LLMs on a 12GB VRAM card, choose llama.cpp for models that fit entirely in VRAM (up to ~11GB quantized) for faster prefill; switch to RustingStrata for larger MoE models (35B+) that must offload to system RAM, where it delivers 1.5-2x throughput gains. First step: identify your model size vs VRAM, then test the corresponding engine with the provided commands to verify on your hardware.</p>
-
-<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#local-llm</code>, <code class="language-plaintext highlighter-rouge">#inference-engine</code>, <code class="language-plaintext highlighter-rouge">#benchmark</code>, <code class="language-plaintext highlighter-rouge">#qwen</code>, <code class="language-plaintext highlighter-rouge">#rustingstrata</code></p>
-
-<hr />
-
-<p><a id="item-ai-news-5"></a></p>
-<h3 id="kagi-opens-search-to-everyone-without-registration-️-7010"><a href="https://kagi.com/changelog#11820">Kagi opens search to everyone without registration</a> ⭐️ 7.0/10</h3>
-
-<p>Kagi has launched "Search for everyone" allowing anyone to use its search engine without creating an account. The update removes the previous registration requirement, letting users immediately access Kagi&#x27;s ad-free, customizable search with site ranking controls. Users can adjust result weights (e.g., downrank Reddit, block AI-generated sites) and enable AI summaries only on demand via question marks. The service remains a paid subscription for full features, but the no-account tier provides a functional trial experience.</p>
-
-<p>hackernews · elashri · Nov 5, 20:03 · <a href="https://news.ycombinator.com/item?id=50383740">Discussion</a></p>
-
-<p><strong>「Why it matters」</strong> Developers and researchers frustrated with Google&#x27;s declining result quality can now test Kagi instantly without signup, comparing its customizable rankings and ad-free results against DuckDuckGo or Bing for technical queries. First step: visit kagi.com and run a few difficult searches to evaluate result relevance and site controls.</p>
-
-<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#search-engine</code>, <code class="language-plaintext highlighter-rouge">#developer-tools</code>, <code class="language-plaintext highlighter-rouge">#productivity</code>, <code class="language-plaintext highlighter-rouge">#privacy</code>, <code class="language-plaintext highlighter-rouge">#kagi</code></p>
-
-<hr />
-
-<p><a id="item-ai-news-6"></a></p>
-<h3 id="gemini-omni-12-flash-15-second-video-30-price-cut-️-7010"><a href="https://the-decoder.com/googles-gemini-omni-1-2-flash-stretches-ai-video-clips-to-15-seconds-and-cuts-pricing-by-30-percent/">Gemini Omni 1.2 Flash: 15-second video, 30% price cut</a> ⭐️ 7.0/10</h3>
-
-<p>Google DeepMind has made Gemini Omni 1.2 Flash generally available, extending video generation to 15-second clips with conversational step-by-step editing. The model costs $0.07 per second at 720p resolution, a 30 percent reduction from its predecessor. Users can further reduce costs by drafting in low resolution and upscaling only the final output.</p>
-
-<p>rss · The Decoder · Nov 5, 19:05</p>
-
-<p><strong>「Why It Matters」</strong> Video creators and developers can now produce longer AI-generated clips at lower cost, with iterative conversational editing; the first step is to access the model via Google&#x27;s Vertex AI or AI Studio to test the 15-second capability and pricing.</p>
-
-<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#video-generation</code>, <code class="language-plaintext highlighter-rouge">#gemini</code>, <code class="language-plaintext highlighter-rouge">#google-deepmind</code>, <code class="language-plaintext highlighter-rouge">#ai-video</code>, <code class="language-plaintext highlighter-rouge">#pricing</code></p>
-
-<hr />
-
-<p><a id="item-ai-news-7"></a></p>
-<h3 id="delta-inference-engine-v093-runs-deepseek-v41-flash-on-single-rtx-3090-️-7010"><a href="https://www.reddit.com/r/LocalLLaMA/comments/1xoq4vq/deepseekv41flash1017_on_one_rtx_3090_big_updates/">Delta Inference Engine v0.93 runs DeepSeek-V4.1-Flash on single RTX 3090</a> ⭐️ 7.0/10</h3>
-
-<p>Delta Inference Engine v0.93 now runs DeepSeek-V4.1-Flash-1017 on a single RTX 3090 (24 GB VRAM) with as little as 64 GB system RAM, delivering 21–41 tok/s across new Unsloth quantizations (UD-IQ2_XXS, UD-IQ1_S, UD-Q2_K_XL, UD-IQ3_XXS). The engine achieves 57/99 on a 99-question benchmark versus 59/99 for the full API model, with first-token latency reduced ~40% (3.8 s → 2.3 s). New features include EXL3 support (2.5 bpw, ~2× faster GPU kernel), basic multi-GPU (7% uplift with RTX 3060+3090), public CI builds via GitHub Actions, and a web UI for model selection. The release is Windows-only, requires an NVMe SSD (233–395 GB for model weights), driver 580+, and AVX2-capable CPU; the author notes results are from a single test machine and need validation on other hardware. The code is MIT-licensed at github.com/musicurgy/delta-inference-engine.</p>
-
-<p>reddit · r/LocalLLaMA · /u/musicurgy · Nov 5, 18:23</p>
-
-<p><strong>「Why it matters」</strong> If you have a 24 GB RTX 3090 and 64–192 GB RAM, you can now run a DeepSeek-V4.1-class model locally at 21–41 tok/s with quality within ~3% of the full API—download the Windows release from the GitHub Actions artifacts, point it at your NVMe, and benchmark your own hardware to confirm speeds.</p>
-
-<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#Delta Inference Engine</code>, <code class="language-plaintext highlighter-rouge">#DeepSeek</code>, <code class="language-plaintext highlighter-rouge">#local LLM</code>, <code class="language-plaintext highlighter-rouge">#quantization</code>, <code class="language-plaintext highlighter-rouge">#RTX 3090</code></p>
-
-<hr />
-
-<p><a id="item-ai-news-8"></a></p>
-<h3 id="youtube-video-archival-with-yt-dlp-and-ytdl-sub-commands-️-6010"><a href="https://criminallyvulgar.dev/you-should-absolutely-download-your-favourite-youtube-videos/">YouTube video archival with yt-dlp and ytdl-sub commands</a> ⭐️ 6.0/10</h3>
-
-<p>A blog post advocates downloading YouTube videos for long-term archival, and the Hacker News discussion surfaces practical command-line tools. Commenters share concrete yt-dlp commands such as `yt-dlp –embed-metadata –parse-metadata "playlist_index:%(track_number)s" "PLAYLIST_URL"` to preserve playlist structure and metadata. The wrapper ytdl-sub is also highlighted as a way to maintain playlist hierarchy during batch downloads. The advice is geared toward data collection and dataset preparation rather than core AI or engineering workflows.</p>
-
-<p>hackernews · surprisetalk · Nov 5, 13:00 · <a href="https://news.ycombinator.com/item?id=50378571">Discussion</a></p>
-
-<p><strong>「Why it matters」</strong> Engineers building training datasets or archiving reference material can immediately use the shared yt-dlp flags or ytdl-sub to download entire playlists with metadata intact. The first step is to test the provided yt-dlp command on a target playlist or install ytdl-sub for automated, structure-preserving downloads.</p>
-
-<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#data-collection</code>, <code class="language-plaintext highlighter-rouge">#yt-dlp</code>, <code class="language-plaintext highlighter-rouge">#archival</code>, <code class="language-plaintext highlighter-rouge">#dataset-preparation</code>, <code class="language-plaintext highlighter-rouge">#cli-tools</code></p>
-
-<hr />
-
-<h2 id="x--youtube-highlights">X / YouTube Highlights</h2>
-
-<p><a id="item-social-hot-1"></a></p>
-<h3 id="complete-git--github-course-for-beginners-in-spanish-️-8010"><a href="https://www.youtube.com/watch?v=3GymExBkKjE">Complete Git &amp; GitHub Course for Beginners in Spanish</a> ⭐️ 8.0/10</h3>
-
-<p>This 5+ hour Spanish-language tutorial from developer Brais Moure teaches Git and GitHub from scratch, covering essential commands, branching strategies, and practical workflows. The description indicates a hands-on approach suitable for absolute beginners. This summary is inferred from the title and channel description since no transcript or detailed chapters are available.</p>
-
-<p>youtube · GitHub · Nov 6, 03:25</p>
-
-<p><strong>「Why It&#x27;s Hot」</strong> With 1.36 million views, this course has strong community validation as a go-to Spanish resource for learning version control. Viewers can walk away with reproducible, end-to-end Git/GitHub practices taught by a working developer.</p>
-
-<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#git</code>, <code class="language-plaintext highlighter-rouge">#github</code>, <code class="language-plaintext highlighter-rouge">#tutorial</code>, <code class="language-plaintext highlighter-rouge">#version-control</code>, <code class="language-plaintext highlighter-rouge">#beginner-friendly</code></p>
-
-<hr />
-
-<p><a id="item-social-hot-2"></a></p>
-<h3 id="零基础-github-入门教程面向非程序员-️-6010"><a href="https://www.youtube.com/watch?v=FopO8IQLX_E">零基础 GitHub 入门教程，面向非程序员</a> ⭐️ 6.0/10</h3>
-
-<p>这条视频标题与简介显示，它是一份面向完全没有编程基础的「小白」的 GitHub 入门教学，预计涵盖注册账号、搜索仓库、一键下载资源等基础操作，帮助非技术人员快速上手全球最大的开源社区。以上内容为根据标题与简介推断，实际章节细节以视频本身为准。</p>
-
-<p>youtube · GitHub · Nov 6, 03:25</p>
-
-<p><strong>「推荐理由」</strong> 视频播放量已达 112 万次，说明在零基础受众中极具参考价值；观众可直接拿走「注册→搜索→下载」的完整最短路径，无需阅读英文文档即可把 GitHub 当作资源宝藏使用。</p>
-
-<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#GitHub</code>, <code class="language-plaintext highlighter-rouge">#tutorial</code>, <code class="language-plaintext highlighter-rouge">#beginner</code>, <code class="language-plaintext highlighter-rouge">#open-source</code>, <code class="language-plaintext highlighter-rouge">#resource-discovery</code></p>
-
-<hr />]]></content><author><name></name></author><summary type="html"><![CDATA[Showing 15 of 136 fetched items.]]></summary></entry><entry xml:lang="zh"><title type="html">Horizon Summary: 2026-11-06 (ZH)</title><link href="https://www.01040610.xyz/horizon/2026/11/06/summary-zh.html" rel="alternate" type="text/html" title="Horizon Summary: 2026-11-06 (ZH)" /><published>2026-11-06T00:00:00+00:00</published><updated>2026-11-06T00:00:00+00:00</updated><id>https://www.01040610.xyz/horizon/2026/11/06/summary-zh</id><content type="html" xml:base="https://www.01040610.xyz/horizon/2026/11/06/summary-zh.html"><![CDATA[<blockquote>
-  <p>今日抓取 136 条内容，收录 15 条。</p>
-</blockquote>
-
-<hr />
-
-<p><strong>GitHub AI 开发工具</strong></p>
-<ol>
-  <li><a href="#item-gh-trending-1">vercel-labs/agent-browser：面向 AI 智能体的浏览器自动化 CLI</a> ⭐️ 7.0/10</li>
-  <li><a href="#item-gh-trending-2">can1357/oh-my-pi：多模型 AI 编码代理，集成 IDE 与 MCP</a> ⭐️ 7.0/10</li>
-  <li><a href="#item-gh-trending-3">google/skills：Google 产品的 Agent Skills 框架</a> ⭐️ 5.0/10</li>
-  <li><a href="#item-gh-trending-4">rudderlabs/devbox：自主编码代理的沙箱编排工具</a> ⭐️ 5.0/10</li>
-  <li><a href="#item-gh-trending-5">muaaz9329/cheap-ag: MCP 服务器用廉价模型跑 Claude Code/Codex 请求</a> ⭐️ 5.0/10</li>
-</ol>
-
-<p><strong>AI 热门新闻</strong></p>
-<ol>
-  <li><a href="#item-ai-news-1">NVIDIA 发布 Cosmos 3 开放模型用于交互式世界模拟</a> ⭐️ 9.0/10</li>
-  <li><a href="#item-ai-news-2">Alpine Linux OpenSSH 密码认证绕过漏洞（musl libc crypt 缺陷）</a> ⭐️ 8.0/10</li>
-  <li><a href="#item-ai-news-3">CCORE 发布 GLB-3D-Coder 数据集与 4B 模型权重</a> ⭐️ 8.0/10</li>
-  <li><a href="#item-ai-news-4">RustingStrata 在 RTX 3060 上跑通全系 Qwen GGUF，显存不足时比 llama.cpp 快 1.5-2 倍</a> ⭐️ 8.0/10</li>
-  <li><a href="#item-ai-news-5">Kagi 开放免注册搜索，支持自定义站点权重</a> ⭐️ 7.0/10</li>
-  <li><a href="#item-ai-news-6">Gemini Omni 1.2 Flash 发布：15 秒视频生成、对话式编辑、价格降 30%</a> ⭐️ 7.0/10</li>
-  <li><a href="#item-ai-news-7">Delta Inference Engine v0.93 runs DeepSeek-V4.1-Flash on single RTX 3090 from 64 GB RAM</a> ⭐️ 7.0/10</li>
-  <li><a href="#item-ai-news-8">博文呼吁下载 YouTube 视频，评论给出 yt-dlp 实用命令</a> ⭐️ 6.0/10</li>
-</ol>
-
-<p><strong>X / YouTube 热门</strong></p>
-<ol>
-  <li><a href="#item-social-hot-1">MoureDev 5 小时 Git 与 GitHub 零基础全教程（西班牙语）</a> ⭐️ 8.0/10</li>
-  <li><a href="#item-social-hot-2">零基础 GitHub 入门教程，面向非程序员的资源获取指南</a> ⭐️ 6.0/10</li>
-</ol>
-
-<hr />
-
-<h2 id="github-ai-开发工具">GitHub AI 开发工具</h2>
-
-<p><a id="item-gh-trending-1"></a></p>
-<h3 id="vercel-labsagent-browser面向-ai-智能体的浏览器自动化-cli-️-7010"><a href="https://github.com/vercel-labs/agent-browser">vercel-labs/agent-browser：面向 AI 智能体的浏览器自动化 CLI</a> ⭐️ 7.0/10</h3>
-
-<p>vercel-labs/agent-browser 是一个用 Rust 编写的命令行工具，专为 AI 智能体提供浏览器自动化能力，让程序化网页交互成为可能。它解决了 AI 在开发流程中需要真实浏览器环境执行网页操作、抓取动态内容或进行端到端测试的问题。项目已获 4.5 万星，处于可用阶段，但官方仍标注为实验性实验室项目。</p>
-
-<p>github · vercel-labs · 11月6日 03:25</p>
-
-<p><strong>「推荐理由」</strong> 它落在「上下文供给与测试」环节，替代了手写 Playwright/Puppeteer 脚本或人工点击验证的步骤，适合需要让 AI 直接驱动真实浏览器完成网页任务的开发者与 AI 应用构建者。</p>
-
-<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#browser-automation</code>, <code class="language-plaintext highlighter-rouge">#ai-agents</code>, <code class="language-plaintext highlighter-rouge">#cli-tool</code>, <code class="language-plaintext highlighter-rouge">#rust</code>, <code class="language-plaintext highlighter-rouge">#web-automation</code></p>
-
-<hr />
-
-<p><a id="item-gh-trending-2"></a></p>
-<h3 id="can1357oh-my-pi多模型-ai-编码代理集成-ide-与-mcp-️-7010"><a href="https://github.com/can1357/oh-my-pi">can1357/oh-my-pi：多模型 AI 编码代理，集成 IDE 与 MCP</a> ⭐️ 7.0/10</h3>
-
-<p>oh-my-pi 是由 Stencil Labs 开发的 AI 编码代理，支持通过 MCP（Model Context Protocol）接入多个大模型提供商，并直接与 IDE 集成，让开发者在编码流程中获得上下文感知的 AI 协助。项目以 TypeScript 与 Rust 编写，采用 Bun 运行时，目前在 GitHub 拥有约 3.8 万星标，但存在 4600 多个未关闭 Issue 且仓库元数据出现未来日期（创建于 2025-12-31、最近推送显示 2026-11-06），维护健康度与数据准确性存疑，处于实验性到可用的过渡阶段。</p>
-
-<p>github · can1357 · 11月6日 03:25</p>
-
-<p><strong>「推荐理由」</strong> 它落在“写码/上下文供给”环节，把多模型调用与 IDE 原生集成，替代了手动复制粘贴提示词或切换窗口的步骤，适合想在熟悉编辑器里直接用多家 LLM 做代码生成、重构或问答的前端/全栈工程师；3.8 万星标显示社区关注度高，但需权衡大量开放 Issue 与元数据异常带来的风险。</p>
-
-<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#ai-coding-agent</code>, <code class="language-plaintext highlighter-rouge">#ide-integration</code>, <code class="language-plaintext highlighter-rouge">#mcp</code>, <code class="language-plaintext highlighter-rouge">#multi-provider-llm</code>, <code class="language-plaintext highlighter-rouge">#cli-tool</code></p>
-
-<hr />
-
-<p><a id="item-gh-trending-3"></a></p>
-<h3 id="googleskillsgoogle-产品的-agent-skills-框架-️-5010"><a href="https://github.com/google/skills">google/skills：Google 产品的 Agent Skills 框架</a> ⭐️ 5.0/10</h3>
-
-<p>google/skills 是一个用 Python 编写的 Agent Skills 框架，面向 Google 产品与技术生态。目前公开信息仅限于仓库描述，缺乏文档、示例或维护信号，无法确认其对开发工作流（编码、审查、测试、交付）的直接实用价值。项目累计 22.4k Star 显示关注度较高，但成熟度与适用范围仍待进一步公开材料佐证。</p>
-
-<p>github · google · 11月6日 03:25</p>
-
-<p><strong>「推荐理由」</strong> 若你在探索 Google 生态内的 AI Agent 构建或自动化技能编排，该仓库可作为了解官方技术方向的参考入口；但缺乏可落地的开发者工具体验，现阶段更适合关注前沿动向的研究者或 Google 内部技术栈使用者，而非寻求即用型效率工具的通用开发者。</p>
-
-<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#ai-agents</code>, <code class="language-plaintext highlighter-rouge">#google-ecosystem</code>, <code class="language-plaintext highlighter-rouge">#python</code>, <code class="language-plaintext highlighter-rouge">#developer-tools</code>, <code class="language-plaintext highlighter-rouge">#automation</code></p>
-
-<hr />
-
-<p><a id="item-gh-trending-4"></a></p>
-<h3 id="rudderlabsdevbox自主编码代理的沙箱编排工具-️-5010"><a href="https://github.com/rudderlabs/devbox">rudderlabs/devbox：自主编码代理的沙箱编排工具</a> ⭐️ 5.0/10</h3>
-
-<p>rudderlabs/devbox 是一个用 TypeScript 编写的开源自主工程编排工具，为每个编码任务提供隔离的沙箱环境，且不在沙箱中存放真实密钥。项目创建于 2026-10-27，仅一周历史，目前处于极早期实验阶段，缺乏文档与可复现的使用示例。</p>
-
-<p>github · rudderlabs · 11月6日 03:25</p>
-
-<p><strong>「推荐理由」</strong> 它切中 AI 编码代理落地时的安全隔离与环境复现痛点，适合正在探索自主代理基础设施的团队提前调研；297 颗星说明社区已开始关注，但尚无生产就绪证据，建议仅作技术预研参考。</p>
-
-<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#agentic-coding</code>, <code class="language-plaintext highlighter-rouge">#autonomous-agents</code>, <code class="language-plaintext highlighter-rouge">#sandbox</code>, <code class="language-plaintext highlighter-rouge">#security</code>, <code class="language-plaintext highlighter-rouge">#developer-tools</code></p>
-
-<hr />
-
-<p><a id="item-gh-trending-5"></a></p>
-<h3 id="muaaz9329cheap-ag-mcp-服务器用廉价模型跑-claude-codecodex-请求-️-5010"><a href="https://github.com/muaaz9329/cheap-ag">muaaz9329/cheap-ag: MCP 服务器用廉价模型跑 Claude Code/Codex 请求</a> ⭐️ 5.0/10</h3>
-
-<p>cheap-ag 是一个早期阶段的 MCP 服务器，用 TypeScript 编写，将 Claude Code 与 Codex 的请求转发给更便宜的模型生成代码，再通过测试验证输出，以此降低 API 成本。它针对 AI 编程助手的额度限制痛点，采用“廉价模型写代码、测试决定是否采纳”的路径。项目创建于 2026 年 10 月底，仅有约一周的提交记录，属于实验性/早期可用阶段。</p>
-
-<p>github · muaaz9329 · 11月6日 03:25</p>
-
-<p><strong>「推荐理由」</strong> 它切中 AI 辅助编码流程中的成本控制环节，用廉价模型加测试验证替代直接调用昂贵模型，适合因 Claude 套餐额度不足而想延长使用量的开发者尝试。</p>
-
-<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#agentic-coding</code>, <code class="language-plaintext highlighter-rouge">#cost-optimization</code>, <code class="language-plaintext highlighter-rouge">#claude-code</code>, <code class="language-plaintext highlighter-rouge">#mcp-server</code>, <code class="language-plaintext highlighter-rouge">#developer-tools</code></p>
-
-<hr />
-
-<h2 id="ai-热门新闻">AI 热门新闻</h2>
-
-<p><a id="item-ai-news-1"></a></p>
-<h3 id="nvidia-发布-cosmos-3-开放模型用于交互式世界模拟-️-9010"><a href="https://huggingface.co/blog/nvidia/cosmos-interactive-world-simulation">NVIDIA 发布 Cosmos 3 开放模型用于交互式世界模拟</a> ⭐️ 9.0/10</h3>
-
-<p>NVIDIA 于 2026 年 11 月 5 日在 Hugging Face 发布 Cosmos 3 开放模型系列，面向交互式世界模拟任务。官方博客表示已提供可直接下载的模型权重、模型卡片、推理组件及使用示例，供实践者即时实验。具体模型规模、许可证细节与硬件要求以 Hugging Face Hub 页面为准。</p>
-
-<p>rss · Hugging Face Blog · 11月5日 19:35</p>
-
-<p><strong>「实用价值」</strong> 从事机器人仿真、自主驾驶训练或具身智能研究的工程师可直接在 Hugging Face Hub 拉取权重并跑通推理流程，首要步骤是打开博客链接对应的模型仓库，按示例代码完成环境配置与首次推理验证。</p>
-
-<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#world-simulation</code>, <code class="language-plaintext highlighter-rouge">#NVIDIA-Cosmos</code>, <code class="language-plaintext highlighter-rouge">#open-models</code>, <code class="language-plaintext highlighter-rouge">#robotics</code>, <code class="language-plaintext highlighter-rouge">#HuggingFace</code></p>
-
-<hr />
-
-<p><a id="item-ai-news-2"></a></p>
-<h3 id="alpine-linux-openssh-密码认证绕过漏洞musl-libc-crypt-缺陷-️-8010"><a href="https://alpinelinux.org/posts/2026-11-05-openssh-password-authentication-bypass/">Alpine Linux OpenSSH 密码认证绕过漏洞（musl libc crypt 缺陷）</a> ⭐️ 8.0/10</h3>
-
-<p>Alpine Linux 发布安全公告，披露 OpenSSH-server 存在密码认证绕过漏洞，根因是 musl libc 的 crypt() 在密钥超过 256 字节时返回 "*" 作为错误指示符，而 "*" 正好是 /etc/shadow 中无密码账户的哈希值，导致攻击者可无需密码登录。受影响版本为使用 musl libc 的 Alpine Linux 系统，且至少有一个本地账户使用 $5$ (SHA-256) 或 $6$ (SHA-512) 密码哈希。官方建议立即升级 openssh-server 软件包，或暂时在 sshd_config 中设置 PasswordAuthentication no 并重启 sshd 服务缓解。</p>
-
-<p>hackernews · pantalaimon · 11月5日 14:44 · <a href="https://news.ycombinator.com/item?id=50379704">社区讨论</a></p>
-
-<p><strong>「影响与行动」</strong> 所有暴露 SSH 端口且使用密码认证的 Alpine Linux 服务器均面临未授权登录风险，运维人员应优先执行 apk upgrade openssh-server 完成修复；若无法立即更新，必须立即禁用密码认证并改用密钥登录。</p>
-
-<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#security</code>, <code class="language-plaintext highlighter-rouge">#vulnerability</code>, <code class="language-plaintext highlighter-rouge">#openssh</code>, <code class="language-plaintext highlighter-rouge">#alpine-linux</code>, <code class="language-plaintext highlighter-rouge">#musl-libc</code></p>
-
-<hr />
-
-<p><a id="item-ai-news-3"></a></p>
-<h3 id="ccore-发布-glb-3d-coder-数据集与-4b-模型权重-️-8010"><a href="https://www.reddit.com/r/LocalLLaMA/comments/1xozbe6/ccore_glb3dcoder_dataset_is_here_3918_rendered/">CCORE 发布 GLB-3D-Coder 数据集与 4B 模型权重</a> ⭐️ 8.0/10</h3>
-
-<p>CCORE 发布 GLB-3D-Coder 数据集，包含 3,918 个经渲染验证的 Three.js/GLB 代码示例，覆盖 40 个领域（角色、生物、车辆、实验设备、乐器、建筑、机械、自然、日常道具等），划分为 3,501 条训练样本与 417 条验证样本，采用 MIT 许可证。每条样本均附带完整对话、推理轨迹、HTML/JavaScript 响应、渲染参考图，并包含静态、动画与交互示例。同步释出用该数据集训练的 4B 参数模型完整权重。</p>
-
-<p>reddit · r/LocalLLaMA · /u/ConfidentDinner6648 · 11月6日 00:43</p>
-
-<p><strong>「实用价值」</strong> 面向代码生成 3D 资产的开发者：可直接下载数据集用于微调或训练自有模型，也可拿 4B 权重做推理基线对比；首要步骤是从作者提供的 Hugging Face 仓库拉取数据与权重，跑通渲染验证流程后再决定是否接入自有管线。</p>
-
-<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#3D-generation</code>, <code class="language-plaintext highlighter-rouge">#dataset</code>, <code class="language-plaintext highlighter-rouge">#Three.js</code>, <code class="language-plaintext highlighter-rouge">#fine-tuning</code>, <code class="language-plaintext highlighter-rouge">#GLB</code></p>
-
-<hr />
-
-<p><a id="item-ai-news-4"></a></p>
-<h3 id="rustingstrata-在-rtx-3060-上跑通全系-qwen-gguf显存不足时比-llamacpp-快-15-2-倍-️-8010"><a href="https://www.reddit.com/r/LocalLLaMA/comments/1xottw2/strata_for_all_qwen_models_from_little_to_big/">RustingStrata 在 RTX 3060 上跑通全系 Qwen GGUF，显存不足时比 llama.cpp 快 1.5-2 倍</a> ⭐️ 8.0/10</h3>
-
-<p>Reddit 用户 /u/Serious_Scarcity7818 在 RTX 3060 12GB + Ryzen 5 7600X + 32GB 内存上，依次跑了 Qwen3.5-2B 到 Qwen3.8-Flash-Next (177B) 共 7 个 GGUF 模型（量化从 Q8_0 到 IQ2_XS），对比 RustingStrata 与 llama.cpp (build 12119) 的 4K prefill 与 128 token decode 速度。结果显示：能全放进显存的小密集模型（2B、4B）llama.cpp prefill 更快；一旦模型超显存（35B、80B、177B），Strata prefill 领先约 1.5 倍、decode 领先高达 2 倍，80B 能跑 64 tok/s、177B 能跑 21 tok/s。测试保留桌面程序、未调优，命令行参数已公开。</p>
-
-<p>reddit · r/LocalLLaMA · /u/Serious_Scarcity7818 · 11月5日 20:47</p>
-
-<p><strong>「实用价值」</strong> 如果你在 12GB 显存消费卡上跑 30B+ 的 MoE 或稀疏模型，直接用 `strata bench –model &lt;file&gt; –gpu –mtp 0 –pp 4096 –tg 128 –reps 2` 可获得比 llama.cpp 显著更高的吞吐；小模型仍建议用 llama.cpp。</p>
-
-<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#local-llm</code>, <code class="language-plaintext highlighter-rouge">#inference-engine</code>, <code class="language-plaintext highlighter-rouge">#benchmark</code>, <code class="language-plaintext highlighter-rouge">#qwen</code>, <code class="language-plaintext highlighter-rouge">#rustingstrata</code></p>
-
-<hr />
-
-<p><a id="item-ai-news-5"></a></p>
-<h3 id="kagi-开放免注册搜索支持自定义站点权重-️-7010"><a href="https://kagi.com/changelog#11820">Kagi 开放免注册搜索，支持自定义站点权重</a> ⭐️ 7.0/10</h3>
-
-<p>Kagi 于 2026 年 11 月 5 日发布 “Search for everyone” 更新，用户无需注册即可直接使用其搜索引擎。该版本提供可自定义站点权重（如降权 Reddit、屏蔽 AI 垃圾站点）、无广告、高质量检索结果，且仅在查询末尾加问号时才触发 AI 摘要。此为官方已上线功能，非预告。</p>
-
-<p>hackernews · elashri · 11月5日 20:03 · <a href="https://news.ycombinator.com/item?id=50383740">社区讨论</a></p>
-
-<p><strong>「实用价值」</strong> 开发者、研究者及对搜索质量敏感的用户可立即在 kagi.com 免注册试用，首次体验即可对比现有搜索引擎的结果完整性与干扰程度，决定是否迁移日常检索工作流。</p>
-
-<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#search-engine</code>, <code class="language-plaintext highlighter-rouge">#developer-tools</code>, <code class="language-plaintext highlighter-rouge">#productivity</code>, <code class="language-plaintext highlighter-rouge">#privacy</code>, <code class="language-plaintext highlighter-rouge">#kagi</code></p>
-
-<hr />
-
-<p><a id="item-ai-news-6"></a></p>
-<h3 id="gemini-omni-12-flash-发布15-秒视频生成对话式编辑价格降-30-️-7010"><a href="https://the-decoder.com/googles-gemini-omni-1-2-flash-stretches-ai-video-clips-to-15-seconds-and-cuts-pricing-by-30-percent/">Gemini Omni 1.2 Flash 发布：15 秒视频生成、对话式编辑、价格降 30%</a> ⭐️ 7.0/10</h3>
-
-<p>Google DeepMind 正式发布 Gemini Omni 1.2 Flash 视频生成模型，现已普遍可用。该模型支持生成最长 15 秒的视频片段，并可通过多轮对话逐步编辑修改。定价为 720p 分辨率下每秒 0.07 美元，比前代降低 30%；官方建议先用低分辨率起草、仅对最终结果升级以进一步省钱。</p>
-
-<p>rss · The Decoder · 11月5日 19:05</p>
-
-<p><strong>「实用价值」</strong> 需要快速产出短视频素材的创作者、营销团队或原型开发者可直接在 Google AI Studio 或 Vertex AI 试用；首要动作是对比同价位的 Sora、Runway Gen-3 等模型，看 15 秒长度与对话式编辑是否覆盖你的脚本迭代流程。</p>
-
-<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#video-generation</code>, <code class="language-plaintext highlighter-rouge">#gemini</code>, <code class="language-plaintext highlighter-rouge">#google-deepmind</code>, <code class="language-plaintext highlighter-rouge">#ai-video</code>, <code class="language-plaintext highlighter-rouge">#pricing</code></p>
-
-<hr />
-
-<p><a id="item-ai-news-7"></a></p>
-<h3 id="delta-inference-engine-v093-runs-deepseek-v41-flash-on-single-rtx-3090-from-64-gb-ram-️-7010"><a href="https://www.reddit.com/r/LocalLLaMA/comments/1xoq4vq/deepseekv41flash1017_on_one_rtx_3090_big_updates/">Delta Inference Engine v0.93 runs DeepSeek-V4.1-Flash on single RTX 3090 from 64 GB RAM</a> ⭐️ 7.0/10</h3>
-
-<p>Delta Inference Engine v0.93 现可在单张 RTX 3090（24 GB 显存）上运行 DeepSeek-V4.1-Flash-1017，系统内存门槛降至 64 GB，在 64–192 GB 内存与多种 Unsloth 量化（UD-IQ2_XXS、UD-IQ1_S、UD-Q2_K_XL、UD-IQ3_XXS）下实现 21–41 tok/s。UD-IQ2_XXS 在 192 GB 内存下保持 41 tok/s，99 题基准测试得 57 分，全量 API 模型为 59 分。首 token 延迟缩短约 40%（180 token 提示词从 3.8 秒降至 2.3 秒），新增 EXL3 支持、基础多 GPU（加 3060 约 7% 提升）与 GitHub Actions 公共 CI 构建。该引擎仅支持 Windows、需 NVIDIA RTX 12 GB+ 显存且驱动 580+，作者强调数据来自单台测试机（i5-13600K、4×48 GB DDR5-5600、PCIe 4.0 NVMe），尚需更多硬件验证。</p>
-
-<p>reddit · r/LocalLLaMA · /u/musicurgy · 11月5日 18:23</p>
-
-<p><strong>「实用价值」</strong> 拥有单张 RTX 3090 且系统内存 64–192 GB 的本地部署者，现可在无云端 API 的前提下以可用速度跑通 DeepSeek-V4.1-Flash 变体；首要步骤是克隆 MIT 许可仓库（github.com/musicurgy/delta-inference-engine）并用预构建发行包在自有硬件上实测。</p>
-
-<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#Delta Inference Engine</code>, <code class="language-plaintext highlighter-rouge">#DeepSeek</code>, <code class="language-plaintext highlighter-rouge">#local LLM</code>, <code class="language-plaintext highlighter-rouge">#quantization</code>, <code class="language-plaintext highlighter-rouge">#RTX 3090</code></p>
-
-<hr />
-
-<p><a id="item-ai-news-8"></a></p>
-<h3 id="博文呼吁下载-youtube-视频评论给出-yt-dlp-实用命令-️-6010"><a href="https://criminallyvulgar.dev/you-should-absolutely-download-your-favourite-youtube-videos/">博文呼吁下载 YouTube 视频，评论给出 yt-dlp 实用命令</a> ⭐️ 6.0/10</h3>
-
-<p>博客文章《Download your favourite YouTube videos》主张下载并归档 YouTube 视频。Hacker News 评论区提供了可直接使用的命令行工具示例：yt-dlp 原生命令 `yt-dlp –embed-metadata –parse-metadata "playlist_index:%(track_number)s" "PLAYLIST_URL"` 可保持播放列表结构；也有用户推荐 yt-dlp 封装工具 ytdl-sub。评论者 chmod775 指出约 10% 的 5 年前播放列表视频已不可用；EvanAnderson 提到自己已归档数 TB 视频并利用 YouTube RSS 订阅自动化。文章与评论均未给出版本号、价格或官方支持承诺，工具均为社区维护的开源项目。</p>
-
-<p>hackernews · surprisetalk · 11月5日 13:00 · <a href="https://news.ycombinator.com/item?id=50378571">社区讨论</a></p>
-
-<p><strong>「实用价值」</strong> 适合需要构建视频数据集、离线归档教学/研究素材的工程师与研究人员；第一步可直接在终端运行上述 yt-dlp 命令测试下载单个播放列表，再根据需要接入自动化脚本或配合 ytdl-sub 批量维护。</p>
-
-<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#data-collection</code>, <code class="language-plaintext highlighter-rouge">#yt-dlp</code>, <code class="language-plaintext highlighter-rouge">#archival</code>, <code class="language-plaintext highlighter-rouge">#dataset-preparation</code>, <code class="language-plaintext highlighter-rouge">#cli-tools</code></p>
-
-<hr />
-
-<h2 id="x--youtube-热门">X / YouTube 热门</h2>
-
-<p><a id="item-social-hot-1"></a></p>
-<h3 id="mouredev-5-小时-git-与-github-零基础全教程西班牙语-️-8010"><a href="https://www.youtube.com/watch?v=3GymExBkKjE">MoureDev 5 小时 Git 与 GitHub 零基础全教程（西班牙语）</a> ⭐️ 8.0/10</h3>
-
-<p>这是一条时长 5 小时的西班牙语完整教程，由开发者 Brais Moure 讲解 Git 与 GitHub 的基础命令、分支管理及实战工作流，面向零基础学习者。说明基于标题与频道简介推断，未观看完整视频。</p>
-
-<p>youtube · GitHub · 11月6日 03:25</p>
-
-<p><strong>「推荐理由」</strong> 播放量 136 万次，社区验证度高；由一线开发者录制，演示可复现的实操流程，适合想系统入门版本控制的中文读者参考同类中文教程或配合字幕学习。</p>
-
-<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#git</code>, <code class="language-plaintext highlighter-rouge">#github</code>, <code class="language-plaintext highlighter-rouge">#tutorial</code>, <code class="language-plaintext highlighter-rouge">#version-control</code>, <code class="language-plaintext highlighter-rouge">#beginner-friendly</code></p>
-
-<hr />
-
-<p><a id="item-social-hot-2"></a></p>
-<h3 id="零基础-github-入门教程面向非程序员的资源获取指南-️-6010"><a href="https://www.youtube.com/watch?v=FopO8IQLX_E">零基础 GitHub 入门教程，面向非程序员的资源获取指南</a> ⭐️ 6.0/10</h3>
-
-<p>这条视频面向零基础非程序员（"小白")，演示如何注册 GitHub 账号、搜索仓库、一键下载代码或释出资源，并讲解界面基本操作与常见术语。内容从标题与简介推断，侧重资源发现与下载，不涉及协作流程、CI/CD 或进阶开发实战。</p>
-
-<p>youtube · GitHub · 11月6日 03:25</p>
-
-<p><strong>「推荐理由」</strong> 播放量 112 万次，说明大量非技术受众有 "想用 GitHub 却不知从何下手" 的刚需；10 分钟短视频把账号创建、搜索、下载、Star/Fork 等最小可用动作串成完整演示，适合想快速把开源资源拿到手的入门者参考。</p>
-
-<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#GitHub</code>, <code class="language-plaintext highlighter-rouge">#tutorial</code>, <code class="language-plaintext highlighter-rouge">#beginner</code>, <code class="language-plaintext highlighter-rouge">#open-source</code>, <code class="language-plaintext highlighter-rouge">#resource-discovery</code></p>
-
-<hr />]]></content><author><name></name></author><summary type="html"><![CDATA[今日抓取 136 条内容，收录 15 条。]]></summary></entry></feed>
+<hr />]]></content><author><name></name></author><summary type="html"><![CDATA[今日抓取 117 条内容，收录 12 条。]]></summary></entry></feed>
