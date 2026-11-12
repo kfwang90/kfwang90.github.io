@@ -85,30 +85,6 @@
    "last_seen": "2026-11-09",
    "title": "microsoft/TokenEconomizer"
   },
-  "github:search:NanmiCoder/cc-haha": {
-   "last_seen": "2026-11-04",
-   "title": "NanmiCoder/cc-haha"
-  },
-  "rss:huggingface.co_blog_feed.xml:4d3938441f216409": {
-   "last_seen": "2026-11-04",
-   "title": "Palette: teaching a small model to build decks in your design language"
-  },
-  "github:trending:anomalyco/hex": {
-   "last_seen": "2026-11-04",
-   "title": "anomalyco/hex"
-  },
-  "rss:www.infoq.cn_feed:d611582932540537": {
-   "last_seen": "2026-11-04",
-   "title": "Netflix 通过工作负载认证将 AWS IAM 与内部身份系统连接了起来"
-  },
-  "github:trending:p-e-w/heretic": {
-   "last_seen": "2026-11-04",
-   "title": "p-e-w/heretic"
-  },
-  "github:search:openinterpreter/openinterpreter": {
-   "last_seen": "2026-11-04",
-   "title": "openinterpreter/openinterpreter"
-  },
   "hackernews:story:50369106": {
    "last_seen": "2026-11-05",
    "title": "A new Go API for JSON"
@@ -416,6 +392,54 @@
   "github:search:DiffuSpace/Clover-35B-A3B-Preview": {
    "last_seen": "2026-11-11",
    "title": "DiffuSpace/Clover-35B-A3B-Preview"
+  },
+  "rss:simonwillison.net_atom_everything_:485ec329c8b74027": {
+   "last_seen": "2026-11-12",
+   "title": "Gemini Decisions API"
+  },
+  "reddit:subreddit-rss:t3_1xtzwxf": {
+   "last_seen": "2026-11-12",
+   "title": "I released Inflect v3: lightweight local TTS in 34M parameters (Apache 2.0)"
+  },
+  "reddit:subreddit-rss:t3_1xtpc2v": {
+   "last_seen": "2026-11-12",
+   "title": "I'm releasing a Local World Model Ive been building that turns images into interactive videos you control in real time. "
+  },
+  "github:search:upstash/context7": {
+   "last_seen": "2026-11-12",
+   "title": "upstash/context7"
+  },
+  "hackernews:story:50459485": {
+   "last_seen": "2026-11-12",
+   "title": "Lock Your GitHub Actions"
+  },
+  "rss:simonwillison.net_atom_everything_:967141e571a3a88a": {
+   "last_seen": "2026-11-12",
+   "title": "aws-emulator"
+  },
+  "reddit:subreddit-rss:t3_1xtlyhe": {
+   "last_seen": "2026-11-12",
+   "title": "New Qwen3.8-27B Unsloth Dynamic V3.1 GGUFs"
+  },
+  "github:trending:shadcn/improve": {
+   "last_seen": "2026-11-12",
+   "title": "shadcn/improve"
+  },
+  "github:trending:openai/codex-security": {
+   "last_seen": "2026-11-12",
+   "title": "openai/codex-security"
+  },
+  "github:search:ccch1mneyyy/dsh-TUI": {
+   "last_seen": "2026-11-12",
+   "title": "ccch1mneyyy/dsh-TUI"
+  },
+  "rss:huggingface.co_blog_feed.xml:19b4fcb1faac9c9b": {
+   "last_seen": "2026-11-12",
+   "title": "BotPsy: On-Device Personal Assistant with a Sub-Billion-Parameter Agentic Language Model"
+  },
+  "youtube:video:r8jQ9hVA2qs": {
+   "last_seen": "2026-11-12",
+   "title": "A brief introduction to Git for beginners | GitHub"
   }
  }
 }
