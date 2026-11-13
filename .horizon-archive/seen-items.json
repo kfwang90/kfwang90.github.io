@@ -2,72 +2,52 @@
  "version": 1,
  "items": {
   "github:search:google-gemini/gemini-cli": {
-   "last_seen": "2026-11-05",
+   "last_seen": "2026-11-13",
    "title": "google-gemini/gemini-cli"
   },
   "github:search:codewhale-hq/Codewhale": {
-   "last_seen": "2026-11-05",
+   "last_seen": "2026-11-13",
    "title": "codewhale-hq/Codewhale"
   },
   "github:search:QwenLM/qwen-code": {
-   "last_seen": "2026-11-05",
+   "last_seen": "2026-11-13",
    "title": "QwenLM/qwen-code"
   },
   "github:search:The-PR-Agent/pr-agent": {
-   "last_seen": "2026-11-05",
+   "last_seen": "2026-11-13",
    "title": "The-PR-Agent/pr-agent"
   },
   "github:search:sourcery-ai/sourcery": {
-   "last_seen": "2026-11-05",
+   "last_seen": "2026-11-13",
    "title": "sourcery-ai/sourcery"
   },
   "youtube:video:mAFoROnOfHs": {
-   "last_seen": "2026-11-05",
+   "last_seen": "2026-11-13",
    "title": "Git & GitHub Crash Course for Beginners [2026]"
   },
   "github:search:coleam00/Archon": {
-   "last_seen": "2026-11-05",
+   "last_seen": "2026-11-13",
    "title": "coleam00/Archon"
   },
   "github:search:kodustech/kodus-ai": {
-   "last_seen": "2026-11-05",
+   "last_seen": "2026-11-13",
    "title": "kodustech/kodus-ai"
   },
   "github:search:HexmosTech/git-lrc": {
-   "last_seen": "2026-11-05",
+   "last_seen": "2026-11-13",
    "title": "HexmosTech/git-lrc"
   },
   "github:search:openqodex/openqodex": {
-   "last_seen": "2026-11-05",
+   "last_seen": "2026-11-13",
    "title": "openqodex/openqodex"
   },
-  "github:search:iamumeransari/claude-show-your-work": {
-   "last_seen": "2026-11-05",
-   "title": "iamumeransari/claude-show-your-work"
-  },
-  "youtube:video:h2a3Kw-I_Ec": {
-   "last_seen": "2026-11-05",
-   "title": "Learn Git & GitHub for Beginners | (2026) Tutorial"
-  },
-  "github:search:esengine/DeepSeek-Reasonix": {
-   "last_seen": "2026-11-05",
-   "title": "esengine/DeepSeek-Reasonix"
-  },
-  "github:search:1jehuang/jcode": {
-   "last_seen": "2026-11-05",
-   "title": "1jehuang/jcode"
-  },
   "youtube:video:a9u2yZvsqHA": {
-   "last_seen": "2026-11-05",
+   "last_seen": "2026-11-13",
    "title": "How To Use GitHub For Beginners"
   },
   "youtube:video:pJYOG6klqj8": {
-   "last_seen": "2026-11-05",
+   "last_seen": "2026-11-13",
    "title": "The Only GitHub Guide You’ll Ever Need"
-  },
-  "github:search:n8n-io/n8n": {
-   "last_seen": "2026-11-05",
-   "title": "n8n-io/n8n"
   },
   "github:search:rudderlabs/devbox": {
    "last_seen": "2026-11-06",
@@ -84,34 +64,6 @@
   "github:search:microsoft/TokenEconomizer": {
    "last_seen": "2026-11-09",
    "title": "microsoft/TokenEconomizer"
-  },
-  "hackernews:story:50369106": {
-   "last_seen": "2026-11-05",
-   "title": "A new Go API for JSON"
-  },
-  "hackernews:story:50372945": {
-   "last_seen": "2026-11-05",
-   "title": "Images 2.6"
-  },
-  "hackernews:story:50366999": {
-   "last_seen": "2026-11-05",
-   "title": "Kimi K3.1 Pro model weights are out"
-  },
-  "reddit:subreddit-rss:t3_1xnuva2": {
-   "last_seen": "2026-11-05",
-   "title": "Unsloth Qwen3.8-Flash-Next GGUFs V3.1 Update (November 4th 2026)"
-  },
-  "reddit:subreddit-rss:t3_1xnoqyy": {
-   "last_seen": "2026-11-05",
-   "title": "I removed 85% of gemma's weights (and it is mostly fine)"
-  },
-  "github:trending:D4Vinci/Scrapling": {
-   "last_seen": "2026-11-05",
-   "title": "D4Vinci/Scrapling"
-  },
-  "github:trending:scenario-labs/skills": {
-   "last_seen": "2026-11-05",
-   "title": "scenario-labs/skills"
   },
   "rss:huggingface.co_blog_feed.xml:f25b9201ad6bdcc6": {
    "last_seen": "2026-11-06",
@@ -440,6 +392,66 @@
   "youtube:video:r8jQ9hVA2qs": {
    "last_seen": "2026-11-12",
    "title": "A brief introduction to Git for beginners | GitHub"
+  },
+  "github:search:DayuanJiang/next-ai-draw-io": {
+   "last_seen": "2026-11-13",
+   "title": "DayuanJiang/next-ai-draw-io"
+  },
+  "hackernews:story:50472038": {
+   "last_seen": "2026-11-13",
+   "title": "Rust 1.100"
+  },
+  "reddit:subreddit-rss:t3_1xur9ud": {
+   "last_seen": "2026-11-13",
+   "title": "Used datacenter/workstation GPU prices on eBay this week, ranked by $/GB of VRAM"
+  },
+  "github:trending:ggml-org/llama.cpp": {
+   "last_seen": "2026-11-13",
+   "title": "ggml-org/llama.cpp"
+  },
+  "github:search:openinterpreter/openinterpreter": {
+   "last_seen": "2026-11-13",
+   "title": "openinterpreter/openinterpreter"
+  },
+  "hackernews:story:50470488": {
+   "last_seen": "2026-11-13",
+   "title": "Show HN: My $300 embroidery machine needed a subscription, so I built my own app"
+  },
+  "hackernews:story:50468888": {
+   "last_seen": "2026-11-13",
+   "title": "I'm making LLMs work on small and old devices"
+  },
+  "rss:simonwillison.net_atom_everything_:5b86eed0286e0e3b": {
+   "last_seen": "2026-11-13",
+   "title": "llm-gemini 0.37"
+  },
+  "github:trending:nvm-sh/nvm": {
+   "last_seen": "2026-11-13",
+   "title": "nvm-sh/nvm"
+  },
+  "hackernews:story:50471431": {
+   "last_seen": "2026-11-13",
+   "title": "Gemini 4 Hydrogen"
+  },
+  "youtube:video:eHljw6IG0sE": {
+   "last_seen": "2026-11-13",
+   "title": "I investigated 8 GitHub repos that print money"
+  },
+  "rss:the-decoder.com_feed_:e9cf74e725248791": {
+   "last_seen": "2026-11-13",
+   "title": "Google Deepmind shifts genomics AI from bulk tissue predictions to single cell type resolution with AlphaGenome 2"
+  },
+  "youtube:video:MPYAaC4uEGA": {
+   "last_seen": "2026-11-13",
+   "title": "10 GitHub Repos That Should Be Illegal 2026"
+  },
+  "github:trending:CopilotKit/OpenBot": {
+   "last_seen": "2026-11-13",
+   "title": "CopilotKit/OpenBot"
+  },
+  "github:trending:ashhart/TensorFold": {
+   "last_seen": "2026-11-13",
+   "title": "ashhart/TensorFold"
   }
  }
 }
