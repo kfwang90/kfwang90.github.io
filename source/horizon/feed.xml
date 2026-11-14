@@ -1,4 +1,444 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="https://www.01040610.xyz/horizon/feed.xml" rel="self" type="application/atom+xml" /><link href="https://www.01040610.xyz/horizon/" rel="alternate" type="text/html" /><updated>2026-11-13T03:57:03+00:00</updated><id>https://www.01040610.xyz/horizon/feed.xml</id><title type="html">Horizon 每日速递</title><subtitle>由 AI 自动筛选的 GitHub 热点项目、AI 新闻与 X / YouTube 热门内容</subtitle><entry xml:lang="en"><title type="html">Horizon Summary: 2026-11-13 (EN)</title><link href="https://www.01040610.xyz/horizon/2026/11/13/summary-en.html" rel="alternate" type="text/html" title="Horizon Summary: 2026-11-13 (EN)" /><published>2026-11-13T00:00:00+00:00</published><updated>2026-11-13T00:00:00+00:00</updated><id>https://www.01040610.xyz/horizon/2026/11/13/summary-en</id><content type="html" xml:base="https://www.01040610.xyz/horizon/2026/11/13/summary-en.html"><![CDATA[<blockquote>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="https://www.01040610.xyz/horizon/feed.xml" rel="self" type="application/atom+xml" /><link href="https://www.01040610.xyz/horizon/" rel="alternate" type="text/html" /><updated>2026-11-14T03:18:19+00:00</updated><id>https://www.01040610.xyz/horizon/feed.xml</id><title type="html">Horizon 每日速递</title><subtitle>由 AI 自动筛选的 GitHub 热点项目、AI 新闻与 X / YouTube 热门内容</subtitle><entry xml:lang="en"><title type="html">Horizon Summary: 2026-11-14 (EN)</title><link href="https://www.01040610.xyz/horizon/2026/11/14/summary-en.html" rel="alternate" type="text/html" title="Horizon Summary: 2026-11-14 (EN)" /><published>2026-11-14T00:00:00+00:00</published><updated>2026-11-14T00:00:00+00:00</updated><id>https://www.01040610.xyz/horizon/2026/11/14/summary-en</id><content type="html" xml:base="https://www.01040610.xyz/horizon/2026/11/14/summary-en.html"><![CDATA[<blockquote>
+  <p>Showing 14 of 119 fetched items.</p>
+</blockquote>
+
+<hr />
+
+<p><strong>AI Dev Tools</strong></p>
+<ol>
+  <li><a href="#item-gh-trending-1">alibaba/open-code-review: Hybrid code review tool with deterministic pipelines and LLM agent</a> ⭐️ 9.0/10</li>
+  <li><a href="#item-gh-trending-2">ChromeDevTools/chrome-devtools-mcp: MCP server for AI browser debugging</a> ⭐️ 8.0/10</li>
+  <li><a href="#item-gh-trending-3">n8n-io/n8n: Fair-code workflow automation with native AI and MCP support</a> ⭐️ 8.0/10</li>
+  <li><a href="#item-gh-trending-4">can1357/oh-my-pi: IDE-integrated AI coding agent (multi-provider, CLI)</a> ⭐️ 7.0/10</li>
+  <li><a href="#item-gh-trending-5">muaaz9329/cheap-ag: Cheap MCP server for Claude Code &amp; Codex</a> ⭐️ 7.0/10</li>
+  <li><a href="#item-gh-trending-6">backnotprop/plannotator: AI agent workspace for planning, annotating, and reviewing code</a> ⭐️ 6.0/10</li>
+  <li><a href="#item-gh-trending-7">rudderlabs/devbox: Autonomous agent sandbox harness in TypeScript</a> ⭐️ 6.0/10</li>
+  <li><a href="#item-gh-trending-8">GoogleChrome/modern-web-guidance-src: AI agent web best practices guide</a> ⭐️ 5.0/10</li>
+</ol>
+
+<p><strong>AI News</strong></p>
+<ol>
+  <li><a href="#item-ai-news-1">llama.cpp v1.0.0 released with desktop apps for local AI</a> ⭐️ 9.0/10</li>
+  <li><a href="#item-ai-news-2">Qwen3.5-9B runs on PS4 GPU at 31–39 tok/s via MTP speculative decoding</a> ⭐️ 9.0/10</li>
+  <li><a href="#item-ai-news-3">Hugging Face Tutorial: Robot Pick-and-Place with NVIDIA SimReady Assets</a> ⭐️ 8.0/10</li>
+  <li><a href="#item-ai-news-4">datasette-cluster-map 0.19 released for Datasette 1.0a42</a> ⭐️ 7.0/10</li>
+  <li><a href="#item-ai-news-5">datasette-leaflet 0.3 fixes OpenStreetMap referrer policy</a> ⭐️ 6.0/10</li>
+</ol>
+
+<p><strong>X / YouTube Highlights</strong></p>
+<ol>
+  <li><a href="#item-social-hot-1">Git &amp; GitHub Beginner Tutorial (2026)</a> ⭐️ 8.0/10</li>
+</ol>
+
+<hr />
+
+<h2 id="ai-dev-tools">AI Dev Tools</h2>
+
+<p><a id="item-gh-trending-1"></a></p>
+<h3 id="alibabaopen-code-review-hybrid-code-review-tool-with-deterministic-pipelines-and-llm-agent-️-9010"><a href="https://github.com/alibaba/open-code-review">alibaba/open-code-review: Hybrid code review tool with deterministic pipelines and LLM agent</a> ⭐️ 9.0/10</h3>
+
+<p>alibaba/open-code-review is a hybrid code review tool that combines deterministic static analysis pipelines with an LLM agent to produce precise line-level comments. It ships a built-in multi-language ruleset covering issues such as null-pointer exceptions, thread-safety bugs, XSS, and SQL injection, and is compatible with OpenAI and Anthropic APIs. The project is written in Go and has been battle-tested at Alibaba&#x27;s scale, indicating production readiness.</p>
+
+<p>github · alibaba · Nov 14, 03:10</p>
+
+<p><strong>「Why Recommended」</strong> It targets the code review phase by automating security and quality checks that would otherwise require manual inspection, reducing reviewer workload while catching common vulnerabilities early. With over 50k stars and recent activity, it demonstrates strong community traction and ongoing maintenance, making it a solid choice for teams wanting an automated, rule-backed review assistant that integrates into CI/CD pipelines.</p>
+
+<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#code-review</code>, <code class="language-plaintext highlighter-rouge">#static-analysis</code>, <code class="language-plaintext highlighter-rouge">#llm-agent</code>, <code class="language-plaintext highlighter-rouge">#security</code>, <code class="language-plaintext highlighter-rouge">#ci-cd</code></p>
+
+<hr />
+
+<p><a id="item-gh-trending-2"></a></p>
+<h3 id="chromedevtoolschrome-devtools-mcp-mcp-server-for-ai-browser-debugging-️-8010"><a href="https://github.com/ChromeDevTools/chrome-devtools-mcp">ChromeDevTools/chrome-devtools-mcp: MCP server for AI browser debugging</a> ⭐️ 8.0/10</h3>
+
+<p>This official Chrome DevTools project implements a Model Context Protocol (MCP) server that exposes the Chrome DevTools Protocol to AI coding agents. It enables in-IDE browser debugging capabilities including DOM inspection, network monitoring, JavaScript debugging, and performance profiling. Built in TypeScript, the project has gained significant traction with over 55k stars, suggesting active community interest, though real-world usability evidence from documentation is limited in the provided metadata.</p>
+
+<p>github · ChromeDevTools · Nov 14, 03:10</p>
+
+<p><strong>「Why Recommended」</strong> It fills a clear gap in AI-assisted web development by giving coding agents direct browser debugging access — replacing manual DevTools switching with programmatic inspection inside the IDE. The 55k+ stars and official Chrome org ownership indicate strong maintenance alignment with the DevTools Protocol, making it relevant for web developers integrating AI agents into their debugging workflow.</p>
+
+<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#mcp</code>, <code class="language-plaintext highlighter-rouge">#chrome-devtools</code>, <code class="language-plaintext highlighter-rouge">#ai-coding-agent</code>, <code class="language-plaintext highlighter-rouge">#browser-debugging</code>, <code class="language-plaintext highlighter-rouge">#developer-tools</code></p>
+
+<hr />
+
+<p><a id="item-gh-trending-3"></a></p>
+<h3 id="n8n-ion8n-fair-code-workflow-automation-with-native-ai-and-mcp-support-️-8010"><a href="https://github.com/n8n-io/n8n">n8n-io/n8n: Fair-code workflow automation with native AI and MCP support</a> ⭐️ 8.0/10</h3>
+
+<p>n8n is a mature fair-code workflow automation platform (210k+ stars, since 2019) that combines visual building with custom code, offering 400+ integrations and native AI/MCP capabilities. It solves repetitive integration and data-flow orchestration tasks for developers, allowing self-hosted or cloud deployment. Built with TypeScript, it is production-ready with extensive documentation and an active community.</p>
+
+<p>github · n8n-io · Nov 14, 03:11</p>
+
+<p><strong>「Why Recommended」</strong> It targets the delivery/automation phase, replacing hand-written glue code and manual integration work. Developers building AI-enhanced automation pipelines will benefit from its visual editor, code extensibility, and built-in AI/MCP support. The high star count and ongoing activity signal a reliable, well-maintained tool.</p>
+
+<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#workflow-automation</code>, <code class="language-plaintext highlighter-rouge">#low-code</code>, <code class="language-plaintext highlighter-rouge">#ai-integration</code>, <code class="language-plaintext highlighter-rouge">#mcp</code>, <code class="language-plaintext highlighter-rouge">#self-hosted</code></p>
+
+<hr />
+
+<p><a id="item-gh-trending-4"></a></p>
+<h3 id="can1357oh-my-pi-ide-integrated-ai-coding-agent-multi-provider-cli-️-7010"><a href="https://github.com/can1357/oh-my-pi">can1357/oh-my-pi: IDE-integrated AI coding agent (multi-provider, CLI)</a> ⭐️ 7.0/10</h3>
+
+<p>oh-my-pi is an IDE-integrated AI coding agent built by Stencil Labs that supports multiple LLM providers (OpenAI, Anthropic/Claude) via a CLI interface. It targets the coding phase of development by wiring the agent directly into the developer&#x27;s IDE. The project is implemented primarily in TypeScript with Rust components and uses Bun as its runtime, but its maturity is uncertain given an unusually high count of 4,825 open issues against 38.9k stars.</p>
+
+<p>github · can1357 · Nov 14, 03:11</p>
+
+<p><strong>「Why Recommended」</strong> Developers who want an IDE-native, multi-provider AI coding assistant accessible from the CLI may find this useful for writing and reviewing code without leaving their editor. The high star count signals strong community interest, though the large number of open issues suggests evaluating stability carefully before adopting it in production workflows.</p>
+
+<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#ai-coding-agent</code>, <code class="language-plaintext highlighter-rouge">#ide-integration</code>, <code class="language-plaintext highlighter-rouge">#multi-provider-llm</code>, <code class="language-plaintext highlighter-rouge">#cli-tool</code>, <code class="language-plaintext highlighter-rouge">#typescript</code></p>
+
+<hr />
+
+<p><a id="item-gh-trending-5"></a></p>
+<h3 id="muaaz9329cheap-ag-cheap-mcp-server-for-claude-code--codex-️-7010"><a href="https://github.com/muaaz9329/cheap-ag">muaaz9329/cheap-ag: Cheap MCP server for Claude Code &amp; Codex</a> ⭐️ 7.0/10</h3>
+
+<p>cheap-ag is a TypeScript MCP server that lets Claude Code and Codex offload code generation to low-cost models such as DeepSeek, then uses automated tests to validate changes before merging. It addresses the usage limits of $20 subscription tiers by dramatically increasing the volume of AI-assisted coding. The project is early-stage (created October 2026) with active recent commits and a small open-issue count.</p>
+
+<p>github · muaaz9329 · Nov 14, 03:11</p>
+
+<p><strong>「Why Recommended」</strong> It plugs into the coding and review loop, replacing expensive model calls with a cheap writer plus test gate, so developers on tight budgets can keep using agentic assistants without hitting quota. With 330 stars and recent activity, it’s worth a look for teams using Claude Code or Codex who need cost-effective scaling.</p>
+
+<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#agentic-coding</code>, <code class="language-plaintext highlighter-rouge">#cost-optimization</code>, <code class="language-plaintext highlighter-rouge">#claude-code</code>, <code class="language-plaintext highlighter-rouge">#mcp-server</code>, <code class="language-plaintext highlighter-rouge">#deepseek</code></p>
+
+<hr />
+
+<p><a id="item-gh-trending-6"></a></p>
+<h3 id="backnotpropplannotator-ai-agent-workspace-for-planning-annotating-and-reviewing-code-️-6010"><a href="https://github.com/backnotprop/plannotator">backnotprop/plannotator: AI agent workspace for planning, annotating, and reviewing code</a> ⭐️ 6.0/10</h3>
+
+<p>plannotator is a TypeScript workspace designed to keep developers in the loop with AI coding agents by providing tools to shape, plan, annotate, and review code, then send feedback to agents with one click. It targets the human–AI collaboration gap in the development loop, focusing on context provision and code review phases. The project has gained significant GitHub interest (10.5k stars) but lacks public evidence of installation steps, documentation, or verified usage to confirm practical maturity.</p>
+
+<p>github · backnotprop · Nov 14, 03:10</p>
+
+<p><strong>「Why Recommended」</strong> It addresses the emerging pain point of managing AI agent workflows—planning, reviewing, and feeding back changes—within a single workspace, potentially replacing ad-hoc chat or PR-based coordination. The strong star velocity (108 today) signals active community interest, making it worth evaluating for teams experimenting with agent-augmented development who need a structured collaboration layer.</p>
+
+<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#AI-assisted development</code>, <code class="language-plaintext highlighter-rouge">#code review</code>, <code class="language-plaintext highlighter-rouge">#agent management</code>, <code class="language-plaintext highlighter-rouge">#developer tools</code>, <code class="language-plaintext highlighter-rouge">#human-AI collaboration</code></p>
+
+<hr />
+
+<p><a id="item-gh-trending-7"></a></p>
+<h3 id="rudderlabsdevbox-autonomous-agent-sandbox-harness-in-typescript-️-6010"><a href="https://github.com/rudderlabs/devbox">rudderlabs/devbox: Autonomous agent sandbox harness in TypeScript</a> ⭐️ 6.0/10</h3>
+
+<p>rudderlabs/devbox is an early-stage, open-source TypeScript harness that runs autonomous coding agents in isolated cloud sandboxes, providing one sandbox per task with secret isolation. It targets the coding and context-supply phases by letting AI agents execute code securely without exposing real credentials. The project was created in late October 2026 and shows recent activity, but remains experimental with limited documentation and adoption signals.</p>
+
+<p>github · rudderlabs · Nov 14, 03:11</p>
+
+<p><strong>「Why Recommended」</strong> It addresses a specific gap for teams experimenting with autonomous agents who need per-task sandbox isolation and secret protection in their own cloud, replacing ad-hoc container setups. The 335 stars indicate early community interest, making it worth evaluating for developers building or integrating agentic workflows that require secure, ephemeral execution environments.</p>
+
+<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#agentic-coding</code>, <code class="language-plaintext highlighter-rouge">#agent-sandbox</code>, <code class="language-plaintext highlighter-rouge">#autonomous-agents</code>, <code class="language-plaintext highlighter-rouge">#developer-productivity</code>, <code class="language-plaintext highlighter-rouge">#security</code></p>
+
+<hr />
+
+<p><a id="item-gh-trending-8"></a></p>
+<h3 id="googlechromemodern-web-guidance-src-ai-agent-web-best-practices-guide-️-5010"><a href="https://github.com/GoogleChrome/modern-web-guidance-src">GoogleChrome/modern-web-guidance-src: AI agent web best practices guide</a> ⭐️ 5.0/10</h3>
+
+<p>This TypeScript project from the GoogleChrome organization aims to keep AI coding agents current with the latest web development best practices, addressing the context-provision phase of AI-assisted development. The repository provides guidance data intended for consumption by coding agents rather than direct human use. Public evidence is limited to a one-line description and star counts; no code, documentation, or usage examples are visible, so maturity and practical usability remain unverified.</p>
+
+<p>github · GoogleChrome · Nov 14, 03:10</p>
+
+<p><strong>「Why Recommended」</strong> It targets the context-provision step by supplying up-to-date web standards to AI agents, potentially replacing manual curation of best-practice references for developers who rely on coding assistants. The 4,952 total stars and GoogleChrome ownership suggest community interest, but the lack of visible implementation means it suits early adopters willing to evaluate an unproven resource.</p>
+
+<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#AI-coding-assistant</code>, <code class="language-plaintext highlighter-rouge">#web-best-practices</code>, <code class="language-plaintext highlighter-rouge">#context-provision</code>, <code class="language-plaintext highlighter-rouge">#developer-tools</code>, <code class="language-plaintext highlighter-rouge">#TypeScript</code></p>
+
+<hr />
+
+<h2 id="ai-news">AI News</h2>
+
+<p><a id="item-ai-news-1"></a></p>
+<h3 id="llamacpp-v100-released-with-desktop-apps-for-local-ai-️-9010"><a href="https://huggingface.co/blog/ggml-org/llama-cpp-v1">llama.cpp v1.0.0 released with desktop apps for local AI</a> ⭐️ 9.0/10</h3>
+
+<p>Hugging Face announced llama.cpp v1.0.0, a major milestone for the local LLM inference engine. The release aims to cover every platform and model type while keeping the library robust and lean for downstream applications. Accompanying the release are official Llama desktop apps at llama.app, designed to lower the barrier to local AI to a few clicks. The blog post with full details is published on the Hugging Face blog.</p>
+
+<p>rss · Hugging Face Blog · Nov 13, 14:05</p>
+
+<p><strong>「Why It Matters」</strong> Developers building local LLM applications now have a stable v1.0.0 foundation with broad platform and model coverage. The new desktop apps let non-technical users run local models instantly, expanding the potential user base for local AI tools. First step: check the blog for migration notes and try the desktop app to evaluate the new user experience.</p>
+
+<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#llama.cpp</code>, <code class="language-plaintext highlighter-rouge">#local LLM</code>, <code class="language-plaintext highlighter-rouge">#C++ inference</code>, <code class="language-plaintext highlighter-rouge">#GGML</code>, <code class="language-plaintext highlighter-rouge">#release announcement</code></p>
+
+<hr />
+
+<p><a id="item-ai-news-2"></a></p>
+<h3 id="qwen35-9b-runs-on-ps4-gpu-at-3139-toks-via-mtp-speculative-decoding-️-9010"><a href="https://www.reddit.com/r/LocalLLaMA/comments/1xvbn2m/qwen359b_running_on_a_ps4s_gpu_offline_using_its/">Qwen3.5-9B runs on PS4 GPU at 31–39 tok/s via MTP speculative decoding</a> ⭐️ 9.0/10</h3>
+
+<p>The open-source project garlic-llm runs Qwen3.5-9B on a stock PlayStation 4 GPU offline at 31–39 tokens per second. The model&#x27;s built-in MTP head enables speculative decoding, drafting up to two tokens that the full model verifies in a single pass, raising throughput from 22 to 31–39 tok/s. Weights are packed into custom 4-bit and 3-bit formats to fit roughly 4.5 GiB. The code is free and open source on GitHub (leonardo-alegria/garlic-llm) and model weights are available on Hugging Face (garlic-llm/garlic-llm-ps4). No cloud, subscription, or Linux is required.</p>
+
+<p>reddit · r/LocalLLaMA · /u/leonardo_alegria · Nov 13, 16:00</p>
+
+<p><strong>「Why it matters」</strong> PS4 owners can now run a capable 9B-parameter LLM locally for chat, coding, and voice tasks without any external dependencies. The first step is to download the garlic-llm-ps4 weights from Hugging Face and follow the garlic-llm repository instructions to launch the model on the console&#x27;s GPU.</p>
+
+<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#local-llm</code>, <code class="language-plaintext highlighter-rouge">#ps4</code>, <code class="language-plaintext highlighter-rouge">#qwen</code>, <code class="language-plaintext highlighter-rouge">#speculative-decoding</code>, <code class="language-plaintext highlighter-rouge">#quantization</code></p>
+
+<hr />
+
+<p><a id="item-ai-news-3"></a></p>
+<h3 id="hugging-face-tutorial-robot-pick-and-place-with-nvidia-simready-assets-️-8010"><a href="https://huggingface.co/blog/nvidia/simready-assets-robot-pick-and-place">Hugging Face Tutorial: Robot Pick-and-Place with NVIDIA SimReady Assets</a> ⭐️ 8.0/10</h3>
+
+<p>Hugging Face published a practical tutorial on building a robot pick-and-place simulation using NVIDIA SimReady assets. The tutorial provides hands-on guidance for creating robotic simulations, though specific version numbers, asset acquisition details, and code examples are not available from the metadata alone.</p>
+
+<p>rss · Hugging Face Blog · Nov 13, 18:00</p>
+
+<p><strong>「Why It Matters」</strong> Robotics engineers and simulation developers can use this tutorial as a starting point for implementing pick-and-place workflows with NVIDIA&#x27;s standardized SimReady assets. The first step is to access the full tutorial on the Hugging Face Blog to review the complete implementation steps, required assets, and environment setup.</p>
+
+<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#robotics</code>, <code class="language-plaintext highlighter-rouge">#simulation</code>, <code class="language-plaintext highlighter-rouge">#NVIDIA</code>, <code class="language-plaintext highlighter-rouge">#SimReady</code>, <code class="language-plaintext highlighter-rouge">#pick-and-place</code></p>
+
+<hr />
+
+<p><a id="item-ai-news-4"></a></p>
+<h3 id="datasette-cluster-map-019-released-for-datasette-10a42-️-7010"><a href="https://simonwillison.net/2026/Nov/13/datasette-cluster-map/">datasette-cluster-map 0.19 released for Datasette 1.0a42</a> ⭐️ 7.0/10</h3>
+
+<p>Simon Willison released datasette-cluster-map 0.19, now compatible with Datasette 1.0a42. The plugin depends on the new datasette-leaflet to ensure OpenStreetMap tiles are requested with a referrer header. A live demo shows a faceted map of power plants owned by PG&amp;E, also demonstrating Datasette&#x27;s redesigned facets.</p>
+
+<p>rss · Simon Willison · Nov 13, 23:02</p>
+
+<p><strong>「Why it matters」</strong> Datasette users who need cluster mapping can upgrade to this version for Datasette 1.0a42 compatibility and proper OSM attribution; first step is to install the plugin and its datasette-leaflet dependency.</p>
+
+<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#datasette</code>, <code class="language-plaintext highlighter-rouge">#plugin</code>, <code class="language-plaintext highlighter-rouge">#mapping</code>, <code class="language-plaintext highlighter-rouge">#leaflet</code>, <code class="language-plaintext highlighter-rouge">#release</code></p>
+
+<hr />
+
+<p><a id="item-ai-news-5"></a></p>
+<h3 id="datasette-leaflet-03-fixes-openstreetmap-referrer-policy-️-6010"><a href="https://simonwillison.net/2026/Nov/13/datasette-leaflet/">datasette-leaflet 0.3 fixes OpenStreetMap referrer policy</a> ⭐️ 6.0/10</h3>
+
+<p>datasette-leaflet 0.3 addresses a referrer-policy violation when loading OpenStreetMap tiles in Datasette mapping plugins. The plugin previously relied on Datasette&#x27;s `Referrer-Policy: no-referrer` header, which conflicted with OSM&#x27;s tile usage policy requiring a referrer header. Version 0.3 sets the tile request referrer policy to `strict-origin-when-cross-origin`, sending the host but not the full page path. The release is available on GitHub.</p>
+
+<p>rss · Simon Willison · Nov 13, 22:30</p>
+
+<p><strong>「Why It Matters」</strong> Datasette users with Leaflet-based mapping plugins should upgrade to 0.3 to comply with OpenStreetMap&#x27;s tile usage policy and avoid potential tile loading issues. First step: update the datasette-leaflet dependency in your Datasette project.</p>
+
+<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#datasette</code>, <code class="language-plaintext highlighter-rouge">#leaflet</code>, <code class="language-plaintext highlighter-rouge">#openstreetmap</code>, <code class="language-plaintext highlighter-rouge">#plugin</code>, <code class="language-plaintext highlighter-rouge">#referrer-policy</code></p>
+
+<hr />
+
+<h2 id="x--youtube-highlights">X / YouTube Highlights</h2>
+
+<p><a id="item-social-hot-1"></a></p>
+<h3 id="git--github-beginner-tutorial-2026-️-8010"><a href="https://www.youtube.com/watch?v=h2a3Kw-I_Ec">Git &amp; GitHub Beginner Tutorial (2026)</a> ⭐️ 8.0/10</h3>
+
+<p>This 56-minute tutorial from the Coder Coder channel teaches Git and GitHub fundamentals for beginners, covering practical daily workflows such as initializing repositories, committing changes, pushing and pulling code, branching, and creating pull requests. The video is described as a full guide to using Git for version control and GitHub for collaboration.</p>
+
+<p>youtube · GitHub · Nov 14, 03:11</p>
+
+<p><strong>「Why It&#x27;s Hot」</strong> With over 100,000 views, this tutorial demonstrates strong demand for clear, hands-on Git and GitHub instruction; viewers can walk away with reproducible, entry-level version-control skills they can apply immediately to their own projects.</p>
+
+<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#git</code>, <code class="language-plaintext highlighter-rouge">#github</code>, <code class="language-plaintext highlighter-rouge">#tutorial</code>, <code class="language-plaintext highlighter-rouge">#version-control</code>, <code class="language-plaintext highlighter-rouge">#beginner</code></p>
+
+<hr />]]></content><author><name></name></author><summary type="html"><![CDATA[Showing 14 of 119 fetched items.]]></summary></entry><entry xml:lang="zh"><title type="html">Horizon Summary: 2026-11-14 (ZH)</title><link href="https://www.01040610.xyz/horizon/2026/11/14/summary-zh.html" rel="alternate" type="text/html" title="Horizon Summary: 2026-11-14 (ZH)" /><published>2026-11-14T00:00:00+00:00</published><updated>2026-11-14T00:00:00+00:00</updated><id>https://www.01040610.xyz/horizon/2026/11/14/summary-zh</id><content type="html" xml:base="https://www.01040610.xyz/horizon/2026/11/14/summary-zh.html"><![CDATA[<blockquote>
+  <p>今日抓取 119 条内容，收录 14 条。</p>
+</blockquote>
+
+<hr />
+
+<p><strong>GitHub AI 开发工具</strong></p>
+<ol>
+  <li><a href="#item-gh-trending-1">alibaba/open-code-review：混合代码审查工具（确定性流水线 + LLM）</a> ⭐️ 9.0/10</li>
+  <li><a href="#item-gh-trending-2">ChromeDevTools/chrome-devtools-mcp：官方 MCP 服务器让 AI 代理直连 Chrome DevTools</a> ⭐️ 8.0/10</li>
+  <li><a href="#item-gh-trending-3">n8n-io/n8n: 低代码工作流自动化平台，内置 AI 与 MCP 支持</a> ⭐️ 8.0/10</li>
+  <li><a href="#item-gh-trending-4">can1357/oh-my-pi: IDE 集成的 AI 编码代理</a> ⭐️ 7.0/10</li>
+  <li><a href="#item-gh-trending-5">muaaz9329/cheap-ag：为 Claude Code 与 Codex 提供低成本模型的 MCP 服务器</a> ⭐️ 7.0/10</li>
+  <li><a href="#item-gh-trending-6">backnotprop/plannotator：AI 代理协作工作区，规划、标注与代码审查一体化</a> ⭐️ 6.0/10</li>
+  <li><a href="#item-gh-trending-7">rudderlabs/devbox：自主编码代理的云端隔离沙箱工具</a> ⭐️ 6.0/10</li>
+  <li><a href="#item-gh-trending-8">GoogleChrome/modern-web-guidance-src：为 AI 编码代理提供最新 Web 最佳实践指导</a> ⭐️ 5.0/10</li>
+</ol>
+
+<p><strong>AI 热门新闻</strong></p>
+<ol>
+  <li><a href="#item-ai-news-1">llama.cpp v1.0.0 发布，强化本地 AI 生态基础设施</a> ⭐️ 9.0/10</li>
+  <li><a href="#item-ai-news-2">Qwen3.5-9B 在 PS4 GPU 上离线运行，达 31-39 tok/s</a> ⭐️ 9.0/10</li>
+  <li><a href="#item-ai-news-3">使用 NVIDIA SimReady 资产构建机器人拾取放置仿真教程</a> ⭐️ 8.0/10</li>
+  <li><a href="#item-ai-news-4">datasette-cluster-map 0.19 发布，适配 Datasette 1.0a42 并修复 OSM 瓦片署名</a> ⭐️ 7.0/10</li>
+  <li><a href="#item-ai-news-5">datasette-leaflet 0.3 修复 OpenStreetMap 瓦片请求 Referrer 策略问题</a> ⭐️ 6.0/10</li>
+</ol>
+
+<p><strong>X / YouTube 热门</strong></p>
+<ol>
+  <li><a href="#item-social-hot-1">Git 与 GitHub 入门完整教程 (2026)</a> ⭐️ 8.0/10</li>
+</ol>
+
+<hr />
+
+<h2 id="github-ai-开发工具">GitHub AI 开发工具</h2>
+
+<p><a id="item-gh-trending-1"></a></p>
+<h3 id="alibabaopen-code-review混合代码审查工具确定性流水线--llm-️-9010"><a href="https://github.com/alibaba/open-code-review">alibaba/open-code-review：混合代码审查工具（确定性流水线 + LLM）</a> ⭐️ 9.0/10</h3>
+
+<p>alibaba/open-code-review 是一个混合代码审查工具，结合确定性静态分析流水线与 LLM 智能体，提供精准的行级评论和内置多语言规则集（覆盖空指针、线程安全、XSS、SQL 注入等），兼容 OpenAI 与 Anthropic API。该工具已在阿里巴巴大规模生产环境验证，使用 Go 编写，处于生产就绪阶段。</p>
+
+<p>github · alibaba · 11月14日 03:10</p>
+
+<p><strong>「推荐理由」</strong> 该工具直接切入代码审查环节，用确定性规则与 LLM 相结合的方式替代人工逐行检查，适合追求安全合规与审查效率的中大型研发团队；5 万+ Star 印证其社区活跃度与生产可信度。</p>
+
+<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#code-review</code>, <code class="language-plaintext highlighter-rouge">#static-analysis</code>, <code class="language-plaintext highlighter-rouge">#llm-agent</code>, <code class="language-plaintext highlighter-rouge">#security</code>, <code class="language-plaintext highlighter-rouge">#ci-cd</code></p>
+
+<hr />
+
+<p><a id="item-gh-trending-2"></a></p>
+<h3 id="chromedevtoolschrome-devtools-mcp官方-mcp-服务器让-ai-代理直连-chrome-devtools-️-8010"><a href="https://github.com/ChromeDevTools/chrome-devtools-mcp">ChromeDevTools/chrome-devtools-mcp：官方 MCP 服务器让 AI 代理直连 Chrome DevTools</a> ⭐️ 8.0/10</h3>
+
+<p>这是 Chrome DevTools 官方推出的 MCP（Model Context Protocol）服务器，将 Chrome DevTools Protocol 暴露给 AI 编码代理，使其在 IDE 内即可进行 DOM 检查、网络监控、JavaScript 调试和性能分析。项目使用 TypeScript 实现，填补了 AI 辅助 Web 开发中缺乏浏览器原生调试能力的空白。目前已获 5.5 万星且日增 67 星，属于可用且活跃维护阶段。</p>
+
+<p>github · ChromeDevTools · 11月14日 03:10</p>
+
+<p><strong>「推荐理由」</strong> 它落在“写码与调试”环节，让 AI 代理直接获得浏览器运行时上下文，替代了人工在 DevTools 面板点击、复制粘贴的繁琐步骤，适合需要在 IDE 内完成端到端 Web 调试的前端工程师和 AI 助手开发者。</p>
+
+<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#mcp</code>, <code class="language-plaintext highlighter-rouge">#chrome-devtools</code>, <code class="language-plaintext highlighter-rouge">#ai-coding-agent</code>, <code class="language-plaintext highlighter-rouge">#browser-debugging</code>, <code class="language-plaintext highlighter-rouge">#developer-tools</code></p>
+
+<hr />
+
+<p><a id="item-gh-trending-3"></a></p>
+<h3 id="n8n-ion8n-低代码工作流自动化平台内置-ai-与-mcp-支持-️-8010"><a href="https://github.com/n8n-io/n8n">n8n-io/n8n: 低代码工作流自动化平台，内置 AI 与 MCP 支持</a> ⭐️ 8.0/10</h3>
+
+<p>n8n 是一个成熟的低代码工作流自动化平台，提供可视化构建与自定义代码相结合的方式，内置 AI 能力与 MCP 支持，拥有 400+ 集成，支持自托管或云端部署。它解决开发者在集成、自动化、数据流编排上的重复劳动，替代手写胶水代码与手动集成工作。基于 TypeScript 实现，2019 年创建，拥有 21 万星标，文档完善、社区活跃，已达生产就绪成熟度。</p>
+
+<p>github · n8n-io · 11月14日 03:11</p>
+
+<p><strong>「推荐理由」</strong> 它落在「交付/自动化」环节，替代手写集成胶水代码，适合需要构建 AI 增强型自动化流水线的开发者与运维团队；21 万星标与持续活跃的社区证明其可靠性与生态成熟度。</p>
+
+<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#workflow-automation</code>, <code class="language-plaintext highlighter-rouge">#low-code</code>, <code class="language-plaintext highlighter-rouge">#ai-integration</code>, <code class="language-plaintext highlighter-rouge">#mcp</code>, <code class="language-plaintext highlighter-rouge">#self-hosted</code></p>
+
+<hr />
+
+<p><a id="item-gh-trending-4"></a></p>
+<h3 id="can1357oh-my-pi-ide-集成的-ai-编码代理-️-7010"><a href="https://github.com/can1357/oh-my-pi">can1357/oh-my-pi: IDE 集成的 AI 编码代理</a> ⭐️ 7.0/10</h3>
+
+<p>oh-my-pi 是一个集成在 IDE 中的 AI 编码代理，由 Stencil Labs 开发，支持通过 CLI 调用 OpenAI、Anthropic 等多提供商大模型。项目主语言为 TypeScript 并包含 Rust 组件，目前有 3.9 万星但开放问题达 4825 个，且仓库元数据出现未来日期，成熟度仍处于实验性阶段，需谨慎评估。</p>
+
+<p>github · can1357 · 11月14日 03:11</p>
+
+<p><strong>「推荐理由」</strong> 适合在编写代码阶段寻求 IDE 原生 AI 辅助的开发者，提供多模型切换的 CLI 工作流，可作为现有编码助手的替代或补充；3.9 万星表明社区关注度高，但高开放问题数提示需自行验证可用性。</p>
+
+<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#ai-coding-agent</code>, <code class="language-plaintext highlighter-rouge">#ide-integration</code>, <code class="language-plaintext highlighter-rouge">#multi-provider-llm</code>, <code class="language-plaintext highlighter-rouge">#cli-tool</code>, <code class="language-plaintext highlighter-rouge">#typescript</code></p>
+
+<hr />
+
+<p><a id="item-gh-trending-5"></a></p>
+<h3 id="muaaz9329cheap-ag为-claude-code-与-codex-提供低成本模型的-mcp-服务器-️-7010"><a href="https://github.com/muaaz9329/cheap-ag">muaaz9329/cheap-ag：为 Claude Code 与 Codex 提供低成本模型的 MCP 服务器</a> ⭐️ 7.0/10</h3>
+
+<p>cheap-ag 是一个 TypeScript 编写的 MCP 服务器，让 Claude Code 和 Codex 通过接入低成本模型（如 DeepSeek）生成代码，再由测试决定是否合并，从而缓解 $20 套餐的用量限制。项目于 2026 年 10 月创建，近期仍有提交，处于早期可用阶段，社区验证尚需时间。</p>
+
+<p>github · muaaz9329 · 11月14日 03:11</p>
+
+<p><strong>「推荐理由」</strong> 它落在代码生成与测试把关环节，替代昂贵模型的全部写码工作，适合受 $20 套餐额度限制的开发者；330 颗星显示有一定关注度。</p>
+
+<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#agentic-coding</code>, <code class="language-plaintext highlighter-rouge">#cost-optimization</code>, <code class="language-plaintext highlighter-rouge">#claude-code</code>, <code class="language-plaintext highlighter-rouge">#mcp-server</code>, <code class="language-plaintext highlighter-rouge">#deepseek</code></p>
+
+<hr />
+
+<p><a id="item-gh-trending-6"></a></p>
+<h3 id="backnotpropplannotatorai-代理协作工作区规划标注与代码审查一体化-️-6010"><a href="https://github.com/backnotprop/plannotator">backnotprop/plannotator：AI 代理协作工作区，规划、标注与代码审查一体化</a> ⭐️ 6.0/10</h3>
+
+<p>plannotator 是一个 TypeScript 实现的工作区，旨在让开发者在 AI 代理参与的开发循环中保持掌控：规划任务、标注代码、审查变更、团队共享，并一键将反馈回传给代理。它定位于上下文供给与代码审查环节，试图解决人机协作时的上下文碎片化与反馈闭环问题。目前仅有简介与星标数据，缺乏代码、文档与可复现性验证，成熟度处于早期实验阶段。</p>
+
+<p>github · backnotprop · 11月14日 03:10</p>
+
+<p><strong>「推荐理由」</strong> 它直接切中 AI 辅助开发中「人在回路」的痛点，把规划、标注、审查、反馈回传集成在单一工作区，适合正在探索多代理协作流程的团队或个人先行试用；10.5k 星标显示社区关注度高，但实际可用性仍需自行评估。</p>
+
+<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#AI-assisted development</code>, <code class="language-plaintext highlighter-rouge">#code review</code>, <code class="language-plaintext highlighter-rouge">#agent management</code>, <code class="language-plaintext highlighter-rouge">#developer tools</code>, <code class="language-plaintext highlighter-rouge">#human-AI collaboration</code></p>
+
+<hr />
+
+<p><a id="item-gh-trending-7"></a></p>
+<h3 id="rudderlabsdevbox自主编码代理的云端隔离沙箱工具-️-6010"><a href="https://github.com/rudderlabs/devbox">rudderlabs/devbox：自主编码代理的云端隔离沙箱工具</a> ⭐️ 6.0/10</h3>
+
+<p>rudderlabs/devbox 是一个早期开源的 TypeScript 工具，为自主编码代理提供每任务一个的隔离云端沙箱，并保护真实密钥不进入沙箱。它解决 AI 代理在执行代码任务时的环境隔离与密钥安全问题，目前处于实验性、刚发布阶段（创建于 2026-10-27，最近推送 2026-11-12）。</p>
+
+<p>github · rudderlabs · 11月14日 03:11</p>
+
+<p><strong>「推荐理由」</strong> 它落在“上下文供给/代码执行”环节，为需要在云端安全运行自主编码代理的团队提供开箱即用的沙箱隔离与密钥保护，替代自建容器或手动配置环境的繁琐步骤；335 颗星与近期活跃提交显示社区已开始关注。</p>
+
+<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#agentic-coding</code>, <code class="language-plaintext highlighter-rouge">#agent-sandbox</code>, <code class="language-plaintext highlighter-rouge">#autonomous-agents</code>, <code class="language-plaintext highlighter-rouge">#developer-productivity</code>, <code class="language-plaintext highlighter-rouge">#security</code></p>
+
+<hr />
+
+<p><a id="item-gh-trending-8"></a></p>
+<h3 id="googlechromemodern-web-guidance-src为-ai-编码代理提供最新-web-最佳实践指导-️-5010"><a href="https://github.com/GoogleChrome/modern-web-guidance-src">GoogleChrome/modern-web-guidance-src：为 AI 编码代理提供最新 Web 最佳实践指导</a> ⭐️ 5.0/10</h3>
+
+<p>该仓库旨在为 AI 编码代理提供持续更新的 Web 开发最佳实践知识库，解决 AI 助手因训练数据滞后而给出过时建议的问题。项目由 GoogleChrome 组织维护，使用 TypeScript 实现，目前处于早期发布阶段，公开的代码、文档与使用示例尚不足以判断其成熟度与可用性。</p>
+
+<p>github · GoogleChrome · 11月14日 03:10</p>
+
+<p><strong>「推荐理由」</strong> 它定位于开发流程的上下文供给环节，试图替代开发者手动查阅最新规范或依赖过时模型知识的步骤，适合希望让 AI 助手输出更符合现代 Web 标准代码的前端工程师与 AI 工具构建者；今日新增 1,925 颗星（累计 4,952）显示社区关注度高，但实际落地效果仍需进一步验证。</p>
+
+<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#AI-coding-assistant</code>, <code class="language-plaintext highlighter-rouge">#web-best-practices</code>, <code class="language-plaintext highlighter-rouge">#context-provision</code>, <code class="language-plaintext highlighter-rouge">#developer-tools</code>, <code class="language-plaintext highlighter-rouge">#TypeScript</code></p>
+
+<hr />
+
+<h2 id="ai-热门新闻">AI 热门新闻</h2>
+
+<p><a id="item-ai-news-1"></a></p>
+<h3 id="llamacpp-v100-发布强化本地-ai-生态基础设施-️-9010"><a href="https://huggingface.co/blog/ggml-org/llama-cpp-v1">llama.cpp v1.0.0 发布，强化本地 AI 生态基础设施</a> ⭐️ 9.0/10</h3>
+
+<p>Hugging Face 官方博客宣布 llama.cpp 正式发布 v1.0.0 版本，承诺覆盖所有平台与模型类型，同时保持核心库精简稳健以支持下游应用。同步推出基于 llama.cpp 的 Llama 桌面应用（llama.app），旨在将本地 AI 部署门槛降至几次点击。该版本为官方发布且已可用，非预告或测试版。</p>
+
+<p>rss · Hugging Face Blog · 11月13日 14:05</p>
+
+<p><strong>「实用价值」</strong> 本地部署 LLM 的开发者可直接升级到 v1.0.0 获得更稳定的跨平台推理基础；想快速体验本地模型的非技术用户可前往 llama.app 下载桌面应用，无需命令行即可运行。</p>
+
+<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#llama.cpp</code>, <code class="language-plaintext highlighter-rouge">#local LLM</code>, <code class="language-plaintext highlighter-rouge">#C++ inference</code>, <code class="language-plaintext highlighter-rouge">#GGML</code>, <code class="language-plaintext highlighter-rouge">#release announcement</code></p>
+
+<hr />
+
+<p><a id="item-ai-news-2"></a></p>
+<h3 id="qwen35-9b-在-ps4-gpu-上离线运行达-31-39-toks-️-9010"><a href="https://www.reddit.com/r/LocalLLaMA/comments/1xvbn2m/qwen359b_running_on_a_ps4s_gpu_offline_using_its/">Qwen3.5-9B 在 PS4 GPU 上离线运行，达 31-39 tok/s</a> ⭐️ 9.0/10</h3>
+
+<p>开发者 /u/leonardo_alegria 发布开源项目 garlic-llm，在原版 PS4 GPU 上离线运行 Qwen3.5-9B，速度达到 31–39 token/秒。关键优化是利用 Qwen3.5 自带的 MTP（多 token 预测）头进行推测解码：草稿最多两个 token，完整模型一次前向传播验证，将速度从 22 tok/s 提升到 31–39 tok/s。权重采用自定义 4-bit 与 3-bit 量化打包，模型体积约 4.5 GiB，可完全放入 PS4 显存。无需云端、订阅或 Linux 系统，代码与模型权重已开源免费，GitHub 地址：https://github.com/leonardo-alegria/garlic-llm，Hugging Face 直链：https://huggingface.co/garlic-llm/garlic-llm-ps4。</p>
+
+<p>reddit · r/LocalLLaMA · /u/leonardo_alegria · 11月13日 16:00</p>
+
+<p><strong>「实用价值」</strong> 手头有闲置 PS4 的开发者或爱好者可立即下载 garlic-llm 并在主机上直接运行 9B 级大模型，实现离线对话、代码生成等任务，首要步骤是从 Hugging Face 下载量化权重并按 GitHub 说明部署。</p>
+
+<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#local-llm</code>, <code class="language-plaintext highlighter-rouge">#ps4</code>, <code class="language-plaintext highlighter-rouge">#qwen</code>, <code class="language-plaintext highlighter-rouge">#speculative-decoding</code>, <code class="language-plaintext highlighter-rouge">#quantization</code></p>
+
+<hr />
+
+<p><a id="item-ai-news-3"></a></p>
+<h3 id="使用-nvidia-simready-资产构建机器人拾取放置仿真教程-️-8010"><a href="https://huggingface.co/blog/nvidia/simready-assets-robot-pick-and-place">使用 NVIDIA SimReady 资产构建机器人拾取放置仿真教程</a> ⭐️ 8.0/10</h3>
+
+<p>Hugging Face 博客发布实操教程，演示如何使用 NVIDIA SimReady 资产构建机器人拾取放置仿真。教程可能包含具体步骤、资产引用和代码示例。由于未获取全文，版本号、获取方式、限制条件等细节无法核实。</p>
+
+<p>rss · Hugging Face Blog · 11月13日 18:00</p>
+
+<p><strong>「实用价值」</strong> 面向机器人仿真开发者和 AI 研究者，可用于快速搭建拾取放置任务验证环境；首要步骤是访问 Hugging Face 博客链接跟随教程实操。</p>
+
+<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#robotics</code>, <code class="language-plaintext highlighter-rouge">#simulation</code>, <code class="language-plaintext highlighter-rouge">#NVIDIA</code>, <code class="language-plaintext highlighter-rouge">#SimReady</code>, <code class="language-plaintext highlighter-rouge">#pick-and-place</code></p>
+
+<hr />
+
+<p><a id="item-ai-news-4"></a></p>
+<h3 id="datasette-cluster-map-019-发布适配-datasette-10a42-并修复-osm-瓦片署名-️-7010"><a href="https://simonwillison.net/2026/Nov/13/datasette-cluster-map/">datasette-cluster-map 0.19 发布，适配 Datasette 1.0a42 并修复 OSM 瓦片署名</a> ⭐️ 7.0/10</h3>
+
+<p>Simon Willison 发布 datasette-cluster-map 0.19，该插件现兼容 Datasette 1.0a42，并新增对 datasette-leaflet 的依赖，以确保 OpenStreetMap 瓦片请求携带 Referer 头完成正确署名。作者提供了一个在线演示：展示加州 PG&amp;E 电厂的聚类地图，同时演示了 Datasette 新重设计的分面界面。GitHub 发布页已可访问。</p>
+
+<p>rss · Simon Willison · 11月13日 23:02</p>
+
+<p><strong>「实用价值」</strong> 使用 Datasette 做地理数据聚类展示的开发者可直接升级到 0.19 版本，配合 datasette-leaflet 即可合规使用 OSM 瓦片；第一步是通过 pip 安装或更新该插件及其新依赖，随后在 Datasette 1.0a42 以上环境中启用即可。</p>
+
+<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#datasette</code>, <code class="language-plaintext highlighter-rouge">#plugin</code>, <code class="language-plaintext highlighter-rouge">#mapping</code>, <code class="language-plaintext highlighter-rouge">#leaflet</code>, <code class="language-plaintext highlighter-rouge">#release</code></p>
+
+<hr />
+
+<p><a id="item-ai-news-5"></a></p>
+<h3 id="datasette-leaflet-03-修复-openstreetmap-瓦片请求-referrer-策略问题-️-6010"><a href="https://simonwillison.net/2026/Nov/13/datasette-leaflet/">datasette-leaflet 0.3 修复 OpenStreetMap 瓦片请求 Referrer 策略问题</a> ⭐️ 6.0/10</h3>
+
+<p>Simon Willison 发布 datasette-leaflet 0.3，修复了 Datasette 映射插件在请求 OpenStreetMap 瓦片时违反 OSM 使用政策的问题。此前 Datasette 表格页面发送 `Referrer-Policy: no-referrer` 头，导致依赖 Leaflet 的插件无法正确发送 Referrer。新版本在瓦片请求层面将策略改为 `strict-origin-when-cross-origin`，仅传递主机名而非完整路径，符合 OSM 要求。</p>
+
+<p>rss · Simon Willison · 11月13日 22:30</p>
+
+<p><strong>「影响与行动」</strong> 仅对使用 Datasette 且依赖 Leaflet 类映射插件（如 datasette-cluster-map、datasette-leaflet-geojson）的开发者有影响。升级到 0.3 即可自动修复瓦片加载被拦截的问题，无需修改业务代码。</p>
+
+<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#datasette</code>, <code class="language-plaintext highlighter-rouge">#leaflet</code>, <code class="language-plaintext highlighter-rouge">#openstreetmap</code>, <code class="language-plaintext highlighter-rouge">#plugin</code>, <code class="language-plaintext highlighter-rouge">#referrer-policy</code></p>
+
+<hr />
+
+<h2 id="x--youtube-热门">X / YouTube 热门</h2>
+
+<p><a id="item-social-hot-1"></a></p>
+<h3 id="git-与-github-入门完整教程-2026-️-8010"><a href="https://www.youtube.com/watch?v=h2a3Kw-I_Ec">Git 与 GitHub 入门完整教程 (2026)</a> ⭐️ 8.0/10</h3>
+
+<p>该视频是 Coder Coder 频道发布的 56 分钟 Git 与 GitHub 入门完整教程，涵盖初始化仓库、提交、推送、拉取、分支管理及拉取请求等核心工作流。内容基于标题与简介推断，适合零基础开发者跟随实操。</p>
+
+<p>youtube · GitHub · 11月14日 03:11</p>
+
+<p><strong>「推荐理由」</strong> 视频播放量已超 10 万，说明其作为基础教程受欢迎程度高；观众可直接学会日常开发中最常用的 Git 命令与 GitHub 协作流程，上手即用。</p>
+
+<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#git</code>, <code class="language-plaintext highlighter-rouge">#github</code>, <code class="language-plaintext highlighter-rouge">#tutorial</code>, <code class="language-plaintext highlighter-rouge">#version-control</code>, <code class="language-plaintext highlighter-rouge">#beginner</code></p>
+
+<hr />]]></content><author><name></name></author><summary type="html"><![CDATA[今日抓取 119 条内容，收录 14 条。]]></summary></entry><entry xml:lang="en"><title type="html">Horizon Summary: 2026-11-13 (EN)</title><link href="https://www.01040610.xyz/horizon/2026/11/13/summary-en.html" rel="alternate" type="text/html" title="Horizon Summary: 2026-11-13 (EN)" /><published>2026-11-13T00:00:00+00:00</published><updated>2026-11-13T00:00:00+00:00</updated><id>https://www.01040610.xyz/horizon/2026/11/13/summary-en</id><content type="html" xml:base="https://www.01040610.xyz/horizon/2026/11/13/summary-en.html"><![CDATA[<blockquote>
   <p>Showing 27 of 137 fetched items.</p>
 </blockquote>
 
@@ -2016,348 +2456,4 @@
 
 <p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#GitHub Actions</code>, <code class="language-plaintext highlighter-rouge">#CI/CD</code>, <code class="language-plaintext highlighter-rouge">#DevOps</code>, <code class="language-plaintext highlighter-rouge">#教程</code>, <code class="language-plaintext highlighter-rouge">#自动化</code></p>
 
-<hr />]]></content><author><name></name></author><summary type="html"><![CDATA[今日抓取 135 条内容，收录 11 条。]]></summary></entry><entry xml:lang="en"><title type="html">Horizon Summary: 2026-11-09 (EN)</title><link href="https://www.01040610.xyz/horizon/2026/11/09/summary-en.html" rel="alternate" type="text/html" title="Horizon Summary: 2026-11-09 (EN)" /><published>2026-11-09T00:00:00+00:00</published><updated>2026-11-09T00:00:00+00:00</updated><id>https://www.01040610.xyz/horizon/2026/11/09/summary-en</id><content type="html" xml:base="https://www.01040610.xyz/horizon/2026/11/09/summary-en.html"><![CDATA[<blockquote>
-  <p>Showing 11 of 88 fetched items.</p>
-</blockquote>
-
-<hr />
-
-<p><strong>AI Dev Tools</strong></p>
-<ol>
-  <li><a href="#item-gh-trending-1">microsoft/TokenEconomizer: Cost controller for AI coding agents</a> ⭐️ 8.0/10</li>
-  <li><a href="#item-gh-trending-2">ruvnet/ruflo: Multi-agent orchestration harness with coding agent integrations</a> ⭐️ 6.0/10</li>
-  <li><a href="#item-gh-trending-3">activepieces/activepieces: AI workflow automation platform with 400+ MCP servers</a> ⭐️ 6.0/10</li>
-</ol>
-
-<p><strong>AI News</strong></p>
-<ol>
-  <li><a href="#item-ai-news-1">KetchUp: Open-source SketchUp alternative in Rust and WebGPU</a> ⭐️ 9.0/10</li>
-  <li><a href="#item-ai-news-2">llama-modchip claims 284B DeepSeek on 64GB RAM CPU-only</a> ⭐️ 7.0/10</li>
-  <li><a href="#item-ai-news-3">MoE Routing Comparison: DeepSeek, Qwen, Mixtral, Llama 4, gpt-oss</a> ⭐️ 7.0/10</li>
-  <li><a href="#item-ai-news-4">Simon Willison compares C vs Rust for SQLite parse_number() extension with benchmarks</a> ⭐️ 7.0/10</li>
-  <li><a href="#item-ai-news-5">llm-beliefs: Open-source tool maps LLM censorship responses by country</a> ⭐️ 7.0/10</li>
-  <li><a href="#item-ai-news-6">Qwen3.8 Flash Next quantized model generates three.js motion graphics locally on RTX 4080</a> ⭐️ 7.0/10</li>
-  <li><a href="#item-ai-news-7">4×R9700 LLM server benchmarks: ~190 tok/s single-user, multi-user up to 8×128K</a> ⭐️ 6.0/10</li>
-  <li><a href="#item-ai-news-8">Reddit user benchmarks Intel Arc Pro B70 32GB at ~1/2 RTX 5090 gen speed for 1/5 price on Qwen3.8-27B</a> ⭐️ 6.0/10</li>
-</ol>
-
-<hr />
-
-<h2 id="ai-dev-tools">AI Dev Tools</h2>
-
-<p><a id="item-gh-trending-1"></a></p>
-<h3 id="microsofttokeneconomizer-cost-controller-for-ai-coding-agents-️-8010"><a href="https://github.com/microsoft/TokenEconomizer">microsoft/TokenEconomizer: Cost controller for AI coding agents</a> ⭐️ 8.0/10</h3>
-
-<p>TokenEconomizer is a Python-based, experience-driven cost controller that reduces token spend for AI coding agents such as Claude Code and Codex without degrading output quality. It operates as a black-box optimizer that wraps agentic coding workflows to cut API costs, targeting teams adopting AI-assisted development at scale. The project is actively maintained with recent pushes and over 5,000 stars, indicating early production readiness.</p>
-
-<p>github · microsoft · Nov 9, 02:38</p>
-
-<p><strong>「Why Recommended」</strong> It plugs into the inference-cost step of agentic coding pipelines, replacing manual prompt-tuning or hard token caps with an automated, experience-driven optimizer. Teams running Claude Code, Codex, or similar agents in CI/CD or daily workflows can drop it in to lower spend while preserving code quality.</p>
-
-<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#ai-coding-assistant</code>, <code class="language-plaintext highlighter-rouge">#cost-optimization</code>, <code class="language-plaintext highlighter-rouge">#agentic-coding</code>, <code class="language-plaintext highlighter-rouge">#token-management</code>, <code class="language-plaintext highlighter-rouge">#developer-productivity</code></p>
-
-<hr />
-
-<p><a id="item-gh-trending-2"></a></p>
-<h3 id="ruvnetruflo-multi-agent-orchestration-harness-with-coding-agent-integrations-️-6010"><a href="https://github.com/ruvnet/ruflo">ruvnet/ruflo: Multi-agent orchestration harness with coding agent integrations</a> ⭐️ 6.0/10</h3>
-
-<p>ruflo is a TypeScript-based agentic framework for orchestrating multi-agent swarms, autonomous workflows, and conversational AI systems. It integrates coding agents such as Claude Code, Codex, and Hermes alongside features like adaptive memory, vector RAG, and federation. The project has high star count (81k) and recent activity, but 619 open issues and marketing-oriented language suggest maturity and documentation completeness remain unproven.</p>
-
-<p>github · ruvnet · Nov 9, 02:38</p>
-
-<p><strong>「Why Recommended」</strong> It targets the context-supply and orchestration layer of AI-assisted development, letting teams wire multiple coding agents into collaborative workflows rather than using a single assistant. Developers evaluating agent-harness infrastructure for custom multi-agent pipelines may find it relevant, though the broad scope means adoption cost should be assessed against narrower dev-loop tools.</p>
-
-<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#agentic-framework</code>, <code class="language-plaintext highlighter-rouge">#ai-agents</code>, <code class="language-plaintext highlighter-rouge">#typescript</code>, <code class="language-plaintext highlighter-rouge">#claude-code</code>, <code class="language-plaintext highlighter-rouge">#codex</code></p>
-
-<hr />
-
-<p><a id="item-gh-trending-3"></a></p>
-<h3 id="activepiecesactivepieces-ai-workflow-automation-platform-with-400-mcp-servers-️-6010"><a href="https://github.com/activepieces/activepieces">activepieces/activepieces: AI workflow automation platform with 400+ MCP servers</a> ⭐️ 6.0/10</h3>
-
-<p>Activepieces is an AI workflow automation platform offering over 400 MCP servers for building AI agents and workflows, positioned as an n8n alternative. It enables developers to create custom AI automation without code, using TypeScript. The project is mature with 25k stars and active development.</p>
-
-<p>github · activepieces · Nov 9, 02:38</p>
-
-<p><strong>「Why Recommended」</strong> It fits the automation and AI agent building stage, replacing manual workflow wiring with a no-code/low-code platform for AI agents. Suitable for developers who need to orchestrate AI agents via MCP servers, though not a direct coding productivity tool.</p>
-
-<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#ai-agent</code>, <code class="language-plaintext highlighter-rouge">#mcp</code>, <code class="language-plaintext highlighter-rouge">#workflow-automation</code>, <code class="language-plaintext highlighter-rouge">#no-code</code>, <code class="language-plaintext highlighter-rouge">#typescript</code></p>
-
-<hr />
-
-<h2 id="ai-news">AI News</h2>
-
-<p><a id="item-ai-news-1"></a></p>
-<h3 id="ketchup-open-source-sketchup-alternative-in-rust-and-webgpu-️-9010"><a href="https://ketchup3d.github.io/app/">KetchUp: Open-source SketchUp alternative in Rust and WebGPU</a> ⭐️ 9.0/10</h3>
-
-<p>KetchUp is an open-source, browser-based 3D modeler built with Rust and WebGPU that runs immediately at https://ketchup3d.github.io/app/ with no installation or cost. It targets casual SketchUp users who need a free alternative for occasional modeling work. Community comments confirm it is usable for real modeling tasks, though trackpad navigation is not yet supported (mouse-only). The project is functional and accessible today, not a preview or announcement.</p>
-
-<p>hackernews · dcoulmbe · Nov 8, 22:35 · <a href="https://news.ycombinator.com/item?id=50418176">Discussion</a></p>
-
-<p><strong>「Why it matters」</strong> If you use SketchUp occasionally and cannot justify a subscription, KetchUp gives you a free, zero-install option you can try right now. Software engineers interested in Rust/WebGPU cross-platform apps can also inspect a working, non-trivial example. First step: open the link and start modeling to see if it covers your workflow.</p>
-
-<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#3D-modeling</code>, <code class="language-plaintext highlighter-rouge">#Rust</code>, <code class="language-plaintext highlighter-rouge">#WebGPU</code>, <code class="language-plaintext highlighter-rouge">#open-source</code>, <code class="language-plaintext highlighter-rouge">#SketchUp-alternative</code></p>
-
-<hr />
-
-<p><a id="item-ai-news-2"></a></p>
-<h3 id="llama-modchip-claims-284b-deepseek-on-64gb-ram-cpu-only-️-7010"><a href="https://github.com/synchopate/llama-modchip">llama-modchip claims 284B DeepSeek on 64GB RAM CPU-only</a> ⭐️ 7.0/10</h3>
-
-<p>A GitHub project named llama-modchip (by synchopate) claims to run a 284B-parameter DeepSeek model on 64GB of system RAM without a GPU. The repository was shared on Hacker News on 2026-11-08. Community discussion highlights that quantization details are not clearly documented, one commenter questions whether the repository actually functions, and another reports performance similar to llama.cpp on CPU except for faster prefill. The project remains unverified and requires hands-on testing.</p>
-
-<p>hackernews · joshcsimmons · Nov 8, 10:22 · <a href="https://news.ycombinator.com/item?id=50411961">Discussion</a></p>
-
-<p><strong>「Why it matters」</strong> If the claims hold, this would lower the hardware barrier for running a 284B model locally, appealing to practitioners who lack GPU resources. The immediate next step is to clone the repository, examine the quantization configuration, and run benchmarks to verify whether the model loads and generates at usable speeds on 64GB RAM. Until then, treat the project as an unproven experiment rather than a production-ready solution.</p>
-
-<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#llm-inference</code>, <code class="language-plaintext highlighter-rouge">#cpu-inference</code>, <code class="language-plaintext highlighter-rouge">#model-quantization</code>, <code class="language-plaintext highlighter-rouge">#local-llm</code>, <code class="language-plaintext highlighter-rouge">#deepseek</code></p>
-
-<hr />
-
-<p><a id="item-ai-news-3"></a></p>
-<h3 id="moe-routing-comparison-deepseek-qwen-mixtral-llama-4-gpt-oss-️-7010"><a href="https://www.marktechpost.com/2026/11/08/moe-model-routing-comparison/">MoE Routing Comparison: DeepSeek, Qwen, Mixtral, Llama 4, gpt-oss</a> ⭐️ 7.0/10</h3>
-
-<p>The MarkTechPost article presents a config-verified comparison of token routing mechanisms across 10 open Mixture-of-Experts models including DeepSeek, Qwen, Mixtral, Llama 4, and gpt-oss. It details total and active parameters, expert counts, top-k values, shared experts, gating functions, and load-balancing methods for each model. The analysis is based on verified configuration data, providing practitioners with concrete reference material for model selection and architecture decisions.</p>
-
-<p>rss · MarkTechPost · Nov 8, 10:27</p>
-
-<p><strong>「Why It Matters」</strong> Engineers evaluating open MoE models can use this comparison to quickly assess routing trade-offs and choose a model matching their latency, memory, or quality requirements; the first step is to review the table for the specific models under consideration.</p>
-
-<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#MoE</code>, <code class="language-plaintext highlighter-rouge">#routing</code>, <code class="language-plaintext highlighter-rouge">#model-comparison</code>, <code class="language-plaintext highlighter-rouge">#LLM-architecture</code>, <code class="language-plaintext highlighter-rouge">#open-models</code></p>
-
-<hr />
-
-<p><a id="item-ai-news-4"></a></p>
-<h3 id="simon-willison-compares-c-vs-rust-for-sqlite-parse_number-extension-with-benchmarks-️-7010"><a href="https://simonwillison.net/2026/Nov/8/sqlite-parse-number-c-vs-rust/">Simon Willison compares C vs Rust for SQLite parse_number() extension with benchmarks</a> ⭐️ 7.0/10</h3>
-
-<p>Simon Willison published a research report comparing C and Rust implementations of a parse_number() SQLite extension that converts strings like &#x27;-$1,234.56&#x27; or &#x27;12.5%&#x27; to numeric values. Using Claude Opus 5.5, he built three versions: a C extension (14 KB), a Rust extension with rusqlite (321 KB), and one with sqlite-loadable-rs (298 KB). Initial benchmarks showed Rust was faster due to a faster strtod equivalent. After optimizing the C parser, the new C version outperformed both Rust implementations across 2 million rows: 19 ns/row (mixed data) vs 46/41 ns, 16 ns (integers) vs 36/32 ns, and 18 ns (decimals) vs 55/47 ns. The complete code and report are available at github.com/simonw/research/tree/main/sqlite-parse-number-c-vs-rust.</p>
-
-<p>rss · Simon Willison · Nov 8, 22:26</p>
-
-<p><strong>「Why it matters」</strong> Developers building SQLite extensions can directly examine both C and Rust implementations, run the benchmarks, and apply the optimization patterns. The repository provides runnable code showing that a well-optimized C extension can be both smaller (14 KB vs 298+ KB) and faster than Rust alternatives for numeric parsing workloads, challenging assumptions about Rust&#x27;s performance advantage in this specific context.</p>
-
-<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#sqlite</code>, <code class="language-plaintext highlighter-rouge">#rust</code>, <code class="language-plaintext highlighter-rouge">#c</code>, <code class="language-plaintext highlighter-rouge">#extensions</code>, <code class="language-plaintext highlighter-rouge">#performance</code></p>
-
-<hr />
-
-<p><a id="item-ai-news-5"></a></p>
-<h3 id="llm-beliefs-open-source-tool-maps-llm-censorship-responses-by-country-️-7010"><a href="https://www.reddit.com/r/LocalLLaMA/comments/1xr09nq/does_censorship_exist_in_country_according_to/">llm-beliefs: Open-source tool maps LLM censorship responses by country</a> ⭐️ 7.0/10</h3>
-
-<p>A Reddit user shared llm-beliefs, an open-source program that asks a yes/no censorship question for every country to a language model and generates an SVG world map of the responses. The GitHub repository (github.com/p-e-w/llm-beliefs) provides runnable code for local testing, enabling practitioners to audit model biases directly. The author notes surprise at the results, though specific model outputs are not detailed in the post.</p>
-
-<p>reddit · r/LocalLLaMA · /u/-p-e-w- · Nov 8, 14:56</p>
-
-<p><strong>「Why it matters」</strong> LLM evaluators and red-teamers can clone the repo, run it against local or API models, and immediately visualize geographic censorship patterns — useful for bias audits, compliance checks, and comparing model behavior across jurisdictions. First step: clone the repository and follow its installation instructions to test a model of choice.</p>
-
-<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#LLM-evaluation</code>, <code class="language-plaintext highlighter-rouge">#bias-testing</code>, <code class="language-plaintext highlighter-rouge">#censorship-analysis</code>, <code class="language-plaintext highlighter-rouge">#visualization</code>, <code class="language-plaintext highlighter-rouge">#open-source-tool</code></p>
-
-<hr />
-
-<p><a id="item-ai-news-6"></a></p>
-<h3 id="qwen38-flash-next-quantized-model-generates-threejs-motion-graphics-locally-on-rtx-4080-️-7010"><a href="https://www.reddit.com/r/LocalLLaMA/comments/1xr3qes/motion_graphics_video_made_with_qwen38_flash_next/">Qwen3.8 Flash Next quantized model generates three.js motion graphics locally on RTX 4080</a> ⭐️ 7.0/10</h3>
-
-<p>Reddit user /u/Yhojm demonstrates a complete local pipeline that uses the quantized Qwen3.8 Flash Next GSQ RCO IQ3_XXS model on an RTX 4080 (16 GB VRAM) with 64 GB DDR5 to generate a 15-second, 1080p60 three.js train showreel. The workflow instructs the model to write three.js code, render frames via Playwright, and encode to MP4 with ffmpeg. First render took ~40 minutes at ~95 tokens/s decode and ~3000 tokens/s prefill; three follow-up prompts fixed lighting, missing buildings, and excess text, totaling ~2 hours. No public video or repository is linked for independent verification.</p>
-
-<p>reddit · r/LocalLLaMA · /u/Yhojm · Nov 8, 17:23</p>
-
-<p><strong>「Why it matters」</strong> Developers with a 16 GB VRAM GPU can replicate a fully local, code-driven motion-graphics pipeline today — no API keys, no duration limits, and the three.js/Playwright/ffmpeg stack is directly actionable. First step: install strata and opencode, pull the IQ3_XXS quantization, and run the prompt recipe from the post to produce a short test clip.</p>
-
-<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#local-LLM</code>, <code class="language-plaintext highlighter-rouge">#code-generation</code>, <code class="language-plaintext highlighter-rouge">#three.js</code>, <code class="language-plaintext highlighter-rouge">#video-generation</code>, <code class="language-plaintext highlighter-rouge">#quantized-models</code></p>
-
-<hr />
-
-<p><a id="item-ai-news-7"></a></p>
-<h3 id="4r9700-llm-server-benchmarks-190-toks-single-user-multi-user-up-to-8128k-️-6010"><a href="https://www.reddit.com/r/LocalLLaMA/comments/1xrcia4/joined_the_4x_r9700_club_initial_benchmarks_for/">4×R9700 LLM server benchmarks: ~190 tok/s single-user, multi-user up to 8×128K</a> ⭐️ 6.0/10</h3>
-
-<p>Reddit user /u/Anarchaotic posted real-world benchmarks for a 4×AMD Radeon R9700 (workstation GPU) inference server built for ~$16K CAD. The system runs Qwen 3.8 Flash Next quantized to 4-bit (qwen3.8-next-flash-fp8-iq4r-moe.rad) via Radiance v1.17.0 on Ubuntu 26.04 with ROCm 10.1, using tensor parallelism across 4 GPUs (TP=4). Single-user generation reaches ~190 tok/s; prefill throughput stays around 6,800 tok/s total regardless of user count. With 8 concurrent users each sending a fresh 128K prompt, first-token latency is ~2.5 minutes (151 s median), but follow-up turns benefit from 94–99% prefix-cache hits, yielding first tokens in 0.2–2.5 s and per-user write speeds of 80–225 tok/s. Hardware: EPYC 7402P, 128 GB DDR4-2666, 3×Gigabyte + 1×XFX R9700 power-limited to 210 W each, Seasonic 1600 W PSU. The user notes host prefix cache sizing (32 GiB) is critical for multi-user latency.</p>
-
-<p>reddit · r/LocalLLaMA · /u/Anarchaotic · Nov 8, 23:36</p>
-
-<p><strong>「Why it matters」</strong> This is one of the few public multi-GPU AMD R9700 benchmarks with detailed concurrency and long-context numbers, useful for teams evaluating on-prem inference hardware for sensitive-data workloads. If you are sizing a similar build, the data shows that 4×R9700 at 210 W fits a 17.4 GiB/card model in VRAM, but host RAM must be sized for the prefix cache (32 GiB pinned here) to avoid severe follow-up latency. First step: compare these TP=4 Radiance numbers against your target model/quantization and expected concurrent sessions before committing to the ~$16K CAD outlay.</p>
-
-<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#AMD GPU</code>, <code class="language-plaintext highlighter-rouge">#local LLM</code>, <code class="language-plaintext highlighter-rouge">#benchmark</code>, <code class="language-plaintext highlighter-rouge">#multi-GPU</code>, <code class="language-plaintext highlighter-rouge">#hardware</code></p>
-
-<hr />
-
-<p><a id="item-ai-news-8"></a></p>
-<h3 id="reddit-user-benchmarks-intel-arc-pro-b70-32gb-at-12-rtx-5090-gen-speed-for-15-price-on-qwen38-27b-️-6010"><a href="https://www.reddit.com/r/LocalLLaMA/comments/1xr78s5/intel_arc_pro_b70_32gb_1299_vs_nvidia_rtx_5090/">Reddit user benchmarks Intel Arc Pro B70 32GB at ~1/2 RTX 5090 gen speed for 1/5 price on Qwen3.8-27B</a> ⭐️ 6.0/10</h3>
-
-<p>A Reddit user reports that an Intel Arc Pro B70 32GB ($1,299) achieves roughly 50% generation throughput and 33% prefill throughput of an NVIDIA RTX 5090 ($6,500+ street price) on Qwen3.8-27B Q6 after applying specific software optimizations. The Arc Pro B70 delivered ~52 tok/s generation and ~960 tok/s prefill versus ~98 tok/s and ~2,830 tok/s cited for the RTX 5090 from third-party Hugging Face discussions, not a controlled head-to-head test. Key optimizations included Ubuntu 24.04 with kernel 6.17+, Resizable BAR enabled, Intel compute runtime from a PPA, Mesa 26.x, and running llama.cpp built with SYCL (oneAPI) instead of Vulkan, using q8_0 KV cache and MTP draft decoding. The test system used a Threadripper 1950X on PCIe 3.0, limiting MoE model performance. The user notes the RTX 5090 numbers are from other people&#x27;s posts, not their own hardware, and the Arc results required a day of configuration tuning.</p>
-
-<p>reddit · r/LocalLLaMA · /u/maikerukonare · Nov 8, 19:46</p>
-
-<p><strong>「Why it matters」</strong> Cost-conscious local LLM practitioners who need 32 GB VRAM but cannot access RTX 5090 at MSRP can consider the Arc Pro B70 as a ~$1,300 alternative delivering usable throughput after software tuning, though the comparison is a single unverified data point with RTX 5090 figures sourced from community posts. First step: replicate the software stack (Ubuntu 24.04 HWE kernel, Intel compute runtime PPA, Mesa 26.x, llama.cpp SYCL build) on compatible hardware to verify the claimed 1/2 generation speed at 1/5 cost before committing.</p>
-
-<p><strong>Tags</strong>: <code class="language-plaintext highlighter-rouge">#Intel Arc</code>, <code class="language-plaintext highlighter-rouge">#LLM inference</code>, <code class="language-plaintext highlighter-rouge">#hardware comparison</code>, <code class="language-plaintext highlighter-rouge">#cost optimization</code>, <code class="language-plaintext highlighter-rouge">#local LLM</code></p>
-
-<hr />]]></content><author><name></name></author><summary type="html"><![CDATA[Showing 11 of 88 fetched items.]]></summary></entry><entry xml:lang="zh"><title type="html">Horizon Summary: 2026-11-09 (ZH)</title><link href="https://www.01040610.xyz/horizon/2026/11/09/summary-zh.html" rel="alternate" type="text/html" title="Horizon Summary: 2026-11-09 (ZH)" /><published>2026-11-09T00:00:00+00:00</published><updated>2026-11-09T00:00:00+00:00</updated><id>https://www.01040610.xyz/horizon/2026/11/09/summary-zh</id><content type="html" xml:base="https://www.01040610.xyz/horizon/2026/11/09/summary-zh.html"><![CDATA[<blockquote>
-  <p>今日抓取 88 条内容，收录 11 条。</p>
-</blockquote>
-
-<hr />
-
-<p><strong>GitHub AI 开发工具</strong></p>
-<ol>
-  <li><a href="#item-gh-trending-1">microsoft/TokenEconomizer：AI 编码代理的 Token 成本控制器</a> ⭐️ 8.0/10</li>
-  <li><a href="#item-gh-trending-2">ruvnet/ruflo: 通用多智能体编排框架，集成主流编码代理</a> ⭐️ 6.0/10</li>
-  <li><a href="#item-gh-trending-3">activepieces/activepieces：AI 工作流自动化平台，400+ MCP 服务器</a> ⭐️ 6.0/10</li>
-</ol>
-
-<p><strong>AI 热门新闻</strong></p>
-<ol>
-  <li><a href="#item-ai-news-1">KetchUp：基于 Rust 与 WebGPU 的开源 SketchUp 替代品，浏览器即用</a> ⭐️ 9.0/10</li>
-  <li><a href="#item-ai-news-2">llama-modchip 声称 64GB 内存跑 284B DeepSeek 无需 GPU，尚待实测验证</a> ⭐️ 7.0/10</li>
-  <li><a href="#item-ai-news-3">MarkTechPost 对比 10 款开源 MoE 模型的 Token 路由配置</a> ⭐️ 7.0/10</li>
-  <li><a href="#item-ai-news-4">SQLite parse_number() 扩展：C 与 Rust 实现性能对比</a> ⭐️ 7.0/10</li>
-  <li><a href="#item-ai-news-5">llm-beliefs: 开源工具按国家绘制 LLM 审查回答地图</a> ⭐️ 7.0/10</li>
-  <li><a href="#item-ai-news-6">Reddit 用户演示 Qwen3.8 Flash Next 本地生成 three.js 动态图形视频全流程</a> ⭐️ 7.0/10</li>
-  <li><a href="#item-ai-news-7">Reddit 用户分享 4×R9700 推理服务器实测：QFN 3.8 单用户 190 tok/s、8 用户 128K 上下文首 token 2.5 分钟</a> ⭐️ 6.0/10</li>
-  <li><a href="#item-ai-news-8">Intel Arc Pro B70 32GB 在 Qwen3.8-27B 推理上达 RTX 5090 约一半生成速度，价格仅为 1/5</a> ⭐️ 6.0/10</li>
-</ol>
-
-<hr />
-
-<h2 id="github-ai-开发工具">GitHub AI 开发工具</h2>
-
-<p><a id="item-gh-trending-1"></a></p>
-<h3 id="microsofttokeneconomizerai-编码代理的-token-成本控制器-️-8010"><a href="https://github.com/microsoft/TokenEconomizer">microsoft/TokenEconomizer：AI 编码代理的 Token 成本控制器</a> ⭐️ 8.0/10</h3>
-
-<p>TokenEconomizer 是微软开源的 Python 工具，面向 Claude Code、Codex 等 AI 编码代理，通过经验驱动的黑盒方式在不牺牲输出质量前提下压缩 Token 开销。项目于 2026 年 10 月创建、11 月仍在活跃提交，已获 5.3k Star，处于可用且持续迭代阶段。</p>
-
-<p>github · microsoft · 11月9日 02:38</p>
-
-<p><strong>「推荐理由」</strong> 它切中 AI 辅助开发的「交付/运行」环节——把原本无感的 Token 消耗变成可观测、可优化的成本项，适合已在团队落地编码代理、需把模型调用费用纳入预算管控的工程组。</p>
-
-<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#ai-coding-assistant</code>, <code class="language-plaintext highlighter-rouge">#cost-optimization</code>, <code class="language-plaintext highlighter-rouge">#agentic-coding</code>, <code class="language-plaintext highlighter-rouge">#token-management</code>, <code class="language-plaintext highlighter-rouge">#developer-productivity</code></p>
-
-<hr />
-
-<p><a id="item-gh-trending-2"></a></p>
-<h3 id="ruvnetruflo-通用多智能体编排框架集成主流编码代理-️-6010"><a href="https://github.com/ruvnet/ruflo">ruvnet/ruflo: 通用多智能体编排框架，集成主流编码代理</a> ⭐️ 6.0/10</h3>
-
-<p>ruvnet/ruflo 是一个通用的多智能体编排框架，支持自主工作流、自适应记忆、向量 RAG 以及与 Claude Code、Codex、Hermes 等编码代理的原生集成。它旨在解决多智能体协作与自主任务编排的基础设施问题，使用 TypeScript 实现。目前拥有 81k 星标且近期活跃，但 619 个开放 Issue 与营销式描述暗示文档与生产就绪度仍需验证。</p>
-
-<p>github · ruvnet · 11月9日 02:38</p>
-
-<p><strong>「推荐理由」</strong> 适合需要构建自定义多智能体系统、探索 Agent 编排基础设施的研究者或平台工程师，可作为编码代理集成的底层框架，但非开箱即用的开发效能工具，落地成本需自行评估。</p>
-
-<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#agentic-framework</code>, <code class="language-plaintext highlighter-rouge">#ai-agents</code>, <code class="language-plaintext highlighter-rouge">#typescript</code>, <code class="language-plaintext highlighter-rouge">#claude-code</code>, <code class="language-plaintext highlighter-rouge">#codex</code></p>
-
-<hr />
-
-<p><a id="item-gh-trending-3"></a></p>
-<h3 id="activepiecesactivepiecesai-工作流自动化平台400-mcp-服务器-️-6010"><a href="https://github.com/activepieces/activepieces">activepieces/activepieces：AI 工作流自动化平台，400+ MCP 服务器</a> ⭐️ 6.0/10</h3>
-
-<p>Activepieces 是一个基于 TypeScript 的 AI 工作流自动化平台，提供 400 多个 MCP 服务器用于构建 AI Agent 和自动化流程，定位为 n8n 的替代方案。它解决的是将各类 AI 能力通过标准化接口串联成可执行工作流的问题，适合需要快速搭建 AI 自动化管道的团队。项目拥有 2.5 万星、持续活跃更新，处于生产可用成熟度阶段。</p>
-
-<p>github · activepieces · 11月9日 02:38</p>
-
-<p><strong>「推荐理由」</strong> 它落在「交付与自动化」环节，替代手写胶水代码或 SaaS 集成，让开发者用可视化或代码方式编排 AI Agent、MCP 工具与业务逻辑；适合需要自建 AI 自动化、不想被厂商锁定、或想把现有 MCP 服务器快速落地的后端/全栈工程师。</p>
-
-<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#ai-agent</code>, <code class="language-plaintext highlighter-rouge">#mcp</code>, <code class="language-plaintext highlighter-rouge">#workflow-automation</code>, <code class="language-plaintext highlighter-rouge">#no-code</code>, <code class="language-plaintext highlighter-rouge">#typescript</code></p>
-
-<hr />
-
-<h2 id="ai-热门新闻">AI 热门新闻</h2>
-
-<p><a id="item-ai-news-1"></a></p>
-<h3 id="ketchup基于-rust-与-webgpu-的开源-sketchup-替代品浏览器即用-️-9010"><a href="https://ketchup3d.github.io/app/">KetchUp：基于 Rust 与 WebGPU 的开源 SketchUp 替代品，浏览器即用</a> ⭐️ 9.0/10</h3>
-
-<p>KetchUp 是一个开源的 3D 建模工具，定位为 SketchUp 的替代品，使用 Rust 编写并通过 WebGPU 在浏览器中运行。用户无需安装即可通过 ketchup3d.github.io/app/ 直接使用，完全免费且开源。社区反馈显示其已可用于实际建模工作，但目前仅支持鼠标操作，缺乏触控板兼容性，且无法直接打开现有 SketchUp 文件。</p>
-
-<p>hackernews · dcoulmbe · 11月8日 22:35 · <a href="https://news.ycombinator.com/item?id=50418176">社区讨论</a></p>
-
-<p><strong>「实用价值」</strong> 适合不想订阅 SketchUp 的偶尔建模用户、想体验 Rust/WebGPU 技术栈的开发者，或需要零门槛 3D 建模的场景。第一步：直接在浏览器打开官网试用，评估是否满足建模需求。</p>
-
-<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#3D-modeling</code>, <code class="language-plaintext highlighter-rouge">#Rust</code>, <code class="language-plaintext highlighter-rouge">#WebGPU</code>, <code class="language-plaintext highlighter-rouge">#open-source</code>, <code class="language-plaintext highlighter-rouge">#SketchUp-alternative</code></p>
-
-<hr />
-
-<p><a id="item-ai-news-2"></a></p>
-<h3 id="llama-modchip-声称-64gb-内存跑-284b-deepseek-无需-gpu尚待实测验证-️-7010"><a href="https://github.com/synchopate/llama-modchip">llama-modchip 声称 64GB 内存跑 284B DeepSeek 无需 GPU，尚待实测验证</a> ⭐️ 7.0/10</h3>
-
-<p>GitHub 仓库 llama-modchip 宣称能在仅 64GB 系统内存、无 GPU 的机器上运行 284B 参数的 DeepSeek 模型。该项目在 Hacker News 引发讨论，有评论者指出量化细节未在文档中说明，也有人实测对比 llama.cpp 发现除 prefill 加速外无明显优势，且未在设置中找到 DeepSeek 选项。目前仅为作者单方面声称，缺乏可复现的基准、安装步骤与模型获取说明。</p>
-
-<p>hackernews · joshcsimmons · 11月8日 10:22 · <a href="https://news.ycombinator.com/item?id=50411961">社区讨论</a></p>
-
-<p><strong>「对你的意义」</strong> 如果你想在无 GPU 的工作站上跑超大模型，可先克隆仓库对比 llama.cpp 基线，重点验证量化等级、实际吞吐与显存占用；若量化低于 4-bit 或文档仍缺失关键参数，生产可用性存疑。</p>
-
-<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#llm-inference</code>, <code class="language-plaintext highlighter-rouge">#cpu-inference</code>, <code class="language-plaintext highlighter-rouge">#model-quantization</code>, <code class="language-plaintext highlighter-rouge">#local-llm</code>, <code class="language-plaintext highlighter-rouge">#deepseek</code></p>
-
-<hr />
-
-<p><a id="item-ai-news-3"></a></p>
-<h3 id="marktechpost-对比-10-款开源-moe-模型的-token-路由配置-️-7010"><a href="https://www.marktechpost.com/2026/11/08/moe-model-routing-comparison/">MarkTechPost 对比 10 款开源 MoE 模型的 Token 路由配置</a> ⭐️ 7.0/10</h3>
-
-<p>MarkTechPost 发布一篇配置经核实的对比文章，梳理了 DeepSeek、Qwen、Mixtral、Llama 4、gpt-oss 等 10 款开源 MoE 模型的 Token 路由机制，涵盖总/激活参数量、专家数量、top-k 选择、共享专家、门控函数及负载均衡方法等关键技术细节。</p>
-
-<p>rss · MarkTechPost · 11月8日 10:27</p>
-
-<p><strong>「实用价值」</strong> 需要在 MoE 模型间选型、复现架构或调优路由策略的工程师可直接把这份表格作为参考基线，第一步建议按文中列出的 top-k 与共享专家设置对照自家模型配置，再决定是否迁移或微调门控逻辑。</p>
-
-<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#MoE</code>, <code class="language-plaintext highlighter-rouge">#routing</code>, <code class="language-plaintext highlighter-rouge">#model-comparison</code>, <code class="language-plaintext highlighter-rouge">#LLM-architecture</code>, <code class="language-plaintext highlighter-rouge">#open-models</code></p>
-
-<hr />
-
-<p><a id="item-ai-news-4"></a></p>
-<h3 id="sqlite-parse_number-扩展c-与-rust-实现性能对比-️-7010"><a href="https://simonwillison.net/2026/Nov/8/sqlite-parse-number-c-vs-rust/">SQLite parse_number() 扩展：C 与 Rust 实现性能对比</a> ⭐️ 7.0/10</h3>
-
-<p>Simon Willison 对比了用 C 和 Rust 编写 SQLite parse_number() 扩展的性能与体积。初始版本中 Rust 扩展（rusqlite 321 KB、sqlite-loadable-rs 298 KB）体积大于 C 版（14 KB），但因 Rust 的字符串转数字函数更快而性能领先。随后他编写自定义 C 解析函数，在 200 万行测试中全面反超：混合数据 19 ns/行、整数 16 ns/行、小数 18 ns/行，均优于 Rust 实现（41-55 ns/行）。完整代码与报告已发布于 github.com/simonw/research/tree/main/sqlite-parse-number-c-vs-rust。</p>
-
-<p>rss · Simon Willison · 11月8日 22:26</p>
-
-<p><strong>「实用价值」</strong> 想要编写高性能 SQLite 扩展的开发者可直接参考该仓库的两套实现，对比 C 与 Rust 在体积、开发复杂度与运行速度上的权衡，第一步是克隆仓库运行基准测试复现结果。</p>
-
-<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#sqlite</code>, <code class="language-plaintext highlighter-rouge">#rust</code>, <code class="language-plaintext highlighter-rouge">#c</code>, <code class="language-plaintext highlighter-rouge">#extensions</code>, <code class="language-plaintext highlighter-rouge">#performance</code></p>
-
-<hr />
-
-<p><a id="item-ai-news-5"></a></p>
-<h3 id="llm-beliefs-开源工具按国家绘制-llm-审查回答地图-️-7010"><a href="https://www.reddit.com/r/LocalLLaMA/comments/1xr09nq/does_censorship_exist_in_country_according_to/">llm-beliefs: 开源工具按国家绘制 LLM 审查回答地图</a> ⭐️ 7.0/10</h3>
-
-<p>Reddit 用户 /u/-p-e-w- 发布了开源工具 llm-beliefs，该工具向语言模型逐个提问同一个关于审查的「是/否」问题，并将各国回答生成 SVG 世界地图。代码已托管在 GitHub (github.com/p-e-w/llm-beliefs)，可本地克隆、检查并运行。作者表示对结果感到惊讶，但具体支持的模型、安装步骤与提示词模板仅在仓库中说明。</p>
-
-<p>reddit · r/LocalLLaMA · /u/-p-e-w- · 11月8日 14:56</p>
-
-<p><strong>「实用价值」</strong> 面向 LLM 评估、偏见测试与红队人员：可直接克隆仓库在本地运行，快速对比不同模型在各国审查问题上的回答差异，作为模型审计与偏见分析的可执行起点。</p>
-
-<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#LLM-evaluation</code>, <code class="language-plaintext highlighter-rouge">#bias-testing</code>, <code class="language-plaintext highlighter-rouge">#censorship-analysis</code>, <code class="language-plaintext highlighter-rouge">#visualization</code>, <code class="language-plaintext highlighter-rouge">#open-source-tool</code></p>
-
-<hr />
-
-<p><a id="item-ai-news-6"></a></p>
-<h3 id="reddit-用户演示-qwen38-flash-next-本地生成-threejs-动态图形视频全流程-️-7010"><a href="https://www.reddit.com/r/LocalLLaMA/comments/1xr3qes/motion_graphics_video_made_with_qwen38_flash_next/">Reddit 用户演示 Qwen3.8 Flash Next 本地生成 three.js 动态图形视频全流程</a> ⭐️ 7.0/10</h3>
-
-<p>Reddit 用户 /u/Yhojm 分享在 RTX 4080 16 GB + 64 GB DDR5 上运行量化模型 Qwen3.8 Flash Next GSQ RCO IQ3_XXS，配合 strata 与 opencode，以约 95 tps decode / 3000 tps prefill 的速度生成 15 秒 1080p60 three.js/Playwright/ffmpeg 渲染的新干线展示视频。首次渲染约 40 分钟，经 3 轮修正提示词（修复画面过暗、缺建筑、文字过多）总耗时约 2 小时。提示词策略为显式指定 three.js + Playwright + ffmpeg 栈，再用自然语言描述风格、尺寸、内容、音频、动画等；视频时长无上限。作者称效果不及 Opus 但可用，且无公开视频链接或代码仓库供独立验证。</p>
-
-<p>reddit · r/LocalLLaMA · /u/Yhojm · 11月8日 17:23</p>
-
-<p><strong>「实用价值」</strong> 拥有 16 GB 显存消费级显卡的开发者可直接复刻该管线：先在 strata/opencode 中加载同量化模型，按“three.js + Playwright + ffmpeg”提示词模板生成代码，再迭代修复渲染缺陷，即可在本地离线产出任意时长的动态图形视频，适合原型演示、教学素材或个人项目。</p>
-
-<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#local-LLM</code>, <code class="language-plaintext highlighter-rouge">#code-generation</code>, <code class="language-plaintext highlighter-rouge">#three.js</code>, <code class="language-plaintext highlighter-rouge">#video-generation</code>, <code class="language-plaintext highlighter-rouge">#quantized-models</code></p>
-
-<hr />
-
-<p><a id="item-ai-news-7"></a></p>
-<h3 id="reddit-用户分享-4r9700-推理服务器实测qfn-38-单用户-190-toks8-用户-128k-上下文首-token-25-分钟-️-6010"><a href="https://www.reddit.com/r/LocalLLaMA/comments/1xrcia4/joined_the_4x_r9700_club_initial_benchmarks_for/">Reddit 用户分享 4×R9700 推理服务器实测：QFN 3.8 单用户 190 tok/s、8 用户 128K 上下文首 token 2.5 分钟</a> ⭐️ 6.0/10</h3>
-
-<p>Reddit 用户 /u/Anarchaotic 发布自建 4×AMD Radeon AI PRO R9700（3 张 Gigabyte + 1 张 XFX，功耗限 210 W）本地推理服务器的实测数据，总成本约 16,000 加元（CPU/内存/主板为 eBay 二手）。软件栈为 Ubuntu 26.04.1、ROCm 10.1、Radiance v1.17.0，跑 Qwen3.8-Flash-Next 量化模型（qwen3.8-next-flash-fp8-iq4r-moe.rad，int8 主干 + 4-bit 专家代码本 + MTP 3 token 草稿）。关键指标：单用户写入约 190 tok/s；Prefill 总吞吐固定约 6,800 tok/s，与并发用户数无关；8 用户同时发送 128K 冷提示词时首 token 中位数 150.8 秒（最长 151.5 秒），随后每用户 70–83 tok/s；二轮对话（Agent 跟进）缓存命中 94–99%，首 token 0.2–2.5 秒，写入 80–225 tok/s。显存占用：权重 17.4 GiB/张，KV cache 11.6 GiB/张（可容纳 8 个 200K 会话），n-gram/PLE 表 47.7 GiB 锁在主机内存。全卡预填阶段功耗稳定在 210 W 上限，最热显存/热点达 91–92 °C。</p>
-
-<p>reddit · r/LocalLLaMA · /u/Anarchaotic · 11月8日 23:36</p>
-
-<p><strong>「对你的意义」</strong> 如果你在评估 AMD 多卡方案做多用户长上下文推理，这组实测给出了可直接参考的并发性能基线：单用户 190 tok/s、8×128K 冷启动约 2.5 分钟、热跟进亚秒级首 token 且吞吐基本不随上下文长度下降。想复现或对比，第一步是确认 Radiance v1.17.0 的启动参数（–tp 4 –max-num-seqs 8 –placement expert_tiered –host-pool-mib 1024 –prefix-cache-mib 32768 等）与同款量化模型，再按自身并发需求调整 –max-model-len 与 prefix cache 大小。</p>
-
-<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#AMD GPU</code>, <code class="language-plaintext highlighter-rouge">#local LLM</code>, <code class="language-plaintext highlighter-rouge">#benchmark</code>, <code class="language-plaintext highlighter-rouge">#multi-GPU</code>, <code class="language-plaintext highlighter-rouge">#hardware</code></p>
-
-<hr />
-
-<p><a id="item-ai-news-8"></a></p>
-<h3 id="intel-arc-pro-b70-32gb-在-qwen38-27b-推理上达-rtx-5090-约一半生成速度价格仅为-15-️-6010"><a href="https://www.reddit.com/r/LocalLLaMA/comments/1xr78s5/intel_arc_pro_b70_32gb_1299_vs_nvidia_rtx_5090/">Intel Arc Pro B70 32GB 在 Qwen3.8-27B 推理上达 RTX 5090 约一半生成速度，价格仅为 1/5</a> ⭐️ 6.0/10</h3>
-
-<p>Reddit 用户 /u/maikerukonare 以 1,299 美元从 ASRock 官方店购入 Intel Arc Pro B70 32GB，对比街价 6,500 美元以上的 NVIDIA RTX 5090，在 Qwen3.8-27B Q6 量化、约 3k token 提示词、开启 MTP 的条件下测得：Arc Pro B70 预填约 960 tok/s、生成约 52 tok/s；RTX 5090 预填约 2,830 tok/s、生成约 98 tok/s。即 Arc Pro B70 以 1/5 价格实现约 1/3 预填、1/2 生成速度。关键优化包括：Ubuntu 24.04 + Kernel 6.17+ (HWE 7.0)、开启 Resizable BAR 并关闭 CSM、安装 Intel 计算运行时 (ppa:kobuk-team/intel-graphics)、升级 Mesa 至 26.x (ppa:kisak/kisak-mesa)、改用 llama.cpp SYCL 后端 (Intel oneAPI) 而非 Vulkan/ollama，并启用 q8_0 KV 缓存与 MTP。测试环境为 Threadripper 1950X、128GB DDR4、PCIe 3.0 主板。RTX 5090 数据来自他人 Hugging Face 讨论帖，非同机对比；优化细节未完全公开，可复现性有待验证。</p>
-
-<p>reddit · r/LocalLLaMA · /u/maikerukonare · 11月8日 19:46</p>
-
-<p><strong>「实用价值」</strong> 对于预算有限但需 32GB 显存跑本地大模型的开发者，Arc Pro B70 提供了可用的价格/性能替代方案；首要步骤是按帖中清单配置软件栈 (Kernel、Mesa、Intel 运行时、SYCL 版 llama.cpp) 并验证自家硬件能否复现同等速度。若仅追求极致吞吐或依赖成熟 CUDA 生态，仍以 NVIDIA 为首选。</p>
-
-<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#Intel Arc</code>, <code class="language-plaintext highlighter-rouge">#LLM inference</code>, <code class="language-plaintext highlighter-rouge">#hardware comparison</code>, <code class="language-plaintext highlighter-rouge">#cost optimization</code>, <code class="language-plaintext highlighter-rouge">#local LLM</code></p>
-
-<hr />]]></content><author><name></name></author><summary type="html"><![CDATA[今日抓取 88 条内容，收录 11 条。]]></summary></entry></feed>
+<hr />]]></content><author><name></name></author><summary type="html"><![CDATA[今日抓取 135 条内容，收录 11 条。]]></summary></entry></feed>

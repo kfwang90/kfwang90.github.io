@@ -3,9 +3,238 @@
   <title>Horizon 每日速递 - 中文摘要</title>
   <link href="https://www.01040610.xyz/horizon/feed-zh.xml" rel="self"/>
   <link href="https://www.01040610.xyz/horizon/"/>
-  <updated>2026-11-13T03:57:03+00:00</updated>
+  <updated>2026-11-14T03:18:19+00:00</updated>
   <id>https://www.01040610.xyz/horizon/</id>
   
+  
+  <entry>
+    <title>Horizon Summary: 2026-11-14 (ZH)</title>
+    <link href="https://www.01040610.xyz/horizon/2026/11/14/summary-zh.html"/>
+    <updated>2026-11-14T00:00:00+00:00</updated>
+    <id>https://www.01040610.xyz/horizon/2026/11/14/summary-zh.html</id>
+    <content type="html"><![CDATA[ <blockquote>
+  <p>今日抓取 119 条内容，收录 14 条。</p>
+</blockquote>
+
+<hr />
+
+<p><strong>GitHub AI 开发工具</strong></p>
+<ol>
+  <li><a href="#item-gh-trending-1">alibaba/open-code-review：混合代码审查工具（确定性流水线 + LLM）</a> ⭐️ 9.0/10</li>
+  <li><a href="#item-gh-trending-2">ChromeDevTools/chrome-devtools-mcp：官方 MCP 服务器让 AI 代理直连 Chrome DevTools</a> ⭐️ 8.0/10</li>
+  <li><a href="#item-gh-trending-3">n8n-io/n8n: 低代码工作流自动化平台，内置 AI 与 MCP 支持</a> ⭐️ 8.0/10</li>
+  <li><a href="#item-gh-trending-4">can1357/oh-my-pi: IDE 集成的 AI 编码代理</a> ⭐️ 7.0/10</li>
+  <li><a href="#item-gh-trending-5">muaaz9329/cheap-ag：为 Claude Code 与 Codex 提供低成本模型的 MCP 服务器</a> ⭐️ 7.0/10</li>
+  <li><a href="#item-gh-trending-6">backnotprop/plannotator：AI 代理协作工作区，规划、标注与代码审查一体化</a> ⭐️ 6.0/10</li>
+  <li><a href="#item-gh-trending-7">rudderlabs/devbox：自主编码代理的云端隔离沙箱工具</a> ⭐️ 6.0/10</li>
+  <li><a href="#item-gh-trending-8">GoogleChrome/modern-web-guidance-src：为 AI 编码代理提供最新 Web 最佳实践指导</a> ⭐️ 5.0/10</li>
+</ol>
+
+<p><strong>AI 热门新闻</strong></p>
+<ol>
+  <li><a href="#item-ai-news-1">llama.cpp v1.0.0 发布，强化本地 AI 生态基础设施</a> ⭐️ 9.0/10</li>
+  <li><a href="#item-ai-news-2">Qwen3.5-9B 在 PS4 GPU 上离线运行，达 31-39 tok/s</a> ⭐️ 9.0/10</li>
+  <li><a href="#item-ai-news-3">使用 NVIDIA SimReady 资产构建机器人拾取放置仿真教程</a> ⭐️ 8.0/10</li>
+  <li><a href="#item-ai-news-4">datasette-cluster-map 0.19 发布，适配 Datasette 1.0a42 并修复 OSM 瓦片署名</a> ⭐️ 7.0/10</li>
+  <li><a href="#item-ai-news-5">datasette-leaflet 0.3 修复 OpenStreetMap 瓦片请求 Referrer 策略问题</a> ⭐️ 6.0/10</li>
+</ol>
+
+<p><strong>X / YouTube 热门</strong></p>
+<ol>
+  <li><a href="#item-social-hot-1">Git 与 GitHub 入门完整教程 (2026)</a> ⭐️ 8.0/10</li>
+</ol>
+
+<hr />
+
+<h2 id="github-ai-开发工具">GitHub AI 开发工具</h2>
+
+<p><a id="item-gh-trending-1"></a></p>
+<h3 id="alibabaopen-code-review混合代码审查工具确定性流水线--llm-️-9010"><a href="https://github.com/alibaba/open-code-review">alibaba/open-code-review：混合代码审查工具（确定性流水线 + LLM）</a> ⭐️ 9.0/10</h3>
+
+<p>alibaba/open-code-review 是一个混合代码审查工具，结合确定性静态分析流水线与 LLM 智能体，提供精准的行级评论和内置多语言规则集（覆盖空指针、线程安全、XSS、SQL 注入等），兼容 OpenAI 与 Anthropic API。该工具已在阿里巴巴大规模生产环境验证，使用 Go 编写，处于生产就绪阶段。</p>
+
+<p>github · alibaba · 11月14日 03:10</p>
+
+<p><strong>「推荐理由」</strong> 该工具直接切入代码审查环节，用确定性规则与 LLM 相结合的方式替代人工逐行检查，适合追求安全合规与审查效率的中大型研发团队；5 万+ Star 印证其社区活跃度与生产可信度。</p>
+
+<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#code-review</code>, <code class="language-plaintext highlighter-rouge">#static-analysis</code>, <code class="language-plaintext highlighter-rouge">#llm-agent</code>, <code class="language-plaintext highlighter-rouge">#security</code>, <code class="language-plaintext highlighter-rouge">#ci-cd</code></p>
+
+<hr />
+
+<p><a id="item-gh-trending-2"></a></p>
+<h3 id="chromedevtoolschrome-devtools-mcp官方-mcp-服务器让-ai-代理直连-chrome-devtools-️-8010"><a href="https://github.com/ChromeDevTools/chrome-devtools-mcp">ChromeDevTools/chrome-devtools-mcp：官方 MCP 服务器让 AI 代理直连 Chrome DevTools</a> ⭐️ 8.0/10</h3>
+
+<p>这是 Chrome DevTools 官方推出的 MCP（Model Context Protocol）服务器，将 Chrome DevTools Protocol 暴露给 AI 编码代理，使其在 IDE 内即可进行 DOM 检查、网络监控、JavaScript 调试和性能分析。项目使用 TypeScript 实现，填补了 AI 辅助 Web 开发中缺乏浏览器原生调试能力的空白。目前已获 5.5 万星且日增 67 星，属于可用且活跃维护阶段。</p>
+
+<p>github · ChromeDevTools · 11月14日 03:10</p>
+
+<p><strong>「推荐理由」</strong> 它落在“写码与调试”环节，让 AI 代理直接获得浏览器运行时上下文，替代了人工在 DevTools 面板点击、复制粘贴的繁琐步骤，适合需要在 IDE 内完成端到端 Web 调试的前端工程师和 AI 助手开发者。</p>
+
+<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#mcp</code>, <code class="language-plaintext highlighter-rouge">#chrome-devtools</code>, <code class="language-plaintext highlighter-rouge">#ai-coding-agent</code>, <code class="language-plaintext highlighter-rouge">#browser-debugging</code>, <code class="language-plaintext highlighter-rouge">#developer-tools</code></p>
+
+<hr />
+
+<p><a id="item-gh-trending-3"></a></p>
+<h3 id="n8n-ion8n-低代码工作流自动化平台内置-ai-与-mcp-支持-️-8010"><a href="https://github.com/n8n-io/n8n">n8n-io/n8n: 低代码工作流自动化平台，内置 AI 与 MCP 支持</a> ⭐️ 8.0/10</h3>
+
+<p>n8n 是一个成熟的低代码工作流自动化平台，提供可视化构建与自定义代码相结合的方式，内置 AI 能力与 MCP 支持，拥有 400+ 集成，支持自托管或云端部署。它解决开发者在集成、自动化、数据流编排上的重复劳动，替代手写胶水代码与手动集成工作。基于 TypeScript 实现，2019 年创建，拥有 21 万星标，文档完善、社区活跃，已达生产就绪成熟度。</p>
+
+<p>github · n8n-io · 11月14日 03:11</p>
+
+<p><strong>「推荐理由」</strong> 它落在「交付/自动化」环节，替代手写集成胶水代码，适合需要构建 AI 增强型自动化流水线的开发者与运维团队；21 万星标与持续活跃的社区证明其可靠性与生态成熟度。</p>
+
+<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#workflow-automation</code>, <code class="language-plaintext highlighter-rouge">#low-code</code>, <code class="language-plaintext highlighter-rouge">#ai-integration</code>, <code class="language-plaintext highlighter-rouge">#mcp</code>, <code class="language-plaintext highlighter-rouge">#self-hosted</code></p>
+
+<hr />
+
+<p><a id="item-gh-trending-4"></a></p>
+<h3 id="can1357oh-my-pi-ide-集成的-ai-编码代理-️-7010"><a href="https://github.com/can1357/oh-my-pi">can1357/oh-my-pi: IDE 集成的 AI 编码代理</a> ⭐️ 7.0/10</h3>
+
+<p>oh-my-pi 是一个集成在 IDE 中的 AI 编码代理，由 Stencil Labs 开发，支持通过 CLI 调用 OpenAI、Anthropic 等多提供商大模型。项目主语言为 TypeScript 并包含 Rust 组件，目前有 3.9 万星但开放问题达 4825 个，且仓库元数据出现未来日期，成熟度仍处于实验性阶段，需谨慎评估。</p>
+
+<p>github · can1357 · 11月14日 03:11</p>
+
+<p><strong>「推荐理由」</strong> 适合在编写代码阶段寻求 IDE 原生 AI 辅助的开发者，提供多模型切换的 CLI 工作流，可作为现有编码助手的替代或补充；3.9 万星表明社区关注度高，但高开放问题数提示需自行验证可用性。</p>
+
+<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#ai-coding-agent</code>, <code class="language-plaintext highlighter-rouge">#ide-integration</code>, <code class="language-plaintext highlighter-rouge">#multi-provider-llm</code>, <code class="language-plaintext highlighter-rouge">#cli-tool</code>, <code class="language-plaintext highlighter-rouge">#typescript</code></p>
+
+<hr />
+
+<p><a id="item-gh-trending-5"></a></p>
+<h3 id="muaaz9329cheap-ag为-claude-code-与-codex-提供低成本模型的-mcp-服务器-️-7010"><a href="https://github.com/muaaz9329/cheap-ag">muaaz9329/cheap-ag：为 Claude Code 与 Codex 提供低成本模型的 MCP 服务器</a> ⭐️ 7.0/10</h3>
+
+<p>cheap-ag 是一个 TypeScript 编写的 MCP 服务器，让 Claude Code 和 Codex 通过接入低成本模型（如 DeepSeek）生成代码，再由测试决定是否合并，从而缓解 $20 套餐的用量限制。项目于 2026 年 10 月创建，近期仍有提交，处于早期可用阶段，社区验证尚需时间。</p>
+
+<p>github · muaaz9329 · 11月14日 03:11</p>
+
+<p><strong>「推荐理由」</strong> 它落在代码生成与测试把关环节，替代昂贵模型的全部写码工作，适合受 $20 套餐额度限制的开发者；330 颗星显示有一定关注度。</p>
+
+<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#agentic-coding</code>, <code class="language-plaintext highlighter-rouge">#cost-optimization</code>, <code class="language-plaintext highlighter-rouge">#claude-code</code>, <code class="language-plaintext highlighter-rouge">#mcp-server</code>, <code class="language-plaintext highlighter-rouge">#deepseek</code></p>
+
+<hr />
+
+<p><a id="item-gh-trending-6"></a></p>
+<h3 id="backnotpropplannotatorai-代理协作工作区规划标注与代码审查一体化-️-6010"><a href="https://github.com/backnotprop/plannotator">backnotprop/plannotator：AI 代理协作工作区，规划、标注与代码审查一体化</a> ⭐️ 6.0/10</h3>
+
+<p>plannotator 是一个 TypeScript 实现的工作区，旨在让开发者在 AI 代理参与的开发循环中保持掌控：规划任务、标注代码、审查变更、团队共享，并一键将反馈回传给代理。它定位于上下文供给与代码审查环节，试图解决人机协作时的上下文碎片化与反馈闭环问题。目前仅有简介与星标数据，缺乏代码、文档与可复现性验证，成熟度处于早期实验阶段。</p>
+
+<p>github · backnotprop · 11月14日 03:10</p>
+
+<p><strong>「推荐理由」</strong> 它直接切中 AI 辅助开发中「人在回路」的痛点，把规划、标注、审查、反馈回传集成在单一工作区，适合正在探索多代理协作流程的团队或个人先行试用；10.5k 星标显示社区关注度高，但实际可用性仍需自行评估。</p>
+
+<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#AI-assisted development</code>, <code class="language-plaintext highlighter-rouge">#code review</code>, <code class="language-plaintext highlighter-rouge">#agent management</code>, <code class="language-plaintext highlighter-rouge">#developer tools</code>, <code class="language-plaintext highlighter-rouge">#human-AI collaboration</code></p>
+
+<hr />
+
+<p><a id="item-gh-trending-7"></a></p>
+<h3 id="rudderlabsdevbox自主编码代理的云端隔离沙箱工具-️-6010"><a href="https://github.com/rudderlabs/devbox">rudderlabs/devbox：自主编码代理的云端隔离沙箱工具</a> ⭐️ 6.0/10</h3>
+
+<p>rudderlabs/devbox 是一个早期开源的 TypeScript 工具，为自主编码代理提供每任务一个的隔离云端沙箱，并保护真实密钥不进入沙箱。它解决 AI 代理在执行代码任务时的环境隔离与密钥安全问题，目前处于实验性、刚发布阶段（创建于 2026-10-27，最近推送 2026-11-12）。</p>
+
+<p>github · rudderlabs · 11月14日 03:11</p>
+
+<p><strong>「推荐理由」</strong> 它落在“上下文供给/代码执行”环节，为需要在云端安全运行自主编码代理的团队提供开箱即用的沙箱隔离与密钥保护，替代自建容器或手动配置环境的繁琐步骤；335 颗星与近期活跃提交显示社区已开始关注。</p>
+
+<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#agentic-coding</code>, <code class="language-plaintext highlighter-rouge">#agent-sandbox</code>, <code class="language-plaintext highlighter-rouge">#autonomous-agents</code>, <code class="language-plaintext highlighter-rouge">#developer-productivity</code>, <code class="language-plaintext highlighter-rouge">#security</code></p>
+
+<hr />
+
+<p><a id="item-gh-trending-8"></a></p>
+<h3 id="googlechromemodern-web-guidance-src为-ai-编码代理提供最新-web-最佳实践指导-️-5010"><a href="https://github.com/GoogleChrome/modern-web-guidance-src">GoogleChrome/modern-web-guidance-src：为 AI 编码代理提供最新 Web 最佳实践指导</a> ⭐️ 5.0/10</h3>
+
+<p>该仓库旨在为 AI 编码代理提供持续更新的 Web 开发最佳实践知识库，解决 AI 助手因训练数据滞后而给出过时建议的问题。项目由 GoogleChrome 组织维护，使用 TypeScript 实现，目前处于早期发布阶段，公开的代码、文档与使用示例尚不足以判断其成熟度与可用性。</p>
+
+<p>github · GoogleChrome · 11月14日 03:10</p>
+
+<p><strong>「推荐理由」</strong> 它定位于开发流程的上下文供给环节，试图替代开发者手动查阅最新规范或依赖过时模型知识的步骤，适合希望让 AI 助手输出更符合现代 Web 标准代码的前端工程师与 AI 工具构建者；今日新增 1,925 颗星（累计 4,952）显示社区关注度高，但实际落地效果仍需进一步验证。</p>
+
+<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#AI-coding-assistant</code>, <code class="language-plaintext highlighter-rouge">#web-best-practices</code>, <code class="language-plaintext highlighter-rouge">#context-provision</code>, <code class="language-plaintext highlighter-rouge">#developer-tools</code>, <code class="language-plaintext highlighter-rouge">#TypeScript</code></p>
+
+<hr />
+
+<h2 id="ai-热门新闻">AI 热门新闻</h2>
+
+<p><a id="item-ai-news-1"></a></p>
+<h3 id="llamacpp-v100-发布强化本地-ai-生态基础设施-️-9010"><a href="https://huggingface.co/blog/ggml-org/llama-cpp-v1">llama.cpp v1.0.0 发布，强化本地 AI 生态基础设施</a> ⭐️ 9.0/10</h3>
+
+<p>Hugging Face 官方博客宣布 llama.cpp 正式发布 v1.0.0 版本，承诺覆盖所有平台与模型类型，同时保持核心库精简稳健以支持下游应用。同步推出基于 llama.cpp 的 Llama 桌面应用（llama.app），旨在将本地 AI 部署门槛降至几次点击。该版本为官方发布且已可用，非预告或测试版。</p>
+
+<p>rss · Hugging Face Blog · 11月13日 14:05</p>
+
+<p><strong>「实用价值」</strong> 本地部署 LLM 的开发者可直接升级到 v1.0.0 获得更稳定的跨平台推理基础；想快速体验本地模型的非技术用户可前往 llama.app 下载桌面应用，无需命令行即可运行。</p>
+
+<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#llama.cpp</code>, <code class="language-plaintext highlighter-rouge">#local LLM</code>, <code class="language-plaintext highlighter-rouge">#C++ inference</code>, <code class="language-plaintext highlighter-rouge">#GGML</code>, <code class="language-plaintext highlighter-rouge">#release announcement</code></p>
+
+<hr />
+
+<p><a id="item-ai-news-2"></a></p>
+<h3 id="qwen35-9b-在-ps4-gpu-上离线运行达-31-39-toks-️-9010"><a href="https://www.reddit.com/r/LocalLLaMA/comments/1xvbn2m/qwen359b_running_on_a_ps4s_gpu_offline_using_its/">Qwen3.5-9B 在 PS4 GPU 上离线运行，达 31-39 tok/s</a> ⭐️ 9.0/10</h3>
+
+<p>开发者 /u/leonardo_alegria 发布开源项目 garlic-llm，在原版 PS4 GPU 上离线运行 Qwen3.5-9B，速度达到 31–39 token/秒。关键优化是利用 Qwen3.5 自带的 MTP（多 token 预测）头进行推测解码：草稿最多两个 token，完整模型一次前向传播验证，将速度从 22 tok/s 提升到 31–39 tok/s。权重采用自定义 4-bit 与 3-bit 量化打包，模型体积约 4.5 GiB，可完全放入 PS4 显存。无需云端、订阅或 Linux 系统，代码与模型权重已开源免费，GitHub 地址：https://github.com/leonardo-alegria/garlic-llm，Hugging Face 直链：https://huggingface.co/garlic-llm/garlic-llm-ps4。</p>
+
+<p>reddit · r/LocalLLaMA · /u/leonardo_alegria · 11月13日 16:00</p>
+
+<p><strong>「实用价值」</strong> 手头有闲置 PS4 的开发者或爱好者可立即下载 garlic-llm 并在主机上直接运行 9B 级大模型，实现离线对话、代码生成等任务，首要步骤是从 Hugging Face 下载量化权重并按 GitHub 说明部署。</p>
+
+<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#local-llm</code>, <code class="language-plaintext highlighter-rouge">#ps4</code>, <code class="language-plaintext highlighter-rouge">#qwen</code>, <code class="language-plaintext highlighter-rouge">#speculative-decoding</code>, <code class="language-plaintext highlighter-rouge">#quantization</code></p>
+
+<hr />
+
+<p><a id="item-ai-news-3"></a></p>
+<h3 id="使用-nvidia-simready-资产构建机器人拾取放置仿真教程-️-8010"><a href="https://huggingface.co/blog/nvidia/simready-assets-robot-pick-and-place">使用 NVIDIA SimReady 资产构建机器人拾取放置仿真教程</a> ⭐️ 8.0/10</h3>
+
+<p>Hugging Face 博客发布实操教程，演示如何使用 NVIDIA SimReady 资产构建机器人拾取放置仿真。教程可能包含具体步骤、资产引用和代码示例。由于未获取全文，版本号、获取方式、限制条件等细节无法核实。</p>
+
+<p>rss · Hugging Face Blog · 11月13日 18:00</p>
+
+<p><strong>「实用价值」</strong> 面向机器人仿真开发者和 AI 研究者，可用于快速搭建拾取放置任务验证环境；首要步骤是访问 Hugging Face 博客链接跟随教程实操。</p>
+
+<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#robotics</code>, <code class="language-plaintext highlighter-rouge">#simulation</code>, <code class="language-plaintext highlighter-rouge">#NVIDIA</code>, <code class="language-plaintext highlighter-rouge">#SimReady</code>, <code class="language-plaintext highlighter-rouge">#pick-and-place</code></p>
+
+<hr />
+
+<p><a id="item-ai-news-4"></a></p>
+<h3 id="datasette-cluster-map-019-发布适配-datasette-10a42-并修复-osm-瓦片署名-️-7010"><a href="https://simonwillison.net/2026/Nov/13/datasette-cluster-map/">datasette-cluster-map 0.19 发布，适配 Datasette 1.0a42 并修复 OSM 瓦片署名</a> ⭐️ 7.0/10</h3>
+
+<p>Simon Willison 发布 datasette-cluster-map 0.19，该插件现兼容 Datasette 1.0a42，并新增对 datasette-leaflet 的依赖，以确保 OpenStreetMap 瓦片请求携带 Referer 头完成正确署名。作者提供了一个在线演示：展示加州 PG&amp;E 电厂的聚类地图，同时演示了 Datasette 新重设计的分面界面。GitHub 发布页已可访问。</p>
+
+<p>rss · Simon Willison · 11月13日 23:02</p>
+
+<p><strong>「实用价值」</strong> 使用 Datasette 做地理数据聚类展示的开发者可直接升级到 0.19 版本，配合 datasette-leaflet 即可合规使用 OSM 瓦片；第一步是通过 pip 安装或更新该插件及其新依赖，随后在 Datasette 1.0a42 以上环境中启用即可。</p>
+
+<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#datasette</code>, <code class="language-plaintext highlighter-rouge">#plugin</code>, <code class="language-plaintext highlighter-rouge">#mapping</code>, <code class="language-plaintext highlighter-rouge">#leaflet</code>, <code class="language-plaintext highlighter-rouge">#release</code></p>
+
+<hr />
+
+<p><a id="item-ai-news-5"></a></p>
+<h3 id="datasette-leaflet-03-修复-openstreetmap-瓦片请求-referrer-策略问题-️-6010"><a href="https://simonwillison.net/2026/Nov/13/datasette-leaflet/">datasette-leaflet 0.3 修复 OpenStreetMap 瓦片请求 Referrer 策略问题</a> ⭐️ 6.0/10</h3>
+
+<p>Simon Willison 发布 datasette-leaflet 0.3，修复了 Datasette 映射插件在请求 OpenStreetMap 瓦片时违反 OSM 使用政策的问题。此前 Datasette 表格页面发送 `Referrer-Policy: no-referrer` 头，导致依赖 Leaflet 的插件无法正确发送 Referrer。新版本在瓦片请求层面将策略改为 `strict-origin-when-cross-origin`，仅传递主机名而非完整路径，符合 OSM 要求。</p>
+
+<p>rss · Simon Willison · 11月13日 22:30</p>
+
+<p><strong>「影响与行动」</strong> 仅对使用 Datasette 且依赖 Leaflet 类映射插件（如 datasette-cluster-map、datasette-leaflet-geojson）的开发者有影响。升级到 0.3 即可自动修复瓦片加载被拦截的问题，无需修改业务代码。</p>
+
+<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#datasette</code>, <code class="language-plaintext highlighter-rouge">#leaflet</code>, <code class="language-plaintext highlighter-rouge">#openstreetmap</code>, <code class="language-plaintext highlighter-rouge">#plugin</code>, <code class="language-plaintext highlighter-rouge">#referrer-policy</code></p>
+
+<hr />
+
+<h2 id="x--youtube-热门">X / YouTube 热门</h2>
+
+<p><a id="item-social-hot-1"></a></p>
+<h3 id="git-与-github-入门完整教程-2026-️-8010"><a href="https://www.youtube.com/watch?v=h2a3Kw-I_Ec">Git 与 GitHub 入门完整教程 (2026)</a> ⭐️ 8.0/10</h3>
+
+<p>该视频是 Coder Coder 频道发布的 56 分钟 Git 与 GitHub 入门完整教程，涵盖初始化仓库、提交、推送、拉取、分支管理及拉取请求等核心工作流。内容基于标题与简介推断，适合零基础开发者跟随实操。</p>
+
+<p>youtube · GitHub · 11月14日 03:11</p>
+
+<p><strong>「推荐理由」</strong> 视频播放量已超 10 万，说明其作为基础教程受欢迎程度高；观众可直接学会日常开发中最常用的 Git 命令与 GitHub 协作流程，上手即用。</p>
+
+<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#git</code>, <code class="language-plaintext highlighter-rouge">#github</code>, <code class="language-plaintext highlighter-rouge">#tutorial</code>, <code class="language-plaintext highlighter-rouge">#version-control</code>, <code class="language-plaintext highlighter-rouge">#beginner</code></p>
+
+<hr />
+ ]]></content>
+  </entry>
   
   <entry>
     <title>Horizon Summary: 2026-11-13 (ZH)</title>
@@ -1424,215 +1653,6 @@
 <p><strong>「实用价值」</strong> 面向构建工具调用智能体的开发者：需要一个轻量、单次搜索、仅引用可验证证据的子代理时可直接下载 GGUF 并用 llama-server 运行；首要步骤是按提供的命令在本地启动模型，再按需集成到主模型编排流程中。</p>
 
 <p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#local-llm</code>, <code class="language-plaintext highlighter-rouge">#web-search</code>, <code class="language-plaintext highlighter-rouge">#fine-tuning</code>, <code class="language-plaintext highlighter-rouge">#subagent</code>, <code class="language-plaintext highlighter-rouge">#benchmark</code></p>
-
-<hr />
- ]]></content>
-  </entry>
-  
-  <entry>
-    <title>Horizon Summary: 2026-11-07 (ZH)</title>
-    <link href="https://www.01040610.xyz/horizon/2026/11/07/summary-zh.html"/>
-    <updated>2026-11-07T00:00:00+00:00</updated>
-    <id>https://www.01040610.xyz/horizon/2026/11/07/summary-zh.html</id>
-    <content type="html"><![CDATA[ <blockquote>
-  <p>今日抓取 117 条内容，收录 12 条。</p>
-</blockquote>
-
-<hr />
-
-<p><strong>GitHub AI 开发工具</strong></p>
-<ol>
-  <li><a href="#item-gh-trending-1">astral-sh/ruff：用 Rust 写的极速 Python Linter 与格式化工具</a> ⭐️ 10.0/10</li>
-  <li><a href="#item-gh-trending-2">microsoft/vscode：成熟可扩展的代码编辑器，AI 辅助开发首选平台</a> ⭐️ 9.0/10</li>
-  <li><a href="#item-gh-trending-3">xerj-org/xerj：面向 AI 代理的单二进制搜索与记忆引擎</a> ⭐️ 9.0/10</li>
-  <li><a href="#item-gh-trending-4">cloudflare/security-audit-skill：面向编码代理的多阶段安全审计技能</a> ⭐️ 7.0/10</li>
-  <li><a href="#item-gh-trending-5">zed-industries/zed：高性能多人协作代码编辑器，Rust 编写</a> ⭐️ 7.0/10</li>
-  <li><a href="#item-gh-trending-6">0xJacky/nginx-ui：自托管 Nginx WebUI，含 MCP 支持</a> ⭐️ 5.0/10</li>
-</ol>
-
-<p><strong>AI 热门新闻</strong></p>
-<ol>
-  <li><a href="#item-ai-news-1">即梦短剧工作室 Seedance 2.5 实测：0.15 元/秒覆盖全流程</a> ⭐️ 8.0/10</li>
-  <li><a href="#item-ai-news-2">Qwen 27B/Flash-Next 本地部署新进展：Unsloth v3.1 量化配合 Strata 引擎降低硬件门槛</a> ⭐️ 7.0/10</li>
-  <li><a href="#item-ai-news-3">Libghostty 1.0 发布：Ghostty 终端库正式版</a> ⭐️ 6.0/10</li>
-  <li><a href="#item-ai-news-4">AllenAI 发布 ToyBlocks 机器人仿真环境</a> ⭐️ 6.0/10</li>
-</ol>
-
-<p><strong>X / YouTube 热门</strong></p>
-<ol>
-  <li><a href="#item-social-hot-1">7 个 GitHub 隐私工具实测：Signal、GrapheneOS、Tor 等</a> ⭐️ 7.0/10</li>
-  <li><a href="#item-social-hot-2">Claude Code 免费用法：月享 70 亿 Token 并接入 TestSprite 验证</a> ⭐️ 7.0/10</li>
-</ol>
-
-<hr />
-
-<h2 id="github-ai-开发工具">GitHub AI 开发工具</h2>
-
-<p><a id="item-gh-trending-1"></a></p>
-<h3 id="astral-shruff用-rust-写的极速-python-linter-与格式化工具-️-10010"><a href="https://github.com/astral-sh/ruff">astral-sh/ruff：用 Rust 写的极速 Python Linter 与格式化工具</a> ⭐️ 10.0/10</h3>
-
-<p>Ruff 是一个用 Rust 编写的 Python 代码检查与格式化工具，集成了 flake8、black、isort 等多个工具的功能，能在毫秒级完成大型代码库的静态分析与格式化。它解决了 Python 生态中多工具链配置繁琐、运行缓慢的问题，显著缩短本地开发与 CI/CD 的反馈时间。项目已拥有 5 万星、由 Astral 团队持续维护，处于生产就绪阶段。</p>
-
-<p>github · astral-sh · 11月7日 02:46</p>
-
-<p><strong>「推荐理由」</strong> Ruff 覆盖写码与审查环节，替代传统多工具组合，提供近乎即时的代码质量反馈，适合追求高效 CI 与本地开发体验的 Python 团队与个人开发者。</p>
-
-<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#Python</code>, <code class="language-plaintext highlighter-rouge">#Linter</code>, <code class="language-plaintext highlighter-rouge">#Formatter</code>, <code class="language-plaintext highlighter-rouge">#Rust</code>, <code class="language-plaintext highlighter-rouge">#Dev-Tools</code></p>
-
-<hr />
-
-<p><a id="item-gh-trending-2"></a></p>
-<h3 id="microsoftvscode成熟可扩展的代码编辑器ai-辅助开发首选平台-️-9010"><a href="https://github.com/microsoft/vscode">microsoft/vscode：成熟可扩展的代码编辑器，AI 辅助开发首选平台</a> ⭐️ 9.0/10</h3>
-
-<p>Visual Studio Code 是一款成熟、可扩展的代码编辑器，内置 IntelliSense、调试与 Git 集成，并作为 GitHub Copilot 等 AI 助手的主要运行平台。它用 TypeScript 编写，解决现代代码编写、审查与维护的效率问题，已达到生产就绪成熟度，拥有 19.5 万星的广泛采用与活跃维护。</p>
-
-<p>github · microsoft · 11月7日 02:46</p>
-
-<p><strong>「推荐理由」</strong> 它落在「写码、审查、调试」全流程，替代传统重型 IDE 与零散插件组合，提供统一的 AI 集成入口；适合需要轻量、可定制且原生支持 AI 辅助开发的个人与团队。</p>
-
-<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#code-editor</code>, <code class="language-plaintext highlighter-rouge">#IDE</code>, <code class="language-plaintext highlighter-rouge">#AI-assisted-development</code>, <code class="language-plaintext highlighter-rouge">#TypeScript</code>, <code class="language-plaintext highlighter-rouge">#Microsoft</code></p>
-
-<hr />
-
-<p><a id="item-gh-trending-3"></a></p>
-<h3 id="xerj-orgxerj面向-ai-代理的单二进制搜索与记忆引擎-️-9010"><a href="https://github.com/xerj-org/xerj">xerj-org/xerj：面向 AI 代理的单二进制搜索与记忆引擎</a> ⭐️ 9.0/10</h3>
-
-<p>xerj 是一个用 Rust 编写的单二进制 AI 搜索引擎和 MCP 服务器，支持 BM25 全文、向量及混合检索，能为代码、文档、日志等建立索引并提供 Agent 记忆与 RAG 能力。它兼容 Elasticsearch API 并内置 Corpus Hub，可直接接入 Claude Code、Cursor 等 AI 编码助手，解决开发流程中上下文供给与代码检索的问题。项目已有 1.8 万星且近期持续更新，处于可直接投入生产工作流的成熟度。</p>
-
-<p>github · xerj-org · 11月7日 02:46</p>
-
-<p><strong>「推荐理由」</strong> 它落在「上下文供给」环节，替代 grep 等传统检索工具，为 AI 编码助手提供可靠的长期记忆与混合检索基础设施，适合需要提升 AI 编码上下文质量的开发者和团队。1.8 万星与持续提交证明其社区活跃且已可用。</p>
-
-<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#code-search</code>, <code class="language-plaintext highlighter-rouge">#agent-memory</code>, <code class="language-plaintext highlighter-rouge">#mcp-server</code>, <code class="language-plaintext highlighter-rouge">#rag</code>, <code class="language-plaintext highlighter-rouge">#rust-cli</code></p>
-
-<hr />
-
-<p><a id="item-gh-trending-4"></a></p>
-<h3 id="cloudflaresecurity-audit-skill面向编码代理的多阶段安全审计技能-️-7010"><a href="https://github.com/cloudflare/security-audit-skill">cloudflare/security-audit-skill：面向编码代理的多阶段安全审计技能</a> ⭐️ 7.0/10</h3>
-
-<p>该仓库提供一个编码代理技能，用于执行多阶段自动化安全审计并输出经独立验证的机器可读发现结果。它针对代码审查与测试环节的安全痛点，以 JavaScript 实现，目前处于实验性或早期可用阶段，文档与安装细节尚不完善。</p>
-
-<p>github · cloudflare · 11月7日 02:46</p>
-
-<p><strong>「推荐理由」</strong> 它将安全审计纳入 AI 编码代理的自动化流程，替代人工逐行排查的繁琐步骤，适合希望在开发早期引入可验证安全检查的团队；6.4 万星表明社区关注度高，但缺乏生产级使用证据。</p>
-
-<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#security-audit</code>, <code class="language-plaintext highlighter-rouge">#coding-agent</code>, <code class="language-plaintext highlighter-rouge">#code-quality</code>, <code class="language-plaintext highlighter-rouge">#devsecops</code>, <code class="language-plaintext highlighter-rouge">#automation</code></p>
-
-<hr />
-
-<p><a id="item-gh-trending-5"></a></p>
-<h3 id="zed-industrieszed高性能多人协作代码编辑器rust-编写-️-7010"><a href="https://github.com/zed-industries/zed">zed-industries/zed：高性能多人协作代码编辑器，Rust 编写</a> ⭐️ 7.0/10</h3>
-
-<p>Zed 是由 Atom 和 Tree-sitter 创作者打造的高性能、多人实时协作代码编辑器，采用 Rust 编写，旨在解决编辑器性能瓶颈与协作延迟问题，目前已积累 9.3 万星标，处于可用且活跃维护阶段。</p>
-
-<p>github · zed-industries · 11月7日 02:46</p>
-
-<p><strong>「推荐理由」</strong> 它直接落在「写代码」环节，以极速响应和原生多人编辑替代传统编辑器的卡顿与外挂式协作，适合追求流畅体验、需要实时结对或团队远程协作的开发者；9.3 万星标印证了社区对其性能与协作价值的认可。</p>
-
-<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#code-editor</code>, <code class="language-plaintext highlighter-rouge">#rust</code>, <code class="language-plaintext highlighter-rouge">#multiplayer</code>, <code class="language-plaintext highlighter-rouge">#development-environment</code>, <code class="language-plaintext highlighter-rouge">#performance</code></p>
-
-<hr />
-
-<p><a id="item-gh-trending-6"></a></p>
-<h3 id="0xjackynginx-ui自托管-nginx-webui含-mcp-支持-️-5010"><a href="https://github.com/0xJacky/nginx-ui">0xJacky/nginx-ui：自托管 Nginx WebUI，含 MCP 支持</a> ⭐️ 5.0/10</h3>
-
-<p>0xJacky/nginx-ui 是一个用 Go 编写的自托管 Nginx 管理界面，提供证书申请、配置编辑、定时任务等可视化操作，标记了 mcp-server 与 code-completion 主题，暗示可能对接 AI 代理上下文。项目已积累 1.1 万星并持续更新至 2026 年，处于可用、社区活跃的成熟期。</p>
-
-<p>github · 0xJacky · 11月7日 02:46</p>
-
-<p><strong>「推荐理由」</strong> 适合需要在本地或服务器快速管理 Nginx、并希望把配置上下文暴露给 AI 编码助手的开发/运维人员；它替代了手写 nginx.conf 与手动 Certbot 续期的繁琐步骤，把基础设施配置纳入 AI 增强的开发流程。</p>
-
-<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#nginx</code>, <code class="language-plaintext highlighter-rouge">#webui</code>, <code class="language-plaintext highlighter-rouge">#devops</code>, <code class="language-plaintext highlighter-rouge">#mcp-server</code>, <code class="language-plaintext highlighter-rouge">#self-hosted</code></p>
-
-<hr />
-
-<h2 id="ai-热门新闻">AI 热门新闻</h2>
-
-<p><a id="item-ai-news-1"></a></p>
-<h3 id="即梦短剧工作室-seedance-25-实测015-元秒覆盖全流程-️-8010"><a href="https://www.qbitai.com/2026/11/507972.html">即梦短剧工作室 Seedance 2.5 实测：0.15 元/秒覆盖全流程</a> ⭐️ 8.0/10</h3>
-
-<p>量子位对即梦短剧工作室（基于 Seedance 2.5）进行实测，该工具提供从剧本生成、分镜设计到预演视频的一条龙服务，单秒生成成本低至 0.15 元，并推出长期伙伴计划支持创作者。文章为第三方实测评测，非官方发布公告，实际生成质量、可控性及导出格式等细节需进一步验证。</p>
-
-<p>rss · 量子位 · 11月6日 03:20</p>
-
-<p><strong>「实用价值」</strong> 短剧创作者可直接评估接入成本与流程，首要步骤是申请试用或对比现有 AI 视频工具，确认生成质量是否满足商业化门槛。</p>
-
-<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#AI视频生成</code>, <code class="language-plaintext highlighter-rouge">#短剧制作</code>, <code class="language-plaintext highlighter-rouge">#Seedance</code>, <code class="language-plaintext highlighter-rouge">#即梦AI</code>, <code class="language-plaintext highlighter-rouge">#实测评测</code></p>
-
-<hr />
-
-<p><a id="item-ai-news-2"></a></p>
-<h3 id="qwen-27bflash-next-本地部署新进展unsloth-v31-量化配合-strata-引擎降低硬件门槛-️-7010"><a href="https://www.reddit.com/r/LocalLLaMA/comments/1xppbht/we_are_in_the_golden_age_of_local_llm/">Qwen 27B/Flash-Next 本地部署新进展：Unsloth v3.1 量化配合 Strata 引擎降低硬件门槛</a> ⭐️ 7.0/10</h3>
-
-<p>Reddit 用户 /u/Present_Resource4022 分享实测：使用 Unsloth Dynamic v3.1 量化（Iq2_XS）的 Qwen 27B 与 Flash-Next 模型，在 Strata 引擎自动调优下，可在 12GB VRAM + 32GB 系统内存上跑通 131k 上下文，prefill 约 1k token，decode 平均 50 token/s；最小量化版本甚至瞄准 8GB VRAM + 32GB RAM。帖子同时提到 Qwen 4 传闻将于本周发布，但属未经证实传言。内容为单一用户实测报告，非官方文档，且帖子被截断。</p>
-
-<p>reddit · r/LocalLLaMA · /u/Present_Resource4022 · 11月6日 21:54</p>
-
-<p><strong>「实用价值」</strong> 想在消费级显存（8-12GB VRAM）上跑 27B 级模型的开发者可直接尝试：下载 Unsloth 发布的 QFN 量化版 Qwen-27B/Flash-Next，配合 Strata 引擎的自动调优模式部署。第一步去 Hugging Face 搜索对应量化仓库，按 Strata 文档跑基准测试，确认是否满足自有业务的推理速度与上下文需求。</p>
-
-<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#local-llm</code>, <code class="language-plaintext highlighter-rouge">#quantization</code>, <code class="language-plaintext highlighter-rouge">#qwen</code>, <code class="language-plaintext highlighter-rouge">#unsloth</code>, <code class="language-plaintext highlighter-rouge">#strata-engine</code></p>
-
-<hr />
-
-<p><a id="item-ai-news-3"></a></p>
-<h3 id="libghostty-10-发布ghostty-终端库正式版-️-6010"><a href="https://mitchellh.com/writing/libghostty-1-0">Libghostty 1.0 发布：Ghostty 终端库正式版</a> ⭐️ 6.0/10</h3>
-
-<p>Libghostty 1.0 作为 Ghostty 终端模拟器的库版本正式发布，由 Mitchell Hashimoto 主导开发。Hacker News 讨论显示开发者已在 Android 应用、自定义终端及 Emacs 集成（Ghostel）中实际采用。但当前材料仅包含社区讨论，官方公告（mitchellh.com）中的安装说明、API 细节、语言绑定、许可证等关键技术信息未在本条目中提供。</p>
-
-<p>hackernews · mfiguiere · 11月6日 23:30 · <a href="https://news.ycombinator.com/item?id=50399933">社区讨论</a></p>
-
-<p><strong>「实用价值」</strong> 适合构建终端类应用、自定义终端或需嵌入终端模拟功能的开发者；首要步骤是阅读官方发布公告获取安装与 API 文档，再决定是否接入或对比现有方案。</p>
-
-<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#terminal</code>, <code class="language-plaintext highlighter-rouge">#library</code>, <code class="language-plaintext highlighter-rouge">#ghostty</code>, <code class="language-plaintext highlighter-rouge">#rust</code>, <code class="language-plaintext highlighter-rouge">#developer-tools</code></p>
-
-<hr />
-
-<p><a id="item-ai-news-4"></a></p>
-<h3 id="allenai-发布-toyblocks-机器人仿真环境-️-6010"><a href="https://huggingface.co/blog/allenai/toyblocks">AllenAI 发布 ToyBlocks 机器人仿真环境</a> ⭐️ 6.0/10</h3>
-
-<p>Hugging Face 博客发布 AllenAI 的 ToyBlocks，这是一个面向机器人学习与评估的受控仿真世界。博文宣布了该环境的推出，但未提供完整文章内容，无法确认是否已开源代码、数据集、安装文档或可直接使用的基准任务。</p>
-
-<p>rss · Hugging Face Blog · 11月6日 14:00</p>
-
-<p><strong>「意义」</strong> 关注机器人仿真基准的研究者可留意后续开源进展；若需立即可用的环境，建议先查阅博文全文或 AllenAI 官方仓库确认安装与使用细节。</p>
-
-<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#robot-learning</code>, <code class="language-plaintext highlighter-rouge">#simulation-environment</code>, <code class="language-plaintext highlighter-rouge">#benchmark</code>, <code class="language-plaintext highlighter-rouge">#allenai</code>, <code class="language-plaintext highlighter-rouge">#huggingface</code></p>
-
-<hr />
-
-<h2 id="x--youtube-热门">X / YouTube 热门</h2>
-
-<p><a id="item-social-hot-1"></a></p>
-<h3 id="7-个-github-隐私工具实测signalgrapheneostor-等-️-7010"><a href="https://www.youtube.com/watch?v=4yaj8LpEQoU">7 个 GitHub 隐私工具实测：Signal、GrapheneOS、Tor 等</a> ⭐️ 7.0/10</h3>
-
-<p>该视频由 Electronic Tech Show 发布，标题为《7 GitHub Repos the FBI Wishes It Could Ban (2026)》，时长约 11 分钟，播放量 15.6 万。根据视频描述，作者在实验室环境中测试了 7 个托管于 GitHub 的免费开源隐私工具，分别为 Signal、GrapheneOS、Tor Browser、VeraCrypt、OnionShare 与 Mullvad。标题采用夸张的「FBI 想禁」措辞，实际内容为对上述隐私工具的实测概览，面向关注隐私与安全的开发者。</p>
-
-<p>youtube · GitHub · 11月7日 02:46</p>
-
-<p><strong>「推荐理由」</strong> 视频在实验室环境下实测了 Signal、GrapheneOS、Tor Browser、VeraCrypt、OnionShare、Mullvad 等 7 款 GitHub 托管的开源隐私工具，时长 11 分钟、播放量 15.6 万，开发者可直接获得各工具的安装配置要点、优缺点对比及实战避坑经验。</p>
-
-<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#privacy-tools</code>, <code class="language-plaintext highlighter-rouge">#open-source</code>, <code class="language-plaintext highlighter-rouge">#github</code>, <code class="language-plaintext highlighter-rouge">#security</code>, <code class="language-plaintext highlighter-rouge">#testing</code></p>
-
-<hr />
-
-<p><a id="item-social-hot-2"></a></p>
-<h3 id="claude-code-免费用法月享-70-亿-token-并接入-testsprite-验证-️-7010"><a href="https://www.youtube.com/watch?v=exkQTYOm47c">Claude Code 免费用法：月享 70 亿 Token 并接入 TestSprite 验证</a> ⭐️ 7.0/10</h3>
-
-<p>该视频由 Eric Tech 发布，标题宣称可免费使用 Claude Code 并获得每月 70 亿 Token 额度，简介中推荐使用开源工具 TestSprite 验证 Agent 循环。根据标题与简介推断，视频大概率会演示如何申请或配置免费额度、在本地或云端运行 Claude Code CLI，并结合 TestSprite 做自动化测试与回归验证的完整流程。实际操作步骤、额度获取方式的真实性及可复现性需以视频实演为准。</p>
-
-<p>youtube · GitHub · 11月7日 02:46</p>
-
-<p><strong>「推荐理由」</strong> 该 15 分钟教程播放量达 23.1 万，演示如何零成本运行 Claude Code 并获得每月 70 亿 Token 额度，还完整展示了接入 TestSprite 做 Agent 循环验证的可复现配置步骤，适合想低门槛上手 CLI 编码代理的开发者直接照做。</p>
-
-<details><summary>参考链接</summary>
-<ul>
-<li><a href="https://www.youtube.com/watch?v=exkQTYOm47c">Claude Code for Free With 7 Billion Tokens a Month - YouTube</a></li>
-<li><a href="https://www.testsprite.com/">AI Testing Agent &amp; Automation Platform | TestSprite</a></li>
-
-</ul>
-</details>
-
-<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#Claude Code</code>, <code class="language-plaintext highlighter-rouge">#AI coding assistant</code>, <code class="language-plaintext highlighter-rouge">#free developer tools</code>, <code class="language-plaintext highlighter-rouge">#agent loop</code>, <code class="language-plaintext highlighter-rouge">#TestSprite</code></p>
 
 <hr />
  ]]></content>

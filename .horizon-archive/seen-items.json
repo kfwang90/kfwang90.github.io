@@ -50,11 +50,11 @@
    "title": "The Only GitHub Guide You’ll Ever Need"
   },
   "github:search:rudderlabs/devbox": {
-   "last_seen": "2026-11-06",
+   "last_seen": "2026-11-14",
    "title": "rudderlabs/devbox"
   },
   "github:search:can1357/oh-my-pi": {
-   "last_seen": "2026-11-06",
+   "last_seen": "2026-11-14",
    "title": "can1357/oh-my-pi"
   },
   "github:search:y5ez3g/facadecode": {
@@ -65,56 +65,8 @@
    "last_seen": "2026-11-09",
    "title": "microsoft/TokenEconomizer"
   },
-  "rss:huggingface.co_blog_feed.xml:f25b9201ad6bdcc6": {
-   "last_seen": "2026-11-06",
-   "title": "New NVIDIA Cosmos 3 Open Models for Interactive World Simulation"
-  },
-  "hackernews:story:50379704": {
-   "last_seen": "2026-11-06",
-   "title": "Alpine Linux Security Advisory: OpenSSH-server password authentication bypass"
-  },
-  "reddit:subreddit-rss:t3_1xozbe6": {
-   "last_seen": "2026-11-06",
-   "title": "CCORE GLB-3D-Coder dataset is here: 3,918 rendered and tested examples across 40 domains"
-  },
-  "reddit:subreddit-rss:t3_1xottw2": {
-   "last_seen": "2026-11-06",
-   "title": "Strata for all Qwen models from little to big"
-  },
-  "youtube:video:3GymExBkKjE": {
-   "last_seen": "2026-11-06",
-   "title": "Curso COMPLETO de GIT y GITHUB desde CERO para PRINCIPIANTES"
-  },
-  "hackernews:story:50383740": {
-   "last_seen": "2026-11-06",
-   "title": "Search for everyone"
-  },
-  "rss:the-decoder.com_feed_:b28da216c7603acf": {
-   "last_seen": "2026-11-06",
-   "title": "Google's Gemini Omni 1.2 Flash stretches AI video clips to 15 seconds and cuts pricing by 30 percent"
-  },
-  "reddit:subreddit-rss:t3_1xoq4vq": {
-   "last_seen": "2026-11-06",
-   "title": "DeepSeek-V4.1-Flash-1017 on one RTX 3090: Big updates to the Delta Inference Engine v0.93. Same 41 tok/s at 192GB/IQ2 at"
-  },
-  "github:trending:vercel-labs/agent-browser": {
-   "last_seen": "2026-11-06",
-   "title": "vercel-labs/agent-browser"
-  },
-  "hackernews:story:50378571": {
-   "last_seen": "2026-11-06",
-   "title": "Download your favourite YouTube videos"
-  },
-  "youtube:video:FopO8IQLX_E": {
-   "last_seen": "2026-11-06",
-   "title": "零基礎GitHub教學，小白也能看懂｜如何一鍵獲取資源，解鎖全球最大寶藏網站｜GitHub tutorial"
-  },
-  "github:trending:google/skills": {
-   "last_seen": "2026-11-06",
-   "title": "google/skills"
-  },
   "github:search:muaaz9329/cheap-ag": {
-   "last_seen": "2026-11-06",
+   "last_seen": "2026-11-14",
    "title": "muaaz9329/cheap-ag"
   },
   "github:trending:astral-sh/ruff": {
@@ -452,6 +404,50 @@
   "github:trending:ashhart/TensorFold": {
    "last_seen": "2026-11-13",
    "title": "ashhart/TensorFold"
+  },
+  "github:trending:alibaba/open-code-review": {
+   "last_seen": "2026-11-14",
+   "title": "alibaba/open-code-review"
+  },
+  "rss:huggingface.co_blog_feed.xml:6841e619fcd7e8d9": {
+   "last_seen": "2026-11-14",
+   "title": "llama.cpp v1.0.0 : A stronger foundation for the local AI ecosystem"
+  },
+  "reddit:subreddit-rss:t3_1xvbn2m": {
+   "last_seen": "2026-11-14",
+   "title": "Qwen3.5-9B running on a PS4’s GPU, offline, using its own MTP head for speculative decoding"
+  },
+  "github:trending:ChromeDevTools/chrome-devtools-mcp": {
+   "last_seen": "2026-11-14",
+   "title": "ChromeDevTools/chrome-devtools-mcp"
+  },
+  "github:search:n8n-io/n8n": {
+   "last_seen": "2026-11-14",
+   "title": "n8n-io/n8n"
+  },
+  "rss:huggingface.co_blog_feed.xml:cdc8eef67bc55a0d": {
+   "last_seen": "2026-11-14",
+   "title": "Build a Robot Pick-and-Place Simulation with SimReady Assets"
+  },
+  "youtube:video:h2a3Kw-I_Ec": {
+   "last_seen": "2026-11-14",
+   "title": "Learn Git & GitHub for Beginners | (2026) Tutorial"
+  },
+  "rss:simonwillison.net_atom_everything_:4cb58a6ed2a63999": {
+   "last_seen": "2026-11-14",
+   "title": "datasette-cluster-map 0.19"
+  },
+  "github:trending:backnotprop/plannotator": {
+   "last_seen": "2026-11-14",
+   "title": "backnotprop/plannotator"
+  },
+  "rss:simonwillison.net_atom_everything_:e1058067669e2b5f": {
+   "last_seen": "2026-11-14",
+   "title": "datasette-leaflet 0.3"
+  },
+  "github:trending:GoogleChrome/modern-web-guidance-src": {
+   "last_seen": "2026-11-14",
+   "title": "GoogleChrome/modern-web-guidance-src"
   }
  }
 }
